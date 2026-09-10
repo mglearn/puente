@@ -11,8 +11,12 @@
   body{margin:0;padding:0;background:var(--pale);color:var(--body);
        font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
   main{max-width:44rem;margin:0 auto;padding:clamp(2rem,8vw,6rem) 1.25rem}
-  .card{background:#fff;border-radius:18px;padding:clamp(1.5rem,5vw,3rem);
+  .card{background:#fff;border-radius:18px;overflow:hidden;
         box-shadow:0 2px 24px rgba(8,39,89,.09)}
+  .card>.pad{padding:clamp(1.5rem,5vw,3rem)}
+  .hero{display:block;width:100%;height:auto}
+  .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;
+           overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
   h1{margin:0 0 .25rem;font-size:clamp(2rem,7vw,3rem);color:var(--navy);line-height:1.1}
   .sub{margin:0 0 1.75rem;font-size:clamp(1rem,3vw,1.2rem);color:var(--teal);font-weight:600}
   .rule{height:5px;width:76px;border-radius:3px;margin:0 0 1.75rem;
@@ -30,12 +34,14 @@
 <body>
 <main>
   <div class="card">
-    <h1>Language Bridge</h1>
-    <p class="sub">Learn it. Connect it. Use it.</p>
-    <div class="rule"></div>
-    <p>Bilingual and ESL activities, printables, and language supports for real classrooms —
-       built for Texas K–12 educators and emergent bilingual students, and usable by any
-       multilingual classroom.</p>
+    <picture>
+      <source type="image/webp" srcset="assets/img/hero-960.webp 960w, assets/img/hero.webp 1916w"
+              sizes="(max-width: 44rem) 100vw, 44rem">
+      <img class="hero" src="assets/img/hero.jpg" width="1916" height="821" fetchpriority="high"
+           alt="Language Bridge — Learn it. Connect it. Use it. Bilingual and ESL activities, printables, and language supports for real classrooms, built for Texas K-12 educators and emergent bilingual students, and usable by any multilingual classroom. A teacher leans over a table of five students reading, writing, and sorting picture cards together.">
+    </picture>
+    <div class="pad">
+    <h1 class="sr-only">Language Bridge</h1>
     <p>No logins. No accounts. No student data collected. Works on a Chromebook,
        and works on paper when the technology does not.</p>
     <div class="note">
@@ -45,6 +51,7 @@
         <li>Academic Language Lab — say it, explain it, support it, use it</li>
         <li>Newcomer Navigator — understand school, ask for help, join in</li>
       </ul>
+    </div>
     </div>
   </div>
   <footer>A project of <a href="https://mglearn.github.io/">mglearn</a></footer>
