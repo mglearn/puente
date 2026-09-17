@@ -592,6 +592,198 @@
       "created": "2026-09-17",
       "updated": "2026-09-17",
       "status": "reviewed"
+    },
+    {
+      "id": "cog-science-3-5-003",
+      "module": "cognate-detective",
+      "title": {
+        "en": "Science Cognate Hunt",
+        "es": "Búsqueda de cognados de ciencias"
+      },
+
+      "grades": [5],
+      "gradeBand": "3-5",
+      "subjects": ["science", "elar"],
+      "duration": 10,
+
+      "interactionType": "sort",
+
+      "targetLanguage": "en",
+      "supportedHomeLanguages": ["es"],
+      "languagePair": "en-es",
+
+      "studentGoal": {
+        "en": "Sort science words by their relationship to a Spanish look-alike: true cognate, false friend, or no look-alike — so cognates become a reading tool in science.",
+        "es": "Clasifica palabras de ciencias según su relación con una palabra parecida en español: cognado verdadero, falso amigo o sin palabra parecida, para que los cognados sean una herramienta de lectura en ciencias."
+      },
+      "studentDirections": {
+        "en": "Science is full of true cognates — but watch for false friends. For each word, decide: does a Spanish look-alike mean the SAME thing, a DIFFERENT thing, or is there no look-alike? Place each word, then select Check.",
+        "es": "Las ciencias están llenas de cognados verdaderos, pero cuidado con los falsos amigos. Para cada palabra, decide: ¿una palabra parecida en español significa LO MISMO, algo DIFERENTE, o no hay palabra parecida? Coloca cada palabra y selecciona Revisar."
+      },
+      "teacherDirections": {
+        "en": "Use before a science reading. Turn on More support to reveal the Spanish look-alike. Emphasize that science vocabulary is rich in true cognates (a real advantage for Spanish speakers), and that a few false friends — like billion/billón — can change a whole measurement.",
+        "es": "Úsalo antes de una lectura de ciencias. Activa Más apoyo para revelar la palabra parecida en español. Resalta que el vocabulario de ciencias tiene muchos cognados verdaderos (una ventaja real) y que algunos falsos amigos —como billion/billón— pueden cambiar toda una medición."
+      },
+      "languageFunction": {
+        "en": "Classifying science vocabulary; analyzing cross-language word relationships.",
+        "es": "Clasificar vocabulario de ciencias; analizar relaciones entre palabras de distintos idiomas."
+      },
+
+      "materials": [],
+
+      "categories": [
+        { "id": "true",  "label": { "en": "True cognate", "es": "Cognado verdadero" }, "hint": { "en": "Looks alike AND means the same.", "es": "Se parece Y significa lo mismo." } },
+        { "id": "false", "label": { "en": "False friend", "es": "Falso amigo" }, "hint": { "en": "Looks alike BUT means something different.", "es": "Se parece PERO significa algo diferente." } },
+        { "id": "none",  "label": { "en": "No look-alike", "es": "Sin palabra parecida" }, "hint": { "en": "No Spanish word looks like this one.", "es": "Ninguna palabra en español se le parece." } }
+      ],
+
+      "items": [
+        {
+          "id": "e1", "targetWord": "energy", "answer": "true",
+          "prompt": { "en": "energy", "es": "energy" },
+          "support": {
+            "high": { "en": "Spanish look-alike: “energía” = energy. Same meaning.", "es": "Palabra parecida: “energía” = energy. Mismo significado." }
+          },
+          "feedback": { "true": { "correct": true,
+            "why": { "en": "“Energy” and “energía” mean the same thing. Science is full of true cognates like this — use them when you read.", "es": "“Energy” y “energía” significan lo mismo. Las ciencias tienen muchos cognados verdaderos como este: úsalos al leer." } } }
+        },
+        {
+          "id": "e2", "targetWord": "planet", "answer": "true",
+          "prompt": { "en": "planet", "es": "planet" },
+          "support": {
+            "high": { "en": "Spanish look-alike: “planeta” = planet. Same meaning.", "es": "Palabra parecida: “planeta” = planet. Mismo significado." }
+          },
+          "feedback": { "true": { "correct": true,
+            "why": { "en": "“Planet” and “planeta” match in spelling and meaning — a true cognate.", "es": "“Planet” y “planeta” coinciden en escritura y significado: un cognado verdadero." } } }
+        },
+        {
+          "id": "e3", "targetWord": "insect", "answer": "true",
+          "prompt": { "en": "insect", "es": "insect" },
+          "support": {
+            "high": { "en": "Spanish look-alike: “insecto” = insect. Same meaning.", "es": "Palabra parecida: “insecto” = insect. Mismo significado." }
+          },
+          "feedback": { "true": { "correct": true,
+            "why": { "en": "“Insect” and “insecto” are true cognates — same idea, almost the same spelling.", "es": "“Insect” e “insecto” son cognados verdaderos: la misma idea y casi la misma escritura." } } }
+        },
+        {
+          "id": "e4", "targetWord": "large", "answer": "false",
+          "prompt": { "en": "large", "es": "large" },
+          "support": {
+            "high": { "en": "Careful: “largo” means “long,” not large. Large is “grande.”", "es": "Cuidado: “largo” significa “long,” no large. Large es “grande.”" },
+            "medium": { "en": "“Largo” describes length, not size.", "es": "“Largo” describe la longitud, no el tamaño." }
+          },
+          "feedback": { "false": { "correct": true,
+            "why": { "en": "“Large” looks like “largo,” but “largo” means “long.” Large is “grande.” A false friend that could change a measurement.", "es": "“Large” se parece a “largo,” pero “largo” significa “long.” Large es “grande.” Un falso amigo que podría cambiar una medición." } } }
+        },
+        {
+          "id": "e5", "targetWord": "assist", "answer": "false",
+          "prompt": { "en": "assist", "es": "assist" },
+          "support": {
+            "high": { "en": "Careful: “asistir” usually means “to attend,” not to assist. To assist is “ayudar.”", "es": "Cuidado: “asistir” suele significar “to attend,” no assist. To assist es “ayudar.”" },
+            "medium": { "en": "In Spanish, you “asistir” a class — you attend it.", "es": "En español, “asistes” a una clase: la atiendes." }
+          },
+          "feedback": { "false": { "correct": true,
+            "why": { "en": "“Assist” means to help, but Spanish “asistir” usually means “to attend.” To help is “ayudar.” A false friend.", "es": "“Assist” significa ayudar, pero “asistir” suele significar “to attend.” Ayudar es “ayudar.” Un falso amigo." } } }
+        },
+        {
+          "id": "e6", "targetWord": "billion", "answer": "false",
+          "prompt": { "en": "billion", "es": "billion" },
+          "support": {
+            "high": { "en": "Careful: Spanish “billón” = a million millions (a trillion), not an English billion (a thousand millions).", "es": "Cuidado: “billón” en español = un millón de millones (a trillion), no un billion en inglés (mil millones)." },
+            "medium": { "en": "The numbers do not match — check how big each one is.", "es": "Los números no coinciden: revisa qué tan grande es cada uno." }
+          },
+          "feedback": { "false": { "correct": true,
+            "why": { "en": "“Billion” and “billón” look identical but mean different amounts: an English billion is 1,000 millions; a Spanish “billón” is a million millions. In science, that difference matters — a false friend.", "es": "“Billion” y “billón” se ven iguales pero son cantidades distintas: un billion en inglés es mil millones; un “billón” en español es un millón de millones. En ciencias, esa diferencia importa: un falso amigo." } } }
+        },
+        {
+          "id": "e7", "targetWord": "seed", "answer": "none",
+          "prompt": { "en": "seed", "es": "seed" },
+          "support": {
+            "high": { "en": "The Spanish word is “semilla” — it looks nothing like “seed.” No look-alike.", "es": "La palabra en español es “semilla”: no se parece a “seed.” Sin palabra parecida." }
+          },
+          "feedback": { "none": { "correct": true,
+            "why": { "en": "“Seed” is “semilla” in Spanish — no look-alike. Cognates help a lot in science, but not with every word.", "es": "“Seed” es “semilla” en español: sin palabra parecida. Los cognados ayudan mucho en ciencias, pero no con todas las palabras." } } }
+        },
+        {
+          "id": "e8", "targetWord": "leaf", "answer": "none",
+          "prompt": { "en": "leaf", "es": "leaf" },
+          "support": {
+            "high": { "en": "The Spanish word is “hoja” — no look-alike.", "es": "La palabra en español es “hoja”: sin palabra parecida." }
+          },
+          "feedback": { "none": { "correct": true,
+            "why": { "en": "“Leaf” is “hoja” in Spanish — nothing alike. No look-alike.", "es": "“Leaf” es “hoja” en español: nada parecido. Sin palabra parecida." } } }
+        },
+        {
+          "id": "e9", "targetWord": "weight", "answer": "none",
+          "prompt": { "en": "weight", "es": "weight" },
+          "support": {
+            "high": { "en": "The Spanish word is “peso” — no look-alike.", "es": "La palabra en español es “peso”: sin palabra parecida." }
+          },
+          "feedback": { "none": { "correct": true,
+            "why": { "en": "“Weight” is “peso” in Spanish — no look-alike to use here.", "es": "“Weight” es “peso” en español: no hay palabra parecida para usar aquí." } } }
+        }
+      ],
+
+      "ace": { "articulate": true, "connect": true, "extend": true },
+
+      "clear": { "enabled": false, "emphasis": [] },
+
+      "udl": [
+        "representation.language-support",
+        "action-expression.multiple-response-modes",
+        "engagement.relevance"
+      ],
+
+      "strategies": [
+        "vocabulary-programs",
+        "corrective-feedback",
+        "classification"
+      ],
+
+      "standards": {
+        "elps": [
+          {
+            "code": "§120.21(d)(3)(C)",
+            "alignment": "direct",
+            "grades": [5],
+            "rationale": "Students use cognates to comprehend content-area (science) vocabulary."
+          },
+          {
+            "code": "§120.21(d)(3)(B)",
+            "alignment": "supporting",
+            "grades": [5],
+            "rationale": "Students identify cognates as they analyze each science word."
+          }
+        ],
+        "teks": [
+          {
+            "code": "§110.7(b)(3)(C)",
+            "alignment": "supporting",
+            "grades": [5],
+            "rationale": "Cognate recognition draws on shared roots in science vocabulary."
+          }
+        ],
+        "slar": [
+          {
+            "code": "§128.7(b)(3)(E)",
+            "alignment": "direct",
+            "grades": [5],
+            "rationale": "Distinguishing true cognates from false friends is differentiating commonly confused cross-language terms."
+          },
+          {
+            "code": "§128.7(b)(3)(C)",
+            "alignment": "supporting",
+            "grades": [5],
+            "rationale": "Science cognates share Greek and Latin roots across Spanish and English."
+          }
+        ]
+      },
+
+      "printables": ["cog-science-3-5-003-student", "cog-science-3-5-003-answer-key"],
+
+      "created": "2026-09-17",
+      "updated": "2026-09-17",
+      "status": "reviewed"
     }
   ]
 }

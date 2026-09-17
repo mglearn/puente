@@ -243,6 +243,203 @@
       "created": "2026-09-17",
       "updated": "2026-09-17",
       "status": "reviewed"
+    },
+    {
+      "id": "nav-question-3-5-002",
+      "module": "newcomer-navigator",
+      "title": {
+        "en": "Build the Question",
+        "es": "Construye la pregunta"
+      },
+
+      "grades": [4, 5],
+      "gradeBand": "3-5",
+      "subjects": ["elar"],
+      "duration": 8,
+
+      "interactionType": "scenario-choice",
+
+      "targetLanguage": "en",
+      "supportedHomeLanguages": ["es"],
+      "languagePair": "en-es",
+
+      "studentGoal": {
+        "en": "Choose a clear, correct English question to ask for what you need at school.",
+        "es": "Elige una pregunta en inglés clara y correcta para pedir lo que necesitas en la escuela."
+      },
+      "studentDirections": {
+        "en": "In each situation you need to ask a question. Choose the question that is correct and polite in English. Choose, then select Check. Say it out loud when you can.",
+        "es": "En cada situación necesitas hacer una pregunta. Elige la pregunta que es correcta y cortés en inglés. Elige y luego selecciona Revisar. Dila en voz alta cuando puedas."
+      },
+      "teacherDirections": {
+        "en": "Focus on English question word order (question word + do/does or verb + subject). Turn on More support for bilingual frames. Have students ask the correct question aloud and role-play the reply. English question formation is hard for many newcomers, and these are the questions they need daily.",
+        "es": "Enfócate en el orden de las preguntas en inglés (palabra de pregunta + do/does o verbo + sujeto). Activa Más apoyo para ver marcos bilingües. Pide a los estudiantes que hagan la pregunta correcta en voz alta y representen la respuesta."
+      },
+      "languageFunction": {
+        "en": "Forming clear, polite English questions to request information and help.",
+        "es": "Formar preguntas claras y corteses en inglés para pedir información y ayuda."
+      },
+
+      "materials": [],
+
+      "items": [
+        {
+          "id": "q1",
+          "context": {
+            "en": "You did not hear which page the homework is on. You want to ask your teacher.",
+            "es": "No escuchaste en qué página está la tarea. Quieres preguntarle a tu maestra."
+          },
+          "prompt": { "en": "Which question is correct and clear?", "es": "¿Qué pregunta es correcta y clara?" },
+          "support": {
+            "high": { "en": "Frame: \"What page is the ___ on?\" / \"¿En qué página está ___?\"", "es": "Marco: \"What page is the ___ on?\" = \"¿En qué página está ___?\"" },
+            "medium": { "en": "English questions often start with a question word: What, Where, Which.", "es": "Las preguntas en inglés suelen empezar con una palabra de pregunta: What, Where, Which." }
+          },
+          "choices": [
+            { "id": "a", "label": { "en": "\"What page is the homework on?\"", "es": "\"What page is the homework on?\"" } },
+            { "id": "b", "label": { "en": "\"What page homework?\"", "es": "\"What page homework?\"" } },
+            { "id": "c", "label": { "en": "\"Homework page what?\"", "es": "\"Homework page what?\"" } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": { "correct": true,
+              "why": { "en": "Correct and clear. It uses a question word and a full sentence: \"What page is the homework on?\"", "es": "Correcta y clara. Usa una palabra de pregunta y una oración completa: \"What page is the homework on?\"" } },
+            "b": { "correct": false,
+              "why": { "en": "People might understand, but it's missing words. A full question is clearer: \"What page is the homework on?\"", "es": "Te podrían entender, pero faltan palabras. Una pregunta completa es más clara: \"What page is the homework on?\"" },
+              "hint": { "en": "Start with \"What page is...?\"", "es": "Empieza con \"What page is...?\"" } },
+            "c": { "correct": false,
+              "why": { "en": "The word order is mixed up. In English the question word usually comes first: \"What page...?\"", "es": "El orden de las palabras está mezclado. En inglés la palabra de pregunta suele ir primero: \"What page...?\"" } }
+          }
+        },
+        {
+          "id": "q2",
+          "context": {
+            "en": "You are new and cannot find the library.",
+            "es": "Eres nuevo y no encuentras la biblioteca."
+          },
+          "prompt": { "en": "Which question is correct and polite?", "es": "¿Qué pregunta es correcta y cortés?" },
+          "support": {
+            "high": { "en": "Frame: \"Excuse me, where is the ___?\" / \"Disculpe, ¿dónde está ___?\"", "es": "Marco: \"Excuse me, where is the ___?\" = \"Disculpe, ¿dónde está ___?\"" },
+            "medium": { "en": "Use \"Where is...?\" and start politely.", "es": "Usa \"Where is...?\" y empieza con cortesía." }
+          },
+          "choices": [
+            { "id": "a", "label": { "en": "\"Excuse me, where is the library?\"", "es": "\"Excuse me, where is the library?\"" } },
+            { "id": "b", "label": { "en": "\"Where library?\"", "es": "\"Where library?\"" } },
+            { "id": "c", "label": { "en": "\"Library is where?\"", "es": "\"Library is where?\"" } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": { "correct": true,
+              "why": { "en": "Polite and correct. \"Where is the library?\" uses the right order, and \"Excuse me\" is friendly.", "es": "Cortés y correcta. \"Where is the library?\" usa el orden correcto, y \"Excuse me\" es amable." } },
+            "b": { "correct": false,
+              "why": { "en": "This is missing words. Ask a full question: \"Where is the library?\"", "es": "Faltan palabras. Haz una pregunta completa: \"Where is the library?\"" },
+              "hint": { "en": "Use \"Where is the ___?\"", "es": "Usa \"Where is the ___?\"" } },
+            "c": { "correct": false,
+              "why": { "en": "The order is reversed. Put the question word first: \"Where is the library?\"", "es": "El orden está al revés. Pon la palabra de pregunta primero: \"Where is the library?\"" } }
+          }
+        },
+        {
+          "id": "q3",
+          "context": {
+            "en": "You are reading and you do not know a word.",
+            "es": "Estás leyendo y no conoces una palabra."
+          },
+          "prompt": { "en": "Which question is correct?", "es": "¿Qué pregunta es correcta?" },
+          "support": {
+            "high": { "en": "Frame: \"What does this word mean?\" / \"¿Qué significa esta palabra?\"", "es": "Marco: \"What does this word mean?\" = \"¿Qué significa esta palabra?\"" },
+            "medium": { "en": "English uses \"does\" in this question: \"What does ___ mean?\"", "es": "El inglés usa \"does\" en esta pregunta: \"What does ___ mean?\"" }
+          },
+          "choices": [
+            { "id": "a", "label": { "en": "\"What does this word mean?\"", "es": "\"What does this word mean?\"" } },
+            { "id": "b", "label": { "en": "\"This word mean what?\"", "es": "\"This word mean what?\"" } },
+            { "id": "c", "label": { "en": "\"What mean this word?\"", "es": "\"What mean this word?\"" } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": { "correct": true,
+              "why": { "en": "Correct. English adds \"does\" here: \"What does this word mean?\"", "es": "Correcta. El inglés agrega \"does\" aquí: \"What does this word mean?\"" } },
+            "b": { "correct": false,
+              "why": { "en": "The question word goes first, and English needs \"does\": \"What does this word mean?\"", "es": "La palabra de pregunta va primero, y el inglés necesita \"does\": \"What does this word mean?\"" },
+              "hint": { "en": "Start with \"What does...\"", "es": "Empieza con \"What does...\"" } },
+            "c": { "correct": false,
+              "why": { "en": "It needs \"does\" before \"this word\": \"What does this word mean?\"", "es": "Necesita \"does\" antes de \"this word\": \"What does this word mean?\"" } }
+          }
+        },
+        {
+          "id": "q4",
+          "context": {
+            "en": "You forgot your pencil. You want to borrow one from a classmate.",
+            "es": "Olvidaste tu lápiz. Quieres pedir uno prestado a un compañero."
+          },
+          "prompt": { "en": "Which question is correct and polite?", "es": "¿Qué pregunta es correcta y cortés?" },
+          "support": {
+            "high": { "en": "Frame: \"Can I borrow a ___, please?\" / \"¿Me prestas ___, por favor?\"", "es": "Marco: \"Can I borrow a ___, please?\" = \"¿Me prestas ___, por favor?\"" },
+            "medium": { "en": "Ask permission with \"Can I...?\" and add \"please.\"", "es": "Pide permiso con \"Can I...?\" y agrega \"please.\"" }
+          },
+          "choices": [
+            { "id": "a", "label": { "en": "\"Can I borrow a pencil, please?\"", "es": "\"Can I borrow a pencil, please?\"" } },
+            { "id": "b", "label": { "en": "\"I borrow pencil?\"", "es": "\"I borrow pencil?\"" } },
+            { "id": "c", "label": { "en": "\"Pencil, give me?\"", "es": "\"Pencil, give me?\"" } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": { "correct": true,
+              "why": { "en": "Polite and correct. \"Can I borrow a pencil, please?\" asks permission the right way.", "es": "Cortés y correcta. \"Can I borrow a pencil, please?\" pide permiso de la manera correcta." } },
+            "b": { "correct": false,
+              "why": { "en": "Ask permission with \"Can I...?\" and add \"please\": \"Can I borrow a pencil, please?\"", "es": "Pide permiso con \"Can I...?\" y agrega \"please\": \"Can I borrow a pencil, please?\"" },
+              "hint": { "en": "Start with \"Can I borrow...?\"", "es": "Empieza con \"Can I borrow...?\"" } },
+            "c": { "correct": false,
+              "why": { "en": "This sounds like a command. A polite request is \"Can I borrow a pencil, please?\"", "es": "Esto suena como una orden. Una petición cortés es \"Can I borrow a pencil, please?\"" } }
+          }
+        }
+      ],
+
+      "ace": { "articulate": true, "connect": true, "extend": true },
+
+      "clear": { "enabled": false, "emphasis": [] },
+
+      "udl": [
+        "representation.language-support",
+        "action-expression.multiple-response-modes",
+        "engagement.relevance"
+      ],
+
+      "strategies": [
+        "sentence-frames",
+        "role-play",
+        "corrective-feedback"
+      ],
+
+      "standards": {
+        "elps": [
+          {
+            "code": "§120.21(d)(2)(F)",
+            "alignment": "direct",
+            "grades": [4, 5],
+            "rationale": "Students ask questions during school interactions to get the information they need."
+          },
+          {
+            "code": "§120.21(d)(2)(D)",
+            "alignment": "supporting",
+            "grades": [4, 5],
+            "rationale": "Students choose a polite register when asking for help."
+          }
+        ],
+        "teks": [
+          {
+            "code": "§110.7(b)(1)(A)",
+            "alignment": "direct",
+            "grades": [4, 5],
+            "rationale": "Students ask relevant, well-formed questions to participate in school interactions."
+          }
+        ],
+        "slar": []
+      },
+
+      "printables": ["nav-question-3-5-002-student", "nav-question-3-5-002-answer-key"],
+
+      "created": "2026-09-17",
+      "updated": "2026-09-17",
+      "status": "reviewed"
     }
   ]
 }

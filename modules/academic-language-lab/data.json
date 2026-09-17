@@ -275,6 +275,187 @@
       "created": "2026-09-17",
       "updated": "2026-09-17",
       "status": "reviewed"
+    },
+    {
+      "id": "all-say-3-5-002",
+      "module": "academic-language-lab",
+      "title": {
+        "en": "Say It Three Ways",
+        "es": "Dilo de tres maneras"
+      },
+
+      "grades": [5],
+      "gradeBand": "3-5",
+      "subjects": ["science", "elar"],
+      "duration": 8,
+
+      "interactionType": "multiple-choice",
+
+      "targetLanguage": "en",
+      "supportedHomeLanguages": ["es"],
+      "languagePair": "en-es",
+
+      "studentGoal": {
+        "en": "Recognize academic register — the precise, formal way to say a science idea — and tell it apart from everyday phrasing.",
+        "es": "Reconoce el registro académico —la manera precisa y formal de expresar una idea de ciencias— y distínguelo del lenguaje cotidiano."
+      },
+      "studentDirections": {
+        "en": "Each idea is written three ways. Choose the sentence that uses the most academic language — precise words and a complete, formal sentence. Choose, then select Check.",
+        "es": "Cada idea está escrita de tres maneras. Elige la oración que usa el lenguaje más académico: palabras precisas y una oración completa y formal. Elige y luego selecciona Revisar."
+      },
+      "teacherDirections": {
+        "en": "Project each idea. After students pick the academic version, ask them to say why it is stronger (a precise verb, a full sentence, no slang). For the ACE close, have students rewrite an everyday sentence in academic register. This builds the register awareness the ELPS name directly.",
+        "es": "Proyecta cada idea. Después de que elijan la versión académica, pídeles que expliquen por qué es más fuerte (un verbo preciso, una oración completa, sin jerga). En el cierre ACE, pide que reescriban una oración cotidiana en registro académico."
+      },
+      "languageFunction": {
+        "en": "Choosing academic register and precise vocabulary to describe, compare, and explain.",
+        "es": "Elegir el registro académico y vocabulario preciso para describir, comparar y explicar."
+      },
+
+      "materials": [],
+
+      "items": [
+        {
+          "id": "r1",
+          "prompt": { "en": "Which sentence uses the most academic language?", "es": "¿Qué oración usa el lenguaje más académico?" },
+          "support": {
+            "high": { "en": "Academic English uses precise verbs (increased) and complete sentences. / El inglés académico usa verbos precisos (increased) y oraciones completas.", "es": "El inglés académico usa verbos precisos (increased) y oraciones completas." },
+            "medium": { "en": "Look for a precise verb and a full, formal sentence.", "es": "Busca un verbo preciso y una oración completa y formal." }
+          },
+          "choices": [
+            { "id": "a", "label": { "en": "During the experiment, the temperature increased steadily.", "es": "Durante el experimento, la temperatura aumentó de manera constante." } },
+            { "id": "b", "label": { "en": "The temp went up and up.", "es": "La \"temp\" subía y subía." } },
+            { "id": "c", "label": { "en": "It got hotter and hotter.", "es": "Se puso cada vez más caliente." } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": { "correct": true,
+              "why": { "en": "Most academic. It uses a precise verb (\"increased\"), an adverb (\"steadily\"), and a complete sentence — the register of a science report.", "es": "El más académico. Usa un verbo preciso (\"increased\"), un adverbio (\"steadily\") y una oración completa: el registro de un informe de ciencias." } },
+            "b": { "correct": false,
+              "why": { "en": "Too casual. \"Temp\" is slang and \"went up and up\" is vague. Use \"temperature increased.\"", "es": "Demasiado informal. \"Temp\" es jerga y \"went up and up\" es vago. Usa \"temperature increased.\"" },
+              "hint": { "en": "Which sentence would fit in a science report?", "es": "¿Qué oración encajaría en un informe de ciencias?" } },
+            "c": { "correct": false,
+              "why": { "en": "Everyday phrasing. It's true, but \"got hotter and hotter\" isn't the precise academic register.", "es": "Lenguaje cotidiano. Es cierto, pero \"got hotter and hotter\" no es el registro académico preciso." } }
+          }
+        },
+        {
+          "id": "r2",
+          "prompt": { "en": "Which sentence uses the most academic language?", "es": "¿Qué oración usa el lenguaje más académico?" },
+          "support": {
+            "high": { "en": "Academic English names the exact quality being compared (mass, density). / El inglés académico nombra la cualidad exacta que se compara (masa, densidad).", "es": "El inglés académico nombra la cualidad exacta que se compara (masa, densidad)." },
+            "medium": { "en": "Which one names exactly how the samples are different?", "es": "¿Cuál nombra exactamente en qué se diferencian las muestras?" }
+          },
+          "choices": [
+            { "id": "a", "label": { "en": "The two samples differ in mass.", "es": "Las dos muestras difieren en masa." } },
+            { "id": "b", "label": { "en": "The samples aren't really the same.", "es": "Las muestras no son realmente iguales." } },
+            { "id": "c", "label": { "en": "One is way heavier than the other one.", "es": "Una es mucho más pesada que la otra." } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": { "correct": true,
+              "why": { "en": "Most academic. \"Differ in mass\" names the exact quality and uses a precise verb — clear and formal.", "es": "El más académico. \"Differ in mass\" nombra la cualidad exacta y usa un verbo preciso: claro y formal." } },
+            "b": { "correct": false,
+              "why": { "en": "Vague. \"Aren't really the same\" doesn't say how. Name the quality: mass.", "es": "Vago. \"Aren't really the same\" no dice cómo. Nombra la cualidad: mass." },
+              "hint": { "en": "Say exactly what is different.", "es": "Di exactamente qué es diferente." } },
+            "c": { "correct": false,
+              "why": { "en": "Casual. \"Way heavier\" is everyday speech; academic writing names the measured quality (mass).", "es": "Informal. \"Way heavier\" es habla cotidiana; la escritura académica nombra la cualidad medida (mass)." } }
+          }
+        },
+        {
+          "id": "r3",
+          "prompt": { "en": "Which sentence uses the most academic language?", "es": "¿Qué oración usa el lenguaje más académico?" },
+          "support": {
+            "high": { "en": "Academic English states cause with \"because\" and precise terms. / El inglés académico expresa la causa con \"because\" y términos precisos.", "es": "El inglés académico expresa la causa con \"because\" y términos precisos." },
+            "medium": { "en": "Which one explains the cause clearly and formally?", "es": "¿Cuál explica la causa de manera clara y formal?" }
+          },
+          "choices": [
+            { "id": "a", "label": { "en": "The ice melted because the temperature rose above freezing.", "es": "El hielo se derritió porque la temperatura subió por encima del punto de congelación." } },
+            { "id": "b", "label": { "en": "The ice melted 'cause it got warm.", "es": "El hielo se derritió \"'cause\" se calentó." } },
+            { "id": "c", "label": { "en": "It got warm so bye-bye ice.", "es": "Se calentó, así que adiós hielo." } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": { "correct": true,
+              "why": { "en": "Most academic. It states the cause with \"because\" and the precise idea \"rose above freezing.\"", "es": "El más académico. Expresa la causa con \"because\" y la idea precisa \"rose above freezing.\"" } },
+            "b": { "correct": false,
+              "why": { "en": "\"'Cause\" is slang for \"because.\" Use the full word and a precise reason.", "es": "\"'Cause\" es jerga de \"because.\" Usa la palabra completa y una razón precisa." },
+              "hint": { "en": "Use \"because\" and a precise temperature idea.", "es": "Usa \"because\" y una idea precisa de temperatura." } },
+            "c": { "correct": false,
+              "why": { "en": "Playful, not academic. \"Bye-bye ice\" would not appear in a science explanation.", "es": "Juguetón, no académico. \"Bye-bye ice\" no aparecería en una explicación de ciencias." } }
+          }
+        },
+        {
+          "id": "r4",
+          "prompt": { "en": "Which sentence uses the most academic language?", "es": "¿Qué oración usa el lenguaje más académico?" },
+          "support": {
+            "high": { "en": "Academic English reports results with confident, precise phrasing (\"The results indicate\"). / El inglés académico reporta resultados con frases precisas y seguras.", "es": "El inglés académico reporta resultados con frases precisas y seguras." },
+            "medium": { "en": "Which one reports the result clearly, without hedging or shortcuts?", "es": "¿Cuál reporta el resultado con claridad, sin dudar ni usar atajos?" }
+          },
+          "choices": [
+            { "id": "a", "label": { "en": "The results indicate that the plants near the window grew taller.", "es": "Los resultados indican que las plantas cerca de la ventana crecieron más." } },
+            { "id": "b", "label": { "en": "The window plants got taller, I guess.", "es": "Las plantas de la ventana crecieron más, creo." } },
+            { "id": "c", "label": { "en": "Plants by the window = taller.", "es": "Plantas junto a la ventana = más altas." } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": { "correct": true,
+              "why": { "en": "Most academic. \"The results indicate that...\" reports a finding clearly and formally in a complete sentence.", "es": "El más académico. \"The results indicate that...\" reporta un hallazgo de manera clara y formal en una oración completa." } },
+            "b": { "correct": false,
+              "why": { "en": "\"I guess\" hedges the finding. Report results with confidence: \"The results indicate...\"", "es": "\"I guess\" resta seguridad al hallazgo. Reporta los resultados con seguridad: \"The results indicate...\"" },
+              "hint": { "en": "Report the result without \"I guess.\"", "es": "Reporta el resultado sin \"I guess.\"" } },
+            "c": { "correct": false,
+              "why": { "en": "A fragment with an equals sign is a note, not academic writing. Use a full sentence.", "es": "Un fragmento con un signo de igual es una nota, no escritura académica. Usa una oración completa." } }
+          }
+        }
+      ],
+
+      "ace": { "articulate": true, "connect": true, "extend": true },
+
+      "clear": { "enabled": false, "emphasis": [] },
+
+      "udl": [
+        "representation.language-support",
+        "action-expression.multiple-response-modes",
+        "engagement.relevance"
+      ],
+
+      "strategies": [
+        "sentence-frames",
+        "vocabulary-programs",
+        "corrective-feedback"
+      ],
+
+      "standards": {
+        "elps": [
+          {
+            "code": "§120.21(d)(2)(D)",
+            "alignment": "direct",
+            "grades": [5],
+            "rationale": "Students choose an appropriate academic register to convey a science idea."
+          },
+          {
+            "code": "§120.21(d)(2)(B)",
+            "alignment": "supporting",
+            "grades": [5],
+            "rationale": "Choosing the academic version requires content-area vocabulary."
+          }
+        ],
+        "teks": [
+          {
+            "code": "§110.7(b)(1)(C)",
+            "alignment": "supporting",
+            "grades": [5],
+            "rationale": "Recognizing conventional, organized academic phrasing supports effective communication."
+          }
+        ],
+        "slar": []
+      },
+
+      "printables": ["all-say-3-5-002-student", "all-say-3-5-002-answer-key"],
+
+      "created": "2026-09-17",
+      "updated": "2026-09-17",
+      "status": "reviewed"
     }
   ]
 }
