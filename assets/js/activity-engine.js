@@ -12,6 +12,19 @@
   }
   function pick(o) { return I18n.pick(o, I18n.uiLang); }
 
+  // Optional artwork registry (data/image-manifest.json). An asset renders only
+  // when present AND status === "available", so planned art stays dormant — no
+  // broken images on the live site. LB_BASE-relative path is prepended.
+  var MANIFEST = null, MANIFEST_BASE = "";
+  function supportImage(key) {
+    if (!key || !MANIFEST || !MANIFEST.assets) return "";
+    var a = MANIFEST.assets[key];
+    if (!a || a.status !== (MANIFEST._meta && MANIFEST._meta.renderGate || "available")) return "";
+    var base = MANIFEST_BASE + ((MANIFEST._meta && MANIFEST._meta.base) || "assets/img/");
+    return '<img class="support-img" src="' + esc(base + a.file) + '" alt="' + esc(a.alt || "") + '" ' +
+      'loading="lazy" onerror="this.remove()">';
+  }
+
   function Engine(container, activity) {
     this.root = container;
     this.activity = activity;
@@ -44,6 +57,7 @@
     // but we only build the notes that this level should ever show.
     var supportHtml = "";
     if (item.support) {
+      if (support === "high" && item.support.image) supportHtml += supportImage(item.support.image);
       if (support === "high" && item.support.high) {
         supportHtml += '<div class="support-note high"><span class="home-lang">▸</span> ' +
           esc(pick(item.support.high)) + '</div>';
@@ -53,25 +67,26 @@
       }
     }
 
+    var tLang = esc(this.activity.targetLanguage);
     var contextHtml = item.context
-      ? '<p class="prompt"><span class="target" data-lang="' + esc(this.activity.targetLanguage) + '">' +
+      ? '<p class="prompt"><span class="target" lang="' + tLang + '" data-lang="' + tLang + '">' +
           esc(pick(item.context)) + '</span></p>'
       : "";
 
     var choicesHtml = item.choices.map(function (c) {
-      return '<button class="choice" type="button" role="radio" aria-checked="false" ' +
+      return '<button class="choice" type="button" aria-pressed="false" ' +
         'data-choice="' + esc(c.id) + '">' + esc(pick(c.label)) + '</button>';
     }).join("");
 
     this.root.innerHTML =
       '<div class="activity-head">' +
-        '<p class="progress">' + esc(I18n.t("activity.item_of", { n: this.i + 1, total: total })) + '</p>' +
+        '<p class="progress" aria-live="polite">' + esc(I18n.t("activity.item_of", { n: this.i + 1, total: total })) + '</p>' +
         contextHtml +
         '<p class="prompt">' + esc(pick(item.prompt)) + '</p>' +
       '</div>' +
       (supportHtml ? '<div class="support">' + supportHtml + '</div>' : "") +
-      '<div class="choices" role="radiogroup" aria-label="' + esc(pick(item.prompt)) + '">' + choicesHtml + '</div>' +
-      '<div class="feedback" data-show="false"></div>' +
+      '<div class="choices" role="group" aria-label="' + esc(pick(item.prompt)) + '">' + choicesHtml + '</div>' +
+      '<div class="feedback" data-show="false" aria-live="polite"></div>' +
       '<div class="controls">' +
         '<button class="btn" data-act="check">' + esc(I18n.t("activity.check")) + '</button>' +
         '<button class="btn secondary" data-act="hint" hidden>' + esc(I18n.t("activity.hint")) + '</button>' +
@@ -90,9 +105,7 @@
         if (self.checked && self.locked) return;
         self.selected = btn.getAttribute("data-choice");
         choiceBtns.forEach(function (b) {
-          var on = b === btn;
-          b.setAttribute("aria-checked", on ? "true" : "false");
-          b.setAttribute("aria-pressed", on ? "true" : "false");
+          b.setAttribute("aria-pressed", b === btn ? "true" : "false");
         });
       });
     });
@@ -198,6 +211,7 @@
 
       var supportHtml = "";
       if (it.support) {
+        if (support === "high" && it.support.image) supportHtml += supportImage(it.support.image);
         if (support === "high" && it.support.high)
           supportHtml += '<div class="support-note high"><span class="home-lang">▸</span> ' + esc(pick(it.support.high)) + '</div>';
         if ((support === "high" || support === "medium") && it.support.medium)
@@ -206,25 +220,26 @@
 
       var bins = a.categories.map(function (c) {
         var on = placed === c.id;
-        return '<button class="sort-bin choice" type="button" role="radio" ' +
-          'aria-checked="' + (on ? "true" : "false") + '" aria-pressed="' + (on ? "true" : "false") + '" ' +
+        return '<button class="sort-bin choice" type="button" ' +
+          'aria-pressed="' + (on ? "true" : "false") + '" ' +
           (isLocked ? 'disabled ' : '') +
           'data-item="' + esc(it.id) + '" data-cat="' + esc(c.id) + '">' + esc(pick(c.label)) + '</button>';
       }).join("");
 
+      var wLang = esc(a.targetLanguage);
       return '<div class="sort-card" data-card="' + esc(it.id) + '">' +
-        '<div class="sort-word prompt">' + esc(pick(it.prompt)) + '</div>' +
+        '<div class="sort-word prompt" lang="' + wLang + '">' + esc(pick(it.prompt)) + '</div>' +
         (supportHtml ? '<div class="support">' + supportHtml + '</div>' : "") +
-        '<div class="sort-bins" role="radiogroup" aria-label="' + esc(pick(it.prompt)) + '">' + bins + '</div>' +
-        '<div class="sort-fb" data-show="false"></div>' +
+        '<div class="sort-bins" role="group" aria-label="' + esc(pick(it.prompt)) + '">' + bins + '</div>' +
+        '<div class="sort-fb" data-show="false" aria-live="polite"></div>' +
       '</div>';
     }).join("");
 
     this.root.innerHTML =
-      '<div class="activity-head"><p class="progress" data-role="progress"></p></div>' +
+      '<div class="activity-head"><p class="progress" data-role="progress" aria-live="polite"></p></div>' +
       legend +
       '<div class="sort-cards">' + cards + '</div>' +
-      '<div class="feedback" data-show="false" data-role="summary"></div>' +
+      '<div class="feedback" data-show="false" data-role="summary" aria-live="polite"></div>' +
       '<div class="controls">' +
         '<button class="btn" data-act="check">' + esc(I18n.t("activity.check")) + '</button>' +
         '<button class="btn" data-act="continue" hidden>' + esc(I18n.t("activity.next")) + '</button>' +
@@ -242,9 +257,7 @@
         if (self.locked[id]) return;
         self.placements[id] = btn.getAttribute("data-cat");
         self.root.querySelectorAll('.sort-bin[data-item="' + id + '"]').forEach(function (b) {
-          var on = b === btn;
-          b.setAttribute("aria-checked", on ? "true" : "false");
-          b.setAttribute("aria-pressed", on ? "true" : "false");
+          b.setAttribute("aria-pressed", b === btn ? "true" : "false");
           b.removeAttribute("data-state"); // clear any prior rethink marking
         });
         // Hide this card's stale feedback until the next Check.
@@ -376,6 +389,9 @@
   };
 
   var ActivityEngine = {
+    // Register the optional artwork manifest (data/image-manifest.json).
+    // base is the LB_BASE-relative prefix to the puente root.
+    setManifest: function (manifest, base) { MANIFEST = manifest; MANIFEST_BASE = base || ""; return this; },
     mount: function (container, activity) {
       var engine = new Engine(container, activity);
       engine.render();

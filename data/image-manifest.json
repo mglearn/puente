@@ -1,0 +1,49 @@
+{
+  "_meta": {
+    "note": "Registry of generated artwork. Prompts live in ~/projects/puente-image-prompts.md (outside the repo). An asset renders on the site ONLY when its status is 'available' — until then it is dormant, so no broken images or 404s. When art is delivered: drop the file in assets/img/, fill in tool/created/rights, and flip status to 'available'.",
+    "renderGate": "available",
+    "base": "assets/img/"
+  },
+  "assets": {
+    "cognate-detective-hero": {
+      "file": "cognate-detective-hero.webp", "aspect": "16:7", "status": "planned",
+      "alt": "A small group of students examining two word cards with a magnifying glass — a cognate detective scene.",
+      "tool": null, "created": null, "rights": "CC BY 4.0 (project-created)"
+    },
+    "cognate-observe": {
+      "file": "cognate-observe.webp", "aspect": "1:1", "status": "planned",
+      "alt": "A child looking at the night sky through a small telescope, notebook in hand.",
+      "tool": null, "created": null, "rights": "CC BY 4.0 (project-created)"
+    },
+    "cognate-temperature": {
+      "file": "cognate-temperature.webp", "aspect": "1:1", "status": "planned",
+      "alt": "A thermometer beside a beaker of water over a gentle heat source.",
+      "tool": null, "created": null, "rights": "CC BY 4.0 (project-created)"
+    },
+    "cognate-library-bookstore": {
+      "file": "cognate-library-bookstore.webp", "aspect": "1:1", "status": "planned",
+      "alt": "Split scene contrasting a public library reading room with a bookstore counter.",
+      "tool": null, "created": null, "rights": "CC BY 4.0 (project-created)"
+    },
+    "cognate-exit-success": {
+      "file": "cognate-exit-success.webp", "aspect": "1:1", "status": "planned",
+      "alt": "An open doorway with a wordless way-out arrow, contrasted with a trophy.",
+      "tool": null, "created": null, "rights": "CC BY 4.0 (project-created)"
+    },
+    "cognate-family": {
+      "file": "cognate-family.webp", "aspect": "1:1", "status": "planned",
+      "alt": "A multigenerational family gathered around a dinner table.",
+      "tool": null, "created": null, "rights": "CC BY 4.0 (project-created)"
+    },
+    "academic-language-lab-hero": {
+      "file": "academic-language-lab-hero.webp", "aspect": "16:7", "status": "planned",
+      "alt": "Students in discussion, gesturing as they explain their thinking, with a blank board for sentence frames.",
+      "tool": null, "created": null, "rights": "CC BY 4.0 (project-created)"
+    },
+    "newcomer-navigator-hero": {
+      "file": "newcomer-navigator-hero.webp", "aspect": "16:7", "status": "planned",
+      "alt": "A newly arrived student welcomed at a school entrance by a peer and a friendly adult.",
+      "tool": null, "created": null, "rights": "CC BY 4.0 (project-created)"
+    }
+  }
+}

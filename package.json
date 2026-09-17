@@ -9,8 +9,9 @@
     "validate:standards": "node scripts/validate-standards.js",
     "validate:locales": "node scripts/validate-locales.js",
     "validate": "npm run validate:standards && npm run validate:locales && npm run validate:data",
+    "contrast": "node scripts/check-contrast.js",
     "test": "node tests/smoke.test.js",
-    "check": "npm run validate && npm test",
+    "check": "npm run validate && npm run contrast && npm test",
     "serve": "python3 -m http.server 8731"
   }
 }

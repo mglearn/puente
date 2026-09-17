@@ -107,4 +107,4 @@
 /* Notice / translation status */
 .tstatus { font-size: .72rem; color: var(--ink-soft); }
 .tstatus[data-status="reviewed"]::before { content: "· reviewed translation"; }
-.tstatus[data-status="draft"]::before { content: "· draft translation"; color: var(--rethink); }
+.tstatus[data-status="draft"]::before { content: "· draft translation"; color: var(--rethink-text); }

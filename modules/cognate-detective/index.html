@@ -17,7 +17,7 @@
 <div data-shell="header"></div>
 
 <main class="main" id="main">
-  <div class="card"><div class="pad">
+  <div class="card"><div id="module-hero"></div><div class="pad">
     <h1>Cognate Detective</h1>
     <p class="tag" style="color:var(--teal);font-weight:700">Spot the connection · check the meaning · use the word.</p>
     <p>English and Spanish share thousands of cognates — words that look alike and mean the same thing.
@@ -39,6 +39,16 @@
   "use strict";
   function pick(o){ return I18n.pick(o, I18n.uiLang); }
   function esc(s){ return String(s==null?"":s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
+  // Optional hero — renders only if the manifest marks it available.
+  fetch("../../data/image-manifest.json").then(function (r){ return r.ok ? r.json() : null; }).then(function (m) {
+    var a = m && m.assets && m.assets["cognate-detective-hero"];
+    if (a && a.status === (m._meta.renderGate || "available")) {
+      document.getElementById("module-hero").innerHTML =
+        '<img src="../../' + (m._meta.base || "assets/img/") + esc(a.file) + '" alt="' + esc(a.alt || "") +
+        '" style="display:block;width:100%;height:auto" loading="lazy" onerror="this.remove()">';
+    }
+  }).catch(function () {});
+
   window.LB.ready.then(function () {
     return fetch("../../modules/cognate-detective/data.json").then(function (r){ return r.json(); });
   }).then(function (store) {

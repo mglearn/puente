@@ -98,6 +98,7 @@
             "es": "“Observe” en inglés y “observar” en español, ¿cognado verdadero o falso amigo?"
           },
           "support": {
+            "image": "cognate-observe",
             "high": {
               "en": "Home-language clue: Spanish “observar” = “to watch carefully.”",
               "es": "Pista del idioma del hogar: “observar” significa “to watch carefully” en inglés."
@@ -145,6 +146,7 @@
             "es": "“Library” en inglés y “librería” en español, ¿cognado verdadero o falso amigo?"
           },
           "support": {
+            "image": "cognate-library-bookstore",
             "high": {
               "en": "Home-language clue: Spanish “librería” = “bookstore.” A library where you borrow books is “biblioteca.”",
               "es": "Pista del idioma del hogar: “librería” es “bookstore.” El lugar donde pides libros prestados es “biblioteca.”"
@@ -192,6 +194,7 @@
             "es": "“Temperature” en inglés y “temperatura” en español, ¿cognado verdadero o falso amigo?"
           },
           "support": {
+            "image": "cognate-temperature",
             "high": {
               "en": "Home-language clue: Spanish “temperatura” = how hot or cold something is — the same idea.",
               "es": "Pista del idioma del hogar: “temperatura” es qué tan caliente o frío está algo, la misma idea."
@@ -239,6 +242,7 @@
             "es": "“Exit” en inglés y “éxito” en español, ¿cognado verdadero o falso amigo?"
           },
           "support": {
+            "image": "cognate-exit-success",
             "high": {
               "en": "Home-language clue: Spanish “éxito” = “success.” The way out is “salida.”",
               "es": "Pista del idioma del hogar: “éxito” es “success.” La forma de salir es “salida.”"
@@ -286,6 +290,7 @@
             "es": "“Family” en inglés y “familia” en español, ¿cognado verdadero o falso amigo?"
           },
           "support": {
+            "image": "cognate-family",
             "high": {
               "en": "Home-language clue: Spanish “familia” = the people you are related to — the same idea.",
               "es": "Pista del idioma del hogar: “familia” son las personas con las que estás emparentado, la misma idea."

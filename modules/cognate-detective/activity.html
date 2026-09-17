@@ -208,10 +208,12 @@
   window.LB.ready.then(function () {
     return Promise.all([
       fetch(BASE + "modules/cognate-detective/data.json").then(function (r) { return r.json(); }),
-      Standards.basePath(BASE).load(["elps", "teks-elar"])
+      Standards.basePath(BASE).load(["elps", "teks-elar"]),
+      fetch(BASE + "data/image-manifest.json").then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; })
     ]);
   }).then(function (out) {
     var store = out[0];
+    if (out[2]) ActivityEngine.setManifest(out[2], BASE);
     activity = store.activities.filter(function (x) { return x.id === wantId; })[0] || store.activities[0];
     boot();
   });
