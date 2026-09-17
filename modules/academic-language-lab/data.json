@@ -456,6 +456,158 @@
       "created": "2026-09-17",
       "updated": "2026-09-17",
       "status": "reviewed"
+    },
+    {
+      "id": "all-evidence-3-5-003",
+      "module": "academic-language-lab",
+      "title": {
+        "en": "Evidence Match",
+        "es": "Empareja la evidencia"
+      },
+
+      "grades": [5],
+      "gradeBand": "3-5",
+      "subjects": ["science", "elar"],
+      "duration": 8,
+
+      "interactionType": "multiple-choice",
+
+      "targetLanguage": "en",
+      "supportedHomeLanguages": ["es"],
+      "languagePair": "en-es",
+
+      "studentGoal": {
+        "en": "Match a claim to the sentence that best supports it with evidence — data or an observation, not an opinion.",
+        "es": "Empareja una afirmación con la oración que mejor la apoya con evidencia: datos o una observación, no una opinión."
+      },
+      "studentDirections": {
+        "en": "Read the claim. Choose the sentence that best supports it with evidence — specific data or something observed. Choose, then select Check.",
+        "es": "Lee la afirmación. Elige la oración que mejor la apoya con evidencia: datos específicos o algo observado. Elige y luego selecciona Revisar."
+      },
+      "teacherDirections": {
+        "en": "Emphasize the difference between evidence (measured or observed) and an opinion or general fact. After each item, ask students to start a sentence with “The evidence is…”. Great before a claim-evidence-reasoning writing task.",
+        "es": "Resalta la diferencia entre evidencia (medida u observada) y una opinión o un hecho general. Después de cada ítem, pide a los estudiantes que comiencen una oración con “The evidence is…”. Ideal antes de una tarea de escritura de afirmación-evidencia-razonamiento."
+      },
+      "languageFunction": {
+        "en": "Identifying and citing evidence that supports a claim.",
+        "es": "Identificar y citar evidencia que apoya una afirmación."
+      },
+
+      "materials": [],
+
+      "items": [
+        {
+          "id": "v1",
+          "context": { "en": "Claim: “The plants near the window grew taller.”", "es": "Afirmación: “Las plantas cerca de la ventana crecieron más.”" },
+          "prompt": { "en": "Which sentence best supports the claim with evidence?", "es": "¿Qué oración apoya mejor la afirmación con evidencia?" },
+          "support": {
+            "high": { "en": "Evidence uses numbers or a measurement, not a feeling. / La evidencia usa números o una medición, no un sentimiento.", "es": "La evidencia usa números o una medición, no un sentimiento." },
+            "medium": { "en": "Which choice has a measurement?", "es": "¿Qué opción tiene una medición?" }
+          },
+          "choices": [
+            { "id": "a", "label": { "en": "The window plants averaged 15 cm; the shelf plants averaged 9 cm.", "es": "Las plantas de la ventana midieron 15 cm en promedio; las del estante, 9 cm." } },
+            { "id": "b", "label": { "en": "I think the window plants look nicer.", "es": "Creo que las plantas de la ventana se ven mejor." } },
+            { "id": "c", "label": { "en": "Plants are green.", "es": "Las plantas son verdes." } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": { "correct": true, "why": { "en": "Yes. The measurements (15 cm vs. 9 cm) are evidence — they directly support the claim that the window plants grew taller.", "es": "Sí. Las medidas (15 cm vs. 9 cm) son evidencia: apoyan directamente la afirmación de que las plantas de la ventana crecieron más." } },
+            "b": { "correct": false, "why": { "en": "That's an opinion (“look nicer”), not evidence. Evidence measures or observes something.", "es": "Eso es una opinión (“se ven mejor”), no evidencia. La evidencia mide u observa algo." }, "hint": { "en": "Which sentence has numbers?", "es": "¿Qué oración tiene números?" } },
+            "c": { "correct": false, "why": { "en": "True but unrelated to height. Evidence must support the specific claim.", "es": "Cierto, pero no tiene que ver con la altura. La evidencia debe apoyar la afirmación específica." } }
+          }
+        },
+        {
+          "id": "v2",
+          "context": { "en": "Claim: “The soil holds more water than the sand.”", "es": "Afirmación: “El suelo retiene más agua que la arena.”" },
+          "prompt": { "en": "Which sentence best supports the claim with evidence?", "es": "¿Qué oración apoya mejor la afirmación con evidencia?" },
+          "support": {
+            "high": { "en": "Look for a measured difference. / Busca una diferencia medida.", "es": "Busca una diferencia medida." }
+          },
+          "choices": [
+            { "id": "a", "label": { "en": "After watering, the soil sample weighed 20 g more than the sand sample.", "es": "Después de regar, la muestra de suelo pesó 20 g más que la de arena." } },
+            { "id": "b", "label": { "en": "Soil is brown and sand is tan.", "es": "El suelo es café y la arena es beige." } },
+            { "id": "c", "label": { "en": "I like playing in sand.", "es": "Me gusta jugar en la arena." } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": { "correct": true, "why": { "en": "Yes. The 20 g weight difference after watering is measured evidence that the soil held more water.", "es": "Sí. La diferencia de 20 g después de regar es evidencia medida de que el suelo retuvo más agua." } },
+            "b": { "correct": false, "why": { "en": "Color doesn't tell us about water. Evidence must connect to the claim about holding water.", "es": "El color no nos dice nada sobre el agua. La evidencia debe conectarse con la afirmación sobre retener agua." }, "hint": { "en": "Which choice mentions weight or water?", "es": "¿Qué opción menciona peso o agua?" } },
+            "c": { "correct": false, "why": { "en": "A personal preference is not evidence. Point to a measurement.", "es": "Una preferencia personal no es evidencia. Señala una medición." } }
+          }
+        },
+        {
+          "id": "v3",
+          "context": { "en": "Claim: “The ice melted faster in the sun than in the shade.”", "es": "Afirmación: “El hielo se derritió más rápido al sol que a la sombra.”" },
+          "prompt": { "en": "Which sentence best supports the claim with evidence?", "es": "¿Qué oración apoya mejor la afirmación con evidencia?" },
+          "support": {
+            "high": { "en": "Good evidence compares the two conditions with numbers. / La buena evidencia compara las dos condiciones con números.", "es": "La buena evidencia compara las dos condiciones con números." }
+          },
+          "choices": [
+            { "id": "a", "label": { "en": "The ice in the sun melted in 5 minutes; the ice in the shade took 12 minutes.", "es": "El hielo al sol se derritió en 5 minutos; el de la sombra tardó 12 minutos." } },
+            { "id": "b", "label": { "en": "The sun is very hot.", "es": "El sol está muy caliente." } },
+            { "id": "c", "label": { "en": "Ice is made of water.", "es": "El hielo está hecho de agua." } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": { "correct": true, "why": { "en": "Yes. Comparing the two times (5 vs. 12 minutes) is evidence from the experiment itself.", "es": "Sí. Comparar los dos tiempos (5 vs. 12 minutos) es evidencia del propio experimento." } },
+            "b": { "correct": false, "why": { "en": "A general fact, not evidence from this experiment. Compare the two melting times.", "es": "Un hecho general, no evidencia de este experimento. Compara los dos tiempos de derretimiento." }, "hint": { "en": "Which choice measures both conditions?", "es": "¿Qué opción mide las dos condiciones?" } },
+            "c": { "correct": false, "why": { "en": "True but unrelated to speed. Evidence must support the specific claim.", "es": "Cierto, pero no se relaciona con la rapidez. La evidencia debe apoyar la afirmación específica." } }
+          }
+        },
+        {
+          "id": "v4",
+          "context": { "en": "Claim: “The plant needs light to grow.”", "es": "Afirmación: “La planta necesita luz para crecer.”" },
+          "prompt": { "en": "Which sentence best supports the claim with evidence?", "es": "¿Qué oración apoya mejor la afirmación con evidencia?" },
+          "support": {
+            "high": { "en": "The best evidence shows what happened WITHOUT light. / La mejor evidencia muestra qué pasó SIN luz.", "es": "La mejor evidencia muestra qué pasó SIN luz." }
+          },
+          "choices": [
+            { "id": "a", "label": { "en": "The plant kept in a dark closet turned yellow and stopped growing.", "es": "La planta que se mantuvo en un clóset oscuro se puso amarilla y dejó de crecer." } },
+            { "id": "b", "label": { "en": "Plants are pretty.", "es": "Las plantas son bonitas." } },
+            { "id": "c", "label": { "en": "I watered the plant every day.", "es": "Regué la planta todos los días." } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": { "correct": true, "why": { "en": "Yes. The plant without light turned yellow and stopped growing — an observation that supports the claim.", "es": "Sí. La planta sin luz se puso amarilla y dejó de crecer: una observación que apoya la afirmación." } },
+            "b": { "correct": false, "why": { "en": "An opinion, not evidence. Show what happened when the plant had no light.", "es": "Una opinión, no evidencia. Muestra qué pasó cuando la planta no tuvo luz." }, "hint": { "en": "Which choice is about light?", "es": "¿Qué opción trata sobre la luz?" } },
+            "c": { "correct": false, "why": { "en": "That's about water, not light. Evidence must match the claim about light.", "es": "Eso trata del agua, no de la luz. La evidencia debe coincidir con la afirmación sobre la luz." } }
+          }
+        }
+      ],
+
+      "ace": { "articulate": true, "connect": true, "extend": true },
+
+      "clear": { "enabled": true, "emphasis": ["claim", "evidence"] },
+
+      "udl": [
+        "representation.language-support",
+        "representation.context",
+        "action-expression.multiple-response-modes",
+        "engagement.relevance"
+      ],
+
+      "strategies": [
+        "corrective-feedback",
+        "retrieval-practice",
+        "classroom-discussion"
+      ],
+
+      "standards": {
+        "elps": [
+          { "code": "§120.21(d)(2)(B)", "alignment": "supporting", "grades": [5], "rationale": "Students use content-area vocabulary to talk about evidence." }
+        ],
+        "teks": [
+          { "code": "§110.7(b)(7)(C)", "alignment": "direct", "grades": [5], "rationale": "Students identify text evidence that supports a claim." },
+          { "code": "§110.7(b)(1)(A)", "alignment": "supporting", "grades": [5], "rationale": "Students make pertinent comments that connect evidence to a claim." }
+        ],
+        "slar": []
+      },
+
+      "printables": ["all-evidence-3-5-003-student", "all-evidence-3-5-003-answer-key"],
+
+      "created": "2026-09-17",
+      "updated": "2026-09-17",
+      "status": "reviewed"
     }
   ]
 }
