@@ -1,0 +1,110 @@
+/* Language Bridge — reusable components */
+
+.card {
+  background: var(--surface);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+.card > .pad { padding: clamp(1.25rem, 4vw, 2rem); }
+
+.panel {
+  background: var(--pale);
+  border-radius: var(--radius);
+  padding: var(--sp-4) var(--sp-5);
+}
+.panel.accent {
+  border-inline-start: 5px solid var(--module-accent);
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+
+/* Buttons */
+.btn {
+  display: inline-flex; align-items: center; gap: var(--sp-2);
+  font: inherit; font-weight: 600;
+  padding: .6rem 1.1rem;
+  border-radius: 999px;
+  border: 2px solid transparent;
+  background: var(--blue); color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background var(--t), transform var(--t-fast);
+}
+.btn:hover { background: var(--navy-tcea); color: #fff; }
+.btn:active { transform: translateY(1px); }
+.btn.secondary { background: #fff; color: var(--navy); border-color: #cdddf2; }
+.btn.secondary:hover { background: var(--pale); color: var(--navy); }
+.btn.ghost { background: transparent; color: #fff; border-color: rgba(255,255,255,.4); }
+.btn.ghost:hover { background: rgba(255,255,255,.12); color: #fff; }
+.btn[aria-pressed="true"] { background: var(--teal); color: #fff; }
+.btn:disabled { opacity: .5; cursor: not-allowed; }
+.btn.sm { padding: .35rem .8rem; font-size: .85rem; }
+
+/* Segmented control (mode toggle, support level) */
+.segmented {
+  display: inline-flex;
+  background: rgba(255,255,255,.14);
+  border-radius: 999px;
+  padding: 3px;
+}
+.segmented.on-light { background: var(--pale); }
+.segmented button {
+  font: inherit; font-weight: 600; font-size: .9rem;
+  border: 0; background: transparent; color: inherit;
+  padding: .35rem .9rem; border-radius: 999px; cursor: pointer;
+}
+.segmented button[aria-pressed="true"] { background: var(--gold); color: var(--navy); }
+.segmented.on-light button { color: var(--navy); }
+.segmented.on-light button[aria-pressed="true"] { background: var(--navy); color: #fff; }
+
+/* Chips / badges */
+.chip {
+  display: inline-flex; align-items: center; gap: .35rem;
+  background: var(--pale); color: var(--navy);
+  border-radius: 999px; padding: .25rem .7rem; font-size: .8rem; font-weight: 600;
+}
+.chip.official { background: #e7eefb; color: var(--navy-tcea); }
+.chip.local { background: #fdf3e2; color: #8a5a12; }
+
+.tag-official { color: var(--navy-tcea); font-weight: 700; }
+.tag-local::after {
+  content: "local framework";
+  font-size: .68rem; font-weight: 700; text-transform: uppercase;
+  letter-spacing: .04em; color: #8a5a12;
+  background: #fdf3e2; padding: .1rem .4rem; border-radius: 6px; margin-inline-start: .4rem;
+}
+
+/* Language switcher */
+.lang-switch { position: relative; }
+.lang-switch select {
+  font: inherit; font-weight: 600;
+  background: rgba(255,255,255,.12); color: #fff;
+  border: 1px solid rgba(255,255,255,.35);
+  border-radius: 999px; padding: .35rem 2rem .35rem .8rem;
+  cursor: pointer;
+}
+.lang-switch select option { color: var(--ink); }
+
+/* Details/drawer */
+.drawer { border: 1px solid #d7e3f4; border-radius: var(--radius); overflow: hidden; }
+.drawer > summary {
+  cursor: pointer; list-style: none;
+  padding: var(--sp-3) var(--sp-4);
+  background: var(--pale); color: var(--navy); font-weight: 700;
+  display: flex; justify-content: space-between; align-items: center;
+}
+.drawer > summary::-webkit-details-marker { display: none; }
+.drawer > summary::after { content: "▾"; transition: transform var(--t); }
+.drawer[open] > summary::after { transform: rotate(180deg); }
+.drawer > .drawer-body { padding: var(--sp-4); }
+
+/* Definition rows for teacher metadata */
+.meta-row { display: grid; grid-template-columns: 10rem 1fr; gap: var(--sp-3); padding: .4rem 0; border-top: 1px solid #eef2f8; }
+.meta-row:first-child { border-top: 0; }
+.meta-row dt { font-weight: 700; color: var(--navy); }
+.meta-row dd { margin: 0; }
+
+/* Notice / translation status */
+.tstatus { font-size: .72rem; color: var(--ink-soft); }
+.tstatus[data-status="reviewed"]::before { content: "· reviewed translation"; }
+.tstatus[data-status="draft"]::before { content: "· draft translation"; color: var(--rethink); }

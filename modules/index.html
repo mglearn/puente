@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Modules — Language Bridge</title>
+<meta name="description" content="Language Bridge modules: Cognate Detective, Academic Language Lab, and Newcomer Navigator.">
+<link rel="stylesheet" href="../assets/css/tokens.css">
+<link rel="stylesheet" href="../assets/css/base.css">
+<link rel="stylesheet" href="../assets/css/layout.css">
+<link rel="stylesheet" href="../assets/css/components.css">
+<link rel="stylesheet" href="../assets/css/rtl.css">
+</head>
+<body data-nav="modules/">
+<a class="skip-link" href="#main">Skip to content</a>
+<div data-shell="header"></div>
+<main class="main" id="main">
+  <h1>Modules</h1>
+  <div class="grid module-grid" id="module-grid"></div>
+</main>
+<div data-shell="footer"></div>
+
+<script>window.LB_BASE = "../";</script>
+<script src="../assets/js/i18n.js"></script>
+<script src="../assets/js/app.js"></script>
+<script>
+(function () {
+  "use strict";
+  function pick(o){ return I18n.pick(o, I18n.uiLang); }
+  function esc(s){ return String(s==null?"":s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
+  window.LB.ready.then(function () {
+    return fetch("../data/site.json").then(function (r){ return r.json(); });
+  }).then(function (site) {
+    document.getElementById("module-grid").innerHTML = site.modules.map(function (m) {
+      var live = m.status === "live";
+      var inner = '<div class="pad"><h3>' + esc(pick(m.name)) + '</h3><p>' + esc(pick(m.blurb)) + '</p>' +
+        '<span class="chip">' + (live?"Available now":"Coming soon") + '</span></div>';
+      return live
+        ? '<a class="card" style="text-decoration:none;color:inherit" href="' + esc(m.id) + '/">' + inner + '</a>'
+        : '<div class="card">' + inner + '</div>';
+    }).join("");
+  });
+})();
+</script>
+</body>
+</html>

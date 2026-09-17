@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "lang": "ar",
+    "name": "العربية",
+    "dir": "rtl",
+    "note": "RTL proof-of-concept stub (spec §8). Only nav + a few UI keys reviewed; everything else falls back to English until reviewed. Demonstrates that html[dir] flips correctly."
+  },
+  "strings": {
+    "site.tagline":   { "text": "تعلّمها. اربطها. استخدمها.", "status": "published" },
+    "nav.activities": { "text": "الأنشطة", "status": "published" },
+    "nav.modules":    { "text": "الوحدات", "status": "published" },
+    "nav.printables": { "text": "قابلة للطباعة", "status": "published" },
+    "nav.newcomer":   { "text": "الوافدون الجدد", "status": "published" },
+    "nav.teacher":    { "text": "أدوات المعلم", "status": "published" },
+    "nav.standards":  { "text": "المعايير", "status": "published" },
+    "nav.frameworks": { "text": "الأطر", "status": "published" },
+    "nav.about":      { "text": "حول", "status": "published" },
+    "lang.label":     { "text": "اللغة", "status": "published" },
+    "mode.teacher":   { "text": "المعلم", "status": "published" },
+    "mode.student":   { "text": "الطالب", "status": "published" },
+    "privacy.note":   { "text": "بدون تسجيل دخول. بدون حسابات. لا نجمع بيانات الطلاب.", "status": "published" }
+  }
+}

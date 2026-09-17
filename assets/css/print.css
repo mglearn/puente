@@ -1,0 +1,40 @@
+/* Language Bridge — printable output (spec §25-27)
+   The same activity record renders to paper. Applied on printables.html and via @media print. */
+
+@media print {
+  .site-header, .site-footer, .controls, .no-print, .lang-switch { display: none !important; }
+  body { background: #fff; color: #000; font-size: 12pt; }
+  .card { box-shadow: none; border: 1px solid #999; }
+  a { color: #000; text-decoration: none; }
+  .choice { border-color: #000 !important; background: #fff !important; }
+}
+
+/* Printable page layout (screen preview + print) */
+.printable {
+  background: #fff;
+  color: #111;
+  max-width: 8.5in;
+  margin: 0 auto;
+  padding: .75in;
+}
+.printable .sheet + .sheet { page-break-before: always; }
+.printable h1, .printable h2 { color: var(--navy); }
+.printable .brandline {
+  border-bottom: 3px solid var(--gold);
+  padding-bottom: .5rem; margin-bottom: 1rem;
+  display: flex; justify-content: space-between; align-items: baseline;
+}
+.printable .namebar {
+  display: flex; gap: 2rem; margin: 1rem 0;
+  font-size: .95rem; color: #333;
+}
+.printable .namebar span { border-bottom: 1px solid #999; flex: 1; padding-bottom: 2px; }
+.printable ol.p-items { padding-inline-start: 1.4rem; }
+.printable ol.p-items li { margin-bottom: 1rem; }
+.printable .p-choices { list-style: upper-alpha; padding-inline-start: 1.5rem; margin-top: .4rem; }
+.printable .p-choices li { margin-bottom: .25rem; }
+.printable .answer-key { border-top: 2px dashed #999; margin-top: 1.5rem; padding-top: 1rem; }
+.printable .foot {
+  margin-top: 1.5rem; font-size: .72rem; color: #555;
+  border-top: 1px solid #ccc; padding-top: .5rem;
+}

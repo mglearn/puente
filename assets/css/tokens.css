@@ -1,0 +1,55 @@
+/* Language Bridge — design tokens (spec §32)
+   One shared token layer. Modules add ONE secondary accent, never a new palette. */
+:root {
+  /* Brand palette */
+  --navy: #082759;        /* deep navy */
+  --navy-tcea: #0A3476;   /* TCEA navy */
+  --blue: #147AD6;        /* bright blue */
+  --gold: #FCB040;        /* warm gold */
+  --teal: #1B8A8F;        /* teal */
+  --pale: #EEF4FC;        /* pale blue panels */
+  --white: #FFFFFF;
+  --body: #172033;        /* body text */
+
+  /* Semantic roles */
+  --bg: var(--pale);
+  --surface: var(--white);
+  --ink: var(--body);
+  --ink-soft: #5a6577;
+  --accent: var(--blue);
+  --accent-strong: var(--navy);
+  --module-accent: var(--teal); /* overridden per module */
+
+  /* Feedback (never red-only, never punitive — spec §19) */
+  --ok: #1B8A8F;
+  --ok-bg: #e7f4f4;
+  --rethink: #B8791A;      /* amber, "look again" — not alarm red */
+  --rethink-bg: #fdf3e2;
+  --focus: #147AD6;
+
+  /* Typography */
+  --font: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", sans-serif;
+  --font-rtl: "Noto Naskh Arabic", "Segoe UI", system-ui, sans-serif;
+
+  /* Spacing scale */
+  --sp-1: .25rem; --sp-2: .5rem; --sp-3: .75rem; --sp-4: 1rem;
+  --sp-5: 1.5rem; --sp-6: 2rem; --sp-7: 3rem; --sp-8: 4rem;
+
+  /* Radius + elevation */
+  --radius: 14px;
+  --radius-lg: 18px;
+  --shadow: 0 2px 24px rgba(8, 39, 89, .09);
+  --shadow-lift: 0 6px 30px rgba(8, 39, 89, .16);
+
+  /* Layout */
+  --measure: 44rem;
+  --wide: 68rem;
+
+  /* Motion (respect reduced motion below) */
+  --t-fast: 120ms;
+  --t: 200ms;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation-duration: .001ms !important; transition-duration: .001ms !important; }
+}

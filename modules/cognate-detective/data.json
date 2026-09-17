@@ -1,0 +1,566 @@
+{
+  "activities": [
+    {
+      "id": "cog-context-3-5-001",
+      "module": "cognate-detective",
+      "title": {
+        "en": "Cognate or False Friend?",
+        "es": "¿Cognado o falso amigo?"
+      },
+
+      "grades": [5],
+      "gradeBand": "3-5",
+      "subjects": ["elar"],
+      "duration": 8,
+
+      "interactionType": "context-choice",
+
+      "targetLanguage": "en",
+      "supportedHomeLanguages": ["es"],
+      "languagePair": "en-es",
+
+      "studentGoal": {
+        "en": "Use spelling, meaning, and context to decide whether an English word and a Spanish look-alike are true cognates or false friends.",
+        "es": "Usa la ortografía, el significado y el contexto para decidir si una palabra en inglés y una palabra parecida en español son cognados verdaderos o falsos amigos."
+      },
+      "studentDirections": {
+        "en": "Read each sentence. Look at the English word and the Spanish word that looks like it. Decide: do they mean the same thing (true cognate) or just look alike (false friend)? Choose, then select Check.",
+        "es": "Lee cada oración. Observa la palabra en inglés y la palabra en español que se le parece. Decide: ¿significan lo mismo (cognado verdadero) o solo se parecen (falso amigo)? Elige y luego selecciona Revisar."
+      },
+      "teacherDirections": {
+        "en": "Project the activity or share the student link. Encourage students to read the whole sentence before deciding — context is the evidence. After each item, use the Explain feedback to name the strategy: 'looks alike' is not the same as 'means the same.' Close with the ACE reflection so students articulate meaning and connect to Spanish.",
+        "es": "Proyecta la actividad o comparte el enlace para estudiantes. Anima a los estudiantes a leer toda la oración antes de decidir: el contexto es la evidencia. Después de cada ítem, usa la retroalimentación de Explicar para nombrar la estrategia: 'se parece' no es lo mismo que 'significa lo mismo.' Cierra con la reflexión ACE."
+      },
+      "languageFunction": {
+        "en": "Determining word meaning; justifying a claim with evidence.",
+        "es": "Determinar el significado de palabras; justificar una afirmación con evidencia."
+      },
+
+      "materials": [],
+
+      "items": [
+        {
+          "id": "i1",
+          "targetWord": "actually",
+          "context": {
+            "en": "We planned a picnic, but it rained. Actually, we stayed inside and played board games.",
+            "es": "Planeamos un picnic, pero llovió. Actually, nos quedamos adentro y jugamos juegos de mesa."
+          },
+          "prompt": {
+            "en": "English “actually” and Spanish “actualmente” — true cognate or false friend?",
+            "es": "“Actually” en inglés y “actualmente” en español, ¿cognado verdadero o falso amigo?"
+          },
+          "support": {
+            "high": {
+              "en": "Home-language clue: Spanish “actualmente” = “currently / right now.”",
+              "es": "Pista del idioma del hogar: “actualmente” significa “currently / right now” en inglés."
+            },
+            "medium": {
+              "en": "What really happened after the rain? That is what “actually” points to.",
+              "es": "¿Qué pasó en realidad después de la lluvia? Eso es lo que señala “actually.”"
+            }
+          },
+          "choices": [
+            { "id": "a", "label": { "en": "True cognate — same meaning", "es": "Cognado verdadero — mismo significado" } },
+            { "id": "b", "label": { "en": "False friend — looks alike, different meaning", "es": "Falso amigo — se parece, significado distinto" } }
+          ],
+          "answer": "b",
+          "feedback": {
+            "b": {
+              "correct": true,
+              "why": {
+                "en": "Right. “Actually” means “in fact / in reality” — it tells what really happened after the rain. Spanish “actualmente” means “currently.” They look related but do not share a meaning, so they are false friends.",
+                "es": "Correcto. “Actually” significa “en realidad”: dice lo que de verdad pasó después de la lluvia. “Actualmente” significa “en este momento.” Se parecen pero no comparten significado, así que son falsos amigos."
+              }
+            },
+            "a": {
+              "correct": false,
+              "why": {
+                "en": "Look again at the sentence. “Actually” describes what really happened — in fact, in reality. Spanish “actualmente” means “currently,” so these words look related but do not have the same meaning. They are false friends.",
+                "es": "Mira otra vez la oración. “Actually” describe lo que en realidad pasó. “Actualmente” significa “currently” en inglés, así que se parecen pero no significan lo mismo. Son falsos amigos."
+              },
+              "hint": {
+                "en": "Try replacing the word with “in fact.” Does the sentence still make sense?",
+                "es": "Intenta reemplazar la palabra con “en realidad.” ¿La oración sigue teniendo sentido?"
+              }
+            }
+          }
+        },
+        {
+          "id": "i2",
+          "targetWord": "observe",
+          "context": {
+            "en": "Scientists observe the sky each night and write down what they see.",
+            "es": "Los científicos observe el cielo cada noche y anotan lo que ven."
+          },
+          "prompt": {
+            "en": "English “observe” and Spanish “observar” — true cognate or false friend?",
+            "es": "“Observe” en inglés y “observar” en español, ¿cognado verdadero o falso amigo?"
+          },
+          "support": {
+            "high": {
+              "en": "Home-language clue: Spanish “observar” = “to watch carefully.”",
+              "es": "Pista del idioma del hogar: “observar” significa “to watch carefully” en inglés."
+            },
+            "medium": {
+              "en": "What do scientists do with the sky each night?",
+              "es": "¿Qué hacen los científicos con el cielo cada noche?"
+            }
+          },
+          "choices": [
+            { "id": "a", "label": { "en": "True cognate — same meaning", "es": "Cognado verdadero — mismo significado" } },
+            { "id": "b", "label": { "en": "False friend — looks alike, different meaning", "es": "Falso amigo — se parece, significado distinto" } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Yes. “Observe” and “observar” both mean to watch something carefully. Same spelling pattern and same meaning — a true cognate you can trust.",
+                "es": "Sí. “Observe” y “observar” significan mirar algo con atención. Mismo patrón de escritura y mismo significado: un cognado verdadero en el que puedes confiar."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Check the meaning. In the sentence, scientists watch the sky — that is exactly what Spanish “observar” means. The spelling and the meaning both match, so this is a true cognate, not a false friend.",
+                "es": "Revisa el significado. En la oración, los científicos miran el cielo, que es justo lo que significa “observar.” La escritura y el significado coinciden, así que es un cognado verdadero, no un falso amigo."
+              },
+              "hint": {
+                "en": "Does the Spanish meaning fit the sentence? If it does, the words are true cognates.",
+                "es": "¿El significado en español encaja en la oración? Si encaja, son cognados verdaderos."
+              }
+            }
+          }
+        },
+        {
+          "id": "i3",
+          "targetWord": "library",
+          "context": {
+            "en": "I returned my books to the library so other students could borrow them.",
+            "es": "Devolví mis libros a la library para que otros estudiantes pudieran pedirlos prestados."
+          },
+          "prompt": {
+            "en": "English “library” and Spanish “librería” — true cognate or false friend?",
+            "es": "“Library” en inglés y “librería” en español, ¿cognado verdadero o falso amigo?"
+          },
+          "support": {
+            "high": {
+              "en": "Home-language clue: Spanish “librería” = “bookstore.” A library where you borrow books is “biblioteca.”",
+              "es": "Pista del idioma del hogar: “librería” es “bookstore.” El lugar donde pides libros prestados es “biblioteca.”"
+            },
+            "medium": {
+              "en": "You return books and others borrow them. Do you buy books there?",
+              "es": "Devuelves libros y otros los piden prestados. ¿Compras libros ahí?"
+            }
+          },
+          "choices": [
+            { "id": "a", "label": { "en": "True cognate — same meaning", "es": "Cognado verdadero — mismo significado" } },
+            { "id": "b", "label": { "en": "False friend — looks alike, different meaning", "es": "Falso amigo — se parece, significado distinto" } }
+          ],
+          "answer": "b",
+          "feedback": {
+            "b": {
+              "correct": true,
+              "why": {
+                "en": "Right. In the sentence you borrow books, so “library” means a place to borrow books — in Spanish, “biblioteca.” Spanish “librería” means “bookstore,” where you buy books. Look-alikes with different meanings: false friends.",
+                "es": "Correcto. En la oración pides libros prestados, así que “library” es “biblioteca.” “Librería” en español es “bookstore,” donde compras libros. Se parecen pero tienen significados distintos: falsos amigos."
+              }
+            },
+            "a": {
+              "correct": false,
+              "why": {
+                "en": "Use the context. The sentence says you return and borrow books — that is a “biblioteca,” not a store. Spanish “librería” means “bookstore,” so the two words look alike but mean different things: false friends.",
+                "es": "Usa el contexto. La oración dice que devuelves y pides libros prestados: eso es una “biblioteca,” no una tienda. “Librería” significa “bookstore,” así que se parecen pero significan cosas distintas: falsos amigos."
+              },
+              "hint": {
+                "en": "Where do you borrow books instead of buying them?",
+                "es": "¿Dónde pides libros prestados en lugar de comprarlos?"
+              }
+            }
+          }
+        },
+        {
+          "id": "i4",
+          "targetWord": "temperature",
+          "context": {
+            "en": "We measured the temperature of the water before and after we heated it.",
+            "es": "Medimos la temperature del agua antes y después de calentarla."
+          },
+          "prompt": {
+            "en": "English “temperature” and Spanish “temperatura” — true cognate or false friend?",
+            "es": "“Temperature” en inglés y “temperatura” en español, ¿cognado verdadero o falso amigo?"
+          },
+          "support": {
+            "high": {
+              "en": "Home-language clue: Spanish “temperatura” = how hot or cold something is — the same idea.",
+              "es": "Pista del idioma del hogar: “temperatura” es qué tan caliente o frío está algo, la misma idea."
+            },
+            "medium": {
+              "en": "What did you measure about the water when you heated it?",
+              "es": "¿Qué mediste del agua cuando la calentaste?"
+            }
+          },
+          "choices": [
+            { "id": "a", "label": { "en": "True cognate — same meaning", "es": "Cognado verdadero — mismo significado" } },
+            { "id": "b", "label": { "en": "False friend — looks alike, different meaning", "es": "Falso amigo — se parece, significado distinto" } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Yes. “Temperature” and “temperatura” both mean how hot or cold something is. Science words like this are often true cognates — a big help when you read in English.",
+                "es": "Sí. “Temperature” y “temperatura” significan qué tan caliente o frío está algo. Muchas palabras de ciencia como esta son cognados verdaderos, una gran ayuda al leer en inglés."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Check the meaning. Measuring how hot the water is — that is exactly “temperatura.” The meaning matches, so “temperature” is a true cognate, not a false friend.",
+                "es": "Revisa el significado. Medir qué tan caliente está el agua es justo “temperatura.” El significado coincide, así que “temperature” es un cognado verdadero, no un falso amigo."
+              },
+              "hint": {
+                "en": "Many science words are true cognates. Does the Spanish meaning fit here?",
+                "es": "Muchas palabras de ciencia son cognados verdaderos. ¿El significado en español encaja aquí?"
+              }
+            }
+          }
+        },
+        {
+          "id": "i5",
+          "targetWord": "exit",
+          "context": {
+            "en": "When the alarm rang, we walked quietly to the nearest exit and went outside.",
+            "es": "Cuando sonó la alarma, caminamos en silencio hacia el exit más cercano y salimos."
+          },
+          "prompt": {
+            "en": "English “exit” and Spanish “éxito” — true cognate or false friend?",
+            "es": "“Exit” en inglés y “éxito” en español, ¿cognado verdadero o falso amigo?"
+          },
+          "support": {
+            "high": {
+              "en": "Home-language clue: Spanish “éxito” = “success.” The way out is “salida.”",
+              "es": "Pista del idioma del hogar: “éxito” es “success.” La forma de salir es “salida.”"
+            },
+            "medium": {
+              "en": "During a fire alarm, what do you walk toward to get outside?",
+              "es": "Durante una alarma, ¿hacia qué caminas para salir?"
+            }
+          },
+          "choices": [
+            { "id": "a", "label": { "en": "True cognate — same meaning", "es": "Cognado verdadero — mismo significado" } },
+            { "id": "b", "label": { "en": "False friend — looks alike, different meaning", "es": "Falso amigo — se parece, significado distinto" } }
+          ],
+          "answer": "b",
+          "feedback": {
+            "b": {
+              "correct": true,
+              "why": {
+                "en": "Right. “Exit” is the way out — in Spanish, “salida.” Spanish “éxito” means “success.” The words look and sound close but mean very different things: false friends.",
+                "es": "Correcto. “Exit” es la “salida.” “Éxito” en español significa “success.” Las palabras se parecen pero significan cosas muy distintas: falsos amigos."
+              }
+            },
+            "a": {
+              "correct": false,
+              "why": {
+                "en": "Read the sentence again. During an alarm you walk to the way out — that is “salida,” not “éxito.” Spanish “éxito” means “success,” so these are false friends.",
+                "es": "Lee la oración otra vez. Durante una alarma caminas hacia la salida, no hacia “éxito.” “Éxito” significa “success,” así que son falsos amigos."
+              },
+              "hint": {
+                "en": "Could “success” replace the word during a fire alarm? Try it.",
+                "es": "¿Podría “success” reemplazar la palabra durante una alarma? Pruébalo."
+              }
+            }
+          }
+        },
+        {
+          "id": "i6",
+          "targetWord": "family",
+          "context": {
+            "en": "My whole family came to dinner: my parents, my sister, and my grandparents.",
+            "es": "Toda mi family vino a cenar: mis padres, mi hermana y mis abuelos."
+          },
+          "prompt": {
+            "en": "English “family” and Spanish “familia” — true cognate or false friend?",
+            "es": "“Family” en inglés y “familia” en español, ¿cognado verdadero o falso amigo?"
+          },
+          "support": {
+            "high": {
+              "en": "Home-language clue: Spanish “familia” = the people you are related to — the same idea.",
+              "es": "Pista del idioma del hogar: “familia” son las personas con las que estás emparentado, la misma idea."
+            },
+            "medium": {
+              "en": "The sentence lists parents, a sister, and grandparents. What word groups them?",
+              "es": "La oración menciona padres, una hermana y abuelos. ¿Qué palabra los agrupa?"
+            }
+          },
+          "choices": [
+            { "id": "a", "label": { "en": "True cognate — same meaning", "es": "Cognado verdadero — mismo significado" } },
+            { "id": "b", "label": { "en": "False friend — looks alike, different meaning", "es": "Falso amigo — se parece, significado distinto" } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Yes. “Family” and “familia” both mean the people you are related to. Same meaning, near-same spelling — a true cognate.",
+                "es": "Sí. “Family” y “familia” significan las personas con las que estás emparentado. Mismo significado y escritura casi igual: un cognado verdadero."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Use the list in the sentence — parents, sister, grandparents. That is a “familia.” The meaning matches, so “family” is a true cognate, not a false friend.",
+                "es": "Usa la lista de la oración: padres, hermana, abuelos. Eso es una “familia.” El significado coincide, así que “family” es un cognado verdadero, no un falso amigo."
+              },
+              "hint": {
+                "en": "Does “familia” fit the people listed? If yes, it is a true cognate.",
+                "es": "¿“Familia” encaja con las personas de la lista? Si sí, es un cognado verdadero."
+              }
+            }
+          }
+        }
+      ],
+
+      "ace": { "articulate": true, "connect": true, "extend": true },
+
+      "clear": { "enabled": true, "emphasis": ["claim", "evidence", "alternatives"] },
+
+      "udl": [
+        "representation.language-support",
+        "representation.context",
+        "action-expression.multiple-response-modes",
+        "engagement.relevance"
+      ],
+
+      "strategies": [
+        "vocabulary-programs",
+        "corrective-feedback",
+        "retrieval-practice"
+      ],
+
+      "standards": {
+        "elps": [
+          {
+            "code": "§120.21(d)(3)(C)",
+            "alignment": "direct",
+            "grades": [5],
+            "rationale": "Students use context and cognates to determine the meaning of content-area vocabulary."
+          },
+          {
+            "code": "§120.21(d)(3)(B)",
+            "alignment": "supporting",
+            "grades": [5],
+            "rationale": "Students identify cognates as a word-analysis clue while deciding meaning."
+          }
+        ],
+        "teks": [
+          {
+            "code": "§110.7(b)(3)(B)",
+            "alignment": "direct",
+            "grades": [5],
+            "rationale": "Students use sentence context to determine the meaning of unfamiliar or misleading words."
+          },
+          {
+            "code": "§110.7(b)(3)(C)",
+            "alignment": "supporting",
+            "grades": [5],
+            "rationale": "Cognate awareness draws on shared Greek and Latin roots between English and Spanish word families."
+          }
+        ],
+        "slar": []
+      },
+
+      "printables": ["cog-context-3-5-001-student", "cog-context-3-5-001-answer-key"],
+
+      "created": "2026-09-10",
+      "updated": "2026-09-17",
+      "status": "reviewed"
+    },
+    {
+      "id": "cog-sort-3-5-002",
+      "module": "cognate-detective",
+      "title": {
+        "en": "Cognate or Not?",
+        "es": "¿Cognado o no?"
+      },
+
+      "grades": [5],
+      "gradeBand": "3-5",
+      "subjects": ["elar"],
+      "duration": 10,
+
+      "interactionType": "sort",
+
+      "targetLanguage": "en",
+      "supportedHomeLanguages": ["es"],
+      "languagePair": "en-es",
+
+      "studentGoal": {
+        "en": "Sort English words by their relationship to a Spanish look-alike: true cognate, false friend, or no look-alike at all.",
+        "es": "Clasifica palabras en inglés según su relación con una palabra parecida en español: cognado verdadero, falso amigo o sin palabra parecida."
+      },
+      "studentDirections": {
+        "en": "For each English word, decide: does a Spanish look-alike mean the SAME thing (true cognate), a DIFFERENT thing (false friend), or is there no Spanish look-alike at all? Place each word, then select Check.",
+        "es": "Para cada palabra en inglés, decide: ¿una palabra parecida en español significa LO MISMO (cognado verdadero), algo DIFERENTE (falso amigo), o no hay palabra parecida? Coloca cada palabra y luego selecciona Revisar."
+      },
+      "teacherDirections": {
+        "en": "Turn on More support to reveal the Spanish look-alike for each word. The 'No look-alike' bin is the key teaching move: cognates are a powerful strategy, but not every word has one, and students should not force a connection. Debrief which content areas are richest in true cognates (science, math).",
+        "es": "Activa Más apoyo para revelar la palabra parecida en español. La categoría 'Sin palabra parecida' es clave: los cognados son una estrategia poderosa, pero no todas las palabras tienen uno. Comenten qué materias tienen más cognados verdaderos (ciencias, matemáticas)."
+      },
+      "languageFunction": {
+        "en": "Classifying; recognizing and analyzing word relationships across languages.",
+        "es": "Clasificar; reconocer y analizar relaciones entre palabras de distintos idiomas."
+      },
+
+      "materials": [],
+
+      "categories": [
+        { "id": "true",  "label": { "en": "True cognate", "es": "Cognado verdadero" }, "hint": { "en": "Looks alike AND means the same.", "es": "Se parece Y significa lo mismo." } },
+        { "id": "false", "label": { "en": "False friend", "es": "Falso amigo" }, "hint": { "en": "Looks alike BUT means something different.", "es": "Se parece PERO significa algo diferente." } },
+        { "id": "none",  "label": { "en": "No look-alike", "es": "Sin palabra parecida" }, "hint": { "en": "No Spanish word looks like this one.", "es": "Ninguna palabra en español se le parece." } }
+      ],
+
+      "items": [
+        {
+          "id": "s1", "targetWord": "class", "answer": "true",
+          "prompt": { "en": "class", "es": "class" },
+          "support": {
+            "high": { "en": "Spanish look-alike: “clase” = a group of students learning together. Same meaning.", "es": "Palabra parecida: “clase” = un grupo de estudiantes. Mismo significado." },
+            "medium": { "en": "Think of a Spanish word that sounds almost the same.", "es": "Piensa en una palabra en español que suene casi igual." }
+          },
+          "feedback": { "true": { "correct": true,
+            "why": { "en": "“Class” and “clase” both mean a group of students learning together — same look, same meaning. True cognate.", "es": "“Class” y “clase” significan un grupo de estudiantes que aprenden juntos: misma forma, mismo significado. Cognado verdadero." },
+            "hint": { "en": "Does the Spanish word mean the same thing? If yes, it is a true cognate.", "es": "¿La palabra en español significa lo mismo? Si sí, es un cognado verdadero." } } }
+        },
+        {
+          "id": "s2", "targetWord": "problem", "answer": "true",
+          "prompt": { "en": "problem", "es": "problem" },
+          "support": {
+            "high": { "en": "Spanish look-alike: “problema” = problem. Same meaning.", "es": "Palabra parecida: “problema” = problem. Mismo significado." },
+            "medium": { "en": "Math class uses this word a lot.", "es": "Se usa mucho en la clase de matemáticas." }
+          },
+          "feedback": { "true": { "correct": true,
+            "why": { "en": "“Problem” and “problema” match in spelling and meaning — a true cognate, and a common one in math and science.", "es": "“Problem” y “problema” coinciden en escritura y significado: un cognado verdadero, común en matemáticas y ciencias." } } }
+        },
+        {
+          "id": "s3", "targetWord": "music", "answer": "true",
+          "prompt": { "en": "music", "es": "music" },
+          "support": {
+            "high": { "en": "Spanish look-alike: “música” = music. Same meaning.", "es": "Palabra parecida: “música” = music. Mismo significado." }
+          },
+          "feedback": { "true": { "correct": true,
+            "why": { "en": "“Music” and “música” mean the same thing and look almost identical. True cognate.", "es": "“Music” y “música” significan lo mismo y se ven casi iguales. Cognado verdadero." } } }
+        },
+        {
+          "id": "s4", "targetWord": "soap", "answer": "false",
+          "prompt": { "en": "soap", "es": "soap" },
+          "support": {
+            "high": { "en": "Careful: “sopa” looks close but means “soup.” Soap is “jabón.”", "es": "Cuidado: “sopa” se parece pero significa “soup.” Soap es “jabón.”" },
+            "medium": { "en": "You wash your hands with this — is that what “sopa” means?", "es": "Con esto te lavas las manos, ¿es eso lo que significa “sopa”?" }
+          },
+          "feedback": { "false": { "correct": true,
+            "why": { "en": "“Soap” looks like “sopa,” but “sopa” means “soup.” Soap is “jabón.” Look-alikes with different meanings — a false friend.", "es": "“Soap” se parece a “sopa,” pero “sopa” significa “soup.” Soap es “jabón.” Se parecen pero significan cosas distintas: falso amigo." },
+            "hint": { "en": "Would you eat soap? “Sopa” is something you eat.", "es": "¿Comerías jabón? “Sopa” es algo que se come." } } }
+        },
+        {
+          "id": "s5", "targetWord": "carpet", "answer": "false",
+          "prompt": { "en": "carpet", "es": "carpet" },
+          "support": {
+            "high": { "en": "Careful: “carpeta” means “folder,” not carpet. Carpet is “alfombra.”", "es": "Cuidado: “carpeta” significa “folder,” no carpet. Carpet es “alfombra.”" },
+            "medium": { "en": "A “carpeta” holds your papers. Is that a carpet?", "es": "Una “carpeta” guarda tus papeles. ¿Eso es una alfombra?" }
+          },
+          "feedback": { "false": { "correct": true,
+            "why": { "en": "“Carpet” looks like “carpeta,” but “carpeta” means “folder.” Carpet is “alfombra.” A false friend.", "es": "“Carpet” se parece a “carpeta,” pero “carpeta” significa “folder.” Carpet es “alfombra.” Un falso amigo." } } }
+        },
+        {
+          "id": "s6", "targetWord": "large", "answer": "false",
+          "prompt": { "en": "large", "es": "large" },
+          "support": {
+            "high": { "en": "Careful: “largo” means “long,” not large. Large is “grande.”", "es": "Cuidado: “largo” significa “long,” no large. Large es “grande.”" },
+            "medium": { "en": "“Largo” describes length, not size.", "es": "“Largo” describe la longitud, no el tamaño." }
+          },
+          "feedback": { "false": { "correct": true,
+            "why": { "en": "“Large” looks like “largo,” but “largo” means “long.” Large is “grande.” A false friend.", "es": "“Large” se parece a “largo,” pero “largo” significa “long.” Large es “grande.” Un falso amigo." } } }
+        },
+        {
+          "id": "s7", "targetWord": "run", "answer": "none",
+          "prompt": { "en": "run", "es": "run" },
+          "support": {
+            "high": { "en": "The Spanish word is “correr” — it looks nothing like “run.” No look-alike to use.", "es": "La palabra en español es “correr”: no se parece a “run.” No hay palabra parecida." }
+          },
+          "feedback": { "none": { "correct": true,
+            "why": { "en": "“Run” is “correr” in Spanish — no look-alike. Cognates are a great strategy, but not every word has one.", "es": "“Run” es “correr” en español: no hay palabra parecida. Los cognados son una gran estrategia, pero no todas las palabras tienen uno." },
+            "hint": { "en": "Does any Spanish word look like “run”? If not, it belongs in No look-alike.", "es": "¿Alguna palabra en español se parece a “run”? Si no, va en Sin palabra parecida." } } }
+        },
+        {
+          "id": "s8", "targetWord": "dog", "answer": "none",
+          "prompt": { "en": "dog", "es": "dog" },
+          "support": {
+            "high": { "en": "The Spanish word is “perro” — no look-alike.", "es": "La palabra en español es “perro”: no hay palabra parecida." }
+          },
+          "feedback": { "none": { "correct": true,
+            "why": { "en": "“Dog” is “perro” in Spanish — nothing alike. No look-alike.", "es": "“Dog” es “perro” en español: nada parecido. Sin palabra parecida." } } }
+        },
+        {
+          "id": "s9", "targetWord": "tree", "answer": "none",
+          "prompt": { "en": "tree", "es": "tree" },
+          "support": {
+            "high": { "en": "The Spanish word is “árbol” — no look-alike.", "es": "La palabra en español es “árbol”: no hay palabra parecida." }
+          },
+          "feedback": { "none": { "correct": true,
+            "why": { "en": "“Tree” is “árbol” in Spanish — nothing alike. No look-alike.", "es": "“Tree” es “árbol” en español: nada parecido. Sin palabra parecida." } } }
+        }
+      ],
+
+      "ace": { "articulate": true, "connect": true, "extend": true },
+
+      "clear": { "enabled": false, "emphasis": [] },
+
+      "udl": [
+        "representation.language-support",
+        "action-expression.multiple-response-modes",
+        "engagement.relevance"
+      ],
+
+      "strategies": [
+        "vocabulary-programs",
+        "corrective-feedback",
+        "classification"
+      ],
+
+      "standards": {
+        "elps": [
+          {
+            "code": "§120.21(d)(3)(B)",
+            "alignment": "direct",
+            "grades": [5],
+            "rationale": "Students identify cognates as they analyze each word's relationship to a Spanish look-alike."
+          },
+          {
+            "code": "§120.21(d)(3)(C)",
+            "alignment": "supporting",
+            "grades": [5],
+            "rationale": "Recognizing true cognates supports comprehending content-area vocabulary."
+          }
+        ],
+        "teks": [
+          {
+            "code": "§110.7(b)(3)(C)",
+            "alignment": "supporting",
+            "grades": [5],
+            "rationale": "Cognate recognition draws on shared roots between English and Spanish word families."
+          }
+        ],
+        "slar": []
+      },
+
+      "printables": ["cog-sort-3-5-002-student", "cog-sort-3-5-002-answer-key"],
+
+      "created": "2026-09-17",
+      "updated": "2026-09-17",
+      "status": "reviewed"
+    }
+  ]
+}

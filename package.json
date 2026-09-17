@@ -1,0 +1,16 @@
+{
+  "name": "language-bridge",
+  "version": "0.1.0",
+  "description": "Language Bridge (Puente) — bilingual/ESL activity center. Static, privacy-first, zero runtime dependencies.",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "validate:data": "node scripts/validate-data.js",
+    "validate:standards": "node scripts/validate-standards.js",
+    "validate:locales": "node scripts/validate-locales.js",
+    "validate": "npm run validate:standards && npm run validate:locales && npm run validate:data",
+    "test": "node tests/smoke.test.js",
+    "check": "npm run validate && npm test",
+    "serve": "python3 -m http.server 8731"
+  }
+}

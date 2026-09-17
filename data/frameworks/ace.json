@@ -1,0 +1,22 @@
+{
+  "id": "ace",
+  "name": "ACE",
+  "expansion": "Articulate · Connect · Extend",
+  "type": "local",
+  "authority": "Language Bridge project framework",
+  "officialDisclaimer": "ACE is a local instructional overlay authored for this project. It is not a Texas Education Agency requirement.",
+  "steps": {
+    "articulate": {
+      "en": "Say what the word or idea means in your own words.",
+      "es": "Di lo que significa la palabra o idea con tus propias palabras."
+    },
+    "connect": {
+      "en": "Connect it to a word or idea you already know — often in your home language.",
+      "es": "Conéctalo con una palabra o idea que ya conoces, muchas veces en tu idioma del hogar."
+    },
+    "extend": {
+      "en": "Use it in a new sentence or a new situation.",
+      "es": "Úsalo en una oración nueva o en una situación nueva."
+    }
+  }
+}

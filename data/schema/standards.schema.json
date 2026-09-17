@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://mglearn.github.io/puente/data/schema/standards.schema.json",
+  "title": "Language Bridge Standards Store",
+  "description": "Standards data model (spec §21). Official standards only; local frameworks live under /data/frameworks.",
+  "type": "object",
+  "required": ["_meta", "standards"],
+  "properties": {
+    "_meta": { "type": "object" },
+    "standards": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["code", "framework", "domain", "summary", "sourceStatus", "source"],
+        "properties": {
+          "code": { "type": "string" },
+          "framework": { "type": "string" },
+          "gradeRange": { "type": "string" },
+          "grade": { "type": "integer" },
+          "subject": { "type": "string" },
+          "domain": { "type": "string", "enum": ["listening", "speaking", "reading", "writing", "vocabulary", "language"] },
+          "summary": { "type": "string", "minLength": 12 },
+          "sourceStatus": { "type": "string", "enum": ["official", "spec-provisional"] },
+          "effective": { "type": "string" },
+          "verified": { "type": ["string", "null"] },
+          "source": { "type": "string" }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "_meta": {
+    "lang": "en",
+    "name": "English",
+    "dir": "ltr",
+    "note": "Source locale. All keys here are status=published by definition."
+  },
+  "strings": {
+    "site.name":            { "text": "Language Bridge", "status": "published" },
+    "site.tagline":         { "text": "Learn it. Connect it. Use it.", "status": "published" },
+
+    "nav.activities":       { "text": "Activities", "status": "published" },
+    "nav.modules":          { "text": "Modules", "status": "published" },
+    "nav.printables":       { "text": "Printables", "status": "published" },
+    "nav.newcomer":         { "text": "Newcomer", "status": "published" },
+    "nav.teacher":          { "text": "Teacher Tools", "status": "published" },
+    "nav.standards":        { "text": "Standards", "status": "published" },
+    "nav.frameworks":       { "text": "Frameworks", "status": "published" },
+    "nav.about":            { "text": "About", "status": "published" },
+
+    "lang.label":           { "text": "Language", "status": "published" },
+
+    "mode.label":           { "text": "View", "status": "published" },
+    "mode.teacher":         { "text": "Teacher", "status": "published" },
+    "mode.student":         { "text": "Student", "status": "published" },
+
+    "support.label":        { "text": "Support level", "status": "published" },
+    "support.high":         { "text": "More support", "status": "published" },
+    "support.medium":       { "text": "Some support", "status": "published" },
+    "support.light":        { "text": "Independent", "status": "published" },
+
+    "activity.check":       { "text": "Check", "status": "published" },
+    "activity.try_again":   { "text": "Try again", "status": "published" },
+    "activity.hint":        { "text": "Show hint", "status": "published" },
+    "activity.explain":     { "text": "Explain", "status": "published" },
+    "activity.next":        { "text": "Next", "status": "published" },
+    "activity.item_of":     { "text": "Item {n} of {total}", "status": "published" },
+    "activity.choose":      { "text": "Choose an answer, then select Check.", "status": "published" },
+    "activity.select_first":{ "text": "Pick an answer first.", "status": "published" },
+    "activity.print":       { "text": "Print this activity", "status": "published" },
+    "activity.student_link":{ "text": "Copy student link", "status": "published" },
+
+    "feedback.correct_head":{ "text": "You've got it.", "status": "published" },
+    "feedback.rethink_head":{ "text": "Look again.", "status": "published" },
+
+    "teacher.objective":    { "text": "Learning objective", "status": "published" },
+    "teacher.time":         { "text": "Estimated time", "status": "published" },
+    "teacher.grade":        { "text": "Grade / course", "status": "published" },
+    "teacher.function":     { "text": "Language function", "status": "published" },
+    "teacher.materials":    { "text": "Materials", "status": "published" },
+    "teacher.directions":   { "text": "Teacher directions", "status": "published" },
+    "teacher.student_dirs":  { "text": "Student directions", "status": "published" },
+    "teacher.supports":     { "text": "Support options", "status": "published" },
+    "teacher.standards":    { "text": "Standards addressed", "status": "published" },
+    "teacher.udl":          { "text": "UDL supports", "status": "published" },
+    "teacher.strategies":   { "text": "Instructional strategies", "status": "published" },
+    "teacher.printables":   { "text": "Printable resources", "status": "published" },
+    "teacher.answer":       { "text": "Answer guidance", "status": "published" },
+    "teacher.launch":       { "text": "Launch options", "status": "published" },
+    "teacher.view_correlation": { "text": "View full correlation", "status": "published" },
+
+    "std.elps":             { "text": "ELPS", "status": "published" },
+    "std.teks":             { "text": "TEKS", "status": "published" },
+    "std.slar":             { "text": "Spanish TEKS", "status": "published" },
+    "std.direct":           { "text": "Direct", "status": "published" },
+    "std.supporting":       { "text": "Supporting", "status": "published" },
+    "std.official":         { "text": "Official Texas standard", "status": "published" },
+    "std.rationale":        { "text": "Why this activity addresses it", "status": "published" },
+
+    "framework.ace":        { "text": "ACE", "status": "published" },
+    "framework.clear":      { "text": "CLEAR", "status": "published" },
+    "framework.local_note": { "text": "A local instructional framework for this project — not a Texas Education Agency requirement.", "status": "published" },
+
+    "ace.articulate":       { "text": "Articulate", "status": "published" },
+    "ace.connect":          { "text": "Connect", "status": "published" },
+    "ace.extend":           { "text": "Extend", "status": "published" },
+    "ace.done_head":        { "text": "One more step", "status": "published" },
+    "ace.q_articulate":     { "text": "What does the word mean?", "status": "published" },
+    "ace.q_connect":        { "text": "What word in your home language helped you?", "status": "published" },
+    "ace.q_extend":         { "text": "Use the English word in a new sentence.", "status": "published" },
+
+    "done.head":            { "text": "Nice detective work.", "status": "published" },
+    "done.again":           { "text": "Do it again", "status": "published" },
+
+    "privacy.note":         { "text": "No logins. No accounts. No student data collected.", "status": "published" }
+  }
+}

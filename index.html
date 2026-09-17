@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Language Bridge — bilingual & ESL activities for real classrooms</title>
+<meta name="description" content="Language Bridge: bilingual and ESL activities, printables, and language supports for Texas K–12 educators and emergent bilingual students. No logins, no accounts, no student data collected.">
+<link rel="stylesheet" href="assets/css/tokens.css">
+<link rel="stylesheet" href="assets/css/base.css">
+<link rel="stylesheet" href="assets/css/layout.css">
+<link rel="stylesheet" href="assets/css/components.css">
+<link rel="stylesheet" href="assets/css/rtl.css">
+<style>
+  .hero-card { margin-bottom: var(--sp-6); }
+  .hero-card .hero { display:block; width:100%; height:auto; }
+  .hero-copy { padding: clamp(1.25rem,4vw,2rem); }
+  .hero-copy h1 { margin-bottom: .1rem; }
+  .hero-copy .tag { color: var(--teal); font-weight: 700; font-size: clamp(1rem,3vw,1.25rem); margin-bottom: var(--sp-4); }
+
+  .finder { display:grid; gap: var(--sp-3); grid-template-columns: repeat(auto-fit,minmax(9rem,1fr)); align-items:end; }
+  .finder label { display:block; font-weight:600; font-size:.85rem; color:var(--navy); margin-bottom:.25rem; }
+  .finder select { width:100%; font:inherit; padding:.5rem; border:2px solid #cdddf2; border-radius:10px; background:#fff; }
+  .finder .go { grid-column: 1 / -1; }
+  .results { margin-top: var(--sp-5); display:grid; gap: var(--sp-4); grid-template-columns: repeat(auto-fill,minmax(16rem,1fr)); }
+  .result-card { display:flex; flex-direction:column; }
+  .result-card .pad { flex:1; display:flex; flex-direction:column; gap:.5rem; }
+  .result-card .meta { margin-top:auto; }
+  .module-grid .chip.live { background:#e7f4f4; color:var(--teal); }
+  .module-grid .chip.planned { background:#eef1f6; color:var(--ink-soft); }
+</style>
+</head>
+<body data-nav="index">
+<a class="skip-link" href="#main">Skip to content</a>
+<div data-shell="header"></div>
+
+<main class="main" id="main">
+  <div class="card hero-card">
+    <picture>
+      <source type="image/webp" srcset="assets/img/hero-960.webp 960w, assets/img/hero.webp 1916w" sizes="(max-width: 68rem) 100vw, 68rem">
+      <img class="hero" src="assets/img/hero.jpg" width="1916" height="821" fetchpriority="high"
+        alt="A teacher leans over a table of five students reading, writing, and sorting picture cards together.">
+    </picture>
+    <div class="hero-copy">
+      <h1 data-i18n="site.name">Language Bridge</h1>
+      <p class="tag" data-i18n="site.tagline">Learn it. Connect it. Use it.</p>
+      <p data-i18n="privacy.note">No logins. No accounts. No student data collected.</p>
+    </div>
+  </div>
+
+  <!-- Quick Activity Finder (spec §13 / §119 user story) -->
+  <section class="card"><div class="pad">
+    <h2>Find something to use in the next 10 minutes</h2>
+    <form class="finder" id="finder" aria-label="Quick activity finder">
+      <div><label for="f-grade">Grade</label>
+        <select id="f-grade"><option value="">Any</option>
+          <option>K</option><option>1</option><option>2</option><option>3</option><option>4</option>
+          <option value="5" selected>5</option><option>6</option><option>7</option><option>8</option>
+          <option>9</option><option>10</option><option>11</option><option>12</option></select></div>
+      <div><label for="f-focus">Focus</label>
+        <select id="f-focus"><option value="">Any</option>
+          <option value="vocabulary" selected>Vocabulary</option>
+          <option value="elar">Reading / ELAR</option></select></div>
+      <div><label for="f-support">Home language</label>
+        <select id="f-support"><option value="">Any</option>
+          <option value="es" selected>Spanish</option></select></div>
+      <div><label for="f-time">Time</label>
+        <select id="f-time"><option value="">Any</option>
+          <option value="10" selected>5–10 min</option><option value="20">10–20 min</option></select></div>
+      <button class="btn go" type="submit">Find activities</button>
+    </form>
+    <div class="results" id="results" aria-live="polite"></div>
+  </div></section>
+
+  <!-- Launch modules -->
+  <h2 style="margin-top:var(--sp-6)">Modules</h2>
+  <div class="grid module-grid" id="module-grid"></div>
+</main>
+
+<div data-shell="footer"></div>
+
+<script>window.LB_BASE = "";</script>
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/app.js"></script>
+<script>
+(function () {
+  "use strict";
+  var site = null, activities = [];
+  function pick(o){ return I18n.pick(o, I18n.uiLang); }
+  function esc(s){ return String(s==null?"":s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
+
+  function search() {
+    var g = document.getElementById("f-grade").value;
+    var focus = document.getElementById("f-focus").value;
+    var support = document.getElementById("f-support").value;
+    var time = document.getElementById("f-time").value;
+    var matches = activities.filter(function (a) {
+      if (g && a.grades.indexOf(g === "K" ? 0 : parseInt(g,10)) === -1) return false;
+      if (support && a.supportedHomeLanguages.indexOf(support) === -1) return false;
+      if (time && a.duration > parseInt(time,10)) return false;
+      if (focus === "vocabulary" && a.interactionType.indexOf("choice") === -1 && a.module !== "cognate-detective") return false;
+      if (focus === "elar" && a.subjects.indexOf("elar") === -1) return false;
+      return true;
+    });
+    var box = document.getElementById("results");
+    if (!matches.length) { box.innerHTML = "<p>No matches yet — more activities are on the way.</p>"; return; }
+    box.innerHTML = matches.map(function (a) {
+      return '<div class="card result-card"><div class="pad">' +
+        '<h3>' + esc(pick(a.title)) + '</h3>' +
+        '<p>' + esc(pick(a.studentGoal)).slice(0,110) + '…</p>' +
+        '<div class="meta activity-meta">' +
+          '<span class="chip">' + a.duration + ' min</span>' +
+          '<span class="chip">Grade ' + a.grades.join(", ") + '</span>' +
+          '<span class="chip">EN ↔ ' + a.supportedHomeLanguages.join(",").toUpperCase() + '</span>' +
+        '</div>' +
+        '<div class="row" style="margin-top:.75rem">' +
+          '<a class="btn sm" href="modules/' + esc(a.module) + '/activity.html?id=' + esc(a.id) + '">Open</a>' +
+          '<a class="btn sm secondary" href="modules/' + esc(a.module) + '/activity.html?id=' + esc(a.id) + '&mode=student">Student mode</a>' +
+        '</div>' +
+      '</div></div>';
+    }).join("");
+  }
+
+  function renderModules() {
+    document.getElementById("module-grid").innerHTML = site.modules.map(function (m) {
+      var live = m.status === "live";
+      var inner = '<div class="pad">' +
+        '<h3>' + esc(pick(m.name)) + '</h3>' +
+        '<p>' + esc(pick(m.blurb)) + '</p>' +
+        '<span class="chip ' + (live?"live":"planned") + '">' + (live?"Available now":"Coming soon") + '</span>' +
+      '</div>';
+      return live
+        ? '<a class="card" style="text-decoration:none;color:inherit" href="modules/' + esc(m.id) + '/">' + inner + '</a>'
+        : '<div class="card">' + inner + '</div>';
+    }).join("");
+  }
+
+  window.LB.ready.then(function () {
+    return fetch("data/site.json").then(function (r){ return r.json(); });
+  }).then(function (s) {
+    site = s;
+    renderModules();
+    var live = site.modules.filter(function (m){ return m.status === "live"; });
+    return Promise.all(live.map(function (m) {
+      return fetch(m.data).then(function (r){ return r.json(); }).then(function (d){ return d.activities || []; });
+    }));
+  }).then(function (lists) {
+    activities = lists.reduce(function (all, l){ return all.concat(l); }, []);
+    document.getElementById("finder").addEventListener("submit", function (e){ e.preventDefault(); search(); });
+    document.addEventListener("lb:langchange", function () { renderModules(); if (document.getElementById("results").innerHTML) search(); });
+    search();
+  });
+})();
+</script>
+</body>
+</html>

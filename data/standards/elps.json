@@ -1,0 +1,69 @@
+{
+  "_meta": {
+    "framework": "Texas English Language Proficiency Standards (ELPS)",
+    "authority": "Texas Education Agency — 19 TAC Chapter 120",
+    "citation": "§120.20 (K–3) and §120.21 (grades 4–12)",
+    "effective": "2026-2027",
+    "sourceStatus": "official",
+    "reviewNote": "Summaries are plain-language paraphrases for teacher display, checked 2026-09-17 against the codified 19 TAC text (Cornell LII reproduction of the Texas Administrative Code). CAVEAT: the revised Chapter 120 ELPS were confirmed against a single retrievable authoritative reproduction; a belt-and-suspenders cross-check against the TEA-hosted ch120b.pdf adoption document is still advisable before public launch.",
+    "verified": "2026-09-17",
+    "verifiedSource": "https://www.law.cornell.edu/regulations/texas/ (19 Tex. Admin. Code §§120.20, 120.21)"
+  },
+  "standards": [
+    {
+      "code": "§120.21(d)(3)(C)",
+      "framework": "Texas ELPS",
+      "gradeRange": "4-12",
+      "domain": "reading",
+      "summary": "Use high-frequency words, context, cognates, and Greek and Latin prefixes, suffixes, and roots to comprehend content-area vocabulary in text.",
+      "sourceStatus": "official",
+      "effective": "2026-2027",
+      "verified": "2026-09-17",
+      "source": "Texas Education Agency / 19 TAC §120.21(d)(3)(C)"
+    },
+    {
+      "code": "§120.21(d)(3)(B)",
+      "framework": "Texas ELPS",
+      "gradeRange": "4-12",
+      "domain": "reading",
+      "summary": "Decode words using sound-letter relationships and identify syllable patterns, cognates, affixes, roots, or base words.",
+      "sourceStatus": "official",
+      "effective": "2026-2027",
+      "verified": "2026-09-17",
+      "source": "Texas Education Agency / 19 TAC §120.21(d)(3)(B)"
+    },
+    {
+      "code": "§120.21(d)(1)(B)",
+      "framework": "Texas ELPS",
+      "gradeRange": "4-12",
+      "domain": "listening",
+      "summary": "Use context or word analysis — such as cognates and Greek and Latin prefixes, suffixes, and roots — to comprehend content-specific vocabulary heard during classroom interactions.",
+      "sourceStatus": "official",
+      "effective": "2026-2027",
+      "verified": "2026-09-17",
+      "source": "Texas Education Agency / 19 TAC §120.21(d)(1)(B)"
+    },
+    {
+      "code": "§120.21(d)(2)(B)",
+      "framework": "Texas ELPS",
+      "gradeRange": "4-12",
+      "domain": "speaking",
+      "summary": "Speak using content-area vocabulary during classroom interactions to demonstrate acquisition of new and high-frequency words.",
+      "sourceStatus": "official",
+      "effective": "2026-2027",
+      "verified": "2026-09-17",
+      "source": "Texas Education Agency / 19 TAC §120.21(d)(2)(B)"
+    },
+    {
+      "code": "§120.20(d)(3)(C)",
+      "framework": "Texas ELPS",
+      "gradeRange": "K-3",
+      "domain": "reading",
+      "summary": "Use high-frequency words, cognates, and content-area vocabulary to comprehend written classroom materials.",
+      "sourceStatus": "official",
+      "effective": "2026-2027",
+      "verified": "2026-09-17",
+      "source": "Texas Education Agency / 19 TAC §120.20(d)(3)(C)"
+    }
+  ]
+}

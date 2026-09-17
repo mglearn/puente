@@ -1,0 +1,149 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://mglearn.github.io/puente/data/schema/activity.schema.json",
+  "title": "Language Bridge Activity",
+  "description": "Shared, data-driven activity record (spec §17). One record feeds the student interactive, the teacher view, the standards drawer, and the printable — no per-activity JavaScript.",
+  "type": "object",
+  "required": [
+    "id", "module", "title", "grades", "gradeBand", "subjects", "duration",
+    "interactionType", "targetLanguage", "supportedHomeLanguages", "languagePair",
+    "studentGoal", "items", "ace", "clear", "udl", "strategies", "standards",
+    "created", "updated", "status"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "module": { "type": "string", "enum": ["cognate-detective", "academic-language-lab", "newcomer-navigator"] },
+    "title": { "$ref": "#/$defs/localized" },
+    "grades": { "type": "array", "items": { "type": "integer", "minimum": 0, "maximum": 12 }, "minItems": 1 },
+    "gradeBand": { "type": "string", "enum": ["K-2", "3-5", "6-8", "9-12"] },
+    "subjects": { "type": "array", "items": { "type": "string", "enum": ["elar", "slar", "math", "science", "social-studies"] } },
+    "duration": { "type": "integer", "minimum": 1, "maximum": 60 },
+    "interactionType": {
+      "type": "string",
+      "enum": ["multiple-choice", "context-choice", "sort", "match", "sentence-builder", "scenario-choice", "sequence", "reveal", "open-response", "oral-rehearsal"]
+    },
+    "targetLanguage": { "type": "string" },
+    "supportedHomeLanguages": { "type": "array", "items": { "type": "string" } },
+    "languagePair": { "type": "string", "pattern": "^[a-z-]+-[a-z-]+$" },
+    "categories": {
+      "type": "array",
+      "description": "Sort bins (spec §18 Engine 2). Required when interactionType is 'sort'. Each item's answer is a category id.",
+      "items": {
+        "type": "object",
+        "required": ["id", "label"],
+        "properties": {
+          "id": { "type": "string" },
+          "label": { "$ref": "#/$defs/localized" },
+          "hint": { "$ref": "#/$defs/localized" }
+        }
+      }
+    },
+    "studentGoal": { "$ref": "#/$defs/localized" },
+    "studentDirections": { "$ref": "#/$defs/localized" },
+    "teacherDirections": { "$ref": "#/$defs/localized" },
+    "languageFunction": { "$ref": "#/$defs/localized" },
+    "materials": { "type": "array", "items": { "$ref": "#/$defs/localized" } },
+    "items": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "description": "Choice-type interactions require 'choices'; sort requires activity-level 'categories' and 'answer' as a category id. The validator enforces the per-type rule.",
+        "required": ["id", "prompt", "answer", "feedback"],
+        "properties": {
+          "id": { "type": "string" },
+          "prompt": { "$ref": "#/$defs/localized" },
+          "context": { "$ref": "#/$defs/localized" },
+          "targetWord": { "type": "string" },
+          "support": {
+            "type": "object",
+            "description": "Home-language scaffolds, revealed per support level (spec §20).",
+            "properties": {
+              "high": { "$ref": "#/$defs/localized" },
+              "medium": { "$ref": "#/$defs/localized" },
+              "image": { "type": "string" }
+            }
+          },
+          "choices": {
+            "type": "array",
+            "minItems": 2,
+            "items": {
+              "type": "object",
+              "required": ["id", "label"],
+              "properties": {
+                "id": { "type": "string" },
+                "label": { "$ref": "#/$defs/localized" }
+              }
+            }
+          },
+          "answer": { "type": "string", "description": "id of the correct choice" },
+          "feedback": {
+            "type": "object",
+            "description": "Feedback explains WHY (spec §19). Keyed by choice id; MUST include the correct choice and every distractor.",
+            "additionalProperties": { "$ref": "#/$defs/feedbackEntry" }
+          }
+        }
+      }
+    },
+    "ace": {
+      "type": "object",
+      "properties": {
+        "articulate": { "type": "boolean" },
+        "connect": { "type": "boolean" },
+        "extend": { "type": "boolean" }
+      }
+    },
+    "clear": {
+      "type": "object",
+      "properties": {
+        "enabled": { "type": "boolean" },
+        "emphasis": { "type": "array", "items": { "type": "string", "enum": ["claim", "lens", "evidence", "alternatives", "response"] } }
+      }
+    },
+    "udl": { "type": "array", "items": { "type": "string" } },
+    "strategies": { "type": "array", "items": { "type": "string" } },
+    "standards": {
+      "type": "object",
+      "required": ["elps", "teks"],
+      "properties": {
+        "elps": { "type": "array", "items": { "$ref": "#/$defs/correlation" } },
+        "teks": { "type": "array", "items": { "$ref": "#/$defs/correlation" } },
+        "slar": { "type": "array", "items": { "$ref": "#/$defs/correlation" } }
+      }
+    },
+    "printables": { "type": "array", "items": { "type": "string" } },
+    "created": { "type": "string", "format": "date" },
+    "updated": { "type": "string", "format": "date" },
+    "status": { "type": "string", "enum": ["draft", "reviewed", "published"] }
+  },
+  "$defs": {
+    "localized": {
+      "type": "object",
+      "description": "Per-language text; 'en' is required as the source/fallback language.",
+      "required": ["en"],
+      "additionalProperties": { "type": "string" }
+    },
+    "feedbackEntry": {
+      "type": "object",
+      "required": ["why"],
+      "properties": {
+        "correct": { "type": "boolean" },
+        "why": { "$ref": "#/$defs/localized" },
+        "hint": { "$ref": "#/$defs/localized" },
+        "next": { "$ref": "#/$defs/localized" }
+      }
+    },
+    "correlation": {
+      "type": "object",
+      "description": "Activity-to-standard relationship (spec §22). rationale MUST justify the link in one sentence.",
+      "required": ["code", "alignment", "rationale"],
+      "properties": {
+        "code": { "type": "string" },
+        "alignment": { "type": "string", "enum": ["direct", "supporting"] },
+        "grades": { "type": "array", "items": { "type": "integer" } },
+        "rationale": { "type": "string", "minLength": 12 }
+      }
+    }
+  }
+}

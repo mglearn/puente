@@ -1,0 +1,30 @@
+{
+  "id": "clear",
+  "name": "CLEAR",
+  "expansion": "Claim · Lens · Evidence · Alternatives · Response",
+  "type": "local",
+  "authority": "Language Bridge project framework",
+  "officialDisclaimer": "CLEAR is a local instructional overlay authored for this project. It is not a Texas Education Agency requirement.",
+  "steps": {
+    "claim": {
+      "en": "What does the word mean here?",
+      "es": "¿Qué significa la palabra aquí?"
+    },
+    "lens": {
+      "en": "Which language clue are you using?",
+      "es": "¿Qué pista lingüística estás usando?"
+    },
+    "evidence": {
+      "en": "What in the sentence proves it?",
+      "es": "¿Qué parte de la oración lo comprueba?"
+    },
+    "alternatives": {
+      "en": "What tempting translation does NOT fit?",
+      "es": "¿Qué traducción tentadora NO encaja?"
+    },
+    "response": {
+      "en": "Give the best meaning.",
+      "es": "Da el mejor significado."
+    }
+  }
+}

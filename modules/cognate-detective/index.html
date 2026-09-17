@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cognate Detective — Language Bridge</title>
+<meta name="description" content="Cognate Detective: spot the connection, check the meaning, use the word. Bilingual vocabulary activities with teacher views, standards, and printables.">
+<link rel="stylesheet" href="../../assets/css/tokens.css">
+<link rel="stylesheet" href="../../assets/css/base.css">
+<link rel="stylesheet" href="../../assets/css/layout.css">
+<link rel="stylesheet" href="../../assets/css/components.css">
+<link rel="stylesheet" href="../../assets/css/rtl.css">
+<style> body { --module-accent: var(--teal); } </style>
+</head>
+<body data-nav="modules/">
+<a class="skip-link" href="#main">Skip to content</a>
+<div data-shell="header"></div>
+
+<main class="main" id="main">
+  <div class="card"><div class="pad">
+    <h1>Cognate Detective</h1>
+    <p class="tag" style="color:var(--teal);font-weight:700">Spot the connection · check the meaning · use the word.</p>
+    <p>English and Spanish share thousands of cognates — words that look alike and mean the same thing.
+       Some are false friends. Cognate Detective helps emergent bilingual students use what they already
+       know to unlock English vocabulary, then verify meaning with context.</p>
+  </div></div>
+
+  <h2 style="margin-top:var(--sp-6)">Recommended starting point</h2>
+  <div class="grid" id="activity-grid"></div>
+</main>
+
+<div data-shell="footer"></div>
+
+<script>window.LB_BASE = "../../";</script>
+<script src="../../assets/js/i18n.js"></script>
+<script src="../../assets/js/app.js"></script>
+<script>
+(function () {
+  "use strict";
+  function pick(o){ return I18n.pick(o, I18n.uiLang); }
+  function esc(s){ return String(s==null?"":s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
+  window.LB.ready.then(function () {
+    return fetch("../../modules/cognate-detective/data.json").then(function (r){ return r.json(); });
+  }).then(function (store) {
+    document.getElementById("activity-grid").innerHTML = (store.activities||[]).map(function (a) {
+      return '<div class="card"><div class="pad">' +
+        '<h3>' + esc(pick(a.title)) + '</h3>' +
+        '<p>' + esc(pick(a.studentGoal)) + '</p>' +
+        '<div class="activity-meta"><span class="chip">' + a.duration + ' min</span>' +
+          '<span class="chip">Grade ' + a.grades.join(", ") + '</span>' +
+          '<span class="chip">EN ↔ ' + a.supportedHomeLanguages.join(",").toUpperCase() + '</span></div>' +
+        '<div class="row" style="margin-top:.75rem">' +
+          '<a class="btn sm" href="activity.html?id=' + esc(a.id) + '">Teacher view</a>' +
+          '<a class="btn sm secondary" href="activity.html?id=' + esc(a.id) + '&mode=student">Student mode</a>' +
+          '<a class="btn sm secondary" href="printables.html?id=' + esc(a.id) + '" target="_blank" rel="noopener">Printable</a>' +
+        '</div></div></div>';
+    }).join("");
+  });
+})();
+</script>
+</body>
+</html>

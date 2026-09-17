@@ -1,0 +1,87 @@
+{
+  "_meta": {
+    "lang": "es",
+    "name": "Español",
+    "dir": "ltr",
+    "note": "Core UI reviewed by a bilingual educator. A few keys left 'reviewed' (not yet 'published') to exercise the QC fallback — spec §8."
+  },
+  "strings": {
+    "site.name":            { "text": "Language Bridge", "status": "published" },
+    "site.tagline":         { "text": "Apréndelo. Conéctalo. Úsalo.", "status": "published" },
+
+    "nav.activities":       { "text": "Actividades", "status": "published" },
+    "nav.modules":          { "text": "Módulos", "status": "published" },
+    "nav.printables":       { "text": "Imprimibles", "status": "published" },
+    "nav.newcomer":         { "text": "Recién llegados", "status": "published" },
+    "nav.teacher":          { "text": "Herramientas docentes", "status": "published" },
+    "nav.standards":        { "text": "Estándares", "status": "published" },
+    "nav.frameworks":       { "text": "Marcos", "status": "published" },
+    "nav.about":            { "text": "Acerca de", "status": "published" },
+
+    "lang.label":           { "text": "Idioma", "status": "published" },
+
+    "mode.label":           { "text": "Vista", "status": "published" },
+    "mode.teacher":         { "text": "Docente", "status": "published" },
+    "mode.student":         { "text": "Estudiante", "status": "published" },
+
+    "support.label":        { "text": "Nivel de apoyo", "status": "published" },
+    "support.high":         { "text": "Más apoyo", "status": "published" },
+    "support.medium":       { "text": "Algo de apoyo", "status": "published" },
+    "support.light":        { "text": "Independiente", "status": "published" },
+
+    "activity.check":       { "text": "Revisar", "status": "published" },
+    "activity.try_again":   { "text": "Intentar de nuevo", "status": "published" },
+    "activity.hint":        { "text": "Mostrar pista", "status": "published" },
+    "activity.explain":     { "text": "Explicar", "status": "published" },
+    "activity.next":        { "text": "Siguiente", "status": "published" },
+    "activity.item_of":     { "text": "Ítem {n} de {total}", "status": "published" },
+    "activity.choose":      { "text": "Elige una respuesta y luego selecciona Revisar.", "status": "published" },
+    "activity.select_first":{ "text": "Primero elige una respuesta.", "status": "published" },
+    "activity.print":       { "text": "Imprimir esta actividad", "status": "published" },
+    "activity.student_link":{ "text": "Copiar enlace para estudiantes", "status": "reviewed" },
+
+    "feedback.correct_head":{ "text": "¡Lo lograste!", "status": "published" },
+    "feedback.rethink_head":{ "text": "Mira otra vez.", "status": "published" },
+
+    "teacher.objective":    { "text": "Objetivo de aprendizaje", "status": "published" },
+    "teacher.time":         { "text": "Tiempo estimado", "status": "published" },
+    "teacher.grade":        { "text": "Grado / curso", "status": "published" },
+    "teacher.function":     { "text": "Función lingüística", "status": "published" },
+    "teacher.materials":    { "text": "Materiales", "status": "published" },
+    "teacher.directions":   { "text": "Instrucciones para el docente", "status": "published" },
+    "teacher.student_dirs": { "text": "Instrucciones para el estudiante", "status": "published" },
+    "teacher.supports":     { "text": "Opciones de apoyo", "status": "published" },
+    "teacher.standards":    { "text": "Estándares abordados", "status": "published" },
+    "teacher.udl":          { "text": "Apoyos de UDL", "status": "published" },
+    "teacher.strategies":   { "text": "Estrategias de enseñanza", "status": "published" },
+    "teacher.printables":   { "text": "Recursos imprimibles", "status": "published" },
+    "teacher.answer":       { "text": "Guía de respuestas", "status": "published" },
+    "teacher.launch":       { "text": "Opciones para comenzar", "status": "reviewed" },
+    "teacher.view_correlation": { "text": "Ver la correlación completa", "status": "published" },
+
+    "std.elps":             { "text": "ELPS", "status": "published" },
+    "std.teks":             { "text": "TEKS", "status": "published" },
+    "std.slar":             { "text": "TEKS en español", "status": "published" },
+    "std.direct":           { "text": "Directo", "status": "published" },
+    "std.supporting":       { "text": "De apoyo", "status": "published" },
+    "std.official":         { "text": "Estándar oficial de Texas", "status": "published" },
+    "std.rationale":        { "text": "Por qué esta actividad lo aborda", "status": "published" },
+
+    "framework.ace":        { "text": "ACE", "status": "published" },
+    "framework.clear":      { "text": "CLEAR", "status": "published" },
+    "framework.local_note": { "text": "Un marco de enseñanza local de este proyecto, no un requisito de la Agencia de Educación de Texas.", "status": "published" },
+
+    "ace.articulate":       { "text": "Articular", "status": "published" },
+    "ace.connect":          { "text": "Conectar", "status": "published" },
+    "ace.extend":           { "text": "Extender", "status": "published" },
+    "ace.done_head":        { "text": "Un paso más", "status": "published" },
+    "ace.q_articulate":     { "text": "¿Qué significa la palabra?", "status": "published" },
+    "ace.q_connect":        { "text": "¿Qué palabra de tu idioma del hogar te ayudó?", "status": "published" },
+    "ace.q_extend":         { "text": "Usa la palabra en inglés en una oración nueva.", "status": "published" },
+
+    "done.head":            { "text": "Buen trabajo de detective.", "status": "published" },
+    "done.again":           { "text": "Hacerlo otra vez", "status": "published" },
+
+    "privacy.note":         { "text": "Sin inicios de sesión. Sin cuentas. No se recopilan datos del estudiante.", "status": "published" }
+  }
+}

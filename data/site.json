@@ -1,0 +1,42 @@
+{
+  "name": "Language Bridge",
+  "tagline": { "en": "Learn it. Connect it. Use it.", "es": "Apréndelo. Conéctalo. Úsalo." },
+  "modules": [
+    {
+      "id": "cognate-detective",
+      "order": 1,
+      "name": { "en": "Cognate Detective", "es": "Detective de cognados" },
+      "blurb": {
+        "en": "Spot the connection, check the meaning, use the word.",
+        "es": "Detecta la conexión, revisa el significado, usa la palabra."
+      },
+      "accent": "teal",
+      "data": "modules/cognate-detective/data.json",
+      "status": "live"
+    },
+    {
+      "id": "academic-language-lab",
+      "order": 2,
+      "name": { "en": "Academic Language Lab", "es": "Laboratorio de lenguaje académico" },
+      "blurb": {
+        "en": "Say it, explain it, support it, use it.",
+        "es": "Dilo, explícalo, susténtalo, úsalo."
+      },
+      "accent": "blue",
+      "data": "modules/academic-language-lab/data.json",
+      "status": "planned"
+    },
+    {
+      "id": "newcomer-navigator",
+      "order": 3,
+      "name": { "en": "Newcomer Navigator", "es": "Guía para recién llegados" },
+      "blurb": {
+        "en": "Understand school, ask for help, join in.",
+        "es": "Entiende la escuela, pide ayuda, participa."
+      },
+      "accent": "gold",
+      "data": "modules/newcomer-navigator/data.json",
+      "status": "planned"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "udl",
+  "name": "UDL 3.0",
+  "type": "external",
+  "authority": "CAST — Universal Design for Learning Guidelines, version 3.0",
+  "officialDisclaimer": "UDL 3.0 is CAST's framework. Language Bridge applies it as a design requirement, not as a badge or a Texas Education Agency requirement.",
+  "options": {
+    "representation.language-support": {
+      "en": "Clarify vocabulary and provide home-language support.",
+      "es": "Aclarar el vocabulario y ofrecer apoyo en el idioma del hogar."
+    },
+    "representation.context": {
+      "en": "Supply context and illustrate through multiple media.",
+      "es": "Ofrecer contexto e ilustrar con varios medios."
+    },
+    "action-expression.multiple-response-modes": {
+      "en": "Allow more than one way to respond.",
+      "es": "Permitir más de una forma de responder."
+    },
+    "engagement.relevance": {
+      "en": "Make the task authentic and relevant to the learner.",
+      "es": "Hacer que la tarea sea auténtica y relevante para el estudiante."
+    }
+  }
+}

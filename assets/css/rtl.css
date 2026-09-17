@@ -1,0 +1,16 @@
+/* Language Bridge — RTL support (Arabic, Urdu — spec §8)
+   Logical properties in the other stylesheets do most of the work.
+   This file handles the few things that need explicit direction awareness. */
+
+[dir="rtl"] body { font-family: var(--font-rtl); }
+
+[dir="rtl"] .brand .mark {
+  background: linear-gradient(270deg, #fff, var(--blue) 45%, var(--teal) 75%, var(--gold));
+}
+
+/* Icons / glyphs that imply direction should mirror */
+[dir="rtl"] .drawer > summary::after { content: "▾"; }
+
+/* Underline offsets and text alignment already inherit from logical props.
+   Keep target-language spans LTR when the target is English inside RTL UI. */
+[dir="rtl"] .prompt .target[data-lang="en"] { direction: ltr; unicode-bidi: isolate; }

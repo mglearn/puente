@@ -1,0 +1,45 @@
+{
+  "_meta": {
+    "framework": "Texas Essential Knowledge and Skills — English Language Arts and Reading",
+    "authority": "Texas Education Agency — 19 TAC Chapter 110",
+    "sourceStatus": "official",
+    "reviewNote": "Plain-language paraphrases for teacher display, checked 2026-09-17 against the codified 19 TAC §110.7 text (Cornell LII reproduction). Grade 5 (b)(3) is the vocabulary strand: 'the student uses newly acquired vocabulary expressively.'",
+    "verified": "2026-09-17",
+    "verifiedSource": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-110-7"
+  },
+  "standards": [
+    {
+      "code": "§110.7(b)(3)(B)",
+      "framework": "Texas TEKS ELAR",
+      "grade": 5,
+      "subject": "elar",
+      "domain": "vocabulary",
+      "summary": "Use context within and beyond a sentence to determine the relevant meaning of unfamiliar or multiple-meaning words.",
+      "sourceStatus": "official",
+      "verified": "2026-09-17",
+      "source": "Texas Education Agency / 19 TAC §110.7(b)(3)(B)"
+    },
+    {
+      "code": "§110.7(b)(3)(C)",
+      "framework": "Texas TEKS ELAR",
+      "grade": 5,
+      "subject": "elar",
+      "domain": "vocabulary",
+      "summary": "Identify the meaning of and use words with affixes (such as trans-, super-, -ive, -logy) and roots (such as geo, photo).",
+      "sourceStatus": "official",
+      "verified": "2026-09-17",
+      "source": "Texas Education Agency / 19 TAC §110.7(b)(3)(C)"
+    },
+    {
+      "code": "§110.7(b)(3)(A)",
+      "framework": "Texas TEKS ELAR",
+      "grade": 5,
+      "subject": "elar",
+      "domain": "vocabulary",
+      "summary": "Use print or digital resources to determine the meaning, syllabication, pronunciation, and word origin of words.",
+      "sourceStatus": "official",
+      "verified": "2026-09-17",
+      "source": "Texas Education Agency / 19 TAC §110.7(b)(3)(A)"
+    }
+  ]
+}
