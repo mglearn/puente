@@ -440,6 +440,156 @@
       "created": "2026-09-17",
       "updated": "2026-09-17",
       "status": "reviewed"
+    },
+    {
+      "id": "nav-mean-3-5-003",
+      "module": "newcomer-navigator",
+      "title": {
+        "en": "What Does That Mean?",
+        "es": "¿Qué significa eso?"
+      },
+
+      "grades": [4, 5],
+      "gradeBand": "3-5",
+      "subjects": ["elar"],
+      "duration": 8,
+
+      "interactionType": "scenario-choice",
+
+      "targetLanguage": "en",
+      "supportedHomeLanguages": ["es"],
+      "languagePair": "en-es",
+
+      "studentGoal": {
+        "en": "Understand common classroom directions in English and choose the right action.",
+        "es": "Comprende las instrucciones comunes del salón en inglés y elige la acción correcta."
+      },
+      "studentDirections": {
+        "en": "Your teacher says something. What should you do? These are short directions you will hear every day. Choose the right action, then select Check.",
+        "es": "Tu maestra dice algo. ¿Qué debes hacer? Son instrucciones cortas que escucharás todos los días. Elige la acción correcta y luego selecciona Revisar."
+      },
+      "teacherDirections": {
+        "en": "These are high-frequency classroom directions that can confuse newcomers because the words are idiomatic (\"line up,\" \"turn in\"). Say each aloud, let students choose, then demonstrate the action. Turn on More support for the home-language meaning.",
+        "es": "Son instrucciones frecuentes del salón que pueden confundir a los recién llegados porque las palabras son idiomáticas (\"line up,\" \"turn in\"). Di cada una en voz alta, deja que elijan y luego demuestra la acción. Activa Más apoyo para el significado en el idioma del hogar."
+      },
+      "languageFunction": {
+        "en": "Comprehending and responding accurately to spoken classroom directions.",
+        "es": "Comprender y responder con precisión a las instrucciones habladas del salón."
+      },
+
+      "materials": [],
+
+      "items": [
+        {
+          "id": "m1",
+          "context": { "en": "Your teacher says: “Line up at the door.”", "es": "Tu maestra dice: “Line up at the door.”" },
+          "prompt": { "en": "What should you do?", "es": "¿Qué debes hacer?" },
+          "support": {
+            "high": { "en": "“Line up” = form a line, one behind another. / “Line up” = formar una fila, uno detrás de otro.", "es": "“Line up” = formar una fila, uno detrás de otro." }
+          },
+          "choices": [
+            { "id": "a", "label": { "en": "Stand in a line, one behind another, by the door.", "es": "Ponte en una fila, uno detrás de otro, junto a la puerta." } },
+            { "id": "b", "label": { "en": "Draw a line on your paper.", "es": "Dibuja una línea en tu papel." } },
+            { "id": "c", "label": { "en": "Sit down at your desk.", "es": "Siéntate en tu escritorio." } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": { "correct": true, "why": { "en": "Yes. “Line up” means make a line with your body, ready to walk together. Here, by the door.", "es": "Sí. “Line up” significa formar una fila con tu cuerpo, listos para caminar juntos. Aquí, junto a la puerta." } },
+            "b": { "correct": false, "why": { "en": "“Line up” isn't about drawing. It means to form a line with people. Go stand by the door.", "es": "“Line up” no es dibujar. Significa formar una fila con personas. Ve a pararte junto a la puerta." }, "hint": { "en": "It's an action with your body, at the door.", "es": "Es una acción con tu cuerpo, en la puerta." } },
+            "c": { "correct": false, "why": { "en": "“Line up” means stand in a line, not sit. The class is getting ready to go somewhere.", "es": "“Line up” significa ponerse en fila, no sentarse. La clase se prepara para ir a algún lugar." } }
+          }
+        },
+        {
+          "id": "m2",
+          "context": { "en": "Your teacher says: “Turn in your homework.”", "es": "Tu maestra dice: “Turn in your homework.”" },
+          "prompt": { "en": "What should you do?", "es": "¿Qué debes hacer?" },
+          "support": {
+            "high": { "en": "“Turn in” = give your work to the teacher. / “Turn in” = entregar tu trabajo a la maestra.", "es": "“Turn in” = entregar tu trabajo a la maestra." }
+          },
+          "choices": [
+            { "id": "a", "label": { "en": "Give your homework to the teacher.", "es": "Entrega tu tarea a la maestra." } },
+            { "id": "b", "label": { "en": "Turn your paper face down.", "es": "Voltea tu papel boca abajo." } },
+            { "id": "c", "label": { "en": "Turn around in your seat.", "es": "Date la vuelta en tu asiento." } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": { "correct": true, "why": { "en": "Right. “Turn in” means hand your work to the teacher. It has nothing to do with turning around.", "es": "Correcto. “Turn in” significa entregar tu trabajo a la maestra. No tiene que ver con darse la vuelta." } },
+            "b": { "correct": false, "why": { "en": "“Turn in” is idiomatic — it means submit your work, not flip the paper.", "es": "“Turn in” es idiomático: significa entregar tu trabajo, no voltear el papel." }, "hint": { "en": "Where should the homework go?", "es": "¿A dónde debe ir la tarea?" } },
+            "c": { "correct": false, "why": { "en": "It's not about turning your body. “Turn in” = submit your homework.", "es": "No se trata de girar el cuerpo. “Turn in” = entregar la tarea." } }
+          }
+        },
+        {
+          "id": "m3",
+          "context": { "en": "Your teacher says: “Take out a pencil.”", "es": "Tu maestra dice: “Take out a pencil.”" },
+          "prompt": { "en": "What should you do?", "es": "¿Qué debes hacer?" },
+          "support": {
+            "high": { "en": "“Take out” = get it ready and put it on your desk. / “Take out” = sácalo y ponlo listo en tu escritorio.", "es": "“Take out” = sácalo y ponlo listo en tu escritorio." }
+          },
+          "choices": [
+            { "id": "a", "label": { "en": "Get a pencil out and ready on your desk.", "es": "Saca un lápiz y tenlo listo en tu escritorio." } },
+            { "id": "b", "label": { "en": "Throw a pencil in the trash.", "es": "Tira un lápiz a la basura." } },
+            { "id": "c", "label": { "en": "Point out the window.", "es": "Señala por la ventana." } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": { "correct": true, "why": { "en": "Yes. “Take out” means get it out and ready — the class is about to write.", "es": "Sí. “Take out” significa sacarlo y tenerlo listo: la clase va a escribir." } },
+            "b": { "correct": false, "why": { "en": "“Take out” doesn't mean throw away. It means get your pencil ready to use.", "es": "“Take out” no significa tirar. Significa tener tu lápiz listo para usar." }, "hint": { "en": "You are about to write. What do you need?", "es": "Vas a escribir. ¿Qué necesitas?" } },
+            "c": { "correct": false, "why": { "en": "This isn't about pointing outside. Get your pencil ready on your desk.", "es": "No se trata de señalar afuera. Ten tu lápiz listo en tu escritorio." } }
+          }
+        },
+        {
+          "id": "m4",
+          "context": { "en": "Your teacher says: “Pair up with a partner.”", "es": "Tu maestra dice: “Pair up with a partner.”" },
+          "prompt": { "en": "What should you do?", "es": "¿Qué debes hacer?" },
+          "support": {
+            "high": { "en": "“Pair up” = find one other person to work with. / “Pair up” = busca a otra persona para trabajar.", "es": "“Pair up” = busca a otra persona para trabajar." }
+          },
+          "choices": [
+            { "id": "a", "label": { "en": "Find one classmate to work with.", "es": "Busca a un compañero para trabajar." } },
+            { "id": "b", "label": { "en": "Peel and eat a pear.", "es": "Pela y come una pera." } },
+            { "id": "c", "label": { "en": "Work by yourself quietly.", "es": "Trabaja solo en silencio." } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": { "correct": true, "why": { "en": "Right. “Pair up with a partner” means team up with one other student.", "es": "Correcto. “Pair up with a partner” significa formar equipo con otro estudiante." } },
+            "b": { "correct": false, "why": { "en": "“Pair” here is not the fruit “pear.” It means two people together.", "es": "“Pair” aquí no es la fruta “pear.” Significa dos personas juntas." }, "hint": { "en": "A partner is a person. How many of you work together?", "es": "Un partner es una persona. ¿Cuántos trabajan juntos?" } },
+            "c": { "correct": false, "why": { "en": "“Pair up” means work WITH someone, not alone.", "es": "“Pair up” significa trabajar CON alguien, no solo." } }
+          }
+        }
+      ],
+
+      "ace": { "articulate": true, "connect": true, "extend": true },
+
+      "clear": { "enabled": false, "emphasis": [] },
+
+      "udl": [
+        "representation.language-support",
+        "representation.context",
+        "action-expression.multiple-response-modes",
+        "engagement.relevance"
+      ],
+
+      "strategies": [
+        "vocabulary-programs",
+        "role-play",
+        "corrective-feedback"
+      ],
+
+      "standards": {
+        "elps": [
+          { "code": "§120.21(d)(1)(C)", "alignment": "direct", "grades": [4, 5], "rationale": "Students respond with accuracy to common spoken classroom directions." }
+        ],
+        "teks": [
+          { "code": "§110.7(b)(1)(A)", "alignment": "direct", "grades": [4, 5], "rationale": "Students listen actively to interpret verbal messages and respond appropriately." }
+        ],
+        "slar": []
+      },
+
+      "printables": ["nav-mean-3-5-003-student", "nav-mean-3-5-003-answer-key"],
+
+      "created": "2026-09-17",
+      "updated": "2026-09-17",
+      "status": "reviewed"
     }
   ]
 }

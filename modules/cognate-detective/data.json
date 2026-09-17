@@ -784,6 +784,165 @@
       "created": "2026-09-17",
       "updated": "2026-09-17",
       "status": "reviewed"
+    },
+    {
+      "id": "cog-falsefriend-3-5-004",
+      "module": "cognate-detective",
+      "title": {
+        "en": "False Friend Detective",
+        "es": "Detective de falsos amigos"
+      },
+
+      "grades": [5],
+      "gradeBand": "3-5",
+      "subjects": ["elar"],
+      "duration": 8,
+
+      "interactionType": "context-choice",
+
+      "targetLanguage": "en",
+      "supportedHomeLanguages": ["es"],
+      "languagePair": "en-es",
+
+      "studentGoal": {
+        "en": "Use context to catch false friends — English words that look like a Spanish word but mean something different.",
+        "es": "Usa el contexto para atrapar falsos amigos: palabras en inglés que se parecen a una palabra en español pero significan algo diferente."
+      },
+      "studentDirections": {
+        "en": "Read each sentence. The underlined English word looks like a Spanish word — but be careful. Use the sentence to choose what it really means here. Choose, then select Check.",
+        "es": "Lee cada oración. La palabra en inglés subrayada se parece a una palabra en español, pero ten cuidado. Usa la oración para elegir lo que realmente significa aquí. Elige y luego selecciona Revisar."
+      },
+      "teacherDirections": {
+        "en": "Model the CLEAR routine: make a Claim about the meaning, name the Lens (context clue), point to the Evidence in the sentence, rule out the tempting Alternative (the false-friend meaning), and give the best Response. Context is the detective's evidence.",
+        "es": "Modela la rutina CLEAR: haz una afirmación (Claim) sobre el significado, nombra la lente (Lens/pista de contexto), señala la evidencia (Evidence) en la oración, descarta la alternativa tentadora (Alternatives/el falso amigo) y da la mejor respuesta (Response)."
+      },
+      "languageFunction": {
+        "en": "Determining word meaning from context; justifying a claim with textual evidence.",
+        "es": "Determinar el significado de palabras por el contexto; justificar una afirmación con evidencia del texto."
+      },
+
+      "materials": [],
+
+      "items": [
+        {
+          "id": "f1", "targetWord": "realized",
+          "context": { "en": "After searching everywhere, I finally realized my keys were in my pocket the whole time.", "es": "Después de buscar por todas partes, por fin realized que mis llaves estaban en mi bolsillo todo el tiempo." },
+          "prompt": { "en": "What does “realized” mean here?", "es": "¿Qué significa “realized” aquí?" },
+          "support": {
+            "high": { "en": "Careful: Spanish “realizar” means “to carry out / accomplish.” English “realize” is different.", "es": "Cuidado: “realizar” en español significa “to carry out / accomplish.” “Realize” en inglés es diferente." },
+            "medium": { "en": "What happened in your mind when you found the keys?", "es": "¿Qué pasó en tu mente cuando encontraste las llaves?" }
+          },
+          "choices": [
+            { "id": "a", "label": { "en": "became aware of; noticed", "es": "te diste cuenta; notaste" } },
+            { "id": "b", "label": { "en": "carried out or completed", "es": "llevaste a cabo o completaste" } },
+            { "id": "c", "label": { "en": "organized carefully", "es": "organizaste con cuidado" } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": { "correct": true, "why": { "en": "Right. Here “realized” means became aware — you suddenly noticed the keys. Spanish “realizar” (to carry out) is a false friend.", "es": "Correcto. Aquí “realized” significa darse cuenta: de repente notaste las llaves. “Realizar” (llevar a cabo) es un falso amigo." } },
+            "b": { "correct": false, "why": { "en": "That's the Spanish “realizar” meaning. In this sentence nothing was carried out — you noticed something. “Realize” = become aware.", "es": "Ese es el significado de “realizar.” En esta oración no se llevó a cabo nada: notaste algo. “Realize” = darse cuenta." }, "hint": { "en": "Did you DO a task, or NOTICE something?", "es": "¿Hiciste una tarea o NOTASTE algo?" } },
+            "c": { "correct": false, "why": { "en": "Context doesn't mention organizing. The keys were found by noticing them — “became aware.”", "es": "El contexto no menciona organizar. Encontraste las llaves al notarlas: “became aware.”" } }
+          }
+        },
+        {
+          "id": "f2", "targetWord": "once",
+          "context": { "en": "You may use a calculator, but only once during the whole test.", "es": "Puedes usar una calculadora, pero solo once durante todo el examen." },
+          "prompt": { "en": "What does “once” mean here?", "es": "¿Qué significa “once” aquí?" },
+          "support": {
+            "high": { "en": "Careful: Spanish “once” means the number eleven. English “once” is different.", "es": "Cuidado: “once” en español es el número eleven. “Once” en inglés es diferente." },
+            "medium": { "en": "How many times can you use the calculator?", "es": "¿Cuántas veces puedes usar la calculadora?" }
+          },
+          "choices": [
+            { "id": "a", "label": { "en": "one time", "es": "una vez" } },
+            { "id": "b", "label": { "en": "eleven times", "es": "once veces" } },
+            { "id": "c", "label": { "en": "whenever you want", "es": "cuando quieras" } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": { "correct": true, "why": { "en": "Yes. English “once” means one time. Spanish “once” (eleven) looks identical but is a false friend.", "es": "Sí. “Once” en inglés significa una vez. “Once” en español (eleven) se ve igual pero es un falso amigo." } },
+            "b": { "correct": false, "why": { "en": "That's the Spanish number “once.” In English, “only once” means one single time.", "es": "Ese es el número en español “once.” En inglés, “only once” significa una sola vez." }, "hint": { "en": "“Only ___ during the whole test” — one time or eleven?", "es": "“Only ___ during the whole test”: ¿una vez u once?" } },
+            "c": { "correct": false, "why": { "en": "“Only once” is a limit, not freedom. It means one time.", "es": "“Only once” es un límite, no libertad. Significa una vez." } }
+          }
+        },
+        {
+          "id": "f3", "targetWord": "fabric",
+          "context": { "en": "This jacket is made of a soft, warm fabric that feels like wool.", "es": "Esta chaqueta está hecha de un fabric suave y cálido que se siente como lana." },
+          "prompt": { "en": "What does “fabric” mean here?", "es": "¿Qué significa “fabric” aquí?" },
+          "support": {
+            "high": { "en": "Careful: Spanish “fábrica” means “factory.” English “fabric” is different.", "es": "Cuidado: “fábrica” en español significa “factory.” “Fabric” en inglés es diferente." },
+            "medium": { "en": "A jacket is MADE OF this. Is a jacket made of a factory?", "es": "Una chaqueta está HECHA DE esto. ¿Una chaqueta está hecha de una fábrica?" }
+          },
+          "choices": [
+            { "id": "a", "label": { "en": "cloth or material", "es": "tela o material" } },
+            { "id": "b", "label": { "en": "a factory", "es": "una fábrica" } },
+            { "id": "c", "label": { "en": "a zipper", "es": "un cierre" } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": { "correct": true, "why": { "en": "Right. “Fabric” is the cloth the jacket is made of. Spanish “fábrica” (factory) is the false friend.", "es": "Correcto. “Fabric” es la tela de la que está hecha la chaqueta. “Fábrica” (factory) es el falso amigo." } },
+            "b": { "correct": false, "why": { "en": "That's Spanish “fábrica.” A jacket is made of cloth, not a factory. “Fabric” = cloth.", "es": "Eso es “fábrica” en español. Una chaqueta está hecha de tela, no de una fábrica. “Fabric” = tela." }, "hint": { "en": "What is a soft, warm jacket made of?", "es": "¿De qué está hecha una chaqueta suave y cálida?" } },
+            "c": { "correct": false, "why": { "en": "The sentence describes the soft material, not a part like a zipper. “Fabric” = cloth.", "es": "La oración describe el material suave, no una parte como un cierre. “Fabric” = tela." } }
+          }
+        },
+        {
+          "id": "f4", "targetWord": "sensible",
+          "context": { "en": "It was snowing hard, so wearing a warm coat was the sensible thing to do.", "es": "Nevaba mucho, así que usar un abrigo cálido era lo sensible que se podía hacer." },
+          "prompt": { "en": "What does “sensible” mean here?", "es": "¿Qué significa “sensible” aquí?" },
+          "support": {
+            "high": { "en": "Careful: Spanish “sensible” means “sensitive.” English “sensible” means “reasonable.”", "es": "Cuidado: “sensible” en español significa “sensitive.” “Sensible” en inglés significa “reasonable.”" },
+            "medium": { "en": "Wearing a coat in snow is a smart, reasonable choice.", "es": "Usar un abrigo en la nieve es una decisión inteligente y razonable." }
+          },
+          "choices": [
+            { "id": "a", "label": { "en": "reasonable; showing good sense", "es": "razonable; con buen juicio" } },
+            { "id": "b", "label": { "en": "easily hurt or emotional", "es": "que se lastima fácilmente o emotivo" } },
+            { "id": "c", "label": { "en": "very expensive", "es": "muy caro" } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": { "correct": true, "why": { "en": "Yes. English “sensible” means reasonable — a smart choice. Spanish “sensible” (sensitive) is the false friend.", "es": "Sí. “Sensible” en inglés significa razonable: una buena decisión. “Sensible” en español (sensitive) es el falso amigo." } },
+            "b": { "correct": false, "why": { "en": "That's the Spanish “sensible” (sensitive). Here it describes a smart decision — “reasonable.”", "es": "Ese es el “sensible” del español (sensitive). Aquí describe una decisión inteligente: “reasonable.”" }, "hint": { "en": "Is a warm coat in snow a smart choice or an emotion?", "es": "¿Un abrigo cálido en la nieve es una decisión inteligente o una emoción?" } },
+            "c": { "correct": false, "why": { "en": "Cost isn't mentioned. “Sensible” describes the reasonable choice.", "es": "No se menciona el costo. “Sensible” describe la decisión razonable." } }
+          }
+        }
+      ],
+
+      "ace": { "articulate": true, "connect": true, "extend": true },
+
+      "clear": { "enabled": true, "emphasis": ["claim", "evidence", "alternatives"] },
+
+      "udl": [
+        "representation.language-support",
+        "representation.context",
+        "action-expression.multiple-response-modes",
+        "engagement.relevance"
+      ],
+
+      "strategies": [
+        "vocabulary-programs",
+        "corrective-feedback",
+        "retrieval-practice"
+      ],
+
+      "standards": {
+        "elps": [
+          { "code": "§120.21(d)(3)(C)", "alignment": "direct", "grades": [5], "rationale": "Students use context and cognate awareness to determine content-area word meaning." },
+          { "code": "§120.21(d)(3)(B)", "alignment": "supporting", "grades": [5], "rationale": "Students identify cognate look-alikes while deciding meaning." }
+        ],
+        "teks": [
+          { "code": "§110.7(b)(3)(B)", "alignment": "direct", "grades": [5], "rationale": "Students use sentence context to determine the meaning of misleading words." },
+          { "code": "§110.7(b)(3)(C)", "alignment": "supporting", "grades": [5], "rationale": "False friends often share Greek and Latin roots that shifted meaning." }
+        ],
+        "slar": [
+          { "code": "§128.7(b)(3)(B)", "alignment": "direct", "grades": [5], "rationale": "Students use context to determine the relevant meaning of misleading look-alike words." },
+          { "code": "§128.7(b)(3)(E)", "alignment": "supporting", "grades": [5], "rationale": "False friends are commonly confused terms between Spanish and English." }
+        ]
+      },
+
+      "printables": ["cog-falsefriend-3-5-004-student", "cog-falsefriend-3-5-004-answer-key"],
+
+      "created": "2026-09-17",
+      "updated": "2026-09-17",
+      "status": "reviewed"
     }
   ]
 }
