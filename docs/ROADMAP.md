@@ -31,12 +31,17 @@ The vertical slice is complete and passes `npm run check`:
 - **Artwork wiring.** `data/image-manifest.json` gates optional item images and
   module heroes — dormant until an asset's `status` flips to `available`, so no
   broken images. Filenames match `~/projects/puente-image-prompts.md`.
+- **Artwork delivered (12 illustrations).** Reviewed for brief/palette/no-text;
+  PNG originals in `~/projects/assets/img/` converted to right-sized WebP
+  (19–94 KB) into `assets/img/`. Cognate Detective hero + high-support item
+  images are live; future-module heroes and 4 newcomer scenarios are staged.
+  **Open item:** manifest `tool` fields are `null` — record the generation
+  tool/source for rights before public launch (a prompt alone isn't a license).
 
 ## Next — before adding the other 85 activities
 
-1. **Deliver artwork.** Generate the Cognate Detective hero + item object images
-   per `~/projects/puente-image-prompts.md`; drop into `assets/img/`, record
-   tool/created/rights, flip manifest `status` to `available`.
+1. **Artwork rights.** Fill each manifest `tool`/source; confirm redistribution
+   rights so the CC BY 4.0 claim holds.
 2. **SLAR codes.** Import + verify Chapter 128 (Spanish LA) codes — do not guess them.
 3. **Es review pass.** Move remaining `reviewed` Spanish keys to `published` after
    a human check; keep the QC gate honest.
