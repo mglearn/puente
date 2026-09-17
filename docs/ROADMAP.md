@@ -2,25 +2,29 @@
 
 ## Current state (2026-09-17)
 
-**Live at https://mglearn.github.io/puente/** — 3 launch modules, **13 activities**,
-20 verified standards (0 pending), full site navigation, 18 smoke tests + 5 validators
-(data / standards / locales / links / contrast) all green.
+**Live at https://mglearn.github.io/puente/** — 3 launch modules, **16 activities**
+across grade bands 3–5, 6–8, and 9–12, **22 verified standards** (0 pending), full
+site navigation, 18 smoke tests + 5 validators (data / standards / locales / links /
+contrast) all green.
 
 - **Cognate Detective (7):** Cognate or False Friend? · Cognate or Not? (sort) ·
   Science / Math / Social Studies Cognate Hunts (sort) · False Friend Detective (CLEAR) ·
-  Academic False Friends (grades 6–8 — proves grade-band scaling)
-- **Academic Language Lab (3):** Academic Talk Moves · Say It Three Ways · Evidence Match
-- **Newcomer Navigator (3):** What Do You Say? · Build the Question · What Does That Mean?
+  Academic False Friends (grades 6–8)
+- **Academic Language Lab (5):** Academic Talk Moves · Say It Three Ways · Evidence Match ·
+  Build the Explanation · Shades of Meaning (grades 9–10, denotation/connotation)
+- **Newcomer Navigator (4):** What Do You Say? · Build the Question · What Does That Mean? ·
+  Conversation Repair
 - Interaction types proven: context-choice, sort, scenario-choice (with images), multiple-choice.
-- Content areas: ELAR, science, math, social studies. All grade 5 (band 3–5).
+- Content areas: ELAR, science, math, social studies. Grade bands 3–5, 6–8, 9–12.
 - Every top-nav link resolves (activities / printables / teacher / standards / frameworks / about
   + sub-pages); homepage has a "Recently added" strip; custom 404 page.
 
 ## Next
 
-1. **Grade-band breadth.** Add K–2, 6–8, 9–12 activities — needs a standards-verification
-   pass for §110.2/§110.22/§110.36 (ELAR) and §128 equivalents (ELPS §120.21 already covers 4–12).
-2. **Balance + depth.** More Academic Language Lab and Newcomer activities toward MVP (32 / 30).
+1. **K–2 band.** Needs a standards pass for §110.2/110.3/110.4 (ELAR) — and likely new
+   picture-based art (young readers), so best paired with an art delivery.
+2. **Depth toward MVP.** Cognate Detective 7/24, Academic Language Lab 5/32, Newcomer 4/30 —
+   keep filling each (all feed the shared engines).
 3. **A11y round two** (real AT walkthrough, print QA, axe) and **Spanish review** (the 2 `reviewed`
    locale keys are an intentional QC-gate fixture — see es.json `_meta`).
 
