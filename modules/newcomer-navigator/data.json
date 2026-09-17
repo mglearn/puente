@@ -590,6 +590,161 @@
       "created": "2026-09-17",
       "updated": "2026-09-17",
       "status": "reviewed"
+    },
+    {
+      "id": "nav-repair-3-5-004",
+      "module": "newcomer-navigator",
+      "title": {
+        "en": "Conversation Repair",
+        "es": "Reparar la conversación"
+      },
+
+      "grades": [4, 5],
+      "gradeBand": "3-5",
+      "subjects": ["elar"],
+      "duration": 8,
+
+      "interactionType": "scenario-choice",
+
+      "targetLanguage": "en",
+      "supportedHomeLanguages": ["es"],
+      "languagePair": "en-es",
+
+      "studentGoal": {
+        "en": "Know what to say in English when a conversation breaks down — ask someone to repeat, slow down, or explain, instead of pretending to understand.",
+        "es": "Sabe qué decir en inglés cuando una conversación se traba: pide que repitan, que hablen más despacio o que expliquen, en lugar de fingir que entiendes."
+      },
+      "studentDirections": {
+        "en": "Something went wrong in the conversation. Choose the best English phrase to fix it — it's always okay to ask. Choose, then select Check.",
+        "es": "Algo salió mal en la conversación. Elige la mejor frase en inglés para arreglarlo: siempre está bien preguntar. Elige y luego selecciona Revisar."
+      },
+      "teacherDirections": {
+        "en": "Repair strategies are survival tools: they let a newcomer stay in a conversation instead of shutting down or pretending. Turn on More support for bilingual frames, then role-play each repair aloud. Reassure students that asking for help is expected, not a failure.",
+        "es": "Las estrategias de reparación son herramientas de supervivencia: permiten que un recién llegado siga en la conversación en vez de callarse o fingir. Activa Más apoyo para ver marcos bilingües y representen cada reparación en voz alta."
+      },
+      "languageFunction": {
+        "en": "Repairing communication: requesting repetition, clarification, or slower speech.",
+        "es": "Reparar la comunicación: pedir repetición, aclaración o que hablen más despacio."
+      },
+
+      "materials": [],
+
+      "items": [
+        {
+          "id": "rp1",
+          "context": { "en": "Your teacher said something, but you did not hear it. You want her to say it again.", "es": "Tu maestra dijo algo, pero no lo escuchaste. Quieres que lo repita." },
+          "prompt": { "en": "What is the best thing to say?", "es": "¿Qué es lo mejor que puedes decir?" },
+          "support": {
+            "high": { "en": "Frame: “Could you please repeat that?” / “¿Podría repetir eso, por favor?”", "es": "Marco: “Could you please repeat that?” = “¿Podría repetir eso, por favor?”" },
+            "medium": { "en": "Ask politely for a repeat.", "es": "Pide con cortesía que lo repita." }
+          },
+          "choices": [
+            { "id": "a", "label": { "en": "“Could you please repeat that?”", "es": "“Could you please repeat that?”" } },
+            { "id": "b", "label": { "en": "“What?”", "es": "“What?”" } },
+            { "id": "c", "label": { "en": "(Say nothing and hope you understood.)", "es": "(No decir nada y esperar haber entendido.)" } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": { "correct": true, "why": { "en": "Great repair. “Could you please repeat that?” is polite and clear, and it keeps you in the conversation.", "es": "Buena reparación. “Could you please repeat that?” es cortés y claro, y te mantiene en la conversación." } },
+            "b": { "correct": false, "why": { "en": "“What?” alone can sound rude. A fuller, polite request works better: “Could you please repeat that?”", "es": "“What?” por sí solo puede sonar descortés. Una petición más completa y cortés funciona mejor: “Could you please repeat that?”" }, "hint": { "en": "Ask politely, with a full sentence.", "es": "Pide con cortesía, con una oración completa." } },
+            "c": { "correct": false, "why": { "en": "Guessing can lead to mistakes. It's always okay to ask someone to repeat.", "es": "Adivinar puede causar errores. Siempre está bien pedir que repitan." } }
+          }
+        },
+        {
+          "id": "rp2",
+          "context": { "en": "A classmate is explaining a game, but they are talking too fast.", "es": "Un compañero está explicando un juego, pero habla demasiado rápido." },
+          "prompt": { "en": "What is the best thing to say?", "es": "¿Qué es lo mejor que puedes decir?" },
+          "support": {
+            "high": { "en": "Frame: “Could you say that more slowly, please?” / “¿Podrías decirlo más despacio, por favor?”", "es": "Marco: “Could you say that more slowly, please?” = “¿Podrías decirlo más despacio, por favor?”" },
+            "medium": { "en": "Ask them to slow down, politely.", "es": "Pídeles que hablen más despacio, con cortesía." }
+          },
+          "choices": [
+            { "id": "a", "label": { "en": "“Could you say that more slowly, please?”", "es": "“Could you say that more slowly, please?”" } },
+            { "id": "b", "label": { "en": "“Slow!”", "es": "“Slow!”" } },
+            { "id": "c", "label": { "en": "“Yes, I understand.” (even though you don't)", "es": "“Yes, I understand.” (aunque no entiendes)" } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": { "correct": true, "why": { "en": "Yes. Asking someone to slow down politely helps you follow along — a smart repair.", "es": "Sí. Pedir con cortesía que hablen más despacio te ayuda a seguir la conversación: una reparación inteligente." } },
+            "b": { "correct": false, "why": { "en": "“Slow!” is understandable but abrupt. Try “Could you say that more slowly, please?”", "es": "“Slow!” se entiende pero es brusco. Prueba “Could you say that more slowly, please?”" }, "hint": { "en": "Use a full, polite request.", "es": "Usa una petición completa y cortés." } },
+            "c": { "correct": false, "why": { "en": "Pretending to understand causes problems later. It's better to ask them to slow down.", "es": "Fingir que entiendes causa problemas después. Es mejor pedir que hablen más despacio." } }
+          }
+        },
+        {
+          "id": "rp3",
+          "context": { "en": "Someone used a word you don't know, and you want to understand it.", "es": "Alguien usó una palabra que no conoces y quieres entenderla." },
+          "prompt": { "en": "What is the best thing to say?", "es": "¿Qué es lo mejor que puedes decir?" },
+          "support": {
+            "high": { "en": "Frame: “Sorry, what does ___ mean?” / “Perdón, ¿qué significa ___?”", "es": "Marco: “Sorry, what does ___ mean?” = “Perdón, ¿qué significa ___?”" },
+            "medium": { "en": "Ask about the exact word you didn't know.", "es": "Pregunta por la palabra exacta que no conociste." }
+          },
+          "choices": [
+            { "id": "a", "label": { "en": "“Sorry, what does that word mean?”", "es": "“Sorry, what does that word mean?”" } },
+            { "id": "b", "label": { "en": "“I don't know that.”", "es": "“I don't know that.”" } },
+            { "id": "c", "label": { "en": "(Nod and move on without asking.)", "es": "(Asentir y seguir sin preguntar.)" } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": { "correct": true, "why": { "en": "Great. Asking “What does that word mean?” gets you the meaning and keeps the conversation going.", "es": "Excelente. Preguntar “What does that word mean?” te da el significado y mantiene la conversación." } },
+            "b": { "correct": false, "why": { "en": "This ends the topic without help. Ask what the word means instead.", "es": "Esto cierra el tema sin ayuda. Mejor pregunta qué significa la palabra." }, "hint": { "en": "Ask for the meaning of the word.", "es": "Pide el significado de la palabra." } },
+            "c": { "correct": false, "why": { "en": "Nodding hides that you didn't understand. Asking is the better repair.", "es": "Asentir oculta que no entendiste. Preguntar es la mejor reparación." } }
+          }
+        },
+        {
+          "id": "rp4",
+          "context": { "en": "You tried to explain something, but your listener looks confused.", "es": "Intentaste explicar algo, pero quien te escucha se ve confundido." },
+          "prompt": { "en": "What is the best thing to do?", "es": "¿Qué es lo mejor que puedes hacer?" },
+          "support": {
+            "high": { "en": "Frame: “Let me try to say it a different way.” / “Déjame intentar decirlo de otra manera.”", "es": "Marco: “Let me try to say it a different way.” = “Déjame intentar decirlo de otra manera.”" },
+            "medium": { "en": "Try again with different words.", "es": "Inténtalo de nuevo con otras palabras." }
+          },
+          "choices": [
+            { "id": "a", "label": { "en": "“Let me try to say it a different way.”", "es": "“Let me try to say it a different way.”" } },
+            { "id": "b", "label": { "en": "“Never mind.”", "es": "“Never mind.”" } },
+            { "id": "c", "label": { "en": "Say the exact same words again, louder.", "es": "Decir exactamente lo mismo otra vez, más fuerte." } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": { "correct": true, "why": { "en": "Yes. Rephrasing (“Let me say it a different way”) repairs the misunderstanding. That's a strong communicator's move.", "es": "Sí. Reformular (“Let me say it a different way”) repara el malentendido. Es una estrategia de un buen comunicador." } },
+            "b": { "correct": false, "why": { "en": "“Never mind” gives up. Your idea matters — try saying it another way.", "es": "“Never mind” se rinde. Tu idea importa: intenta decirla de otra manera." }, "hint": { "en": "Try different words, not louder ones.", "es": "Prueba otras palabras, no más fuerte." } },
+            "c": { "correct": false, "why": { "en": "Louder isn't clearer. Different words usually repair a misunderstanding better.", "es": "Más fuerte no es más claro. Otras palabras suelen reparar mejor un malentendido." } }
+          }
+        }
+      ],
+
+      "ace": { "articulate": true, "connect": true, "extend": true },
+
+      "clear": { "enabled": false, "emphasis": [] },
+
+      "udl": [
+        "representation.language-support",
+        "representation.context",
+        "action-expression.multiple-response-modes",
+        "engagement.relevance"
+      ],
+
+      "strategies": [
+        "sentence-frames",
+        "role-play",
+        "corrective-feedback"
+      ],
+
+      "standards": {
+        "elps": [
+          { "code": "§120.21(d)(2)(F)", "alignment": "direct", "grades": [4, 5], "rationale": "Students ask questions to repair understanding during classroom interactions." },
+          { "code": "§120.21(d)(2)(D)", "alignment": "supporting", "grades": [4, 5], "rationale": "Students keep a polite register while asking for help." }
+        ],
+        "teks": [
+          { "code": "§110.7(b)(1)(A)", "alignment": "direct", "grades": [4, 5], "rationale": "Students ask relevant questions to interpret messages and stay in the discussion." }
+        ],
+        "slar": []
+      },
+
+      "printables": ["nav-repair-3-5-004-student", "nav-repair-3-5-004-answer-key"],
+
+      "created": "2026-09-17",
+      "updated": "2026-09-17",
+      "status": "reviewed"
     }
   ]
 }

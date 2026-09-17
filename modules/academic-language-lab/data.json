@@ -608,6 +608,310 @@
       "created": "2026-09-17",
       "updated": "2026-09-17",
       "status": "reviewed"
+    },
+    {
+      "id": "all-explain-3-5-004",
+      "module": "academic-language-lab",
+      "title": {
+        "en": "Build the Explanation",
+        "es": "Construye la explicación"
+      },
+
+      "grades": [5],
+      "gradeBand": "3-5",
+      "subjects": ["science", "elar"],
+      "duration": 8,
+
+      "interactionType": "multiple-choice",
+
+      "targetLanguage": "en",
+      "supportedHomeLanguages": ["es"],
+      "languagePair": "en-es",
+
+      "studentGoal": {
+        "en": "Build a strong science explanation that names a cause with “because” and precise vocabulary.",
+        "es": "Construye una explicación científica sólida que nombre una causa con “because” y vocabulario preciso."
+      },
+      "studentDirections": {
+        "en": "Each question asks “Why?” Choose the sentence that best explains the reason — one that says “because” and uses precise words. Choose, then select Check.",
+        "es": "Cada pregunta dice “¿Por qué?” Elige la oración que mejor explica la razón: una que diga “because” y use palabras precisas. Elige y luego selecciona Revisar."
+      },
+      "teacherDirections": {
+        "en": "A strong explanation names a cause, not just a fact. After each item, have students say the full explanation aloud using “because.” Pair with a science reading. Use the ACE close to have students explain a new phenomenon.",
+        "es": "Una buena explicación nombra una causa, no solo un hecho. Después de cada ítem, pide a los estudiantes que digan la explicación completa en voz alta con “because.” Combínalo con una lectura de ciencias."
+      },
+      "languageFunction": {
+        "en": "Explaining cause and effect with precise academic language.",
+        "es": "Explicar causa y efecto con lenguaje académico preciso."
+      },
+
+      "materials": [],
+
+      "items": [
+        {
+          "id": "b1",
+          "context": { "en": "Question: Why do we see the moon shine at night?", "es": "Pregunta: ¿Por qué vemos brillar la luna de noche?" },
+          "prompt": { "en": "Which sentence best explains why?", "es": "¿Qué oración explica mejor el porqué?" },
+          "support": {
+            "high": { "en": "A strong explanation uses “because” and a precise reason. / Una buena explicación usa “because” y una razón precisa.", "es": "Una buena explicación usa “because” y una razón precisa." },
+            "medium": { "en": "Which choice gives a scientific reason?", "es": "¿Qué opción da una razón científica?" }
+          },
+          "choices": [
+            { "id": "a", "label": { "en": "The moon shines because it reflects light from the sun.", "es": "La luna brilla porque refleja la luz del sol." } },
+            { "id": "b", "label": { "en": "The moon is very bright.", "es": "La luna es muy brillante." } },
+            { "id": "c", "label": { "en": "The moon shines because it likes the night.", "es": "La luna brilla porque le gusta la noche." } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": { "correct": true, "why": { "en": "Yes. It names the cause with “because” and a precise idea: the moon reflects sunlight. That's a scientific explanation.", "es": "Sí. Nombra la causa con “because” y una idea precisa: la luna refleja la luz del sol. Esa es una explicación científica." } },
+            "b": { "correct": false, "why": { "en": "That's a fact, not an explanation. It doesn't say why. Add “because…”.", "es": "Eso es un hecho, no una explicación. No dice por qué. Agrega “because…”." }, "hint": { "en": "Which choice says “because…”?", "es": "¿Qué opción dice “because…”?" } },
+            "c": { "correct": false, "why": { "en": "The moon doesn't have feelings. A science explanation gives a physical cause (reflecting sunlight).", "es": "La luna no tiene sentimientos. Una explicación científica da una causa física (reflejar la luz del sol)." } }
+          }
+        },
+        {
+          "id": "b2",
+          "context": { "en": "Question: Why does ice float on water?", "es": "Pregunta: ¿Por qué el hielo flota en el agua?" },
+          "prompt": { "en": "Which sentence best explains why?", "es": "¿Qué oración explica mejor el porqué?" },
+          "support": {
+            "high": { "en": "The precise reason is about density. / La razón precisa tiene que ver con la densidad.", "es": "La razón precisa tiene que ver con la densidad." }
+          },
+          "choices": [
+            { "id": "a", "label": { "en": "Ice floats because it is less dense than liquid water.", "es": "El hielo flota porque es menos denso que el agua líquida." } },
+            { "id": "b", "label": { "en": "Ice floats because it is cold.", "es": "El hielo flota porque está frío." } },
+            { "id": "c", "label": { "en": "Ice just floats.", "es": "El hielo simplemente flota." } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": { "correct": true, "why": { "en": "Correct. The cause is density: ice is less dense than liquid water, so it floats. Precise and scientific.", "es": "Correcto. La causa es la densidad: el hielo es menos denso que el agua líquida, así que flota. Preciso y científico." } },
+            "b": { "correct": false, "why": { "en": "Being cold isn't the reason — cold water doesn't float. The cause is lower density.", "es": "Estar frío no es la razón: el agua fría no flota. La causa es la menor densidad." }, "hint": { "en": "What makes something float — temperature or density?", "es": "¿Qué hace que algo flote: la temperatura o la densidad?" } },
+            "c": { "correct": false, "why": { "en": "This gives no reason. A strong explanation names the cause: it's less dense.", "es": "Esto no da una razón. Una buena explicación nombra la causa: es menos denso." } }
+          }
+        },
+        {
+          "id": "b3",
+          "context": { "en": "Question: Why do plants near a window grow toward it?", "es": "Pregunta: ¿Por qué las plantas cerca de una ventana crecen hacia ella?" },
+          "prompt": { "en": "Which sentence best explains why?", "es": "¿Qué oración explica mejor el porqué?" },
+          "support": {
+            "high": { "en": "Plants need light for photosynthesis. / Las plantas necesitan luz para la fotosíntesis.", "es": "Las plantas necesitan luz para la fotosíntesis." }
+          },
+          "choices": [
+            { "id": "a", "label": { "en": "They grow toward the window because they need light for photosynthesis.", "es": "Crecen hacia la ventana porque necesitan luz para la fotosíntesis." } },
+            { "id": "b", "label": { "en": "They grow toward the window because they like the view.", "es": "Crecen hacia la ventana porque les gusta la vista." } },
+            { "id": "c", "label": { "en": "Plants grow.", "es": "Las plantas crecen." } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": { "correct": true, "why": { "en": "Yes. The cause is light: plants need it for photosynthesis, so they grow toward the window.", "es": "Sí. La causa es la luz: las plantas la necesitan para la fotosíntesis, así que crecen hacia la ventana." } },
+            "b": { "correct": false, "why": { "en": "Plants don't enjoy views. The scientific cause is their need for light.", "es": "A las plantas no les gustan las vistas. La causa científica es su necesidad de luz." }, "hint": { "en": "What do plants get from a window?", "es": "¿Qué obtienen las plantas de una ventana?" } },
+            "c": { "correct": false, "why": { "en": "This doesn't explain the direction. Name the cause: they need light.", "es": "Esto no explica la dirección. Nombra la causa: necesitan luz." } }
+          }
+        },
+        {
+          "id": "b4",
+          "context": { "en": "Question: Why does a metal spoon feel cold when you pick it up?", "es": "Pregunta: ¿Por qué una cuchara de metal se siente fría al tomarla?" },
+          "prompt": { "en": "Which sentence best explains why?", "es": "¿Qué oración explica mejor el porqué?" },
+          "support": {
+            "high": { "en": "Metal conducts heat away from your warm hand. / El metal conduce el calor lejos de tu mano tibia.", "es": "El metal conduce el calor lejos de tu mano tibia." }
+          },
+          "choices": [
+            { "id": "a", "label": { "en": "It feels cold because the metal conducts heat away from your hand.", "es": "Se siente fría porque el metal conduce el calor lejos de tu mano." } },
+            { "id": "b", "label": { "en": "It feels cold because metal is always cold.", "es": "Se siente fría porque el metal siempre está frío." } },
+            { "id": "c", "label": { "en": "Spoons feel weird.", "es": "Las cucharas se sienten raras." } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": { "correct": true, "why": { "en": "Correct. The cause is heat conduction: metal pulls heat from your warmer hand, so it feels cold. Precise science.", "es": "Correcto. La causa es la conducción del calor: el metal jala el calor de tu mano más tibia, así que se siente fría. Ciencia precisa." } },
+            "b": { "correct": false, "why": { "en": "Metal isn't “always cold” — it matches room temperature. It feels cold because it conducts heat from your hand.", "es": "El metal no “siempre está frío”: iguala la temperatura del cuarto. Se siente frío porque conduce el calor de tu mano." }, "hint": { "en": "What does metal do with your hand's heat?", "es": "¿Qué hace el metal con el calor de tu mano?" } },
+            "c": { "correct": false, "why": { "en": "This gives no reason. Name the cause: metal conducts heat away from your hand.", "es": "Esto no da una razón. Nombra la causa: el metal conduce el calor lejos de tu mano." } }
+          }
+        }
+      ],
+
+      "ace": { "articulate": true, "connect": true, "extend": true },
+
+      "clear": { "enabled": true, "emphasis": ["claim", "evidence"] },
+
+      "udl": [
+        "representation.language-support",
+        "representation.context",
+        "action-expression.multiple-response-modes",
+        "engagement.relevance"
+      ],
+
+      "strategies": [
+        "vocabulary-programs",
+        "corrective-feedback",
+        "classroom-discussion"
+      ],
+
+      "standards": {
+        "elps": [
+          { "code": "§120.21(d)(2)(B)", "alignment": "direct", "grades": [5], "rationale": "Students use content-area vocabulary to explain a science cause." }
+        ],
+        "teks": [
+          { "code": "§110.7(b)(7)(C)", "alignment": "supporting", "grades": [5], "rationale": "A strong explanation is grounded in a reason that functions as evidence." },
+          { "code": "§110.7(b)(1)(C)", "alignment": "supporting", "grades": [5], "rationale": "Choosing precise, conventional phrasing supports clear explanation." }
+        ],
+        "slar": []
+      },
+
+      "printables": ["all-explain-3-5-004-student", "all-explain-3-5-004-answer-key"],
+
+      "created": "2026-09-17",
+      "updated": "2026-09-17",
+      "status": "reviewed"
+    },
+    {
+      "id": "all-connotation-9-12-005",
+      "module": "academic-language-lab",
+      "title": {
+        "en": "Shades of Meaning",
+        "es": "Matices de significado"
+      },
+
+      "grades": [9, 10],
+      "gradeBand": "9-12",
+      "subjects": ["elar"],
+      "duration": 10,
+
+      "interactionType": "context-choice",
+
+      "targetLanguage": "en",
+      "supportedHomeLanguages": ["es"],
+      "languagePair": "en-es",
+
+      "studentGoal": {
+        "en": "Use context to choose the word whose connotation — its positive, negative, or neutral feeling — fits the writer's intent, even when several words share the same denotation.",
+        "es": "Usa el contexto para elegir la palabra cuya connotación —su sentido positivo, negativo o neutral— coincide con la intención del autor, aunque varias palabras compartan la misma denotación."
+      },
+      "studentDirections": {
+        "en": "Several words can share a meaning but feel different. Read the situation, notice the tone the writer wants, and choose the word with the matching connotation. Choose, then select Check.",
+        "es": "Varias palabras pueden compartir un significado pero sentirse diferentes. Lee la situación, nota el tono que quiere el autor y elige la palabra con la connotación adecuada. Elige y luego selecciona Revisar."
+      },
+      "teacherDirections": {
+        "en": "Denotation is the dictionary meaning; connotation is the feeling a word carries. This is a common blind spot for multilingual writers because a cognate can share a denotation but not a connotation. Encourage students to name a word in their home language that means the same but feels kinder or harsher — the ACE Connect step builds on this.",
+        "es": "La denotación es el significado del diccionario; la connotación es la sensación que lleva una palabra. Es un punto ciego común para escritores multilingües porque un cognado puede compartir la denotación pero no la connotación. Anima a los estudiantes a nombrar una palabra en su idioma del hogar que signifique lo mismo pero se sienta más amable o más dura."
+      },
+      "languageFunction": {
+        "en": "Distinguishing denotative and connotative meaning; choosing precise words for tone.",
+        "es": "Distinguir el significado denotativo del connotativo; elegir palabras precisas según el tono."
+      },
+
+      "materials": [],
+
+      "items": [
+        {
+          "id": "c1", "targetWord": "thrifty",
+          "context": { "en": "Maria saves carefully and always plans ahead. Her friends admire how she manages money and want to praise her.", "es": "Maria ahorra con cuidado y siempre planea con anticipación. Sus amigos admiran cómo maneja el dinero y quieren elogiarla." },
+          "prompt": { "en": "Which word fits the admiring, positive tone?", "es": "¿Qué palabra encaja con el tono positivo y de admiración?" },
+          "support": {
+            "high": { "en": "All three can mean “careful with money,” but their feelings differ. Which one is a compliment? / Las tres pueden significar “cuidadoso con el dinero,” pero su sentido difiere. ¿Cuál es un elogio?", "es": "Las tres pueden significar “cuidadoso con el dinero,” pero su sentido difiere. ¿Cuál es un elogio?" },
+            "medium": { "en": "Her friends want to praise her — pick the positive word.", "es": "Sus amigos quieren elogiarla: elige la palabra positiva." }
+          },
+          "choices": [
+            { "id": "a", "label": { "en": "thrifty (careful and wise with money)", "es": "thrifty (cuidadosa y sabia con el dinero)" } },
+            { "id": "b", "label": { "en": "cheap (unwilling to spend, negative)", "es": "cheap (que no quiere gastar, negativo)" } },
+            { "id": "c", "label": { "en": "stingy (mean about money, negative)", "es": "stingy (tacaña, negativo)" } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": { "correct": true, "why": { "en": "Yes. All three describe saving money (same denotation), but only “thrifty” has a positive connotation — it praises her. “Cheap” and “stingy” criticize.", "es": "Sí. Las tres describen ahorrar dinero (misma denotación), pero solo “thrifty” tiene una connotación positiva: la elogia. “Cheap” y “stingy” critican." } },
+            "b": { "correct": false, "why": { "en": "“Cheap” has a negative connotation — it sounds like an insult. The friends want to praise her, so choose “thrifty.”", "es": "“Cheap” tiene una connotación negativa: suena a insulto. Los amigos quieren elogiarla, así que elige “thrifty.”" }, "hint": { "en": "Which of the three is a compliment?", "es": "¿Cuál de las tres es un elogio?" } },
+            "c": { "correct": false, "why": { "en": "“Stingy” is negative — it means mean about money. For praise, “thrifty” fits the tone.", "es": "“Stingy” es negativo: significa tacaña. Para elogiar, “thrifty” encaja con el tono." } }
+          }
+        },
+        {
+          "id": "c2", "targetWord": "arrogant",
+          "context": { "en": "A film critic disliked the lead character and wanted readers to see him as unpleasant and too full of himself.", "es": "Un crítico de cine no soportó al personaje principal y quería que los lectores lo vieran como desagradable y demasiado creído." },
+          "prompt": { "en": "Which word matches the critic's negative tone?", "es": "¿Qué palabra coincide con el tono negativo del crítico?" },
+          "support": {
+            "high": { "en": "“Confident,” “self-assured,” and “arrogant” all describe someone sure of himself — but with different feelings. / Las tres describen a alguien seguro de sí mismo, con sentidos diferentes.", "es": "Las tres describen a alguien seguro de sí mismo, con sentidos diferentes." }
+          },
+          "choices": [
+            { "id": "a", "label": { "en": "arrogant (too proud, negative)", "es": "arrogant (demasiado orgulloso, negativo)" } },
+            { "id": "b", "label": { "en": "confident (sure of himself, positive)", "es": "confident (seguro de sí, positivo)" } },
+            { "id": "c", "label": { "en": "self-assured (calmly certain, positive/neutral)", "es": "self-assured (con calma seguro, positivo/neutral)" } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": { "correct": true, "why": { "en": "Right. The critic wants a negative tone, and “arrogant” carries that criticism. “Confident” and “self-assured” are positive.", "es": "Correcto. El crítico quiere un tono negativo, y “arrogant” lleva esa crítica. “Confident” y “self-assured” son positivos." } },
+            "b": { "correct": false, "why": { "en": "“Confident” is positive — it praises. The critic dislikes the character, so the negative “arrogant” fits.", "es": "“Confident” es positivo: elogia. Al crítico no le gusta el personaje, así que el negativo “arrogant” encaja." }, "hint": { "en": "Which word sounds like a criticism?", "es": "¿Qué palabra suena a crítica?" } },
+            "c": { "correct": false, "why": { "en": "“Self-assured” is calm and positive. For a negative tone, choose “arrogant.”", "es": "“Self-assured” es tranquilo y positivo. Para un tono negativo, elige “arrogant.”" } }
+          }
+        },
+        {
+          "id": "c3", "targetWord": "curious",
+          "context": { "en": "A teacher wants to compliment a student who asks lots of thoughtful questions and loves to learn.", "es": "Una maestra quiere elogiar a un estudiante que hace muchas preguntas reflexivas y ama aprender." },
+          "prompt": { "en": "Which word gives the positive compliment?", "es": "¿Qué palabra da el elogio positivo?" },
+          "support": {
+            "high": { "en": "“Curious,” “nosy,” and “prying” all involve wanting to know — but only one is kind. / Las tres tienen que ver con querer saber, pero solo una es amable.", "es": "Las tres tienen que ver con querer saber, pero solo una es amable." }
+          },
+          "choices": [
+            { "id": "a", "label": { "en": "curious (eager to learn, positive)", "es": "curious (con ganas de aprender, positivo)" } },
+            { "id": "b", "label": { "en": "nosy (intrusive, negative)", "es": "nosy (entrometido, negativo)" } },
+            { "id": "c", "label": { "en": "prying (interfering, negative)", "es": "prying (que se mete, negativo)" } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": { "correct": true, "why": { "en": "Yes. All three describe wanting to know things, but only “curious” is a compliment. “Nosy” and “prying” are negative.", "es": "Sí. Las tres describen querer saber cosas, pero solo “curious” es un elogio. “Nosy” y “prying” son negativas." } },
+            "b": { "correct": false, "why": { "en": "“Nosy” is negative — it criticizes. To compliment, use the positive “curious.”", "es": "“Nosy” es negativo: critica. Para elogiar, usa el positivo “curious.”" }, "hint": { "en": "Which word would a teacher say kindly?", "es": "¿Qué palabra diría una maestra con amabilidad?" } },
+            "c": { "correct": false, "why": { "en": "“Prying” suggests interfering — negative. The kind compliment is “curious.”", "es": "“Prying” sugiere entrometerse: negativo. El elogio amable es “curious.”" } }
+          }
+        },
+        {
+          "id": "c4", "targetWord": "slim",
+          "context": { "en": "Two words, “slim” and “skinny,” both mean thin. A writer wants to describe a model in a flattering way.", "es": "Dos palabras, “slim” y “skinny,” significan delgado. Un escritor quiere describir a una modelo de manera favorable." },
+          "prompt": { "en": "Which word has the more positive connotation?", "es": "¿Qué palabra tiene la connotación más positiva?" },
+          "support": {
+            "high": { "en": "Same denotation (thin), different feeling. Which sounds flattering? / Misma denotación (delgado), sentido diferente. ¿Cuál suena favorable?", "es": "Misma denotación (delgado), sentido diferente. ¿Cuál suena favorable?" }
+          },
+          "choices": [
+            { "id": "a", "label": { "en": "slim (attractively thin, positive)", "es": "slim (delgado de forma atractiva, positivo)" } },
+            { "id": "b", "label": { "en": "skinny (too thin, often negative)", "es": "skinny (demasiado delgado, a menudo negativo)" } },
+            { "id": "c", "label": { "en": "They mean exactly the same thing.", "es": "Significan exactamente lo mismo." } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": { "correct": true, "why": { "en": "Right. “Slim” and “skinny” share a denotation (thin) but not a connotation — “slim” is flattering, “skinny” often is not.", "es": "Correcto. “Slim” y “skinny” comparten una denotación (delgado) pero no una connotación: “slim” es favorable, “skinny” a menudo no." } },
+            "b": { "correct": false, "why": { "en": "“Skinny” often sounds negative or unhealthy. For a flattering tone, “slim” is the choice.", "es": "“Skinny” suele sonar negativo o poco saludable. Para un tono favorable, “slim” es la opción." }, "hint": { "en": "Which word is a compliment?", "es": "¿Qué palabra es un elogio?" } },
+            "c": { "correct": false, "why": { "en": "They have the same denotation but different connotations — that's the whole point. “Slim” is the positive one.", "es": "Tienen la misma denotación pero distinta connotación: ese es el punto. “Slim” es la positiva." } }
+          }
+        }
+      ],
+
+      "ace": { "articulate": true, "connect": true, "extend": true },
+
+      "clear": { "enabled": false, "emphasis": [] },
+
+      "udl": [
+        "representation.language-support",
+        "representation.context",
+        "action-expression.multiple-response-modes",
+        "engagement.relevance"
+      ],
+
+      "strategies": [
+        "vocabulary-programs",
+        "corrective-feedback",
+        "retrieval-practice"
+      ],
+
+      "standards": {
+        "elps": [
+          { "code": "§120.21(d)(3)(C)", "alignment": "supporting", "grades": [9, 10], "rationale": "Students use context to comprehend the nuanced meaning of academic vocabulary." }
+        ],
+        "teks": [
+          { "code": "§110.36(c)(2)(B)", "alignment": "direct", "grades": [9], "rationale": "Students analyze context to distinguish denotative from connotative meaning." },
+          { "code": "§110.37(c)(2)(B)", "alignment": "direct", "grades": [10], "rationale": "Students analyze context to distinguish denotative, connotative, and figurative meaning." }
+        ],
+        "slar": []
+      },
+
+      "printables": ["all-connotation-9-12-005-student", "all-connotation-9-12-005-answer-key"],
+
+      "created": "2026-09-17",
+      "updated": "2026-09-17",
+      "status": "reviewed"
     }
   ]
 }

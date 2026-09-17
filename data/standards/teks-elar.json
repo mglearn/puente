@@ -106,6 +106,28 @@
       "sourceStatus": "official",
       "verified": "2026-09-17",
       "source": "Texas Education Agency / 19 TAC §110.24(b)(2)(B)"
+    },
+    {
+      "code": "§110.36(c)(2)(B)",
+      "framework": "Texas TEKS ELAR (English I)",
+      "grade": 9,
+      "subject": "elar",
+      "domain": "vocabulary",
+      "summary": "Analyze context to distinguish between the denotative and connotative meanings of words.",
+      "sourceStatus": "official",
+      "verified": "2026-09-17",
+      "source": "Texas Education Agency / 19 TAC §110.36(c)(2)(B)"
+    },
+    {
+      "code": "§110.37(c)(2)(B)",
+      "framework": "Texas TEKS ELAR (English II)",
+      "grade": 10,
+      "subject": "elar",
+      "domain": "vocabulary",
+      "summary": "Analyze context to distinguish among denotative, connotative, and figurative meanings of words.",
+      "sourceStatus": "official",
+      "verified": "2026-09-17",
+      "source": "Texas Education Agency / 19 TAC §110.37(c)(2)(B)"
     }
   ]
 }
