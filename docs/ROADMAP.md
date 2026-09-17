@@ -1,5 +1,28 @@
 # Roadmap
 
+## Current state (2026-09-17)
+
+**Live at https://mglearn.github.io/puente/** — 3 launch modules, **12 activities**,
+17 verified standards (0 pending), full site navigation, 18 smoke tests + validators
++ WCAG-AA contrast all green.
+
+- **Cognate Detective (6):** Cognate or False Friend? · Cognate or Not? (sort) ·
+  Science / Math / Social Studies Cognate Hunts (sort) · False Friend Detective (CLEAR)
+- **Academic Language Lab (3):** Academic Talk Moves · Say It Three Ways · Evidence Match
+- **Newcomer Navigator (3):** What Do You Say? · Build the Question · What Does That Mean?
+- Interaction types proven: context-choice, sort, scenario-choice (with images), multiple-choice.
+- Content areas: ELAR, science, math, social studies. All grade 5 (band 3–5).
+- Every top-nav link resolves (activities / printables / teacher / standards / frameworks / about
+  + sub-pages); homepage has a "Recently added" strip; custom 404 page.
+
+## Next
+
+1. **Grade-band breadth.** Add K–2, 6–8, 9–12 activities — needs a standards-verification
+   pass for §110.2/§110.22/§110.36 (ELAR) and §128 equivalents (ELPS §120.21 already covers 4–12).
+2. **Balance + depth.** More Academic Language Lab and Newcomer activities toward MVP (32 / 30).
+3. **A11y round two** (real AT walkthrough, print QA, axe) and **Spanish review** (the 2 `reviewed`
+   locale keys are an intentional QC-gate fixture — see es.json `_meta`).
+
 ## Done — §118 proof-of-concept (the architecture test)
 
 The vertical slice is complete and passes `npm run check`:
