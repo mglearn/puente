@@ -35,13 +35,18 @@ The vertical slice is complete and passes `npm run check`:
   PNG originals in `~/projects/assets/img/` converted to right-sized WebP
   (19–94 KB) into `assets/img/`. Cognate Detective hero + high-support item
   images are live; future-module heroes and 4 newcomer scenarios are staged.
-  **Open item:** manifest `tool` fields are `null` — record the generation
-  tool/source for rights before public launch (a prompt alone isn't a license).
+  Provenance recorded from the PNGs' C2PA Content Credentials: generated with
+  **OpenAI** ("OpenAI Media Service API"). `tool`/`source`/`created` filled for
+  all 12 in the manifest.
 
 ## Next — before adding the other 85 activities
 
-1. **Artwork rights.** Fill each manifest `tool`/source; confirm redistribution
-   rights so the CC BY 4.0 claim holds.
+1. **Artwork license decision (owner call).** The art is AI-generated, so the
+   `CC BY 4.0 (project-created)` claim is likely invalid — purely AI-generated
+   work may not be copyrightable. Decide the label (commonly CC0 / public-domain
+   for AI art), update `data/image-manifest.json` `rightsNote` and the README
+   licensing section to match. Also: the WebP conversion dropped the C2PA
+   credentials — decide whether to preserve provenance on the published files.
 2. **SLAR codes.** Import + verify Chapter 128 (Spanish LA) codes — do not guess them.
 3. **Es review pass.** Move remaining `reviewed` Spanish keys to `published` after
    a human check; keep the QC gate honest.
