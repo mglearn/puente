@@ -2,12 +2,13 @@
 
 ## Current state (2026-09-17)
 
-**Live at https://mglearn.github.io/puente/** — 3 launch modules, **12 activities**,
-17 verified standards (0 pending), full site navigation, 18 smoke tests + validators
-+ WCAG-AA contrast all green.
+**Live at https://mglearn.github.io/puente/** — 3 launch modules, **13 activities**,
+20 verified standards (0 pending), full site navigation, 18 smoke tests + 5 validators
+(data / standards / locales / links / contrast) all green.
 
-- **Cognate Detective (6):** Cognate or False Friend? · Cognate or Not? (sort) ·
-  Science / Math / Social Studies Cognate Hunts (sort) · False Friend Detective (CLEAR)
+- **Cognate Detective (7):** Cognate or False Friend? · Cognate or Not? (sort) ·
+  Science / Math / Social Studies Cognate Hunts (sort) · False Friend Detective (CLEAR) ·
+  Academic False Friends (grades 6–8 — proves grade-band scaling)
 - **Academic Language Lab (3):** Academic Talk Moves · Say It Three Ways · Evidence Match
 - **Newcomer Navigator (3):** What Do You Say? · Build the Question · What Does That Mean?
 - Interaction types proven: context-choice, sort, scenario-choice (with images), multiple-choice.
