@@ -71,6 +71,15 @@
     <div class="results" id="results" aria-live="polite"></div>
   </div></section>
 
+  <!-- Recently added (return-visit feature, spec §14) -->
+  <section id="recent-section" hidden>
+    <div class="row spread" style="margin-top:var(--sp-6)">
+      <h2 style="margin:0">Recently added</h2>
+      <a href="activities/" style="font-weight:600">All activities →</a>
+    </div>
+    <div class="results" id="recent" style="margin-top:var(--sp-4)"></div>
+  </section>
+
   <!-- Launch modules -->
   <h2 style="margin-top:var(--sp-6)">Modules</h2>
   <div class="grid module-grid" id="module-grid"></div>
@@ -146,9 +155,30 @@
   }).then(function (lists) {
     activities = lists.reduce(function (all, l){ return all.concat(l); }, []);
     document.getElementById("finder").addEventListener("submit", function (e){ e.preventDefault(); search(); });
-    document.addEventListener("lb:langchange", function () { renderModules(); if (document.getElementById("results").innerHTML) search(); });
+    document.addEventListener("lb:langchange", function () { renderModules(); renderRecent(); if (document.getElementById("results").innerHTML) search(); });
+    renderRecent();
     search();
   });
+
+  function renderRecent() {
+    // Newest by created date, then reverse insertion order for stable ties.
+    var recent = activities.map(function (a, i){ return { a:a, i:i }; })
+      .sort(function (p, q){ return (q.a.created||"").localeCompare(p.a.created||"") || (q.i - p.i); })
+      .slice(0, 4).map(function (x){ return x.a; });
+    if (!recent.length) return;
+    document.getElementById("recent-section").hidden = false;
+    document.getElementById("recent").innerHTML = recent.map(function (a) {
+      return '<div class="card result-card"><div class="pad">' +
+        '<span class="chip">' + esc(modName(a.module)) + '</span>' +
+        '<h3 style="margin:.25rem 0 0">' + esc(pick(a.title)) + '</h3>' +
+        '<div class="meta activity-meta"><span class="chip">' + a.duration + ' min</span>' +
+          '<span class="chip">Grade ' + a.grades.join(", ") + '</span></div>' +
+        '<div class="row" style="margin-top:.6rem">' +
+          '<a class="btn sm" href="modules/' + esc(a.module) + '/activity.html?id=' + esc(a.id) + '">Open</a>' +
+        '</div></div></div>';
+    }).join("");
+  }
+  function modName(id){ var m = (site.modules||[]).filter(function(x){return x.id===id;})[0]; return m ? pick(m.name) : id; }
 })();
 </script>
 </body>
