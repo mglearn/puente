@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UDL 3.0 — Frameworks — Language Bridge</title>
+<meta name="description" content="UDL 3.0 is CAST's Universal Design for Learning framework. Language Bridge applies it as a design requirement, not a badge or a TEA requirement.">
+<link rel="stylesheet" href="../assets/css/tokens.css">
+<link rel="stylesheet" href="../assets/css/base.css">
+<link rel="stylesheet" href="../assets/css/layout.css">
+<link rel="stylesheet" href="../assets/css/components.css">
+<link rel="stylesheet" href="../assets/css/rtl.css">
+</head>
+<body data-nav="frameworks/">
+<a class="skip-link" href="#main">Skip to content</a>
+<div data-shell="header"></div>
+<main class="main narrow" id="main">
+  <p><a href="index.html">← Frameworks</a></p>
+  <h1 id="fw-name">UDL 3.0</h1>
+  <p id="fw-authority" class="sub" style="color:var(--teal);font-weight:700"></p>
+  <div class="panel accent"><p style="margin:0" id="fw-disclaimer"></p></div>
+  <p style="margin-top:var(--sp-4)">The UDL options Language Bridge activities most often apply:</p>
+  <div id="fw-options" class="stack"></div>
+</main>
+<div data-shell="footer"></div>
+
+<script>window.LB_BASE = "../";</script>
+<script src="../assets/js/i18n.js"></script>
+<script src="../assets/js/app.js"></script>
+<script>
+(function () {
+  "use strict";
+  function pick(o){ return I18n.pick(o, I18n.uiLang); }
+  function esc(s){ return String(s==null?"":s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
+  window.LB.ready.then(function () {
+    return fetch("../data/frameworks/udl.json").then(function (r){ return r.json(); });
+  }).then(function (f) {
+    function draw() {
+      document.getElementById("fw-name").textContent = f.name;
+      document.getElementById("fw-authority").textContent = f.authority;
+      document.getElementById("fw-disclaimer").textContent = f.officialDisclaimer;
+      document.getElementById("fw-options").innerHTML = Object.keys(f.options).map(function (k) {
+        return '<div class="card"><div class="pad"><h3 style="margin:0 0 .3rem;font-size:1rem"><code>' + esc(k) + '</code></h3>' +
+          '<p style="margin:0">' + esc(pick(f.options[k])) + '</p></div></div>';
+      }).join("");
+    }
+    draw();
+    document.addEventListener("lb:langchange", draw);
+  });
+})();
+</script>
+</body>
+</html>

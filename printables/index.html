@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Printables — Language Bridge</title>
+<meta name="description" content="Color printables for every Language Bridge activity: student packs and answer keys, generated from the same content and ready to print in English or Spanish. Works on paper when technology does not.">
+<link rel="stylesheet" href="../assets/css/tokens.css">
+<link rel="stylesheet" href="../assets/css/base.css">
+<link rel="stylesheet" href="../assets/css/layout.css">
+<link rel="stylesheet" href="../assets/css/components.css">
+<link rel="stylesheet" href="../assets/css/rtl.css">
+<style>
+  .p-row { border:1px solid #d7e3f4; border-radius:var(--radius); padding:var(--sp-4); margin-bottom:var(--sp-3); }
+  .p-row h3 { margin:0 0 .35rem; font-size:1.05rem; }
+</style>
+</head>
+<body data-nav="printables/">
+<a class="skip-link" href="#main">Skip to content</a>
+<div data-shell="header"></div>
+
+<main class="main" id="main">
+  <h1>Printables</h1>
+  <p>Every activity prints. Each sheet is generated from the same content record, so the paper
+     version always matches the screen — a student pack to hand out and an answer key for you,
+     in English or Spanish. When the technology does not work, the activity still does.</p>
+  <div id="print-list"></div>
+</main>
+
+<div data-shell="footer"></div>
+
+<script>window.LB_BASE = "../";</script>
+<script src="../assets/js/i18n.js"></script>
+<script src="../assets/js/app.js"></script>
+<script>
+(function () {
+  "use strict";
+  var modules = {};
+  function pick(o){ return I18n.pick(o, I18n.uiLang); }
+  function esc(s){ return String(s==null?"":s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
+
+  window.LB.ready.then(function () {
+    return fetch("../data/site.json").then(function (r){ return r.json(); });
+  }).then(function (site) {
+    var live = site.modules.filter(function (x){ return x.status === "live"; });
+    live.forEach(function (m){ modules[m.id]=m; });
+    return Promise.all(live.map(function (m){
+      return fetch("../" + m.data).then(function (r){ return r.json(); }).then(function (d){ return { m:m, acts:d.activities||[] }; });
+    }));
+  }).then(function (groups) {
+    function draw() {
+      document.getElementById("print-list").innerHTML = groups.map(function (g) {
+        return '<h2 style="margin-top:var(--sp-6)">' + esc(pick(g.m.name)) + '</h2>' + g.acts.map(function (a) {
+          return '<div class="p-row"><div class="row spread">' +
+            '<h3>' + esc(pick(a.title)) + '</h3>' +
+            '<span class="chip">Grade ' + a.grades.join(", ") + ' · ' + a.duration + ' min</span></div>' +
+            '<div class="row" style="margin-top:.5rem">' +
+              '<a class="btn sm" href="../modules/' + esc(a.module) + '/printables.html?id=' + esc(a.id) + '" target="_blank" rel="noopener">Open printable</a>' +
+              '<span style="color:var(--ink-soft);font-size:.9rem">Student pack + answer key · English / Español</span>' +
+            '</div></div>';
+        }).join("");
+      }).join("");
+    }
+    draw();
+    document.addEventListener("lb:langchange", draw);
+  });
+})();
+</script>
+</body>
+</html>

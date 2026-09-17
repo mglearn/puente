@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Accessibility — Language Bridge</title>
+<meta name="description" content="Language Bridge accessibility: keyboard operable, WCAG AA contrast, screen-reader labels, reduced-motion support, RTL languages, and works on paper.">
+<link rel="stylesheet" href="../assets/css/tokens.css">
+<link rel="stylesheet" href="../assets/css/base.css">
+<link rel="stylesheet" href="../assets/css/layout.css">
+<link rel="stylesheet" href="../assets/css/components.css">
+<link rel="stylesheet" href="../assets/css/rtl.css">
+</head>
+<body data-nav="about/">
+<a class="skip-link" href="#main">Skip to content</a>
+<div data-shell="header"></div>
+<main class="main narrow" id="main">
+  <p><a href="index.html">← About</a></p>
+  <h1>Accessibility</h1>
+  <p>Accessibility is a design requirement, not an afterthought. Language Bridge aims to meet
+     WCAG 2.1 AA and to keep every activity usable by every student.</p>
+
+  <h2>What's in place</h2>
+  <ul>
+    <li><strong>Keyboard operable.</strong> Choices, controls, mode toggles, and drawers are all
+        reachable and operable with the keyboard, with a visible focus outline and a skip link.</li>
+    <li><strong>Screen-reader friendly.</strong> Answer choices are real buttons with pressed state,
+        feedback and progress use live regions, and target-language text is marked with its language
+        so pronunciation is correct.</li>
+    <li><strong>Color contrast.</strong> Text and interface colors meet WCAG AA; contrast is checked
+        automatically on every build.</li>
+    <li><strong>Feedback that teaches.</strong> No red-only signals, no loud error sounds, no punitive
+        scoring — feedback explains why.</li>
+    <li><strong>Reduced motion.</strong> Animations are minimized when the operating system requests it.</li>
+    <li><strong>Right-to-left languages.</strong> Arabic and Urdu are supported with correct direction.</li>
+    <li><strong>Paper.</strong> Every activity prints, so it works when devices or assistive tech are unavailable.</li>
+  </ul>
+
+  <h2>Still improving</h2>
+  <p>A screen-reader walkthrough on real assistive technology and an automated audit are on the roadmap.
+     If you hit a barrier, that is a bug we want to fix.</p>
+</main>
+<div data-shell="footer"></div>
+
+<script>window.LB_BASE = "../";</script>
+<script src="../assets/js/i18n.js"></script>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

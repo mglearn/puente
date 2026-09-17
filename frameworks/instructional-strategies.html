@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Instructional Strategies — Frameworks — Language Bridge</title>
+<meta name="description" content="The research-informed instructional strategies Language Bridge activities draw on, such as vocabulary programs, corrective feedback, retrieval practice, and classroom discussion.">
+<link rel="stylesheet" href="../assets/css/tokens.css">
+<link rel="stylesheet" href="../assets/css/base.css">
+<link rel="stylesheet" href="../assets/css/layout.css">
+<link rel="stylesheet" href="../assets/css/components.css">
+<link rel="stylesheet" href="../assets/css/rtl.css">
+</head>
+<body data-nav="frameworks/">
+<a class="skip-link" href="#main">Skip to content</a>
+<div data-shell="header"></div>
+<main class="main" id="main">
+  <p><a href="index.html">← Frameworks</a></p>
+  <h1>Instructional strategies</h1>
+  <p>Activities are tagged with high-impact, research-informed strategies (drawing on Hattie's
+     Visible Learning synthesis). The tags describe the instructional moves an activity is designed
+     to support — they are design guidance, not standards.</p>
+  <div class="grid" id="strat-list"></div>
+</main>
+<div data-shell="footer"></div>
+
+<script>window.LB_BASE = "../";</script>
+<script src="../assets/js/i18n.js"></script>
+<script src="../assets/js/app.js"></script>
+<script>
+(function () {
+  "use strict";
+  function esc(s){ return String(s==null?"":s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
+  var DESC = {
+    "vocabulary-programs": "Explicit, systematic vocabulary instruction — teaching word meaning, use, and relationships.",
+    "corrective-feedback": "Feedback that explains why an answer is or is not correct, so students learn from each attempt.",
+    "retrieval-practice": "Recalling and using knowledge (not just re-reading) to strengthen memory and transfer.",
+    "classification": "Sorting and categorizing to surface the features that distinguish concepts.",
+    "classroom-discussion": "Structured academic talk where students reason, respond, and build on each other.",
+    "sentence-frames": "Scaffolded sentence starters that give emergent bilinguals a way into academic language.",
+    "role-play": "Rehearsing real interactions so students practice language before they need it."
+  };
+  function humanize(k){ return k.replace(/-/g," ").replace(/\b\w/g,function(c){return c.toUpperCase();}); }
+
+  window.LB.ready.then(function () {
+    return fetch("../data/site.json").then(function (r){ return r.json(); });
+  }).then(function (site) {
+    var live = site.modules.filter(function (x){ return x.status === "live"; });
+    return Promise.all(live.map(function (m){ return fetch("../" + m.data).then(function (r){ return r.json(); }); }));
+  }).then(function (stores) {
+    var set = {};
+    stores.forEach(function (d){ (d.activities||[]).forEach(function (a){ (a.strategies||[]).forEach(function (s){ set[s]=(set[s]||0)+1; }); }); });
+    // Include any curated strategies even if unused yet.
+    Object.keys(DESC).forEach(function (k){ if(!(k in set)) set[k]=0; });
+    document.getElementById("strat-list").innerHTML = Object.keys(set).sort().map(function (k) {
+      return '<div class="card"><div class="pad"><h3 style="margin:0 0 .3rem">' + esc(humanize(k)) + '</h3>' +
+        '<p style="margin:0">' + esc(DESC[k] || "A research-informed instructional strategy.") + '</p>' +
+        (set[k] ? '<p style="margin:.5rem 0 0;color:var(--ink-soft);font-size:.85rem">Used by ' + set[k] + ' activit' + (set[k]===1?"y":"ies") + '</p>' : '') +
+        '</div></div>';
+    }).join("");
+  });
+})();
+</script>
+</body>
+</html>

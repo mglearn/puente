@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Standards — Language Bridge</title>
+<meta name="description" content="How Language Bridge activities correlate to official Texas standards: ELPS (19 TAC Ch. 120) and TEKS ELAR/SLAR (Ch. 110/128). Search by code and see which activities address each standard.">
+<link rel="stylesheet" href="../assets/css/tokens.css">
+<link rel="stylesheet" href="../assets/css/base.css">
+<link rel="stylesheet" href="../assets/css/layout.css">
+<link rel="stylesheet" href="../assets/css/components.css">
+<link rel="stylesheet" href="../assets/css/rtl.css">
+<style>
+  .search { width:100%; max-width:22rem; font:inherit; padding:.6rem .8rem; border:2px solid #cdddf2; border-radius:999px; }
+  .std { border:1px solid #d7e3f4; border-radius:var(--radius); padding:var(--sp-4); margin-bottom:var(--sp-3); }
+  .std h3 { margin:0 0 .25rem; font-size:1.05rem; }
+  .std .uses { margin:.5rem 0 0; font-size:.9rem; }
+  .std .uses a { display:inline-block; margin:.15rem .35rem .15rem 0; }
+  .group-h { margin-top:var(--sp-6); }
+</style>
+</head>
+<body data-nav="standards/">
+<a class="skip-link" href="#main">Skip to content</a>
+<div data-shell="header"></div>
+
+<main class="main" id="main">
+  <h1>Standards</h1>
+  <p>Language Bridge separates <strong class="tag-official">official Texas standards</strong> —
+     the English Language Proficiency Standards (19 TAC Ch. 120) and the TEKS for English and
+     Spanish Language Arts (Ch. 110 / Ch. 128) — from local instructional frameworks. Every
+     correlation states, in one sentence, why an activity addresses the standard. Nothing is
+     attached that cannot be justified.</p>
+  <p style="font-size:.9rem;color:var(--ink-soft)">Plain-language summaries are paraphrases for
+     teacher display, verified against the codified Texas Administrative Code. See each activity's
+     Teacher view for the full correlation and rationale.</p>
+
+  <p><label for="q" class="sr-only">Search standards</label>
+     <input class="search" id="q" type="search" placeholder="Search a code or keyword — e.g. 120.21, cognate, evidence"></p>
+
+  <div id="std-list"></div>
+</main>
+
+<div data-shell="footer"></div>
+
+<script>window.LB_BASE = "../";</script>
+<script src="../assets/js/i18n.js"></script>
+<script src="../assets/js/app.js"></script>
+<script>
+(function () {
+  "use strict";
+  var stores = ["elps","teks-elar","teks-slar"], index = {}, uses = {}, modules = {};
+  function pick(o){ return I18n.pick(o, I18n.uiLang); }
+  function esc(s){ return String(s==null?"":s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
+
+  function groupLabel(f){ return /ELPS/.test(f) ? "ELPS (English Language Proficiency Standards)" : /SLAR/.test(f) ? "TEKS — Spanish Language Arts (Ch. 128)" : "TEKS — English Language Arts (Ch. 110)"; }
+
+  function render() {
+    var q = (document.getElementById("q").value || "").toLowerCase().trim();
+    var byGroup = {};
+    Object.keys(index).forEach(function (code) {
+      var s = index[code];
+      var hay = (code + " " + s.summary + " " + (uses[code]||[]).map(function(u){return u.title;}).join(" ")).toLowerCase();
+      if (q && hay.indexOf(q) === -1) return;
+      var g = groupLabel(s.framework);
+      (byGroup[g] = byGroup[g] || []).push(s);
+    });
+    var order = ["ELPS (English Language Proficiency Standards)","TEKS — English Language Arts (Ch. 110)","TEKS — Spanish Language Arts (Ch. 128)"];
+    var html = order.filter(function(g){return byGroup[g];}).map(function (g) {
+      return '<h2 class="group-h">' + esc(g) + '</h2>' + byGroup[g].sort(function(a,b){return a.code<b.code?-1:1;}).map(function (s) {
+        var u = uses[s.code] || [];
+        var usesHtml = u.length
+          ? '<div class="uses"><strong>Used by:</strong> ' + u.map(function (x){ return '<a class="chip" href="../modules/' + esc(x.module) + '/activity.html?id=' + esc(x.id) + '">' + esc(x.title) + '</a>'; }).join("") + '</div>'
+          : '<div class="uses" style="color:var(--ink-soft)">Not yet used by a published activity.</div>';
+        return '<div class="std"><div class="row spread">' +
+          '<h3>' + esc(s.code) + '</h3>' +
+          '<span class="chip official">' + esc(s.domain) + '</span></div>' +
+          '<p style="margin:.25rem 0 0">' + esc(s.summary) + '</p>' + usesHtml + '</div>';
+      }).join("");
+    }).join("");
+    document.getElementById("std-list").innerHTML = html || "<p>No standards match that search.</p>";
+  }
+
+  window.LB.ready.then(function () {
+    return fetch("../data/site.json").then(function (r){ return r.json(); });
+  }).then(function (site) {
+    var live = site.modules.filter(function (x){ return x.status === "live"; });
+    live.forEach(function (m){ modules[m.id]=m; });
+    return Promise.all(
+      stores.map(function (f){ return fetch("../data/standards/" + f + ".json").then(function (r){ return r.ok?r.json():null; }).catch(function(){return null;}); })
+      .concat(live.map(function (m){ return fetch("../" + m.data).then(function (r){ return r.json(); }); }))
+    ).then(function (res) {
+      res.slice(0, stores.length).forEach(function (store){ if(store) (store.standards||[]).forEach(function (s){ index[s.code]=s; }); });
+      var activityStores = res.slice(stores.length);
+      activityStores.forEach(function (d){ (d.activities||[]).forEach(function (a) {
+        ["elps","teks","slar"].forEach(function (k){ (a.standards[k]||[]).forEach(function (c){
+          (uses[c.code] = uses[c.code] || []).push({ id:a.id, module:a.module, title:pick(a.title) });
+        }); });
+      }); });
+    });
+  }).then(function () {
+    document.getElementById("q").addEventListener("input", render);
+    document.addEventListener("lb:langchange", render);
+    render();
+  });
+})();
+</script>
+</body>
+</html>
