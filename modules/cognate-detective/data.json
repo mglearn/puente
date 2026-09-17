@@ -943,6 +943,151 @@
       "created": "2026-09-17",
       "updated": "2026-09-17",
       "status": "reviewed"
+    },
+    {
+      "id": "cog-math-3-5-005",
+      "module": "cognate-detective",
+      "title": {
+        "en": "Math Cognate Hunt",
+        "es": "Búsqueda de cognados de matemáticas"
+      },
+
+      "grades": [5],
+      "gradeBand": "3-5",
+      "subjects": ["math", "elar"],
+      "duration": 10,
+
+      "interactionType": "sort",
+
+      "targetLanguage": "en",
+      "supportedHomeLanguages": ["es"],
+      "languagePair": "en-es",
+
+      "studentGoal": {
+        "en": "Sort math words by their relationship to a Spanish look-alike, and watch for number false friends that can change an answer.",
+        "es": "Clasifica palabras de matemáticas según su relación con una palabra parecida en español, y cuidado con los falsos amigos de números que pueden cambiar una respuesta."
+      },
+      "studentDirections": {
+        "en": "Math has many true cognates — but a few false friends hide in numbers. For each word, decide: true cognate, false friend, or no look-alike? Place each word, then select Check.",
+        "es": "Las matemáticas tienen muchos cognados verdaderos, pero algunos falsos amigos se esconden en los números. Para cada palabra, decide: cognado verdadero, falso amigo o sin palabra parecida. Coloca cada palabra y selecciona Revisar."
+      },
+      "teacherDirections": {
+        "en": "Use before a math word-problem lesson. Highlight the number false friends: English “once” looks like Spanish “once” (eleven), and English “billion” differs from Spanish “billón.” Turn on More support for the Spanish look-alike.",
+        "es": "Úsalo antes de una lección de problemas verbales. Resalta los falsos amigos de números: “once” en inglés se parece a “once” en español (eleven), y “billion” en inglés difiere de “billón.” Activa Más apoyo para ver la palabra parecida."
+      },
+      "languageFunction": {
+        "en": "Classifying math vocabulary; analyzing cross-language number and term relationships.",
+        "es": "Clasificar vocabulario de matemáticas; analizar relaciones de números y términos entre idiomas."
+      },
+
+      "materials": [],
+
+      "categories": [
+        { "id": "true",  "label": { "en": "True cognate", "es": "Cognado verdadero" }, "hint": { "en": "Looks alike AND means the same.", "es": "Se parece Y significa lo mismo." } },
+        { "id": "false", "label": { "en": "False friend", "es": "Falso amigo" }, "hint": { "en": "Looks alike BUT means something different.", "es": "Se parece PERO significa algo diferente." } },
+        { "id": "none",  "label": { "en": "No look-alike", "es": "Sin palabra parecida" }, "hint": { "en": "No Spanish word looks like this one.", "es": "Ninguna palabra en español se le parece." } }
+      ],
+
+      "items": [
+        {
+          "id": "x1", "targetWord": "triangle", "answer": "true",
+          "prompt": { "en": "triangle", "es": "triangle" },
+          "support": { "high": { "en": "Spanish look-alike: “triángulo” = triangle. Same meaning.", "es": "Palabra parecida: “triángulo” = triangle. Mismo significado." } },
+          "feedback": { "true": { "correct": true, "why": { "en": "“Triangle” and “triángulo” are true cognates — same shape, same idea.", "es": "“Triangle” y “triángulo” son cognados verdaderos: la misma figura, la misma idea." } } }
+        },
+        {
+          "id": "x2", "targetWord": "addition", "answer": "true",
+          "prompt": { "en": "addition", "es": "addition" },
+          "support": { "high": { "en": "Spanish look-alike: “adición” = addition. Same meaning.", "es": "Palabra parecida: “adición” = addition. Mismo significado." } },
+          "feedback": { "true": { "correct": true, "why": { "en": "“Addition” and “adición” match — a true cognate for putting numbers together.", "es": "“Addition” y “adición” coinciden: un cognado verdadero para juntar números." } } }
+        },
+        {
+          "id": "x3", "targetWord": "fraction", "answer": "true",
+          "prompt": { "en": "fraction", "es": "fraction" },
+          "support": { "high": { "en": "Spanish look-alike: “fracción” = fraction. Same meaning.", "es": "Palabra parecida: “fracción” = fraction. Mismo significado." } },
+          "feedback": { "true": { "correct": true, "why": { "en": "“Fraction” and “fracción” are true cognates — a part of a whole.", "es": "“Fraction” y “fracción” son cognados verdaderos: una parte de un todo." } } }
+        },
+        {
+          "id": "x4", "targetWord": "once", "answer": "false",
+          "prompt": { "en": "once", "es": "once" },
+          "support": {
+            "high": { "en": "Careful: Spanish “once” = the number eleven. English “once” = one time.", "es": "Cuidado: “once” en español = el número eleven. “Once” en inglés = una vez." },
+            "medium": { "en": "In a word problem, English “once” is not a number.", "es": "En un problema, “once” en inglés no es un número." }
+          },
+          "feedback": { "false": { "correct": true, "why": { "en": "“Once” looks like Spanish “once” (eleven), but English “once” means one time. Reading it as 11 would change the math — a false friend.", "es": "“Once” se parece al “once” del español (eleven), pero en inglés significa una vez. Leerlo como 11 cambiaría las matemáticas: un falso amigo." } } }
+        },
+        {
+          "id": "x5", "targetWord": "billion", "answer": "false",
+          "prompt": { "en": "billion", "es": "billion" },
+          "support": {
+            "high": { "en": "Careful: Spanish “billón” = a million millions (a trillion), not an English billion (a thousand millions).", "es": "Cuidado: “billón” en español = un millón de millones (a trillion), no un billion en inglés (mil millones)." },
+            "medium": { "en": "The amounts are different — check the size.", "es": "Las cantidades son distintas: revisa el tamaño." }
+          },
+          "feedback": { "false": { "correct": true, "why": { "en": "“Billion” and “billón” look the same but name different amounts (1,000 millions vs. a million millions). In math that gap is huge — a false friend.", "es": "“Billion” y “billón” se ven iguales pero nombran cantidades distintas (mil millones vs. un millón de millones). En matemáticas esa diferencia es enorme: un falso amigo." } } }
+        },
+        {
+          "id": "x6", "targetWord": "large", "answer": "false",
+          "prompt": { "en": "large", "es": "large" },
+          "support": {
+            "high": { "en": "Careful: “largo” means “long,” not large. Large is “grande.”", "es": "Cuidado: “largo” significa “long,” no large. Large es “grande.”" }
+          },
+          "feedback": { "false": { "correct": true, "why": { "en": "“Large” looks like “largo,” but “largo” means “long.” Large is “grande.” A false friend in measurement problems.", "es": "“Large” se parece a “largo,” pero “largo” significa “long.” Large es “grande.” Un falso amigo en problemas de medición." } } }
+        },
+        {
+          "id": "x7", "targetWord": "half", "answer": "none",
+          "prompt": { "en": "half", "es": "half" },
+          "support": { "high": { "en": "The Spanish word is “mitad” — no look-alike.", "es": "La palabra en español es “mitad”: sin palabra parecida." } },
+          "feedback": { "none": { "correct": true, "why": { "en": "“Half” is “mitad” in Spanish — no look-alike. Cognates help in math, but not with every word.", "es": "“Half” es “mitad” en español: sin palabra parecida. Los cognados ayudan en matemáticas, pero no con todas las palabras." } } }
+        },
+        {
+          "id": "x8", "targetWord": "add", "answer": "none",
+          "prompt": { "en": "add", "es": "add" },
+          "support": { "high": { "en": "The Spanish word is “sumar” — no look-alike. (But “addition/adición” is a true cognate!)", "es": "La palabra en español es “sumar”: sin palabra parecida. (¡Pero “addition/adición” sí es un cognado verdadero!)" } },
+          "feedback": { "none": { "correct": true, "why": { "en": "The verb “add” is “sumar” — no look-alike, even though the noun “addition” is a true cognate.", "es": "El verbo “add” es “sumar”: sin palabra parecida, aunque el sustantivo “addition” sí es cognado verdadero." } } }
+        },
+        {
+          "id": "x9", "targetWord": "guess", "answer": "none",
+          "prompt": { "en": "guess", "es": "guess" },
+          "support": { "high": { "en": "The Spanish word is “adivinar” — no look-alike.", "es": "La palabra en español es “adivinar”: sin palabra parecida." } },
+          "feedback": { "none": { "correct": true, "why": { "en": "“Guess” is “adivinar” in Spanish — nothing alike. No look-alike.", "es": "“Guess” es “adivinar” en español: nada parecido. Sin palabra parecida." } } }
+        }
+      ],
+
+      "ace": { "articulate": true, "connect": true, "extend": true },
+
+      "clear": { "enabled": false, "emphasis": [] },
+
+      "udl": [
+        "representation.language-support",
+        "action-expression.multiple-response-modes",
+        "engagement.relevance"
+      ],
+
+      "strategies": [
+        "vocabulary-programs",
+        "corrective-feedback",
+        "classification"
+      ],
+
+      "standards": {
+        "elps": [
+          { "code": "§120.21(d)(3)(C)", "alignment": "direct", "grades": [5], "rationale": "Students use cognates to comprehend content-area (math) vocabulary." },
+          { "code": "§120.21(d)(3)(B)", "alignment": "supporting", "grades": [5], "rationale": "Students identify cognates while analyzing each math word." }
+        ],
+        "teks": [
+          { "code": "§110.7(b)(3)(C)", "alignment": "supporting", "grades": [5], "rationale": "Cognate recognition draws on shared roots in math vocabulary." }
+        ],
+        "slar": [
+          { "code": "§128.7(b)(3)(E)", "alignment": "direct", "grades": [5], "rationale": "Distinguishing cognates from false friends is differentiating commonly confused cross-language terms." },
+          { "code": "§128.7(b)(3)(C)", "alignment": "supporting", "grades": [5], "rationale": "Math cognates share Greek and Latin roots across Spanish and English." }
+        ]
+      },
+
+      "printables": ["cog-math-3-5-005-student", "cog-math-3-5-005-answer-key"],
+
+      "created": "2026-09-17",
+      "updated": "2026-09-17",
+      "status": "reviewed"
     }
   ]
 }
