@@ -23,16 +23,27 @@ The vertical slice is complete and passes `npm run check`:
   the codified 19 TAC text (Cornell LII); `verified` dates set, "source check
   pending" badges cleared. **Caveat:** the revised Ch. 120 ELPS rest on a single
   authoritative reproduction — cross-check against TEA's `ch120b.pdf` before launch.
+- **Accessibility hardening.** Engines use a correct group + `aria-pressed`
+  toggle-button pattern (was mismatched `role=radio`), `aria-live` regions, and
+  `lang` on target-language spans. WCAG AA contrast enforced via
+  `scripts/check-contrast.js` (in the `npm run check` gate); `--blue`/`--teal`
+  darkened to pass.
+- **Artwork wiring.** `data/image-manifest.json` gates optional item images and
+  module heroes — dormant until an asset's `status` flips to `available`, so no
+  broken images. Filenames match `~/projects/puente-image-prompts.md`.
 
 ## Next — before adding the other 85 activities
 
-1. **SLAR codes.** Import + verify Chapter 128 (Spanish LA) codes — do not guess them.
-2. **Es review pass.** Move remaining `reviewed` Spanish keys to `published` after
+1. **Deliver artwork.** Generate the Cognate Detective hero + item object images
+   per `~/projects/puente-image-prompts.md`; drop into `assets/img/`, record
+   tool/created/rights, flip manifest `status` to `available`.
+2. **SLAR codes.** Import + verify Chapter 128 (Spanish LA) codes — do not guess them.
+3. **Es review pass.** Move remaining `reviewed` Spanish keys to `published` after
    a human check; keep the QC gate honest.
-3. **Accessibility audit.** Keyboard-only pass, screen-reader labels on the engines,
-   contrast check (spec §29, §98).
-4. **Content pipeline.** Author remaining Cognate Detective MVP activities (24 total)
-   feeding the shared engines (spec §40).
+4. **A11y round two.** Screen-reader walkthrough on real AT; verify print output;
+   run an automated axe pass (spec §98).
+5. **Content pipeline.** Author remaining Cognate Detective MVP activities (24 total)
+   across grade bands and content areas, feeding the shared engines (spec §40).
 
 ## Later modules
 
