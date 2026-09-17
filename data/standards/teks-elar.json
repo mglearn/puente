@@ -3,9 +3,9 @@
     "framework": "Texas Essential Knowledge and Skills — English Language Arts and Reading",
     "authority": "Texas Education Agency — 19 TAC Chapter 110",
     "sourceStatus": "official",
-    "reviewNote": "Plain-language paraphrases for teacher display, checked 2026-09-17 against the codified 19 TAC §110.7 text (Cornell LII reproduction). Grade 5 (b)(3) is the vocabulary strand: 'the student uses newly acquired vocabulary expressively.'",
+    "reviewNote": "Plain-language paraphrases for teacher display, checked 2026-09-17 against the codified 19 TAC text (Cornell LII reproduction). Grade 5 = §110.7; middle school = §110.22 (6), §110.23 (7), §110.24 (8). The (b)(2)/(b)(3) vocabulary strand: 'the student uses newly acquired vocabulary expressively.' CAVEAT: grades 6 and 7 rest on the single Cornell LII reproduction; grade 8 (b)(2)(C) was cross-verified against Texas Gateway. Note: the TEKS text itself does not use the word 'cognates' — cognate awareness is an ELPS/cross-linguistic strategy layered onto the context and roots expectations.",
     "verified": "2026-09-17",
-    "verifiedSource": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-110-7"
+    "verifiedSource": "https://www.law.cornell.edu/regulations/texas/ (19 TAC §§110.7, 110.22, 110.23, 110.24)"
   },
   "standards": [
     {
@@ -73,6 +73,39 @@
       "sourceStatus": "official",
       "verified": "2026-09-17",
       "source": "Texas Education Agency / 19 TAC §110.7(b)(7)(C)"
+    },
+    {
+      "code": "§110.22(b)(2)(B)",
+      "framework": "Texas TEKS ELAR",
+      "grade": 6,
+      "subject": "elar",
+      "domain": "vocabulary",
+      "summary": "Use context such as definition, analogy, and examples to clarify the meaning of words.",
+      "sourceStatus": "official",
+      "verified": "2026-09-17",
+      "source": "Texas Education Agency / 19 TAC §110.22(b)(2)(B)"
+    },
+    {
+      "code": "§110.23(b)(2)(B)",
+      "framework": "Texas TEKS ELAR",
+      "grade": 7,
+      "subject": "elar",
+      "domain": "vocabulary",
+      "summary": "Use context such as contrast or cause and effect to clarify the meaning of words.",
+      "sourceStatus": "official",
+      "verified": "2026-09-17",
+      "source": "Texas Education Agency / 19 TAC §110.23(b)(2)(B)"
+    },
+    {
+      "code": "§110.24(b)(2)(B)",
+      "framework": "Texas TEKS ELAR",
+      "grade": 8,
+      "subject": "elar",
+      "domain": "vocabulary",
+      "summary": "Use context within or beyond a paragraph to clarify the meaning of unfamiliar or ambiguous words.",
+      "sourceStatus": "official",
+      "verified": "2026-09-17",
+      "source": "Texas Education Agency / 19 TAC §110.24(b)(2)(B)"
     }
   ]
 }

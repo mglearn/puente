@@ -1231,6 +1231,163 @@
       "created": "2026-09-17",
       "updated": "2026-09-17",
       "status": "reviewed"
+    },
+    {
+      "id": "cog-falsefriend-6-8-007",
+      "module": "cognate-detective",
+      "title": {
+        "en": "Academic False Friends",
+        "es": "Falsos amigos académicos"
+      },
+
+      "grades": [6, 7, 8],
+      "gradeBand": "6-8",
+      "subjects": ["elar"],
+      "duration": 10,
+
+      "interactionType": "context-choice",
+
+      "targetLanguage": "en",
+      "supportedHomeLanguages": ["es"],
+      "languagePair": "en-es",
+
+      "studentGoal": {
+        "en": "Use context to catch academic false friends — English words that look like a Spanish word but carry a different meaning in school texts.",
+        "es": "Usa el contexto para atrapar falsos amigos académicos: palabras en inglés que se parecen a una palabra en español pero tienen un significado diferente en los textos escolares."
+      },
+      "studentDirections": {
+        "en": "Read each sentence. The underlined English word looks like a Spanish word, but be careful — these are trickier, academic false friends. Use the sentence to choose what it really means here. Choose, then select Check.",
+        "es": "Lee cada oración. La palabra en inglés subrayada se parece a una palabra en español, pero ten cuidado: estos son falsos amigos académicos más difíciles. Usa la oración para elegir lo que realmente significa aquí. Elige y luego selecciona Revisar."
+      },
+      "teacherDirections": {
+        "en": "For middle-school readers who already trust cognates — this activity sharpens that trust by focusing on high-frequency academic false friends (eventually, record, advertise, introduce). Model the CLEAR routine and stress that context is the deciding evidence.",
+        "es": "Para lectores de secundaria que ya confían en los cognados: esta actividad afina esa confianza al enfocarse en falsos amigos académicos frecuentes (eventually, record, advertise, introduce). Modela la rutina CLEAR y enfatiza que el contexto es la evidencia decisiva."
+      },
+      "languageFunction": {
+        "en": "Determining word meaning from context; justifying a claim with textual evidence.",
+        "es": "Determinar el significado de palabras por el contexto; justificar una afirmación con evidencia del texto."
+      },
+
+      "materials": [],
+
+      "items": [
+        {
+          "id": "af1", "targetWord": "eventually",
+          "context": { "en": "The experiment was difficult and took many tries, but the team eventually succeeded.", "es": "El experimento fue difícil y tomó muchos intentos, pero el equipo eventually lo logró." },
+          "prompt": { "en": "What does “eventually” mean here?", "es": "¿Qué significa “eventually” aquí?" },
+          "support": {
+            "high": { "en": "Careful: Spanish “eventualmente” usually means “possibly / occasionally.” English “eventually” is different.", "es": "Cuidado: “eventualmente” en español suele significar “possibly / occasionally.” “Eventually” en inglés es diferente." },
+            "medium": { "en": "After many tries, what finally happened?", "es": "Después de muchos intentos, ¿qué pasó al final?" }
+          },
+          "choices": [
+            { "id": "a", "label": { "en": "in the end; finally, after some time", "es": "al final; finalmente, después de un tiempo" } },
+            { "id": "b", "label": { "en": "possibly; maybe", "es": "posiblemente; tal vez" } },
+            { "id": "c", "label": { "en": "immediately", "es": "inmediatamente" } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": { "correct": true, "why": { "en": "Right. English “eventually” means finally, after some time — the team did succeed. Spanish “eventualmente” (possibly) is a false friend.", "es": "Correcto. “Eventually” en inglés significa finalmente, después de un tiempo: el equipo sí lo logró. “Eventualmente” (possibly) es un falso amigo." } },
+            "b": { "correct": false, "why": { "en": "That's the Spanish “eventualmente.” The sentence says they succeeded, so “eventually” means finally, not maybe.", "es": "Ese es el “eventualmente” del español. La oración dice que lo lograron, así que “eventually” significa finalmente, no tal vez." }, "hint": { "en": "Did they succeed, or only maybe succeed?", "es": "¿Lo lograron, o solo tal vez lo lograron?" } },
+            "c": { "correct": false, "why": { "en": "It took many tries, so it wasn't immediate. “Eventually” means finally.", "es": "Tomó muchos intentos, así que no fue inmediato. “Eventually” significa finalmente." } }
+          }
+        },
+        {
+          "id": "af2", "targetWord": "record",
+          "context": { "en": "Please record the temperature in your data table every ten minutes.", "es": "Por favor record la temperatura en tu tabla de datos cada diez minutos." },
+          "prompt": { "en": "What does “record” mean here?", "es": "¿Qué significa “record” aquí?" },
+          "support": {
+            "high": { "en": "Careful: Spanish “recordar” means “to remember.” English “record” here is different.", "es": "Cuidado: “recordar” en español significa “to remember.” “Record” en inglés aquí es diferente." },
+            "medium": { "en": "What do you do with data in a table?", "es": "¿Qué haces con los datos en una tabla?" }
+          },
+          "choices": [
+            { "id": "a", "label": { "en": "write down; note", "es": "anotar; registrar" } },
+            { "id": "b", "label": { "en": "remember", "es": "recordar" } },
+            { "id": "c", "label": { "en": "erase", "es": "borrar" } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": { "correct": true, "why": { "en": "Yes. Here “record” means write down the temperature in your table. Spanish “recordar” (to remember) is the false friend.", "es": "Sí. Aquí “record” significa anotar la temperatura en tu tabla. “Recordar” (to remember) es el falso amigo." } },
+            "b": { "correct": false, "why": { "en": "That's Spanish “recordar.” You can't just remember data into a table — you write it down. “Record” = note.", "es": "Ese es “recordar.” No puedes solo recordar los datos en una tabla: los anotas. “Record” = registrar." }, "hint": { "en": "Data goes INTO the table. How?", "es": "Los datos van DENTRO de la tabla. ¿Cómo?" } },
+            "c": { "correct": false, "why": { "en": "You're collecting data, not erasing it. “Record” means write it down.", "es": "Estás reuniendo datos, no borrándolos. “Record” significa anotarlos." } }
+          }
+        },
+        {
+          "id": "af3", "targetWord": "advertise",
+          "context": { "en": "The company paid to advertise its new product on TV so more people would buy it.", "es": "La empresa pagó para advertise su nuevo producto en la televisión para que más gente lo comprara." },
+          "prompt": { "en": "What does “advertise” mean here?", "es": "¿Qué significa “advertise” aquí?" },
+          "support": {
+            "high": { "en": "Careful: Spanish “advertir” means “to warn.” English “advertise” is different.", "es": "Cuidado: “advertir” en español significa “to warn.” “Advertise” en inglés es diferente." },
+            "medium": { "en": "Why does a company pay for TV time about a product?", "es": "¿Por qué una empresa paga por tiempo en TV sobre un producto?" }
+          },
+          "choices": [
+            { "id": "a", "label": { "en": "tell the public about it to promote it", "es": "dar a conocer algo al público para promocionarlo" } },
+            { "id": "b", "label": { "en": "warn people about a danger", "es": "advertir a la gente de un peligro" } },
+            { "id": "c", "label": { "en": "take it away from stores", "es": "quitarlo de las tiendas" } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": { "correct": true, "why": { "en": "Right. The company wants people to buy the product, so “advertise” means promote it publicly. Spanish “advertir” (to warn) is the false friend.", "es": "Correcto. La empresa quiere que la gente compre el producto, así que “advertise” significa promocionarlo. “Advertir” (to warn) es el falso amigo." } },
+            "b": { "correct": false, "why": { "en": "That's Spanish “advertir.” The goal is more sales, not a warning. “Advertise” = promote.", "es": "Ese es “advertir.” El objetivo es vender más, no advertir. “Advertise” = promocionar." }, "hint": { "en": "Do ads warn you, or sell to you?", "es": "¿Los anuncios te advierten o te venden?" } },
+            "c": { "correct": false, "why": { "en": "The company wants more sales, not fewer. “Advertise” means promote publicly.", "es": "La empresa quiere más ventas, no menos. “Advertise” significa promocionar." } }
+          }
+        },
+        {
+          "id": "af4", "targetWord": "introduce",
+          "context": { "en": "The writer uses the first paragraph to introduce the main topic of the essay.", "es": "El escritor usa el primer párrafo para introduce el tema principal del ensayo." },
+          "prompt": { "en": "What does “introduce” mean here?", "es": "¿Qué significa “introduce” aquí?" },
+          "support": {
+            "high": { "en": "Careful: Spanish “introducir” often means “to insert / put inside.” English “introduce” here is different.", "es": "Cuidado: “introducir” en español suele significar “to insert / put inside.” “Introduce” en inglés aquí es diferente." },
+            "medium": { "en": "What does a first paragraph do with a topic?", "es": "¿Qué hace un primer párrafo con un tema?" }
+          },
+          "choices": [
+            { "id": "a", "label": { "en": "present it for the first time", "es": "presentarlo por primera vez" } },
+            { "id": "b", "label": { "en": "insert or push it inside something", "es": "insertarlo o meterlo dentro de algo" } },
+            { "id": "c", "label": { "en": "end or conclude it", "es": "terminarlo o concluirlo" } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": { "correct": true, "why": { "en": "Yes. A first paragraph presents the topic for the first time. Spanish “introducir” (to insert) is a false friend in this academic use.", "es": "Sí. Un primer párrafo presenta el tema por primera vez. “Introducir” (to insert) es un falso amigo en este uso académico." } },
+            "b": { "correct": false, "why": { "en": "That's the physical Spanish “introducir.” Here it means to present the topic, not push it inside something.", "es": "Ese es el “introducir” físico. Aquí significa presentar el tema, no meterlo dentro de algo." }, "hint": { "en": "A paragraph presents ideas, not objects.", "es": "Un párrafo presenta ideas, no objetos." } },
+            "c": { "correct": false, "why": { "en": "The first paragraph opens the essay; it doesn't conclude it. “Introduce” = present.", "es": "El primer párrafo abre el ensayo; no lo concluye. “Introduce” = presentar." } }
+          }
+        }
+      ],
+
+      "ace": { "articulate": true, "connect": true, "extend": true },
+
+      "clear": { "enabled": true, "emphasis": ["claim", "evidence", "alternatives"] },
+
+      "udl": [
+        "representation.language-support",
+        "representation.context",
+        "action-expression.multiple-response-modes",
+        "engagement.relevance"
+      ],
+
+      "strategies": [
+        "vocabulary-programs",
+        "corrective-feedback",
+        "retrieval-practice"
+      ],
+
+      "standards": {
+        "elps": [
+          { "code": "§120.21(d)(3)(C)", "alignment": "direct", "grades": [6, 7, 8], "rationale": "Students use context and cognate awareness to determine content-area word meaning." },
+          { "code": "§120.21(d)(3)(B)", "alignment": "supporting", "grades": [6, 7, 8], "rationale": "Students identify cognate look-alikes while deciding meaning." }
+        ],
+        "teks": [
+          { "code": "§110.22(b)(2)(B)", "alignment": "direct", "grades": [6], "rationale": "Students use context (definition, analogy, examples) to clarify a misleading word's meaning." },
+          { "code": "§110.23(b)(2)(B)", "alignment": "direct", "grades": [7], "rationale": "Students use context such as contrast or cause and effect to clarify meaning." },
+          { "code": "§110.24(b)(2)(B)", "alignment": "direct", "grades": [8], "rationale": "Students use context within or beyond a paragraph to clarify unfamiliar or ambiguous words." }
+        ],
+        "slar": []
+      },
+
+      "printables": ["cog-falsefriend-6-8-007-student", "cog-falsefriend-6-8-007-answer-key"],
+
+      "created": "2026-09-17",
+      "updated": "2026-09-17",
+      "status": "reviewed"
     }
   ]
 }
