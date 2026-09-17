@@ -1088,6 +1088,149 @@
       "created": "2026-09-17",
       "updated": "2026-09-17",
       "status": "reviewed"
+    },
+    {
+      "id": "cog-social-3-5-006",
+      "module": "cognate-detective",
+      "title": {
+        "en": "Social Studies Cognate Hunt",
+        "es": "Búsqueda de cognados de estudios sociales"
+      },
+
+      "grades": [5],
+      "gradeBand": "3-5",
+      "subjects": ["social-studies", "elar"],
+      "duration": 10,
+
+      "interactionType": "sort",
+
+      "targetLanguage": "en",
+      "supportedHomeLanguages": ["es"],
+      "languagePair": "en-es",
+
+      "studentGoal": {
+        "en": "Sort social studies words by their relationship to a Spanish look-alike, and catch false friends that can change the meaning of a history text.",
+        "es": "Clasifica palabras de estudios sociales según su relación con una palabra parecida en español, y atrapa falsos amigos que pueden cambiar el significado de un texto de historia."
+      },
+      "studentDirections": {
+        "en": "History and civics are full of true cognates — but watch for false friends. For each word, decide: true cognate, false friend, or no look-alike? Place each word, then select Check.",
+        "es": "La historia y el civismo tienen muchos cognados verdaderos, pero cuidado con los falsos amigos. Para cada palabra, decide: cognado verdadero, falso amigo o sin palabra parecida. Coloca cada palabra y selecciona Revisar."
+      },
+      "teacherDirections": {
+        "en": "Use before a social studies reading. Highlight false friends that matter for history: English “actual” vs. Spanish “actual” (current), and English “success” vs. Spanish “suceso” (an event). Turn on More support for the Spanish look-alike.",
+        "es": "Úsalo antes de una lectura de estudios sociales. Resalta los falsos amigos importantes para la historia: “actual” en inglés vs. “actual” en español (current), y “success” en inglés vs. “suceso” en español (an event). Activa Más apoyo para ver la palabra parecida."
+      },
+      "languageFunction": {
+        "en": "Classifying social studies vocabulary; analyzing cross-language word relationships.",
+        "es": "Clasificar vocabulario de estudios sociales; analizar relaciones entre palabras de distintos idiomas."
+      },
+
+      "materials": [],
+
+      "categories": [
+        { "id": "true",  "label": { "en": "True cognate", "es": "Cognado verdadero" }, "hint": { "en": "Looks alike AND means the same.", "es": "Se parece Y significa lo mismo." } },
+        { "id": "false", "label": { "en": "False friend", "es": "Falso amigo" }, "hint": { "en": "Looks alike BUT means something different.", "es": "Se parece PERO significa algo diferente." } },
+        { "id": "none",  "label": { "en": "No look-alike", "es": "Sin palabra parecida" }, "hint": { "en": "No Spanish word looks like this one.", "es": "Ninguna palabra en español se le parece." } }
+      ],
+
+      "items": [
+        {
+          "id": "h1", "targetWord": "history", "answer": "true",
+          "prompt": { "en": "history", "es": "history" },
+          "support": { "high": { "en": "Spanish look-alike: “historia” = history. Same meaning.", "es": "Palabra parecida: “historia” = history. Mismo significado." } },
+          "feedback": { "true": { "correct": true, "why": { "en": "“History” and “historia” are true cognates — the study of the past.", "es": "“History” e “historia” son cognados verdaderos: el estudio del pasado." } } }
+        },
+        {
+          "id": "h2", "targetWord": "community", "answer": "true",
+          "prompt": { "en": "community", "es": "community" },
+          "support": { "high": { "en": "Spanish look-alike: “comunidad” = community. Same meaning.", "es": "Palabra parecida: “comunidad” = community. Mismo significado." } },
+          "feedback": { "true": { "correct": true, "why": { "en": "“Community” and “comunidad” match — a group of people living together.", "es": "“Community” y “comunidad” coinciden: un grupo de personas que viven juntas." } } }
+        },
+        {
+          "id": "h3", "targetWord": "president", "answer": "true",
+          "prompt": { "en": "president", "es": "president" },
+          "support": { "high": { "en": "Spanish look-alike: “presidente” = president. Same meaning.", "es": "Palabra parecida: “presidente” = president. Mismo significado." } },
+          "feedback": { "true": { "correct": true, "why": { "en": "“President” and “presidente” are true cognates — a leader of a country or group.", "es": "“President” y “presidente” son cognados verdaderos: un líder de un país o grupo." } } }
+        },
+        {
+          "id": "h4", "targetWord": "actual", "answer": "false",
+          "prompt": { "en": "actual", "es": "actual" },
+          "support": {
+            "high": { "en": "Careful: Spanish “actual” means “current / present-day.” English “actual” means “real / true.”", "es": "Cuidado: “actual” en español significa “current / present-day.” “Actual” en inglés significa “real / true.”" },
+            "medium": { "en": "In English, “the actual cause” means the real cause, not the current one.", "es": "En inglés, “the actual cause” es la causa real, no la actual." }
+          },
+          "feedback": { "false": { "correct": true, "why": { "en": "“Actual” looks like Spanish “actual,” but they differ: Spanish “actual” = current; English “actual” = real. In a history text that changes the meaning — a false friend.", "es": "“Actual” se parece al “actual” del español, pero difieren: “actual” en español = current; en inglés = real. En un texto de historia eso cambia el significado: un falso amigo." } } }
+        },
+        {
+          "id": "h5", "targetWord": "success", "answer": "false",
+          "prompt": { "en": "success", "es": "success" },
+          "support": {
+            "high": { "en": "Careful: Spanish “suceso” means “an event.” English “success” means “achieving a goal.”", "es": "Cuidado: “suceso” en español significa “an event.” “Success” en inglés significa “lograr una meta.”" },
+            "medium": { "en": "A “suceso” is something that happened; “success” is winning or achieving.", "es": "Un “suceso” es algo que pasó; “success” es ganar o lograr." }
+          },
+          "feedback": { "false": { "correct": true, "why": { "en": "“Success” looks like Spanish “suceso,” but “suceso” means an event, while “success” means achieving a goal. A false friend in history reading.", "es": "“Success” se parece a “suceso,” pero “suceso” significa un evento, mientras que “success” significa lograr una meta. Un falso amigo al leer historia." } } }
+        },
+        {
+          "id": "h6", "targetWord": "large", "answer": "false",
+          "prompt": { "en": "large", "es": "large" },
+          "support": { "high": { "en": "Careful: “largo” means “long,” not large. Large is “grande.”", "es": "Cuidado: “largo” significa “long,” no large. Large es “grande.”" } },
+          "feedback": { "false": { "correct": true, "why": { "en": "“Large” looks like “largo,” but “largo” means “long.” Large is “grande.” A false friend when describing a large territory.", "es": "“Large” se parece a “largo,” pero “largo” significa “long.” Large es “grande.” Un falso amigo al describir un territorio grande." } } }
+        },
+        {
+          "id": "h7", "targetWord": "war", "answer": "none",
+          "prompt": { "en": "war", "es": "war" },
+          "support": { "high": { "en": "The Spanish word is “guerra” — no look-alike.", "es": "La palabra en español es “guerra”: sin palabra parecida." } },
+          "feedback": { "none": { "correct": true, "why": { "en": "“War” is “guerra” in Spanish — no look-alike. An important history word you have to learn directly.", "es": "“War” es “guerra” en español: sin palabra parecida. Una palabra importante de historia que hay que aprender directamente." } } }
+        },
+        {
+          "id": "h8", "targetWord": "law", "answer": "none",
+          "prompt": { "en": "law", "es": "law" },
+          "support": { "high": { "en": "The Spanish word is “ley” — no look-alike.", "es": "La palabra en español es “ley”: sin palabra parecida." } },
+          "feedback": { "none": { "correct": true, "why": { "en": "“Law” is “ley” in Spanish — nothing alike. No look-alike.", "es": "“Law” es “ley” en español: nada parecido. Sin palabra parecida." } } }
+        },
+        {
+          "id": "h9", "targetWord": "land", "answer": "none",
+          "prompt": { "en": "land", "es": "land" },
+          "support": { "high": { "en": "The Spanish word is “tierra” — no look-alike.", "es": "La palabra en español es “tierra”: sin palabra parecida." } },
+          "feedback": { "none": { "correct": true, "why": { "en": "“Land” is “tierra” in Spanish — no look-alike here.", "es": "“Land” es “tierra” en español: sin palabra parecida aquí." } } }
+        }
+      ],
+
+      "ace": { "articulate": true, "connect": true, "extend": true },
+
+      "clear": { "enabled": false, "emphasis": [] },
+
+      "udl": [
+        "representation.language-support",
+        "action-expression.multiple-response-modes",
+        "engagement.relevance"
+      ],
+
+      "strategies": [
+        "vocabulary-programs",
+        "corrective-feedback",
+        "classification"
+      ],
+
+      "standards": {
+        "elps": [
+          { "code": "§120.21(d)(3)(C)", "alignment": "direct", "grades": [5], "rationale": "Students use cognates to comprehend content-area (social studies) vocabulary." },
+          { "code": "§120.21(d)(3)(B)", "alignment": "supporting", "grades": [5], "rationale": "Students identify cognates while analyzing each social studies word." }
+        ],
+        "teks": [
+          { "code": "§110.7(b)(3)(C)", "alignment": "supporting", "grades": [5], "rationale": "Cognate recognition draws on shared roots in social studies vocabulary." }
+        ],
+        "slar": [
+          { "code": "§128.7(b)(3)(E)", "alignment": "direct", "grades": [5], "rationale": "Distinguishing cognates from false friends is differentiating commonly confused cross-language terms." },
+          { "code": "§128.7(b)(3)(C)", "alignment": "supporting", "grades": [5], "rationale": "Social studies cognates share Greek and Latin roots across Spanish and English." }
+        ]
+      },
+
+      "printables": ["cog-social-3-5-006-student", "cog-social-3-5-006-answer-key"],
+
+      "created": "2026-09-17",
+      "updated": "2026-09-17",
+      "status": "reviewed"
     }
   ]
 }
