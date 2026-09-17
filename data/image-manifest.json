@@ -1,49 +1,69 @@
 {
   "_meta": {
-    "note": "Registry of generated artwork. Prompts live in ~/projects/puente-image-prompts.md (outside the repo). An asset renders on the site ONLY when its status is 'available' — until then it is dormant, so no broken images or 404s. When art is delivered: drop the file in assets/img/, fill in tool/created/rights, and flip status to 'available'.",
+    "note": "Registry of generated artwork. Prompts live in ~/projects/puente-image-prompts.md (outside the repo). An asset renders on the site ONLY when its status is 'available'. Cognate Detective assets have live consumers (module hero + high-support item images); the future-module heroes and newcomer scenarios are delivered and render-ready but have no consuming page yet. 'tool' is unfilled — set the generation tool/source before public launch (prompt alone does not establish rights).",
     "renderGate": "available",
     "base": "assets/img/"
   },
   "assets": {
     "cognate-detective-hero": {
-      "file": "cognate-detective-hero.webp", "aspect": "16:7", "status": "planned",
-      "alt": "A small group of students examining two word cards with a magnifying glass — a cognate detective scene.",
-      "tool": null, "created": null, "rights": "CC BY 4.0 (project-created)"
+      "file": "cognate-detective-hero.webp", "aspect": "16:7", "status": "available",
+      "alt": "A small group of students examining two blank word cards with a magnifying glass while a puppy in a detective hat looks on.",
+      "tool": null, "created": "2026-09-17", "rights": "CC BY 4.0 (project-created)"
     },
     "cognate-observe": {
-      "file": "cognate-observe.webp", "aspect": "1:1", "status": "planned",
-      "alt": "A child looking at the night sky through a small telescope, notebook in hand.",
-      "tool": null, "created": null, "rights": "CC BY 4.0 (project-created)"
+      "file": "cognate-observe.webp", "aspect": "1:1", "status": "available",
+      "alt": "A child looking at the night sky through a telescope, notebook in hand, a sleeping puppy nearby.",
+      "tool": null, "created": "2026-09-17", "rights": "CC BY 4.0 (project-created)"
     },
     "cognate-temperature": {
-      "file": "cognate-temperature.webp", "aspect": "1:1", "status": "planned",
-      "alt": "A thermometer beside a beaker of water over a gentle heat source.",
-      "tool": null, "created": null, "rights": "CC BY 4.0 (project-created)"
+      "file": "cognate-temperature.webp", "aspect": "1:1", "status": "available",
+      "alt": "A thermometer beside a beaker of water warming over a small burner.",
+      "tool": null, "created": "2026-09-17", "rights": "CC BY 4.0 (project-created)"
     },
     "cognate-library-bookstore": {
-      "file": "cognate-library-bookstore.webp", "aspect": "1:1", "status": "planned",
-      "alt": "Split scene contrasting a public library reading room with a bookstore counter.",
-      "tool": null, "created": null, "rights": "CC BY 4.0 (project-created)"
+      "file": "cognate-library-bookstore.webp", "aspect": "1:1", "status": "available",
+      "alt": "Split scene: on the left a library reading room where people read at tables; on the right a bookstore where a clerk hands a customer books to buy.",
+      "tool": null, "created": "2026-09-17", "rights": "CC BY 4.0 (project-created)"
     },
     "cognate-exit-success": {
-      "file": "cognate-exit-success.webp", "aspect": "1:1", "status": "planned",
-      "alt": "An open doorway with a wordless way-out arrow, contrasted with a trophy.",
-      "tool": null, "created": null, "rights": "CC BY 4.0 (project-created)"
+      "file": "cognate-exit-success.webp", "aspect": "1:1", "status": "available",
+      "alt": "On the left a student walks out an open door under a wordless arrow; on the right children cheer and hold up a trophy.",
+      "tool": null, "created": "2026-09-17", "rights": "CC BY 4.0 (project-created)"
     },
     "cognate-family": {
-      "file": "cognate-family.webp", "aspect": "1:1", "status": "planned",
-      "alt": "A multigenerational family gathered around a dinner table.",
-      "tool": null, "created": null, "rights": "CC BY 4.0 (project-created)"
+      "file": "cognate-family.webp", "aspect": "1:1", "status": "available",
+      "alt": "A multigenerational family sharing a meal around a dinner table.",
+      "tool": null, "created": "2026-09-17", "rights": "CC BY 4.0 (project-created)"
     },
     "academic-language-lab-hero": {
-      "file": "academic-language-lab-hero.webp", "aspect": "16:7", "status": "planned",
-      "alt": "Students in discussion, gesturing as they explain their thinking, with a blank board for sentence frames.",
-      "tool": null, "created": null, "rights": "CC BY 4.0 (project-created)"
+      "file": "academic-language-lab-hero.webp", "aspect": "16:7", "status": "available",
+      "alt": "Four students in discussion at a table, gesturing as they explain their thinking, with a blank whiteboard behind them.",
+      "tool": null, "created": "2026-09-17", "rights": "CC BY 4.0 (project-created)"
     },
     "newcomer-navigator-hero": {
-      "file": "newcomer-navigator-hero.webp", "aspect": "16:7", "status": "planned",
+      "file": "newcomer-navigator-hero.webp", "aspect": "16:7", "status": "available",
       "alt": "A newly arrived student welcomed at a school entrance by a peer and a friendly adult.",
-      "tool": null, "created": null, "rights": "CC BY 4.0 (project-created)"
+      "tool": null, "created": "2026-09-17", "rights": "CC BY 4.0 (project-created)"
+    },
+    "newcomer-scenario-cafeteria": {
+      "file": "newcomer-scenario-cafeteria.webp", "aspect": "4:3", "status": "available",
+      "alt": "Two students with trays in a cafeteria line as a server points to the food options.",
+      "tool": null, "created": "2026-09-17", "rights": "CC BY 4.0 (project-created)"
+    },
+    "newcomer-scenario-nurse": {
+      "file": "newcomer-scenario-nurse.webp", "aspect": "4:3", "status": "available",
+      "alt": "Two students sitting on an exam table talking with a school nurse.",
+      "tool": null, "created": "2026-09-17", "rights": "CC BY 4.0 (project-created)"
+    },
+    "newcomer-scenario-restroom": {
+      "file": "newcomer-scenario-restroom.webp", "aspect": "4:3", "status": "available",
+      "alt": "A student raises a hand to ask as a teacher gestures toward a door marked with restroom symbols.",
+      "tool": null, "created": "2026-09-17", "rights": "CC BY 4.0 (project-created)"
+    },
+    "newcomer-scenario-group": {
+      "file": "newcomer-scenario-group.webp", "aspect": "4:3", "status": "available",
+      "alt": "A student invites a classmate to join a small-group activity at a table with a laptop and supplies.",
+      "tool": null, "created": "2026-09-17", "rights": "CC BY 4.0 (project-created)"
     }
   }
 }
