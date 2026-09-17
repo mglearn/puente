@@ -16,12 +16,12 @@
   // when present AND status === "available", so planned art stays dormant — no
   // broken images on the live site. LB_BASE-relative path is prepended.
   var MANIFEST = null, MANIFEST_BASE = "";
-  function supportImage(key) {
+  function manifestImage(key, cls) {
     if (!key || !MANIFEST || !MANIFEST.assets) return "";
     var a = MANIFEST.assets[key];
     if (!a || a.status !== (MANIFEST._meta && MANIFEST._meta.renderGate || "available")) return "";
     var base = MANIFEST_BASE + ((MANIFEST._meta && MANIFEST._meta.base) || "assets/img/");
-    return '<img class="support-img" src="' + esc(base + a.file) + '" alt="' + esc(a.alt || "") + '" ' +
+    return '<img class="' + (cls || "support-img") + '" src="' + esc(base + a.file) + '" alt="' + esc(a.alt || "") + '" ' +
       'loading="lazy" onerror="this.remove()">';
   }
 
@@ -57,7 +57,7 @@
     // but we only build the notes that this level should ever show.
     var supportHtml = "";
     if (item.support) {
-      if (support === "high" && item.support.image) supportHtml += supportImage(item.support.image);
+      if (support === "high" && item.support.image) supportHtml += manifestImage(item.support.image);
       if (support === "high" && item.support.high) {
         supportHtml += '<div class="support-note high"><span class="home-lang">▸</span> ' +
           esc(pick(item.support.high)) + '</div>';
@@ -66,6 +66,9 @@
         supportHtml += '<div class="support-note medium">' + esc(pick(item.support.medium)) + '</div>';
       }
     }
+
+    // Scenario image (spec §79) — core content, shown at every support level.
+    var imageHtml = item.image ? manifestImage(item.image, "scenario-img") : "";
 
     var tLang = esc(this.activity.targetLanguage);
     var contextHtml = item.context
@@ -81,6 +84,7 @@
     this.root.innerHTML =
       '<div class="activity-head">' +
         '<p class="progress" aria-live="polite">' + esc(I18n.t("activity.item_of", { n: this.i + 1, total: total })) + '</p>' +
+        imageHtml +
         contextHtml +
         '<p class="prompt">' + esc(pick(item.prompt)) + '</p>' +
       '</div>' +
@@ -211,7 +215,7 @@
 
       var supportHtml = "";
       if (it.support) {
-        if (support === "high" && it.support.image) supportHtml += supportImage(it.support.image);
+        if (support === "high" && it.support.image) supportHtml += manifestImage(it.support.image);
         if (support === "high" && it.support.high)
           supportHtml += '<div class="support-note high"><span class="home-lang">▸</span> ' + esc(pick(it.support.high)) + '</div>';
         if ((support === "high" || support === "medium") && it.support.medium)

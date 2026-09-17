@@ -21,6 +21,12 @@
   border-radius: var(--radius); margin-bottom: var(--sp-3);
   border: 1px solid #d7e3f4; background: var(--pale);
 }
+/* Scenario image — core content for scenario-choice activities (spec §79) */
+.scenario-img {
+  display: block; width: 100%; max-width: 480px; height: auto;
+  border-radius: var(--radius-lg); margin: var(--sp-2) 0 var(--sp-4);
+  border: 1px solid #d7e3f4;
+}
 .support .support-note {
   background: var(--pale); border-radius: var(--radius);
   padding: var(--sp-3) var(--sp-4); font-size: .95rem;

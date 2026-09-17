@@ -5,7 +5,7 @@
     "citation": "§120.20 (K–3) and §120.21 (grades 4–12)",
     "effective": "2026-2027",
     "sourceStatus": "official",
-    "reviewNote": "Summaries are plain-language paraphrases for teacher display, checked 2026-09-17 against the codified 19 TAC text (Cornell LII reproduction of the Texas Administrative Code). CAVEAT: the revised Chapter 120 ELPS were confirmed against a single retrievable authoritative reproduction; a belt-and-suspenders cross-check against the TEA-hosted ch120b.pdf adoption document is still advisable before public launch.",
+    "reviewNote": "Summaries are plain-language paraphrases for teacher display, checked 2026-09-17 against the codified 19 TAC text. The speaking/listening codes §120.21(d)(2)(F), (d)(2)(D), and (d)(1)(C) are two-source corroborated (Cornell LII AND TEA ch120b.pdf, adopted eff. 2025-02-02, 50 TexReg 539). The reading/vocabulary codes were verified against Cornell LII; a belt-and-suspenders cross-check against ch120b.pdf remains advisable for those before public launch.",
     "verified": "2026-09-17",
     "verifiedSource": "https://www.law.cornell.edu/regulations/texas/ (19 Tex. Admin. Code §§120.20, 120.21)"
   },
@@ -64,6 +64,39 @@
       "effective": "2026-2027",
       "verified": "2026-09-17",
       "source": "Texas Education Agency / 19 TAC §120.20(d)(3)(C)"
+    },
+    {
+      "code": "§120.21(d)(2)(F)",
+      "framework": "Texas ELPS",
+      "gradeRange": "4-12",
+      "domain": "speaking",
+      "summary": "Restate, ask questions about, or respond to information during formal and informal classroom interactions.",
+      "sourceStatus": "official",
+      "effective": "2026-2027",
+      "verified": "2026-09-17",
+      "source": "Texas Education Agency / 19 TAC §120.21(d)(2)(F)"
+    },
+    {
+      "code": "§120.21(d)(2)(D)",
+      "framework": "Texas ELPS",
+      "gradeRange": "4-12",
+      "domain": "speaking",
+      "summary": "Speak using an appropriate register (formal or informal) to convey a message during classroom interactions.",
+      "sourceStatus": "official",
+      "effective": "2026-2027",
+      "verified": "2026-09-17",
+      "source": "Texas Education Agency / 19 TAC §120.21(d)(2)(D)"
+    },
+    {
+      "code": "§120.21(d)(1)(C)",
+      "framework": "Texas ELPS",
+      "gradeRange": "4-12",
+      "domain": "listening",
+      "summary": "Respond with accuracy to oral directions, instructions, and requests.",
+      "sourceStatus": "official",
+      "effective": "2026-2027",
+      "verified": "2026-09-17",
+      "source": "Texas Education Agency / 19 TAC §120.21(d)(1)(C)"
     }
   ]
 }

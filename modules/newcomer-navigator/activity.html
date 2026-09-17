@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Newcomer Navigator — Language Bridge</title>
+<meta name="description" content="Newcomer Navigator activity: understand school, ask for help, join in. Teacher view, student mode, and printable — no accounts, no data collected.">
+<link rel="stylesheet" href="../../assets/css/tokens.css">
+<link rel="stylesheet" href="../../assets/css/base.css">
+<link rel="stylesheet" href="../../assets/css/layout.css">
+<link rel="stylesheet" href="../../assets/css/components.css">
+<link rel="stylesheet" href="../../assets/css/activities.css">
+<link rel="stylesheet" href="../../assets/css/print.css">
+<link rel="stylesheet" href="../../assets/css/rtl.css">
+<style>
+  /* Newcomer Navigator secondary accent (spec §32: one accent per module) */
+  body { --module-accent: var(--gold); }
+  .mode-bar { position: sticky; top: 0; z-index: 20; background: var(--navy-tcea); color:#fff; }
+  .mode-bar .bar { padding-block: var(--sp-2); }
+  .teacher-panel .drawer { margin-top: var(--sp-3); }
+</style>
+</head>
+<body data-nav="modules/" data-mode="teacher" data-support="medium">
+<a class="skip-link" href="#main">Skip to content</a>
+<div data-shell="header"></div>
+
+<!-- Mode + support controls -->
+<div class="mode-bar no-print">
+  <div class="bar">
+    <div class="row">
+      <span class="sr-only" data-i18n="mode.label">View</span>
+      <div class="segmented" role="group" aria-label="View mode">
+        <button data-mode-btn="teacher" aria-pressed="true" data-i18n="mode.teacher">Teacher</button>
+        <button data-mode-btn="student" aria-pressed="false" data-i18n="mode.student">Student</button>
+      </div>
+    </div>
+    <div class="row teacher-only" style="margin-inline-start:auto">
+      <span class="sr-only" data-i18n="support.label">Support level</span>
+      <div class="segmented on-light" role="group" aria-label="Support level">
+        <button data-support-btn="high" aria-pressed="false" data-i18n="support.high">More support</button>
+        <button data-support-btn="medium" aria-pressed="true" data-i18n="support.medium">Some support</button>
+        <button data-support-btn="light" aria-pressed="false" data-i18n="support.light">Independent</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<main class="main narrow" id="main">
+  <!-- STUDENT MODE: title, directions, interactive (spec §11) -->
+  <section class="student-only">
+    <div class="card"><div class="pad">
+      <h1 id="s-title">Newcomer Navigator</h1>
+      <p id="s-directions" class="sub"></p>
+      <div id="activity-root" class="activity"><!-- engine mounts here --></div>
+    </div></div>
+  </section>
+
+  <!-- TEACHER MODE: full metadata + standards + launch (spec §11, §23) -->
+  <section class="teacher-only">
+    <div class="card"><div class="pad">
+      <h1 id="t-title">Newcomer Navigator</h1>
+      <div class="activity-meta" id="t-meta"></div>
+
+      <div class="teacher-panel stack" id="teacher-panel"></div>
+
+      <div class="controls no-print" style="margin-top:var(--sp-5)">
+        <button class="btn" id="btn-launch-student" data-i18n="mode.student">Student</button>
+        <button class="btn secondary" id="btn-print" data-i18n="activity.print">Print this activity</button>
+        <a class="btn secondary" id="btn-printable" href="printables.html?id=cog-context-3-5-001" target="_blank" rel="noopener" data-i18n="teacher.printables">Printable resources</a>
+        <button class="btn secondary" id="btn-share" data-i18n="activity.student_link">Copy student link</button>
+      </div>
+    </div></div>
+  </section>
+</main>
+
+<div data-shell="footer"></div>
+
+<script>window.LB_BASE = "../../";</script>
+<script src="../../assets/js/i18n.js"></script>
+<script src="../../assets/js/feedback.js"></script>
+<script src="../../assets/js/standards.js"></script>
+<script src="../../assets/js/activity-engine.js"></script>
+<script src="../../assets/js/app.js"></script>
+<script>
+(function () {
+  "use strict";
+  var BASE = window.LB_BASE;
+  var params = new URLSearchParams(location.search);
+  var wantId = params.get("id") || "";
+  // Derive the module from this page's own path so the activity page is generic
+  // across modules: /modules/<module>/activity.html
+  var MODULE = location.pathname.split("/").filter(Boolean).slice(-2)[0];
+  var activity = null;
+
+  function pick(o) { return I18n.pick(o, I18n.uiLang); }
+  function esc(s) { return String(s == null ? "" : s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
+
+  function setMode(mode) {
+    document.body.setAttribute("data-mode", mode);
+    document.querySelectorAll("[data-mode-btn]").forEach(function (b) {
+      b.setAttribute("aria-pressed", b.getAttribute("data-mode-btn") === mode ? "true" : "false");
+    });
+  }
+  function setSupport(level) {
+    document.body.setAttribute("data-support", level);
+    document.querySelectorAll("[data-support-btn]").forEach(function (b) {
+      b.setAttribute("aria-pressed", b.getAttribute("data-support-btn") === level ? "true" : "false");
+    });
+    document.dispatchEvent(new CustomEvent("lb:supportchange", { detail: { support: level } }));
+  }
+
+  function buildTeacher() {
+    var a = activity;
+    document.getElementById("t-title").textContent = pick(a.title);
+    document.getElementById("s-title").textContent = pick(a.title);
+    document.getElementById("s-directions").textContent = pick(a.studentDirections);
+
+    // Meta chips
+    document.getElementById("t-meta").innerHTML =
+      chip(a.duration + " min") +
+      chip("Grade " + a.grades.join(", ")) +
+      chip(a.targetLanguage.toUpperCase() + " ↔ " + a.supportedHomeLanguages.join(",").toUpperCase()) +
+      chip("Interactive") + chip("Printable available");
+
+    var rows = "";
+    rows += metaRow("teacher.objective", esc(pick(a.studentGoal)));
+    rows += metaRow("teacher.function", esc(pick(a.languageFunction)));
+    rows += metaRow("teacher.directions", esc(pick(a.teacherDirections)));
+    rows += metaRow("teacher.student_dirs", esc(pick(a.studentDirections)));
+
+    // Support options summary (spec §20)
+    rows += metaRow("teacher.supports",
+      "<strong>" + I18n.t("support.high") + ":</strong> home-language clue + context nudge · " +
+      "<strong>" + I18n.t("support.medium") + ":</strong> context nudge · " +
+      "<strong>" + I18n.t("support.light") + ":</strong> prompt only");
+
+    // UDL + strategies + ACE/CLEAR (local frameworks, clearly labeled)
+    rows += metaRow("teacher.udl", a.udl.map(esc).join("<br>"));
+    rows += metaRow("teacher.strategies", a.strategies.map(esc).join(", "));
+    rows += metaRow("framework.ace",
+      '<span class="tag-local">Articulate · Connect · Extend</span><br><span style="font-size:.82rem;color:var(--ink-soft)">' +
+      esc(I18n.t("framework.local_note")) + "</span>");
+    if (a.clear && a.clear.enabled) {
+      rows += metaRow("framework.clear",
+        '<span class="tag-local">Emphasis: ' + esc(a.clear.emphasis.join(", ")) + '</span>');
+    }
+
+    var panel = document.getElementById("teacher-panel");
+    panel.innerHTML = '<dl style="margin:0">' + rows + '</dl>' +
+      '<details class="drawer" open>' +
+        '<summary>' + esc(I18n.t("teacher.standards")) + '</summary>' +
+        '<div class="drawer-body">' + Standards.renderDrawer(a) + '</div>' +
+      '</details>' +
+      '<details class="drawer">' +
+        '<summary>' + esc(I18n.t("teacher.answer")) + '</summary>' +
+        '<div class="drawer-body">' + answerKey(a) + '</div>' +
+      '</details>';
+  }
+
+  function answerKey(a) {
+    var labelFor = function (it) {
+      var pool = a.interactionType === "sort" ? a.categories : it.choices;
+      var match = (pool || []).filter(function (c) { return c.id === it.answer; })[0];
+      return match ? pick(match.label) : it.answer;
+    };
+    return '<ol style="padding-inline-start:1.2rem">' + a.items.map(function (it) {
+      return '<li style="margin-bottom:.4rem"><strong>' + esc(pick(it.prompt)) + '</strong><br>✔ ' +
+        esc(labelFor(it)) + '</li>';
+    }).join("") + '</ol>';
+  }
+
+  function chip(t) { return '<span class="chip">' + esc(t) + '</span>'; }
+  function metaRow(key, valueHtml) {
+    return '<div class="meta-row"><dt data-i18n="' + key + '">' + esc(I18n.t(key)) + '</dt><dd>' + valueHtml + '</dd></div>';
+  }
+
+  function mountStudent() {
+    var root = document.getElementById("activity-root");
+    root.innerHTML = "";
+    ActivityEngine.mount(root, activity);
+  }
+
+  function boot() {
+    // Support/mode from URL (spec §11) — no student identifier is ever read.
+    if (params.get("support")) setSupport(params.get("support"));
+    if (params.get("mode")) setMode(params.get("mode"));
+
+    // Point the printable link at the current activity.
+    document.getElementById("btn-printable").setAttribute("href", "printables.html?id=" + activity.id);
+
+    document.querySelectorAll("[data-mode-btn]").forEach(function (b) {
+      b.addEventListener("click", function () { setMode(b.getAttribute("data-mode-btn")); });
+    });
+    document.querySelectorAll("[data-support-btn]").forEach(function (b) {
+      b.addEventListener("click", function () { setSupport(b.getAttribute("data-support-btn")); });
+    });
+    document.getElementById("btn-launch-student").addEventListener("click", function () { setMode("student"); });
+    document.getElementById("btn-print").addEventListener("click", function () { window.print(); });
+    document.getElementById("btn-share").addEventListener("click", function (e) {
+      var url = location.origin + location.pathname + "?id=" + activity.id + "&mode=student&support=" +
+        document.body.getAttribute("data-support");
+      navigator.clipboard && navigator.clipboard.writeText(url);
+      e.target.textContent = "✓";
+      setTimeout(function () { e.target.textContent = I18n.t("activity.student_link"); }, 1500);
+    });
+
+    buildTeacher();
+    mountStudent();
+    document.addEventListener("lb:langchange", function () { buildTeacher(); });
+  }
+
+  // Wait for app.js to finish loading locales + mounting the shell,
+  // then load activity data and standards before booting the views.
+  window.LB.ready.then(function () {
+    return Promise.all([
+      fetch(BASE + "modules/" + MODULE + "/data.json").then(function (r) { return r.json(); }),
+      Standards.basePath(BASE).load(["elps", "teks-elar", "teks-slar"]),
+      fetch(BASE + "data/image-manifest.json").then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; })
+    ]);
+  }).then(function (out) {
+    var store = out[0];
+    if (out[2]) ActivityEngine.setManifest(out[2], BASE);
+    activity = (wantId && store.activities.filter(function (x) { return x.id === wantId; })[0]) || store.activities[0];
+    boot();
+  });
+})();
+</script>
+</body>
+</html>

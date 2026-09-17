@@ -148,4 +148,32 @@ test("Cognate Detective activities now carry verified SLAR correlations", () => 
   assert.ok(sort.standards.slar.some((c) => c.code === "§128.7(b)(3)(E)"), "sort maps false friends to commonly-confused-terms code");
 });
 
+// --- third module: Newcomer Navigator (scenario-choice with item images) ---
+const navStore = readJson("modules/newcomer-navigator/data.json");
+const nav = navStore.activities[0];
+
+test("Newcomer flagship is scenario-choice with an image per item", () => {
+  assert.strictEqual(nav.module, "newcomer-navigator");
+  assert.strictEqual(nav.interactionType, "scenario-choice");
+  nav.items.forEach((it) => {
+    assert.ok(it.image, it.id + " has a scenario image key");
+    const ids = it.choices.map((c) => c.id);
+    assert.ok(ids.includes(it.answer), it.id + " answerable");
+    ids.forEach((cid) => assert.ok(it.feedback[cid] && it.feedback[cid].why, it.id + " feedback " + cid));
+  });
+});
+
+test("Newcomer scenario images exist and are available in the manifest", () => {
+  const manifest = readJson("data/image-manifest.json");
+  nav.items.forEach((it) => {
+    const a = manifest.assets[it.image];
+    assert.ok(a, "manifest has " + it.image);
+    assert.strictEqual(a.status, "available", it.image + " is available");
+  });
+});
+
+test("Newcomer carries the two-source-verified speaking ELPS code", () => {
+  assert.ok(nav.standards.elps.some((c) => c.code === "§120.21(d)(2)(F)" && c.alignment === "direct"));
+});
+
 console.log(`\nsmoke.test: ${passed} passed`);

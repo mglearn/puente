@@ -50,11 +50,19 @@ The vertical slice is complete and passes `npm run check`:
   standards (§120.21(d)(2)(B), §110.7(b)(1)(A)/(b)(7)(C)/(b)(1)(C)). Activity pages
   are now module-generic (module derived from path). 15 smoke tests pass.
 
-## Next — before adding the other 85 activities
+- **Third module live: Newcomer Navigator.** `nav-say-3-5-001` "What Do You Say?"
+  (4 school scenarios: cafeteria, nurse, restroom, joining a group) uses the new
+  **scenario-choice** path — item-level images shown at every support level, driven
+  by the 4 delivered scenario illustrations. Verified ELPS (§120.21(d)(2)(F)/(2)(D)
+  direct, (d)(1)(C) supporting — two-source corroborated) + §110.7(b)(1)(A). All
+  three launch modules are now live; the top-nav "Newcomer" link resolves.
 
-1. **Newcomer nav link 404s** — the top-nav "Newcomer" points to an unbuilt module;
-   hide it or build Newcomer Navigator (hero + 4 scenarios already delivered).
-2. **License already set to provisional CC0** (below) — owner to confirm.
+## Next
+
+1. **Fill out each module's activity set** toward the MVP targets (Cognate Detective
+   24, Academic Language Lab 32, Newcomer Navigator 30) — all feed the shared engines.
+2. **Es review pass** (2 `reviewed` keys → `published`); **a11y round two** (real AT,
+   print QA, axe).
 
 ## Deferred / owner decisions
 

@@ -1,0 +1,248 @@
+{
+  "activities": [
+    {
+      "id": "nav-say-3-5-001",
+      "module": "newcomer-navigator",
+      "title": {
+        "en": "What Do You Say?",
+        "es": "¿Qué dices?"
+      },
+
+      "grades": [4, 5],
+      "gradeBand": "3-5",
+      "subjects": ["elar"],
+      "duration": 8,
+
+      "interactionType": "scenario-choice",
+
+      "targetLanguage": "en",
+      "supportedHomeLanguages": ["es"],
+      "languagePair": "en-es",
+
+      "studentGoal": {
+        "en": "Choose polite, clear English to ask for help and join in during everyday school situations.",
+        "es": "Elige un inglés cortés y claro para pedir ayuda y participar en situaciones cotidianas de la escuela."
+      },
+      "studentDirections": {
+        "en": "Look at each school situation. Choose the best thing to say in English — polite and clear. Choose, then select Check. Say your answer out loud when you can.",
+        "es": "Observa cada situación de la escuela. Elige lo mejor que puedes decir en inglés: cortés y claro. Elige y luego selecciona Revisar. Di tu respuesta en voz alta cuando puedas."
+      },
+      "teacherDirections": {
+        "en": "Project each scenario and read the situation aloud. Turn on More support to show bilingual sentence frames. Have students rehearse the strong response out loud, then role-play the scene in pairs. These are survival-English moves for a newcomer's first days.",
+        "es": "Proyecta cada situación y léela en voz alta. Activa Más apoyo para mostrar marcos de oración bilingües. Pide a los estudiantes que ensayen en voz alta la respuesta fuerte y luego representen la escena en parejas."
+      },
+      "languageFunction": {
+        "en": "Social and instructional language: requesting, asking for help, and joining an activity politely.",
+        "es": "Lenguaje social e instruccional: pedir, solicitar ayuda y unirse a una actividad con cortesía."
+      },
+
+      "materials": [],
+
+      "items": [
+        {
+          "id": "n1",
+          "image": "newcomer-scenario-cafeteria",
+          "context": {
+            "en": "You are in the cafeteria line. You are not sure what one of the foods is.",
+            "es": "Estás en la fila de la cafetería. No sabes qué es uno de los alimentos."
+          },
+          "prompt": {
+            "en": "What is the best thing to say to the server?",
+            "es": "¿Qué es lo mejor que puedes decirle a la persona que sirve?"
+          },
+          "support": {
+            "high": {
+              "en": "Frame: \"Excuse me, what is this, please?\" / \"Disculpe, ¿qué es esto, por favor?\"",
+              "es": "Marco: \"Excuse me, what is this, please?\" = \"Disculpe, ¿qué es esto, por favor?\""
+            },
+            "medium": {
+              "en": "Ask a polite question that starts with \"Excuse me.\"",
+              "es": "Haz una pregunta cortés que empiece con \"Excuse me.\""
+            }
+          },
+          "choices": [
+            { "id": "a", "label": { "en": "\"Excuse me, what is this, please?\"", "es": "\"Excuse me, what is this, please?\"" } },
+            { "id": "b", "label": { "en": "\"Give me that.\"", "es": "\"Give me that.\" (Dame eso.)" } },
+            { "id": "c", "label": { "en": "\"Hey, what food?\"", "es": "\"Hey, what food?\"" } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": { "correct": true,
+              "why": { "en": "Polite and clear. \"Excuse me, what is this, please?\" is a friendly way to ask, and the server can help you.", "es": "Cortés y claro. \"Excuse me, what is this, please?\" es una manera amable de preguntar, y la persona puede ayudarte." } },
+            "b": { "correct": false,
+              "why": { "en": "This sounds like a command, not a request. Add \"Excuse me\" and \"please\" to be polite.", "es": "Esto suena como una orden, no como una petición. Agrega \"Excuse me\" y \"please\" para ser cortés." },
+              "hint": { "en": "Start with \"Excuse me...\"", "es": "Empieza con \"Excuse me...\"" } },
+            "c": { "correct": false,
+              "why": { "en": "This is too casual and unclear. A full, polite question is easier to understand.", "es": "Esto es demasiado informal y poco claro. Una pregunta completa y cortés es más fácil de entender." } }
+          }
+        },
+        {
+          "id": "n2",
+          "image": "newcomer-scenario-nurse",
+          "context": {
+            "en": "You feel sick. You are in the nurse's office.",
+            "es": "Te sientes mal. Estás en la enfermería."
+          },
+          "prompt": {
+            "en": "What is the best way to tell the nurse how you feel?",
+            "es": "¿Cuál es la mejor manera de decirle a la enfermera cómo te sientes?"
+          },
+          "support": {
+            "high": {
+              "en": "Frame: \"I don't feel well. My ___ hurts.\" / \"No me siento bien. Me duele ___.\"",
+              "es": "Marco: \"I don't feel well. My ___ hurts.\" = \"No me siento bien. Me duele ___.\""
+            },
+            "medium": {
+              "en": "Name what feels wrong so the nurse can help.",
+              "es": "Di qué te molesta para que la enfermera pueda ayudarte."
+            }
+          },
+          "choices": [
+            { "id": "a", "label": { "en": "\"I don't feel well. My stomach hurts.\"", "es": "\"I don't feel well. My stomach hurts.\"" } },
+            { "id": "b", "label": { "en": "\"Bad.\"", "es": "\"Bad.\" (Mal.)" } },
+            { "id": "c", "label": { "en": "\"I'm fine.\"", "es": "\"I'm fine.\" (Estoy bien.)" } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": { "correct": true,
+              "why": { "en": "Clear and specific. Telling the nurse exactly what hurts helps them help you.", "es": "Claro y específico. Decirle a la enfermera exactamente qué te duele le ayuda a ayudarte." } },
+            "b": { "correct": false,
+              "why": { "en": "This is too vague. Say what feels wrong — for example, \"My stomach hurts.\"", "es": "Esto es muy vago. Di qué te molesta; por ejemplo, \"My stomach hurts.\"" },
+              "hint": { "en": "Use \"My ___ hurts.\"", "es": "Usa \"My ___ hurts.\"" } },
+            "c": { "correct": false,
+              "why": { "en": "If you feel sick, \"I'm fine\" hides the problem. Tell the nurse how you really feel.", "es": "Si te sientes mal, \"I'm fine\" oculta el problema. Dile a la enfermera cómo te sientes de verdad." } }
+          }
+        },
+        {
+          "id": "n3",
+          "image": "newcomer-scenario-restroom",
+          "context": {
+            "en": "You are in class and you need to use the restroom.",
+            "es": "Estás en clase y necesitas usar el baño."
+          },
+          "prompt": {
+            "en": "What is the best way to ask your teacher?",
+            "es": "¿Cuál es la mejor manera de pedírselo a tu maestra?"
+          },
+          "support": {
+            "high": {
+              "en": "Frame: \"Excuse me, may I use the restroom?\" / \"Disculpe, ¿puedo usar el baño?\"",
+              "es": "Marco: \"Excuse me, may I use the restroom?\" = \"Disculpe, ¿puedo usar el baño?\""
+            },
+            "medium": {
+              "en": "Ask permission politely and wait for the answer.",
+              "es": "Pide permiso con cortesía y espera la respuesta."
+            }
+          },
+          "choices": [
+            { "id": "a", "label": { "en": "\"Excuse me, may I use the restroom?\"", "es": "\"Excuse me, may I use the restroom?\"" } },
+            { "id": "b", "label": { "en": "\"I go bathroom now.\"", "es": "\"I go bathroom now.\"" } },
+            { "id": "c", "label": { "en": "(Leave the room without asking.)", "es": "(Salir del salón sin preguntar.)" } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": { "correct": true,
+              "why": { "en": "A polite request with \"may I.\" Ask, then wait for your teacher to say yes.", "es": "Una petición cortés con \"may I.\" Pregunta y luego espera a que tu maestra diga que sí." } },
+            "b": { "correct": false,
+              "why": { "en": "People will understand you, but ask politely and wait for permission: \"Excuse me, may I...?\"", "es": "Te entenderán, pero pide con cortesía y espera permiso: \"Excuse me, may I...?\"" },
+              "hint": { "en": "Use \"May I...?\" and wait for the answer.", "es": "Usa \"May I...?\" y espera la respuesta." } },
+            "c": { "correct": false,
+              "why": { "en": "Always ask first. Leaving without asking can worry your teacher.", "es": "Siempre pregunta primero. Salir sin preguntar puede preocupar a tu maestra." } }
+          }
+        },
+        {
+          "id": "n4",
+          "image": "newcomer-scenario-group",
+          "context": {
+            "en": "Your classmates are working together in a group. You want to join them.",
+            "es": "Tus compañeros están trabajando juntos en un grupo. Quieres unirte a ellos."
+          },
+          "prompt": {
+            "en": "What is the best thing to say?",
+            "es": "¿Qué es lo mejor que puedes decir?"
+          },
+          "support": {
+            "high": {
+              "en": "Frame: \"Hi, can I work with you?\" / \"Hola, ¿puedo trabajar con ustedes?\"",
+              "es": "Marco: \"Hi, can I work with you?\" = \"Hola, ¿puedo trabajar con ustedes?\""
+            },
+            "medium": {
+              "en": "Ask to join in a friendly way.",
+              "es": "Pide unirte de una manera amable."
+            }
+          },
+          "choices": [
+            { "id": "a", "label": { "en": "\"Hi, can I work with you?\"", "es": "\"Hi, can I work with you?\"" } },
+            { "id": "b", "label": { "en": "\"Move over.\"", "es": "\"Move over.\" (Hazte a un lado.)" } },
+            { "id": "c", "label": { "en": "(Stand nearby and say nothing.)", "es": "(Quedarte cerca sin decir nada.)" } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": { "correct": true,
+              "why": { "en": "Friendly and clear. \"Can I work with you?\" is a kind way to join a group.", "es": "Amable y claro. \"Can I work with you?\" es una manera amable de unirte a un grupo." } },
+            "b": { "correct": false,
+              "why": { "en": "This sounds bossy. Ask to join in a friendly way instead.", "es": "Esto suena mandón. Mejor pide unirte de una manera amable." },
+              "hint": { "en": "Try \"Can I work with you?\"", "es": "Prueba \"Can I work with you?\"" } },
+            "c": { "correct": false,
+              "why": { "en": "It's okay to ask. Waiting silently might mean you get left out — use your words to join.", "es": "Está bien preguntar. Esperar en silencio puede dejarte fuera; usa tus palabras para unirte." } }
+          }
+        }
+      ],
+
+      "ace": { "articulate": true, "connect": true, "extend": true },
+
+      "clear": { "enabled": false, "emphasis": [] },
+
+      "udl": [
+        "representation.language-support",
+        "representation.context",
+        "action-expression.multiple-response-modes",
+        "engagement.relevance"
+      ],
+
+      "strategies": [
+        "sentence-frames",
+        "role-play",
+        "corrective-feedback"
+      ],
+
+      "standards": {
+        "elps": [
+          {
+            "code": "§120.21(d)(2)(F)",
+            "alignment": "direct",
+            "grades": [4, 5],
+            "rationale": "Students ask questions and respond during informal school interactions to get help and join in."
+          },
+          {
+            "code": "§120.21(d)(2)(D)",
+            "alignment": "direct",
+            "grades": [4, 5],
+            "rationale": "Students choose an appropriate, polite register for each school situation."
+          },
+          {
+            "code": "§120.21(d)(1)(C)",
+            "alignment": "supporting",
+            "grades": [4, 5],
+            "rationale": "Some scenarios require responding accurately to an adult's spoken request."
+          }
+        ],
+        "teks": [
+          {
+            "code": "§110.7(b)(1)(A)",
+            "alignment": "direct",
+            "grades": [4, 5],
+            "rationale": "Students choose pertinent, polite spoken responses and questions to participate in school interactions."
+          }
+        ],
+        "slar": []
+      },
+
+      "printables": ["nav-say-3-5-001-student", "nav-say-3-5-001-answer-key"],
+
+      "created": "2026-09-17",
+      "updated": "2026-09-17",
+      "status": "reviewed"
+    }
+  ]
+}

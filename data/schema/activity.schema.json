@@ -56,6 +56,7 @@
           "prompt": { "$ref": "#/$defs/localized" },
           "context": { "$ref": "#/$defs/localized" },
           "targetWord": { "type": "string" },
+          "image": { "type": "string", "description": "Manifest asset key for a scenario image shown at all support levels." },
           "support": {
             "type": "object",
             "description": "Home-language scaffolds, revealed per support level (spec §20).",

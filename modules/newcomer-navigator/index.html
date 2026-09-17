@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Newcomer Navigator — Language Bridge</title>
+<meta name="description" content="Newcomer Navigator: understand school, ask for help, join in. Everyday-English scenario activities for newly arrived emergent bilingual students, with teacher views, standards, and printables.">
+<link rel="stylesheet" href="../../assets/css/tokens.css">
+<link rel="stylesheet" href="../../assets/css/base.css">
+<link rel="stylesheet" href="../../assets/css/layout.css">
+<link rel="stylesheet" href="../../assets/css/components.css">
+<link rel="stylesheet" href="../../assets/css/rtl.css">
+<style> body { --module-accent: var(--gold); } </style>
+</head>
+<body data-nav="modules/">
+<a class="skip-link" href="#main">Skip to content</a>
+<div data-shell="header"></div>
+
+<main class="main" id="main">
+  <div class="card"><div id="module-hero"></div><div class="pad">
+    <h1>Newcomer Navigator</h1>
+    <p class="tag" style="color:var(--navy);font-weight:700">Understand school · ask for help · join in.</p>
+    <p>Newly arrived students need survival English before academic English: how to
+       ask to use the restroom, what to say in the cafeteria line, how to join a
+       group. Newcomer Navigator uses real school scenarios so students rehearse
+       the words they need on day one — with home-language support throughout.</p>
+  </div></div>
+
+  <h2 style="margin-top:var(--sp-6)">Recommended starting point</h2>
+  <div class="grid" id="activity-grid"></div>
+</main>
+
+<div data-shell="footer"></div>
+
+<script>window.LB_BASE = "../../";</script>
+<script src="../../assets/js/i18n.js"></script>
+<script src="../../assets/js/app.js"></script>
+<script>
+(function () {
+  "use strict";
+  function pick(o){ return I18n.pick(o, I18n.uiLang); }
+  function esc(s){ return String(s==null?"":s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
+
+  fetch("../../data/image-manifest.json").then(function (r){ return r.ok ? r.json() : null; }).then(function (m) {
+    var a = m && m.assets && m.assets["newcomer-navigator-hero"];
+    if (a && a.status === (m._meta.renderGate || "available")) {
+      document.getElementById("module-hero").innerHTML =
+        '<img src="../../' + (m._meta.base || "assets/img/") + esc(a.file) + '" alt="' + esc(a.alt || "") +
+        '" style="display:block;width:100%;height:auto" loading="lazy" onerror="this.remove()">';
+    }
+  }).catch(function () {});
+
+  window.LB.ready.then(function () {
+    return fetch("../../modules/newcomer-navigator/data.json").then(function (r){ return r.json(); });
+  }).then(function (store) {
+    document.getElementById("activity-grid").innerHTML = (store.activities||[]).map(function (a) {
+      return '<div class="card"><div class="pad">' +
+        '<h3>' + esc(pick(a.title)) + '</h3>' +
+        '<p>' + esc(pick(a.studentGoal)) + '</p>' +
+        '<div class="activity-meta"><span class="chip">' + a.duration + ' min</span>' +
+          '<span class="chip">Grade ' + a.grades.join(", ") + '</span>' +
+          '<span class="chip">EN ↔ ' + a.supportedHomeLanguages.join(",").toUpperCase() + '</span></div>' +
+        '<div class="row" style="margin-top:.75rem">' +
+          '<a class="btn sm" href="activity.html?id=' + esc(a.id) + '">Teacher view</a>' +
+          '<a class="btn sm secondary" href="activity.html?id=' + esc(a.id) + '&mode=student">Student mode</a>' +
+          '<a class="btn sm secondary" href="printables.html?id=' + esc(a.id) + '" target="_blank" rel="noopener">Printable</a>' +
+        '</div></div></div>';
+    }).join("");
+  });
+})();
+</script>
+</body>
+</html>

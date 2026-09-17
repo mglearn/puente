@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Printable — Newcomer Navigator</title>
+<meta name="description" content="Printable version of a Newcomer Navigator activity, generated from the same content record.">
+<link rel="stylesheet" href="../../assets/css/tokens.css">
+<link rel="stylesheet" href="../../assets/css/base.css">
+<link rel="stylesheet" href="../../assets/css/print.css">
+<style>
+  body { background: #e9edf3; }
+  .toolbar { text-align: center; padding: 1rem; }
+  .toolbar button, .toolbar select {
+    font: inherit; font-weight: 600; padding: .5rem 1rem; border-radius: 999px;
+    border: 2px solid var(--navy); background: var(--navy); color: #fff; cursor: pointer;
+  }
+  .toolbar select { background:#fff; color: var(--navy); }
+</style>
+</head>
+<body>
+<div class="toolbar no-print">
+  <label>Language
+    <select id="lang"><option value="en">English</option><option value="es">Español</option></select>
+  </label>
+  <label style="margin:0 1rem">Sheet
+    <select id="sheet">
+      <option value="student">Student pack</option>
+      <option value="answer">Answer key</option>
+    </select>
+  </label>
+  <button onclick="window.print()">Print</button>
+</div>
+
+<div class="printable" id="printable"></div>
+
+<script src="../../assets/js/i18n.js"></script>
+<script>
+(function () {
+  "use strict";
+  var BASE = "../../";
+  var MODULE = location.pathname.split("/").filter(Boolean).slice(-2)[0];
+  var activity = null;
+  var lang = "en", sheet = "student";
+
+  function pick(o) { return (o && (o[lang] || o.en)) || ""; }
+  function esc(s) { return String(s == null ? "" : s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
+
+  function render() {
+    if (!activity) return;
+    var a = activity;
+    var today = a.updated;
+    var head =
+      '<div class="brandline"><strong>Language Bridge · Cognate Detective</strong>' +
+      '<span>' + esc(pick(a.title)) + '</span></div>';
+
+    var isSort = a.interactionType === "sort";
+    var labelFor = function (it) {
+      var pool = isSort ? a.categories : it.choices;
+      var m = (pool || []).filter(function (c) { return c.id === it.answer; })[0];
+      return m ? pick(m.label) : it.answer;
+    };
+    var body;
+    if (sheet === "answer") {
+      body = '<h1>' + esc(pick(a.title)) + ' — Answer Key</h1>' +
+        '<ol class="p-items">' + a.items.map(function (it) {
+          var fb = it.feedback[it.answer] || {};
+          return '<li><strong>' + esc(pick(it.context) || pick(it.prompt)) + '</strong><br>' +
+            (it.context ? esc(pick(it.prompt)) + '<br>' : '') +
+            '<span style="color:#0a6">✔ ' + esc(labelFor(it)) + '</span><br>' +
+            '<em style="font-size:.85em">' + esc(pick(fb.why)) + '</em></li>';
+        }).join("") + '</ol>';
+    } else if (isSort) {
+      body = '<h1>' + esc(pick(a.title)) + '</h1>' +
+        '<p>' + esc(pick(a.studentDirections)) + '</p>' +
+        '<div class="namebar"><span>Name</span><span>Date</span></div>' +
+        '<p><strong>Categories:</strong> ' + a.categories.map(function (c) { return esc(pick(c.label)); }).join(" · ") + '</p>' +
+        '<ol class="p-items">' + a.items.map(function (it) {
+          return '<li><strong>' + esc(pick(it.prompt)) + '</strong> &nbsp; ' +
+            '<span style="border-bottom:1px solid #999;display:inline-block;min-width:12rem">&nbsp;</span></li>';
+        }).join("") + '</ol>';
+    } else {
+      body = '<h1>' + esc(pick(a.title)) + '</h1>' +
+        '<p>' + esc(pick(a.studentDirections)) + '</p>' +
+        '<div class="namebar"><span>Name</span><span>Date</span></div>' +
+        '<ol class="p-items">' + a.items.map(function (it) {
+          return '<li><strong>' + esc(pick(it.context)) + '</strong><br>' +
+            esc(pick(it.prompt)) +
+            '<ol class="p-choices">' + it.choices.map(function (c) {
+              return '<li>' + esc(pick(c.label)) + '</li>';
+            }).join("") + '</ol></li>';
+        }).join("") + '</ol>' +
+        '<p style="margin-top:1.5rem"><strong>' + esc(I18n.t("ace.q_extend")) + '</strong></p>' +
+        '<div style="border:1px solid #999;height:3rem;border-radius:6px"></div>';
+    }
+
+    var std = (a.standards.elps || []).concat(a.standards.teks || [])
+      .map(function (c) { return c.code; }).join(" · ");
+    var foot =
+      '<div class="foot">Grade ' + a.grades.join(", ") + ' · ' + a.duration + ' min · ' +
+      'ELPS/TEKS: ' + esc(std) + '<br>' +
+      'ACE: Articulate · Connect · Extend (local framework) · ' +
+      'Generated from record ' + esc(a.id) + ' on ' + esc(today) + ' · CC BY 4.0 · No student data collected.</div>';
+
+    document.getElementById("printable").innerHTML =
+      '<section class="sheet">' + head + body + foot + '</section>';
+  }
+
+  document.getElementById("lang").addEventListener("change", function (e) { lang = e.target.value; render(); });
+  document.getElementById("sheet").addEventListener("change", function (e) { sheet = e.target.value; render(); });
+
+  I18n.basePath(BASE).load(["en", "es"]).then(function () {
+    return fetch(BASE + "modules/" + MODULE + "/data.json").then(function (r) { return r.json(); });
+  }).then(function (store) {
+    var params = new URLSearchParams(location.search);
+    var id = params.get("id") || "cog-context-3-5-001";
+    activity = store.activities.filter(function (x) { return x.id === id; })[0] || store.activities[0];
+    render();
+  });
+})();
+</script>
+</body>
+</html>
