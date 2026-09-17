@@ -113,4 +113,39 @@ test("sort covers all three relationships", () => {
   ["true", "false", "none"].forEach((k) => assert.ok(answers.has(k), "bin used: " + k));
 });
 
+// --- second module: Academic Language Lab (reuses the MC engine) ---
+const allStore = readJson("modules/academic-language-lab/data.json");
+const talk = allStore.activities[0];
+
+test("Academic Language Lab flagship is well-formed and MC-driven", () => {
+  assert.strictEqual(talk.module, "academic-language-lab");
+  assert.strictEqual(talk.interactionType, "multiple-choice");
+  assert.ok(talk.items.length >= 5, "at least five talk-move items");
+  talk.items.forEach((it) => {
+    const ids = it.choices.map((c) => c.id);
+    assert.ok(ids.includes(it.answer), it.id + " answerable");
+    ids.forEach((cid) => assert.ok(it.feedback[cid] && it.feedback[cid].why && it.feedback[cid].why.en, it.id + " feedback " + cid));
+  });
+});
+
+test("every correlated standard resolves to a known store code", () => {
+  // Build the union of codes across all standards stores.
+  const codes = new Set();
+  ["elps", "teks-elar", "teks-slar"].forEach((f) => {
+    readJson("data/standards/" + f + ".json").standards.forEach((s) => codes.add(s.code));
+  });
+  [talk, activity, sort].forEach((a) => {
+    ["elps", "teks", "slar"].forEach((k) => {
+      (a.standards[k] || []).forEach((c) => {
+        assert.ok(codes.has(c.code), a.id + " → " + c.code + " must exist in a store");
+      });
+    });
+  });
+});
+
+test("Cognate Detective activities now carry verified SLAR correlations", () => {
+  assert.ok(activity.standards.slar.length >= 1, "cog-context has SLAR");
+  assert.ok(sort.standards.slar.some((c) => c.code === "§128.7(b)(3)(E)"), "sort maps false friends to commonly-confused-terms code");
+});
+
 console.log(`\nsmoke.test: ${passed} passed`);

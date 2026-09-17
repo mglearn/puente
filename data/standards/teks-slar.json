@@ -1,0 +1,46 @@
+{
+  "_meta": {
+    "framework": "Texas Essential Knowledge and Skills — Spanish Language Arts and Reading (SLAR)",
+    "authority": "Texas Education Agency — 19 TAC Chapter 128",
+    "citation": "§128.7 (Grade 5), adopted eff. 2017-09-25 (42 TexReg 5096), amended 2019-08-01 (44 TexReg 3858)",
+    "sourceStatus": "official",
+    "reviewNote": "Verified 2026-09-17 against TEA ch128a.pdf and cross-confirmed with Cornell LII. IMPORTANT: §128.7 is codified in ENGLISH with authentic Spanish examples embedded — it is not a Spanish-prose translation of the ELAR TEKS. There is NO 'cognados' student expectation in §128.7(b)(3); cognates appear only in the non-binding introduction (a)(6). False friends are covered as 'commonly confused terms' under (b)(3)(E).",
+    "verified": "2026-09-17",
+    "verifiedSource": "https://tea.texas.gov/laws-and-rules/sboe-rules-tac/sboe-tac-currently-effect/ch128a.pdf ; https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-128-7"
+  },
+  "standards": [
+    {
+      "code": "§128.7(b)(3)(B)",
+      "framework": "Texas TEKS SLAR",
+      "grade": 5,
+      "subject": "slar",
+      "domain": "vocabulary",
+      "summary": "Use context within and beyond a sentence to determine the relevant meaning of unfamiliar or multiple-meaning words.",
+      "sourceStatus": "official",
+      "verified": "2026-09-17",
+      "source": "Texas Education Agency / 19 TAC §128.7(b)(3)(B)"
+    },
+    {
+      "code": "§128.7(b)(3)(C)",
+      "framework": "Texas TEKS SLAR",
+      "grade": 5,
+      "subject": "slar",
+      "domain": "vocabulary",
+      "summary": "Identify the meaning of and use words with affixes (such as -logía, -ificar, -ismo, -ista) and roots (such as audi, crono, foto, geo, terr).",
+      "sourceStatus": "official",
+      "verified": "2026-09-17",
+      "source": "Texas Education Agency / 19 TAC §128.7(b)(3)(C)"
+    },
+    {
+      "code": "§128.7(b)(3)(E)",
+      "framework": "Texas TEKS SLAR",
+      "grade": 5,
+      "subject": "slar",
+      "domain": "vocabulary",
+      "summary": "Differentiate between and use homographs, homophones, and commonly confused terms (such as porque/porqué, sino/si no, también/tan bien).",
+      "sourceStatus": "official",
+      "verified": "2026-09-17",
+      "source": "Texas Education Agency / 19 TAC §128.7(b)(3)(E)"
+    }
+  ]
+}

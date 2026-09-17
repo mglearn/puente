@@ -40,6 +40,39 @@
       "sourceStatus": "official",
       "verified": "2026-09-17",
       "source": "Texas Education Agency / 19 TAC §110.7(b)(3)(A)"
+    },
+    {
+      "code": "§110.7(b)(1)(A)",
+      "framework": "Texas TEKS ELAR",
+      "grade": 5,
+      "subject": "elar",
+      "domain": "listening",
+      "summary": "Listen actively to interpret verbal and non-verbal messages, ask relevant questions, and make pertinent comments.",
+      "sourceStatus": "official",
+      "verified": "2026-09-17",
+      "source": "Texas Education Agency / 19 TAC §110.7(b)(1)(A)"
+    },
+    {
+      "code": "§110.7(b)(1)(C)",
+      "framework": "Texas TEKS ELAR",
+      "grade": 5,
+      "subject": "elar",
+      "domain": "speaking",
+      "summary": "Give an organized presentation with eye contact, appropriate rate, volume, enunciation, natural gestures, and conventions of language.",
+      "sourceStatus": "official",
+      "verified": "2026-09-17",
+      "source": "Texas Education Agency / 19 TAC §110.7(b)(1)(C)"
+    },
+    {
+      "code": "§110.7(b)(7)(C)",
+      "framework": "Texas TEKS ELAR",
+      "grade": 5,
+      "subject": "elar",
+      "domain": "writing",
+      "summary": "Use text evidence to support an appropriate response.",
+      "sourceStatus": "official",
+      "verified": "2026-09-17",
+      "source": "Texas Education Agency / 19 TAC §110.7(b)(7)(C)"
     }
   ]
 }

@@ -39,7 +39,24 @@ The vertical slice is complete and passes `npm run check`:
   **OpenAI** ("OpenAI Media Service API"). `tool`/`source`/`created` filled for
   all 12 in the manifest.
 
+- **Chapter 128 (SLAR) verified + wired.** Added `data/standards/teks-slar.json`
+  (§128.7 grade 5, verified against TEA ch128a.pdf + Cornell LII). Key finding:
+  §128.7 has **no "cognados" student expectation** — so the Cognate Detective
+  activities correlate honestly to `(b)(3)(B)` (context) and `(b)(3)(E)` (commonly
+  confused terms = false friends), not an invented cognate code.
+- **Second module live: Academic Language Lab.** `all-talk-3-5-001` "Academic Talk
+  Moves" (science discussion, 5 items) reuses the multiple-choice engine, wired to
+  its delivered hero, ACE/CLEAR, bilingual sentence frames, and verified ELPS/ELAR
+  standards (§120.21(d)(2)(B), §110.7(b)(1)(A)/(b)(7)(C)/(b)(1)(C)). Activity pages
+  are now module-generic (module derived from path). 15 smoke tests pass.
+
 ## Next — before adding the other 85 activities
+
+1. **Newcomer nav link 404s** — the top-nav "Newcomer" points to an unbuilt module;
+   hide it or build Newcomer Navigator (hero + 4 scenarios already delivered).
+2. **License already set to provisional CC0** (below) — owner to confirm.
+
+## Deferred / owner decisions
 
 1. **Artwork license decision (owner call).** The art is AI-generated, so the
    `CC BY 4.0 (project-created)` claim is likely invalid — purely AI-generated

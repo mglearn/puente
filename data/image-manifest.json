@@ -2,7 +2,7 @@
   "_meta": {
     "note": "Registry of generated artwork. Prompts live in ~/projects/puente-image-prompts.md (outside the repo). An asset renders on the site ONLY when its status is 'available'. Cognate Detective assets have live consumers (module hero + high-support item images); the future-module heroes and newcomer scenarios are delivered and render-ready but have no consuming page yet.",
     "provenance": "Generator identified from C2PA Content Credentials embedded in the PNG originals (claim_generator_info: 'OpenAI Media Service API'; each carries a c2pa.created + c2pa.watermarked assertion). NOTE: the WebP conversion (cwebp) dropped the C2PA manifest; the original PNGs in ~/projects/assets/img/ retain it.",
-    "rightsNote": "Images were AI-generated with OpenAI and may be used per OpenAI's usage terms. CAVEAT: purely AI-generated works may not be copyrightable (e.g. U.S. Copyright Office guidance), so the project likely CANNOT license them under CC BY 4.0 as if it held copyright. Before public launch, decide the label — commonly CC0 / public-domain-style for AI art — and reconcile with README licensing. This is a rights decision for the project owner, not a settled fact here.",
+    "rightsNote": "Images were AI-generated with OpenAI and may be used per OpenAI's usage terms. Purely AI-generated works may not be copyrightable (e.g. U.S. Copyright Office guidance), so the project likely cannot hold copyright to license them under CC BY 4.0. Provisional label applied: CC0 1.0 / public domain — it claims no copyright the project may not hold, and fits the free-education spirit. The project owner may change this; if switching to CC BY, first establish a defensible authorship/rights basis.",
     "renderGate": "available",
     "base": "assets/img/"
   },
@@ -10,62 +10,62 @@
     "cognate-detective-hero": {
       "file": "cognate-detective-hero.webp", "aspect": "16:7", "status": "available",
       "alt": "A small group of students examining two blank word cards with a magnifying glass while a puppy in a detective hat looks on.",
-      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)", "source": "Generated from the matching prompt in ~/projects/puente-image-prompts.md; C2PA Content Credentials in the PNG original", "created": "2026-09-17", "rights": "AI-generated with OpenAI; usable per OpenAI usage terms. See _meta.rightsNote — CC BY 4.0 not confirmed for AI-generated work."
+      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)", "source": "Generated from the matching prompt in ~/projects/puente-image-prompts.md; C2PA Content Credentials in the PNG original", "created": "2026-09-17", "rights": "CC0 1.0 / public domain (provisional). AI-generated with OpenAI; usable per OpenAI usage terms. See _meta.rightsNote."
     },
     "cognate-observe": {
       "file": "cognate-observe.webp", "aspect": "1:1", "status": "available",
       "alt": "A child looking at the night sky through a telescope, notebook in hand, a sleeping puppy nearby.",
-      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)", "source": "Generated from the matching prompt in ~/projects/puente-image-prompts.md; C2PA Content Credentials in the PNG original", "created": "2026-09-17", "rights": "AI-generated with OpenAI; usable per OpenAI usage terms. See _meta.rightsNote — CC BY 4.0 not confirmed for AI-generated work."
+      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)", "source": "Generated from the matching prompt in ~/projects/puente-image-prompts.md; C2PA Content Credentials in the PNG original", "created": "2026-09-17", "rights": "CC0 1.0 / public domain (provisional). AI-generated with OpenAI; usable per OpenAI usage terms. See _meta.rightsNote."
     },
     "cognate-temperature": {
       "file": "cognate-temperature.webp", "aspect": "1:1", "status": "available",
       "alt": "A thermometer beside a beaker of water warming over a small burner.",
-      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)", "source": "Generated from the matching prompt in ~/projects/puente-image-prompts.md; C2PA Content Credentials in the PNG original", "created": "2026-09-17", "rights": "AI-generated with OpenAI; usable per OpenAI usage terms. See _meta.rightsNote — CC BY 4.0 not confirmed for AI-generated work."
+      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)", "source": "Generated from the matching prompt in ~/projects/puente-image-prompts.md; C2PA Content Credentials in the PNG original", "created": "2026-09-17", "rights": "CC0 1.0 / public domain (provisional). AI-generated with OpenAI; usable per OpenAI usage terms. See _meta.rightsNote."
     },
     "cognate-library-bookstore": {
       "file": "cognate-library-bookstore.webp", "aspect": "1:1", "status": "available",
       "alt": "Split scene: on the left a library reading room where people read at tables; on the right a bookstore where a clerk hands a customer books to buy.",
-      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)", "source": "Generated from the matching prompt in ~/projects/puente-image-prompts.md; C2PA Content Credentials in the PNG original", "created": "2026-09-17", "rights": "AI-generated with OpenAI; usable per OpenAI usage terms. See _meta.rightsNote — CC BY 4.0 not confirmed for AI-generated work."
+      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)", "source": "Generated from the matching prompt in ~/projects/puente-image-prompts.md; C2PA Content Credentials in the PNG original", "created": "2026-09-17", "rights": "CC0 1.0 / public domain (provisional). AI-generated with OpenAI; usable per OpenAI usage terms. See _meta.rightsNote."
     },
     "cognate-exit-success": {
       "file": "cognate-exit-success.webp", "aspect": "1:1", "status": "available",
       "alt": "On the left a student walks out an open door under a wordless arrow; on the right children cheer and hold up a trophy.",
-      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)", "source": "Generated from the matching prompt in ~/projects/puente-image-prompts.md; C2PA Content Credentials in the PNG original", "created": "2026-09-17", "rights": "AI-generated with OpenAI; usable per OpenAI usage terms. See _meta.rightsNote — CC BY 4.0 not confirmed for AI-generated work."
+      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)", "source": "Generated from the matching prompt in ~/projects/puente-image-prompts.md; C2PA Content Credentials in the PNG original", "created": "2026-09-17", "rights": "CC0 1.0 / public domain (provisional). AI-generated with OpenAI; usable per OpenAI usage terms. See _meta.rightsNote."
     },
     "cognate-family": {
       "file": "cognate-family.webp", "aspect": "1:1", "status": "available",
       "alt": "A multigenerational family sharing a meal around a dinner table.",
-      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)", "source": "Generated from the matching prompt in ~/projects/puente-image-prompts.md; C2PA Content Credentials in the PNG original", "created": "2026-09-17", "rights": "AI-generated with OpenAI; usable per OpenAI usage terms. See _meta.rightsNote — CC BY 4.0 not confirmed for AI-generated work."
+      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)", "source": "Generated from the matching prompt in ~/projects/puente-image-prompts.md; C2PA Content Credentials in the PNG original", "created": "2026-09-17", "rights": "CC0 1.0 / public domain (provisional). AI-generated with OpenAI; usable per OpenAI usage terms. See _meta.rightsNote."
     },
     "academic-language-lab-hero": {
       "file": "academic-language-lab-hero.webp", "aspect": "16:7", "status": "available",
       "alt": "Four students in discussion at a table, gesturing as they explain their thinking, with a blank whiteboard behind them.",
-      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)", "source": "Generated from the matching prompt in ~/projects/puente-image-prompts.md; C2PA Content Credentials in the PNG original", "created": "2026-09-17", "rights": "AI-generated with OpenAI; usable per OpenAI usage terms. See _meta.rightsNote — CC BY 4.0 not confirmed for AI-generated work."
+      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)", "source": "Generated from the matching prompt in ~/projects/puente-image-prompts.md; C2PA Content Credentials in the PNG original", "created": "2026-09-17", "rights": "CC0 1.0 / public domain (provisional). AI-generated with OpenAI; usable per OpenAI usage terms. See _meta.rightsNote."
     },
     "newcomer-navigator-hero": {
       "file": "newcomer-navigator-hero.webp", "aspect": "16:7", "status": "available",
       "alt": "A newly arrived student welcomed at a school entrance by a peer and a friendly adult.",
-      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)", "source": "Generated from the matching prompt in ~/projects/puente-image-prompts.md; C2PA Content Credentials in the PNG original", "created": "2026-09-17", "rights": "AI-generated with OpenAI; usable per OpenAI usage terms. See _meta.rightsNote — CC BY 4.0 not confirmed for AI-generated work."
+      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)", "source": "Generated from the matching prompt in ~/projects/puente-image-prompts.md; C2PA Content Credentials in the PNG original", "created": "2026-09-17", "rights": "CC0 1.0 / public domain (provisional). AI-generated with OpenAI; usable per OpenAI usage terms. See _meta.rightsNote."
     },
     "newcomer-scenario-cafeteria": {
       "file": "newcomer-scenario-cafeteria.webp", "aspect": "4:3", "status": "available",
       "alt": "Two students with trays in a cafeteria line as a server points to the food options.",
-      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)", "source": "Generated from the matching prompt in ~/projects/puente-image-prompts.md; C2PA Content Credentials in the PNG original", "created": "2026-09-17", "rights": "AI-generated with OpenAI; usable per OpenAI usage terms. See _meta.rightsNote — CC BY 4.0 not confirmed for AI-generated work."
+      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)", "source": "Generated from the matching prompt in ~/projects/puente-image-prompts.md; C2PA Content Credentials in the PNG original", "created": "2026-09-17", "rights": "CC0 1.0 / public domain (provisional). AI-generated with OpenAI; usable per OpenAI usage terms. See _meta.rightsNote."
     },
     "newcomer-scenario-nurse": {
       "file": "newcomer-scenario-nurse.webp", "aspect": "4:3", "status": "available",
       "alt": "Two students sitting on an exam table talking with a school nurse.",
-      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)", "source": "Generated from the matching prompt in ~/projects/puente-image-prompts.md; C2PA Content Credentials in the PNG original", "created": "2026-09-17", "rights": "AI-generated with OpenAI; usable per OpenAI usage terms. See _meta.rightsNote — CC BY 4.0 not confirmed for AI-generated work."
+      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)", "source": "Generated from the matching prompt in ~/projects/puente-image-prompts.md; C2PA Content Credentials in the PNG original", "created": "2026-09-17", "rights": "CC0 1.0 / public domain (provisional). AI-generated with OpenAI; usable per OpenAI usage terms. See _meta.rightsNote."
     },
     "newcomer-scenario-restroom": {
       "file": "newcomer-scenario-restroom.webp", "aspect": "4:3", "status": "available",
       "alt": "A student raises a hand to ask as a teacher gestures toward a door marked with restroom symbols.",
-      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)", "source": "Generated from the matching prompt in ~/projects/puente-image-prompts.md; C2PA Content Credentials in the PNG original", "created": "2026-09-17", "rights": "AI-generated with OpenAI; usable per OpenAI usage terms. See _meta.rightsNote — CC BY 4.0 not confirmed for AI-generated work."
+      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)", "source": "Generated from the matching prompt in ~/projects/puente-image-prompts.md; C2PA Content Credentials in the PNG original", "created": "2026-09-17", "rights": "CC0 1.0 / public domain (provisional). AI-generated with OpenAI; usable per OpenAI usage terms. See _meta.rightsNote."
     },
     "newcomer-scenario-group": {
       "file": "newcomer-scenario-group.webp", "aspect": "4:3", "status": "available",
       "alt": "A student invites a classmate to join a small-group activity at a table with a laptop and supplies.",
-      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)", "source": "Generated from the matching prompt in ~/projects/puente-image-prompts.md; C2PA Content Credentials in the PNG original", "created": "2026-09-17", "rights": "AI-generated with OpenAI; usable per OpenAI usage terms. See _meta.rightsNote — CC BY 4.0 not confirmed for AI-generated work."
+      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)", "source": "Generated from the matching prompt in ~/projects/puente-image-prompts.md; C2PA Content Credentials in the PNG original", "created": "2026-09-17", "rights": "CC0 1.0 / public domain (provisional). AI-generated with OpenAI; usable per OpenAI usage terms. See _meta.rightsNote."
     }
   }
 }

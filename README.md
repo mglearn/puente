@@ -114,6 +114,10 @@ Never attach a standard you cannot justify in one sentence.
 
 - Code: MIT (see [`LICENSE`](LICENSE))
 - Original educational content: CC BY 4.0
-- Artwork: project-created assets only, with clear redistribution rights
+- Artwork: current illustrations are **AI-generated (OpenAI)** and labeled
+  **CC0 1.0 / public domain (provisional)** — purely AI-generated work may not be
+  copyrightable, so the project does not claim CC BY over it. Provenance and the
+  rights rationale live in [`data/image-manifest.json`](data/image-manifest.json).
+  Any future hand-created artwork would be CC BY 4.0.
 
 No copyrighted textbook passages are used as activity content.

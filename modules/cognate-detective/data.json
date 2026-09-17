@@ -374,7 +374,20 @@
             "rationale": "Cognate awareness draws on shared Greek and Latin roots between English and Spanish word families."
           }
         ],
-        "slar": []
+        "slar": [
+          {
+            "code": "§128.7(b)(3)(B)",
+            "alignment": "direct",
+            "grades": [5],
+            "rationale": "Students use context to determine the relevant meaning of misleading look-alike words."
+          },
+          {
+            "code": "§128.7(b)(3)(E)",
+            "alignment": "supporting",
+            "grades": [5],
+            "rationale": "False friends are commonly confused terms between Spanish and English."
+          }
+        ]
       },
 
       "printables": ["cog-context-3-5-001-student", "cog-context-3-5-001-answer-key"],
@@ -558,7 +571,20 @@
             "rationale": "Cognate recognition draws on shared roots between English and Spanish word families."
           }
         ],
-        "slar": []
+        "slar": [
+          {
+            "code": "§128.7(b)(3)(E)",
+            "alignment": "direct",
+            "grades": [5],
+            "rationale": "Sorting true cognates from false friends is differentiating commonly confused cross-language terms."
+          },
+          {
+            "code": "§128.7(b)(3)(C)",
+            "alignment": "supporting",
+            "grades": [5],
+            "rationale": "Cognate recognition draws on shared roots between Spanish and English word families."
+          }
+        ]
       },
 
       "printables": ["cog-sort-3-5-002-student", "cog-sort-3-5-002-answer-key"],

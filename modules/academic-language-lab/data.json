@@ -1,0 +1,280 @@
+{
+  "activities": [
+    {
+      "id": "all-talk-3-5-001",
+      "module": "academic-language-lab",
+      "title": {
+        "en": "Academic Talk Moves",
+        "es": "Movimientos de conversación académica"
+      },
+
+      "grades": [5],
+      "gradeBand": "3-5",
+      "subjects": ["science", "elar"],
+      "duration": 10,
+
+      "interactionType": "multiple-choice",
+
+      "targetLanguage": "en",
+      "supportedHomeLanguages": ["es"],
+      "languagePair": "en-es",
+
+      "studentGoal": {
+        "en": "Choose academic talk moves — agree and build, respectfully disagree, ask a clarifying question, and cite evidence — to contribute to a science discussion.",
+        "es": "Elige movimientos de conversación académica —estar de acuerdo y ampliar, estar en desacuerdo con respeto, hacer una pregunta aclaratoria y citar evidencia— para participar en una discusión de ciencias."
+      },
+      "studentDirections": {
+        "en": "Read what a classmate says. Then choose the response that adds the most to the discussion — one that uses a talk move and precise words. Choose, then select Check.",
+        "es": "Lee lo que dice un compañero. Luego elige la respuesta que más aporta a la discusión: una que use un movimiento de conversación y palabras precisas. Elige y luego selecciona Revisar."
+      },
+      "teacherDirections": {
+        "en": "Project the activity and read each scenario aloud. Turn on More support to show bilingual sentence frames. After each item, have students say the strong response out loud so the talk move becomes speech, not just a choice. Debrief the four moves: agree-and-build, respectfully disagree, clarify, cite evidence.",
+        "es": "Proyecta la actividad y lee cada situación en voz alta. Activa Más apoyo para mostrar marcos de oración bilingües. Después de cada ítem, pide a los estudiantes que digan en voz alta la respuesta fuerte para que el movimiento se vuelva habla, no solo una opción."
+      },
+      "languageFunction": {
+        "en": "Contributing to academic discussion: agreeing and building, disagreeing, questioning, and citing evidence.",
+        "es": "Participar en la discusión académica: estar de acuerdo y ampliar, estar en desacuerdo, preguntar y citar evidencia."
+      },
+
+      "materials": [],
+
+      "items": [
+        {
+          "id": "t1",
+          "context": {
+            "en": "In a discussion about plants, Mia says, \"Plants need sunlight to live.\"",
+            "es": "En una discusión sobre las plantas, Mia dice: \"Las plantas necesitan luz solar para vivir.\""
+          },
+          "prompt": {
+            "en": "Which response adds the most to the discussion?",
+            "es": "¿Qué respuesta aporta más a la discusión?"
+          },
+          "support": {
+            "high": {
+              "en": "Frame: \"I agree with ___, and I want to add that ___.\" / \"Estoy de acuerdo con ___, y quiero agregar que ___.\"",
+              "es": "Marco: \"Estoy de acuerdo con ___, y quiero agregar que ___.\""
+            },
+            "medium": {
+              "en": "A strong response agrees or disagrees AND adds a reason or a science word.",
+              "es": "Una respuesta fuerte está de acuerdo o en desacuerdo Y agrega una razón o una palabra de ciencia."
+            }
+          },
+          "choices": [
+            { "id": "a", "label": { "en": "\"I agree with Mia, and I want to add that plants use sunlight in photosynthesis to make their own food.\"", "es": "\"Estoy de acuerdo con Mia, y quiero agregar que las plantas usan la luz solar en la fotosíntesis para producir su propio alimento.\"" } },
+            { "id": "b", "label": { "en": "\"Yeah, plants are cool.\"", "es": "\"Sí, las plantas son geniales.\"" } },
+            { "id": "c", "label": { "en": "\"My plant died once.\"", "es": "\"Una vez se me murió una planta.\"" } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": { "correct": true,
+              "why": { "en": "Strong move. You agreed, built on Mia's idea, and used the precise science word \"photosynthesis.\" Agreeing and adding evidence keeps the discussion moving.", "es": "Buen movimiento. Estuviste de acuerdo, ampliaste la idea de Mia y usaste la palabra precisa \"fotosíntesis.\" Estar de acuerdo y agregar evidencia hace avanzar la discusión." } },
+            "b": { "correct": false,
+              "why": { "en": "This agrees but adds nothing new. A strong talk move builds on the idea — add a reason or a science word.", "es": "Esto está de acuerdo pero no agrega nada nuevo. Un buen movimiento amplía la idea: agrega una razón o una palabra de ciencia." },
+              "hint": { "en": "Try the frame: \"I agree, and I want to add that ___.\"", "es": "Prueba el marco: \"Estoy de acuerdo, y quiero agregar que ___.\"" } },
+            "c": { "correct": false,
+              "why": { "en": "This is a personal story that drifts off topic. Keep your response connected to the claim and add academic detail.", "es": "Esto es una anécdota personal que se aleja del tema. Mantén tu respuesta conectada con la afirmación y agrega detalle académico." } }
+          }
+        },
+        {
+          "id": "t2",
+          "context": {
+            "en": "Sam says, \"Heavier objects always fall faster than lighter ones.\"",
+            "es": "Sam dice: \"Los objetos más pesados siempre caen más rápido que los más ligeros.\""
+          },
+          "prompt": {
+            "en": "Which is the best academic way to respond?",
+            "es": "¿Cuál es la mejor manera académica de responder?"
+          },
+          "support": {
+            "high": {
+              "en": "Frame: \"I see it differently because ___.\" / \"Lo veo de otra manera porque ___.\"",
+              "es": "Marco: \"Lo veo de otra manera porque ___.\""
+            },
+            "medium": {
+              "en": "You can disagree — but do it respectfully and give evidence.",
+              "es": "Puedes estar en desacuerdo, pero hazlo con respeto y da evidencia."
+            }
+          },
+          "choices": [
+            { "id": "a", "label": { "en": "\"I see it differently. In our experiment, the heavy ball and the light ball hit the ground at the same time.\"", "es": "\"Lo veo de otra manera. En nuestro experimento, la pelota pesada y la ligera llegaron al suelo al mismo tiempo.\"" } },
+            { "id": "b", "label": { "en": "\"No, you're wrong.\"", "es": "\"No, estás equivocado.\"" } },
+            { "id": "c", "label": { "en": "\"Maybe. I don't really know.\"", "es": "\"Tal vez. No sé muy bien.\"" } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": { "correct": true,
+              "why": { "en": "Excellent. You disagreed respectfully and supported it with evidence from the experiment. \"I see it differently because...\" is a powerful talk move.", "es": "Excelente. Estuviste en desacuerdo con respeto y lo apoyaste con evidencia del experimento. \"Lo veo de otra manera porque...\" es un movimiento poderoso." } },
+            "b": { "correct": false,
+              "why": { "en": "This disagrees, but it sounds dismissive and gives no evidence. Rephrase respectfully and add proof.", "es": "Esto está en desacuerdo, pero suena descortés y no da evidencia. Reformula con respeto y agrega una prueba." },
+              "hint": { "en": "Start with \"I see it differently because...\" and add what you observed.", "es": "Empieza con \"Lo veo de otra manera porque...\" y agrega lo que observaste." } },
+            "c": { "correct": false,
+              "why": { "en": "This avoids taking a position. Academic discussion needs a claim backed by evidence.", "es": "Esto evita tomar una posición. La discusión académica necesita una afirmación apoyada con evidencia." } }
+          }
+        },
+        {
+          "id": "t3",
+          "context": {
+            "en": "Priya says, \"The water just disappeared from the cup overnight.\"",
+            "es": "Priya dice: \"El agua simplemente desapareció del vaso durante la noche.\""
+          },
+          "prompt": {
+            "en": "Which response best pushes the thinking forward?",
+            "es": "¿Qué respuesta impulsa mejor el pensamiento?"
+          },
+          "support": {
+            "high": {
+              "en": "Frame: \"Can you say more about ___? Do you think ___?\" / \"¿Puedes decir más sobre ___? ¿Crees que ___?\"",
+              "es": "Marco: \"¿Puedes decir más sobre ___? ¿Crees que ___?\""
+            },
+            "medium": {
+              "en": "A clarifying question invites more thinking. Ask about the tricky word.",
+              "es": "Una pregunta aclaratoria invita a pensar más. Pregunta sobre la palabra difícil."
+            }
+          },
+          "choices": [
+            { "id": "a", "label": { "en": "\"Can you say more about what you mean by 'disappeared'? Do you think it evaporated?\"", "es": "\"¿Puedes decir más sobre qué quieres decir con 'desapareció'? ¿Crees que se evaporó?\"" } },
+            { "id": "b", "label": { "en": "\"No, it didn't.\"", "es": "\"No, no es cierto.\"" } },
+            { "id": "c", "label": { "en": "\"Okay.\"", "es": "\"Está bien.\"" } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": { "correct": true,
+              "why": { "en": "Great talk move. A clarifying question invites more thinking and introduces the precise word \"evaporated.\"", "es": "Buen movimiento. Una pregunta aclaratoria invita a pensar más e introduce la palabra precisa \"evaporó.\"" } },
+            "b": { "correct": false,
+              "why": { "en": "This shuts the idea down without exploring it. Ask a question that opens up the thinking instead.", "es": "Esto cierra la idea sin explorarla. Mejor haz una pregunta que abra el pensamiento." },
+              "hint": { "en": "Try \"Can you say more about...?\"", "es": "Prueba \"¿Puedes decir más sobre...?\"" } },
+            "c": { "correct": false,
+              "why": { "en": "This adds nothing. A clarifying question would move the discussion forward.", "es": "Esto no aporta nada. Una pregunta aclaratoria haría avanzar la discusión." } }
+          }
+        },
+        {
+          "id": "t4",
+          "context": {
+            "en": "Your group claims the soil sample held the most water. A classmate asks, \"How do you know?\"",
+            "es": "Tu grupo afirma que la muestra de suelo retuvo más agua. Un compañero pregunta: \"¿Cómo lo saben?\""
+          },
+          "prompt": {
+            "en": "Which response uses evidence best?",
+            "es": "¿Qué respuesta usa mejor la evidencia?"
+          },
+          "support": {
+            "high": {
+              "en": "Frame: \"According to our data, ___.\" / \"Según nuestros datos, ___.\"",
+              "es": "Marco: \"Según nuestros datos, ___.\""
+            },
+            "medium": {
+              "en": "Back up the claim with a number or something you measured.",
+              "es": "Apoya la afirmación con un número o algo que midieron."
+            }
+          },
+          "choices": [
+            { "id": "a", "label": { "en": "\"According to our data, the soil sample held 20 mL more water than the sand sample.\"", "es": "\"Según nuestros datos, la muestra de suelo retuvo 20 mL más de agua que la de arena.\"" } },
+            { "id": "b", "label": { "en": "\"Because I think so.\"", "es": "\"Porque yo creo que sí.\"" } },
+            { "id": "c", "label": { "en": "\"It just does.\"", "es": "\"Simplemente es así.\"" } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": { "correct": true,
+              "why": { "en": "Yes. \"According to our data...\" backs your claim with evidence you measured — the heart of academic talk.", "es": "Sí. \"Según nuestros datos...\" apoya tu afirmación con evidencia que midieron: el corazón de la conversación académica." } },
+            "b": { "correct": false,
+              "why": { "en": "This is an opinion with no evidence. Point to your data or measurement.", "es": "Esto es una opinión sin evidencia. Señala tus datos o tu medición." },
+              "hint": { "en": "Use \"According to our data, ___.\"", "es": "Usa \"Según nuestros datos, ___.\"" } },
+            "c": { "correct": false,
+              "why": { "en": "This gives no evidence. A strong response cites what you observed or measured.", "es": "Esto no da evidencia. Una respuesta fuerte cita lo que observaron o midieron." } }
+          }
+        },
+        {
+          "id": "t5",
+          "context": {
+            "en": "Leo says, \"Ice is water that got very cold.\"",
+            "es": "Leo dice: \"El hielo es agua que se enfrió mucho.\""
+          },
+          "prompt": {
+            "en": "Which response builds on Leo's idea?",
+            "es": "¿Qué respuesta amplía la idea de Leo?"
+          },
+          "support": {
+            "high": {
+              "en": "Frame: \"Building on ___'s idea, ___.\" / \"Ampliando la idea de ___, ___.\"",
+              "es": "Marco: \"Ampliando la idea de ___, ___.\""
+            },
+            "medium": {
+              "en": "Add the next step or a precise science word to Leo's idea.",
+              "es": "Agrega el siguiente paso o una palabra precisa de ciencia a la idea de Leo."
+            }
+          },
+          "choices": [
+            { "id": "a", "label": { "en": "\"Building on Leo's idea, when water gets cold enough it freezes and changes from a liquid to a solid.\"", "es": "\"Ampliando la idea de Leo, cuando el agua se enfría lo suficiente se congela y cambia de líquido a sólido.\"" } },
+            { "id": "b", "label": { "en": "\"That's basically what I already said.\"", "es": "\"Eso es básicamente lo que ya dije.\"" } },
+            { "id": "c", "label": { "en": "\"Ice is cold.\"", "es": "\"El hielo es frío.\"" } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": { "correct": true,
+              "why": { "en": "Strong. You built on Leo and named the change of state from liquid to solid. Building on peers' ideas deepens the discussion.", "es": "Fuerte. Ampliaste la idea de Leo y nombraste el cambio de estado de líquido a sólido. Ampliar las ideas de los compañeros profundiza la discusión." } },
+            "b": { "correct": false,
+              "why": { "en": "This competes instead of building. A talk move adds to a peer's idea rather than claiming it.", "es": "Esto compite en lugar de ampliar. Un movimiento de conversación aporta a la idea del compañero en vez de reclamarla." },
+              "hint": { "en": "Try \"Building on Leo's idea, ___.\"", "es": "Prueba \"Ampliando la idea de Leo, ___.\"" } },
+            "c": { "correct": false,
+              "why": { "en": "This just restates the obvious. Add the next step — what happens when water freezes?", "es": "Esto solo repite lo obvio. Agrega el siguiente paso: ¿qué pasa cuando el agua se congela?" } }
+          }
+        }
+      ],
+
+      "ace": { "articulate": true, "connect": true, "extend": true },
+
+      "clear": { "enabled": true, "emphasis": ["claim", "evidence"] },
+
+      "udl": [
+        "representation.language-support",
+        "representation.context",
+        "action-expression.multiple-response-modes",
+        "engagement.relevance"
+      ],
+
+      "strategies": [
+        "classroom-discussion",
+        "sentence-frames",
+        "corrective-feedback"
+      ],
+
+      "standards": {
+        "elps": [
+          {
+            "code": "§120.21(d)(2)(B)",
+            "alignment": "direct",
+            "grades": [5],
+            "rationale": "Students speak using content-area vocabulary to contribute to a science discussion."
+          }
+        ],
+        "teks": [
+          {
+            "code": "§110.7(b)(1)(A)",
+            "alignment": "direct",
+            "grades": [5],
+            "rationale": "Students listen actively, ask relevant questions, and make pertinent comments in discussion."
+          },
+          {
+            "code": "§110.7(b)(7)(C)",
+            "alignment": "supporting",
+            "grades": [5],
+            "rationale": "Several talk moves require supporting a response with evidence."
+          },
+          {
+            "code": "§110.7(b)(1)(C)",
+            "alignment": "supporting",
+            "grades": [5],
+            "rationale": "Choosing precise, conventional academic phrasing supports effective spoken communication."
+          }
+        ],
+        "slar": []
+      },
+
+      "printables": ["all-talk-3-5-001-student", "all-talk-3-5-001-answer-key"],
+
+      "created": "2026-09-17",
+      "updated": "2026-09-17",
+      "status": "reviewed"
+    }
+  ]
+}

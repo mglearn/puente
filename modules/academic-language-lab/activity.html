@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Cognate or False Friend? — Language Bridge</title>
-<meta name="description" content="Cognate Detective activity: use context and cognates to tell true cognates from false friends. Teacher view, student mode, and printable — no accounts, no data collected.">
+<title>Academic Language Lab — Language Bridge</title>
+<meta name="description" content="Academic Language Lab activity: say it, explain it, support it, use it. Teacher view, student mode, and printable — no accounts, no data collected.">
 <link rel="stylesheet" href="../../assets/css/tokens.css">
 <link rel="stylesheet" href="../../assets/css/base.css">
 <link rel="stylesheet" href="../../assets/css/layout.css">
@@ -13,8 +13,8 @@
 <link rel="stylesheet" href="../../assets/css/print.css">
 <link rel="stylesheet" href="../../assets/css/rtl.css">
 <style>
-  /* Cognate Detective secondary accent (spec §32: one accent per module) */
-  body { --module-accent: var(--teal); }
+  /* Academic Language Lab secondary accent (spec §32: one accent per module) */
+  body { --module-accent: var(--blue); }
   .mode-bar { position: sticky; top: 0; z-index: 20; background: var(--navy-tcea); color:#fff; }
   .mode-bar .bar { padding-block: var(--sp-2); }
   .teacher-panel .drawer { margin-top: var(--sp-3); }
@@ -49,7 +49,7 @@
   <!-- STUDENT MODE: title, directions, interactive (spec §11) -->
   <section class="student-only">
     <div class="card"><div class="pad">
-      <h1 id="s-title">Cognate or False Friend?</h1>
+      <h1 id="s-title">Academic Language Lab</h1>
       <p id="s-directions" class="sub"></p>
       <div id="activity-root" class="activity"><!-- engine mounts here --></div>
     </div></div>
@@ -58,7 +58,7 @@
   <!-- TEACHER MODE: full metadata + standards + launch (spec §11, §23) -->
   <section class="teacher-only">
     <div class="card"><div class="pad">
-      <h1 id="t-title">Cognate or False Friend?</h1>
+      <h1 id="t-title">Academic Language Lab</h1>
       <div class="activity-meta" id="t-meta"></div>
 
       <div class="teacher-panel stack" id="teacher-panel"></div>

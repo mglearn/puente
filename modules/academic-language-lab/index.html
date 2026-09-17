@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Academic Language Lab — Language Bridge</title>
+<meta name="description" content="Academic Language Lab: say it, explain it, support it, use it. Activities that help emergent bilingual students produce academic language, with teacher views, standards, and printables.">
+<link rel="stylesheet" href="../../assets/css/tokens.css">
+<link rel="stylesheet" href="../../assets/css/base.css">
+<link rel="stylesheet" href="../../assets/css/layout.css">
+<link rel="stylesheet" href="../../assets/css/components.css">
+<link rel="stylesheet" href="../../assets/css/rtl.css">
+<style> body { --module-accent: var(--blue); } </style>
+</head>
+<body data-nav="modules/">
+<a class="skip-link" href="#main">Skip to content</a>
+<div data-shell="header"></div>
+
+<main class="main" id="main">
+  <div class="card"><div id="module-hero"></div><div class="pad">
+    <h1>Academic Language Lab</h1>
+    <p class="tag" style="color:var(--blue);font-weight:700">Say it · explain it · support it · use it.</p>
+    <p>Emergent bilingual students often understand a concept but need the academic
+       language to express it. The Academic Language Lab builds the words, sentence
+       frames, and talk moves students use to explain, compare, and justify — the
+       language of school across every content area.</p>
+  </div></div>
+
+  <h2 style="margin-top:var(--sp-6)">Recommended starting point</h2>
+  <div class="grid" id="activity-grid"></div>
+</main>
+
+<div data-shell="footer"></div>
+
+<script>window.LB_BASE = "../../";</script>
+<script src="../../assets/js/i18n.js"></script>
+<script src="../../assets/js/app.js"></script>
+<script>
+(function () {
+  "use strict";
+  function pick(o){ return I18n.pick(o, I18n.uiLang); }
+  function esc(s){ return String(s==null?"":s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
+
+  // Optional hero — renders only if the manifest marks it available.
+  fetch("../../data/image-manifest.json").then(function (r){ return r.ok ? r.json() : null; }).then(function (m) {
+    var a = m && m.assets && m.assets["academic-language-lab-hero"];
+    if (a && a.status === (m._meta.renderGate || "available")) {
+      document.getElementById("module-hero").innerHTML =
+        '<img src="../../' + (m._meta.base || "assets/img/") + esc(a.file) + '" alt="' + esc(a.alt || "") +
+        '" style="display:block;width:100%;height:auto" loading="lazy" onerror="this.remove()">';
+    }
+  }).catch(function () {});
+
+  window.LB.ready.then(function () {
+    return fetch("../../modules/academic-language-lab/data.json").then(function (r){ return r.json(); });
+  }).then(function (store) {
+    document.getElementById("activity-grid").innerHTML = (store.activities||[]).map(function (a) {
+      return '<div class="card"><div class="pad">' +
+        '<h3>' + esc(pick(a.title)) + '</h3>' +
+        '<p>' + esc(pick(a.studentGoal)) + '</p>' +
+        '<div class="activity-meta"><span class="chip">' + a.duration + ' min</span>' +
+          '<span class="chip">Grade ' + a.grades.join(", ") + '</span>' +
+          '<span class="chip">EN ↔ ' + a.supportedHomeLanguages.join(",").toUpperCase() + '</span></div>' +
+        '<div class="row" style="margin-top:.75rem">' +
+          '<a class="btn sm" href="activity.html?id=' + esc(a.id) + '">Teacher view</a>' +
+          '<a class="btn sm secondary" href="activity.html?id=' + esc(a.id) + '&mode=student">Student mode</a>' +
+          '<a class="btn sm secondary" href="printables.html?id=' + esc(a.id) + '" target="_blank" rel="noopener">Printable</a>' +
+        '</div></div></div>';
+    }).join("");
+  });
+})();
+</script>
+</body>
+</html>
