@@ -1730,6 +1730,150 @@
       "created": "2026-09-17",
       "updated": "2026-09-17",
       "status": "reviewed"
+    },
+    {
+      "id": "cog-sort-6-8-008",
+      "module": "cognate-detective",
+      "title": {
+        "en": "Academic Cognate Sort",
+        "es": "Clasifica cognados académicos"
+      },
+
+      "grades": [6, 7, 8],
+      "gradeBand": "6-8",
+      "subjects": ["elar"],
+      "duration": 10,
+
+      "interactionType": "sort",
+
+      "targetLanguage": "en",
+      "supportedHomeLanguages": ["es"],
+      "languagePair": "en-es",
+
+      "studentGoal": {
+        "en": "Sort academic words by their relationship to a Spanish look-alike — true cognate, false friend, or no look-alike — to read academic English with more confidence.",
+        "es": "Clasifica palabras académicas según su relación con una palabra parecida en español —cognado verdadero, falso amigo o sin palabra parecida— para leer inglés académico con más confianza."
+      },
+      "studentDirections": {
+        "en": "These are academic words you meet across subjects. For each, decide: true cognate, false friend, or no look-alike? Place each word, then select Check.",
+        "es": "Estas son palabras académicas que aparecen en varias materias. Para cada una, decide: cognado verdadero, falso amigo o sin palabra parecida. Coloca cada palabra y selecciona Revisar."
+      },
+      "teacherDirections": {
+        "en": "For middle schoolers building academic vocabulary. Highlight the academic false friends — notorious/notorio, eventual/eventual, sensible/sensible — which can quietly change the meaning of a text. Turn on More support for the Spanish look-alike.",
+        "es": "Para estudiantes de secundaria que construyen vocabulario académico. Resalta los falsos amigos académicos —notorious/notorio, eventual/eventual, sensible/sensible— que pueden cambiar el significado de un texto sin que se note. Activa Más apoyo para ver la palabra parecida."
+      },
+      "languageFunction": {
+        "en": "Classifying academic vocabulary; analyzing cross-language word relationships.",
+        "es": "Clasificar vocabulario académico; analizar relaciones entre palabras de distintos idiomas."
+      },
+
+      "materials": [],
+
+      "categories": [
+        { "id": "true",  "label": { "en": "True cognate", "es": "Cognado verdadero" }, "hint": { "en": "Looks alike AND means the same.", "es": "Se parece Y significa lo mismo." } },
+        { "id": "false", "label": { "en": "False friend", "es": "Falso amigo" }, "hint": { "en": "Looks alike BUT means something different.", "es": "Se parece PERO significa algo diferente." } },
+        { "id": "none",  "label": { "en": "No look-alike", "es": "Sin palabra parecida" }, "hint": { "en": "No Spanish word looks like this one.", "es": "Ninguna palabra en español se le parece." } }
+      ],
+
+      "items": [
+        {
+          "id": "a1", "targetWord": "analyze", "answer": "true",
+          "prompt": { "en": "analyze", "es": "analyze" },
+          "support": { "high": { "en": "Spanish look-alike: “analizar” = to analyze. Same meaning.", "es": "Palabra parecida: “analizar” = to analyze. Mismo significado." } },
+          "feedback": { "true": { "correct": true, "why": { "en": "“Analyze” and “analizar” are true cognates — to examine something carefully. A reliable academic cognate.", "es": "“Analyze” y “analizar” son cognados verdaderos: examinar algo con cuidado. Un cognado académico confiable." } } }
+        },
+        {
+          "id": "a2", "targetWord": "evidence", "answer": "true",
+          "prompt": { "en": "evidence", "es": "evidence" },
+          "support": { "high": { "en": "Spanish look-alike: “evidencia” = evidence. Same meaning.", "es": "Palabra parecida: “evidencia” = evidence. Mismo significado." } },
+          "feedback": { "true": { "correct": true, "why": { "en": "“Evidence” and “evidencia” match — the facts that support a claim. A true cognate.", "es": "“Evidence” y “evidencia” coinciden: los hechos que apoyan una afirmación. Un cognado verdadero." } } }
+        },
+        {
+          "id": "a3", "targetWord": "structure", "answer": "true",
+          "prompt": { "en": "structure", "es": "structure" },
+          "support": { "high": { "en": "Spanish look-alike: “estructura” = structure. Same meaning.", "es": "Palabra parecida: “estructura” = structure. Mismo significado." } },
+          "feedback": { "true": { "correct": true, "why": { "en": "“Structure” and “estructura” are true cognates — how something is built or organized.", "es": "“Structure” y “estructura” son cognados verdaderos: cómo se construye u organiza algo." } } }
+        },
+        {
+          "id": "a4", "targetWord": "notorious", "answer": "false",
+          "prompt": { "en": "notorious", "es": "notorious" },
+          "support": {
+            "high": { "en": "Careful: Spanish “notorio” means “well-known / obvious” (neutral). English “notorious” means famous for something BAD.", "es": "Cuidado: “notorio” en español significa “well-known / obvious” (neutral). “Notorious” en inglés significa famoso por algo MALO." },
+            "medium": { "en": "In English, is “notorious” a compliment?", "es": "En inglés, ¿“notorious” es un elogio?" }
+          },
+          "feedback": { "false": { "correct": true, "why": { "en": "“Notorious” looks like “notorio,” but “notorio” just means well-known/obvious, while English “notorious” means famous for something bad. A false friend.", "es": "“Notorious” se parece a “notorio,” pero “notorio” solo significa conocido/evidente, mientras que “notorious” en inglés significa famoso por algo malo. Un falso amigo." } } }
+        },
+        {
+          "id": "a5", "targetWord": "eventual", "answer": "false",
+          "prompt": { "en": "eventual", "es": "eventual" },
+          "support": {
+            "high": { "en": "Careful: Spanish “eventual” means “possible / temporary.” English “eventual” means “happening in the end.”", "es": "Cuidado: “eventual” en español significa “possible / temporary.” “Eventual” en inglés significa “que ocurre al final.”" },
+            "medium": { "en": "English “eventual” is about what finally happens.", "es": "“Eventual” en inglés es sobre lo que finalmente ocurre." }
+          },
+          "feedback": { "false": { "correct": true, "why": { "en": "“Eventual” looks like Spanish “eventual,” but they differ: Spanish “eventual” = possible/temporary; English “eventual” = happening in the end. A false friend.", "es": "“Eventual” se parece al “eventual” del español, pero difieren: “eventual” en español = posible/temporal; en inglés = que ocurre al final. Un falso amigo." } } }
+        },
+        {
+          "id": "a6", "targetWord": "sensible", "answer": "false",
+          "prompt": { "en": "sensible", "es": "sensible" },
+          "support": {
+            "high": { "en": "Careful: Spanish “sensible” means “sensitive.” English “sensible” means “reasonable.”", "es": "Cuidado: “sensible” en español significa “sensitive.” “Sensible” en inglés significa “reasonable.”" }
+          },
+          "feedback": { "false": { "correct": true, "why": { "en": "“Sensible” looks like Spanish “sensible,” but Spanish “sensible” means sensitive, while English “sensible” means reasonable. A false friend.", "es": "“Sensible” se parece al “sensible” del español, pero el español significa sensitive, mientras que el inglés significa reasonable. Un falso amigo." } } }
+        },
+        {
+          "id": "a7", "targetWord": "research", "answer": "none",
+          "prompt": { "en": "research", "es": "research" },
+          "support": { "high": { "en": "The Spanish word is “investigación” — no look-alike.", "es": "La palabra en español es “investigación”: sin palabra parecida." } },
+          "feedback": { "none": { "correct": true, "why": { "en": "“Research” is “investigación” in Spanish — no look-alike. An academic word you learn directly.", "es": "“Research” es “investigación” en español: sin palabra parecida. Una palabra académica que se aprende directamente." } } }
+        },
+        {
+          "id": "a8", "targetWord": "goal", "answer": "none",
+          "prompt": { "en": "goal", "es": "goal" },
+          "support": { "high": { "en": "The Spanish word is “meta” — no look-alike.", "es": "La palabra en español es “meta”: sin palabra parecida." } },
+          "feedback": { "none": { "correct": true, "why": { "en": "“Goal” is “meta” in Spanish — nothing alike. No look-alike.", "es": "“Goal” es “meta” en español: nada parecido. Sin palabra parecida." } } }
+        },
+        {
+          "id": "a9", "targetWord": "insight", "answer": "none",
+          "prompt": { "en": "insight", "es": "insight" },
+          "support": { "high": { "en": "The Spanish word is “percepción” or “comprensión” — no look-alike.", "es": "La palabra en español es “percepción” o “comprensión”: sin palabra parecida." } },
+          "feedback": { "none": { "correct": true, "why": { "en": "“Insight” is “percepción/comprensión” in Spanish — no look-alike to lean on.", "es": "“Insight” es “percepción/comprensión” en español: sin palabra parecida en la que apoyarse." } } }
+        }
+      ],
+
+      "ace": { "articulate": true, "connect": true, "extend": true },
+
+      "clear": { "enabled": false, "emphasis": [] },
+
+      "udl": [
+        "representation.language-support",
+        "action-expression.multiple-response-modes",
+        "engagement.relevance"
+      ],
+
+      "strategies": [
+        "vocabulary-programs",
+        "corrective-feedback",
+        "classification"
+      ],
+
+      "standards": {
+        "elps": [
+          { "code": "§120.21(d)(3)(B)", "alignment": "direct", "grades": [6, 7, 8], "rationale": "Students identify cognates as they classify each academic word." },
+          { "code": "§120.21(d)(3)(C)", "alignment": "supporting", "grades": [6, 7, 8], "rationale": "Recognizing true cognates supports comprehending academic vocabulary." }
+        ],
+        "teks": [
+          { "code": "§110.22(b)(2)(B)", "alignment": "supporting", "grades": [6], "rationale": "Judging false friends draws on using context to clarify a word's meaning." },
+          { "code": "§110.23(b)(2)(B)", "alignment": "supporting", "grades": [7], "rationale": "Judging false friends draws on using context to clarify a word's meaning." },
+          { "code": "§110.24(b)(2)(B)", "alignment": "supporting", "grades": [8], "rationale": "Judging false friends draws on using context to clarify a word's meaning." }
+        ],
+        "slar": []
+      },
+
+      "printables": ["cog-sort-6-8-008-student", "cog-sort-6-8-008-answer-key"],
+
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "status": "reviewed"
     }
   ]
 }
