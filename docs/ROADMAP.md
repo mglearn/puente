@@ -2,19 +2,22 @@
 
 ## Current state (2026-09-17)
 
-**Live at https://mglearn.github.io/puente/** — 3 launch modules, **17 activities**
+**Live at https://mglearn.github.io/puente/** — 3 launch modules, **19 activities**
 across **all four grade bands K–2, 3–5, 6–8, 9–12**, **25 verified standards** (0 pending),
 full site navigation, 18 smoke tests + 5 validators (data / standards / locales / links /
 contrast) all green.
 
-- **Cognate Detective (8):** Cognate Picture Match (K–2, picture-match, 6 delivered
-  cards) · Cognate or False Friend? · Cognate or Not? (sort) · Science / Math /
-  Social Studies Cognate Hunts (sort) · False Friend Detective (CLEAR) ·
-  Academic False Friends (grades 6–8)
+- **Cognate Detective (9):** Cognate Picture Match ×2 (K–2, picture-match) · Cognate or
+  False Friend? · Cognate or Not? (sort) · Science / Math / Social Studies Cognate Hunts
+  (sort) · False Friend Detective (CLEAR) · Academic False Friends (grades 6–8)
 - **Academic Language Lab (5):** Academic Talk Moves · Say It Three Ways · Evidence Match ·
   Build the Explanation · Shades of Meaning (grades 9–10, denotation/connotation)
-- **Newcomer Navigator (4):** What Do You Say? · Build the Question · What Does That Mean? ·
-  Conversation Repair
+- **Newcomer Navigator (5):** What Do You Say? · Build the Question · What Does That Mean? ·
+  Conversation Repair · Getting Help at School
+
+Art note: 10 K–2 cards delivered; `cognate-card-animal` renders as a specific dog
+(reads as "dog/perro"), so it's **not** used in the cognate activities — regenerate as a
+generic/abstract "animal" grouping if that cognate card is wanted.
 - Interaction types proven: context-choice, sort, scenario-choice (with images), multiple-choice.
 - Content areas: ELAR, science, math, social studies. Grade bands 3–5, 6–8, 9–12.
 - Every top-nav link resolves (activities / printables / teacher / standards / frameworks / about
