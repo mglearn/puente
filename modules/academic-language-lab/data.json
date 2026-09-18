@@ -721,7 +721,7 @@
           "answer": "a",
           "feedback": {
             "a": { "correct": true, "why": { "en": "Correct. The cause is heat conduction: metal pulls heat from your warmer hand, so it feels cold. Precise science.", "es": "Correcto. La causa es la conducción del calor: el metal jala el calor de tu mano más tibia, así que se siente fría. Ciencia precisa." } },
-            "b": { "correct": false, "why": { "en": "Metal isn't “always cold” — it matches room temperature. It feels cold because it conducts heat from your hand.", "es": "El metal no “siempre está frío”: iguala la temperatura del cuarto. Se siente frío porque conduce el calor de tu mano." }, "hint": { "en": "What does metal do with your hand's heat?", "es": "¿Qué hace el metal con el calor de tu mano?" } },
+            "b": { "correct": false, "why": { "en": "Metal isn't “always cold” — it matches room temperature. It feels cold because it conducts heat from your hand.", "es": "El metal no “siempre está frío”: iguala la temperatura del cuarto. Se siente fría porque conduce el calor de tu mano." }, "hint": { "en": "What does metal do with your hand's heat?", "es": "¿Qué hace el metal con el calor de tu mano?" } },
             "c": { "correct": false, "why": { "en": "This gives no reason. Name the cause: metal conducts heat away from your hand.", "es": "Esto no da una razón. Nombra la causa: el metal conduce el calor lejos de tu mano." } }
           }
         }

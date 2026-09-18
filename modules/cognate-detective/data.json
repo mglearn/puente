@@ -683,7 +683,7 @@
             "medium": { "en": "In Spanish, you “asistir” a class — you attend it.", "es": "En español, “asistes” a una clase: la atiendes." }
           },
           "feedback": { "false": { "correct": true,
-            "why": { "en": "“Assist” means to help, but Spanish “asistir” usually means “to attend.” To help is “ayudar.” A false friend.", "es": "“Assist” significa ayudar, pero “asistir” suele significar “to attend.” Ayudar es “ayudar.” Un falso amigo." } } }
+            "why": { "en": "“Assist” means to help, but Spanish “asistir” usually means “to attend.” To help is “ayudar.” A false friend.", "es": "“Assist” significa ayudar, pero “asistir” suele significar “to attend.” “To help” es “ayudar.” Un falso amigo." } } }
         },
         {
           "id": "e6", "targetWord": "billion", "answer": "false",

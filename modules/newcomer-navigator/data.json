@@ -514,7 +514,7 @@
           "answer": "a",
           "feedback": {
             "a": { "correct": true, "why": { "en": "Right. “Turn in” means hand your work to the teacher. It has nothing to do with turning around.", "es": "Correcto. “Turn in” significa entregar tu trabajo a la maestra. No tiene que ver con darse la vuelta." } },
-            "b": { "correct": false, "why": { "en": "“Turn in” is idiomatic — it means submit your work, not flip the paper.", "es": "“Turn in” es idiomático: significa entregar tu trabajo, no voltear el papel." }, "hint": { "en": "Where should the homework go?", "es": "¿A dónde debe ir la tarea?" } },
+            "b": { "correct": false, "why": { "en": "“Turn in” is idiomatic — it means submit your work, not flip the paper.", "es": "“Turn in” es idiomático: significa entregar tu trabajo, no voltear el papel." }, "hint": { "en": "Where should the homework go?", "es": "¿Adónde debe ir la tarea?" } },
             "c": { "correct": false, "why": { "en": "It's not about turning your body. “Turn in” = submit your homework.", "es": "No se trata de girar el cuerpo. “Turn in” = entregar la tarea." } }
           }
         },
