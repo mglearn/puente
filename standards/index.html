@@ -91,7 +91,7 @@
     ).then(function (res) {
       res.slice(0, stores.length).forEach(function (store){ if(store) (store.standards||[]).forEach(function (s){ index[s.code]=s; }); });
       var activityStores = res.slice(stores.length);
-      activityStores.forEach(function (d){ (d.activities||[]).forEach(function (a) {
+      activityStores.forEach(function (d){ (d.activities||[]).filter(function (a){ return a.status !== "draft"; }).forEach(function (a) {
         ["elps","teks","slar"].forEach(function (k){ (a.standards[k]||[]).forEach(function (c){
           (uses[c.code] = uses[c.code] || []).push({ id:a.id, module:a.module, title:pick(a.title) });
         }); });

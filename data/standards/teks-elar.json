@@ -128,6 +128,39 @@
       "sourceStatus": "official",
       "verified": "2026-09-17",
       "source": "Texas Education Agency / 19 TAC §110.37(c)(2)(B)"
+    },
+    {
+      "code": "§110.2(b)(3)(B)",
+      "framework": "Texas TEKS ELAR",
+      "grade": 0,
+      "subject": "elar",
+      "domain": "vocabulary",
+      "summary": "Use illustrations and texts the student can read or hear to learn or clarify word meanings.",
+      "sourceStatus": "official",
+      "verified": "2026-09-17",
+      "source": "Texas Education Agency / 19 TAC §110.2(b)(3)(B)"
+    },
+    {
+      "code": "§110.3(b)(3)(B)",
+      "framework": "Texas TEKS ELAR",
+      "grade": 1,
+      "subject": "elar",
+      "domain": "vocabulary",
+      "summary": "Use illustrations and texts the student can read or hear to learn or clarify word meanings.",
+      "sourceStatus": "official",
+      "verified": "2026-09-17",
+      "source": "Texas Education Agency / 19 TAC §110.3(b)(3)(B)"
+    },
+    {
+      "code": "§110.4(b)(3)(B)",
+      "framework": "Texas TEKS ELAR",
+      "grade": 2,
+      "subject": "elar",
+      "domain": "vocabulary",
+      "summary": "Use context within and beyond a sentence to determine the meaning of unfamiliar words.",
+      "sourceStatus": "official",
+      "verified": "2026-09-17",
+      "source": "Texas Education Agency / 19 TAC §110.4(b)(3)(B)"
     }
   ]
 }

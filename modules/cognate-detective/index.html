@@ -52,7 +52,7 @@
   window.LB.ready.then(function () {
     return fetch("../../modules/cognate-detective/data.json").then(function (r){ return r.json(); });
   }).then(function (store) {
-    document.getElementById("activity-grid").innerHTML = (store.activities||[]).map(function (a) {
+    document.getElementById("activity-grid").innerHTML = (store.activities||[]).filter(function (a){ return a.status !== "draft"; }).map(function (a) {
       return '<div class="card"><div class="pad">' +
         '<h3>' + esc(pick(a.title)) + '</h3>' +
         '<p>' + esc(pick(a.studentGoal)) + '</p>' +

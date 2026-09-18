@@ -66,6 +66,37 @@
       "file": "newcomer-scenario-group.webp", "aspect": "4:3", "status": "available",
       "alt": "A student invites a classmate to join a small-group activity at a table with a laptop and supplies.",
       "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)", "source": "Generated from the matching prompt in ~/projects/puente-image-prompts.md; C2PA Content Credentials in the PNG original", "created": "2026-09-17", "rights": "CC0 1.0 / public domain (provisional). AI-generated with OpenAI; usable per OpenAI usage terms. See _meta.rightsNote."
+    },
+
+    "cognate-card-elephant": {
+      "file": "cognate-card-elephant.webp", "aspect": "1:1", "status": "planned",
+      "alt": "A friendly grey elephant.",
+      "tool": null, "created": null, "rights": "TBD"
+    },
+    "cognate-card-tiger": {
+      "file": "cognate-card-tiger.webp", "aspect": "1:1", "status": "planned",
+      "alt": "A friendly orange tiger with black stripes.",
+      "tool": null, "created": null, "rights": "TBD"
+    },
+    "cognate-card-banana": {
+      "file": "cognate-card-banana.webp", "aspect": "1:1", "status": "planned",
+      "alt": "A single ripe yellow banana.",
+      "tool": null, "created": null, "rights": "TBD"
+    },
+    "cognate-card-dinosaur": {
+      "file": "cognate-card-dinosaur.webp", "aspect": "1:1", "status": "planned",
+      "alt": "A friendly green long-necked dinosaur.",
+      "tool": null, "created": null, "rights": "TBD"
+    },
+    "cognate-card-piano": {
+      "file": "cognate-card-piano.webp", "aspect": "1:1", "status": "planned",
+      "alt": "A small upright piano.",
+      "tool": null, "created": null, "rights": "TBD"
+    },
+    "cognate-card-family": {
+      "file": "cognate-card-family.webp", "aspect": "1:1", "status": "planned",
+      "alt": "A family of four standing together.",
+      "tool": null, "created": null, "rights": "TBD"
     }
   }
 }

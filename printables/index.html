@@ -45,7 +45,7 @@
     var live = site.modules.filter(function (x){ return x.status === "live"; });
     live.forEach(function (m){ modules[m.id]=m; });
     return Promise.all(live.map(function (m){
-      return fetch("../" + m.data).then(function (r){ return r.json(); }).then(function (d){ return { m:m, acts:d.activities||[] }; });
+      return fetch("../" + m.data).then(function (r){ return r.json(); }).then(function (d){ return { m:m, acts:(d.activities||[]).filter(function (a){ return a.status !== "draft"; }) }; });
     }));
   }).then(function (groups) {
     function draw() {

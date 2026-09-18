@@ -1233,6 +1233,177 @@
       "status": "reviewed"
     },
     {
+      "id": "cog-picture-k-2-001",
+      "module": "cognate-detective",
+      "title": {
+        "en": "Cognate Picture Match",
+        "es": "Empareja el cognado con la imagen"
+      },
+
+      "grades": [0, 1, 2],
+      "gradeBand": "K-2",
+      "subjects": ["elar"],
+      "duration": 8,
+
+      "interactionType": "picture-match",
+
+      "targetLanguage": "en",
+      "supportedHomeLanguages": ["es"],
+      "languagePair": "en-es",
+
+      "studentGoal": {
+        "en": "Look at a picture and choose the English word that names it — and notice it looks like the Spanish word you already know.",
+        "es": "Mira una imagen y elige la palabra en inglés que la nombra, y observa que se parece a la palabra en español que ya conoces."
+      },
+      "studentDirections": {
+        "en": "Look at the picture. Which English word names it? Choose, then select Check. The word looks like a Spanish word you know!",
+        "es": "Mira la imagen. ¿Qué palabra en inglés la nombra? Elige y luego selecciona Revisar. ¡La palabra se parece a una palabra en español que conoces!"
+      },
+      "teacherDirections": {
+        "en": "For emergent readers. Say each picture's name aloud in both languages and let students hear how close they sound. Turn on More support to show the Spanish cognate. Best read aloud or done as a whole group. (Draft — publishes when the picture cards are added.)",
+        "es": "Para lectores emergentes. Di el nombre de cada imagen en voz alta en los dos idiomas y deja que los estudiantes escuchen lo parecidos que suenan. Activa Más apoyo para mostrar el cognado en español. Ideal para leer en voz alta o en grupo."
+      },
+      "languageFunction": {
+        "en": "Naming pictured objects in English using cognate knowledge.",
+        "es": "Nombrar objetos ilustrados en inglés usando el conocimiento de cognados."
+      },
+
+      "materials": [],
+
+      "items": [
+        {
+          "id": "p1", "image": "cognate-card-elephant",
+          "prompt": { "en": "Which word names this picture?", "es": "¿Qué palabra nombra esta imagen?" },
+          "support": { "high": { "en": "In Spanish: elefante. It sounds like elephant!", "es": "En español: elefante. ¡Se parece a elephant!" } },
+          "choices": [
+            { "id": "a", "label": { "en": "elephant", "es": "elephant" } },
+            { "id": "b", "label": { "en": "table", "es": "table" } },
+            { "id": "c", "label": { "en": "water", "es": "water" } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": { "correct": true, "why": { "en": "Yes! “elephant” looks and sounds like the Spanish word “elefante.” That's a cognate — a helper word!", "es": "¡Sí! “elephant” se parece a la palabra en español “elefante.” Es un cognado: ¡una palabra que ayuda!" } },
+            "b": { "correct": false, "why": { "en": "Look again — this is an elephant. In Spanish, “elefante.”", "es": "Mira otra vez: es un elefante. En español, “elefante.”" }, "hint": { "en": "It's a big grey animal.", "es": "Es un animal grande y gris." } },
+            "c": { "correct": false, "why": { "en": "This picture is an elephant, not water. In Spanish, “elefante.”", "es": "Esta imagen es un elefante, no agua. En español, “elefante.”" } }
+          }
+        },
+        {
+          "id": "p2", "image": "cognate-card-tiger",
+          "prompt": { "en": "Which word names this picture?", "es": "¿Qué palabra nombra esta imagen?" },
+          "support": { "high": { "en": "In Spanish: tigre. It sounds like tiger!", "es": "En español: tigre. ¡Se parece a tiger!" } },
+          "choices": [
+            { "id": "a", "label": { "en": "tiger", "es": "tiger" } },
+            { "id": "b", "label": { "en": "chair", "es": "chair" } },
+            { "id": "c", "label": { "en": "apple", "es": "apple" } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": { "correct": true, "why": { "en": "Yes! “tiger” looks like the Spanish word “tigre.” A cognate!", "es": "¡Sí! “tiger” se parece a la palabra en español “tigre.” ¡Un cognado!" } },
+            "b": { "correct": false, "why": { "en": "Look again — this is a tiger. In Spanish, “tigre.”", "es": "Mira otra vez: es un tigre. En español, “tigre.”" }, "hint": { "en": "It's an orange animal with stripes.", "es": "Es un animal naranja con rayas." } },
+            "c": { "correct": false, "why": { "en": "This is a tiger, not an apple. In Spanish, “tigre.”", "es": "Es un tigre, no una manzana. En español, “tigre.”" } }
+          }
+        },
+        {
+          "id": "p3", "image": "cognate-card-banana",
+          "prompt": { "en": "Which word names this picture?", "es": "¿Qué palabra nombra esta imagen?" },
+          "support": { "high": { "en": "In Spanish: banana — the same word!", "es": "En español: banana — ¡la misma palabra!" } },
+          "choices": [
+            { "id": "a", "label": { "en": "banana", "es": "banana" } },
+            { "id": "b", "label": { "en": "door", "es": "door" } },
+            { "id": "c", "label": { "en": "shoe", "es": "shoe" } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": { "correct": true, "why": { "en": "Yes! “banana” is the same in English and Spanish — an easy cognate!", "es": "¡Sí! “banana” es igual en inglés y español: ¡un cognado fácil!" } },
+            "b": { "correct": false, "why": { "en": "Look again — this is a banana. In Spanish, “banana” too.", "es": "Mira otra vez: es una banana. En español, “banana” también." }, "hint": { "en": "It's a yellow fruit.", "es": "Es una fruta amarilla." } },
+            "c": { "correct": false, "why": { "en": "This is a banana, not a shoe. In Spanish, “banana.”", "es": "Es una banana, no un zapato. En español, “banana.”" } }
+          }
+        },
+        {
+          "id": "p4", "image": "cognate-card-dinosaur",
+          "prompt": { "en": "Which word names this picture?", "es": "¿Qué palabra nombra esta imagen?" },
+          "support": { "high": { "en": "In Spanish: dinosaurio. It sounds like dinosaur!", "es": "En español: dinosaurio. ¡Se parece a dinosaur!" } },
+          "choices": [
+            { "id": "a", "label": { "en": "dinosaur", "es": "dinosaur" } },
+            { "id": "b", "label": { "en": "spoon", "es": "spoon" } },
+            { "id": "c", "label": { "en": "cloud", "es": "cloud" } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": { "correct": true, "why": { "en": "Yes! “dinosaur” looks like the Spanish word “dinosaurio.” A cognate!", "es": "¡Sí! “dinosaur” se parece a la palabra en español “dinosaurio.” ¡Un cognado!" } },
+            "b": { "correct": false, "why": { "en": "Look again — this is a dinosaur. In Spanish, “dinosaurio.”", "es": "Mira otra vez: es un dinosaurio. En español, “dinosaurio.”" }, "hint": { "en": "It's a big animal from long ago.", "es": "Es un animal grande de hace mucho tiempo." } },
+            "c": { "correct": false, "why": { "en": "This is a dinosaur, not a cloud. In Spanish, “dinosaurio.”", "es": "Es un dinosaurio, no una nube. En español, “dinosaurio.”" } }
+          }
+        },
+        {
+          "id": "p5", "image": "cognate-card-piano",
+          "prompt": { "en": "Which word names this picture?", "es": "¿Qué palabra nombra esta imagen?" },
+          "support": { "high": { "en": "In Spanish: piano — the same word!", "es": "En español: piano — ¡la misma palabra!" } },
+          "choices": [
+            { "id": "a", "label": { "en": "piano", "es": "piano" } },
+            { "id": "b", "label": { "en": "hat", "es": "hat" } },
+            { "id": "c", "label": { "en": "fish", "es": "fish" } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": { "correct": true, "why": { "en": "Yes! “piano” is the same in English and Spanish — a cognate!", "es": "¡Sí! “piano” es igual en inglés y español: ¡un cognado!" } },
+            "b": { "correct": false, "why": { "en": "Look again — this is a piano. In Spanish, “piano” too.", "es": "Mira otra vez: es un piano. En español, “piano” también." }, "hint": { "en": "It makes music with keys.", "es": "Hace música con teclas." } },
+            "c": { "correct": false, "why": { "en": "This is a piano, not a fish. In Spanish, “piano.”", "es": "Es un piano, no un pez. En español, “piano.”" } }
+          }
+        },
+        {
+          "id": "p6", "image": "cognate-card-family",
+          "prompt": { "en": "Which word names this picture?", "es": "¿Qué palabra nombra esta imagen?" },
+          "support": { "high": { "en": "In Spanish: familia. It sounds like family!", "es": "En español: familia. ¡Se parece a family!" } },
+          "choices": [
+            { "id": "a", "label": { "en": "family", "es": "family" } },
+            { "id": "b", "label": { "en": "rock", "es": "rock" } },
+            { "id": "c", "label": { "en": "cup", "es": "cup" } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": { "correct": true, "why": { "en": "Yes! “family” looks like the Spanish word “familia.” A cognate!", "es": "¡Sí! “family” se parece a la palabra en español “familia.” ¡Un cognado!" } },
+            "b": { "correct": false, "why": { "en": "Look again — this is a family. In Spanish, “familia.”", "es": "Mira otra vez: es una familia. En español, “familia.”" }, "hint": { "en": "It's a group of people who love each other.", "es": "Es un grupo de personas que se quieren." } },
+            "c": { "correct": false, "why": { "en": "This is a family, not a cup. In Spanish, “familia.”", "es": "Es una familia, no una taza. En español, “familia.”" } }
+          }
+        }
+      ],
+
+      "ace": { "articulate": true, "connect": true, "extend": false },
+
+      "clear": { "enabled": false, "emphasis": [] },
+
+      "udl": [
+        "representation.language-support",
+        "representation.context",
+        "action-expression.multiple-response-modes",
+        "engagement.relevance"
+      ],
+
+      "strategies": [
+        "vocabulary-programs",
+        "corrective-feedback"
+      ],
+
+      "standards": {
+        "elps": [
+          { "code": "§120.20(d)(3)(C)", "alignment": "direct", "grades": [0, 1, 2], "rationale": "Students use cognates to comprehend and name high-frequency classroom vocabulary." }
+        ],
+        "teks": [
+          { "code": "§110.2(b)(3)(B)", "alignment": "direct", "grades": [0], "rationale": "Students use illustrations to learn and clarify the meaning of a word." },
+          { "code": "§110.3(b)(3)(B)", "alignment": "direct", "grades": [1], "rationale": "Students use illustrations to learn and clarify the meaning of a word." },
+          { "code": "§110.4(b)(3)(B)", "alignment": "supporting", "grades": [2], "rationale": "The picture supports determining the meaning of an unfamiliar word." }
+        ],
+        "slar": []
+      },
+
+      "printables": ["cog-picture-k-2-001-student", "cog-picture-k-2-001-answer-key"],
+
+      "created": "2026-09-17",
+      "updated": "2026-09-17",
+      "status": "draft"
+    },
+    {
       "id": "cog-falsefriend-6-8-007",
       "module": "cognate-detective",
       "title": {

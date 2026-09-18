@@ -99,7 +99,8 @@
       return fetch("../" + m.data).then(function (r){ return r.json(); }).then(function (d){ return d.activities||[]; });
     }));
   }).then(function (lists) {
-    all = lists.reduce(function (acc,l){ return acc.concat(l); }, []);
+    all = lists.reduce(function (acc,l){ return acc.concat(l); }, [])
+      .filter(function (a){ return a.status !== "draft"; }); // drafts hidden until published
     ["f-module","f-grade","f-subject","f-time"].forEach(function (id){ document.getElementById(id).addEventListener("change", render); });
     document.addEventListener("lb:langchange", render);
     render();

@@ -21,7 +21,7 @@
     "duration": { "type": "integer", "minimum": 1, "maximum": 60 },
     "interactionType": {
       "type": "string",
-      "enum": ["multiple-choice", "context-choice", "sort", "match", "sentence-builder", "scenario-choice", "sequence", "reveal", "open-response", "oral-rehearsal"]
+      "enum": ["multiple-choice", "context-choice", "picture-match", "sort", "match", "sentence-builder", "scenario-choice", "sequence", "reveal", "open-response", "oral-rehearsal"]
     },
     "targetLanguage": { "type": "string" },
     "supportedHomeLanguages": { "type": "array", "items": { "type": "string" } },
