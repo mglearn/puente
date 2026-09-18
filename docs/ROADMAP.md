@@ -15,6 +15,15 @@ contrast) all green.
 - **Newcomer Navigator (5):** What Do You Say? · Build the Question · What Does That Mean? ·
   Conversation Repair · Getting Help at School
 
+**Launch readiness (2026-09-18):** linked from the mglearn hub (`mglearn.github.io`
+Language Bridge card → `/puente/`). All ELPS codes now **two-source confirmed**
+(Cornell LII + TEA `ch120b.pdf`) — that caveat is cleared. Before actively promoting
+to teachers, the remaining item is a **bilingual review of the Spanish**: run
+`npm run review:es` → `docs/SPANISH_REVIEW.md` (1,123 EN/ES strings grouped by
+activity) and correct any `es` values in the module `data.json`. Owner call still
+open: confirm the **CC0 artwork label**. Grade-5 SLAR (§128.7) remains single-source
+(Cornell LII) — lower stakes, optional cross-check.
+
 Art note: 10 K–2 cards delivered; `cognate-card-animal` renders as a specific dog
 (reads as "dog/perro"), so it's **not** used in the cognate activities — regenerate as a
 generic/abstract "animal" grouping if that cognate card is wanted.
