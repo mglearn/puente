@@ -21,10 +21,14 @@ contrast) all green.
 
 ## Next
 
-1. **K–2 band.** Needs a standards pass for §110.2/110.3/110.4 (ELAR) — and likely new
-   picture-based art (young readers), so best paired with an art delivery.
-2. **Depth toward MVP.** Cognate Detective 7/24, Academic Language Lab 5/32, Newcomer 4/30 —
-   keep filling each (all feed the shared engines).
+1. **Deliver K–2 picture cards** (6, prompts in `~/projects/puente-image-prompts.md`).
+   `cog-picture-k-2-001` "Cognate Picture Match" is authored (status `draft`, hidden by
+   a `status!=="draft"` filter) with K–2 TEKS §110.2/110.3/110.4 (b)(3)(B) + ELPS
+   §120.20(d)(3)(C) verified and attached, and 6 dormant manifest card slots. To ship:
+   drop `cognate-card-*.webp` in `assets/img/`, flip those manifest entries + the
+   activity to `available`/`reviewed`. Standards note: no K–2 TEKS names "cognates" —
+   that's an intro/ELPS scaffold, so don't cite a K–2 (b)(3) code as a cognate standard.
+2. **Depth toward MVP.** Cognate Detective 7/24, Academic Language Lab 5/32, Newcomer 4/30.
 3. **A11y round two** (real AT walkthrough, print QA, axe) and **Spanish review** (the 2 `reviewed`
    locale keys are an intentional QC-gate fixture — see es.json `_meta`).
 
