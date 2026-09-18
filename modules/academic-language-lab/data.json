@@ -912,6 +912,308 @@
       "created": "2026-09-17",
       "updated": "2026-09-17",
       "status": "reviewed"
+    },
+    {
+      "id": "all-expand-3-5-006",
+      "module": "academic-language-lab",
+      "title": {
+        "en": "Sentence Expansion",
+        "es": "Ampliar la oración"
+      },
+
+      "grades": [5],
+      "gradeBand": "3-5",
+      "subjects": ["science", "elar"],
+      "duration": 8,
+
+      "interactionType": "multiple-choice",
+
+      "targetLanguage": "en",
+      "supportedHomeLanguages": ["es"],
+      "languagePair": "en-es",
+
+      "studentGoal": {
+        "en": "Turn a bare sentence into a complete academic one by adding precise detail — what, when, how, and why.",
+        "es": "Convierte una oración básica en una oración académica completa agregando detalles precisos: qué, cuándo, cómo y por qué."
+      },
+      "studentDirections": {
+        "en": "Each idea starts as a short, plain sentence. Choose the version that adds the most precise, academic detail. Choose, then select Check.",
+        "es": "Cada idea empieza como una oración corta y sencilla. Elige la versión que agrega los detalles más precisos y académicos. Elige y luego selecciona Revisar."
+      },
+      "teacherDirections": {
+        "en": "Model how a strong sentence answers more questions — what exactly, when, how much, why. After each item, have students say the expanded sentence aloud. Great before a science write-up. Use ACE Extend to have students expand a bare sentence of their own.",
+        "es": "Modela cómo una oración fuerte responde a más preguntas: qué exactamente, cuándo, cuánto, por qué. Después de cada ítem, pide a los estudiantes que digan la oración ampliada en voz alta."
+      },
+      "languageFunction": {
+        "en": "Elaborating with precise detail using academic vocabulary.",
+        "es": "Elaborar con detalles precisos usando vocabulario académico."
+      },
+
+      "materials": [],
+
+      "items": [
+        {
+          "id": "x1",
+          "context": { "en": "Basic sentence: “The plant grew.”", "es": "Oración básica: “The plant grew.”" },
+          "prompt": { "en": "Which version adds the most precise detail?", "es": "¿Qué versión agrega los detalles más precisos?" },
+          "support": {
+            "high": { "en": "A strong sentence tells how much, how long, or how it happened. / Una oración fuerte dice cuánto, cuánto tiempo o cómo pasó.", "es": "Una oración fuerte dice cuánto, cuánto tiempo o cómo pasó." },
+            "medium": { "en": "Which choice has the most specific information?", "es": "¿Qué opción tiene la información más específica?" }
+          },
+          "choices": [
+            { "id": "a", "label": { "en": "Over three weeks, the bean plant grew from a small seed into a tall stem with leaves.", "es": "En tres semanas, la planta de frijol creció de una pequeña semilla a un tallo alto con hojas." } },
+            { "id": "b", "label": { "en": "The plant got bigger.", "es": "La planta se hizo más grande." } },
+            { "id": "c", "label": { "en": "It grew and grew.", "es": "Creció y creció." } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": { "correct": true, "why": { "en": "Yes. It adds when (three weeks), what kind (bean plant), and how it changed (seed to tall stem). Precise academic detail.", "es": "Sí. Agrega cuándo (tres semanas), qué tipo (planta de frijol) y cómo cambió (de semilla a tallo alto). Detalle académico preciso." } },
+            "b": { "correct": false, "why": { "en": "“Got bigger” is vague. Add specifics: how long, what kind, how it changed.", "es": "“Got bigger” es vago. Agrega detalles: cuánto tiempo, qué tipo, cómo cambió." }, "hint": { "en": "Which choice tells you when and how much?", "es": "¿Qué opción dice cuándo y cuánto?" } },
+            "c": { "correct": false, "why": { "en": "Repeating “grew” adds no detail. A strong sentence names specifics.", "es": "Repetir “grew” no agrega detalle. Una oración fuerte nombra detalles específicos." } }
+          }
+        },
+        {
+          "id": "x2",
+          "context": { "en": "Basic sentence: “The water changed.”", "es": "Oración básica: “The water changed.”" },
+          "prompt": { "en": "Which version adds the most precise detail?", "es": "¿Qué versión agrega los detalles más precisos?" },
+          "support": {
+            "high": { "en": "Name the exact change and when it happened. / Nombra el cambio exacto y cuándo ocurrió.", "es": "Nombra el cambio exacto y cuándo ocurrió." }
+          },
+          "choices": [
+            { "id": "a", "label": { "en": "When the water reached 100°C, it began to boil and turn into steam.", "es": "Cuando el agua llegó a 100 °C, empezó a hervir y convertirse en vapor." } },
+            { "id": "b", "label": { "en": "The water was different.", "es": "El agua estaba diferente." } },
+            { "id": "c", "label": { "en": "It changed somehow.", "es": "Cambió de alguna manera." } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": { "correct": true, "why": { "en": "Yes. It says when (100°C) and exactly what happened (boiled, turned to steam). That's precise science language.", "es": "Sí. Dice cuándo (100 °C) y exactamente qué pasó (hirvió, se convirtió en vapor). Ese es lenguaje científico preciso." } },
+            "b": { "correct": false, "why": { "en": "“Different” doesn't say how. Name the change: it boiled and became steam.", "es": "“Different” no dice cómo. Nombra el cambio: hirvió y se convirtió en vapor." }, "hint": { "en": "What exactly happened to the water?", "es": "¿Qué le pasó exactamente al agua?" } },
+            "c": { "correct": false, "why": { "en": "“Somehow” is the opposite of precise. Say exactly what changed.", "es": "“Somehow” es lo contrario de preciso. Di exactamente qué cambió." } }
+          }
+        },
+        {
+          "id": "x3",
+          "context": { "en": "Basic sentence: “The animal moved.”", "es": "Oración básica: “The animal moved.”" },
+          "prompt": { "en": "Which version adds the most precise detail?", "es": "¿Qué versión agrega los detalles más precisos?" },
+          "support": {
+            "high": { "en": "Tell which animal, how it moved, and why. / Di qué animal, cómo se movió y por qué.", "es": "Di qué animal, cómo se movió y por qué." }
+          },
+          "choices": [
+            { "id": "a", "label": { "en": "The rabbit hopped quickly across the field to escape the fox.", "es": "El conejo saltó rápidamente por el campo para escapar del zorro." } },
+            { "id": "b", "label": { "en": "The animal went somewhere.", "es": "El animal fue a algún lugar." } },
+            { "id": "c", "label": { "en": "It moved a lot.", "es": "Se movió mucho." } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": { "correct": true, "why": { "en": "Yes. It names which animal (rabbit), how (hopped quickly), where (across the field), and why (to escape the fox).", "es": "Sí. Nombra qué animal (conejo), cómo (saltó rápidamente), dónde (por el campo) y por qué (para escapar del zorro)." } },
+            "b": { "correct": false, "why": { "en": "“Somewhere” gives no detail. Add which animal, how, and why.", "es": "“Somewhere” no da detalle. Agrega qué animal, cómo y por qué." }, "hint": { "en": "Which choice answers what, how, and why?", "es": "¿Qué opción responde qué, cómo y por qué?" } },
+            "c": { "correct": false, "why": { "en": "“A lot” isn't specific. Name the animal and how it moved.", "es": "“A lot” no es específico. Nombra el animal y cómo se movió." } }
+          }
+        },
+        {
+          "id": "x4",
+          "context": { "en": "Basic sentence: “We did an experiment.”", "es": "Oración básica: “We did an experiment.”" },
+          "prompt": { "en": "Which version adds the most precise detail?", "es": "¿Qué versión agrega los detalles más precisos?" },
+          "support": {
+            "high": { "en": "Say what you measured and how often. / Di qué mediste y cada cuánto.", "es": "Di qué mediste y cada cuánto." }
+          },
+          "choices": [
+            { "id": "a", "label": { "en": "We measured how the temperature of the water changed every five minutes during the experiment.", "es": "Medimos cómo cambiaba la temperatura del agua cada cinco minutos durante el experimento." } },
+            { "id": "b", "label": { "en": "We did some science.", "es": "Hicimos algo de ciencia." } },
+            { "id": "c", "label": { "en": "We did an experiment in class.", "es": "Hicimos un experimento en clase." } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": { "correct": true, "why": { "en": "Yes. It says what you measured (temperature of the water) and how often (every five minutes). Precise and academic.", "es": "Sí. Dice qué mediste (la temperatura del agua) y cada cuánto (cada cinco minutos). Preciso y académico." } },
+            "b": { "correct": false, "why": { "en": "“Some science” is vague. Say what you measured and how.", "es": "“Some science” es vago. Di qué mediste y cómo." }, "hint": { "en": "What did you measure, and how often?", "es": "¿Qué mediste y cada cuánto?" } },
+            "c": { "correct": false, "why": { "en": "This adds only where. Add what you measured and how often.", "es": "Esto solo agrega dónde. Agrega qué mediste y cada cuánto." } }
+          }
+        }
+      ],
+
+      "ace": { "articulate": true, "connect": true, "extend": true },
+
+      "clear": { "enabled": false, "emphasis": [] },
+
+      "udl": [
+        "representation.language-support",
+        "representation.context",
+        "action-expression.multiple-response-modes",
+        "engagement.relevance"
+      ],
+
+      "strategies": [
+        "sentence-frames",
+        "vocabulary-programs",
+        "corrective-feedback"
+      ],
+
+      "standards": {
+        "elps": [
+          { "code": "§120.21(d)(2)(B)", "alignment": "direct", "grades": [5], "rationale": "Students use content-area vocabulary in more complex, complete sentences." }
+        ],
+        "teks": [
+          { "code": "§110.7(b)(1)(C)", "alignment": "supporting", "grades": [5], "rationale": "Precise, organized phrasing supports clear academic communication." }
+        ],
+        "slar": []
+      },
+
+      "printables": ["all-expand-3-5-006-student", "all-expand-3-5-006-answer-key"],
+
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "status": "reviewed"
+    },
+    {
+      "id": "all-compare-3-5-007",
+      "module": "academic-language-lab",
+      "title": {
+        "en": "Compare It",
+        "es": "Compáralo"
+      },
+
+      "grades": [5],
+      "gradeBand": "3-5",
+      "subjects": ["science", "elar"],
+      "duration": 8,
+
+      "interactionType": "multiple-choice",
+
+      "targetLanguage": "en",
+      "supportedHomeLanguages": ["es"],
+      "languagePair": "en-es",
+
+      "studentGoal": {
+        "en": "Use academic comparison language — both, but, however, while, whereas — to compare two things clearly.",
+        "es": "Usa lenguaje académico de comparación —both, but, however, while, whereas— para comparar dos cosas con claridad."
+      },
+      "studentDirections": {
+        "en": "Choose the sentence that compares the two things best — it names what is the same AND what is different, using comparison words. Choose, then select Check.",
+        "es": "Elige la oración que mejor compara las dos cosas: nombra lo que es igual Y lo que es diferente, usando palabras de comparación. Elige y luego selecciona Revisar."
+      },
+      "teacherDirections": {
+        "en": "Teach the comparison connectives: both, but, however, while, whereas. A strong comparison names a similarity and a difference in one sentence. Post the connectives and have students reuse them aloud. Great before a compare-and-contrast writing task.",
+        "es": "Enseña los conectores de comparación: both, but, however, while, whereas. Una buena comparación nombra una semejanza y una diferencia en una oración. Muestra los conectores y pide que los reutilicen en voz alta."
+      },
+      "languageFunction": {
+        "en": "Comparing and contrasting with academic connectives.",
+        "es": "Comparar y contrastar con conectores académicos."
+      },
+
+      "materials": [],
+
+      "items": [
+        {
+          "id": "c1",
+          "context": { "en": "Compare a whale and a fish.", "es": "Compara una ballena y un pez." },
+          "prompt": { "en": "Which sentence compares them best?", "es": "¿Qué oración los compara mejor?" },
+          "support": {
+            "high": { "en": "A strong comparison names a similarity AND a difference: “Both ___, but ___.” / Una buena comparación nombra una semejanza Y una diferencia: “Both ___, but ___.”", "es": "Una buena comparación nombra una semejanza Y una diferencia: “Both ___, but ___.”" },
+            "medium": { "en": "Which choice tells what is the same and what is different?", "es": "¿Qué opción dice qué es igual y qué es diferente?" }
+          },
+          "choices": [
+            { "id": "a", "label": { "en": "Both a whale and a fish live in water, but a whale breathes air while a fish uses gills.", "es": "Tanto la ballena como el pez viven en el agua, pero la ballena respira aire mientras que el pez usa branquias." } },
+            { "id": "b", "label": { "en": "A whale and a fish are different.", "es": "Una ballena y un pez son diferentes." } },
+            { "id": "c", "label": { "en": "Whales are really big.", "es": "Las ballenas son muy grandes." } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": { "correct": true, "why": { "en": "Yes. It names a similarity (“both… live in water”) and a difference (“a whale breathes air while a fish uses gills”), using comparison words.", "es": "Sí. Nombra una semejanza (“both… live in water”) y una diferencia (“a whale breathes air while a fish uses gills”), usando palabras de comparación." } },
+            "b": { "correct": false, "why": { "en": "“Are different” doesn't say how. A strong comparison names the difference.", "es": "“Are different” no dice cómo. Una buena comparación nombra la diferencia." }, "hint": { "en": "Which choice uses “both” and “but/while”?", "es": "¿Qué opción usa “both” y “but/while”?" } },
+            "c": { "correct": false, "why": { "en": "This describes only whales. A comparison talks about both things.", "es": "Esto describe solo a las ballenas. Una comparación habla de las dos cosas." } }
+          }
+        },
+        {
+          "id": "c2",
+          "context": { "en": "Compare rain and snow.", "es": "Compara la lluvia y la nieve." },
+          "prompt": { "en": "Which sentence compares them best?", "es": "¿Qué oración los compara mejor?" },
+          "support": {
+            "high": { "en": "Try “Both ___; however, ___.” / Prueba “Both ___; however, ___.”", "es": "Prueba “Both ___; however, ___.”" }
+          },
+          "choices": [
+            { "id": "a", "label": { "en": "Rain and snow both fall from clouds; however, rain is liquid and snow is frozen.", "es": "La lluvia y la nieve caen de las nubes; sin embargo, la lluvia es líquida y la nieve está congelada." } },
+            { "id": "b", "label": { "en": "Rain is wet.", "es": "La lluvia es mojada." } },
+            { "id": "c", "label": { "en": "They are not the same thing.", "es": "No son lo mismo." } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": { "correct": true, "why": { "en": "Yes. It names the similarity (“both fall from clouds”) and the difference (“rain is liquid… snow is frozen”) with “however.”", "es": "Sí. Nombra la semejanza (“both fall from clouds”) y la diferencia (“rain is liquid… snow is frozen”) con “however.”" } },
+            "b": { "correct": false, "why": { "en": "This describes only rain. Compare both, and name the difference.", "es": "Esto describe solo la lluvia. Compara las dos y nombra la diferencia." }, "hint": { "en": "Say what's the same AND what's different.", "es": "Di qué es igual Y qué es diferente." } },
+            "c": { "correct": false, "why": { "en": "“Not the same” doesn't say how. Name the difference: liquid vs. frozen.", "es": "“Not the same” no dice cómo. Nombra la diferencia: líquida vs. congelada." } }
+          }
+        },
+        {
+          "id": "c3",
+          "context": { "en": "Compare a triangle and a square.", "es": "Compara un triángulo y un cuadrado." },
+          "prompt": { "en": "Which sentence compares them best?", "es": "¿Qué oración los compara mejor?" },
+          "support": {
+            "high": { "en": "Try “A ___ has ___, whereas a ___ has ___.” / Prueba “A ___ has ___, whereas a ___ has ___.”", "es": "Prueba “A ___ has ___, whereas a ___ has ___.”" }
+          },
+          "choices": [
+            { "id": "a", "label": { "en": "A triangle has three sides, whereas a square has four.", "es": "Un triángulo tiene tres lados, mientras que un cuadrado tiene cuatro." } },
+            { "id": "b", "label": { "en": "A square is a shape.", "es": "Un cuadrado es una figura." } },
+            { "id": "c", "label": { "en": "Shapes can be different.", "es": "Las figuras pueden ser diferentes." } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": { "correct": true, "why": { "en": "Yes. It compares the exact difference (three sides vs. four) using “whereas.”", "es": "Sí. Compara la diferencia exacta (tres lados vs. cuatro) usando “whereas.”" } },
+            "b": { "correct": false, "why": { "en": "This describes only the square. Compare both shapes' sides.", "es": "Esto describe solo el cuadrado. Compara los lados de las dos figuras." }, "hint": { "en": "How many sides does each shape have?", "es": "¿Cuántos lados tiene cada figura?" } },
+            "c": { "correct": false, "why": { "en": "“Can be different” is vague. Name the exact difference in sides.", "es": "“Can be different” es vago. Nombra la diferencia exacta en los lados." } }
+          }
+        },
+        {
+          "id": "c4",
+          "context": { "en": "Compare the sun and the moon.", "es": "Compara el sol y la luna." },
+          "prompt": { "en": "Which sentence compares them best?", "es": "¿Qué oración los compara mejor?" },
+          "support": {
+            "high": { "en": "Name what's the same and the key difference (light). / Nombra lo que es igual y la diferencia clave (la luz).", "es": "Nombra lo que es igual y la diferencia clave (la luz)." }
+          },
+          "choices": [
+            { "id": "a", "label": { "en": "Both the sun and the moon appear in the sky, but the sun makes its own light while the moon reflects it.", "es": "Tanto el sol como la luna aparecen en el cielo, pero el sol produce su propia luz mientras que la luna la refleja." } },
+            { "id": "b", "label": { "en": "The sun is bright.", "es": "El sol es brillante." } },
+            { "id": "c", "label": { "en": "The sun and the moon are in space.", "es": "El sol y la luna están en el espacio." } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": { "correct": true, "why": { "en": "Yes. It names the similarity (“both… appear in the sky”) and the key difference (makes light vs. reflects light) with “but/while.”", "es": "Sí. Nombra la semejanza (“both… appear in the sky”) y la diferencia clave (produce luz vs. la refleja) con “but/while.”" } },
+            "b": { "correct": false, "why": { "en": "This describes only the sun. Compare both, and name the difference.", "es": "Esto describe solo el sol. Compara los dos y nombra la diferencia." }, "hint": { "en": "Which one makes light, and which reflects it?", "es": "¿Cuál produce luz y cuál la refleja?" } },
+            "c": { "correct": false, "why": { "en": "This only names a similarity. A strong comparison also names a difference.", "es": "Esto solo nombra una semejanza. Una buena comparación también nombra una diferencia." } }
+          }
+        }
+      ],
+
+      "ace": { "articulate": true, "connect": true, "extend": true },
+
+      "clear": { "enabled": false, "emphasis": [] },
+
+      "udl": [
+        "representation.language-support",
+        "representation.context",
+        "action-expression.multiple-response-modes",
+        "engagement.relevance"
+      ],
+
+      "strategies": [
+        "sentence-frames",
+        "vocabulary-programs",
+        "corrective-feedback"
+      ],
+
+      "standards": {
+        "elps": [
+          { "code": "§120.21(d)(2)(B)", "alignment": "supporting", "grades": [5], "rationale": "Students use content-area vocabulary while comparing two things." }
+        ],
+        "teks": [
+          { "code": "§110.7(b)(1)(C)", "alignment": "direct", "grades": [5], "rationale": "Students use organized, conventional academic phrasing to compare clearly." }
+        ],
+        "slar": []
+      },
+
+      "printables": ["all-compare-3-5-007-student", "all-compare-3-5-007-answer-key"],
+
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "status": "reviewed"
     }
   ]
 }
