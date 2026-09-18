@@ -21,9 +21,12 @@ Language Bridge card → `/puente/`). All ELPS codes now **two-source confirmed*
 strings (one per module) found the Spanish solid; 3 genuine correctness fixes
 applied (tautology, gender agreement, `adónde`). Worklist at `docs/SPANISH_REVIEW.md`
 (regenerate with `npm run review:es`); a final human bilingual sign-off is still
-the gold standard but the content is in good shape. Owner call still open: confirm
-the **CC0 artwork label**. Grade-5 SLAR (§128.7) remains single-source
-(Cornell LII) — lower stakes, optional cross-check.
+the gold standard but the content is in good shape. **Licensing aligned to the
+mglearn site (2026-09-18):** © 2026 TCEA · Content (incl. artwork + translations)
+CC BY-NC 4.0 · Code MIT · commercial use needs TCEA permission — this resolves the
+old "CC0 artwork" question (artwork is now content under CC BY-NC 4.0, AI-assisted +
+human-reviewed). Grade-5 SLAR (§128.7) remains single-source (Cornell LII) — lower
+stakes, optional cross-check.
 
 Art note: 10 K–2 cards delivered; `cognate-card-animal` renders as a specific dog
 (reads as "dog/perro"), so it's **not** used in the cognate activities — regenerate as a
@@ -107,12 +110,12 @@ The vertical slice is complete and passes `npm run check`:
 
 ## Deferred / owner decisions
 
-1. **Artwork license decision (owner call).** The art is AI-generated, so the
-   `CC BY 4.0 (project-created)` claim is likely invalid — purely AI-generated
-   work may not be copyrightable. Decide the label (commonly CC0 / public-domain
-   for AI art), update `data/image-manifest.json` `rightsNote` and the README
-   licensing section to match. Also: the WebP conversion dropped the C2PA
-   credentials — decide whether to preserve provenance on the published files.
+1. **Artwork license — RESOLVED (2026-09-18):** aligned to the mglearn site.
+   Artwork is content: © 2026 TCEA, **CC BY-NC 4.0**, AI-assisted (OpenAI per C2PA)
+   + human-reviewed. Applied across LICENSE, README, `about/licensing.html`, the
+   footer, printables, and every `image-manifest.json` `rights` field. (The WebP
+   conversion still drops the C2PA manifest — preserving it on published files
+   remains optional.)
 2. **SLAR codes.** Import + verify Chapter 128 (Spanish LA) codes — do not guess them.
 3. **Es review pass.** Move remaining `reviewed` Spanish keys to `published` after
    a human check; keep the QC gate honest.

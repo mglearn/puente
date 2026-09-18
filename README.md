@@ -112,12 +112,21 @@ Never attach a standard you cannot justify in one sentence.
 
 ## Licensing
 
-- Code: MIT (see [`LICENSE`](LICENSE))
-- Original educational content: CC BY 4.0
-- Artwork: current illustrations are **AI-generated (OpenAI)** and labeled
-  **CC0 1.0 / public domain (provisional)** — purely AI-generated work may not be
-  copyrightable, so the project does not claim CC BY over it. Provenance and the
-  rights rationale live in [`data/image-manifest.json`](data/image-manifest.json).
-  Any future hand-created artwork would be CC BY 4.0.
+© 2026 TCEA (Texas Computer Education Association), created by Miguel Guhlin in the
+course of his work at TCEA. Two licenses apply (matching the rest of mglearn):
 
-No copyrighted textbook passages are used as activity content.
+- **Content** — activity text, questions, scenarios, instructional design, **artwork,
+  and translations** — is **CC BY-NC 4.0**
+  (<https://creativecommons.org/licenses/by-nc/4.0/>).
+- **Code** — HTML, CSS, JavaScript — is **MIT** (see [`LICENSE`](LICENSE)).
+
+Commercial use of the content needs separate written permission from TCEA.
+**Credit:** _Language Bridge © 2026 TCEA, created by Miguel Guhlin. Licensed CC BY-NC 4.0._
+
+**Provenance:** content, code, artwork, and the multilingual translations are produced
+with generative-AI tools and refined under human editorial review. Translations are
+machine-assisted and flagged for local educator review before classroom use. The
+illustrations were generated with OpenAI (per embedded C2PA) and refined for this
+project; see [`data/image-manifest.json`](data/image-manifest.json). No copyrighted
+textbook passages are used as activity content. Full details:
+[`/about/licensing.html`](about/licensing.html).

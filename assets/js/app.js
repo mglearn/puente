@@ -62,7 +62,11 @@
     return el("footer", { class: "site-footer" }, [
       el("span", { "data-i18n": "privacy.note" }, ["No logins. No accounts. No student data collected."]),
       document.createTextNode(" — "),
-      el("a", { href: "https://mglearn.github.io/" }, ["mglearn"])
+      el("a", { href: "https://mglearn.github.io/" }, ["mglearn"]),
+      el("div", { style: "margin-top:.5rem;font-size:.85em" }, [
+        document.createTextNode("© 2026 TCEA, created by Miguel Guhlin · CC BY-NC 4.0 (content) · MIT (code) · "),
+        el("a", { href: BASE + "about/licensing.html" }, ["Licensing"])
+      ])
     ]);
   }
 

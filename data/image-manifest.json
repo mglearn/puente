@@ -2,7 +2,7 @@
   "_meta": {
     "note": "Registry of generated artwork. Prompts live in ~/projects/puente-image-prompts.md (outside the repo). An asset renders on the site ONLY when its status is 'available'. Cognate Detective assets have live consumers (module hero + high-support item images); the future-module heroes and newcomer scenarios are delivered and render-ready but have no consuming page yet.",
     "provenance": "Generator identified from C2PA Content Credentials embedded in the PNG originals (claim_generator_info: 'OpenAI Media Service API'; each carries a c2pa.created + c2pa.watermarked assertion). NOTE: the WebP conversion (cwebp) dropped the C2PA manifest; the original PNGs in ~/projects/assets/img/ retain it.",
-    "rightsNote": "Images were AI-generated with OpenAI and may be used per OpenAI's usage terms. Purely AI-generated works may not be copyrightable (e.g. U.S. Copyright Office guidance), so the project likely cannot hold copyright to license them under CC BY 4.0. Provisional label applied: CC0 1.0 / public domain — it claims no copyright the project may not hold, and fits the free-education spirit. The project owner may change this; if switching to CC BY, first establish a defensible authorship/rights basis.",
+    "rightsNote": "Artwork is treated as CONTENT and licensed to match the rest of the mglearn site: © 2026 TCEA, CC BY-NC 4.0 (https://creativecommons.org/licenses/by-nc/4.0/). The illustrations were generated with OpenAI (identified via the embedded C2PA Content Credentials) and curated/refined under human editorial review for this project; commercial use needs separate written permission from TCEA. Full details: /about/licensing.html.",
     "renderGate": "available",
     "base": "assets/img/"
   },
@@ -15,7 +15,7 @@
       "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
       "source": "Generated from the matching prompt in ~/projects/puente-image-prompts.md; C2PA Content Credentials in the PNG original",
       "created": "2026-09-17",
-      "rights": "CC0 1.0 / public domain (provisional). AI-generated with OpenAI; usable per OpenAI usage terms. See _meta.rightsNote."
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
     },
     "cognate-observe": {
       "file": "cognate-observe.webp",
@@ -25,7 +25,7 @@
       "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
       "source": "Generated from the matching prompt in ~/projects/puente-image-prompts.md; C2PA Content Credentials in the PNG original",
       "created": "2026-09-17",
-      "rights": "CC0 1.0 / public domain (provisional). AI-generated with OpenAI; usable per OpenAI usage terms. See _meta.rightsNote."
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
     },
     "cognate-temperature": {
       "file": "cognate-temperature.webp",
@@ -35,7 +35,7 @@
       "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
       "source": "Generated from the matching prompt in ~/projects/puente-image-prompts.md; C2PA Content Credentials in the PNG original",
       "created": "2026-09-17",
-      "rights": "CC0 1.0 / public domain (provisional). AI-generated with OpenAI; usable per OpenAI usage terms. See _meta.rightsNote."
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
     },
     "cognate-library-bookstore": {
       "file": "cognate-library-bookstore.webp",
@@ -45,7 +45,7 @@
       "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
       "source": "Generated from the matching prompt in ~/projects/puente-image-prompts.md; C2PA Content Credentials in the PNG original",
       "created": "2026-09-17",
-      "rights": "CC0 1.0 / public domain (provisional). AI-generated with OpenAI; usable per OpenAI usage terms. See _meta.rightsNote."
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
     },
     "cognate-exit-success": {
       "file": "cognate-exit-success.webp",
@@ -55,7 +55,7 @@
       "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
       "source": "Generated from the matching prompt in ~/projects/puente-image-prompts.md; C2PA Content Credentials in the PNG original",
       "created": "2026-09-17",
-      "rights": "CC0 1.0 / public domain (provisional). AI-generated with OpenAI; usable per OpenAI usage terms. See _meta.rightsNote."
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
     },
     "cognate-family": {
       "file": "cognate-family.webp",
@@ -65,7 +65,7 @@
       "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
       "source": "Generated from the matching prompt in ~/projects/puente-image-prompts.md; C2PA Content Credentials in the PNG original",
       "created": "2026-09-17",
-      "rights": "CC0 1.0 / public domain (provisional). AI-generated with OpenAI; usable per OpenAI usage terms. See _meta.rightsNote."
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
     },
     "academic-language-lab-hero": {
       "file": "academic-language-lab-hero.webp",
@@ -75,7 +75,7 @@
       "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
       "source": "Generated from the matching prompt in ~/projects/puente-image-prompts.md; C2PA Content Credentials in the PNG original",
       "created": "2026-09-17",
-      "rights": "CC0 1.0 / public domain (provisional). AI-generated with OpenAI; usable per OpenAI usage terms. See _meta.rightsNote."
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
     },
     "newcomer-navigator-hero": {
       "file": "newcomer-navigator-hero.webp",
@@ -85,7 +85,7 @@
       "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
       "source": "Generated from the matching prompt in ~/projects/puente-image-prompts.md; C2PA Content Credentials in the PNG original",
       "created": "2026-09-17",
-      "rights": "CC0 1.0 / public domain (provisional). AI-generated with OpenAI; usable per OpenAI usage terms. See _meta.rightsNote."
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
     },
     "newcomer-scenario-cafeteria": {
       "file": "newcomer-scenario-cafeteria.webp",
@@ -95,7 +95,7 @@
       "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
       "source": "Generated from the matching prompt in ~/projects/puente-image-prompts.md; C2PA Content Credentials in the PNG original",
       "created": "2026-09-17",
-      "rights": "CC0 1.0 / public domain (provisional). AI-generated with OpenAI; usable per OpenAI usage terms. See _meta.rightsNote."
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
     },
     "newcomer-scenario-nurse": {
       "file": "newcomer-scenario-nurse.webp",
@@ -105,7 +105,7 @@
       "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
       "source": "Generated from the matching prompt in ~/projects/puente-image-prompts.md; C2PA Content Credentials in the PNG original",
       "created": "2026-09-17",
-      "rights": "CC0 1.0 / public domain (provisional). AI-generated with OpenAI; usable per OpenAI usage terms. See _meta.rightsNote."
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
     },
     "newcomer-scenario-restroom": {
       "file": "newcomer-scenario-restroom.webp",
@@ -115,7 +115,7 @@
       "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
       "source": "Generated from the matching prompt in ~/projects/puente-image-prompts.md; C2PA Content Credentials in the PNG original",
       "created": "2026-09-17",
-      "rights": "CC0 1.0 / public domain (provisional). AI-generated with OpenAI; usable per OpenAI usage terms. See _meta.rightsNote."
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
     },
     "newcomer-scenario-group": {
       "file": "newcomer-scenario-group.webp",
@@ -125,7 +125,7 @@
       "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
       "source": "Generated from the matching prompt in ~/projects/puente-image-prompts.md; C2PA Content Credentials in the PNG original",
       "created": "2026-09-17",
-      "rights": "CC0 1.0 / public domain (provisional). AI-generated with OpenAI; usable per OpenAI usage terms. See _meta.rightsNote."
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
     },
     "cognate-card-elephant": {
       "file": "cognate-card-elephant.webp",
@@ -134,7 +134,7 @@
       "alt": "A friendly grey elephant.",
       "tool": "OpenAI built-in image generation",
       "created": "2026-09-18",
-      "rights": "AI-generated; rights/license not independently verified.",
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote.",
       "source": "Prompt and PNG master recorded in ~/projects/assets/img/generation-notes.md"
     },
     "cognate-card-tiger": {
@@ -144,7 +144,7 @@
       "alt": "A friendly orange tiger with black stripes.",
       "tool": "OpenAI built-in image generation",
       "created": "2026-09-18",
-      "rights": "AI-generated; rights/license not independently verified.",
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote.",
       "source": "Prompt and PNG master recorded in ~/projects/assets/img/generation-notes.md"
     },
     "cognate-card-banana": {
@@ -154,7 +154,7 @@
       "alt": "A single ripe yellow banana.",
       "tool": "OpenAI built-in image generation",
       "created": "2026-09-18",
-      "rights": "AI-generated; rights/license not independently verified.",
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote.",
       "source": "Prompt and PNG master recorded in ~/projects/assets/img/generation-notes.md"
     },
     "cognate-card-dinosaur": {
@@ -164,7 +164,7 @@
       "alt": "A friendly green long-necked dinosaur.",
       "tool": "OpenAI built-in image generation",
       "created": "2026-09-18",
-      "rights": "AI-generated; rights/license not independently verified.",
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote.",
       "source": "Prompt and PNG master recorded in ~/projects/assets/img/generation-notes.md"
     },
     "cognate-card-piano": {
@@ -174,7 +174,7 @@
       "alt": "A small upright piano.",
       "tool": "OpenAI built-in image generation",
       "created": "2026-09-18",
-      "rights": "AI-generated; rights/license not independently verified.",
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote.",
       "source": "Prompt and PNG master recorded in ~/projects/assets/img/generation-notes.md"
     },
     "cognate-card-family": {
@@ -184,7 +184,7 @@
       "alt": "A family of four standing together.",
       "tool": "OpenAI built-in image generation",
       "created": "2026-09-18",
-      "rights": "AI-generated; rights/license not independently verified.",
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote.",
       "source": "Prompt and PNG master recorded in ~/projects/assets/img/generation-notes.md"
     },
     "cognate-card-animal": {
@@ -195,7 +195,7 @@
       "tool": "OpenAI built-in image generation",
       "created": "2026-09-18",
       "source": "Prompt and PNG master recorded in ~/projects/assets/img/generation-notes.md",
-      "rights": "AI-generated; rights/license not independently verified."
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
     },
     "cognate-card-chocolate": {
       "file": "cognate-card-chocolate.webp",
@@ -205,7 +205,7 @@
       "tool": "OpenAI built-in image generation",
       "created": "2026-09-18",
       "source": "Prompt and PNG master recorded in ~/projects/assets/img/generation-notes.md",
-      "rights": "AI-generated; rights/license not independently verified."
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
     },
     "cognate-card-doctor": {
       "file": "cognate-card-doctor.webp",
@@ -215,7 +215,7 @@
       "tool": "OpenAI built-in image generation",
       "created": "2026-09-18",
       "source": "Prompt and PNG master recorded in ~/projects/assets/img/generation-notes.md",
-      "rights": "AI-generated; rights/license not independently verified."
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
     },
     "cognate-card-telephone": {
       "file": "cognate-card-telephone.webp",
@@ -225,7 +225,7 @@
       "tool": "OpenAI built-in image generation",
       "created": "2026-09-18",
       "source": "Prompt and PNG master recorded in ~/projects/assets/img/generation-notes.md",
-      "rights": "AI-generated; rights/license not independently verified."
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
     }
   }
 }
