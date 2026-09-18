@@ -745,6 +745,161 @@
       "created": "2026-09-17",
       "updated": "2026-09-17",
       "status": "reviewed"
+    },
+    {
+      "id": "nav-help-3-5-005",
+      "module": "newcomer-navigator",
+      "title": {
+        "en": "Getting Help at School",
+        "es": "Pedir ayuda en la escuela"
+      },
+
+      "grades": [4, 5],
+      "gradeBand": "3-5",
+      "subjects": ["elar"],
+      "duration": 8,
+
+      "interactionType": "scenario-choice",
+
+      "targetLanguage": "en",
+      "supportedHomeLanguages": ["es"],
+      "languagePair": "en-es",
+
+      "studentGoal": {
+        "en": "Know what to say in English to get help in new school situations — being lost, forgetting something, not understanding, or feeling worried.",
+        "es": "Sabe qué decir en inglés para pedir ayuda en situaciones nuevas de la escuela: estar perdido, olvidar algo, no entender o sentirse preocupado."
+      },
+      "studentDirections": {
+        "en": "You need help. Choose the best thing to say in English — it is always okay to ask an adult at school. Choose, then select Check.",
+        "es": "Necesitas ayuda. Elige lo mejor que puedes decir en inglés: siempre está bien pedirle ayuda a un adulto en la escuela. Elige y luego selecciona Revisar."
+      },
+      "teacherDirections": {
+        "en": "These are the help requests newcomers need beyond day one: getting lost, a forgotten item, not understanding, and asking to talk to someone. Turn on More support for bilingual frames and role-play each. Reinforce that asking an adult for help is exactly the right move.",
+        "es": "Estas son las peticiones de ayuda que los recién llegados necesitan más allá del primer día: perderse, olvidar algo, no entender y pedir hablar con alguien. Activa Más apoyo para marcos bilingües y representen cada uno."
+      },
+      "languageFunction": {
+        "en": "Requesting help and information in varied school situations.",
+        "es": "Pedir ayuda e información en distintas situaciones escolares."
+      },
+
+      "materials": [],
+
+      "items": [
+        {
+          "id": "h1",
+          "context": { "en": "It is your first week and you cannot find your classroom.", "es": "Es tu primera semana y no encuentras tu salón." },
+          "prompt": { "en": "What is the best thing to say to a teacher in the hall?", "es": "¿Qué es lo mejor que puedes decirle a un maestro en el pasillo?" },
+          "support": {
+            "high": { "en": "Frame: “Excuse me, can you help me find my classroom?” / “Disculpe, ¿me ayuda a encontrar mi salón?”", "es": "Marco: “Excuse me, can you help me find my classroom?” = “Disculpe, ¿me ayuda a encontrar mi salón?”" },
+            "medium": { "en": "Ask an adult politely for help finding it.", "es": "Pide ayuda a un adulto con cortesía para encontrarlo." }
+          },
+          "choices": [
+            { "id": "a", "label": { "en": "“Excuse me, can you help me find my classroom?”", "es": "“Excuse me, can you help me find my classroom?”" } },
+            { "id": "b", "label": { "en": "(Wander the halls until you find it.)", "es": "(Caminar por los pasillos hasta encontrarlo.)" } },
+            { "id": "c", "label": { "en": "“Classroom!”", "es": "“Classroom!”" } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": { "correct": true, "why": { "en": "Great. A polite, clear request gets you help fast: “Can you help me find my classroom?”", "es": "Excelente. Una petición cortés y clara te consigue ayuda rápido: “Can you help me find my classroom?”" } },
+            "b": { "correct": false, "why": { "en": "You could be late or lost longer. Asking an adult is faster and safer.", "es": "Podrías llegar tarde o perderte más. Pedirle a un adulto es más rápido y seguro." }, "hint": { "en": "Ask an adult with a full, polite question.", "es": "Pregunta a un adulto con una oración completa y cortés." } },
+            "c": { "correct": false, "why": { "en": "One word isn't clear. Ask a full question: “Can you help me find my classroom?”", "es": "Una sola palabra no es clara. Haz una pregunta completa: “Can you help me find my classroom?”" } }
+          }
+        },
+        {
+          "id": "h2",
+          "context": { "en": "You forgot your lunch and you are hungry.", "es": "Olvidaste tu almuerzo y tienes hambre." },
+          "prompt": { "en": "What is the best thing to say to a school adult?", "es": "¿Qué es lo mejor que puedes decirle a un adulto de la escuela?" },
+          "support": {
+            "high": { "en": "Frame: “I forgot my lunch. What can I do?” / “Olvidé mi almuerzo. ¿Qué puedo hacer?”", "es": "Marco: “I forgot my lunch. What can I do?” = “Olvidé mi almuerzo. ¿Qué puedo hacer?”" },
+            "medium": { "en": "Tell an adult the problem and ask what to do.", "es": "Dile el problema a un adulto y pregunta qué hacer." }
+          },
+          "choices": [
+            { "id": "a", "label": { "en": "“I forgot my lunch. What can I do?”", "es": "“I forgot my lunch. What can I do?”" } },
+            { "id": "b", "label": { "en": "(Stay hungry and say nothing.)", "es": "(Quedarte con hambre y no decir nada.)" } },
+            { "id": "c", "label": { "en": "(Take food from a classmate's tray.)", "es": "(Tomar comida de la bandeja de un compañero.)" } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": { "correct": true, "why": { "en": "Yes. Tell an adult and ask for help — schools can help when you forget your lunch.", "es": "Sí. Dile a un adulto y pide ayuda: las escuelas pueden ayudarte cuando olvidas tu almuerzo." } },
+            "b": { "correct": false, "why": { "en": "You don't have to stay hungry. Tell an adult: “I forgot my lunch.”", "es": "No tienes que quedarte con hambre. Dile a un adulto: “I forgot my lunch.”" }, "hint": { "en": "Say the problem out loud to an adult.", "es": "Di el problema en voz alta a un adulto." } },
+            "c": { "correct": false, "why": { "en": "Taking food isn't okay. Ask an adult for help instead.", "es": "Tomar comida no está bien. Mejor pide ayuda a un adulto." } }
+          }
+        },
+        {
+          "id": "h3",
+          "context": { "en": "The teacher gave homework, but you did not understand what to do.", "es": "La maestra dio tarea, pero no entendiste qué hacer." },
+          "prompt": { "en": "What is the best thing to say?", "es": "¿Qué es lo mejor que puedes decir?" },
+          "support": {
+            "high": { "en": "Frame: “Could you explain the homework, please?” / “¿Podría explicar la tarea, por favor?”", "es": "Marco: “Could you explain the homework, please?” = “¿Podría explicar la tarea, por favor?”" },
+            "medium": { "en": "Ask the teacher to explain it.", "es": "Pídele a la maestra que la explique." }
+          },
+          "choices": [
+            { "id": "a", "label": { "en": "“Could you explain the homework, please?”", "es": "“Could you explain the homework, please?”" } },
+            { "id": "b", "label": { "en": "(Do nothing and turn in blank work.)", "es": "(No hacer nada y entregar la tarea en blanco.)" } },
+            { "id": "c", "label": { "en": "“Homework no.”", "es": "“Homework no.”" } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": { "correct": true, "why": { "en": "Great. Asking the teacher to explain is exactly right — that's how you learn what to do.", "es": "Excelente. Pedirle a la maestra que explique es lo correcto: así aprendes qué hacer." } },
+            "b": { "correct": false, "why": { "en": "Blank work won't help you learn. Ask the teacher to explain it.", "es": "La tarea en blanco no te ayuda a aprender. Pídele a la maestra que la explique." }, "hint": { "en": "Ask for an explanation, politely.", "es": "Pide una explicación, con cortesía." } },
+            "c": { "correct": false, "why": { "en": "That doesn't say what you need. Ask: “Could you explain the homework, please?”", "es": "Eso no dice lo que necesitas. Pregunta: “Could you explain the homework, please?”" } }
+          }
+        },
+        {
+          "id": "h4",
+          "context": { "en": "You feel worried and you want to talk to someone you trust at school.", "es": "Te sientes preocupado y quieres hablar con alguien de confianza en la escuela." },
+          "prompt": { "en": "What is the best thing to say to your teacher?", "es": "¿Qué es lo mejor que puedes decirle a tu maestra?" },
+          "support": {
+            "high": { "en": "Frame: “Can I talk to the counselor, please?” / “¿Puedo hablar con la consejera, por favor?”", "es": "Marco: “Can I talk to the counselor, please?” = “¿Puedo hablar con la consejera, por favor?”" },
+            "medium": { "en": "Ask to talk to a counselor or a trusted adult.", "es": "Pide hablar con una consejera o un adulto de confianza." }
+          },
+          "choices": [
+            { "id": "a", "label": { "en": "“Can I talk to the counselor, please?”", "es": "“Can I talk to the counselor, please?”" } },
+            { "id": "b", "label": { "en": "(Keep the worry to yourself.)", "es": "(Guardarte la preocupación.)" } },
+            { "id": "c", "label": { "en": "(Put your head down and skip class.)", "es": "(Bajar la cabeza y faltar a clase.)" } }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": { "correct": true, "why": { "en": "Yes. Asking to talk to the counselor is a strong, healthy choice. Schools have people whose job is to help.", "es": "Sí. Pedir hablar con la consejera es una decisión fuerte y saludable. Las escuelas tienen personas cuyo trabajo es ayudar." } },
+            "b": { "correct": false, "why": { "en": "You don't have to carry a worry alone. Ask to talk to a trusted adult.", "es": "No tienes que cargar una preocupación tú solo. Pide hablar con un adulto de confianza." }, "hint": { "en": "Ask to talk to the counselor.", "es": "Pide hablar con la consejera." } },
+            "c": { "correct": false, "why": { "en": "Skipping class won't help the worry. Ask to talk to someone who can help.", "es": "Faltar a clase no ayuda con la preocupación. Pide hablar con alguien que pueda ayudar." } }
+          }
+        }
+      ],
+
+      "ace": { "articulate": true, "connect": true, "extend": true },
+
+      "clear": { "enabled": false, "emphasis": [] },
+
+      "udl": [
+        "representation.language-support",
+        "representation.context",
+        "action-expression.multiple-response-modes",
+        "engagement.relevance"
+      ],
+
+      "strategies": [
+        "sentence-frames",
+        "role-play",
+        "corrective-feedback"
+      ],
+
+      "standards": {
+        "elps": [
+          { "code": "§120.21(d)(2)(F)", "alignment": "direct", "grades": [4, 5], "rationale": "Students ask for help and information during school interactions." },
+          { "code": "§120.21(d)(2)(D)", "alignment": "supporting", "grades": [4, 5], "rationale": "Students use a polite register when requesting help." }
+        ],
+        "teks": [
+          { "code": "§110.7(b)(1)(A)", "alignment": "direct", "grades": [4, 5], "rationale": "Students ask relevant questions and make pertinent comments to get help." }
+        ],
+        "slar": []
+      },
+
+      "printables": ["nav-help-3-5-005-student", "nav-help-3-5-005-answer-key"],
+
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "status": "reviewed"
     }
   ]
 }
