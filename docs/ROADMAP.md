@@ -17,11 +17,12 @@ contrast) all green.
 
 **Launch readiness (2026-09-18):** linked from the mglearn hub (`mglearn.github.io`
 Language Bridge card → `/puente/`). All ELPS codes now **two-source confirmed**
-(Cornell LII + TEA `ch120b.pdf`) — that caveat is cleared. Before actively promoting
-to teachers, the remaining item is a **bilingual review of the Spanish**: run
-`npm run review:es` → `docs/SPANISH_REVIEW.md` (1,123 EN/ES strings grouped by
-activity) and correct any `es` values in the module `data.json`. Owner call still
-open: confirm the **CC0 artwork label**. Grade-5 SLAR (§128.7) remains single-source
+(Cornell LII + TEA `ch120b.pdf`) — that caveat is cleared. **Spanish reviewed 2026-09-18** — a three-reviewer AI pass over all 1,123 EN/ES
+strings (one per module) found the Spanish solid; 3 genuine correctness fixes
+applied (tautology, gender agreement, `adónde`). Worklist at `docs/SPANISH_REVIEW.md`
+(regenerate with `npm run review:es`); a final human bilingual sign-off is still
+the gold standard but the content is in good shape. Owner call still open: confirm
+the **CC0 artwork label**. Grade-5 SLAR (§128.7) remains single-source
 (Cornell LII) — lower stakes, optional cross-check.
 
 Art note: 10 K–2 cards delivered; `cognate-card-animal` renders as a specific dog
