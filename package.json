@@ -13,6 +13,7 @@
     "contrast": "node scripts/check-contrast.js",
     "test": "node tests/smoke.test.js",
     "check": "npm run validate && npm run contrast && npm test",
-    "serve": "python3 -m http.server 8731"
+    "serve": "python3 -m http.server 8731",
+    "review:es": "node scripts/spanish-review.js"
   }
 }
