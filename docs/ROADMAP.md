@@ -2,13 +2,14 @@
 
 ## Current state (2026-09-17)
 
-**Live at https://mglearn.github.io/puente/** — 3 launch modules, **16 activities**
-across grade bands 3–5, 6–8, and 9–12, **22 verified standards** (0 pending), full
-site navigation, 18 smoke tests + 5 validators (data / standards / locales / links /
+**Live at https://mglearn.github.io/puente/** — 3 launch modules, **17 activities**
+across **all four grade bands K–2, 3–5, 6–8, 9–12**, **25 verified standards** (0 pending),
+full site navigation, 18 smoke tests + 5 validators (data / standards / locales / links /
 contrast) all green.
 
-- **Cognate Detective (7):** Cognate or False Friend? · Cognate or Not? (sort) ·
-  Science / Math / Social Studies Cognate Hunts (sort) · False Friend Detective (CLEAR) ·
+- **Cognate Detective (8):** Cognate Picture Match (K–2, picture-match, 6 delivered
+  cards) · Cognate or False Friend? · Cognate or Not? (sort) · Science / Math /
+  Social Studies Cognate Hunts (sort) · False Friend Detective (CLEAR) ·
   Academic False Friends (grades 6–8)
 - **Academic Language Lab (5):** Academic Talk Moves · Say It Three Ways · Evidence Match ·
   Build the Explanation · Shades of Meaning (grades 9–10, denotation/connotation)
@@ -21,14 +22,9 @@ contrast) all green.
 
 ## Next
 
-1. **Deliver K–2 picture cards** (6, prompts in `~/projects/puente-image-prompts.md`).
-   `cog-picture-k-2-001` "Cognate Picture Match" is authored (status `draft`, hidden by
-   a `status!=="draft"` filter) with K–2 TEKS §110.2/110.3/110.4 (b)(3)(B) + ELPS
-   §120.20(d)(3)(C) verified and attached, and 6 dormant manifest card slots. To ship:
-   drop `cognate-card-*.webp` in `assets/img/`, flip those manifest entries + the
-   activity to `available`/`reviewed`. Standards note: no K–2 TEKS names "cognates" —
-   that's an intro/ELPS scaffold, so don't cite a K–2 (b)(3) code as a cognate standard.
-2. **Depth toward MVP.** Cognate Detective 7/24, Academic Language Lab 5/32, Newcomer 4/30.
+1. **Depth toward MVP.** Cognate Detective 8/24, Academic Language Lab 5/32, Newcomer 4/30 —
+   all feed the shared engines. 4 optional K–2 cards (animal, chocolate, doctor, telephone)
+   are already delivered + `available` in the manifest, ready for more K–2 picture items.
 3. **A11y round two** (real AT walkthrough, print QA, axe) and **Spanish review** (the 2 `reviewed`
    locale keys are an intentional QC-gate fixture — see es.json `_meta`).
 
