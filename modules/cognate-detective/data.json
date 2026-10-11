@@ -4787,6 +4787,1757 @@
       "created": "2026-10-11",
       "updated": "2026-10-11",
       "status": "reviewed"
+    },
+    {
+      "id": "cog-roots-3-5-010",
+      "module": "cognate-detective",
+      "title": {
+        "en": "Root Detective",
+        "es": "Detective de raíces"
+      },
+      "grades": [
+        4,
+        5
+      ],
+      "gradeBand": "3-5",
+      "subjects": [
+        "science",
+        "elar"
+      ],
+      "duration": 10,
+      "interactionType": "context-choice",
+      "targetLanguage": "en",
+      "supportedHomeLanguages": [
+        "es"
+      ],
+      "languagePair": "en-es",
+      "studentGoal": {
+        "en": "Use a word's Greek or Latin root to figure out what a new word means — a trick that works in both English and Spanish.",
+        "es": "Usa la raíz griega o latina de una palabra para deducir qué significa una palabra nueva, un truco que funciona en inglés y en español."
+      },
+      "studentDirections": {
+        "en": "Each word hides a root that gives a clue. Read the sentence, think about the root, and choose the meaning. Choose, then select Check.",
+        "es": "Cada palabra esconde una raíz que da una pista. Lee la oración, piensa en la raíz y elige el significado. Elige y luego selecciona Revisar."
+      },
+      "teacherDirections": {
+        "en": "Roots are a high-leverage cross-linguistic strategy: the same Greek and Latin roots appear in English and Spanish (tele-, bio-, geo-, photo-, aqua-). Name the root, give a word the students already know with it, then decode the new word. Turn on More support for the root meaning.",
+        "es": "Las raíces son una estrategia translingüística de alto impacto: las mismas raíces griegas y latinas aparecen en inglés y español (tele-, bio-, geo-, photo-, aqua-). Nombra la raíz, da una palabra que ya conozcan con ella y luego descifra la palabra nueva. Activa Más apoyo para ver el significado de la raíz."
+      },
+      "languageFunction": {
+        "en": "Determining word meaning from Greek and Latin roots.",
+        "es": "Determinar el significado de palabras a partir de raíces griegas y latinas."
+      },
+      "materials": [],
+      "items": [
+        {
+          "id": "r1",
+          "targetWord": "telescope",
+          "context": {
+            "en": "Scientists use a telescope to study stars that are very far away.",
+            "es": "Los científicos usan un telescope para estudiar estrellas que están muy lejos."
+          },
+          "prompt": {
+            "en": "The root “tele-” means “far.” What does a “telescope” help you do?",
+            "es": "La raíz “tele-” significa “far” (lejos). ¿Para qué sirve un “telescope”?"
+          },
+          "support": {
+            "high": {
+              "en": "“tele-” = far / lejos (like teléfono, televisión). A telescope works with things far away.",
+              "es": "“tele-” = far / lejos (como teléfono, televisión). Un telescope funciona con cosas lejanas."
+            },
+            "medium": {
+              "en": "Think of “teléfono” — talking to someone far away.",
+              "es": "Piensa en “teléfono”: hablar con alguien que está lejos."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "see things that are far away",
+                "es": "ver cosas que están lejos"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "hear tiny sounds",
+                "es": "oír sonidos diminutos"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "measure temperature",
+                "es": "medir la temperatura"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. “tele-” means far, so a telescope helps you see things that are far away, like stars.",
+                "es": "Correcto. “tele-” significa lejos, así que un telescope ayuda a ver cosas lejanas, como las estrellas."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "That would use “-scope” but not the root “tele-” (far). A telescope is for things far away.",
+                "es": "Eso usaría “-scope” pero no la raíz “tele-” (lejos). Un telescope es para cosas lejanas."
+              },
+              "hint": {
+                "en": "What does “tele-” mean?",
+                "es": "¿Qué significa “tele-”?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "Temperature uses a thermometer. “tele-” means far — a telescope sees far things.",
+                "es": "La temperatura se mide con un termómetro. “tele-” significa lejos: un telescope ve cosas lejanas."
+              }
+            }
+          }
+        },
+        {
+          "id": "r2",
+          "targetWord": "biology",
+          "context": {
+            "en": "In biology class we learned how plants and animals grow.",
+            "es": "En la clase de biology aprendimos cómo crecen las plantas y los animales."
+          },
+          "prompt": {
+            "en": "The root “bio” means “life.” What is “biology” the study of?",
+            "es": "La raíz “bio” significa “life” (vida). ¿Qué estudia la “biology”?"
+          },
+          "support": {
+            "high": {
+              "en": "“bio” = life / vida (like biografía). “-logy” = the study of.",
+              "es": "“bio” = life / vida (como biografía). “-logy” = el estudio de."
+            },
+            "medium": {
+              "en": "Plants and animals are all living things.",
+              "es": "Las plantas y los animales son seres vivos."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "living things",
+                "es": "los seres vivos"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "rocks and minerals",
+                "es": "las rocas y los minerales"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "the weather",
+                "es": "el clima"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. “bio” means life, so biology is the study of living things — plants and animals.",
+                "es": "Correcto. “bio” significa vida, así que la biology es el estudio de los seres vivos: plantas y animales."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Rocks and minerals are geology. “bio” means life — living things.",
+                "es": "Las rocas y los minerales son geología. “bio” significa vida: los seres vivos."
+              },
+              "hint": {
+                "en": "What does “bio” mean?",
+                "es": "¿Qué significa “bio”?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "Weather is meteorology. “bio” means life, so biology studies living things.",
+                "es": "El clima es la meteorología. “bio” significa vida, así que la biology estudia los seres vivos."
+              }
+            }
+          }
+        },
+        {
+          "id": "r3",
+          "targetWord": "geography",
+          "context": {
+            "en": "Our geography book has maps of mountains, rivers, and countries.",
+            "es": "Nuestro libro de geography tiene mapas de montañas, ríos y países."
+          },
+          "prompt": {
+            "en": "The root “geo” means “earth.” What does “geography” study?",
+            "es": "La raíz “geo” significa “earth” (tierra). ¿Qué estudia la “geography”?"
+          },
+          "support": {
+            "high": {
+              "en": "“geo” = earth / tierra (like geología). Maps show places on Earth.",
+              "es": "“geo” = earth / tierra (como geología). Los mapas muestran lugares de la Tierra."
+            },
+            "medium": {
+              "en": "The book is full of maps of the Earth.",
+              "es": "El libro está lleno de mapas de la Tierra."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "the Earth and its places",
+                "es": "la Tierra y sus lugares"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "numbers and shapes",
+                "es": "los números y las figuras"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "music",
+                "es": "la música"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. “geo” means earth, so geography studies the Earth and its places — mountains, rivers, countries.",
+                "es": "Correcto. “geo” significa tierra, así que la geography estudia la Tierra y sus lugares: montañas, ríos, países."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Numbers and shapes are math (geometry shares “geo” but measures shapes). Geography maps the Earth.",
+                "es": "Los números y las figuras son matemáticas (geometry comparte “geo” pero mide figuras). La geography mapea la Tierra."
+              },
+              "hint": {
+                "en": "What does “geo” mean?",
+                "es": "¿Qué significa “geo”?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "Music isn't about the Earth. “geo” means earth — geography studies places on Earth.",
+                "es": "La música no trata de la Tierra. “geo” significa tierra: la geography estudia lugares de la Tierra."
+              }
+            }
+          }
+        },
+        {
+          "id": "r4",
+          "targetWord": "photograph",
+          "context": {
+            "en": "She took a photograph, so she needed good light.",
+            "es": "Ella tomó un photograph, así que necesitaba buena luz."
+          },
+          "prompt": {
+            "en": "The root “photo” means “light.” Why does a “photograph” need light?",
+            "es": "La raíz “photo” significa “light” (luz). ¿Por qué un “photograph” necesita luz?"
+          },
+          "support": {
+            "high": {
+              "en": "“photo” = light / luz (like fotosíntesis). A camera uses light to make the picture.",
+              "es": "“photo” = light / luz (como fotosíntesis). Una cámara usa luz para hacer la imagen."
+            },
+            "medium": {
+              "en": "Think of “fotosíntesis” — plants using light.",
+              "es": "Piensa en “fotosíntesis”: plantas que usan luz."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "A camera uses light to make the picture.",
+                "es": "La cámara usa luz para hacer la imagen."
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "It needs to be very cold.",
+                "es": "Necesita hacer mucho frío."
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "It needs loud sound.",
+                "es": "Necesita sonido fuerte."
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. “photo” means light, so a photograph is made with light — that's why you need it.",
+                "es": "Correcto. “photo” significa luz, así que un photograph se hace con luz: por eso la necesitas."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Cold isn't the clue. “photo” means light — a photograph is made with light.",
+                "es": "El frío no es la pista. “photo” significa luz: un photograph se hace con luz."
+              },
+              "hint": {
+                "en": "What does “photo” mean?",
+                "es": "¿Qué significa “photo”?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "Sound isn't the clue. “photo” means light, and a photograph needs light.",
+                "es": "El sonido no es la pista. “photo” significa luz, y un photograph necesita luz."
+              }
+            }
+          }
+        },
+        {
+          "id": "r5",
+          "targetWord": "aquarium",
+          "context": {
+            "en": "The class visited an aquarium to see fish and sea animals.",
+            "es": "La clase visitó un aquarium para ver peces y animales marinos."
+          },
+          "prompt": {
+            "en": "The root “aqua” means “water.” What is an “aquarium”?",
+            "es": "La raíz “aqua” significa “water” (agua). ¿Qué es un “aquarium”?"
+          },
+          "support": {
+            "high": {
+              "en": "“aqua” = water / agua (like acuático). Fish live in water.",
+              "es": "“aqua” = water / agua (como acuático). Los peces viven en el agua."
+            },
+            "medium": {
+              "en": "Where do fish and sea animals live?",
+              "es": "¿Dónde viven los peces y los animales marinos?"
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "a place with water where fish live",
+                "es": "un lugar con agua donde viven los peces"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "a place to fly kites",
+                "es": "un lugar para volar cometas"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "a kind of bread",
+                "es": "un tipo de pan"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. “aqua” means water, so an aquarium is a water place where fish and sea animals live.",
+                "es": "Correcto. “aqua” significa agua, así que un aquarium es un lugar con agua donde viven peces y animales marinos."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Kites fly in the air, not water. “aqua” means water — an aquarium holds water.",
+                "es": "Las cometas vuelan en el aire, no en el agua. “aqua” significa agua: un aquarium tiene agua."
+              },
+              "hint": {
+                "en": "What does “aqua” mean?",
+                "es": "¿Qué significa “aqua”?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "That's not it. “aqua” means water, so an aquarium is full of water for fish.",
+                "es": "No es eso. “aqua” significa agua, así que un aquarium está lleno de agua para los peces."
+              }
+            }
+          }
+        }
+      ],
+      "ace": {
+        "articulate": true,
+        "connect": true,
+        "extend": true
+      },
+      "clear": {
+        "enabled": false,
+        "emphasis": []
+      },
+      "udl": [
+        "representation.language-support",
+        "representation.vocabulary",
+        "action-expression.multiple-response-modes",
+        "engagement.relevance"
+      ],
+      "strategies": [
+        "vocabulary-programs",
+        "corrective-feedback",
+        "retrieval-practice"
+      ],
+      "standards": {
+        "elps": [
+          {
+            "code": "§120.21(d)(3)(B)",
+            "alignment": "direct",
+            "grades": [
+              4,
+              5
+            ],
+            "rationale": "Students decode and interpret words using Greek and Latin roots."
+          },
+          {
+            "code": "§120.21(d)(3)(C)",
+            "alignment": "supporting",
+            "grades": [
+              4,
+              5
+            ],
+            "rationale": "Students use roots to comprehend content-area vocabulary."
+          }
+        ],
+        "teks": [
+          {
+            "code": "§110.7(b)(3)(C)",
+            "alignment": "direct",
+            "grades": [
+              5
+            ],
+            "rationale": "Students identify and use the meaning of roots such as geo and photo."
+          },
+          {
+            "code": "§110.7(b)(3)(B)",
+            "alignment": "supporting",
+            "grades": [
+              5
+            ],
+            "rationale": "Students use the sentence context together with the root to confirm meaning."
+          }
+        ],
+        "slar": []
+      },
+      "printables": [
+        "cog-roots-3-5-010-student",
+        "cog-roots-3-5-010-answer-key"
+      ],
+      "created": "2026-10-11",
+      "updated": "2026-10-11",
+      "status": "reviewed"
+    },
+    {
+      "id": "cog-listen-6-8-011",
+      "module": "cognate-detective",
+      "title": {
+        "en": "Cognates You Hear in Science",
+        "es": "Cognados que oyes en ciencias"
+      },
+      "grades": [
+        6,
+        7,
+        8
+      ],
+      "gradeBand": "6-8",
+      "subjects": [
+        "science"
+      ],
+      "duration": 10,
+      "interactionType": "multiple-choice",
+      "targetLanguage": "en",
+      "supportedHomeLanguages": [
+        "es"
+      ],
+      "languagePair": "en-es",
+      "studentGoal": {
+        "en": "When your teacher says a science word out loud, use its Spanish cognate and the sentence to understand what you hear.",
+        "es": "Cuando tu maestro dice una palabra de ciencias en voz alta, usa su cognado en español y la oración para entender lo que oyes."
+      },
+      "studentDirections": {
+        "en": "Imagine your teacher is speaking. Read what the teacher said, listen in your mind for the cognate, and choose what the underlined word means. Choose, then select Check.",
+        "es": "Imagina que tu maestro está hablando. Lee lo que dijo el maestro, escucha en tu mente el cognado y elige qué significa la palabra subrayada. Elige y luego selecciona Revisar."
+      },
+      "teacherDirections": {
+        "en": "This is a LISTENING activity — read each item aloud so students comprehend the science cognate by ear, then let them confirm with the printed sentence. The target words (energy, molecule, function, observe, organism) are strong Spanish cognates. Stress that cognate awareness helps them follow a spoken lesson, not only reading.",
+        "es": "Esta es una actividad de COMPRENSIÓN AUDITIVA: lee cada ejercicio en voz alta para que los estudiantes comprendan el cognado de ciencias de oído, y luego confírmenlo con la oración impresa. Las palabras meta (energy, molecule, function, observe, organism) son cognados fuertes del español. Enfatiza que reconocer cognados ayuda a seguir una lección hablada, no solo la lectura."
+      },
+      "languageFunction": {
+        "en": "Comprehending content-area vocabulary heard in class using cognates and context.",
+        "es": "Comprender vocabulario de contenido que se oye en clase usando cognados y contexto."
+      },
+      "materials": [],
+      "items": [
+        {
+          "id": "l1",
+          "targetWord": "energy",
+          "context": {
+            "en": "Your teacher says: “Plants get their energy from the Sun.”",
+            "es": "Tu maestro dice: “Plants get their energy from the Sun.”"
+          },
+          "prompt": {
+            "en": "What does “energy” mean?",
+            "es": "¿Qué significa “energy”?"
+          },
+          "support": {
+            "high": {
+              "en": "Cognate: energy ≈ “energía.” Same idea — the power to do work.",
+              "es": "Cognado: energy ≈ “energía.” Misma idea: la fuerza para hacer un trabajo."
+            },
+            "medium": {
+              "en": "Say it aloud — what Spanish word does it sound like?",
+              "es": "Dílo en voz alta: ¿a qué palabra en español se parece?"
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "energía — the power to do work or grow",
+                "es": "energía: la fuerza para trabajar o crecer"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "water",
+                "es": "agua"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "a color",
+                "es": "un color"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. “Energy” sounds like “energía” and means the same — the power plants use to grow.",
+                "es": "Correcto. “Energy” suena como “energía” y significa lo mismo: la fuerza que las plantas usan para crecer."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Water is “agua.” The cognate here is “energía” — energy.",
+                "es": "El agua es “agua.” El cognado aquí es “energía”: energy."
+              },
+              "hint": {
+                "en": "Which word sounds like “energía”?",
+                "es": "¿Qué palabra suena como “energía”?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "It's not a color. “Energy” ≈ “energía,” the power to do work.",
+                "es": "No es un color. “Energy” ≈ “energía,” la fuerza para hacer un trabajo."
+              }
+            }
+          }
+        },
+        {
+          "id": "l2",
+          "targetWord": "molecule",
+          "context": {
+            "en": "Your teacher says: “Water is made of tiny molecules you cannot see.”",
+            "es": "Tu maestro dice: “Water is made of tiny molecules you cannot see.”"
+          },
+          "prompt": {
+            "en": "What is a “molecule”?",
+            "es": "¿Qué es una “molecule”?"
+          },
+          "support": {
+            "high": {
+              "en": "Cognate: molecule ≈ “molécula.” A very small particle of a substance.",
+              "es": "Cognado: molecule ≈ “molécula.” Una partícula muy pequeña de una sustancia."
+            },
+            "medium": {
+              "en": "Say it aloud — it sounds like a Spanish science word.",
+              "es": "Dílo en voz alta: suena como una palabra de ciencias en español."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "molécula — a very tiny particle of a substance",
+                "es": "molécula: una partícula muy pequeña de una sustancia"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "a large animal",
+                "es": "un animal grande"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "a machine",
+                "es": "una máquina"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. “Molecule” ≈ “molécula” — a tiny particle, too small to see.",
+                "es": "Correcto. “Molecule” ≈ “molécula”: una partícula diminuta, demasiado pequeña para verla."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "The sentence says TINY and invisible — not a large animal. Molecule ≈ molécula.",
+                "es": "La oración dice DIMINUTA e invisible, no un animal grande. Molecule ≈ molécula."
+              },
+              "hint": {
+                "en": "Tiny or large?",
+                "es": "¿Diminuta o grande?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "Not a machine. “Molecule” ≈ “molécula,” a tiny particle.",
+                "es": "No es una máquina. “Molecule” ≈ “molécula,” una partícula diminuta."
+              }
+            }
+          }
+        },
+        {
+          "id": "l3",
+          "targetWord": "function",
+          "context": {
+            "en": "Your teacher says: “The function of the heart is to pump blood.”",
+            "es": "Tu maestro dice: “The function of the heart is to pump blood.”"
+          },
+          "prompt": {
+            "en": "What does “function” mean here?",
+            "es": "¿Qué significa “function” aquí?"
+          },
+          "support": {
+            "high": {
+              "en": "Cognate: function ≈ “función” — the job something does.",
+              "es": "Cognado: function ≈ “función”: el trabajo que hace algo."
+            },
+            "medium": {
+              "en": "What does a heart DO? That is its ___.",
+              "es": "¿Qué HACE el corazón? Esa es su ___."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "función — the job or role something does",
+                "es": "función: el trabajo o papel que hace algo"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "the color of something",
+                "es": "el color de algo"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "a party",
+                "es": "una fiesta"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. “Function” ≈ “función” — the job it does. The heart's job is to pump blood.",
+                "es": "Correcto. “Function” ≈ “función”: el trabajo que hace. El trabajo del corazón es bombear sangre."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Not color. “Function” ≈ “función,” the job something does.",
+                "es": "No es color. “Function” ≈ “función,” el trabajo que hace algo."
+              },
+              "hint": {
+                "en": "What does the heart DO?",
+                "es": "¿Qué HACE el corazón?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "“Función” can mean a show in Spanish, but in science it means the job something does.",
+                "es": "“Función” puede significar un espectáculo en español, pero en ciencias significa el trabajo que hace algo."
+              }
+            }
+          }
+        },
+        {
+          "id": "l4",
+          "targetWord": "observe",
+          "context": {
+            "en": "Your teacher says: “Observe the plant each day and write what changes.”",
+            "es": "Tu maestro dice: “Observe the plant each day and write what changes.”"
+          },
+          "prompt": {
+            "en": "What does “observe” ask you to do?",
+            "es": "¿Qué te pide hacer “observe”?"
+          },
+          "support": {
+            "high": {
+              "en": "Cognate: observe ≈ “observar” — to watch carefully.",
+              "es": "Cognado: observe ≈ “observar”: mirar con atención."
+            },
+            "medium": {
+              "en": "You do it each day and then write changes.",
+              "es": "Lo haces cada día y luego escribes los cambios."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "observar — watch carefully",
+                "es": "observar: mirar con atención"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "throw away",
+                "es": "tirar"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "eat",
+                "es": "comer"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. “Observe” ≈ “observar” — watch the plant carefully and record changes.",
+                "es": "Correcto. “Observe” ≈ “observar”: mira la planta con atención y anota los cambios."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "You watch the plant, not throw it away. Observe ≈ observar.",
+                "es": "Miras la planta, no la tiras. Observe ≈ observar."
+              },
+              "hint": {
+                "en": "What Spanish word does it sound like?",
+                "es": "¿A qué palabra en español se parece?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "Not eat. “Observe” ≈ “observar,” to watch carefully.",
+                "es": "No es comer. “Observe” ≈ “observar,” mirar con atención."
+              }
+            }
+          }
+        },
+        {
+          "id": "l5",
+          "targetWord": "organism",
+          "context": {
+            "en": "Your teacher says: “A bacterium is a very small organism.”",
+            "es": "Tu maestro dice: “A bacterium is a very small organism.”"
+          },
+          "prompt": {
+            "en": "What is an “organism”?",
+            "es": "¿Qué es un “organism”?"
+          },
+          "support": {
+            "high": {
+              "en": "Cognate: organism ≈ “organismo” — a living thing.",
+              "es": "Cognado: organism ≈ “organismo”: un ser vivo."
+            },
+            "medium": {
+              "en": "A bacterium is alive. So an organism is a ___ thing.",
+              "es": "Una bacteria está viva. Entonces un organism es un ser ___."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "organismo — a living thing",
+                "es": "organismo: un ser vivo"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "a rock",
+                "es": "una roca"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "a tool",
+                "es": "una herramienta"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. “Organism” ≈ “organismo” — a living thing, like bacteria.",
+                "es": "Correcto. “Organism” ≈ “organismo”: un ser vivo, como las bacterias."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "A rock is not alive. An organism ≈ organismo is a LIVING thing.",
+                "es": "Una roca no está viva. Un organism ≈ organismo es un ser VIVO."
+              },
+              "hint": {
+                "en": "Is a bacterium alive?",
+                "es": "¿Está viva una bacteria?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "Not a tool. “Organism” ≈ “organismo,” a living thing.",
+                "es": "No es una herramienta. “Organism” ≈ “organismo,” un ser vivo."
+              }
+            }
+          }
+        }
+      ],
+      "ace": {
+        "articulate": true,
+        "connect": true,
+        "extend": false
+      },
+      "clear": {
+        "enabled": false,
+        "emphasis": []
+      },
+      "udl": [
+        "representation.language-support",
+        "representation.auditory",
+        "action-expression.multiple-response-modes",
+        "engagement.relevance"
+      ],
+      "strategies": [
+        "vocabulary-programs",
+        "corrective-feedback",
+        "read-aloud"
+      ],
+      "standards": {
+        "elps": [
+          {
+            "code": "§120.21(d)(1)(B)",
+            "alignment": "direct",
+            "grades": [
+              6,
+              7,
+              8
+            ],
+            "rationale": "Students use cognates and context to comprehend content vocabulary heard in class."
+          },
+          {
+            "code": "§120.21(d)(3)(C)",
+            "alignment": "supporting",
+            "grades": [
+              6,
+              7,
+              8
+            ],
+            "rationale": "Students apply cognate awareness to content-area science vocabulary."
+          }
+        ],
+        "teks": [
+          {
+            "code": "§110.22(b)(2)(B)",
+            "alignment": "supporting",
+            "grades": [
+              6
+            ],
+            "rationale": "Students use context to clarify the meaning of science terms."
+          },
+          {
+            "code": "§110.23(b)(2)(B)",
+            "alignment": "supporting",
+            "grades": [
+              7
+            ],
+            "rationale": "Students use context to clarify the meaning of science terms."
+          },
+          {
+            "code": "§110.24(b)(2)(B)",
+            "alignment": "supporting",
+            "grades": [
+              8
+            ],
+            "rationale": "Students use context to clarify the meaning of science terms."
+          }
+        ],
+        "slar": []
+      },
+      "printables": [
+        "cog-listen-6-8-011-student",
+        "cog-listen-6-8-011-answer-key"
+      ],
+      "created": "2026-10-11",
+      "updated": "2026-10-11",
+      "status": "reviewed"
+    },
+    {
+      "id": "cog-sort-9-12-012",
+      "module": "cognate-detective",
+      "title": {
+        "en": "Cognate, False Friend, or Neither?",
+        "es": "¿Cognado, falso amigo o ninguno?"
+      },
+      "grades": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "gradeBand": "9-12",
+      "subjects": [
+        "elar"
+      ],
+      "duration": 10,
+      "interactionType": "sort",
+      "targetLanguage": "en",
+      "supportedHomeLanguages": [
+        "es"
+      ],
+      "languagePair": "en-es",
+      "categories": [
+        {
+          "id": "true",
+          "label": {
+            "en": "True cognate",
+            "es": "Cognado verdadero"
+          },
+          "hint": {
+            "en": "Looks alike AND means the same.",
+            "es": "Se parece Y significa lo mismo."
+          }
+        },
+        {
+          "id": "false",
+          "label": {
+            "en": "False friend",
+            "es": "Falso amigo"
+          },
+          "hint": {
+            "en": "Looks alike BUT means something different.",
+            "es": "Se parece PERO significa algo diferente."
+          }
+        },
+        {
+          "id": "none",
+          "label": {
+            "en": "No look-alike",
+            "es": "Sin palabra parecida"
+          },
+          "hint": {
+            "en": "No Spanish word looks like this one.",
+            "es": "Ninguna palabra en español se le parece."
+          }
+        }
+      ],
+      "studentGoal": {
+        "en": "Sort academic words by whether their Spanish look-alike can be trusted — so cognates help you and false friends don't trick you.",
+        "es": "Clasifica palabras académicas según si se puede confiar en su parecido en español, para que los cognados te ayuden y los falsos amigos no te engañen."
+      },
+      "studentDirections": {
+        "en": "Place each word in the right bin: true cognate, false friend, or no look-alike. Drag it or select the bin, then Check.",
+        "es": "Coloca cada palabra en el cajón correcto: cognado verdadero, falso amigo o sin palabra parecida. Arrástrala o selecciona el cajón, y luego Revisar."
+      },
+      "teacherDirections": {
+        "en": "A high-school sort that forces the three-way judgment advanced readers need. The false friends (embarrassed, fabric, idiom) are classic academic traps; the true cognates (analyze, benefit) reward trust. Debrief the ones that trick students most.",
+        "es": "Una clasificación de preparatoria que obliga al juicio de tres vías que los lectores avanzados necesitan. Los falsos amigos (embarrassed, fabric, idiom) son trampas académicas clásicas; los cognados verdaderos (analyze, benefit) premian la confianza. Comenten los que más engañan a los estudiantes."
+      },
+      "languageFunction": {
+        "en": "Judging cross-linguistic reliability of academic vocabulary.",
+        "es": "Juzgar la confiabilidad translingüística del vocabulario académico."
+      },
+      "materials": [],
+      "items": [
+        {
+          "id": "s1",
+          "targetWord": "analyze",
+          "answer": "true",
+          "prompt": {
+            "en": "analyze",
+            "es": "analyze"
+          },
+          "support": {
+            "high": {
+              "en": "Spanish look-alike: “analizar” = to examine closely. Same meaning.",
+              "es": "Palabra parecida: “analizar” = examinar con detalle. Mismo significado."
+            },
+            "medium": {
+              "en": "Does “analizar” mean the same thing?",
+              "es": "¿“analizar” significa lo mismo?"
+            }
+          },
+          "feedback": {
+            "true": {
+              "correct": true,
+              "why": {
+                "en": "“Analyze” and “analizar” both mean to examine something closely — true cognate you can trust.",
+                "es": "“Analyze” y “analizar” significan examinar algo con detalle: cognado verdadero en el que puedes confiar."
+              }
+            }
+          }
+        },
+        {
+          "id": "s2",
+          "targetWord": "benefit",
+          "answer": "true",
+          "prompt": {
+            "en": "benefit",
+            "es": "benefit"
+          },
+          "support": {
+            "high": {
+              "en": "Spanish look-alike: “beneficio” = an advantage or good result. Same meaning.",
+              "es": "Palabra parecida: “beneficio” = una ventaja o buen resultado. Mismo significado."
+            },
+            "medium": {
+              "en": "Think of “beneficio.”",
+              "es": "Piensa en “beneficio.”"
+            }
+          },
+          "feedback": {
+            "true": {
+              "correct": true,
+              "why": {
+                "en": "“Benefit” and “beneficio” both mean a good result or advantage — true cognate.",
+                "es": "“Benefit” y “beneficio” significan un buen resultado o ventaja: cognado verdadero."
+              }
+            }
+          }
+        },
+        {
+          "id": "s3",
+          "targetWord": "embarrassed",
+          "answer": "false",
+          "prompt": {
+            "en": "embarrassed",
+            "es": "embarrassed"
+          },
+          "support": {
+            "high": {
+              "en": "Careful: “embarazada” means PREGNANT, not embarrassed. False friend.",
+              "es": "Cuidado: “embarazada” significa PREGNANT, no embarrassed. Falso amigo."
+            },
+            "medium": {
+              "en": "“Embarazada” does NOT mean ashamed.",
+              "es": "“Embarazada” NO significa avergonzada."
+            }
+          },
+          "feedback": {
+            "false": {
+              "correct": true,
+              "why": {
+                "en": "Classic false friend. English “embarrassed” = ashamed; Spanish “embarazada” = pregnant. Do not trust the look-alike.",
+                "es": "Falso amigo clásico. “Embarrassed” en inglés = avergonzado; “embarazada” en español = pregnant. No confíes en el parecido."
+              }
+            }
+          }
+        },
+        {
+          "id": "s4",
+          "targetWord": "fabric",
+          "answer": "false",
+          "prompt": {
+            "en": "fabric",
+            "es": "fabric"
+          },
+          "support": {
+            "high": {
+              "en": "Careful: “fábrica” means FACTORY. English “fabric” = cloth. False friend.",
+              "es": "Cuidado: “fábrica” significa FACTORY. “Fabric” en inglés = tela. Falso amigo."
+            },
+            "medium": {
+              "en": "Does “fabric” mean a factory? No.",
+              "es": "¿“fabric” significa una fábrica? No."
+            }
+          },
+          "feedback": {
+            "false": {
+              "correct": true,
+              "why": {
+                "en": "False friend. English “fabric” = cloth/material; Spanish “fábrica” = factory. Different meanings.",
+                "es": "Falso amigo. “Fabric” en inglés = tela/material; “fábrica” en español = factory. Significados diferentes."
+              }
+            }
+          }
+        },
+        {
+          "id": "s5",
+          "targetWord": "idiom",
+          "answer": "false",
+          "prompt": {
+            "en": "idiom",
+            "es": "idiom"
+          },
+          "support": {
+            "high": {
+              "en": "Careful: “idioma” means LANGUAGE. English “idiom” = a fixed expression. False friend.",
+              "es": "Cuidado: “idioma” significa LANGUAGE. “Idiom” en inglés = una expresión fija. Falso amigo."
+            },
+            "medium": {
+              "en": "“Idioma” is a whole language, not one phrase.",
+              "es": "“Idioma” es toda una lengua, no una frase."
+            }
+          },
+          "feedback": {
+            "false": {
+              "correct": true,
+              "why": {
+                "en": "False friend. English “idiom” = a fixed expression (like “break a leg”); Spanish “idioma” = a language.",
+                "es": "Falso amigo. “Idiom” en inglés = una expresión fija (como “break a leg”); “idioma” en español = una lengua."
+              }
+            }
+          }
+        },
+        {
+          "id": "s6",
+          "targetWord": "homework",
+          "answer": "none",
+          "prompt": {
+            "en": "homework",
+            "es": "homework"
+          },
+          "support": {
+            "high": {
+              "en": "No Spanish word looks like “homework” (that's “tarea”). No look-alike.",
+              "es": "Ninguna palabra en español se parece a “homework” (eso es “tarea”). Sin palabra parecida."
+            },
+            "medium": {
+              "en": "Is there a Spanish word that looks like “homework”?",
+              "es": "¿Hay una palabra en español que se parezca a “homework”?"
+            }
+          },
+          "feedback": {
+            "none": {
+              "correct": true,
+              "why": {
+                "en": "“Homework” has no Spanish look-alike — in Spanish it's “tarea.” No cognate to use here.",
+                "es": "“Homework” no tiene palabra parecida en español: en español es “tarea.” No hay cognado que usar aquí."
+              }
+            }
+          }
+        }
+      ],
+      "ace": {
+        "articulate": true,
+        "connect": true,
+        "extend": true
+      },
+      "clear": {
+        "enabled": true,
+        "emphasis": [
+          "claim",
+          "evidence",
+          "alternatives"
+        ]
+      },
+      "udl": [
+        "representation.language-support",
+        "representation.vocabulary",
+        "action-expression.multiple-response-modes",
+        "engagement.relevance"
+      ],
+      "strategies": [
+        "vocabulary-programs",
+        "corrective-feedback",
+        "retrieval-practice"
+      ],
+      "standards": {
+        "elps": [
+          {
+            "code": "§120.21(d)(3)(C)",
+            "alignment": "direct",
+            "grades": [
+              9,
+              10,
+              11,
+              12
+            ],
+            "rationale": "Students use cognate awareness to comprehend academic vocabulary."
+          },
+          {
+            "code": "§120.21(d)(3)(B)",
+            "alignment": "supporting",
+            "grades": [
+              9,
+              10,
+              11,
+              12
+            ],
+            "rationale": "Students identify cognate look-alikes while judging reliability."
+          }
+        ],
+        "teks": [
+          {
+            "code": "§110.36(c)(2)(B)",
+            "alignment": "supporting",
+            "grades": [
+              9
+            ],
+            "rationale": "Students analyze whether a look-alike carries the intended meaning."
+          },
+          {
+            "code": "§110.37(c)(2)(B)",
+            "alignment": "supporting",
+            "grades": [
+              10
+            ],
+            "rationale": "Students distinguish intended meaning from a misleading false-friend meaning."
+          }
+        ],
+        "slar": []
+      },
+      "printables": [
+        "cog-sort-9-12-012-student",
+        "cog-sort-9-12-012-answer-key"
+      ],
+      "created": "2026-10-11",
+      "updated": "2026-10-11",
+      "status": "reviewed"
+    },
+    {
+      "id": "cog-glossary-3-5-013",
+      "module": "cognate-detective",
+      "title": {
+        "en": "Using a Glossary",
+        "es": "Cómo usar un glosario"
+      },
+      "grades": [
+        4,
+        5
+      ],
+      "gradeBand": "3-5",
+      "subjects": [
+        "elar"
+      ],
+      "duration": 10,
+      "interactionType": "multiple-choice",
+      "targetLanguage": "en",
+      "supportedHomeLanguages": [
+        "es"
+      ],
+      "languagePair": "en-es",
+      "studentGoal": {
+        "en": "Use a glossary or dictionary entry to find the right meaning of a word that has more than one meaning.",
+        "es": "Usa una entrada de glosario o diccionario para encontrar el significado correcto de una palabra que tiene más de un significado."
+      },
+      "studentDirections": {
+        "en": "Read the glossary entry and the sentence. Choose the meaning that fits the sentence. Choose, then select Check.",
+        "es": "Lee la entrada del glosario y la oración. Elige el significado que encaja en la oración. Elige y luego selecciona Revisar."
+      },
+      "teacherDirections": {
+        "en": "Multiple-meaning words trip up emergent bilinguals who look up only the first definition. Model reading the WHOLE entry, then matching the meaning to the sentence. The last item uses the entry's pronunciation and origin, the other half of using a reference resource.",
+        "es": "Las palabras con varios significados confunden a los bilingües emergentes que solo buscan la primera definición. Modela leer TODA la entrada y luego emparejar el significado con la oración. El último ejercicio usa la pronunciación y el origen de la entrada, la otra mitad de usar un recurso de referencia."
+      },
+      "languageFunction": {
+        "en": "Using a reference resource to determine the correct meaning, pronunciation, and origin of a word.",
+        "es": "Usar un recurso de referencia para determinar el significado, la pronunciación y el origen correctos de una palabra."
+      },
+      "materials": [],
+      "items": [
+        {
+          "id": "g1",
+          "targetWord": "bank",
+          "context": {
+            "en": "Glossary — bank (noun): 1. the land along a river. 2. a place that keeps money.\nSentence: “We sat on the bank and watched the river flow.”",
+            "es": "Glosario — bank (sustantivo): 1. la tierra a la orilla de un río. 2. un lugar que guarda dinero.\nOración: “We sat on the bank and watched the river flow.”"
+          },
+          "prompt": {
+            "en": "Which meaning of “bank” fits the sentence?",
+            "es": "¿Qué significado de “bank” encaja en la oración?"
+          },
+          "support": {
+            "high": {
+              "en": "The sentence talks about a river, so use meaning 1.",
+              "es": "La oración habla de un río, así que usa el significado 1."
+            },
+            "medium": {
+              "en": "What is the sentence about — a river or money?",
+              "es": "¿De qué trata la oración: un río o dinero?"
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "1. the land along a river",
+                "es": "1. la tierra a la orilla de un río"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "2. a place that keeps money",
+                "es": "2. un lugar que guarda dinero"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "neither meaning fits",
+                "es": "ningún significado encaja"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. The sentence is about a river, so meaning 1 — the land along a river — fits.",
+                "es": "Correcto. La oración trata de un río, así que el significado 1 —la tierra a la orilla de un río— encaja."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Meaning 2 is about money, but the sentence is about a river. Match the meaning to the sentence.",
+                "es": "El significado 2 trata de dinero, pero la oración trata de un río. Empareja el significado con la oración."
+              },
+              "hint": {
+                "en": "Re-read the sentence — river or money?",
+                "es": "Relee la oración: ¿río o dinero?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "Meaning 1 does fit — the river bank. Always check each numbered meaning.",
+                "es": "El significado 1 sí encaja: la orilla del río. Siempre revisa cada significado numerado."
+              }
+            }
+          }
+        },
+        {
+          "id": "g2",
+          "targetWord": "trunk",
+          "context": {
+            "en": "Glossary — trunk (noun): 1. the main stem of a tree. 2. the back storage space of a car. 3. an elephant's long nose.\nSentence: “The squirrel ran up the trunk to the branches.”",
+            "es": "Glosario — trunk (sustantivo): 1. el tallo principal de un árbol. 2. el espacio de carga trasero de un auto. 3. la nariz larga de un elefante.\nOración: “The squirrel ran up the trunk to the branches.”"
+          },
+          "prompt": {
+            "en": "Which meaning fits the sentence?",
+            "es": "¿Qué significado encaja en la oración?"
+          },
+          "support": {
+            "high": {
+              "en": "Branches grow on a tree, so use meaning 1.",
+              "es": "Las ramas crecen en un árbol, así que usa el significado 1."
+            },
+            "medium": {
+              "en": "What has branches?",
+              "es": "¿Qué tiene ramas?"
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "1. the main stem of a tree",
+                "es": "1. el tallo principal de un árbol"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "2. the storage space of a car",
+                "es": "2. el espacio de carga de un auto"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "3. an elephant's nose",
+                "es": "3. la nariz de un elefante"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. The squirrel went to the branches, so “trunk” means the tree's main stem — meaning 1.",
+                "es": "Correcto. La ardilla fue a las ramas, así que “trunk” significa el tallo principal del árbol: significado 1."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "A car trunk has no branches. The sentence is about a tree — meaning 1.",
+                "es": "El maletero de un auto no tiene ramas. La oración trata de un árbol: significado 1."
+              },
+              "hint": {
+                "en": "Branches belong to what?",
+                "es": "¿A qué pertenecen las ramas?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "An elephant's trunk has no branches either. The clue “branches” points to the tree — meaning 1.",
+                "es": "La trompa de un elefante tampoco tiene ramas. La pista “branches” apunta al árbol: significado 1."
+              }
+            }
+          }
+        },
+        {
+          "id": "g3",
+          "targetWord": "current",
+          "context": {
+            "en": "Glossary — current: 1. (noun) the flow of water or electricity. 2. (adjective) happening now.\nSentence: “The strong current pulled the boat downstream.”",
+            "es": "Glosario — current: 1. (sustantivo) el flujo del agua o la electricidad. 2. (adjetivo) que sucede ahora.\nOración: “The strong current pulled the boat downstream.”"
+          },
+          "prompt": {
+            "en": "Which meaning fits the sentence?",
+            "es": "¿Qué significado encaja en la oración?"
+          },
+          "support": {
+            "high": {
+              "en": "The current pulled a boat in water, so use meaning 1.",
+              "es": "La corriente arrastró un bote en el agua, así que usa el significado 1."
+            },
+            "medium": {
+              "en": "Is this about water, or about time?",
+              "es": "¿Esto trata del agua o del tiempo?"
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "1. the flow of water",
+                "es": "1. el flujo del agua"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "2. happening now",
+                "es": "2. que sucede ahora"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "a type of fruit",
+                "es": "un tipo de fruta"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. The current pulled a boat in the water — meaning 1, the flow of water.",
+                "es": "Correcto. La corriente arrastró un bote en el agua: significado 1, el flujo del agua."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "“Happening now” is the adjective meaning, but here “current” pulls a boat — meaning 1.",
+                "es": "“Que sucede ahora” es el significado adjetivo, pero aquí “current” arrastra un bote: significado 1."
+              },
+              "hint": {
+                "en": "What pulled the boat?",
+                "es": "¿Qué arrastró el bote?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "A “currant” (fruit) is a different word. This entry is about flow — meaning 1.",
+                "es": "Un “currant” (fruta) es otra palabra. Esta entrada trata del flujo: significado 1."
+              }
+            }
+          }
+        },
+        {
+          "id": "g4",
+          "targetWord": "scale",
+          "context": {
+            "en": "Glossary — scale (noun): 1. a tool that measures weight. 2. one of the small plates on a fish. 3. a series of musical notes.\nSentence: “The nurse asked me to step on the scale.”",
+            "es": "Glosario — scale (sustantivo): 1. una herramienta que mide el peso. 2. una de las placas pequeñas de un pez. 3. una serie de notas musicales.\nOración: “The nurse asked me to step on the scale.”"
+          },
+          "prompt": {
+            "en": "Which meaning fits the sentence?",
+            "es": "¿Qué significado encaja en la oración?"
+          },
+          "support": {
+            "high": {
+              "en": "A nurse weighs you, so use meaning 1.",
+              "es": "Una enfermera te pesa, así que usa el significado 1."
+            },
+            "medium": {
+              "en": "Why would a nurse ask you to step on something?",
+              "es": "¿Por qué una enfermera te pediría subirte a algo?"
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "1. a tool that measures weight",
+                "es": "1. una herramienta que mide el peso"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "2. a plate on a fish",
+                "es": "2. una placa de un pez"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "3. musical notes",
+                "es": "3. notas musicales"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. You step on a scale to be weighed — meaning 1.",
+                "es": "Correcto. Te subes a una báscula para pesarte: significado 1."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Fish scales aren't something you step on. The nurse weighs you — meaning 1.",
+                "es": "Las escamas de pez no son algo en lo que te subes. La enfermera te pesa: significado 1."
+              },
+              "hint": {
+                "en": "Why step on it at the nurse's office?",
+                "es": "¿Por qué subirte a eso en la enfermería?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "A musical scale isn't something you step on. Meaning 1 fits — a weight scale.",
+                "es": "Una escala musical no es algo en lo que te subes. El significado 1 encaja: una báscula."
+              }
+            }
+          }
+        },
+        {
+          "id": "g5",
+          "targetWord": "data",
+          "context": {
+            "en": "Glossary — data (noun) \\ˈdā-tə\\ : facts and numbers you collect. Origin: from Latin “datum,” meaning “something given.”\nSentence: “We put our data in a table.”",
+            "es": "Glosario — data (sustantivo) \\ˈdā-tə\\ : hechos y números que recoges. Origen: del latín “datum,” que significa “algo dado.”\nOración: “We put our data in a table.”"
+          },
+          "prompt": {
+            "en": "Using the entry, which statement is TRUE about “data”?",
+            "es": "Usando la entrada, ¿qué afirmación es VERDADERA sobre “data”?"
+          },
+          "support": {
+            "high": {
+              "en": "The entry gives meaning, pronunciation \\ˈdā-tə\\, and a Latin origin. Read all three.",
+              "es": "La entrada da el significado, la pronunciación \\ˈdā-tə\\ y un origen latino. Lee las tres."
+            },
+            "medium": {
+              "en": "Look at the origin note in the entry.",
+              "es": "Mira la nota de origen en la entrada."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "It means facts and numbers, and it comes from Latin.",
+                "es": "Significa hechos y números, y viene del latín."
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "It means a kind of table, and it comes from Greek.",
+                "es": "Significa un tipo de tabla, y viene del griego."
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "The entry does not say how to say it.",
+                "es": "La entrada no dice cómo pronunciarla."
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. The entry defines data as facts and numbers and lists a Latin origin (“datum”). A good entry gives meaning, sound, and origin.",
+                "es": "Correcto. La entrada define data como hechos y números y señala un origen latino (“datum”). Una buena entrada da significado, sonido y origen."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "The data goes IN a table, but data isn't a table — and the origin is Latin, not Greek. Re-read the entry.",
+                "es": "Los datos van EN una tabla, pero data no es una tabla, y el origen es latino, no griego. Relee la entrada."
+              },
+              "hint": {
+                "en": "Check the origin line.",
+                "es": "Revisa la línea de origen."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "It does — the \\ˈdā-tə\\ shows the pronunciation. Entries show how to say the word too.",
+                "es": "Sí lo dice: \\ˈdā-tə\\ muestra la pronunciación. Las entradas también muestran cómo decir la palabra."
+              }
+            }
+          }
+        }
+      ],
+      "ace": {
+        "articulate": true,
+        "connect": false,
+        "extend": true
+      },
+      "clear": {
+        "enabled": false,
+        "emphasis": []
+      },
+      "udl": [
+        "representation.language-support",
+        "representation.vocabulary",
+        "action-expression.multiple-response-modes",
+        "engagement.relevance"
+      ],
+      "strategies": [
+        "vocabulary-programs",
+        "corrective-feedback",
+        "reference-skills"
+      ],
+      "standards": {
+        "elps": [
+          {
+            "code": "§120.21(d)(3)(C)",
+            "alignment": "supporting",
+            "grades": [
+              4,
+              5
+            ],
+            "rationale": "Students confirm content-area word meaning using a reference entry."
+          }
+        ],
+        "teks": [
+          {
+            "code": "§110.7(b)(3)(A)",
+            "alignment": "direct",
+            "grades": [
+              5
+            ],
+            "rationale": "Students use a glossary/dictionary entry to determine meaning, pronunciation, and word origin."
+          },
+          {
+            "code": "§110.7(b)(3)(B)",
+            "alignment": "supporting",
+            "grades": [
+              5
+            ],
+            "rationale": "Students use sentence context to choose among multiple-meaning entries."
+          }
+        ],
+        "slar": []
+      },
+      "printables": [
+        "cog-glossary-3-5-013-student",
+        "cog-glossary-3-5-013-answer-key"
+      ],
+      "created": "2026-10-11",
+      "updated": "2026-10-11",
+      "status": "reviewed"
     }
   ]
 }

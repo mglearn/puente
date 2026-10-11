@@ -3199,6 +3199,1384 @@
       "created": "2026-10-11",
       "updated": "2026-10-11",
       "status": "reviewed"
+    },
+    {
+      "id": "all-talk-6-8-009",
+      "module": "academic-language-lab",
+      "title": {
+        "en": "Academic Talk Moves (Middle School)",
+        "es": "Movimientos de conversación académica (secundaria)"
+      },
+      "grades": [
+        6,
+        7,
+        8
+      ],
+      "gradeBand": "6-8",
+      "subjects": [
+        "science",
+        "elar"
+      ],
+      "duration": 10,
+      "interactionType": "multiple-choice",
+      "targetLanguage": "en",
+      "supportedHomeLanguages": [
+        "es"
+      ],
+      "languagePair": "en-es",
+      "studentGoal": {
+        "en": "Use academic talk moves — add a reason, disagree politely, ask for clarification, build on a peer — to contribute well to a class discussion.",
+        "es": "Usa movimientos de conversación académica —agregar una razón, estar en desacuerdo con cortesía, pedir una aclaración, ampliar lo que dice un compañero— para participar bien en una discusión de clase."
+      },
+      "studentDirections": {
+        "en": "Read what a classmate said and what you want to do. Choose the response that makes that talk move well. Choose, then select Check.",
+        "es": "Lee lo que dijo un compañero y lo que tú quieres hacer. Elige la respuesta que hace bien ese movimiento de conversación. Elige y luego selecciona Revisar."
+      },
+      "teacherDirections": {
+        "en": "Discussion is where academic language is rehearsed. Each item targets one talk move (add a reason, respectfully disagree, clarify, build on, paraphrase). Post the frames and have students use the chosen move aloud in the next discussion. No TEKS is forced — ELPS speaking is the on-target standard for these interactions.",
+        "es": "La discusión es donde se practica el lenguaje académico. Cada ejercicio trabaja un movimiento (agregar una razón, estar en desacuerdo con respeto, aclarar, ampliar, parafrasear). Publica los marcos y pide que usen el movimiento elegido en voz alta en la siguiente discusión. No se fuerza un TEKS: el estándar ELPS de expresión oral es el adecuado para estas interacciones."
+      },
+      "languageFunction": {
+        "en": "Contributing to academic discussion with specific talk moves.",
+        "es": "Contribuir a la discusión académica con movimientos específicos."
+      },
+      "materials": [],
+      "items": [
+        {
+          "id": "t1",
+          "context": {
+            "en": "In science, Ana says, “Metals get hot quickly.” You agree and want to ADD A REASON.",
+            "es": "En ciencias, Ana dice: “Metals get hot quickly.” Estás de acuerdo y quieres AGREGAR UNA RAZÓN."
+          },
+          "prompt": {
+            "en": "Which response adds a reason best?",
+            "es": "¿Qué respuesta agrega mejor una razón?"
+          },
+          "support": {
+            "high": {
+              "en": "Frame: “I agree, and the reason is that ___.”",
+              "es": "Marco: “I agree, and the reason is that ___.”"
+            },
+            "medium": {
+              "en": "Agree AND explain WHY with a science idea.",
+              "es": "Está de acuerdo Y explica POR QUÉ con una idea de ciencia."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "“I agree, and the reason is that metals are good conductors of heat.”",
+                "es": "“I agree, and the reason is that metals are good conductors of heat.”"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "“Yeah, same.”",
+                "es": "“Yeah, same.”"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "“I don't know, maybe.”",
+                "es": "“I don't know, maybe.”"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. You agree AND give a reason with a science term (conductors) — that is the talk move.",
+                "es": "Correcto. Estás de acuerdo Y das una razón con un término de ciencia (conductors): ese es el movimiento."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "“Same” agrees but gives no reason. Add WHY: “the reason is that metals conduct heat.”",
+                "es": "“Same” está de acuerdo pero no da razón. Agrega POR QUÉ: “the reason is that metals conduct heat.”"
+              },
+              "hint": {
+                "en": "What makes metals heat up fast?",
+                "es": "¿Qué hace que los metales se calienten rápido?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "This shows doubt, not a reason. The move is to agree and explain why.",
+                "es": "Esto muestra duda, no una razón. El movimiento es estar de acuerdo y explicar por qué."
+              }
+            }
+          }
+        },
+        {
+          "id": "t2",
+          "context": {
+            "en": "A classmate says, “All deserts are hot.” You think that's not fully true and want to DISAGREE POLITELY.",
+            "es": "Un compañero dice: “All deserts are hot.” Crees que no es del todo cierto y quieres ESTAR EN DESACUERDO CON CORTESÍA."
+          },
+          "prompt": {
+            "en": "Which is the best respectful disagreement?",
+            "es": "¿Cuál es el mejor desacuerdo respetuoso?"
+          },
+          "support": {
+            "high": {
+              "en": "Frame: “I see your point, but ___, because ___.”",
+              "es": "Marco: “I see your point, but ___, because ___.”"
+            },
+            "medium": {
+              "en": "Be respectful AND give a counter-example.",
+              "es": "Sé respetuoso Y da un contraejemplo."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "“I see your point, but some deserts are cold, like the Gobi in winter.”",
+                "es": "“I see your point, but some deserts are cold, like the Gobi in winter.”"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "“No, you're wrong.”",
+                "es": "“No, you're wrong.”"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "“Deserts, deserts, deserts.”",
+                "es": "“Deserts, deserts, deserts.”"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. You acknowledge their point, then disagree with a specific example — respectful and evidence-based.",
+                "es": "Correcto. Reconoces su punto y luego discrepas con un ejemplo específico: respetuoso y con evidencia."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "“You're wrong” is blunt and gives no evidence. Soften it and add an example.",
+                "es": "“You're wrong” es brusco y no da evidencia. Suavízalo y agrega un ejemplo."
+              },
+              "hint": {
+                "en": "Start with “I see your point, but…”",
+                "es": "Empieza con “I see your point, but…”"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "Repeating the word adds nothing. Disagree politely with a reason or example.",
+                "es": "Repetir la palabra no aporta nada. Discrepa con cortesía con una razón o ejemplo."
+              }
+            }
+          }
+        },
+        {
+          "id": "t3",
+          "context": {
+            "en": "The teacher uses the word “erosion” and you are not sure what it means. You want to ASK FOR CLARIFICATION.",
+            "es": "El maestro usa la palabra “erosion” y no estás seguro de qué significa. Quieres PEDIR UNA ACLARACIÓN."
+          },
+          "prompt": {
+            "en": "Which is the best way to ask?",
+            "es": "¿Cuál es la mejor manera de preguntar?"
+          },
+          "support": {
+            "high": {
+              "en": "Frame: “Could you explain what ___ means?”",
+              "es": "Marco: “Could you explain what ___ means?”"
+            },
+            "medium": {
+              "en": "Ask a clear, polite question about the word.",
+              "es": "Haz una pregunta clara y cortés sobre la palabra."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "“Could you explain what ‘erosion’ means?”",
+                "es": "“Could you explain what ‘erosion’ means?”"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "(Say nothing and stay confused.)",
+                "es": "(No decir nada y quedarte confundido.)"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "“What?”",
+                "es": "“What?”"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. A clear question names the word and asks for its meaning — exactly the clarification move.",
+                "es": "Correcto. Una pregunta clara nombra la palabra y pide su significado: justo el movimiento de aclaración."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Staying confused means you miss the lesson. Asking about a word is a smart academic move.",
+                "es": "Quedarte confundido hace que pierdas la lección. Preguntar por una palabra es un movimiento académico inteligente."
+              },
+              "hint": {
+                "en": "Name the word you don't know.",
+                "es": "Nombra la palabra que no conoces."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "“What?” is vague and the teacher won't know what to explain. Name the word: “what does ‘erosion’ mean?”",
+                "es": "“What?” es vago y el maestro no sabrá qué explicar. Nombra la palabra: “what does ‘erosion’ mean?”"
+              }
+            }
+          }
+        },
+        {
+          "id": "t4",
+          "context": {
+            "en": "In a discussion, Diego says, “Rivers shape the land.” You want to BUILD ON his idea.",
+            "es": "En una discusión, Diego dice: “Rivers shape the land.” Quieres AMPLIAR su idea."
+          },
+          "prompt": {
+            "en": "Which response builds on Diego's idea?",
+            "es": "¿Qué respuesta amplía la idea de Diego?"
+          },
+          "support": {
+            "high": {
+              "en": "Frame: “Building on what Diego said, ___.”",
+              "es": "Marco: “Building on what Diego said, ___.”"
+            },
+            "medium": {
+              "en": "Connect to Diego AND add a new detail.",
+              "es": "Conéctate con Diego Y agrega un detalle nuevo."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "“Building on what Diego said, rivers also carry soil that builds new land at the mouth.”",
+                "es": "“Building on what Diego said, rivers also carry soil that builds new land at the mouth.”"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "“I like rivers too.”",
+                "es": "“I like rivers too.”"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "“Let's talk about something else.”",
+                "es": "“Let's talk about something else.”"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. You name Diego's idea and extend it with a new detail — that is building on a peer.",
+                "es": "Correcto. Nombras la idea de Diego y la amplías con un detalle nuevo: eso es ampliar lo de un compañero."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Liking rivers doesn't extend the idea. Add a new detail that connects to what Diego said.",
+                "es": "Que te gusten los ríos no amplía la idea. Agrega un detalle nuevo que se conecte con lo que dijo Diego."
+              },
+              "hint": {
+                "en": "Start with “Building on what Diego said…”",
+                "es": "Empieza con “Building on what Diego said…”"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "Changing the topic drops Diego's idea instead of building on it.",
+                "es": "Cambiar de tema abandona la idea de Diego en vez de ampliarla."
+              }
+            }
+          }
+        },
+        {
+          "id": "t5",
+          "context": {
+            "en": "Your group wants to make sure everyone understood Lin's point. You want to PARAPHRASE what she said: “The experiment failed because the temperature was too high.”",
+            "es": "Tu grupo quiere asegurarse de que todos entendieron el punto de Lin. Quieres PARAFRASEAR lo que dijo: “The experiment failed because the temperature was too high.”"
+          },
+          "prompt": {
+            "en": "Which response paraphrases Lin's point well?",
+            "es": "¿Qué respuesta parafrasea bien el punto de Lin?"
+          },
+          "support": {
+            "high": {
+              "en": "Frame: “So what you're saying is ___.” Say the same idea in your own words.",
+              "es": "Marco: “So what you're saying is ___.” Di la misma idea con tus palabras."
+            },
+            "medium": {
+              "en": "Restate HER idea, don't add a new one.",
+              "es": "Reformula SU idea, no agregues una nueva."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "“So what you're saying is the heat was too high, and that's why it didn't work.”",
+                "es": "“So what you're saying is the heat was too high, and that's why it didn't work.”"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "“So what you're saying is we should use more water.”",
+                "es": "“So what you're saying is we should use more water.”"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "“So what you're saying is experiments are hard.”",
+                "es": "“So what you're saying is experiments are hard.”"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. You restate Lin's exact idea — too much heat caused the failure — in your own words. That's a paraphrase.",
+                "es": "Correcto. Reformulas la idea exacta de Lin —demasiado calor causó el fallo— con tus palabras. Eso es parafrasear."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Lin didn't mention water — that adds a new idea. A paraphrase repeats HER point.",
+                "es": "Lin no mencionó agua: eso agrega una idea nueva. Una paráfrasis repite SU punto."
+              },
+              "hint": {
+                "en": "What was Lin's actual reason?",
+                "es": "¿Cuál fue la razón real de Lin?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "That's too general. Lin named a specific cause — high temperature. Paraphrase that.",
+                "es": "Eso es muy general. Lin nombró una causa específica: la temperatura alta. Parafrasea eso."
+              }
+            }
+          }
+        }
+      ],
+      "ace": {
+        "articulate": true,
+        "connect": true,
+        "extend": true
+      },
+      "clear": {
+        "enabled": false,
+        "emphasis": []
+      },
+      "udl": [
+        "representation.language-support",
+        "action-expression.multiple-response-modes",
+        "engagement.collaboration",
+        "engagement.relevance"
+      ],
+      "strategies": [
+        "sentence-frames",
+        "discussion-protocols",
+        "corrective-feedback"
+      ],
+      "standards": {
+        "elps": [
+          {
+            "code": "§120.21(d)(2)(F)",
+            "alignment": "direct",
+            "grades": [
+              6,
+              7,
+              8
+            ],
+            "rationale": "Students restate, ask questions about, and respond to peers during discussion."
+          },
+          {
+            "code": "§120.21(d)(2)(B)",
+            "alignment": "supporting",
+            "grades": [
+              6,
+              7,
+              8
+            ],
+            "rationale": "Students speak using content-area vocabulary as they make each talk move."
+          }
+        ],
+        "teks": [],
+        "slar": []
+      },
+      "printables": [
+        "all-talk-6-8-009-student",
+        "all-talk-6-8-009-answer-key"
+      ],
+      "created": "2026-10-11",
+      "updated": "2026-10-11",
+      "status": "reviewed"
+    },
+    {
+      "id": "all-register-9-12-010",
+      "module": "academic-language-lab",
+      "title": {
+        "en": "Formal or Informal?",
+        "es": "¿Formal o informal?"
+      },
+      "grades": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "gradeBand": "9-12",
+      "subjects": [
+        "elar"
+      ],
+      "duration": 10,
+      "interactionType": "context-choice",
+      "targetLanguage": "en",
+      "supportedHomeLanguages": [
+        "es"
+      ],
+      "languagePair": "en-es",
+      "studentGoal": {
+        "en": "Match your register — how formal your language is — to the situation, so you sound appropriate with a teacher, in an essay, or with a friend.",
+        "es": "Ajusta tu registro —qué tan formal es tu lenguaje— a la situación, para sonar apropiado con un maestro, en un ensayo o con un amigo."
+      },
+      "studentDirections": {
+        "en": "Read each situation. Choose the response with the right register for that audience. Choose, then select Check.",
+        "es": "Lee cada situación. Elige la respuesta con el registro correcto para ese público. Elige y luego selecciona Revisar."
+      },
+      "teacherDirections": {
+        "en": "Academic settings demand register control: an email to a teacher and a text to a friend are not the same English. Each item pairs a context with an audience; note that informal is sometimes the correct answer (with a friend) — the skill is matching, not always being formal. ELPS speaking-register is the on-target standard.",
+        "es": "Los entornos académicos exigen control del registro: un correo a un maestro y un mensaje a un amigo no son el mismo inglés. Cada ejercicio empareja un contexto con un público; nota que a veces lo informal es la respuesta correcta (con un amigo): la destreza es ajustar, no siempre ser formal. El estándar adecuado es el de registro oral del ELPS."
+      },
+      "languageFunction": {
+        "en": "Selecting an appropriate formal or informal register for the audience.",
+        "es": "Seleccionar un registro formal o informal apropiado para el público."
+      },
+      "materials": [],
+      "items": [
+        {
+          "id": "r1",
+          "context": {
+            "en": "You are writing an email to your teacher to ask about a missing grade.",
+            "es": "Estás escribiendo un correo a tu maestro para preguntar por una calificación faltante."
+          },
+          "prompt": {
+            "en": "Which opening has the right register?",
+            "es": "¿Qué inicio tiene el registro correcto?"
+          },
+          "support": {
+            "high": {
+              "en": "An email to a teacher is FORMAL. Use a greeting and a full, polite sentence.",
+              "es": "Un correo a un maestro es FORMAL. Usa un saludo y una oración completa y cortés."
+            },
+            "medium": {
+              "en": "Would you write to a teacher the way you text a friend?",
+              "es": "¿Le escribirías a un maestro como le mandas mensaje a un amigo?"
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "“Dear Mr. Lopez, I noticed a grade is missing for the lab report. Could you please check it?”",
+                "es": "“Dear Mr. Lopez, I noticed a grade is missing for the lab report. Could you please check it?”"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "“yo where my grade at”",
+                "es": "“yo where my grade at”"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "“GRADE MISSING. FIX NOW.”",
+                "es": "“GRADE MISSING. FIX NOW.”"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. A greeting and a polite, complete request is the formal register an email to a teacher needs.",
+                "es": "Correcto. Un saludo y una petición cortés y completa es el registro formal que necesita un correo a un maestro."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "That's texting register — too casual for a teacher email. Use a greeting and a full sentence.",
+                "es": "Ese es el registro de los mensajes: demasiado casual para un correo a un maestro. Usa un saludo y una oración completa."
+              },
+              "hint": {
+                "en": "Email a teacher = formal.",
+                "es": "Correo a un maestro = formal."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "All caps and commands sound rude. A formal, polite request works better.",
+                "es": "Las mayúsculas y las órdenes suenan groseras. Una petición formal y cortés funciona mejor."
+              }
+            }
+          }
+        },
+        {
+          "id": "r2",
+          "context": {
+            "en": "You are giving a formal presentation to the class about your research.",
+            "es": "Estás dando una presentación formal a la clase sobre tu investigación."
+          },
+          "prompt": {
+            "en": "Which sentence fits a formal presentation?",
+            "es": "¿Qué oración encaja en una presentación formal?"
+          },
+          "support": {
+            "high": {
+              "en": "A presentation is formal. State your point clearly and completely.",
+              "es": "Una presentación es formal. Expón tu punto con claridad y de forma completa."
+            },
+            "medium": {
+              "en": "Avoid slang and filler in a presentation.",
+              "es": "Evita la jerga y el relleno en una presentación."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "“Today I will present three causes of coastal erosion.”",
+                "es": "“Today I will present three causes of coastal erosion.”"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "“Okay so, like, erosion and stuff, here we go.”",
+                "es": "“Okay so, like, erosion and stuff, here we go.”"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "“idk just look at my slides”",
+                "es": "“idk just look at my slides”"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. It clearly states the topic and plan in a formal register suited to a presentation.",
+                "es": "Correcto. Expone el tema y el plan con claridad en un registro formal adecuado para una presentación."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "“Like… and stuff” is casual filler. A presentation needs a clear, formal statement.",
+                "es": "“Like… and stuff” es relleno casual. Una presentación necesita una afirmación clara y formal."
+              },
+              "hint": {
+                "en": "State your topic clearly.",
+                "es": "Expón tu tema con claridad."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "“idk” is texting slang, far too informal to present with. State your point.",
+                "es": "“idk” es jerga de mensajes, demasiado informal para presentar. Expón tu punto."
+              }
+            }
+          }
+        },
+        {
+          "id": "r3",
+          "context": {
+            "en": "You are texting a close friend to ask if they want to study together after school.",
+            "es": "Le mandas un mensaje a un amigo cercano para preguntarle si quiere estudiar juntos después de clases."
+          },
+          "prompt": {
+            "en": "Which register fits texting a friend?",
+            "es": "¿Qué registro encaja al escribirle a un amigo?"
+          },
+          "support": {
+            "high": {
+              "en": "Texting a friend can be INFORMAL — relaxed and friendly is fine here.",
+              "es": "Escribirle a un amigo puede ser INFORMAL: relajado y amistoso está bien aquí."
+            },
+            "medium": {
+              "en": "You don't need a formal greeting with a close friend.",
+              "es": "No necesitas un saludo formal con un amigo cercano."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "“hey wanna study together after school?”",
+                "es": "“hey wanna study together after school?”"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "“Dear Sir or Madam, I hereby request your presence for study.”",
+                "es": "“Dear Sir or Madam, I hereby request your presence for study.”"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "“TO WHOM IT MAY CONCERN: STUDY SESSION.”",
+                "es": "“TO WHOM IT MAY CONCERN: STUDY SESSION.”"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. With a close friend, an informal, relaxed message is appropriate — register means matching the audience, not always being formal.",
+                "es": "Correcto. Con un amigo cercano, un mensaje informal y relajado es apropiado: el registro es ajustarse al público, no siempre ser formal."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "“Dear Sir or Madam… hereby” is far too formal for a friend. Informal fits here.",
+                "es": "“Dear Sir or Madam… hereby” es demasiado formal para un amigo. Aquí encaja lo informal."
+              },
+              "hint": {
+                "en": "Who are you writing to — a friend or an official?",
+                "es": "¿A quién le escribes: un amigo o una autoridad?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "A business opening to a friend is overly formal and odd. Keep it casual with a friend.",
+                "es": "Un encabezado formal de negocios con un amigo es exagerado y raro. Con un amigo mantenlo casual."
+              }
+            }
+          }
+        },
+        {
+          "id": "r4",
+          "context": {
+            "en": "You want to ask the school principal for permission to start a new club.",
+            "es": "Quieres pedir permiso al director de la escuela para iniciar un club nuevo."
+          },
+          "prompt": {
+            "en": "Which request has the right register?",
+            "es": "¿Qué petición tiene el registro correcto?"
+          },
+          "support": {
+            "high": {
+              "en": "Speaking to a principal is FORMAL. Be polite, clear, and complete.",
+              "es": "Hablar con un director es FORMAL. Sé cortés, claro y completo."
+            },
+            "medium": {
+              "en": "Use a formal greeting and a clear request.",
+              "es": "Usa un saludo formal y una petición clara."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "“Good morning, Principal Reyes. I would like to request permission to start a coding club. May I explain my plan?”",
+                "es": "“Good morning, Principal Reyes. I would like to request permission to start a coding club. May I explain my plan?”"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "“Yo, I'm making a club, cool?”",
+                "es": "“Yo, I'm making a club, cool?”"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "“Club. Me. Yes or no.”",
+                "es": "“Club. Me. Yes or no.”"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. A formal greeting and a clear, polite request is the register for a principal.",
+                "es": "Correcto. Un saludo formal y una petición clara y cortés es el registro para un director."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "“Yo… cool?” is friend register, too casual for a principal. Be formal and clear.",
+                "es": "“Yo… cool?” es registro de amigos, demasiado casual para un director. Sé formal y claro."
+              },
+              "hint": {
+                "en": "How formal is a principal?",
+                "es": "¿Qué tan formal es un director?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "Clipped commands sound rude to an authority. Use a complete, polite request.",
+                "es": "Las órdenes cortadas suenan groseras con una autoridad. Usa una petición completa y cortés."
+              }
+            }
+          }
+        },
+        {
+          "id": "r5",
+          "context": {
+            "en": "You are writing a sentence for a formal class essay about a novel.",
+            "es": "Estás escribiendo una oración para un ensayo formal de clase sobre una novela."
+          },
+          "prompt": {
+            "en": "Which sentence fits a formal essay?",
+            "es": "¿Qué oración encaja en un ensayo formal?"
+          },
+          "support": {
+            "high": {
+              "en": "Essays are formal: no slang, no “you,” complete academic sentences.",
+              "es": "Los ensayos son formales: sin jerga, sin “you,” oraciones académicas completas."
+            },
+            "medium": {
+              "en": "Avoid “a lot” and texting words in an essay.",
+              "es": "Evita “a lot” y palabras de mensajes en un ensayo."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "“The author uses the storm to reflect the character's inner conflict.”",
+                "es": "“The author uses the storm to reflect the character's inner conflict.”"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "“The book was lowkey really good ngl.”",
+                "es": "“The book was lowkey really good ngl.”"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "“You'll cry a lot when you read it trust me.”",
+                "es": "“You'll cry a lot when you read it trust me.”"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. It uses formal, analytical language with no slang — the register an essay requires.",
+                "es": "Correcto. Usa lenguaje formal y analítico sin jerga: el registro que exige un ensayo."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "“lowkey… ngl” is social-media slang, not essay register. Write a formal, analytical sentence.",
+                "es": "“lowkey… ngl” es jerga de redes sociales, no registro de ensayo. Escribe una oración formal y analítica."
+              },
+              "hint": {
+                "en": "Would “ngl” appear in a formal essay?",
+                "es": "¿Aparecería “ngl” en un ensayo formal?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "“Trust me” and direct “you” are too casual for a formal essay. Keep it analytical.",
+                "es": "“Trust me” y el “you” directo son demasiado casuales para un ensayo formal. Mantenlo analítico."
+              }
+            }
+          }
+        }
+      ],
+      "ace": {
+        "articulate": true,
+        "connect": false,
+        "extend": true
+      },
+      "clear": {
+        "enabled": false,
+        "emphasis": []
+      },
+      "udl": [
+        "representation.language-support",
+        "action-expression.multiple-response-modes",
+        "engagement.relevance",
+        "engagement.self-regulation"
+      ],
+      "strategies": [
+        "sentence-frames",
+        "register-awareness",
+        "corrective-feedback"
+      ],
+      "standards": {
+        "elps": [
+          {
+            "code": "§120.21(d)(2)(D)",
+            "alignment": "direct",
+            "grades": [
+              9,
+              10,
+              11,
+              12
+            ],
+            "rationale": "Students choose a formal or informal register appropriate to the audience and purpose."
+          },
+          {
+            "code": "§120.21(d)(2)(B)",
+            "alignment": "supporting",
+            "grades": [
+              9,
+              10,
+              11,
+              12
+            ],
+            "rationale": "Students convey the message using appropriate academic vocabulary."
+          }
+        ],
+        "teks": [],
+        "slar": []
+      },
+      "printables": [
+        "all-register-9-12-010-student",
+        "all-register-9-12-010-answer-key"
+      ],
+      "created": "2026-10-11",
+      "updated": "2026-10-11",
+      "status": "reviewed"
+    },
+    {
+      "id": "all-present-3-5-011",
+      "module": "academic-language-lab",
+      "title": {
+        "en": "Plan Your Presentation",
+        "es": "Planea tu presentación"
+      },
+      "grades": [
+        4,
+        5
+      ],
+      "gradeBand": "3-5",
+      "subjects": [
+        "elar"
+      ],
+      "duration": 10,
+      "interactionType": "multiple-choice",
+      "targetLanguage": "en",
+      "supportedHomeLanguages": [
+        "es"
+      ],
+      "languagePair": "en-es",
+      "studentGoal": {
+        "en": "Plan and give a short, organized spoken presentation: a clear opening, ordered points, a strong close, and good delivery.",
+        "es": "Planea y da una presentación oral corta y organizada: una apertura clara, puntos ordenados, un cierre fuerte y una buena entrega."
+      },
+      "studentDirections": {
+        "en": "You are getting ready to present. Choose the best choice for each part of a clear presentation. Choose, then select Check.",
+        "es": "Te estás preparando para presentar. Elige la mejor opción para cada parte de una presentación clara. Elige y luego selecciona Revisar."
+      },
+      "teacherDirections": {
+        "en": "Builds toward the grade-5 speaking expectation: an organized presentation with eye contact, appropriate rate and volume, and conventions of language. Each item isolates one feature (opening, order, delivery, visuals, closing). Pair with an actual 1-minute presentation so students apply the choices.",
+        "es": "Avanza hacia la expectativa de expresión oral de 5.º grado: una presentación organizada con contacto visual, ritmo y volumen apropiados, y convenciones del lenguaje. Cada ejercicio aísla una característica (apertura, orden, entrega, apoyos visuales, cierre). Combínalo con una presentación real de 1 minuto para que apliquen las opciones."
+      },
+      "languageFunction": {
+        "en": "Organizing and delivering an oral presentation.",
+        "es": "Organizar y dar una presentación oral."
+      },
+      "materials": [],
+      "items": [
+        {
+          "id": "p1",
+          "context": {
+            "en": "You are presenting about your favorite animal, the dolphin.",
+            "es": "Vas a presentar sobre tu animal favorito, el delfín."
+          },
+          "prompt": {
+            "en": "What is the best way to OPEN?",
+            "es": "¿Cuál es la mejor manera de EMPEZAR?"
+          },
+          "support": {
+            "high": {
+              "en": "A good opening tells the audience your topic clearly.",
+              "es": "Una buena apertura le dice al público tu tema con claridad."
+            },
+            "medium": {
+              "en": "Say what your presentation is about.",
+              "es": "Di de qué trata tu presentación."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "“Today I will tell you three amazing facts about dolphins.”",
+                "es": "“Today I will tell you three amazing facts about dolphins.”"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "“Um… I don't know how to start.”",
+                "es": "“Um… I don't know how to start.”"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "(Begin talking about sharks instead.)",
+                "es": "(Empezar a hablar de tiburones en su lugar.)"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. A clear opening names your topic and tells the audience what's coming.",
+                "es": "Correcto. Una apertura clara nombra tu tema y le dice al público qué viene."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Starting with “I don't know” loses your audience. Open by naming your topic.",
+                "es": "Empezar con “I don't know” pierde a tu público. Abre nombrando tu tema."
+              },
+              "hint": {
+                "en": "Tell them your topic.",
+                "es": "Diles tu tema."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "Your topic is dolphins, not sharks. Open on topic so the audience follows.",
+                "es": "Tu tema son los delfines, no los tiburones. Abre con tu tema para que el público te siga."
+              }
+            }
+          }
+        },
+        {
+          "id": "p2",
+          "context": {
+            "en": "You have three facts to share about dolphins.",
+            "es": "Tienes tres hechos para compartir sobre los delfines."
+          },
+          "prompt": {
+            "en": "What is the best way to ORDER your points?",
+            "es": "¿Cuál es la mejor manera de ORDENAR tus puntos?"
+          },
+          "support": {
+            "high": {
+              "en": "Use order words: first, next, finally.",
+              "es": "Usa palabras de orden: first, next, finally."
+            },
+            "medium": {
+              "en": "Group your facts so they are easy to follow.",
+              "es": "Agrupa tus hechos para que sean fáciles de seguir."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "“First, dolphins are mammals. Next, they use sound to find food. Finally, they live in groups.”",
+                "es": "“First, dolphins are mammals. Next, they use sound to find food. Finally, they live in groups.”"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "Say all three facts at the same time in one long rush.",
+                "es": "Decir los tres hechos al mismo tiempo en una sola carrera larga."
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "Say only one fact and repeat it three times.",
+                "es": "Decir solo un hecho y repetirlo tres veces."
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. Order words (first, next, finally) make your three points easy to follow.",
+                "es": "Correcto. Las palabras de orden (first, next, finally) hacen que tus tres puntos sean fáciles de seguir."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Rushing everything at once is confusing. Use first, next, finally.",
+                "es": "Decir todo de golpe confunde. Usa first, next, finally."
+              },
+              "hint": {
+                "en": "What words signal order?",
+                "es": "¿Qué palabras señalan el orden?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "Repeating one fact leaves out the other two. Share all three in order.",
+                "es": "Repetir un hecho deja fuera los otros dos. Comparte los tres en orden."
+              }
+            }
+          }
+        },
+        {
+          "id": "p3",
+          "context": {
+            "en": "You are standing in front of the class, about to speak.",
+            "es": "Estás parado frente a la clase, a punto de hablar."
+          },
+          "prompt": {
+            "en": "Which delivery is best?",
+            "es": "¿Cuál es la mejor entrega?"
+          },
+          "support": {
+            "high": {
+              "en": "Look at the audience and speak clearly, not too fast, not too quiet.",
+              "es": "Mira al público y habla con claridad, ni muy rápido ni muy bajo."
+            },
+            "medium": {
+              "en": "Think about eye contact, volume, and speed.",
+              "es": "Piensa en el contacto visual, el volumen y la velocidad."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "Look at the audience and speak clearly at a steady pace.",
+                "es": "Mirar al público y hablar con claridad a un ritmo constante."
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "Look at the floor and whisper very fast.",
+                "es": "Mirar al piso y susurrar muy rápido."
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "Turn your back and read every word off the wall.",
+                "es": "Dar la espalda y leer cada palabra de la pared."
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. Eye contact, a clear voice, and a steady pace help the audience understand you.",
+                "es": "Correcto. El contacto visual, una voz clara y un ritmo constante ayudan al público a entenderte."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Whispering fast at the floor makes you hard to hear and follow. Look up and speak clearly.",
+                "es": "Susurrar rápido al piso te hace difícil de oír y seguir. Levanta la vista y habla con claridad."
+              },
+              "hint": {
+                "en": "Where should your eyes and voice go?",
+                "es": "¿Hacia dónde deben ir tus ojos y tu voz?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "Facing away from the audience hides your voice and face. Face them and speak clearly.",
+                "es": "Dar la espalda al público esconde tu voz y tu cara. Míralos y habla con claridad."
+              }
+            }
+          }
+        },
+        {
+          "id": "p4",
+          "context": {
+            "en": "You made a poster with a photo of a dolphin for your talk.",
+            "es": "Hiciste un cartel con una foto de un delfín para tu charla."
+          },
+          "prompt": {
+            "en": "How should you use the visual?",
+            "es": "¿Cómo debes usar el apoyo visual?"
+          },
+          "support": {
+            "high": {
+              "en": "Show the visual and point to it while you explain the matching fact.",
+              "es": "Muestra el apoyo visual y señálalo mientras explicas el hecho que corresponde."
+            },
+            "medium": {
+              "en": "A visual should help your words, not replace them.",
+              "es": "Un apoyo visual debe ayudar a tus palabras, no reemplazarlas."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "Hold it up and point to the photo as you explain how dolphins swim.",
+                "es": "Levantarlo y señalar la foto mientras explicas cómo nadan los delfines."
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "Hide it so no one sees it.",
+                "es": "Esconderlo para que nadie lo vea."
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "Hold it in front of your face the whole time.",
+                "es": "Sostenerlo frente a tu cara todo el tiempo."
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. Showing and pointing to the visual helps the audience connect your words to the picture.",
+                "es": "Correcto. Mostrar y señalar el apoyo visual ayuda al público a conectar tus palabras con la imagen."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Hiding your poster wastes it. Show it and point to it as you explain.",
+                "es": "Esconder tu cartel lo desperdicia. Muéstralo y señálalo mientras explicas."
+              },
+              "hint": {
+                "en": "What is a poster for?",
+                "es": "¿Para qué sirve un cartel?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "Covering your face blocks your voice and eye contact. Hold it to the side and point.",
+                "es": "Taparte la cara bloquea tu voz y tu contacto visual. Sostenlo a un lado y señala."
+              }
+            }
+          }
+        },
+        {
+          "id": "p5",
+          "context": {
+            "en": "You have shared your three facts and are ready to finish.",
+            "es": "Ya compartiste tus tres hechos y estás listo para terminar."
+          },
+          "prompt": {
+            "en": "What is the best way to CLOSE?",
+            "es": "¿Cuál es la mejor manera de CERRAR?"
+          },
+          "support": {
+            "high": {
+              "en": "A good closing wraps up your topic and thanks the audience.",
+              "es": "Un buen cierre resume tu tema y agradece al público."
+            },
+            "medium": {
+              "en": "End on purpose — don't just stop.",
+              "es": "Termina a propósito: no te detengas sin más."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "“Now you know three amazing facts about dolphins. Thank you for listening.”",
+                "es": "“Now you know three amazing facts about dolphins. Thank you for listening.”"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "Stop talking suddenly and walk away.",
+                "es": "Dejar de hablar de repente e irte."
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "“Okay, bye, I guess that's it, whatever.”",
+                "es": "“Okay, bye, I guess that's it, whatever.”"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. A clear closing sums up your topic and thanks the audience — a strong finish.",
+                "es": "Correcto. Un cierre claro resume tu tema y agradece al público: un final fuerte."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Stopping suddenly leaves the audience unsure you're done. Wrap up and thank them.",
+                "es": "Detenerte de repente deja al público sin saber si terminaste. Resume y agradéceles."
+              },
+              "hint": {
+                "en": "How do you signal you're finished?",
+                "es": "¿Cómo señalas que terminaste?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "“Whatever” sounds like you don't care. End with a clear summary and a thank-you.",
+                "es": "“Whatever” suena a que no te importa. Termina con un resumen claro y un agradecimiento."
+              }
+            }
+          }
+        }
+      ],
+      "ace": {
+        "articulate": true,
+        "connect": false,
+        "extend": true
+      },
+      "clear": {
+        "enabled": false,
+        "emphasis": []
+      },
+      "udl": [
+        "representation.language-support",
+        "action-expression.multiple-response-modes",
+        "action-expression.executive-function",
+        "engagement.relevance"
+      ],
+      "strategies": [
+        "sentence-frames",
+        "oral-rehearsal",
+        "corrective-feedback"
+      ],
+      "standards": {
+        "elps": [
+          {
+            "code": "§120.21(d)(2)(B)",
+            "alignment": "supporting",
+            "grades": [
+              4,
+              5
+            ],
+            "rationale": "Students present using content vocabulary about their topic."
+          },
+          {
+            "code": "§120.21(d)(2)(D)",
+            "alignment": "supporting",
+            "grades": [
+              4,
+              5
+            ],
+            "rationale": "Students use an appropriate register for presenting to the class."
+          }
+        ],
+        "teks": [
+          {
+            "code": "§110.7(b)(1)(C)",
+            "alignment": "direct",
+            "grades": [
+              5
+            ],
+            "rationale": "Students plan an organized presentation with eye contact, rate, volume, and conventions of language."
+          }
+        ],
+        "slar": []
+      },
+      "printables": [
+        "all-present-3-5-011-student",
+        "all-present-3-5-011-answer-key"
+      ],
+      "created": "2026-10-11",
+      "updated": "2026-10-11",
+      "status": "reviewed"
     }
   ]
 }

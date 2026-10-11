@@ -3065,6 +3065,1407 @@
       "created": "2026-10-11",
       "updated": "2026-10-11",
       "status": "reviewed"
+    },
+    {
+      "id": "nav-directions-3-5-008",
+      "module": "newcomer-navigator",
+      "title": {
+        "en": "Following Classroom Directions",
+        "es": "Seguir las instrucciones de la clase"
+      },
+      "grades": [
+        4,
+        5
+      ],
+      "gradeBand": "3-5",
+      "subjects": [
+        "elar"
+      ],
+      "duration": 8,
+      "interactionType": "context-choice",
+      "targetLanguage": "en",
+      "supportedHomeLanguages": [
+        "es"
+      ],
+      "languagePair": "en-es",
+      "studentGoal": {
+        "en": "Understand the directions a teacher says out loud in English and respond with the right action.",
+        "es": "Entiende las instrucciones que una maestra dice en voz alta en inglés y responde con la acción correcta."
+      },
+      "studentDirections": {
+        "en": "Your teacher gives a direction. Choose what you should do. Choose, then select Check.",
+        "es": "Tu maestra da una instrucción. Elige qué debes hacer. Elige y luego selecciona Revisar."
+      },
+      "teacherDirections": {
+        "en": "These are the everyday spoken directions a newcomer hears all day. Read each one aloud (it's a listening skill), use gestures the first time, and have students show the action. Turn on More support for a key-word gloss.",
+        "es": "Estas son las instrucciones habladas que un recién llegado oye todo el día. Lee cada una en voz alta (es una destreza de comprensión auditiva), usa gestos la primera vez y pide a los estudiantes que muestren la acción. Activa Más apoyo para ver una glosa de palabras clave."
+      },
+      "languageFunction": {
+        "en": "Comprehending and responding to spoken classroom directions.",
+        "es": "Comprender y responder a instrucciones habladas de la clase."
+      },
+      "materials": [],
+      "items": [
+        {
+          "id": "d1",
+          "context": {
+            "en": "Your teacher says: “Take out your math book and turn to page 12.”",
+            "es": "Tu maestra dice: “Take out your math book and turn to page 12.”"
+          },
+          "prompt": {
+            "en": "What should you do?",
+            "es": "¿Qué debes hacer?"
+          },
+          "support": {
+            "high": {
+              "en": "Key words: “take out” = get it out; “turn to” = open to. Math book, page 12.",
+              "es": "Palabras clave: “take out” = sácalo; “turn to” = ábrelo en. Libro de matemáticas, página 12."
+            },
+            "medium": {
+              "en": "Which book, and what page?",
+              "es": "¿Qué libro y qué página?"
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "Get out your math book and open it to page 12.",
+                "es": "Saca tu libro de matemáticas y ábrelo en la página 12."
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "Put your math book away.",
+                "es": "Guarda tu libro de matemáticas."
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "Open your reading book to page 20.",
+                "es": "Abre tu libro de lectura en la página 20."
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. “Take out” means get it out and “turn to page 12” means open to that page.",
+                "es": "Correcto. “Take out” significa sácalo y “turn to page 12” significa ábrelo en esa página."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "“Take out” means get it OUT, not put it away. Open the math book to page 12.",
+                "es": "“Take out” significa SÁCALO, no guardarlo. Abre el libro de matemáticas en la página 12."
+              },
+              "hint": {
+                "en": "Does “take out” mean get it out or put it away?",
+                "es": "¿“take out” significa sacarlo o guardarlo?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "The teacher said MATH book, page 12 — not the reading book. Listen for which book and page.",
+                "es": "La maestra dijo libro de MATEMÁTICAS, página 12, no el libro de lectura. Escucha qué libro y qué página."
+              }
+            }
+          }
+        },
+        {
+          "id": "d2",
+          "context": {
+            "en": "Your teacher says: “Line up quietly at the door.”",
+            "es": "Tu maestra dice: “Line up quietly at the door.”"
+          },
+          "prompt": {
+            "en": "What should you do?",
+            "es": "¿Qué debes hacer?"
+          },
+          "support": {
+            "high": {
+              "en": "“Line up” = make a line; “quietly” = without talking; “at the door” = by the door.",
+              "es": "“Line up” = forma una fila; “quietly” = sin hablar; “at the door” = junto a la puerta."
+            },
+            "medium": {
+              "en": "Where do you go, and how?",
+              "es": "¿A dónde vas, y cómo?"
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "Make a line at the door without talking.",
+                "es": "Forma una fila en la puerta sin hablar."
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "Sit down at your desk and talk.",
+                "es": "Siéntate en tu escritorio y habla."
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "Run around the room.",
+                "es": "Corre por el salón."
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. “Line up quietly at the door” means make a line by the door without talking.",
+                "es": "Correcto. “Line up quietly at the door” significa formar una fila junto a la puerta sin hablar."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "“Line up at the door” means go to the door and make a line, not sit and talk.",
+                "es": "“Line up at the door” significa ir a la puerta y hacer fila, no sentarte y hablar."
+              },
+              "hint": {
+                "en": "What does “line up” mean?",
+                "es": "¿Qué significa “line up”?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "“Quietly” means calm and no talking — not running. Make a line at the door.",
+                "es": "“Quietly” significa con calma y sin hablar, no correr. Forma una fila en la puerta."
+              }
+            }
+          }
+        },
+        {
+          "id": "d3",
+          "context": {
+            "en": "Your teacher says: “Work with a partner on question 3.”",
+            "es": "Tu maestra dice: “Work with a partner on question 3.”"
+          },
+          "prompt": {
+            "en": "What should you do?",
+            "es": "¿Qué debes hacer?"
+          },
+          "support": {
+            "high": {
+              "en": "“Partner” = one other student; “work on question 3” = do question 3 together.",
+              "es": "“Partner” = otro estudiante; “work on question 3” = hagan la pregunta 3 juntos."
+            },
+            "medium": {
+              "en": "Alone or with someone?",
+              "es": "¿Solo o con alguien?"
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "Do question 3 together with one other student.",
+                "es": "Hacer la pregunta 3 junto con otro estudiante."
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "Do every question alone silently.",
+                "es": "Hacer todas las preguntas solo y en silencio."
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "Skip question 3.",
+                "es": "Saltarte la pregunta 3."
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. “Work with a partner” means do it together with one classmate — on question 3.",
+                "es": "Correcto. “Work with a partner” significa hacerlo junto con un compañero, en la pregunta 3."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "“With a partner” means not alone. Team up with one classmate on question 3.",
+                "es": "“With a partner” significa no solo. Júntate con un compañero en la pregunta 3."
+              },
+              "hint": {
+                "en": "What does “partner” mean?",
+                "es": "¿Qué significa “partner”?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "The teacher wants you to DO question 3 with a partner, not skip it.",
+                "es": "La maestra quiere que HAGAS la pregunta 3 con un compañero, no que te la saltes."
+              }
+            }
+          }
+        },
+        {
+          "id": "d4",
+          "context": {
+            "en": "Your teacher says: “Write your name at the top of the page before you start.”",
+            "es": "Tu maestra dice: “Write your name at the top of the page before you start.”"
+          },
+          "prompt": {
+            "en": "What should you do first?",
+            "es": "¿Qué debes hacer primero?"
+          },
+          "support": {
+            "high": {
+              "en": "“At the top” = the upper part; “before you start” = do this first.",
+              "es": "“At the top” = la parte de arriba; “before you start” = haz esto primero."
+            },
+            "medium": {
+              "en": "What goes at the top, and when?",
+              "es": "¿Qué va arriba, y cuándo?"
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "Write your name at the top, then begin the work.",
+                "es": "Escribe tu nombre arriba y luego empieza el trabajo."
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "Start the work and never write your name.",
+                "es": "Empieza el trabajo y nunca escribas tu nombre."
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "Write your name at the bottom after you finish.",
+                "es": "Escribe tu nombre abajo después de terminar."
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. “At the top… before you start” means write your name at the top first, then begin.",
+                "es": "Correcto. “At the top… before you start” significa escribir tu nombre arriba primero y luego empezar."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "You do need your name so the teacher knows whose paper it is. Write it at the top first.",
+                "es": "Sí necesitas tu nombre para que la maestra sepa de quién es el papel. Escríbelo arriba primero."
+              },
+              "hint": {
+                "en": "“Before you start” means when?",
+                "es": "¿“Before you start” significa cuándo?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "The teacher said the TOP, and BEFORE you start — not the bottom after. Name at the top first.",
+                "es": "La maestra dijo ARRIBA, y ANTES de empezar, no abajo después. Nombre arriba primero."
+              }
+            }
+          }
+        },
+        {
+          "id": "d5",
+          "context": {
+            "en": "Your teacher says: “Raise your hand if you have a question.”",
+            "es": "Tu maestra dice: “Raise your hand if you have a question.”"
+          },
+          "prompt": {
+            "en": "What should you do when you have a question?",
+            "es": "¿Qué debes hacer cuando tienes una pregunta?"
+          },
+          "support": {
+            "high": {
+              "en": "“Raise your hand” = put your hand up; then wait to be called on.",
+              "es": "“Raise your hand” = levanta la mano; luego espera a que te llamen."
+            },
+            "medium": {
+              "en": "How do you ask without shouting?",
+              "es": "¿Cómo preguntas sin gritar?"
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "Put your hand up and wait to be called on.",
+                "es": "Levanta la mano y espera a que te llamen."
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "Shout the question out loud.",
+                "es": "Gritar la pregunta en voz alta."
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "Leave your seat and walk to the teacher.",
+                "es": "Levantarte y caminar hacia la maestra."
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. “Raise your hand” means put your hand up and wait — the polite way to ask in class.",
+                "es": "Correcto. “Raise your hand” significa levantar la mano y esperar: la forma cortés de preguntar en clase."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Shouting out interrupts the class. Raise your hand and wait to be called on.",
+                "es": "Gritar interrumpe la clase. Levanta la mano y espera a que te llamen."
+              },
+              "hint": {
+                "en": "What does “raise your hand” mean?",
+                "es": "¿Qué significa “raise your hand”?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "The direction is to raise your hand, not leave your seat. Put your hand up and wait.",
+                "es": "La instrucción es levantar la mano, no dejar tu asiento. Levanta la mano y espera."
+              }
+            }
+          }
+        }
+      ],
+      "ace": {
+        "articulate": true,
+        "connect": false,
+        "extend": true
+      },
+      "clear": {
+        "enabled": false,
+        "emphasis": []
+      },
+      "udl": [
+        "representation.language-support",
+        "representation.auditory",
+        "action-expression.multiple-response-modes",
+        "engagement.relevance"
+      ],
+      "strategies": [
+        "total-physical-response",
+        "read-aloud",
+        "corrective-feedback"
+      ],
+      "standards": {
+        "elps": [
+          {
+            "code": "§120.21(d)(1)(C)",
+            "alignment": "direct",
+            "grades": [
+              4,
+              5
+            ],
+            "rationale": "Students respond accurately to oral classroom directions and requests."
+          },
+          {
+            "code": "§120.21(d)(2)(F)",
+            "alignment": "supporting",
+            "grades": [
+              4,
+              5
+            ],
+            "rationale": "Students confirm understanding by responding to the teacher's direction."
+          }
+        ],
+        "teks": [
+          {
+            "code": "§110.7(b)(1)(A)",
+            "alignment": "direct",
+            "grades": [
+              5
+            ],
+            "rationale": "Students listen actively to interpret a spoken direction and act on it."
+          }
+        ],
+        "slar": []
+      },
+      "printables": [
+        "nav-directions-3-5-008-student",
+        "nav-directions-3-5-008-answer-key"
+      ],
+      "created": "2026-10-11",
+      "updated": "2026-10-11",
+      "status": "reviewed"
+    },
+    {
+      "id": "nav-feelings-3-5-009",
+      "module": "newcomer-navigator",
+      "title": {
+        "en": "Telling How You Feel",
+        "es": "Decir cómo te sientes"
+      },
+      "grades": [
+        4,
+        5
+      ],
+      "gradeBand": "3-5",
+      "subjects": [
+        "elar"
+      ],
+      "duration": 8,
+      "interactionType": "context-choice",
+      "targetLanguage": "en",
+      "supportedHomeLanguages": [
+        "es"
+      ],
+      "languagePair": "en-es",
+      "studentGoal": {
+        "en": "Tell an adult at school clearly and politely how you feel or what you need — sick, confused, finished, or left out.",
+        "es": "Dile a un adulto en la escuela de forma clara y cortés cómo te sientes o qué necesitas: enfermo, confundido, terminado o excluido."
+      },
+      "studentDirections": {
+        "en": "In each situation, choose the clearest, most polite thing to say in English. It is always okay to tell an adult how you feel. Choose, then select Check.",
+        "es": "En cada situación, elige lo más claro y cortés que puedes decir en inglés. Siempre está bien decirle a un adulto cómo te sientes. Elige y luego selecciona Revisar."
+      },
+      "teacherDirections": {
+        "en": "Newcomers often stay silent when they feel sick, confused, or excluded because they lack the words. These frames give them a safe, polite way to self-advocate. Turn on More support for bilingual frames and role-play each with a caring adult response.",
+        "es": "Los recién llegados a menudo se quedan callados cuando se sienten enfermos, confundidos o excluidos porque les faltan las palabras. Estos marcos les dan una forma segura y cortés de defenderse. Activa Más apoyo para marcos bilingües y representen cada uno con una respuesta amable de un adulto."
+      },
+      "languageFunction": {
+        "en": "Expressing feelings and needs politely to a trusted adult.",
+        "es": "Expresar sentimientos y necesidades con cortesía a un adulto de confianza."
+      },
+      "materials": [],
+      "items": [
+        {
+          "id": "f1",
+          "context": {
+            "en": "Your stomach hurts and you do not feel well in class.",
+            "es": "Te duele el estómago y no te sientes bien en clase."
+          },
+          "prompt": {
+            "en": "What is the best thing to say to your teacher?",
+            "es": "¿Qué es lo mejor que puedes decirle a tu maestra?"
+          },
+          "support": {
+            "high": {
+              "en": "Frame: “Excuse me, I don't feel well. My stomach hurts.”",
+              "es": "Marco: “Excuse me, I don't feel well. My stomach hurts.”"
+            },
+            "medium": {
+              "en": "Tell the teacher you feel sick.",
+              "es": "Dile a la maestra que te sientes enferma."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "“Excuse me, I don't feel well. My stomach hurts.”",
+                "es": "“Excuse me, I don't feel well. My stomach hurts.”"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "Say nothing and put your head down.",
+                "es": "No decir nada y poner la cabeza sobre el escritorio."
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "“Goodbye.”",
+                "es": "“Goodbye.”"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. Telling the teacher clearly lets her help you — maybe a visit to the nurse.",
+                "es": "Correcto. Decirle a la maestra con claridad le permite ayudarte, quizás una visita a la enfermera."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "If you stay silent, no one knows you feel sick. Tell the teacher: “I don't feel well.”",
+                "es": "Si te quedas callada, nadie sabe que te sientes enferma. Dile a la maestra: “I don't feel well.”"
+              },
+              "hint": {
+                "en": "How can the teacher help if she doesn't know?",
+                "es": "¿Cómo puede ayudarte la maestra si no lo sabe?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "“Goodbye” doesn't tell the teacher what's wrong. Say you don't feel well.",
+                "es": "“Goodbye” no le dice a la maestra qué pasa. Di que no te sientes bien."
+              }
+            }
+          }
+        },
+        {
+          "id": "f2",
+          "context": {
+            "en": "The teacher explained the activity, but you did not understand what to do.",
+            "es": "La maestra explicó la actividad, pero no entendiste qué hacer."
+          },
+          "prompt": {
+            "en": "What is the best thing to say?",
+            "es": "¿Qué es lo mejor que puedes decir?"
+          },
+          "support": {
+            "high": {
+              "en": "Frame: “I'm sorry, I don't understand. Can you explain again?”",
+              "es": "Marco: “I'm sorry, I don't understand. Can you explain again?”"
+            },
+            "medium": {
+              "en": "It is okay to ask for the directions again.",
+              "es": "Está bien pedir las instrucciones otra vez."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "“I'm sorry, I don't understand. Can you explain again, please?”",
+                "es": "“I'm sorry, I don't understand. Can you explain again, please?”"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "Pretend you understand and do nothing.",
+                "es": "Fingir que entiendes y no hacer nada."
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "Copy your neighbor without asking.",
+                "es": "Copiar a tu compañero sin preguntar."
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. Asking politely for another explanation is exactly how to get unstuck — teachers expect this.",
+                "es": "Correcto. Pedir con cortesía otra explicación es justo cómo salir del atasco: las maestras lo esperan."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Pretending means you stay confused. Ask: “I don't understand. Can you explain again?”",
+                "es": "Fingir hace que sigas confundida. Pregunta: “I don't understand. Can you explain again?”"
+              },
+              "hint": {
+                "en": "Is it okay to ask for help?",
+                "es": "¿Está bien pedir ayuda?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "Copying doesn't help you learn, and it's not honest. Ask the teacher to explain again.",
+                "es": "Copiar no te ayuda a aprender, y no es honesto. Pide a la maestra que explique de nuevo."
+              }
+            }
+          }
+        },
+        {
+          "id": "f3",
+          "context": {
+            "en": "You finished your work early and you are not sure what to do next.",
+            "es": "Terminaste tu trabajo temprano y no estás segura de qué hacer después."
+          },
+          "prompt": {
+            "en": "What is the best thing to ask?",
+            "es": "¿Qué es lo mejor que puedes preguntar?"
+          },
+          "support": {
+            "high": {
+              "en": "Frame: “I'm finished. What should I do next?”",
+              "es": "Marco: “I'm finished. What should I do next?”"
+            },
+            "medium": {
+              "en": "Tell the teacher you're done and ask what's next.",
+              "es": "Dile a la maestra que terminaste y pregunta qué sigue."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "“Excuse me, I'm finished. What should I do next?”",
+                "es": "“Excuse me, I'm finished. What should I do next?”"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "Talk loudly to friends and disturb the class.",
+                "es": "Hablar fuerte con amigos y molestar a la clase."
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "Leave the classroom.",
+                "es": "Salir del salón."
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. Telling the teacher you're done and asking what's next keeps you learning and shows responsibility.",
+                "es": "Correcto. Decirle a la maestra que terminaste y preguntar qué sigue te mantiene aprendiendo y muestra responsabilidad."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Being loud disturbs others. Quietly ask the teacher what to do next.",
+                "es": "Hablar fuerte molesta a los demás. Pregúntale a la maestra en voz baja qué hacer después."
+              },
+              "hint": {
+                "en": "How do you ask without disturbing the class?",
+                "es": "¿Cómo preguntas sin molestar a la clase?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "You can't leave without permission. Ask the teacher what to do next.",
+                "es": "No puedes salir sin permiso. Pregúntale a la maestra qué hacer después."
+              }
+            }
+          }
+        },
+        {
+          "id": "f4",
+          "context": {
+            "en": "At recess, some students are playing a game and you would like to join.",
+            "es": "En el recreo, unos estudiantes juegan y a ti te gustaría unirte."
+          },
+          "prompt": {
+            "en": "What is a friendly way to ask to join?",
+            "es": "¿Cuál es una forma amistosa de pedir unirte?"
+          },
+          "support": {
+            "high": {
+              "en": "Frame: “Can I play too?” said with a smile.",
+              "es": "Marco: “Can I play too?” dicho con una sonrisa."
+            },
+            "medium": {
+              "en": "Ask kindly if you can join.",
+              "es": "Pregunta con amabilidad si puedes unirte."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "“Hi! Can I play too?”",
+                "es": "“Hi! Can I play too?”"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "Grab the ball and start playing without asking.",
+                "es": "Agarrar la pelota y empezar a jugar sin preguntar."
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "Watch sadly and say nothing.",
+                "es": "Mirar con tristeza y no decir nada."
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. A friendly “Can I play too?” is a clear, polite way to join a game.",
+                "es": "Correcto. Un amistoso “Can I play too?” es una forma clara y cortés de unirte a un juego."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Taking the ball without asking can upset others. Ask first: “Can I play too?”",
+                "es": "Agarrar la pelota sin preguntar puede molestar a los demás. Pregunta primero: “Can I play too?”"
+              },
+              "hint": {
+                "en": "What could you ask before joining?",
+                "es": "¿Qué podrías preguntar antes de unirte?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "If you say nothing, they may not know you want to join. It's okay to ask.",
+                "es": "Si no dices nada, quizás no sepan que quieres unirte. Está bien preguntar."
+              }
+            }
+          }
+        },
+        {
+          "id": "f5",
+          "context": {
+            "en": "You need to use the restroom during class.",
+            "es": "Necesitas usar el baño durante la clase."
+          },
+          "prompt": {
+            "en": "What is the best thing to say?",
+            "es": "¿Qué es lo mejor que puedes decir?"
+          },
+          "support": {
+            "high": {
+              "en": "Frame: “Excuse me, may I use the restroom, please?”",
+              "es": "Marco: “Excuse me, may I use the restroom, please?”"
+            },
+            "medium": {
+              "en": "Ask permission politely.",
+              "es": "Pide permiso con cortesía."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "“Excuse me, may I use the restroom, please?”",
+                "es": "“Excuse me, may I use the restroom, please?”"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "Leave the room without asking.",
+                "es": "Salir del salón sin preguntar."
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "“Bathroom!” shouted across the room.",
+                "es": "Gritar “Bathroom!” a través del salón."
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. Asking permission politely is the correct way to leave class for the restroom.",
+                "es": "Correcto. Pedir permiso con cortesía es la forma correcta de salir de clase para ir al baño."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "You need permission first. Ask: “May I use the restroom, please?”",
+                "es": "Primero necesitas permiso. Pregunta: “May I use the restroom, please?”"
+              },
+              "hint": {
+                "en": "Do you need to ask first?",
+                "es": "¿Necesitas preguntar primero?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "Shouting interrupts the class. Raise your hand and ask politely.",
+                "es": "Gritar interrumpe la clase. Levanta la mano y pide con cortesía."
+              }
+            }
+          }
+        }
+      ],
+      "ace": {
+        "articulate": true,
+        "connect": true,
+        "extend": true
+      },
+      "clear": {
+        "enabled": false,
+        "emphasis": []
+      },
+      "udl": [
+        "representation.language-support",
+        "action-expression.multiple-response-modes",
+        "engagement.relevance",
+        "engagement.self-regulation"
+      ],
+      "strategies": [
+        "sentence-frames",
+        "role-play",
+        "corrective-feedback"
+      ],
+      "standards": {
+        "elps": [
+          {
+            "code": "§120.21(d)(2)(F)",
+            "alignment": "direct",
+            "grades": [
+              4,
+              5
+            ],
+            "rationale": "Students ask questions and express needs during classroom interactions."
+          },
+          {
+            "code": "§120.21(d)(2)(D)",
+            "alignment": "supporting",
+            "grades": [
+              4,
+              5
+            ],
+            "rationale": "Students use a polite register to tell an adult how they feel."
+          }
+        ],
+        "teks": [
+          {
+            "code": "§110.7(b)(1)(A)",
+            "alignment": "supporting",
+            "grades": [
+              5
+            ],
+            "rationale": "Students make pertinent comments and ask relevant questions to meet a need."
+          }
+        ],
+        "slar": []
+      },
+      "printables": [
+        "nav-feelings-3-5-009-student",
+        "nav-feelings-3-5-009-answer-key"
+      ],
+      "created": "2026-10-11",
+      "updated": "2026-10-11",
+      "status": "reviewed"
+    },
+    {
+      "id": "nav-offices-9-12-010",
+      "module": "newcomer-navigator",
+      "title": {
+        "en": "School Offices and Forms",
+        "es": "Oficinas y formularios de la escuela"
+      },
+      "grades": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "gradeBand": "9-12",
+      "subjects": [
+        "elar"
+      ],
+      "duration": 10,
+      "interactionType": "context-choice",
+      "targetLanguage": "en",
+      "supportedHomeLanguages": [
+        "es"
+      ],
+      "languagePair": "en-es",
+      "studentGoal": {
+        "en": "Know where to go and whom to ask in a big high school — the attendance office, the counselor, the nurse, the registrar — and understand those words from context.",
+        "es": "Sabe a dónde ir y a quién preguntar en una preparatoria grande —la oficina de asistencia, el consejero, la enfermera, el registrador— y entiende esas palabras por el contexto."
+      },
+      "studentDirections": {
+        "en": "Read each situation. Choose the right office or person — and use the clues to understand new school words. Choose, then select Check.",
+        "es": "Lee cada situación. Elige la oficina o persona correcta, y usa las pistas para entender palabras escolares nuevas. Elige y luego selecciona Revisar."
+      },
+      "teacherDirections": {
+        "en": "Large secondary campuses have specialized offices that confuse newcomers. Items mix 'where do I go' with meaning-from-context for the office terms (attendance office, registrar, counselor). Localize the office names to your campus, and consider a quick map walk.",
+        "es": "Los planteles de secundaria grandes tienen oficinas especializadas que confunden a los recién llegados. Los ejercicios combinan 'a dónde voy' con deducir el significado por el contexto de los nombres de oficinas (attendance office, registrar, counselor). Adapta los nombres de las oficinas a tu plantel, y considera un recorrido rápido con un mapa."
+      },
+      "languageFunction": {
+        "en": "Determining where to go for a need and inferring the meaning of office terms from context.",
+        "es": "Determinar a dónde ir según una necesidad e inferir el significado de términos de oficina por el contexto."
+      },
+      "materials": [],
+      "items": [
+        {
+          "id": "o1",
+          "context": {
+            "en": "You were absent yesterday. The office that records who is present or absent is called the “attendance office.”",
+            "es": "Faltaste ayer. La oficina que registra quién está presente o ausente se llama “attendance office.”"
+          },
+          "prompt": {
+            "en": "Where should you bring your absence note?",
+            "es": "¿A dónde debes llevar tu nota de ausencia?"
+          },
+          "support": {
+            "high": {
+              "en": "Clue: “attendance” = who is present or absent. Bring the note there.",
+              "es": "Pista: “attendance” = quién está presente o ausente. Lleva la nota ahí."
+            },
+            "medium": {
+              "en": "Which office handles absences?",
+              "es": "¿Qué oficina maneja las ausencias?"
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "The attendance office",
+                "es": "La oficina de asistencia (attendance office)"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "The cafeteria",
+                "es": "La cafetería"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "The gym",
+                "es": "El gimnasio"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right — you used the clue. “Attendance” is about who is present or absent, so an absence note goes to the attendance office.",
+                "es": "Correcto: usaste la pista. “Attendance” trata de quién está presente o ausente, así que una nota de ausencia va a la oficina de asistencia."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "The cafeteria is for lunch. The clue says “attendance” = present or absent — that's the attendance office.",
+                "es": "La cafetería es para el almuerzo. La pista dice “attendance” = presente o ausente: esa es la oficina de asistencia."
+              },
+              "hint": {
+                "en": "What does “attendance” mean?",
+                "es": "¿Qué significa “attendance”?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "The gym is for PE. An absence note goes to the attendance office.",
+                "es": "El gimnasio es para educación física. Una nota de ausencia va a la oficina de asistencia."
+              }
+            }
+          }
+        },
+        {
+          "id": "o2",
+          "context": {
+            "en": "You feel sick during class and think you might need to go home.",
+            "es": "Te sientes enfermo durante la clase y crees que tal vez necesites irte a casa."
+          },
+          "prompt": {
+            "en": "Who should you ask to see?",
+            "es": "¿A quién debes pedir ver?"
+          },
+          "support": {
+            "high": {
+              "en": "The school nurse helps students who feel sick or hurt.",
+              "es": "La enfermera de la escuela ayuda a los estudiantes que se sienten enfermos o lastimados."
+            },
+            "medium": {
+              "en": "Who handles health at school?",
+              "es": "¿Quién se encarga de la salud en la escuela?"
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "The school nurse",
+                "es": "La enfermera de la escuela"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "The librarian",
+                "es": "El bibliotecario"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "The coach",
+                "es": "El entrenador"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. The nurse handles health — tell your teacher and ask to see the nurse.",
+                "es": "Correcto. La enfermera se encarga de la salud: dile a tu maestro y pide ver a la enfermera."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "The librarian helps with books, not health. Ask to see the nurse.",
+                "es": "El bibliotecario ayuda con los libros, no con la salud. Pide ver a la enfermera."
+              },
+              "hint": {
+                "en": "Who helps when you feel sick?",
+                "es": "¿Quién ayuda cuando te sientes enfermo?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "The coach leads sports. For feeling sick, ask to see the nurse.",
+                "es": "El entrenador dirige los deportes. Si te sientes enfermo, pide ver a la enfermera."
+              }
+            }
+          }
+        },
+        {
+          "id": "o3",
+          "context": {
+            "en": "You want to change one of your classes. The person who helps you with your schedule and classes is called the “counselor.”",
+            "es": "Quieres cambiar una de tus clases. La persona que te ayuda con tu horario y tus clases se llama “counselor.”"
+          },
+          "prompt": {
+            "en": "Who should you make an appointment with?",
+            "es": "¿Con quién debes hacer una cita?"
+          },
+          "support": {
+            "high": {
+              "en": "Clue: the counselor helps with your schedule and classes.",
+              "es": "Pista: el consejero ayuda con tu horario y tus clases."
+            },
+            "medium": {
+              "en": "Who helps with schedules?",
+              "es": "¿Quién ayuda con los horarios?"
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "The counselor",
+                "es": "El consejero (counselor)"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "The custodian",
+                "es": "El conserje"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "The bus driver",
+                "es": "El conductor del autobús"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right — the clue told you: the counselor helps with your schedule and classes, so make an appointment with the counselor.",
+                "es": "Correcto: la pista te lo dijo: el consejero ayuda con tu horario y tus clases, así que haz una cita con el consejero."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "The custodian keeps the building clean. Schedules are the counselor's job.",
+                "es": "El conserje mantiene limpio el edificio. Los horarios son trabajo del consejero."
+              },
+              "hint": {
+                "en": "Who did the clue say helps with classes?",
+                "es": "¿Quién dijo la pista que ayuda con las clases?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "The bus driver handles transportation. For a schedule change, see the counselor.",
+                "es": "El conductor del autobús se encarga del transporte. Para un cambio de horario, ve con el consejero."
+              }
+            }
+          }
+        },
+        {
+          "id": "o4",
+          "context": {
+            "en": "Your old school needs to send your records. The office worker who keeps student records and enrollment is called the “registrar.”",
+            "es": "Tu escuela anterior necesita enviar tus registros. La persona de la oficina que guarda los registros de estudiantes y la inscripción se llama “registrar.”"
+          },
+          "prompt": {
+            "en": "What does the “registrar” most likely do?",
+            "es": "¿Qué hace probablemente el “registrar”?"
+          },
+          "support": {
+            "high": {
+              "en": "Clue: keeps student records and enrollment. The word is related to 'register.'",
+              "es": "Pista: guarda los registros de estudiantes y la inscripción. La palabra se relaciona con 'register.'"
+            },
+            "medium": {
+              "en": "What does the sentence say the registrar keeps?",
+              "es": "¿Qué dice la oración que guarda el registrar?"
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "Keeps and sends student records and handles enrollment",
+                "es": "Guarda y envía los registros de estudiantes y maneja la inscripción"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "Cooks the school lunches",
+                "es": "Cocina los almuerzos de la escuela"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "Coaches the basketball team",
+                "es": "Entrena al equipo de básquetbol"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right — you used the clue and the word 'register.' The registrar keeps student records and handles enrollment, so that office sends your records.",
+                "es": "Correcto: usaste la pista y la palabra 'register.' El registrar guarda los registros de estudiantes y maneja la inscripción, así que esa oficina envía tus registros."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Cooking is the cafeteria staff. The clue says the registrar keeps records and enrollment.",
+                "es": "Cocinar es del personal de la cafetería. La pista dice que el registrar guarda registros e inscripción."
+              },
+              "hint": {
+                "en": "What word is 'registrar' related to?",
+                "es": "¿Con qué palabra se relaciona 'registrar'?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "Coaching is the coach's role. The registrar handles records and enrollment.",
+                "es": "Entrenar es el papel del entrenador. El registrar maneja los registros y la inscripción."
+              }
+            }
+          }
+        },
+        {
+          "id": "o5",
+          "context": {
+            "en": "You lost your student ID card and need a new one. The main office (front office) handles IDs.",
+            "es": "Perdiste tu tarjeta de identificación de estudiante y necesitas una nueva. La oficina principal (front office) maneja las identificaciones."
+          },
+          "prompt": {
+            "en": "What is the best thing to say at the front office?",
+            "es": "¿Qué es lo mejor que puedes decir en la oficina principal?"
+          },
+          "support": {
+            "high": {
+              "en": "Frame: “Excuse me, I lost my student ID. How can I get a new one?”",
+              "es": "Marco: “Excuse me, I lost my student ID. How can I get a new one?”"
+            },
+            "medium": {
+              "en": "Explain the problem and ask what to do.",
+              "es": "Explica el problema y pregunta qué hacer."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "“Excuse me, I lost my student ID. How can I get a new one?”",
+                "es": "“Excuse me, I lost my student ID. How can I get a new one?”"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "Say nothing and go without an ID all year.",
+                "es": "No decir nada y pasar todo el año sin identificación."
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "“ID. Now.”",
+                "es": "“ID. Now.”"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. You explain the problem clearly and ask the next step — polite and effective at the front office.",
+                "es": "Correcto. Explicas el problema con claridad y preguntas el siguiente paso: cortés y efectivo en la oficina principal."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "You usually need your ID for the library, lunch, and tests. Ask the front office for a new one.",
+                "es": "Normalmente necesitas tu identificación para la biblioteca, el almuerzo y los exámenes. Pide una nueva en la oficina principal."
+              },
+              "hint": {
+                "en": "Who did the clue say handles IDs?",
+                "es": "¿Quién dijo la pista que maneja las identificaciones?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "“ID. Now.” is a demand and sounds rude. Explain politely and ask how to get a new one.",
+                "es": "“ID. Now.” es una exigencia y suena grosero. Explica con cortesía y pregunta cómo obtener una nueva."
+              }
+            }
+          }
+        }
+      ],
+      "ace": {
+        "articulate": true,
+        "connect": true,
+        "extend": true
+      },
+      "clear": {
+        "enabled": false,
+        "emphasis": []
+      },
+      "udl": [
+        "representation.language-support",
+        "representation.context",
+        "action-expression.multiple-response-modes",
+        "engagement.relevance"
+      ],
+      "strategies": [
+        "context-clues",
+        "sentence-frames",
+        "role-play",
+        "corrective-feedback"
+      ],
+      "standards": {
+        "elps": [
+          {
+            "code": "§120.21(d)(1)(C)",
+            "alignment": "direct",
+            "grades": [
+              9,
+              10,
+              11,
+              12
+            ],
+            "rationale": "Students respond accurately to information about where to go and whom to ask."
+          },
+          {
+            "code": "§120.21(d)(2)(F)",
+            "alignment": "supporting",
+            "grades": [
+              9,
+              10,
+              11,
+              12
+            ],
+            "rationale": "Students ask clear questions to resolve a school-navigation need."
+          }
+        ],
+        "teks": [
+          {
+            "code": "§110.36(c)(2)(B)",
+            "alignment": "supporting",
+            "grades": [
+              9
+            ],
+            "rationale": "Students analyze context to determine the meaning of office terms such as registrar and attendance."
+          },
+          {
+            "code": "§110.37(c)(2)(B)",
+            "alignment": "supporting",
+            "grades": [
+              10
+            ],
+            "rationale": "Students analyze context to determine the meaning of unfamiliar school-office terms."
+          }
+        ],
+        "slar": []
+      },
+      "printables": [
+        "nav-offices-9-12-010-student",
+        "nav-offices-9-12-010-answer-key"
+      ],
+      "created": "2026-10-11",
+      "updated": "2026-10-11",
+      "status": "reviewed"
     }
   ]
 }
