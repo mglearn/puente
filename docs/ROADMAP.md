@@ -1,8 +1,8 @@
 # Roadmap
 
-## Current state (2026-09-17)
+## Current state (2026-10-11)
 
-**Live at https://mglearn.github.io/puente/** — 3 launch modules, **22 activities**
+**Live at https://mglearn.github.io/puente/** — 3 launch modules, **23 activities**
 across **all four grade bands K–2, 3–5, 6–8, 9–12**, **25 verified standards** (0 pending),
 full site navigation, 18 smoke tests + 5 validators (data / standards / locales / links /
 contrast) all green.
@@ -12,8 +12,16 @@ contrast) all green.
   Friend Detective (CLEAR) · Academic False Friends (6–8) · Academic Cognate Sort (6–8)
 - **Academic Language Lab (7):** Academic Talk Moves · Say It Three Ways · Evidence Match ·
   Build the Explanation · Shades of Meaning (9–10) · Sentence Expansion · Compare It
-- **Newcomer Navigator (5):** What Do You Say? · Build the Question · What Does That Mean? ·
-  Conversation Repair · Getting Help at School
+- **Newcomer Navigator (6):** What Do You Say? · Build the Question · What Does That Mean? ·
+  Conversation Repair · Getting Help at School · Navigating Middle School (6–8)
+
+**2026-10-11:** added **Navigating Middle School** (`nav-navigate-6-8-006`, context-choice,
+6 items) — the first **6–8** Newcomer Navigator activity, breaking that module out of the
+3–5-only band. Older newcomers handle a secondary schedule: changing classes, making up
+missed work, advisory, group projects, permission slips. Two items (tardy, advisory) are
+meaning-from-context, honestly correlated to the grade 6/7/8 vocabulary-in-context TEKS
+(§110.22/23/24(b)(2)(B), *supporting*); the speaking/listening moves correlate to ELPS
+§120.21(d)(2)(F) direct + (2)(D)/(1)(C) supporting. EN + ES throughout. Check stays green.
 
 **Launch readiness (2026-09-18):** linked from the mglearn hub (`mglearn.github.io`
 Language Bridge card → `/puente/`). All ELPS codes now **two-source confirmed**
@@ -38,9 +46,11 @@ generic/abstract "animal" grouping if that cognate card is wanted.
 
 ## Next
 
-1. **Depth toward MVP.** Cognate Detective 8/24, Academic Language Lab 5/32, Newcomer 4/30 —
+1. **Depth toward MVP.** Cognate Detective 10/24, Academic Language Lab 7/32, Newcomer 6/30 —
    all feed the shared engines. 4 optional K–2 cards (animal, chocolate, doctor, telephone)
    are already delivered + `available` in the manifest, ready for more K–2 picture items.
+   Newcomer Navigator now spans 3–5 and 6–8; a K–2 and a 9–12 newcomer activity would
+   complete its band coverage. Academic Language Lab still has no K–2 or 6–8 activity.
 3. **A11y round two** (real AT walkthrough, print QA, axe) and **Spanish review** (the 2 `reviewed`
    locale keys are an intentional QC-gate fixture — see es.json `_meta`).
 

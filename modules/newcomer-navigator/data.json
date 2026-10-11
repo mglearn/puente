@@ -7,18 +7,21 @@
         "en": "What Do You Say?",
         "es": "¿Qué dices?"
       },
-
-      "grades": [4, 5],
+      "grades": [
+        4,
+        5
+      ],
       "gradeBand": "3-5",
-      "subjects": ["elar"],
+      "subjects": [
+        "elar"
+      ],
       "duration": 8,
-
       "interactionType": "scenario-choice",
-
       "targetLanguage": "en",
-      "supportedHomeLanguages": ["es"],
+      "supportedHomeLanguages": [
+        "es"
+      ],
       "languagePair": "en-es",
-
       "studentGoal": {
         "en": "Choose polite, clear English to ask for help and join in during everyday school situations.",
         "es": "Elige un inglés cortés y claro para pedir ayuda y participar en situaciones cotidianas de la escuela."
@@ -35,9 +38,7 @@
         "en": "Social and instructional language: requesting, asking for help, and joining an activity politely.",
         "es": "Lenguaje social e instruccional: pedir, solicitar ayuda y unirse a una actividad con cortesía."
       },
-
       "materials": [],
-
       "items": [
         {
           "id": "n1",
@@ -61,19 +62,55 @@
             }
           },
           "choices": [
-            { "id": "a", "label": { "en": "\"Excuse me, what is this, please?\"", "es": "\"Excuse me, what is this, please?\"" } },
-            { "id": "b", "label": { "en": "\"Give me that.\"", "es": "\"Give me that.\" (Dame eso.)" } },
-            { "id": "c", "label": { "en": "\"Hey, what food?\"", "es": "\"Hey, what food?\"" } }
+            {
+              "id": "a",
+              "label": {
+                "en": "\"Excuse me, what is this, please?\"",
+                "es": "\"Excuse me, what is this, please?\""
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "\"Give me that.\"",
+                "es": "\"Give me that.\" (Dame eso.)"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "\"Hey, what food?\"",
+                "es": "\"Hey, what food?\""
+              }
+            }
           ],
           "answer": "a",
           "feedback": {
-            "a": { "correct": true,
-              "why": { "en": "Polite and clear. \"Excuse me, what is this, please?\" is a friendly way to ask, and the server can help you.", "es": "Cortés y claro. \"Excuse me, what is this, please?\" es una manera amable de preguntar, y la persona puede ayudarte." } },
-            "b": { "correct": false,
-              "why": { "en": "This sounds like a command, not a request. Add \"Excuse me\" and \"please\" to be polite.", "es": "Esto suena como una orden, no como una petición. Agrega \"Excuse me\" y \"please\" para ser cortés." },
-              "hint": { "en": "Start with \"Excuse me...\"", "es": "Empieza con \"Excuse me...\"" } },
-            "c": { "correct": false,
-              "why": { "en": "This is too casual and unclear. A full, polite question is easier to understand.", "es": "Esto es demasiado informal y poco claro. Una pregunta completa y cortés es más fácil de entender." } }
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Polite and clear. \"Excuse me, what is this, please?\" is a friendly way to ask, and the server can help you.",
+                "es": "Cortés y claro. \"Excuse me, what is this, please?\" es una manera amable de preguntar, y la persona puede ayudarte."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "This sounds like a command, not a request. Add \"Excuse me\" and \"please\" to be polite.",
+                "es": "Esto suena como una orden, no como una petición. Agrega \"Excuse me\" y \"please\" para ser cortés."
+              },
+              "hint": {
+                "en": "Start with \"Excuse me...\"",
+                "es": "Empieza con \"Excuse me...\""
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "This is too casual and unclear. A full, polite question is easier to understand.",
+                "es": "Esto es demasiado informal y poco claro. Una pregunta completa y cortés es más fácil de entender."
+              }
+            }
           }
         },
         {
@@ -98,19 +135,55 @@
             }
           },
           "choices": [
-            { "id": "a", "label": { "en": "\"I don't feel well. My stomach hurts.\"", "es": "\"I don't feel well. My stomach hurts.\"" } },
-            { "id": "b", "label": { "en": "\"Bad.\"", "es": "\"Bad.\" (Mal.)" } },
-            { "id": "c", "label": { "en": "\"I'm fine.\"", "es": "\"I'm fine.\" (Estoy bien.)" } }
+            {
+              "id": "a",
+              "label": {
+                "en": "\"I don't feel well. My stomach hurts.\"",
+                "es": "\"I don't feel well. My stomach hurts.\""
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "\"Bad.\"",
+                "es": "\"Bad.\" (Mal.)"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "\"I'm fine.\"",
+                "es": "\"I'm fine.\" (Estoy bien.)"
+              }
+            }
           ],
           "answer": "a",
           "feedback": {
-            "a": { "correct": true,
-              "why": { "en": "Clear and specific. Telling the nurse exactly what hurts helps them help you.", "es": "Claro y específico. Decirle a la enfermera exactamente qué te duele le ayuda a ayudarte." } },
-            "b": { "correct": false,
-              "why": { "en": "This is too vague. Say what feels wrong — for example, \"My stomach hurts.\"", "es": "Esto es muy vago. Di qué te molesta; por ejemplo, \"My stomach hurts.\"" },
-              "hint": { "en": "Use \"My ___ hurts.\"", "es": "Usa \"My ___ hurts.\"" } },
-            "c": { "correct": false,
-              "why": { "en": "If you feel sick, \"I'm fine\" hides the problem. Tell the nurse how you really feel.", "es": "Si te sientes mal, \"I'm fine\" oculta el problema. Dile a la enfermera cómo te sientes de verdad." } }
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Clear and specific. Telling the nurse exactly what hurts helps them help you.",
+                "es": "Claro y específico. Decirle a la enfermera exactamente qué te duele le ayuda a ayudarte."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "This is too vague. Say what feels wrong — for example, \"My stomach hurts.\"",
+                "es": "Esto es muy vago. Di qué te molesta; por ejemplo, \"My stomach hurts.\""
+              },
+              "hint": {
+                "en": "Use \"My ___ hurts.\"",
+                "es": "Usa \"My ___ hurts.\""
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "If you feel sick, \"I'm fine\" hides the problem. Tell the nurse how you really feel.",
+                "es": "Si te sientes mal, \"I'm fine\" oculta el problema. Dile a la enfermera cómo te sientes de verdad."
+              }
+            }
           }
         },
         {
@@ -135,19 +208,55 @@
             }
           },
           "choices": [
-            { "id": "a", "label": { "en": "\"Excuse me, may I use the restroom?\"", "es": "\"Excuse me, may I use the restroom?\"" } },
-            { "id": "b", "label": { "en": "\"I go bathroom now.\"", "es": "\"I go bathroom now.\"" } },
-            { "id": "c", "label": { "en": "(Leave the room without asking.)", "es": "(Salir del salón sin preguntar.)" } }
+            {
+              "id": "a",
+              "label": {
+                "en": "\"Excuse me, may I use the restroom?\"",
+                "es": "\"Excuse me, may I use the restroom?\""
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "\"I go bathroom now.\"",
+                "es": "\"I go bathroom now.\""
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "(Leave the room without asking.)",
+                "es": "(Salir del salón sin preguntar.)"
+              }
+            }
           ],
           "answer": "a",
           "feedback": {
-            "a": { "correct": true,
-              "why": { "en": "A polite request with \"may I.\" Ask, then wait for your teacher to say yes.", "es": "Una petición cortés con \"may I.\" Pregunta y luego espera a que tu maestra diga que sí." } },
-            "b": { "correct": false,
-              "why": { "en": "People will understand you, but ask politely and wait for permission: \"Excuse me, may I...?\"", "es": "Te entenderán, pero pide con cortesía y espera permiso: \"Excuse me, may I...?\"" },
-              "hint": { "en": "Use \"May I...?\" and wait for the answer.", "es": "Usa \"May I...?\" y espera la respuesta." } },
-            "c": { "correct": false,
-              "why": { "en": "Always ask first. Leaving without asking can worry your teacher.", "es": "Siempre pregunta primero. Salir sin preguntar puede preocupar a tu maestra." } }
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "A polite request with \"may I.\" Ask, then wait for your teacher to say yes.",
+                "es": "Una petición cortés con \"may I.\" Pregunta y luego espera a que tu maestra diga que sí."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "People will understand you, but ask politely and wait for permission: \"Excuse me, may I...?\"",
+                "es": "Te entenderán, pero pide con cortesía y espera permiso: \"Excuse me, may I...?\""
+              },
+              "hint": {
+                "en": "Use \"May I...?\" and wait for the answer.",
+                "es": "Usa \"May I...?\" y espera la respuesta."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "Always ask first. Leaving without asking can worry your teacher.",
+                "es": "Siempre pregunta primero. Salir sin preguntar puede preocupar a tu maestra."
+              }
+            }
           }
         },
         {
@@ -172,58 +281,105 @@
             }
           },
           "choices": [
-            { "id": "a", "label": { "en": "\"Hi, can I work with you?\"", "es": "\"Hi, can I work with you?\"" } },
-            { "id": "b", "label": { "en": "\"Move over.\"", "es": "\"Move over.\" (Hazte a un lado.)" } },
-            { "id": "c", "label": { "en": "(Stand nearby and say nothing.)", "es": "(Quedarte cerca sin decir nada.)" } }
+            {
+              "id": "a",
+              "label": {
+                "en": "\"Hi, can I work with you?\"",
+                "es": "\"Hi, can I work with you?\""
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "\"Move over.\"",
+                "es": "\"Move over.\" (Hazte a un lado.)"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "(Stand nearby and say nothing.)",
+                "es": "(Quedarte cerca sin decir nada.)"
+              }
+            }
           ],
           "answer": "a",
           "feedback": {
-            "a": { "correct": true,
-              "why": { "en": "Friendly and clear. \"Can I work with you?\" is a kind way to join a group.", "es": "Amable y claro. \"Can I work with you?\" es una manera amable de unirte a un grupo." } },
-            "b": { "correct": false,
-              "why": { "en": "This sounds bossy. Ask to join in a friendly way instead.", "es": "Esto suena mandón. Mejor pide unirte de una manera amable." },
-              "hint": { "en": "Try \"Can I work with you?\"", "es": "Prueba \"Can I work with you?\"" } },
-            "c": { "correct": false,
-              "why": { "en": "It's okay to ask. Waiting silently might mean you get left out — use your words to join.", "es": "Está bien preguntar. Esperar en silencio puede dejarte fuera; usa tus palabras para unirte." } }
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Friendly and clear. \"Can I work with you?\" is a kind way to join a group.",
+                "es": "Amable y claro. \"Can I work with you?\" es una manera amable de unirte a un grupo."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "This sounds bossy. Ask to join in a friendly way instead.",
+                "es": "Esto suena mandón. Mejor pide unirte de una manera amable."
+              },
+              "hint": {
+                "en": "Try \"Can I work with you?\"",
+                "es": "Prueba \"Can I work with you?\""
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "It's okay to ask. Waiting silently might mean you get left out — use your words to join.",
+                "es": "Está bien preguntar. Esperar en silencio puede dejarte fuera; usa tus palabras para unirte."
+              }
+            }
           }
         }
       ],
-
-      "ace": { "articulate": true, "connect": true, "extend": true },
-
-      "clear": { "enabled": false, "emphasis": [] },
-
+      "ace": {
+        "articulate": true,
+        "connect": true,
+        "extend": true
+      },
+      "clear": {
+        "enabled": false,
+        "emphasis": []
+      },
       "udl": [
         "representation.language-support",
         "representation.context",
         "action-expression.multiple-response-modes",
         "engagement.relevance"
       ],
-
       "strategies": [
         "sentence-frames",
         "role-play",
         "corrective-feedback"
       ],
-
       "standards": {
         "elps": [
           {
             "code": "§120.21(d)(2)(F)",
             "alignment": "direct",
-            "grades": [4, 5],
+            "grades": [
+              4,
+              5
+            ],
             "rationale": "Students ask questions and respond during informal school interactions to get help and join in."
           },
           {
             "code": "§120.21(d)(2)(D)",
             "alignment": "direct",
-            "grades": [4, 5],
+            "grades": [
+              4,
+              5
+            ],
             "rationale": "Students choose an appropriate, polite register for each school situation."
           },
           {
             "code": "§120.21(d)(1)(C)",
             "alignment": "supporting",
-            "grades": [4, 5],
+            "grades": [
+              4,
+              5
+            ],
             "rationale": "Some scenarios require responding accurately to an adult's spoken request."
           }
         ],
@@ -231,15 +387,19 @@
           {
             "code": "§110.7(b)(1)(A)",
             "alignment": "direct",
-            "grades": [4, 5],
+            "grades": [
+              4,
+              5
+            ],
             "rationale": "Students choose pertinent, polite spoken responses and questions to participate in school interactions."
           }
         ],
         "slar": []
       },
-
-      "printables": ["nav-say-3-5-001-student", "nav-say-3-5-001-answer-key"],
-
+      "printables": [
+        "nav-say-3-5-001-student",
+        "nav-say-3-5-001-answer-key"
+      ],
       "created": "2026-09-17",
       "updated": "2026-09-17",
       "status": "reviewed"
@@ -251,18 +411,21 @@
         "en": "Build the Question",
         "es": "Construye la pregunta"
       },
-
-      "grades": [4, 5],
+      "grades": [
+        4,
+        5
+      ],
       "gradeBand": "3-5",
-      "subjects": ["elar"],
+      "subjects": [
+        "elar"
+      ],
       "duration": 8,
-
       "interactionType": "scenario-choice",
-
       "targetLanguage": "en",
-      "supportedHomeLanguages": ["es"],
+      "supportedHomeLanguages": [
+        "es"
+      ],
       "languagePair": "en-es",
-
       "studentGoal": {
         "en": "Choose a clear, correct English question to ask for what you need at school.",
         "es": "Elige una pregunta en inglés clara y correcta para pedir lo que necesitas en la escuela."
@@ -279,9 +442,7 @@
         "en": "Forming clear, polite English questions to request information and help.",
         "es": "Formar preguntas claras y corteses en inglés para pedir información y ayuda."
       },
-
       "materials": [],
-
       "items": [
         {
           "id": "q1",
@@ -289,25 +450,70 @@
             "en": "You did not hear which page the homework is on. You want to ask your teacher.",
             "es": "No escuchaste en qué página está la tarea. Quieres preguntarle a tu maestra."
           },
-          "prompt": { "en": "Which question is correct and clear?", "es": "¿Qué pregunta es correcta y clara?" },
+          "prompt": {
+            "en": "Which question is correct and clear?",
+            "es": "¿Qué pregunta es correcta y clara?"
+          },
           "support": {
-            "high": { "en": "Frame: \"What page is the ___ on?\" / \"¿En qué página está ___?\"", "es": "Marco: \"What page is the ___ on?\" = \"¿En qué página está ___?\"" },
-            "medium": { "en": "English questions often start with a question word: What, Where, Which.", "es": "Las preguntas en inglés suelen empezar con una palabra de pregunta: What, Where, Which." }
+            "high": {
+              "en": "Frame: \"What page is the ___ on?\" / \"¿En qué página está ___?\"",
+              "es": "Marco: \"What page is the ___ on?\" = \"¿En qué página está ___?\""
+            },
+            "medium": {
+              "en": "English questions often start with a question word: What, Where, Which.",
+              "es": "Las preguntas en inglés suelen empezar con una palabra de pregunta: What, Where, Which."
+            }
           },
           "choices": [
-            { "id": "a", "label": { "en": "\"What page is the homework on?\"", "es": "\"What page is the homework on?\"" } },
-            { "id": "b", "label": { "en": "\"What page homework?\"", "es": "\"What page homework?\"" } },
-            { "id": "c", "label": { "en": "\"Homework page what?\"", "es": "\"Homework page what?\"" } }
+            {
+              "id": "a",
+              "label": {
+                "en": "\"What page is the homework on?\"",
+                "es": "\"What page is the homework on?\""
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "\"What page homework?\"",
+                "es": "\"What page homework?\""
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "\"Homework page what?\"",
+                "es": "\"Homework page what?\""
+              }
+            }
           ],
           "answer": "a",
           "feedback": {
-            "a": { "correct": true,
-              "why": { "en": "Correct and clear. It uses a question word and a full sentence: \"What page is the homework on?\"", "es": "Correcta y clara. Usa una palabra de pregunta y una oración completa: \"What page is the homework on?\"" } },
-            "b": { "correct": false,
-              "why": { "en": "People might understand, but it's missing words. A full question is clearer: \"What page is the homework on?\"", "es": "Te podrían entender, pero faltan palabras. Una pregunta completa es más clara: \"What page is the homework on?\"" },
-              "hint": { "en": "Start with \"What page is...?\"", "es": "Empieza con \"What page is...?\"" } },
-            "c": { "correct": false,
-              "why": { "en": "The word order is mixed up. In English the question word usually comes first: \"What page...?\"", "es": "El orden de las palabras está mezclado. En inglés la palabra de pregunta suele ir primero: \"What page...?\"" } }
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Correct and clear. It uses a question word and a full sentence: \"What page is the homework on?\"",
+                "es": "Correcta y clara. Usa una palabra de pregunta y una oración completa: \"What page is the homework on?\""
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "People might understand, but it's missing words. A full question is clearer: \"What page is the homework on?\"",
+                "es": "Te podrían entender, pero faltan palabras. Una pregunta completa es más clara: \"What page is the homework on?\""
+              },
+              "hint": {
+                "en": "Start with \"What page is...?\"",
+                "es": "Empieza con \"What page is...?\""
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "The word order is mixed up. In English the question word usually comes first: \"What page...?\"",
+                "es": "El orden de las palabras está mezclado. En inglés la palabra de pregunta suele ir primero: \"What page...?\""
+              }
+            }
           }
         },
         {
@@ -316,25 +522,70 @@
             "en": "You are new and cannot find the library.",
             "es": "Eres nuevo y no encuentras la biblioteca."
           },
-          "prompt": { "en": "Which question is correct and polite?", "es": "¿Qué pregunta es correcta y cortés?" },
+          "prompt": {
+            "en": "Which question is correct and polite?",
+            "es": "¿Qué pregunta es correcta y cortés?"
+          },
           "support": {
-            "high": { "en": "Frame: \"Excuse me, where is the ___?\" / \"Disculpe, ¿dónde está ___?\"", "es": "Marco: \"Excuse me, where is the ___?\" = \"Disculpe, ¿dónde está ___?\"" },
-            "medium": { "en": "Use \"Where is...?\" and start politely.", "es": "Usa \"Where is...?\" y empieza con cortesía." }
+            "high": {
+              "en": "Frame: \"Excuse me, where is the ___?\" / \"Disculpe, ¿dónde está ___?\"",
+              "es": "Marco: \"Excuse me, where is the ___?\" = \"Disculpe, ¿dónde está ___?\""
+            },
+            "medium": {
+              "en": "Use \"Where is...?\" and start politely.",
+              "es": "Usa \"Where is...?\" y empieza con cortesía."
+            }
           },
           "choices": [
-            { "id": "a", "label": { "en": "\"Excuse me, where is the library?\"", "es": "\"Excuse me, where is the library?\"" } },
-            { "id": "b", "label": { "en": "\"Where library?\"", "es": "\"Where library?\"" } },
-            { "id": "c", "label": { "en": "\"Library is where?\"", "es": "\"Library is where?\"" } }
+            {
+              "id": "a",
+              "label": {
+                "en": "\"Excuse me, where is the library?\"",
+                "es": "\"Excuse me, where is the library?\""
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "\"Where library?\"",
+                "es": "\"Where library?\""
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "\"Library is where?\"",
+                "es": "\"Library is where?\""
+              }
+            }
           ],
           "answer": "a",
           "feedback": {
-            "a": { "correct": true,
-              "why": { "en": "Polite and correct. \"Where is the library?\" uses the right order, and \"Excuse me\" is friendly.", "es": "Cortés y correcta. \"Where is the library?\" usa el orden correcto, y \"Excuse me\" es amable." } },
-            "b": { "correct": false,
-              "why": { "en": "This is missing words. Ask a full question: \"Where is the library?\"", "es": "Faltan palabras. Haz una pregunta completa: \"Where is the library?\"" },
-              "hint": { "en": "Use \"Where is the ___?\"", "es": "Usa \"Where is the ___?\"" } },
-            "c": { "correct": false,
-              "why": { "en": "The order is reversed. Put the question word first: \"Where is the library?\"", "es": "El orden está al revés. Pon la palabra de pregunta primero: \"Where is the library?\"" } }
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Polite and correct. \"Where is the library?\" uses the right order, and \"Excuse me\" is friendly.",
+                "es": "Cortés y correcta. \"Where is the library?\" usa el orden correcto, y \"Excuse me\" es amable."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "This is missing words. Ask a full question: \"Where is the library?\"",
+                "es": "Faltan palabras. Haz una pregunta completa: \"Where is the library?\""
+              },
+              "hint": {
+                "en": "Use \"Where is the ___?\"",
+                "es": "Usa \"Where is the ___?\""
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "The order is reversed. Put the question word first: \"Where is the library?\"",
+                "es": "El orden está al revés. Pon la palabra de pregunta primero: \"Where is the library?\""
+              }
+            }
           }
         },
         {
@@ -343,25 +594,70 @@
             "en": "You are reading and you do not know a word.",
             "es": "Estás leyendo y no conoces una palabra."
           },
-          "prompt": { "en": "Which question is correct?", "es": "¿Qué pregunta es correcta?" },
+          "prompt": {
+            "en": "Which question is correct?",
+            "es": "¿Qué pregunta es correcta?"
+          },
           "support": {
-            "high": { "en": "Frame: \"What does this word mean?\" / \"¿Qué significa esta palabra?\"", "es": "Marco: \"What does this word mean?\" = \"¿Qué significa esta palabra?\"" },
-            "medium": { "en": "English uses \"does\" in this question: \"What does ___ mean?\"", "es": "El inglés usa \"does\" en esta pregunta: \"What does ___ mean?\"" }
+            "high": {
+              "en": "Frame: \"What does this word mean?\" / \"¿Qué significa esta palabra?\"",
+              "es": "Marco: \"What does this word mean?\" = \"¿Qué significa esta palabra?\""
+            },
+            "medium": {
+              "en": "English uses \"does\" in this question: \"What does ___ mean?\"",
+              "es": "El inglés usa \"does\" en esta pregunta: \"What does ___ mean?\""
+            }
           },
           "choices": [
-            { "id": "a", "label": { "en": "\"What does this word mean?\"", "es": "\"What does this word mean?\"" } },
-            { "id": "b", "label": { "en": "\"This word mean what?\"", "es": "\"This word mean what?\"" } },
-            { "id": "c", "label": { "en": "\"What mean this word?\"", "es": "\"What mean this word?\"" } }
+            {
+              "id": "a",
+              "label": {
+                "en": "\"What does this word mean?\"",
+                "es": "\"What does this word mean?\""
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "\"This word mean what?\"",
+                "es": "\"This word mean what?\""
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "\"What mean this word?\"",
+                "es": "\"What mean this word?\""
+              }
+            }
           ],
           "answer": "a",
           "feedback": {
-            "a": { "correct": true,
-              "why": { "en": "Correct. English adds \"does\" here: \"What does this word mean?\"", "es": "Correcta. El inglés agrega \"does\" aquí: \"What does this word mean?\"" } },
-            "b": { "correct": false,
-              "why": { "en": "The question word goes first, and English needs \"does\": \"What does this word mean?\"", "es": "La palabra de pregunta va primero, y el inglés necesita \"does\": \"What does this word mean?\"" },
-              "hint": { "en": "Start with \"What does...\"", "es": "Empieza con \"What does...\"" } },
-            "c": { "correct": false,
-              "why": { "en": "It needs \"does\" before \"this word\": \"What does this word mean?\"", "es": "Necesita \"does\" antes de \"this word\": \"What does this word mean?\"" } }
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Correct. English adds \"does\" here: \"What does this word mean?\"",
+                "es": "Correcta. El inglés agrega \"does\" aquí: \"What does this word mean?\""
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "The question word goes first, and English needs \"does\": \"What does this word mean?\"",
+                "es": "La palabra de pregunta va primero, y el inglés necesita \"does\": \"What does this word mean?\""
+              },
+              "hint": {
+                "en": "Start with \"What does...\"",
+                "es": "Empieza con \"What does...\""
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "It needs \"does\" before \"this word\": \"What does this word mean?\"",
+                "es": "Necesita \"does\" antes de \"this word\": \"What does this word mean?\""
+              }
+            }
           }
         },
         {
@@ -370,57 +666,110 @@
             "en": "You forgot your pencil. You want to borrow one from a classmate.",
             "es": "Olvidaste tu lápiz. Quieres pedir uno prestado a un compañero."
           },
-          "prompt": { "en": "Which question is correct and polite?", "es": "¿Qué pregunta es correcta y cortés?" },
+          "prompt": {
+            "en": "Which question is correct and polite?",
+            "es": "¿Qué pregunta es correcta y cortés?"
+          },
           "support": {
-            "high": { "en": "Frame: \"Can I borrow a ___, please?\" / \"¿Me prestas ___, por favor?\"", "es": "Marco: \"Can I borrow a ___, please?\" = \"¿Me prestas ___, por favor?\"" },
-            "medium": { "en": "Ask permission with \"Can I...?\" and add \"please.\"", "es": "Pide permiso con \"Can I...?\" y agrega \"please.\"" }
+            "high": {
+              "en": "Frame: \"Can I borrow a ___, please?\" / \"¿Me prestas ___, por favor?\"",
+              "es": "Marco: \"Can I borrow a ___, please?\" = \"¿Me prestas ___, por favor?\""
+            },
+            "medium": {
+              "en": "Ask permission with \"Can I...?\" and add \"please.\"",
+              "es": "Pide permiso con \"Can I...?\" y agrega \"please.\""
+            }
           },
           "choices": [
-            { "id": "a", "label": { "en": "\"Can I borrow a pencil, please?\"", "es": "\"Can I borrow a pencil, please?\"" } },
-            { "id": "b", "label": { "en": "\"I borrow pencil?\"", "es": "\"I borrow pencil?\"" } },
-            { "id": "c", "label": { "en": "\"Pencil, give me?\"", "es": "\"Pencil, give me?\"" } }
+            {
+              "id": "a",
+              "label": {
+                "en": "\"Can I borrow a pencil, please?\"",
+                "es": "\"Can I borrow a pencil, please?\""
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "\"I borrow pencil?\"",
+                "es": "\"I borrow pencil?\""
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "\"Pencil, give me?\"",
+                "es": "\"Pencil, give me?\""
+              }
+            }
           ],
           "answer": "a",
           "feedback": {
-            "a": { "correct": true,
-              "why": { "en": "Polite and correct. \"Can I borrow a pencil, please?\" asks permission the right way.", "es": "Cortés y correcta. \"Can I borrow a pencil, please?\" pide permiso de la manera correcta." } },
-            "b": { "correct": false,
-              "why": { "en": "Ask permission with \"Can I...?\" and add \"please\": \"Can I borrow a pencil, please?\"", "es": "Pide permiso con \"Can I...?\" y agrega \"please\": \"Can I borrow a pencil, please?\"" },
-              "hint": { "en": "Start with \"Can I borrow...?\"", "es": "Empieza con \"Can I borrow...?\"" } },
-            "c": { "correct": false,
-              "why": { "en": "This sounds like a command. A polite request is \"Can I borrow a pencil, please?\"", "es": "Esto suena como una orden. Una petición cortés es \"Can I borrow a pencil, please?\"" } }
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Polite and correct. \"Can I borrow a pencil, please?\" asks permission the right way.",
+                "es": "Cortés y correcta. \"Can I borrow a pencil, please?\" pide permiso de la manera correcta."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Ask permission with \"Can I...?\" and add \"please\": \"Can I borrow a pencil, please?\"",
+                "es": "Pide permiso con \"Can I...?\" y agrega \"please\": \"Can I borrow a pencil, please?\""
+              },
+              "hint": {
+                "en": "Start with \"Can I borrow...?\"",
+                "es": "Empieza con \"Can I borrow...?\""
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "This sounds like a command. A polite request is \"Can I borrow a pencil, please?\"",
+                "es": "Esto suena como una orden. Una petición cortés es \"Can I borrow a pencil, please?\""
+              }
+            }
           }
         }
       ],
-
-      "ace": { "articulate": true, "connect": true, "extend": true },
-
-      "clear": { "enabled": false, "emphasis": [] },
-
+      "ace": {
+        "articulate": true,
+        "connect": true,
+        "extend": true
+      },
+      "clear": {
+        "enabled": false,
+        "emphasis": []
+      },
       "udl": [
         "representation.language-support",
         "action-expression.multiple-response-modes",
         "engagement.relevance"
       ],
-
       "strategies": [
         "sentence-frames",
         "role-play",
         "corrective-feedback"
       ],
-
       "standards": {
         "elps": [
           {
             "code": "§120.21(d)(2)(F)",
             "alignment": "direct",
-            "grades": [4, 5],
+            "grades": [
+              4,
+              5
+            ],
             "rationale": "Students ask questions during school interactions to get the information they need."
           },
           {
             "code": "§120.21(d)(2)(D)",
             "alignment": "supporting",
-            "grades": [4, 5],
+            "grades": [
+              4,
+              5
+            ],
             "rationale": "Students choose a polite register when asking for help."
           }
         ],
@@ -428,15 +777,19 @@
           {
             "code": "§110.7(b)(1)(A)",
             "alignment": "direct",
-            "grades": [4, 5],
+            "grades": [
+              4,
+              5
+            ],
             "rationale": "Students ask relevant, well-formed questions to participate in school interactions."
           }
         ],
         "slar": []
       },
-
-      "printables": ["nav-question-3-5-002-student", "nav-question-3-5-002-answer-key"],
-
+      "printables": [
+        "nav-question-3-5-002-student",
+        "nav-question-3-5-002-answer-key"
+      ],
       "created": "2026-09-17",
       "updated": "2026-09-17",
       "status": "reviewed"
@@ -448,18 +801,21 @@
         "en": "What Does That Mean?",
         "es": "¿Qué significa eso?"
       },
-
-      "grades": [4, 5],
+      "grades": [
+        4,
+        5
+      ],
       "gradeBand": "3-5",
-      "subjects": ["elar"],
+      "subjects": [
+        "elar"
+      ],
       "duration": 8,
-
       "interactionType": "scenario-choice",
-
       "targetLanguage": "en",
-      "supportedHomeLanguages": ["es"],
+      "supportedHomeLanguages": [
+        "es"
+      ],
       "languagePair": "en-es",
-
       "studentGoal": {
         "en": "Understand common classroom directions in English and choose the right action.",
         "es": "Comprende las instrucciones comunes del salón en inglés y elige la acción correcta."
@@ -476,117 +832,330 @@
         "en": "Comprehending and responding accurately to spoken classroom directions.",
         "es": "Comprender y responder con precisión a las instrucciones habladas del salón."
       },
-
       "materials": [],
-
       "items": [
         {
           "id": "m1",
-          "context": { "en": "Your teacher says: “Line up at the door.”", "es": "Tu maestra dice: “Line up at the door.”" },
-          "prompt": { "en": "What should you do?", "es": "¿Qué debes hacer?" },
+          "context": {
+            "en": "Your teacher says: “Line up at the door.”",
+            "es": "Tu maestra dice: “Line up at the door.”"
+          },
+          "prompt": {
+            "en": "What should you do?",
+            "es": "¿Qué debes hacer?"
+          },
           "support": {
-            "high": { "en": "“Line up” = form a line, one behind another. / “Line up” = formar una fila, uno detrás de otro.", "es": "“Line up” = formar una fila, uno detrás de otro." }
+            "high": {
+              "en": "“Line up” = form a line, one behind another. / “Line up” = formar una fila, uno detrás de otro.",
+              "es": "“Line up” = formar una fila, uno detrás de otro."
+            }
           },
           "choices": [
-            { "id": "a", "label": { "en": "Stand in a line, one behind another, by the door.", "es": "Ponte en una fila, uno detrás de otro, junto a la puerta." } },
-            { "id": "b", "label": { "en": "Draw a line on your paper.", "es": "Dibuja una línea en tu papel." } },
-            { "id": "c", "label": { "en": "Sit down at your desk.", "es": "Siéntate en tu escritorio." } }
+            {
+              "id": "a",
+              "label": {
+                "en": "Stand in a line, one behind another, by the door.",
+                "es": "Ponte en una fila, uno detrás de otro, junto a la puerta."
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "Draw a line on your paper.",
+                "es": "Dibuja una línea en tu papel."
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "Sit down at your desk.",
+                "es": "Siéntate en tu escritorio."
+              }
+            }
           ],
           "answer": "a",
           "feedback": {
-            "a": { "correct": true, "why": { "en": "Yes. “Line up” means make a line with your body, ready to walk together. Here, by the door.", "es": "Sí. “Line up” significa formar una fila con tu cuerpo, listos para caminar juntos. Aquí, junto a la puerta." } },
-            "b": { "correct": false, "why": { "en": "“Line up” isn't about drawing. It means to form a line with people. Go stand by the door.", "es": "“Line up” no es dibujar. Significa formar una fila con personas. Ve a pararte junto a la puerta." }, "hint": { "en": "It's an action with your body, at the door.", "es": "Es una acción con tu cuerpo, en la puerta." } },
-            "c": { "correct": false, "why": { "en": "“Line up” means stand in a line, not sit. The class is getting ready to go somewhere.", "es": "“Line up” significa ponerse en fila, no sentarse. La clase se prepara para ir a algún lugar." } }
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Yes. “Line up” means make a line with your body, ready to walk together. Here, by the door.",
+                "es": "Sí. “Line up” significa formar una fila con tu cuerpo, listos para caminar juntos. Aquí, junto a la puerta."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "“Line up” isn't about drawing. It means to form a line with people. Go stand by the door.",
+                "es": "“Line up” no es dibujar. Significa formar una fila con personas. Ve a pararte junto a la puerta."
+              },
+              "hint": {
+                "en": "It's an action with your body, at the door.",
+                "es": "Es una acción con tu cuerpo, en la puerta."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "“Line up” means stand in a line, not sit. The class is getting ready to go somewhere.",
+                "es": "“Line up” significa ponerse en fila, no sentarse. La clase se prepara para ir a algún lugar."
+              }
+            }
           }
         },
         {
           "id": "m2",
-          "context": { "en": "Your teacher says: “Turn in your homework.”", "es": "Tu maestra dice: “Turn in your homework.”" },
-          "prompt": { "en": "What should you do?", "es": "¿Qué debes hacer?" },
+          "context": {
+            "en": "Your teacher says: “Turn in your homework.”",
+            "es": "Tu maestra dice: “Turn in your homework.”"
+          },
+          "prompt": {
+            "en": "What should you do?",
+            "es": "¿Qué debes hacer?"
+          },
           "support": {
-            "high": { "en": "“Turn in” = give your work to the teacher. / “Turn in” = entregar tu trabajo a la maestra.", "es": "“Turn in” = entregar tu trabajo a la maestra." }
+            "high": {
+              "en": "“Turn in” = give your work to the teacher. / “Turn in” = entregar tu trabajo a la maestra.",
+              "es": "“Turn in” = entregar tu trabajo a la maestra."
+            }
           },
           "choices": [
-            { "id": "a", "label": { "en": "Give your homework to the teacher.", "es": "Entrega tu tarea a la maestra." } },
-            { "id": "b", "label": { "en": "Turn your paper face down.", "es": "Voltea tu papel boca abajo." } },
-            { "id": "c", "label": { "en": "Turn around in your seat.", "es": "Date la vuelta en tu asiento." } }
+            {
+              "id": "a",
+              "label": {
+                "en": "Give your homework to the teacher.",
+                "es": "Entrega tu tarea a la maestra."
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "Turn your paper face down.",
+                "es": "Voltea tu papel boca abajo."
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "Turn around in your seat.",
+                "es": "Date la vuelta en tu asiento."
+              }
+            }
           ],
           "answer": "a",
           "feedback": {
-            "a": { "correct": true, "why": { "en": "Right. “Turn in” means hand your work to the teacher. It has nothing to do with turning around.", "es": "Correcto. “Turn in” significa entregar tu trabajo a la maestra. No tiene que ver con darse la vuelta." } },
-            "b": { "correct": false, "why": { "en": "“Turn in” is idiomatic — it means submit your work, not flip the paper.", "es": "“Turn in” es idiomático: significa entregar tu trabajo, no voltear el papel." }, "hint": { "en": "Where should the homework go?", "es": "¿Adónde debe ir la tarea?" } },
-            "c": { "correct": false, "why": { "en": "It's not about turning your body. “Turn in” = submit your homework.", "es": "No se trata de girar el cuerpo. “Turn in” = entregar la tarea." } }
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. “Turn in” means hand your work to the teacher. It has nothing to do with turning around.",
+                "es": "Correcto. “Turn in” significa entregar tu trabajo a la maestra. No tiene que ver con darse la vuelta."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "“Turn in” is idiomatic — it means submit your work, not flip the paper.",
+                "es": "“Turn in” es idiomático: significa entregar tu trabajo, no voltear el papel."
+              },
+              "hint": {
+                "en": "Where should the homework go?",
+                "es": "¿Adónde debe ir la tarea?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "It's not about turning your body. “Turn in” = submit your homework.",
+                "es": "No se trata de girar el cuerpo. “Turn in” = entregar la tarea."
+              }
+            }
           }
         },
         {
           "id": "m3",
-          "context": { "en": "Your teacher says: “Take out a pencil.”", "es": "Tu maestra dice: “Take out a pencil.”" },
-          "prompt": { "en": "What should you do?", "es": "¿Qué debes hacer?" },
+          "context": {
+            "en": "Your teacher says: “Take out a pencil.”",
+            "es": "Tu maestra dice: “Take out a pencil.”"
+          },
+          "prompt": {
+            "en": "What should you do?",
+            "es": "¿Qué debes hacer?"
+          },
           "support": {
-            "high": { "en": "“Take out” = get it ready and put it on your desk. / “Take out” = sácalo y ponlo listo en tu escritorio.", "es": "“Take out” = sácalo y ponlo listo en tu escritorio." }
+            "high": {
+              "en": "“Take out” = get it ready and put it on your desk. / “Take out” = sácalo y ponlo listo en tu escritorio.",
+              "es": "“Take out” = sácalo y ponlo listo en tu escritorio."
+            }
           },
           "choices": [
-            { "id": "a", "label": { "en": "Get a pencil out and ready on your desk.", "es": "Saca un lápiz y tenlo listo en tu escritorio." } },
-            { "id": "b", "label": { "en": "Throw a pencil in the trash.", "es": "Tira un lápiz a la basura." } },
-            { "id": "c", "label": { "en": "Point out the window.", "es": "Señala por la ventana." } }
+            {
+              "id": "a",
+              "label": {
+                "en": "Get a pencil out and ready on your desk.",
+                "es": "Saca un lápiz y tenlo listo en tu escritorio."
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "Throw a pencil in the trash.",
+                "es": "Tira un lápiz a la basura."
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "Point out the window.",
+                "es": "Señala por la ventana."
+              }
+            }
           ],
           "answer": "a",
           "feedback": {
-            "a": { "correct": true, "why": { "en": "Yes. “Take out” means get it out and ready — the class is about to write.", "es": "Sí. “Take out” significa sacarlo y tenerlo listo: la clase va a escribir." } },
-            "b": { "correct": false, "why": { "en": "“Take out” doesn't mean throw away. It means get your pencil ready to use.", "es": "“Take out” no significa tirar. Significa tener tu lápiz listo para usar." }, "hint": { "en": "You are about to write. What do you need?", "es": "Vas a escribir. ¿Qué necesitas?" } },
-            "c": { "correct": false, "why": { "en": "This isn't about pointing outside. Get your pencil ready on your desk.", "es": "No se trata de señalar afuera. Ten tu lápiz listo en tu escritorio." } }
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Yes. “Take out” means get it out and ready — the class is about to write.",
+                "es": "Sí. “Take out” significa sacarlo y tenerlo listo: la clase va a escribir."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "“Take out” doesn't mean throw away. It means get your pencil ready to use.",
+                "es": "“Take out” no significa tirar. Significa tener tu lápiz listo para usar."
+              },
+              "hint": {
+                "en": "You are about to write. What do you need?",
+                "es": "Vas a escribir. ¿Qué necesitas?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "This isn't about pointing outside. Get your pencil ready on your desk.",
+                "es": "No se trata de señalar afuera. Ten tu lápiz listo en tu escritorio."
+              }
+            }
           }
         },
         {
           "id": "m4",
-          "context": { "en": "Your teacher says: “Pair up with a partner.”", "es": "Tu maestra dice: “Pair up with a partner.”" },
-          "prompt": { "en": "What should you do?", "es": "¿Qué debes hacer?" },
+          "context": {
+            "en": "Your teacher says: “Pair up with a partner.”",
+            "es": "Tu maestra dice: “Pair up with a partner.”"
+          },
+          "prompt": {
+            "en": "What should you do?",
+            "es": "¿Qué debes hacer?"
+          },
           "support": {
-            "high": { "en": "“Pair up” = find one other person to work with. / “Pair up” = busca a otra persona para trabajar.", "es": "“Pair up” = busca a otra persona para trabajar." }
+            "high": {
+              "en": "“Pair up” = find one other person to work with. / “Pair up” = busca a otra persona para trabajar.",
+              "es": "“Pair up” = busca a otra persona para trabajar."
+            }
           },
           "choices": [
-            { "id": "a", "label": { "en": "Find one classmate to work with.", "es": "Busca a un compañero para trabajar." } },
-            { "id": "b", "label": { "en": "Peel and eat a pear.", "es": "Pela y come una pera." } },
-            { "id": "c", "label": { "en": "Work by yourself quietly.", "es": "Trabaja solo en silencio." } }
+            {
+              "id": "a",
+              "label": {
+                "en": "Find one classmate to work with.",
+                "es": "Busca a un compañero para trabajar."
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "Peel and eat a pear.",
+                "es": "Pela y come una pera."
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "Work by yourself quietly.",
+                "es": "Trabaja solo en silencio."
+              }
+            }
           ],
           "answer": "a",
           "feedback": {
-            "a": { "correct": true, "why": { "en": "Right. “Pair up with a partner” means team up with one other student.", "es": "Correcto. “Pair up with a partner” significa formar equipo con otro estudiante." } },
-            "b": { "correct": false, "why": { "en": "“Pair” here is not the fruit “pear.” It means two people together.", "es": "“Pair” aquí no es la fruta “pear.” Significa dos personas juntas." }, "hint": { "en": "A partner is a person. How many of you work together?", "es": "Un partner es una persona. ¿Cuántos trabajan juntos?" } },
-            "c": { "correct": false, "why": { "en": "“Pair up” means work WITH someone, not alone.", "es": "“Pair up” significa trabajar CON alguien, no solo." } }
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. “Pair up with a partner” means team up with one other student.",
+                "es": "Correcto. “Pair up with a partner” significa formar equipo con otro estudiante."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "“Pair” here is not the fruit “pear.” It means two people together.",
+                "es": "“Pair” aquí no es la fruta “pear.” Significa dos personas juntas."
+              },
+              "hint": {
+                "en": "A partner is a person. How many of you work together?",
+                "es": "Un partner es una persona. ¿Cuántos trabajan juntos?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "“Pair up” means work WITH someone, not alone.",
+                "es": "“Pair up” significa trabajar CON alguien, no solo."
+              }
+            }
           }
         }
       ],
-
-      "ace": { "articulate": true, "connect": true, "extend": true },
-
-      "clear": { "enabled": false, "emphasis": [] },
-
+      "ace": {
+        "articulate": true,
+        "connect": true,
+        "extend": true
+      },
+      "clear": {
+        "enabled": false,
+        "emphasis": []
+      },
       "udl": [
         "representation.language-support",
         "representation.context",
         "action-expression.multiple-response-modes",
         "engagement.relevance"
       ],
-
       "strategies": [
         "vocabulary-programs",
         "role-play",
         "corrective-feedback"
       ],
-
       "standards": {
         "elps": [
-          { "code": "§120.21(d)(1)(C)", "alignment": "direct", "grades": [4, 5], "rationale": "Students respond with accuracy to common spoken classroom directions." }
+          {
+            "code": "§120.21(d)(1)(C)",
+            "alignment": "direct",
+            "grades": [
+              4,
+              5
+            ],
+            "rationale": "Students respond with accuracy to common spoken classroom directions."
+          }
         ],
         "teks": [
-          { "code": "§110.7(b)(1)(A)", "alignment": "direct", "grades": [4, 5], "rationale": "Students listen actively to interpret verbal messages and respond appropriately." }
+          {
+            "code": "§110.7(b)(1)(A)",
+            "alignment": "direct",
+            "grades": [
+              4,
+              5
+            ],
+            "rationale": "Students listen actively to interpret verbal messages and respond appropriately."
+          }
         ],
         "slar": []
       },
-
-      "printables": ["nav-mean-3-5-003-student", "nav-mean-3-5-003-answer-key"],
-
+      "printables": [
+        "nav-mean-3-5-003-student",
+        "nav-mean-3-5-003-answer-key"
+      ],
       "created": "2026-09-17",
       "updated": "2026-09-17",
       "status": "reviewed"
@@ -598,18 +1167,21 @@
         "en": "Conversation Repair",
         "es": "Reparar la conversación"
       },
-
-      "grades": [4, 5],
+      "grades": [
+        4,
+        5
+      ],
       "gradeBand": "3-5",
-      "subjects": ["elar"],
+      "subjects": [
+        "elar"
+      ],
       "duration": 8,
-
       "interactionType": "scenario-choice",
-
       "targetLanguage": "en",
-      "supportedHomeLanguages": ["es"],
+      "supportedHomeLanguages": [
+        "es"
+      ],
       "languagePair": "en-es",
-
       "studentGoal": {
         "en": "Know what to say in English when a conversation breaks down — ask someone to repeat, slow down, or explain, instead of pretending to understand.",
         "es": "Sabe qué decir en inglés cuando una conversación se traba: pide que repitan, que hablen más despacio o que expliquen, en lugar de fingir que entiendes."
@@ -626,122 +1198,355 @@
         "en": "Repairing communication: requesting repetition, clarification, or slower speech.",
         "es": "Reparar la comunicación: pedir repetición, aclaración o que hablen más despacio."
       },
-
       "materials": [],
-
       "items": [
         {
           "id": "rp1",
-          "context": { "en": "Your teacher said something, but you did not hear it. You want her to say it again.", "es": "Tu maestra dijo algo, pero no lo escuchaste. Quieres que lo repita." },
-          "prompt": { "en": "What is the best thing to say?", "es": "¿Qué es lo mejor que puedes decir?" },
+          "context": {
+            "en": "Your teacher said something, but you did not hear it. You want her to say it again.",
+            "es": "Tu maestra dijo algo, pero no lo escuchaste. Quieres que lo repita."
+          },
+          "prompt": {
+            "en": "What is the best thing to say?",
+            "es": "¿Qué es lo mejor que puedes decir?"
+          },
           "support": {
-            "high": { "en": "Frame: “Could you please repeat that?” / “¿Podría repetir eso, por favor?”", "es": "Marco: “Could you please repeat that?” = “¿Podría repetir eso, por favor?”" },
-            "medium": { "en": "Ask politely for a repeat.", "es": "Pide con cortesía que lo repita." }
+            "high": {
+              "en": "Frame: “Could you please repeat that?” / “¿Podría repetir eso, por favor?”",
+              "es": "Marco: “Could you please repeat that?” = “¿Podría repetir eso, por favor?”"
+            },
+            "medium": {
+              "en": "Ask politely for a repeat.",
+              "es": "Pide con cortesía que lo repita."
+            }
           },
           "choices": [
-            { "id": "a", "label": { "en": "“Could you please repeat that?”", "es": "“Could you please repeat that?”" } },
-            { "id": "b", "label": { "en": "“What?”", "es": "“What?”" } },
-            { "id": "c", "label": { "en": "(Say nothing and hope you understood.)", "es": "(No decir nada y esperar haber entendido.)" } }
+            {
+              "id": "a",
+              "label": {
+                "en": "“Could you please repeat that?”",
+                "es": "“Could you please repeat that?”"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "“What?”",
+                "es": "“What?”"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "(Say nothing and hope you understood.)",
+                "es": "(No decir nada y esperar haber entendido.)"
+              }
+            }
           ],
           "answer": "a",
           "feedback": {
-            "a": { "correct": true, "why": { "en": "Great repair. “Could you please repeat that?” is polite and clear, and it keeps you in the conversation.", "es": "Buena reparación. “Could you please repeat that?” es cortés y claro, y te mantiene en la conversación." } },
-            "b": { "correct": false, "why": { "en": "“What?” alone can sound rude. A fuller, polite request works better: “Could you please repeat that?”", "es": "“What?” por sí solo puede sonar descortés. Una petición más completa y cortés funciona mejor: “Could you please repeat that?”" }, "hint": { "en": "Ask politely, with a full sentence.", "es": "Pide con cortesía, con una oración completa." } },
-            "c": { "correct": false, "why": { "en": "Guessing can lead to mistakes. It's always okay to ask someone to repeat.", "es": "Adivinar puede causar errores. Siempre está bien pedir que repitan." } }
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Great repair. “Could you please repeat that?” is polite and clear, and it keeps you in the conversation.",
+                "es": "Buena reparación. “Could you please repeat that?” es cortés y claro, y te mantiene en la conversación."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "“What?” alone can sound rude. A fuller, polite request works better: “Could you please repeat that?”",
+                "es": "“What?” por sí solo puede sonar descortés. Una petición más completa y cortés funciona mejor: “Could you please repeat that?”"
+              },
+              "hint": {
+                "en": "Ask politely, with a full sentence.",
+                "es": "Pide con cortesía, con una oración completa."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "Guessing can lead to mistakes. It's always okay to ask someone to repeat.",
+                "es": "Adivinar puede causar errores. Siempre está bien pedir que repitan."
+              }
+            }
           }
         },
         {
           "id": "rp2",
-          "context": { "en": "A classmate is explaining a game, but they are talking too fast.", "es": "Un compañero está explicando un juego, pero habla demasiado rápido." },
-          "prompt": { "en": "What is the best thing to say?", "es": "¿Qué es lo mejor que puedes decir?" },
+          "context": {
+            "en": "A classmate is explaining a game, but they are talking too fast.",
+            "es": "Un compañero está explicando un juego, pero habla demasiado rápido."
+          },
+          "prompt": {
+            "en": "What is the best thing to say?",
+            "es": "¿Qué es lo mejor que puedes decir?"
+          },
           "support": {
-            "high": { "en": "Frame: “Could you say that more slowly, please?” / “¿Podrías decirlo más despacio, por favor?”", "es": "Marco: “Could you say that more slowly, please?” = “¿Podrías decirlo más despacio, por favor?”" },
-            "medium": { "en": "Ask them to slow down, politely.", "es": "Pídeles que hablen más despacio, con cortesía." }
+            "high": {
+              "en": "Frame: “Could you say that more slowly, please?” / “¿Podrías decirlo más despacio, por favor?”",
+              "es": "Marco: “Could you say that more slowly, please?” = “¿Podrías decirlo más despacio, por favor?”"
+            },
+            "medium": {
+              "en": "Ask them to slow down, politely.",
+              "es": "Pídeles que hablen más despacio, con cortesía."
+            }
           },
           "choices": [
-            { "id": "a", "label": { "en": "“Could you say that more slowly, please?”", "es": "“Could you say that more slowly, please?”" } },
-            { "id": "b", "label": { "en": "“Slow!”", "es": "“Slow!”" } },
-            { "id": "c", "label": { "en": "“Yes, I understand.” (even though you don't)", "es": "“Yes, I understand.” (aunque no entiendes)" } }
+            {
+              "id": "a",
+              "label": {
+                "en": "“Could you say that more slowly, please?”",
+                "es": "“Could you say that more slowly, please?”"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "“Slow!”",
+                "es": "“Slow!”"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "“Yes, I understand.” (even though you don't)",
+                "es": "“Yes, I understand.” (aunque no entiendes)"
+              }
+            }
           ],
           "answer": "a",
           "feedback": {
-            "a": { "correct": true, "why": { "en": "Yes. Asking someone to slow down politely helps you follow along — a smart repair.", "es": "Sí. Pedir con cortesía que hablen más despacio te ayuda a seguir la conversación: una reparación inteligente." } },
-            "b": { "correct": false, "why": { "en": "“Slow!” is understandable but abrupt. Try “Could you say that more slowly, please?”", "es": "“Slow!” se entiende pero es brusco. Prueba “Could you say that more slowly, please?”" }, "hint": { "en": "Use a full, polite request.", "es": "Usa una petición completa y cortés." } },
-            "c": { "correct": false, "why": { "en": "Pretending to understand causes problems later. It's better to ask them to slow down.", "es": "Fingir que entiendes causa problemas después. Es mejor pedir que hablen más despacio." } }
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Yes. Asking someone to slow down politely helps you follow along — a smart repair.",
+                "es": "Sí. Pedir con cortesía que hablen más despacio te ayuda a seguir la conversación: una reparación inteligente."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "“Slow!” is understandable but abrupt. Try “Could you say that more slowly, please?”",
+                "es": "“Slow!” se entiende pero es brusco. Prueba “Could you say that more slowly, please?”"
+              },
+              "hint": {
+                "en": "Use a full, polite request.",
+                "es": "Usa una petición completa y cortés."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "Pretending to understand causes problems later. It's better to ask them to slow down.",
+                "es": "Fingir que entiendes causa problemas después. Es mejor pedir que hablen más despacio."
+              }
+            }
           }
         },
         {
           "id": "rp3",
-          "context": { "en": "Someone used a word you don't know, and you want to understand it.", "es": "Alguien usó una palabra que no conoces y quieres entenderla." },
-          "prompt": { "en": "What is the best thing to say?", "es": "¿Qué es lo mejor que puedes decir?" },
+          "context": {
+            "en": "Someone used a word you don't know, and you want to understand it.",
+            "es": "Alguien usó una palabra que no conoces y quieres entenderla."
+          },
+          "prompt": {
+            "en": "What is the best thing to say?",
+            "es": "¿Qué es lo mejor que puedes decir?"
+          },
           "support": {
-            "high": { "en": "Frame: “Sorry, what does ___ mean?” / “Perdón, ¿qué significa ___?”", "es": "Marco: “Sorry, what does ___ mean?” = “Perdón, ¿qué significa ___?”" },
-            "medium": { "en": "Ask about the exact word you didn't know.", "es": "Pregunta por la palabra exacta que no conociste." }
+            "high": {
+              "en": "Frame: “Sorry, what does ___ mean?” / “Perdón, ¿qué significa ___?”",
+              "es": "Marco: “Sorry, what does ___ mean?” = “Perdón, ¿qué significa ___?”"
+            },
+            "medium": {
+              "en": "Ask about the exact word you didn't know.",
+              "es": "Pregunta por la palabra exacta que no conociste."
+            }
           },
           "choices": [
-            { "id": "a", "label": { "en": "“Sorry, what does that word mean?”", "es": "“Sorry, what does that word mean?”" } },
-            { "id": "b", "label": { "en": "“I don't know that.”", "es": "“I don't know that.”" } },
-            { "id": "c", "label": { "en": "(Nod and move on without asking.)", "es": "(Asentir y seguir sin preguntar.)" } }
+            {
+              "id": "a",
+              "label": {
+                "en": "“Sorry, what does that word mean?”",
+                "es": "“Sorry, what does that word mean?”"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "“I don't know that.”",
+                "es": "“I don't know that.”"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "(Nod and move on without asking.)",
+                "es": "(Asentir y seguir sin preguntar.)"
+              }
+            }
           ],
           "answer": "a",
           "feedback": {
-            "a": { "correct": true, "why": { "en": "Great. Asking “What does that word mean?” gets you the meaning and keeps the conversation going.", "es": "Excelente. Preguntar “What does that word mean?” te da el significado y mantiene la conversación." } },
-            "b": { "correct": false, "why": { "en": "This ends the topic without help. Ask what the word means instead.", "es": "Esto cierra el tema sin ayuda. Mejor pregunta qué significa la palabra." }, "hint": { "en": "Ask for the meaning of the word.", "es": "Pide el significado de la palabra." } },
-            "c": { "correct": false, "why": { "en": "Nodding hides that you didn't understand. Asking is the better repair.", "es": "Asentir oculta que no entendiste. Preguntar es la mejor reparación." } }
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Great. Asking “What does that word mean?” gets you the meaning and keeps the conversation going.",
+                "es": "Excelente. Preguntar “What does that word mean?” te da el significado y mantiene la conversación."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "This ends the topic without help. Ask what the word means instead.",
+                "es": "Esto cierra el tema sin ayuda. Mejor pregunta qué significa la palabra."
+              },
+              "hint": {
+                "en": "Ask for the meaning of the word.",
+                "es": "Pide el significado de la palabra."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "Nodding hides that you didn't understand. Asking is the better repair.",
+                "es": "Asentir oculta que no entendiste. Preguntar es la mejor reparación."
+              }
+            }
           }
         },
         {
           "id": "rp4",
-          "context": { "en": "You tried to explain something, but your listener looks confused.", "es": "Intentaste explicar algo, pero quien te escucha se ve confundido." },
-          "prompt": { "en": "What is the best thing to do?", "es": "¿Qué es lo mejor que puedes hacer?" },
+          "context": {
+            "en": "You tried to explain something, but your listener looks confused.",
+            "es": "Intentaste explicar algo, pero quien te escucha se ve confundido."
+          },
+          "prompt": {
+            "en": "What is the best thing to do?",
+            "es": "¿Qué es lo mejor que puedes hacer?"
+          },
           "support": {
-            "high": { "en": "Frame: “Let me try to say it a different way.” / “Déjame intentar decirlo de otra manera.”", "es": "Marco: “Let me try to say it a different way.” = “Déjame intentar decirlo de otra manera.”" },
-            "medium": { "en": "Try again with different words.", "es": "Inténtalo de nuevo con otras palabras." }
+            "high": {
+              "en": "Frame: “Let me try to say it a different way.” / “Déjame intentar decirlo de otra manera.”",
+              "es": "Marco: “Let me try to say it a different way.” = “Déjame intentar decirlo de otra manera.”"
+            },
+            "medium": {
+              "en": "Try again with different words.",
+              "es": "Inténtalo de nuevo con otras palabras."
+            }
           },
           "choices": [
-            { "id": "a", "label": { "en": "“Let me try to say it a different way.”", "es": "“Let me try to say it a different way.”" } },
-            { "id": "b", "label": { "en": "“Never mind.”", "es": "“Never mind.”" } },
-            { "id": "c", "label": { "en": "Say the exact same words again, louder.", "es": "Decir exactamente lo mismo otra vez, más fuerte." } }
+            {
+              "id": "a",
+              "label": {
+                "en": "“Let me try to say it a different way.”",
+                "es": "“Let me try to say it a different way.”"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "“Never mind.”",
+                "es": "“Never mind.”"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "Say the exact same words again, louder.",
+                "es": "Decir exactamente lo mismo otra vez, más fuerte."
+              }
+            }
           ],
           "answer": "a",
           "feedback": {
-            "a": { "correct": true, "why": { "en": "Yes. Rephrasing (“Let me say it a different way”) repairs the misunderstanding. That's a strong communicator's move.", "es": "Sí. Reformular (“Let me say it a different way”) repara el malentendido. Es una estrategia de un buen comunicador." } },
-            "b": { "correct": false, "why": { "en": "“Never mind” gives up. Your idea matters — try saying it another way.", "es": "“Never mind” se rinde. Tu idea importa: intenta decirla de otra manera." }, "hint": { "en": "Try different words, not louder ones.", "es": "Prueba otras palabras, no más fuerte." } },
-            "c": { "correct": false, "why": { "en": "Louder isn't clearer. Different words usually repair a misunderstanding better.", "es": "Más fuerte no es más claro. Otras palabras suelen reparar mejor un malentendido." } }
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Yes. Rephrasing (“Let me say it a different way”) repairs the misunderstanding. That's a strong communicator's move.",
+                "es": "Sí. Reformular (“Let me say it a different way”) repara el malentendido. Es una estrategia de un buen comunicador."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "“Never mind” gives up. Your idea matters — try saying it another way.",
+                "es": "“Never mind” se rinde. Tu idea importa: intenta decirla de otra manera."
+              },
+              "hint": {
+                "en": "Try different words, not louder ones.",
+                "es": "Prueba otras palabras, no más fuerte."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "Louder isn't clearer. Different words usually repair a misunderstanding better.",
+                "es": "Más fuerte no es más claro. Otras palabras suelen reparar mejor un malentendido."
+              }
+            }
           }
         }
       ],
-
-      "ace": { "articulate": true, "connect": true, "extend": true },
-
-      "clear": { "enabled": false, "emphasis": [] },
-
+      "ace": {
+        "articulate": true,
+        "connect": true,
+        "extend": true
+      },
+      "clear": {
+        "enabled": false,
+        "emphasis": []
+      },
       "udl": [
         "representation.language-support",
         "representation.context",
         "action-expression.multiple-response-modes",
         "engagement.relevance"
       ],
-
       "strategies": [
         "sentence-frames",
         "role-play",
         "corrective-feedback"
       ],
-
       "standards": {
         "elps": [
-          { "code": "§120.21(d)(2)(F)", "alignment": "direct", "grades": [4, 5], "rationale": "Students ask questions to repair understanding during classroom interactions." },
-          { "code": "§120.21(d)(2)(D)", "alignment": "supporting", "grades": [4, 5], "rationale": "Students keep a polite register while asking for help." }
+          {
+            "code": "§120.21(d)(2)(F)",
+            "alignment": "direct",
+            "grades": [
+              4,
+              5
+            ],
+            "rationale": "Students ask questions to repair understanding during classroom interactions."
+          },
+          {
+            "code": "§120.21(d)(2)(D)",
+            "alignment": "supporting",
+            "grades": [
+              4,
+              5
+            ],
+            "rationale": "Students keep a polite register while asking for help."
+          }
         ],
         "teks": [
-          { "code": "§110.7(b)(1)(A)", "alignment": "direct", "grades": [4, 5], "rationale": "Students ask relevant questions to interpret messages and stay in the discussion." }
+          {
+            "code": "§110.7(b)(1)(A)",
+            "alignment": "direct",
+            "grades": [
+              4,
+              5
+            ],
+            "rationale": "Students ask relevant questions to interpret messages and stay in the discussion."
+          }
         ],
         "slar": []
       },
-
-      "printables": ["nav-repair-3-5-004-student", "nav-repair-3-5-004-answer-key"],
-
+      "printables": [
+        "nav-repair-3-5-004-student",
+        "nav-repair-3-5-004-answer-key"
+      ],
       "created": "2026-09-17",
       "updated": "2026-09-17",
       "status": "reviewed"
@@ -753,18 +1558,21 @@
         "en": "Getting Help at School",
         "es": "Pedir ayuda en la escuela"
       },
-
-      "grades": [4, 5],
+      "grades": [
+        4,
+        5
+      ],
       "gradeBand": "3-5",
-      "subjects": ["elar"],
+      "subjects": [
+        "elar"
+      ],
       "duration": 8,
-
       "interactionType": "scenario-choice",
-
       "targetLanguage": "en",
-      "supportedHomeLanguages": ["es"],
+      "supportedHomeLanguages": [
+        "es"
+      ],
       "languagePair": "en-es",
-
       "studentGoal": {
         "en": "Know what to say in English to get help in new school situations — being lost, forgetting something, not understanding, or feeling worried.",
         "es": "Sabe qué decir en inglés para pedir ayuda en situaciones nuevas de la escuela: estar perdido, olvidar algo, no entender o sentirse preocupado."
@@ -781,124 +1589,921 @@
         "en": "Requesting help and information in varied school situations.",
         "es": "Pedir ayuda e información en distintas situaciones escolares."
       },
-
       "materials": [],
-
       "items": [
         {
           "id": "h1",
-          "context": { "en": "It is your first week and you cannot find your classroom.", "es": "Es tu primera semana y no encuentras tu salón." },
-          "prompt": { "en": "What is the best thing to say to a teacher in the hall?", "es": "¿Qué es lo mejor que puedes decirle a un maestro en el pasillo?" },
+          "context": {
+            "en": "It is your first week and you cannot find your classroom.",
+            "es": "Es tu primera semana y no encuentras tu salón."
+          },
+          "prompt": {
+            "en": "What is the best thing to say to a teacher in the hall?",
+            "es": "¿Qué es lo mejor que puedes decirle a un maestro en el pasillo?"
+          },
           "support": {
-            "high": { "en": "Frame: “Excuse me, can you help me find my classroom?” / “Disculpe, ¿me ayuda a encontrar mi salón?”", "es": "Marco: “Excuse me, can you help me find my classroom?” = “Disculpe, ¿me ayuda a encontrar mi salón?”" },
-            "medium": { "en": "Ask an adult politely for help finding it.", "es": "Pide ayuda a un adulto con cortesía para encontrarlo." }
+            "high": {
+              "en": "Frame: “Excuse me, can you help me find my classroom?” / “Disculpe, ¿me ayuda a encontrar mi salón?”",
+              "es": "Marco: “Excuse me, can you help me find my classroom?” = “Disculpe, ¿me ayuda a encontrar mi salón?”"
+            },
+            "medium": {
+              "en": "Ask an adult politely for help finding it.",
+              "es": "Pide ayuda a un adulto con cortesía para encontrarlo."
+            }
           },
           "choices": [
-            { "id": "a", "label": { "en": "“Excuse me, can you help me find my classroom?”", "es": "“Excuse me, can you help me find my classroom?”" } },
-            { "id": "b", "label": { "en": "(Wander the halls until you find it.)", "es": "(Caminar por los pasillos hasta encontrarlo.)" } },
-            { "id": "c", "label": { "en": "“Classroom!”", "es": "“Classroom!”" } }
+            {
+              "id": "a",
+              "label": {
+                "en": "“Excuse me, can you help me find my classroom?”",
+                "es": "“Excuse me, can you help me find my classroom?”"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "(Wander the halls until you find it.)",
+                "es": "(Caminar por los pasillos hasta encontrarlo.)"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "“Classroom!”",
+                "es": "“Classroom!”"
+              }
+            }
           ],
           "answer": "a",
           "feedback": {
-            "a": { "correct": true, "why": { "en": "Great. A polite, clear request gets you help fast: “Can you help me find my classroom?”", "es": "Excelente. Una petición cortés y clara te consigue ayuda rápido: “Can you help me find my classroom?”" } },
-            "b": { "correct": false, "why": { "en": "You could be late or lost longer. Asking an adult is faster and safer.", "es": "Podrías llegar tarde o perderte más. Pedirle a un adulto es más rápido y seguro." }, "hint": { "en": "Ask an adult with a full, polite question.", "es": "Pregunta a un adulto con una oración completa y cortés." } },
-            "c": { "correct": false, "why": { "en": "One word isn't clear. Ask a full question: “Can you help me find my classroom?”", "es": "Una sola palabra no es clara. Haz una pregunta completa: “Can you help me find my classroom?”" } }
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Great. A polite, clear request gets you help fast: “Can you help me find my classroom?”",
+                "es": "Excelente. Una petición cortés y clara te consigue ayuda rápido: “Can you help me find my classroom?”"
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "You could be late or lost longer. Asking an adult is faster and safer.",
+                "es": "Podrías llegar tarde o perderte más. Pedirle a un adulto es más rápido y seguro."
+              },
+              "hint": {
+                "en": "Ask an adult with a full, polite question.",
+                "es": "Pregunta a un adulto con una oración completa y cortés."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "One word isn't clear. Ask a full question: “Can you help me find my classroom?”",
+                "es": "Una sola palabra no es clara. Haz una pregunta completa: “Can you help me find my classroom?”"
+              }
+            }
           }
         },
         {
           "id": "h2",
-          "context": { "en": "You forgot your lunch and you are hungry.", "es": "Olvidaste tu almuerzo y tienes hambre." },
-          "prompt": { "en": "What is the best thing to say to a school adult?", "es": "¿Qué es lo mejor que puedes decirle a un adulto de la escuela?" },
+          "context": {
+            "en": "You forgot your lunch and you are hungry.",
+            "es": "Olvidaste tu almuerzo y tienes hambre."
+          },
+          "prompt": {
+            "en": "What is the best thing to say to a school adult?",
+            "es": "¿Qué es lo mejor que puedes decirle a un adulto de la escuela?"
+          },
           "support": {
-            "high": { "en": "Frame: “I forgot my lunch. What can I do?” / “Olvidé mi almuerzo. ¿Qué puedo hacer?”", "es": "Marco: “I forgot my lunch. What can I do?” = “Olvidé mi almuerzo. ¿Qué puedo hacer?”" },
-            "medium": { "en": "Tell an adult the problem and ask what to do.", "es": "Dile el problema a un adulto y pregunta qué hacer." }
+            "high": {
+              "en": "Frame: “I forgot my lunch. What can I do?” / “Olvidé mi almuerzo. ¿Qué puedo hacer?”",
+              "es": "Marco: “I forgot my lunch. What can I do?” = “Olvidé mi almuerzo. ¿Qué puedo hacer?”"
+            },
+            "medium": {
+              "en": "Tell an adult the problem and ask what to do.",
+              "es": "Dile el problema a un adulto y pregunta qué hacer."
+            }
           },
           "choices": [
-            { "id": "a", "label": { "en": "“I forgot my lunch. What can I do?”", "es": "“I forgot my lunch. What can I do?”" } },
-            { "id": "b", "label": { "en": "(Stay hungry and say nothing.)", "es": "(Quedarte con hambre y no decir nada.)" } },
-            { "id": "c", "label": { "en": "(Take food from a classmate's tray.)", "es": "(Tomar comida de la bandeja de un compañero.)" } }
+            {
+              "id": "a",
+              "label": {
+                "en": "“I forgot my lunch. What can I do?”",
+                "es": "“I forgot my lunch. What can I do?”"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "(Stay hungry and say nothing.)",
+                "es": "(Quedarte con hambre y no decir nada.)"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "(Take food from a classmate's tray.)",
+                "es": "(Tomar comida de la bandeja de un compañero.)"
+              }
+            }
           ],
           "answer": "a",
           "feedback": {
-            "a": { "correct": true, "why": { "en": "Yes. Tell an adult and ask for help — schools can help when you forget your lunch.", "es": "Sí. Dile a un adulto y pide ayuda: las escuelas pueden ayudarte cuando olvidas tu almuerzo." } },
-            "b": { "correct": false, "why": { "en": "You don't have to stay hungry. Tell an adult: “I forgot my lunch.”", "es": "No tienes que quedarte con hambre. Dile a un adulto: “I forgot my lunch.”" }, "hint": { "en": "Say the problem out loud to an adult.", "es": "Di el problema en voz alta a un adulto." } },
-            "c": { "correct": false, "why": { "en": "Taking food isn't okay. Ask an adult for help instead.", "es": "Tomar comida no está bien. Mejor pide ayuda a un adulto." } }
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Yes. Tell an adult and ask for help — schools can help when you forget your lunch.",
+                "es": "Sí. Dile a un adulto y pide ayuda: las escuelas pueden ayudarte cuando olvidas tu almuerzo."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "You don't have to stay hungry. Tell an adult: “I forgot my lunch.”",
+                "es": "No tienes que quedarte con hambre. Dile a un adulto: “I forgot my lunch.”"
+              },
+              "hint": {
+                "en": "Say the problem out loud to an adult.",
+                "es": "Di el problema en voz alta a un adulto."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "Taking food isn't okay. Ask an adult for help instead.",
+                "es": "Tomar comida no está bien. Mejor pide ayuda a un adulto."
+              }
+            }
           }
         },
         {
           "id": "h3",
-          "context": { "en": "The teacher gave homework, but you did not understand what to do.", "es": "La maestra dio tarea, pero no entendiste qué hacer." },
-          "prompt": { "en": "What is the best thing to say?", "es": "¿Qué es lo mejor que puedes decir?" },
+          "context": {
+            "en": "The teacher gave homework, but you did not understand what to do.",
+            "es": "La maestra dio tarea, pero no entendiste qué hacer."
+          },
+          "prompt": {
+            "en": "What is the best thing to say?",
+            "es": "¿Qué es lo mejor que puedes decir?"
+          },
           "support": {
-            "high": { "en": "Frame: “Could you explain the homework, please?” / “¿Podría explicar la tarea, por favor?”", "es": "Marco: “Could you explain the homework, please?” = “¿Podría explicar la tarea, por favor?”" },
-            "medium": { "en": "Ask the teacher to explain it.", "es": "Pídele a la maestra que la explique." }
+            "high": {
+              "en": "Frame: “Could you explain the homework, please?” / “¿Podría explicar la tarea, por favor?”",
+              "es": "Marco: “Could you explain the homework, please?” = “¿Podría explicar la tarea, por favor?”"
+            },
+            "medium": {
+              "en": "Ask the teacher to explain it.",
+              "es": "Pídele a la maestra que la explique."
+            }
           },
           "choices": [
-            { "id": "a", "label": { "en": "“Could you explain the homework, please?”", "es": "“Could you explain the homework, please?”" } },
-            { "id": "b", "label": { "en": "(Do nothing and turn in blank work.)", "es": "(No hacer nada y entregar la tarea en blanco.)" } },
-            { "id": "c", "label": { "en": "“Homework no.”", "es": "“Homework no.”" } }
+            {
+              "id": "a",
+              "label": {
+                "en": "“Could you explain the homework, please?”",
+                "es": "“Could you explain the homework, please?”"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "(Do nothing and turn in blank work.)",
+                "es": "(No hacer nada y entregar la tarea en blanco.)"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "“Homework no.”",
+                "es": "“Homework no.”"
+              }
+            }
           ],
           "answer": "a",
           "feedback": {
-            "a": { "correct": true, "why": { "en": "Great. Asking the teacher to explain is exactly right — that's how you learn what to do.", "es": "Excelente. Pedirle a la maestra que explique es lo correcto: así aprendes qué hacer." } },
-            "b": { "correct": false, "why": { "en": "Blank work won't help you learn. Ask the teacher to explain it.", "es": "La tarea en blanco no te ayuda a aprender. Pídele a la maestra que la explique." }, "hint": { "en": "Ask for an explanation, politely.", "es": "Pide una explicación, con cortesía." } },
-            "c": { "correct": false, "why": { "en": "That doesn't say what you need. Ask: “Could you explain the homework, please?”", "es": "Eso no dice lo que necesitas. Pregunta: “Could you explain the homework, please?”" } }
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Great. Asking the teacher to explain is exactly right — that's how you learn what to do.",
+                "es": "Excelente. Pedirle a la maestra que explique es lo correcto: así aprendes qué hacer."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Blank work won't help you learn. Ask the teacher to explain it.",
+                "es": "La tarea en blanco no te ayuda a aprender. Pídele a la maestra que la explique."
+              },
+              "hint": {
+                "en": "Ask for an explanation, politely.",
+                "es": "Pide una explicación, con cortesía."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "That doesn't say what you need. Ask: “Could you explain the homework, please?”",
+                "es": "Eso no dice lo que necesitas. Pregunta: “Could you explain the homework, please?”"
+              }
+            }
           }
         },
         {
           "id": "h4",
-          "context": { "en": "You feel worried and you want to talk to someone you trust at school.", "es": "Te sientes preocupado y quieres hablar con alguien de confianza en la escuela." },
-          "prompt": { "en": "What is the best thing to say to your teacher?", "es": "¿Qué es lo mejor que puedes decirle a tu maestra?" },
+          "context": {
+            "en": "You feel worried and you want to talk to someone you trust at school.",
+            "es": "Te sientes preocupado y quieres hablar con alguien de confianza en la escuela."
+          },
+          "prompt": {
+            "en": "What is the best thing to say to your teacher?",
+            "es": "¿Qué es lo mejor que puedes decirle a tu maestra?"
+          },
           "support": {
-            "high": { "en": "Frame: “Can I talk to the counselor, please?” / “¿Puedo hablar con la consejera, por favor?”", "es": "Marco: “Can I talk to the counselor, please?” = “¿Puedo hablar con la consejera, por favor?”" },
-            "medium": { "en": "Ask to talk to a counselor or a trusted adult.", "es": "Pide hablar con una consejera o un adulto de confianza." }
+            "high": {
+              "en": "Frame: “Can I talk to the counselor, please?” / “¿Puedo hablar con la consejera, por favor?”",
+              "es": "Marco: “Can I talk to the counselor, please?” = “¿Puedo hablar con la consejera, por favor?”"
+            },
+            "medium": {
+              "en": "Ask to talk to a counselor or a trusted adult.",
+              "es": "Pide hablar con una consejera o un adulto de confianza."
+            }
           },
           "choices": [
-            { "id": "a", "label": { "en": "“Can I talk to the counselor, please?”", "es": "“Can I talk to the counselor, please?”" } },
-            { "id": "b", "label": { "en": "(Keep the worry to yourself.)", "es": "(Guardarte la preocupación.)" } },
-            { "id": "c", "label": { "en": "(Put your head down and skip class.)", "es": "(Bajar la cabeza y faltar a clase.)" } }
+            {
+              "id": "a",
+              "label": {
+                "en": "“Can I talk to the counselor, please?”",
+                "es": "“Can I talk to the counselor, please?”"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "(Keep the worry to yourself.)",
+                "es": "(Guardarte la preocupación.)"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "(Put your head down and skip class.)",
+                "es": "(Bajar la cabeza y faltar a clase.)"
+              }
+            }
           ],
           "answer": "a",
           "feedback": {
-            "a": { "correct": true, "why": { "en": "Yes. Asking to talk to the counselor is a strong, healthy choice. Schools have people whose job is to help.", "es": "Sí. Pedir hablar con la consejera es una decisión fuerte y saludable. Las escuelas tienen personas cuyo trabajo es ayudar." } },
-            "b": { "correct": false, "why": { "en": "You don't have to carry a worry alone. Ask to talk to a trusted adult.", "es": "No tienes que cargar una preocupación tú solo. Pide hablar con un adulto de confianza." }, "hint": { "en": "Ask to talk to the counselor.", "es": "Pide hablar con la consejera." } },
-            "c": { "correct": false, "why": { "en": "Skipping class won't help the worry. Ask to talk to someone who can help.", "es": "Faltar a clase no ayuda con la preocupación. Pide hablar con alguien que pueda ayudar." } }
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Yes. Asking to talk to the counselor is a strong, healthy choice. Schools have people whose job is to help.",
+                "es": "Sí. Pedir hablar con la consejera es una decisión fuerte y saludable. Las escuelas tienen personas cuyo trabajo es ayudar."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "You don't have to carry a worry alone. Ask to talk to a trusted adult.",
+                "es": "No tienes que cargar una preocupación tú solo. Pide hablar con un adulto de confianza."
+              },
+              "hint": {
+                "en": "Ask to talk to the counselor.",
+                "es": "Pide hablar con la consejera."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "Skipping class won't help the worry. Ask to talk to someone who can help.",
+                "es": "Faltar a clase no ayuda con la preocupación. Pide hablar con alguien que pueda ayudar."
+              }
+            }
           }
         }
       ],
-
-      "ace": { "articulate": true, "connect": true, "extend": true },
-
-      "clear": { "enabled": false, "emphasis": [] },
-
+      "ace": {
+        "articulate": true,
+        "connect": true,
+        "extend": true
+      },
+      "clear": {
+        "enabled": false,
+        "emphasis": []
+      },
       "udl": [
         "representation.language-support",
         "representation.context",
         "action-expression.multiple-response-modes",
         "engagement.relevance"
       ],
-
       "strategies": [
         "sentence-frames",
         "role-play",
         "corrective-feedback"
       ],
-
       "standards": {
         "elps": [
-          { "code": "§120.21(d)(2)(F)", "alignment": "direct", "grades": [4, 5], "rationale": "Students ask for help and information during school interactions." },
-          { "code": "§120.21(d)(2)(D)", "alignment": "supporting", "grades": [4, 5], "rationale": "Students use a polite register when requesting help." }
+          {
+            "code": "§120.21(d)(2)(F)",
+            "alignment": "direct",
+            "grades": [
+              4,
+              5
+            ],
+            "rationale": "Students ask for help and information during school interactions."
+          },
+          {
+            "code": "§120.21(d)(2)(D)",
+            "alignment": "supporting",
+            "grades": [
+              4,
+              5
+            ],
+            "rationale": "Students use a polite register when requesting help."
+          }
         ],
         "teks": [
-          { "code": "§110.7(b)(1)(A)", "alignment": "direct", "grades": [4, 5], "rationale": "Students ask relevant questions and make pertinent comments to get help." }
+          {
+            "code": "§110.7(b)(1)(A)",
+            "alignment": "direct",
+            "grades": [
+              4,
+              5
+            ],
+            "rationale": "Students ask relevant questions and make pertinent comments to get help."
+          }
         ],
         "slar": []
       },
-
-      "printables": ["nav-help-3-5-005-student", "nav-help-3-5-005-answer-key"],
-
+      "printables": [
+        "nav-help-3-5-005-student",
+        "nav-help-3-5-005-answer-key"
+      ],
       "created": "2026-09-18",
       "updated": "2026-09-18",
+      "status": "reviewed"
+    },
+    {
+      "id": "nav-navigate-6-8-006",
+      "module": "newcomer-navigator",
+      "title": {
+        "en": "Navigating Middle School",
+        "es": "Cómo moverte en la escuela intermedia"
+      },
+      "grades": [
+        6,
+        7,
+        8
+      ],
+      "gradeBand": "6-8",
+      "subjects": [
+        "elar"
+      ],
+      "duration": 10,
+      "interactionType": "context-choice",
+      "targetLanguage": "en",
+      "supportedHomeLanguages": [
+        "es"
+      ],
+      "languagePair": "en-es",
+      "studentGoal": {
+        "en": "Handle middle school on your own: figure out new school words from what is happening, and choose a clear, polite thing to say in English.",
+        "es": "Maneja la escuela intermedia por tu cuenta: deduce palabras escolares nuevas por lo que pasa alrededor y elige algo claro y cortés que decir en inglés."
+      },
+      "studentDirections": {
+        "en": "Middle school has more rooms, more teachers, and new words. Read each situation, use the clues, and choose the best response in English. Choose, then select Check. Say it out loud when you can.",
+        "es": "La escuela intermedia tiene más salones, más maestros y palabras nuevas. Lee cada situación, usa las pistas y elige la mejor respuesta en inglés. Elige y luego selecciona Revisar. Dila en voz alta cuando puedas."
+      },
+      "teacherDirections": {
+        "en": "Older newcomers navigate a secondary schedule — changing classes, making up missed work, advisory, group projects, permission slips. Two items (tardy, advisory) are meaning-from-context: students infer an unfamiliar school word from the situation, the vocabulary-in-context skill in the grade 6-8 TEKS. The rest are the daily speaking moves newcomers need. Turn on More support for bilingual frames and have students role-play each reply.",
+        "es": "Los recién llegados de mayor edad se mueven en un horario de secundaria: cambiar de clase, reponer trabajo perdido, advisory, proyectos en grupo, permisos. Dos ejercicios (tardy, advisory) son de deducir el significado por el contexto: el estudiante infiere una palabra escolar desconocida a partir de la situación, la destreza de vocabulario en contexto de los TEKS de 6.º a 8.º. Los demás son las frases que los recién llegados necesitan a diario. Activa Más apoyo para marcos bilingües y pide que representen cada respuesta."
+      },
+      "languageFunction": {
+        "en": "Inferring word meaning from context and requesting help or information in a secondary-school setting.",
+        "es": "Deducir el significado de palabras por el contexto y pedir ayuda o información en un entorno de secundaria."
+      },
+      "materials": [],
+      "items": [
+        {
+          "id": "m1",
+          "context": {
+            "en": "The bell rings. A student next to you grabs her books and says, \"Hurry — I don't want to be tardy to math.\" Everyone is rushing to class.",
+            "es": "Suena el timbre. Una estudiante a tu lado agarra sus libros y dice: \"Apúrate, no quiero llegar tardy a matemáticas\". Todos corren a clase."
+          },
+          "prompt": {
+            "en": "What does \"tardy\" most likely mean?",
+            "es": "¿Qué significa probablemente \"tardy\"?"
+          },
+          "support": {
+            "high": {
+              "en": "Clue: the bell rang and everyone is rushing so they are not late. \"Tardy\" = late / tarde.",
+              "es": "Pista: sonó el timbre y todos corren para no llegar tarde. \"Tardy\" = late / tarde."
+            },
+            "medium": {
+              "en": "Use the situation: what are students trying NOT to be when the bell rings?",
+              "es": "Usa la situación: ¿qué tratan de NO ser los estudiantes cuando suena el timbre?"
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "Late to class",
+                "es": "Llegar tarde a clase"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "Early to class",
+                "es": "Llegar temprano a clase"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "Absent from school",
+                "es": "Faltar a la escuela"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. The bell rang and everyone is rushing so they won't be late — \"tardy\" means late. If you are tardy, the teacher may mark it.",
+                "es": "Correcto. Sonó el timbre y todos corren para no llegar tarde: \"tardy\" significa llegar tarde. Si llegas tardy, el maestro puede anotarlo."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "If you were early you would not need to rush. The students are hurrying so they will NOT be late — \"tardy\" means late.",
+                "es": "Si llegaras temprano no tendrías que apurarte. Los estudiantes corren para NO llegar tarde: \"tardy\" significa llegar tarde."
+              },
+              "hint": {
+                "en": "Why is everyone rushing after the bell?",
+                "es": "¿Por qué corren todos después del timbre?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "Absent means you are not at school at all. These students ARE at school and rushing to class — \"tardy\" means arriving late.",
+                "es": "Absent significa que no estás en la escuela. Estos estudiantes SÍ están y corren a clase: \"tardy\" significa llegar tarde."
+              }
+            }
+          }
+        },
+        {
+          "id": "m2",
+          "context": {
+            "en": "Your schedule says your next class is in Room 214, but you don't know where that is. A teacher is standing in the hallway.",
+            "es": "Tu horario dice que tu próxima clase es en el salón 214, pero no sabes dónde queda. Una maestra está en el pasillo."
+          },
+          "prompt": {
+            "en": "What is the best thing to say?",
+            "es": "¿Qué es lo mejor que puedes decir?"
+          },
+          "support": {
+            "high": {
+              "en": "Frame: \"Excuse me, can you help me find Room ___?\" / \"Disculpe, ¿me puede ayudar a encontrar el salón ___?\"",
+              "es": "Marco: \"Excuse me, can you help me find Room ___?\" = \"Disculpe, ¿me puede ayudar a encontrar el salón ___?\""
+            },
+            "medium": {
+              "en": "Start politely with \"Excuse me\" and ask a full question.",
+              "es": "Empieza con cortesía con \"Excuse me\" y haz una pregunta completa."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "\"Excuse me, can you help me find Room 214?\"",
+                "es": "\"Excuse me, can you help me find Room 214?\""
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "\"214 where?\"",
+                "es": "\"214 where?\""
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "(Say nothing and keep walking.)",
+                "es": "(No decir nada y seguir caminando.)"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Clear and polite. \"Excuse me\" gets attention respectfully, and a full question tells the teacher exactly what you need.",
+                "es": "Claro y cortés. \"Excuse me\" llama la atención con respeto, y una pregunta completa le dice a la maestra exactamente qué necesitas."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "People might understand, but it sounds abrupt and is missing words. A full question is clearer and more polite.",
+                "es": "Te podrían entender, pero suena brusco y faltan palabras. Una pregunta completa es más clara y cortés."
+              },
+              "hint": {
+                "en": "Begin with \"Excuse me, can you help me find...?\"",
+                "es": "Empieza con \"Excuse me, can you help me find...?\""
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "Staying quiet means you may be late and lost. Teachers in the hallway are there to help — it is always okay to ask.",
+                "es": "Quedarte callado hace que puedas llegar tarde y perdido. Los maestros en el pasillo están para ayudar: siempre está bien preguntar."
+              }
+            }
+          }
+        },
+        {
+          "id": "m3",
+          "context": {
+            "en": "You were absent for two days. You come back and you are not sure what work you missed in science class.",
+            "es": "Faltaste dos días. Regresas y no estás seguro de qué trabajo te perdiste en la clase de ciencias."
+          },
+          "prompt": {
+            "en": "What is the best thing to say to your science teacher?",
+            "es": "¿Qué es lo mejor que puedes decirle a tu maestro de ciencias?"
+          },
+          "support": {
+            "high": {
+              "en": "Frame: \"I was absent. What did I miss, and how can I make it up?\" / \"Falté. ¿Qué me perdí y cómo puedo reponerlo?\"",
+              "es": "Marco: \"I was absent. What did I miss, and how can I make it up?\" = \"Falté. ¿Qué me perdí y cómo puedo reponerlo?\""
+            },
+            "medium": {
+              "en": "\"Make up work\" means doing the work you missed. Ask what you missed AND how to finish it.",
+              "es": "\"Make up work\" significa hacer el trabajo que te perdiste. Pregunta qué te perdiste Y cómo terminarlo."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "\"I was absent for two days. What did I miss, and how can I make it up?\"",
+                "es": "\"I was absent for two days. What did I miss, and how can I make it up?\""
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "\"I didn't do anything.\"",
+                "es": "\"I didn't do anything.\""
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "Wait and hope the teacher does not notice.",
+                "es": "Esperar y ojalá el maestro no se dé cuenta."
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "This is exactly right. You explain why you were gone and ask the two things you need: what you missed and how to make it up.",
+                "es": "Esto es justo lo correcto. Explicas por qué faltaste y pides las dos cosas que necesitas: qué te perdiste y cómo reponerlo."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "This sounds like you chose not to work. Say you were ABSENT — then ask how to make up the work you missed.",
+                "es": "Esto suena a que decidiste no trabajar. Di que estuviste ABSENT y luego pregunta cómo reponer el trabajo que perdiste."
+              },
+              "hint": {
+                "en": "Start with \"I was absent...\"",
+                "es": "Empieza con \"I was absent...\""
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "Missed work usually still counts. Asking early shows responsibility, and most teachers give newcomers time to make it up.",
+                "es": "El trabajo perdido normalmente sigue contando. Preguntar pronto muestra responsabilidad, y la mayoría de los maestros dan tiempo a los recién llegados para reponerlo."
+              }
+            }
+          }
+        },
+        {
+          "id": "m4",
+          "context": {
+            "en": "An announcement says: \"Students, report to Advisory in Room 110 for attendance and announcements.\" You have never heard the word \"Advisory,\" but you see your whole class walking toward Room 110.",
+            "es": "Un anuncio dice: \"Estudiantes, report to Advisory in Room 110 for attendance and announcements\". Nunca habías oído la palabra \"Advisory\", pero ves a toda tu clase caminando hacia el salón 110."
+          },
+          "prompt": {
+            "en": "What should you do?",
+            "es": "¿Qué debes hacer?"
+          },
+          "support": {
+            "high": {
+              "en": "Clue: it is a short class in a room for attendance and announcements, and your class is going there. Follow them to Room 110.",
+              "es": "Pista: es una clase corta en un salón para pasar lista y dar anuncios, y tu clase va para allá. Síguelos al salón 110."
+            },
+            "medium": {
+              "en": "Use the clues: 'in Room 110,' 'attendance and announcements,' and your class is already heading there.",
+              "es": "Usa las pistas: 'in Room 110', 'attendance and announcements', y tu clase ya va para allá."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "Go to Room 110 with your class for Advisory.",
+                "es": "Ir al salón 110 con tu clase para Advisory."
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "Go home, because \"Advisory\" sounds like it is over.",
+                "es": "Irte a casa, porque \"Advisory\" suena a que ya terminó."
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "Go outside to the playground.",
+                "es": "Salir al patio de recreo."
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right — you used the clues. Advisory is a short daily class for attendance and announcements, and the announcement named Room 110. Following your class is a smart move.",
+                "es": "Correcto: usaste las pistas. Advisory es una clase corta diaria para pasar lista y dar anuncios, y el anuncio dijo salón 110. Seguir a tu clase es una buena decisión."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "The announcement said to REPORT to a room for attendance — that means go to class, not leave. Leaving without permission is not safe.",
+                "es": "El anuncio dijo REPORT a un salón para pasar lista: eso significa ir a clase, no irse. Irse sin permiso no es seguro."
+              },
+              "hint": {
+                "en": "What room and what reason does the announcement give?",
+                "es": "¿Qué salón y qué motivo da el anuncio?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "The clues point to Room 110 for attendance and announcements, not the playground. When unsure, follow your class and your schedule.",
+                "es": "Las pistas apuntan al salón 110 para pasar lista y anuncios, no al patio. Cuando dudes, sigue a tu clase y tu horario."
+              }
+            }
+          }
+        },
+        {
+          "id": "m5",
+          "context": {
+            "en": "Your group has a project. A classmate asks, \"Can you make the slides?\" You can do it, but you will need a little extra time.",
+            "es": "Tu grupo tiene un proyecto. Un compañero pregunta: \"Can you make the slides?\". Puedes hacerlo, pero necesitarás un poco más de tiempo."
+          },
+          "prompt": {
+            "en": "What is the best, most polite reply in English?",
+            "es": "¿Cuál es la mejor respuesta y la más cortés en inglés?"
+          },
+          "support": {
+            "high": {
+              "en": "Frame: \"Yes, I can. Can I have a little more time?\" / \"Sí, puedo. ¿Me pueden dar un poco más de tiempo?\"",
+              "es": "Marco: \"Yes, I can. Can I have a little more time?\" = \"Sí, puedo. ¿Me pueden dar un poco más de tiempo?\""
+            },
+            "medium": {
+              "en": "Say yes AND ask for what you need. It is okay to accept and ask for time.",
+              "es": "Di que sí Y pide lo que necesitas. Está bien aceptar y pedir tiempo."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "\"Yes, I can do the slides. Can I have a little more time?\"",
+                "es": "\"Yes, I can do the slides. Can I have a little more time?\""
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "\"No.\"",
+                "es": "\"No.\""
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "Say yes but do not say you need more time.",
+                "es": "Decir que sí pero no decir que necesitas más tiempo."
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Great teamwork language. You accept the job and politely ask for what you need, so your group can plan around it.",
+                "es": "Excelente lenguaje de trabajo en equipo. Aceptas la tarea y pides con cortesía lo que necesitas, para que tu grupo pueda organizarse."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Just \"No\" with no reason can sound unhelpful to a group. If you can do it with a little more time, say so — that keeps the team working together.",
+                "es": "Solo \"No\" sin razón puede sonar poco colaborador para un grupo. Si puedes hacerlo con un poco más de tiempo, dilo: así el equipo sigue trabajando junto."
+              },
+              "hint": {
+                "en": "You said you CAN do it — offer that and ask for time.",
+                "es": "Dijiste que SÍ puedes: ofrécelo y pide tiempo."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "Saying yes is good, but if you hide that you need more time, the work may be late. Asking for time up front helps the whole group.",
+                "es": "Decir que sí es bueno, pero si ocultas que necesitas más tiempo, el trabajo puede retrasarse. Pedir tiempo desde el principio ayuda a todo el grupo."
+              }
+            }
+          }
+        },
+        {
+          "id": "m6",
+          "context": {
+            "en": "Your teacher says, \"Turn in your permission slip by Friday for the museum trip.\" A classmate shows you a paper that your parent has to sign to say yes to the trip.",
+            "es": "Tu maestra dice: \"Turn in your permission slip by Friday for the museum trip\". Un compañero te muestra un papel que tu mamá o papá debe firmar para aceptar la excursión."
+          },
+          "prompt": {
+            "en": "What is a \"permission slip,\" and what should you do?",
+            "es": "¿Qué es un \"permission slip\" y qué debes hacer?"
+          },
+          "support": {
+            "high": {
+              "en": "Clue: a paper a parent signs to say YES to a trip. Take it home, have a parent sign it, and return it by Friday.",
+              "es": "Pista: un papel que un padre firma para decir SÍ a una excursión. Llévalo a casa, pide que lo firmen y devuélvelo antes del viernes."
+            },
+            "medium": {
+              "en": "Use the clue your classmate gave: a parent signs it. What do you do with a signed form?",
+              "es": "Usa la pista de tu compañero: un padre lo firma. ¿Qué haces con un formulario firmado?"
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "It is a form a parent signs; take it home, get it signed, and return it by Friday.",
+                "es": "Es un formulario que firma un padre; llévalo a casa, pide la firma y devuélvelo antes del viernes."
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "It is a ticket you buy; keep it and do nothing.",
+                "es": "Es un boleto que compras; guárdalo y no hagas nada."
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "It is a test you take on Friday.",
+                "es": "Es un examen que haces el viernes."
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right — you used the clue. A permission slip is a form a parent signs to allow the trip. Returning it signed by Friday is how you get to go.",
+                "es": "Correcto: usaste la pista. Un permission slip es un formulario que un padre firma para autorizar la excursión. Devolverlo firmado antes del viernes es como logras ir."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Your classmate said a PARENT signs it, so it is not a ticket you buy. Doing nothing means you may miss the trip.",
+                "es": "Tu compañero dijo que un PADRE lo firma, así que no es un boleto que compras. No hacer nada haría que te pierdas la excursión."
+              },
+              "hint": {
+                "en": "Who has to sign it, and by when must it go back?",
+                "es": "¿Quién debe firmarlo y para cuándo debe regresar?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "A parent signs a permission slip; you do not take it as a test. The clue is who signs it — your parent — to say yes to the trip.",
+                "es": "Un padre firma un permission slip; no es un examen que tú haces. La pista es quién lo firma —tu padre— para decir sí a la excursión."
+              }
+            }
+          }
+        }
+      ],
+      "ace": {
+        "articulate": true,
+        "connect": true,
+        "extend": true
+      },
+      "clear": {
+        "enabled": false,
+        "emphasis": []
+      },
+      "udl": [
+        "representation.language-support",
+        "representation.context",
+        "action-expression.multiple-response-modes",
+        "engagement.relevance"
+      ],
+      "strategies": [
+        "sentence-frames",
+        "context-clues",
+        "role-play",
+        "corrective-feedback"
+      ],
+      "standards": {
+        "elps": [
+          {
+            "code": "§120.21(d)(2)(F)",
+            "alignment": "direct",
+            "grades": [
+              6,
+              7,
+              8
+            ],
+            "rationale": "Students ask questions and respond to information during secondary-school interactions."
+          },
+          {
+            "code": "§120.21(d)(2)(D)",
+            "alignment": "supporting",
+            "grades": [
+              6,
+              7,
+              8
+            ],
+            "rationale": "Students choose a polite, appropriate register when requesting help and working in groups."
+          },
+          {
+            "code": "§120.21(d)(1)(C)",
+            "alignment": "supporting",
+            "grades": [
+              6,
+              7,
+              8
+            ],
+            "rationale": "Students respond accurately to an oral announcement and class directions."
+          }
+        ],
+        "teks": [
+          {
+            "code": "§110.22(b)(2)(B)",
+            "alignment": "supporting",
+            "grades": [
+              6
+            ],
+            "rationale": "Students use context and examples to clarify unfamiliar school words such as 'tardy' and 'advisory'."
+          },
+          {
+            "code": "§110.23(b)(2)(B)",
+            "alignment": "supporting",
+            "grades": [
+              7
+            ],
+            "rationale": "Students use context to clarify the meaning of unfamiliar school words."
+          },
+          {
+            "code": "§110.24(b)(2)(B)",
+            "alignment": "supporting",
+            "grades": [
+              8
+            ],
+            "rationale": "Students use context within and beyond a sentence to clarify unfamiliar or ambiguous school words."
+          }
+        ],
+        "slar": []
+      },
+      "printables": [
+        "nav-navigate-6-8-006-student",
+        "nav-navigate-6-8-006-answer-key"
+      ],
+      "created": "2026-10-11",
+      "updated": "2026-10-11",
       "status": "reviewed"
     }
   ]
