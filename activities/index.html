@@ -4,13 +4,55 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Activities — Language Bridge</title>
-<meta name="description" content="Browse every Language Bridge activity: bilingual and ESL activities you can use with students in the next 10 minutes. Filter by grade, module, and content area.">
+<meta name="description" content="Browse every Language Bridge activity: bilingual and ESL activities you can use with students in the next 10 minutes. Search a topic, or pick a module and grade band from the activity map.">
 <link rel="stylesheet" href="../assets/css/tokens.css">
 <link rel="stylesheet" href="../assets/css/base.css">
 <link rel="stylesheet" href="../assets/css/layout.css">
 <link rel="stylesheet" href="../assets/css/components.css">
 <link rel="stylesheet" href="../assets/css/rtl.css">
 <style>
+  /* ---- Activity map (module × grade band), styled after the ELE activity bank ---- */
+  .map-card { background: var(--navy); color:#fff; border-radius: var(--radius, 14px); padding: clamp(1rem,3.5vw,1.75rem); margin-bottom: var(--sp-5); }
+  .map-card h2 { color:#fff; margin:0 0 .15rem; }
+  .map-card .map-intro { color: rgba(255,255,255,.75); margin:0 0 var(--sp-4); font-size:.95rem; }
+  .matrix { display:grid; grid-template-columns: auto repeat(4, minmax(0,1fr)); gap:5px; }
+  .mx-head, .mx-row { display:flex; align-items:center; font-weight:700; color:rgba(255,255,255,.9); }
+  .mx-corner { }
+  .mx-head { justify-content:center; font-size:.9rem; padding-bottom:2px; }
+  .mx-row { justify-content:flex-end; text-align:right; padding-right:8px; font-size:.82rem; line-height:1.15; }
+  .mx-cell { position:relative; min-height:62px; padding:7px 9px 6px; border-radius:8px; cursor:pointer;
+    display:flex; flex-direction:column; justify-content:space-between; text-align:left;
+    font:600 .72rem/1.2 inherit; border:1px solid rgba(252,176,64,.3); background:#0e3a73; color:#fff;
+    transition:transform .15s, box-shadow .15s; }
+  .mx-cell .mx-title { color:rgba(255,255,255,.85); font-weight:600; }
+  .mx-cell.lv0 { background:transparent; border:1.5px dashed rgba(255,255,255,.35); color:rgba(255,255,255,.6); cursor:default; }
+  .mx-cell.lv2 { background:#FFD98A; color:var(--navy); border-color:#FFD98A; }
+  .mx-cell.lv2 .mx-title { color:var(--navy); }
+  .mx-cell.lv3 { background:var(--gold); color:var(--navy); border-color:var(--gold); }
+  .mx-cell.lv3 .mx-title { color:var(--navy); }
+  .mx-cell:not(.lv0):hover { transform:translateY(-2px); box-shadow:0 6px 16px rgba(0,0,0,.3); }
+  .mx-cell[aria-pressed="true"] { outline:3px solid #fff; outline-offset:2px; }
+  .mx-n { font-family:var(--font-display, serif); font-size:1.3rem; line-height:1; align-self:flex-end; font-weight:800; }
+  .map-caption { color:rgba(255,255,255,.65); font-size:.85rem; margin:12px 0 0; }
+  .map-search { display:flex; gap:8px; margin:16px 0 8px; max-width:560px; }
+  .map-search input { flex:1; min-width:0; font:400 .95rem inherit; padding:10px 12px; border-radius:10px;
+    border:1.5px solid rgba(255,255,255,.3); background:rgba(255,255,255,.1); color:#fff; }
+  .map-search input::placeholder { color:rgba(255,255,255,.6); }
+  .map-search input:focus { outline:none; border-color:var(--gold); background:rgba(255,255,255,.16); }
+  .map-topics { font-size:.85rem; color:rgba(255,255,255,.7); margin:0; display:flex; flex-wrap:wrap; gap:4px 12px; align-items:center; }
+  .map-topics a { color:#FFD98A; font-weight:600; }
+  .active-note { color:rgba(255,255,255,.9); font-size:.9rem; margin:10px 0 0; }
+  .active-note button { background:none; border:1.5px solid rgba(255,255,255,.4); color:#fff; border-radius:999px; padding:2px 10px; font:inherit; font-size:.82rem; cursor:pointer; margin-left:6px; }
+  .active-note button:hover { border-color:var(--gold); }
+  @media (max-width: 40rem) {
+    .matrix { gap:3px; }
+    .mx-cell { min-height:46px; padding:5px 6px; }
+    .mx-cell .mx-title { display:none; }
+    .mx-n { align-self:center; margin:auto; }
+    .mx-row { font-size:.72rem; padding-right:4px; }
+    .mx-head { font-size:.75rem; }
+  }
+  /* ---- filters + results (unchanged) ---- */
   .filters { display:grid; gap:var(--sp-3); grid-template-columns:repeat(auto-fit,minmax(9rem,1fr)); align-items:end; margin-bottom:var(--sp-5); }
   .filters label { display:block; font-weight:600; font-size:.85rem; color:var(--navy); margin-bottom:.25rem; }
   .filters select { width:100%; font:inherit; padding:.5rem; border:2px solid #cdddf2; border-radius:10px; background:#fff; }
@@ -29,6 +71,28 @@
   <h1>Activities</h1>
   <p>Everything here is built to answer one question: <em>what can a teacher use with
      students in the next 10 minutes?</em> No accounts, works on a Chromebook, works on paper.</p>
+
+  <!-- Activity map: module × grade band, counts + search (after the ELE activity bank) -->
+  <section class="map-card" aria-labelledby="map-h">
+    <h2 id="map-h">Activity map</h2>
+    <p class="map-intro">Three modules across four grade bands. The more gold a cell, the more
+      activities it holds; dashed cells have none yet. Choose a cell to filter, or search a topic.</p>
+    <div class="matrix" id="matrix" role="group" aria-label="Activity map. Choose a module and grade band to filter."></div>
+    <p class="map-caption" id="map-caption"></p>
+    <form class="map-search" role="search" onsubmit="return false">
+      <input id="map-q" type="search" placeholder="Search a topic: cognates, false friends, ask for help…" autocomplete="off" aria-label="Search activities by topic">
+      <button class="btn" type="submit" id="map-go">Search</button>
+    </form>
+    <p class="map-topics"><span>Try:</span>
+      <a href="#" data-q="cognates">cognates</a>
+      <a href="#" data-q="false friends">false friends</a>
+      <a href="#" data-q="roots">roots</a>
+      <a href="#" data-q="ask for help">ask for help</a>
+      <a href="#" data-q="academic words">academic words</a>
+      <a href="#" data-q="school offices">school offices</a>
+    </p>
+    <p class="active-note" id="active-note" hidden></p>
+  </section>
 
   <div class="filters" aria-label="Filter activities">
     <div><label for="f-module">Module</label><select id="f-module"><option value="">All modules</option></select></div>
@@ -54,23 +118,92 @@
 <script>
 (function () {
   "use strict";
-  var all = [], modules = {};
+  var all = [], modules = {}, moduleOrder = [];
+  var BANDS = ["K-2", "3-5", "6-8", "9-12"];
+  var cellModule = "", cellBand = "";   // active map cell (independent of the dropdowns)
   function pick(o){ return I18n.pick(o, I18n.uiLang); }
   function esc(s){ return String(s==null?"":s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
+  // accent-insensitive normalization (matches the ELE bank's search behaviour)
+  function norm(s){ return String(s==null?"":s).normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase(); }
+
+  // Build one searchable haystack per activity from every learner-facing string, EN + current lang.
+  function haystack(a) {
+    var parts = [];
+    function add(o){ if(!o) return; if(typeof o==="string"){ parts.push(o); } else { if(o.en) parts.push(o.en); var p=pick(o); if(p) parts.push(p); } }
+    add(a.title); add(a.studentGoal); add(a.studentDirections); add(a.teacherDirections); add(a.languageFunction);
+    (a.subjects||[]).forEach(function(s){ parts.push(s); });
+    parts.push(a.gradeBand); if(modules[a.module]) add(modules[a.module].name);
+    (a.categories||[]).forEach(function(c){ add(c.label); });
+    (a.items||[]).forEach(function(it){ add(it.prompt); add(it.context); if(it.targetWord) parts.push(it.targetWord); (it.choices||[]).forEach(function(c){ add(c.label); }); });
+    return norm(parts.join(" "));
+  }
+
+  function levelFor(n){ return n===0 ? 0 : n<=2 ? 1 : n<=5 ? 2 : 3; }
+
+  function buildMatrix() {
+    var mx = document.getElementById("matrix");
+    var html = '<div class="mx-corner" aria-hidden="true"></div>';
+    BANDS.forEach(function(b){ html += '<div class="mx-head">' + esc(b) + '</div>'; });
+    moduleOrder.forEach(function(mid){
+      html += '<div class="mx-row">' + esc(modules[mid] ? pick(modules[mid].name) : mid) + '</div>';
+      BANDS.forEach(function(b){
+        var n = all.filter(function(a){ return a.module===mid && a.gradeBand===b; }).length;
+        var lv = levelFor(n), mn = modules[mid] ? pick(modules[mid].name) : mid;
+        var label = mn + ", " + b + ": " + n + (n===1?" activity":" activities");
+        var pressed = (cellModule===mid && cellBand===b);
+        if (n === 0) {
+          html += '<div class="mx-cell lv0" aria-label="' + esc(label) + ', none yet"><span class="mx-title"></span><span class="mx-n">0</span></div>';
+        } else {
+          html += '<button type="button" class="mx-cell lv' + lv + '" data-module="' + esc(mid) + '" data-band="' + esc(b) +
+            '" aria-pressed="' + pressed + '" aria-label="' + esc(label) + '">' +
+            '<span class="mx-title">' + esc(mn) + '</span><span class="mx-n">' + n + '</span></button>';
+        }
+      });
+    });
+    mx.innerHTML = html;
+    [].slice.call(mx.querySelectorAll(".mx-cell[data-module]")).forEach(function(c){
+      c.addEventListener("click", function(){
+        var m = c.dataset.module, b = c.dataset.band;
+        if (cellModule===m && cellBand===b) { cellModule=""; cellBand=""; }
+        else { cellModule=m; cellBand=b; }
+        render();
+        document.getElementById("count").scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "start" });
+      });
+    });
+  }
 
   function render() {
     var m = document.getElementById("f-module").value;
     var g = document.getElementById("f-grade").value;
     var subj = document.getElementById("f-subject").value;
     var time = document.getElementById("f-time").value;
+    var q = norm(document.getElementById("map-q").value.trim());
+    var words = q ? q.split(/\s+/) : [];
     var rows = all.filter(function (a) {
+      if (cellModule && a.module !== cellModule) return false;
+      if (cellBand && a.gradeBand !== cellBand) return false;
       if (m && a.module !== m) return false;
       if (g && a.grades.indexOf(g === "K" ? 0 : parseInt(g,10)) === -1) return false;
       if (subj && (a.subjects||[]).indexOf(subj) === -1) return false;
       if (time && a.duration > parseInt(time,10)) return false;
+      if (words.length) { for (var i=0;i<words.length;i++){ if (a._hay.indexOf(words[i]) === -1) return false; } }
       return true;
     });
     document.getElementById("count").textContent = rows.length + (rows.length === 1 ? " activity" : " activities");
+
+    // active-cell note (clearable), mirrors the ELE bank's area note
+    var note = document.getElementById("active-note");
+    [].slice.call(document.querySelectorAll(".mx-cell[data-module]")).forEach(function(c){
+      c.setAttribute("aria-pressed", String(c.dataset.module===cellModule && c.dataset.band===cellBand));
+    });
+    if (cellModule && cellBand) {
+      note.hidden = false;
+      note.textContent = "Showing " + (modules[cellModule] ? pick(modules[cellModule].name) : cellModule) + " · " + cellBand + " ";
+      var b = document.createElement("button"); b.type="button"; b.textContent="Show all";
+      b.addEventListener("click", function(){ cellModule=""; cellBand=""; render(); });
+      note.appendChild(b);
+    } else { note.hidden = true; note.textContent = ""; }
+
     document.getElementById("results").innerHTML = rows.map(function (a) {
       var modName = modules[a.module] ? pick(modules[a.module].name) : a.module;
       return '<div class="card a-card"><div class="pad">' +
@@ -87,22 +220,39 @@
           '<a class="btn sm secondary" href="../modules/' + esc(a.module) + '/activity.html?id=' + esc(a.id) + '&mode=student">Student</a>' +
         '</div></div></div>';
     }).join("");
+    document.getElementById("map-caption").textContent = all.length + " activities in all · search looks inside every question and word.";
   }
 
   window.LB.ready.then(function () {
     return fetch("../data/site.json").then(function (r){ return r.json(); });
   }).then(function (site) {
-    var live = site.modules.filter(function (x){ return x.status === "live"; });
+    var live = site.modules.filter(function (x){ return x.status === "live"; })
+      .sort(function(a,b){ return (a.order||0)-(b.order||0); });
     var sel = document.getElementById("f-module");
-    live.forEach(function (m){ modules[m.id] = m; var o=document.createElement("option"); o.value=m.id; o.textContent=pick(m.name); sel.appendChild(o); });
+    live.forEach(function (m){ modules[m.id] = m; moduleOrder.push(m.id); var o=document.createElement("option"); o.value=m.id; o.textContent=pick(m.name); sel.appendChild(o); });
     return Promise.all(live.map(function (m){
       return fetch("../" + m.data).then(function (r){ return r.json(); }).then(function (d){ return d.activities||[]; });
     }));
   }).then(function (lists) {
     all = lists.reduce(function (acc,l){ return acc.concat(l); }, [])
       .filter(function (a){ return a.status !== "draft"; }); // drafts hidden until published
+    all.forEach(function(a){ a._hay = haystack(a); });
+
+    // restore a search from ?q=
+    var pq = new URLSearchParams(location.search).get("q");
+    if (pq) document.getElementById("map-q").value = pq;
+
     ["f-module","f-grade","f-subject","f-time"].forEach(function (id){ document.getElementById(id).addEventListener("change", render); });
-    document.addEventListener("lb:langchange", render);
+    var mq = document.getElementById("map-q"), typing;
+    mq.addEventListener("input", function(){ clearTimeout(typing); typing=setTimeout(render, 120); });
+    document.querySelector(".map-search").addEventListener("submit", function(e){ e.preventDefault(); render(); });
+    [].slice.call(document.querySelectorAll(".map-topics a[data-q]")).forEach(function(aEl){
+      aEl.addEventListener("click", function(e){ e.preventDefault(); mq.value=aEl.dataset.q; render();
+        document.getElementById("count").scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block:"start" }); });
+    });
+    document.addEventListener("lb:langchange", function(){ all.forEach(function(a){ a._hay=haystack(a); }); buildMatrix(); render(); });
+
+    buildMatrix();
     render();
   });
 })();
