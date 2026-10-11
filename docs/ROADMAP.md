@@ -2,9 +2,27 @@
 
 ## Current state (2026-10-11)
 
-**Live at https://mglearn.github.io/puente/** — 3 launch modules, **26 activities**,
+**Live at https://mglearn.github.io/puente/** — 3 launch modules, **36 activities**,
 **25 verified standards** (0 pending), full site navigation, 18 smoke tests + 5 validators
 (data / standards / locales / links / contrast) all green.
+
+**Activity map + topic search (2026-10-11).** `activities/` now opens with an ELE-Activity-
+Bank-style **Activity map**: a module × grade-band grid (3×4) where each cell shows its
+activity count with gold intensity (dashed = none yet, so the K–2 gaps show honestly).
+Click a cell to filter; a topic **search box + Try chips** search inside every activity
+string (titles, goals, directions, item prompts, choices, target words), accent-insensitive
+and language-aware. Composes with the existing dropdowns; `?q=` is shareable. Navy/gold,
+styled to Puente tokens.
+
+**Content build-out to 36 (2026-10-11).** +10 text-only activities (no new art) saturating
+the 25 verified codes — including the two previously-unused codes (ELPS §120.21(d)(1)(B)
+listening via a 6–8 science-listening activity; TEKS §110.7(b)(3)(A) via a 3–5 glossary
+activity). Cognate Detective 15 · Academic Language Lab 11 · Newcomer Navigator 10. New:
+Root Detective (3–5), Cognates You Hear in Science (6–8), Cognate/False Friend/Neither
+(9–12 sort), Using a Glossary (3–5); Academic Talk Moves MS (6–8), Formal or Informal?
+(9–12), Plan Your Presentation (3–5); Following Classroom Directions (3–5), Telling How You
+Feel (3–5), School Offices and Forms (9–12). Speaking/register activities honestly carry
+`teks: []` (ELPS is the on-target ELL standard) rather than a forced TEKS correlation.
 
 - **Cognate Detective (11):** Cognate Picture Match ×2 (K–2) · Cognate or False Friend? ·
   Cognate or Not? (sort) · Science / Math / Social Studies Cognate Hunts (sort) · False
@@ -80,12 +98,15 @@ generic/abstract "animal" grouping if that cognate card is wanted.
 
 ## Next
 
-1. **Depth toward MVP.** Cognate Detective 11/24, Academic Language Lab 8/32, Newcomer 7/30 —
-   all feed the shared engines. Every module now reaches 9–12; the open coverage gap is
-   **K–2 for Academic Language Lab and Newcomer Navigator** (see "K–2 gap" above — an owner
-   decision on K–3 speaking/listening ELPS codes or K–2 artwork). 4 K–2 cognate cards
-   (animal, chocolate, doctor, telephone) are already `available` in the manifest, ready for
-   more Cognate Detective K–2 picture items.
+1. **Depth toward MVP.** Cognate Detective 15/24, Academic Language Lab 11/32, Newcomer 10/30 —
+   all feed the shared engines. The current 25 verified codes are now well-saturated (both
+   previously-unused codes are covered). Going further toward the MVP targets will need
+   **new verified standards** (more 6–8/9–12 listening/speaking/writing TEKS, SLAR beyond
+   grade 5, and K–3 speaking/listening ELPS) — a standards-verification research pass against
+   TEA Ch. 110/120/128, flagged for human sign-off. Every module reaches 9–12; the open
+   coverage gap is **K–2 for Academic Language Lab and Newcomer Navigator** (see "K–2 gap"
+   above). 4 K–2 cognate cards (animal, chocolate, doctor, telephone) are already `available`
+   in the manifest, ready for more Cognate Detective K–2 picture items.
 3. **A11y round two** (real AT walkthrough, print QA, axe) and **Spanish review** (the 2 `reviewed`
    locale keys are an intentional QC-gate fixture — see es.json `_meta`).
 
