@@ -2505,6 +2505,566 @@
       "created": "2026-10-11",
       "updated": "2026-10-11",
       "status": "reviewed"
+    },
+    {
+      "id": "nav-highschool-9-12-007",
+      "module": "newcomer-navigator",
+      "title": {
+        "en": "Navigating High School",
+        "es": "Cómo moverte en la preparatoria"
+      },
+      "grades": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "gradeBand": "9-12",
+      "subjects": [
+        "elar"
+      ],
+      "duration": 10,
+      "interactionType": "context-choice",
+      "targetLanguage": "en",
+      "supportedHomeLanguages": [
+        "es"
+      ],
+      "languagePair": "en-es",
+      "studentGoal": {
+        "en": "Handle high school: understand new words like credit and transcript from context, and speak with staff using a clear, polite, formal register.",
+        "es": "Maneja la preparatoria: entiende palabras nuevas como credit y transcript por el contexto, y habla con el personal usando un registro claro, cortés y formal."
+      },
+      "studentDirections": {
+        "en": "High school adds credits, counselors, transcripts, and a syllabus. Read each situation, use the clues, and choose the clearest, most appropriate thing to say or do in English. Choose, then select Check.",
+        "es": "La preparatoria agrega créditos, consejeros, expedientes y un programa del curso. Lee cada situación, usa las pistas y elige lo más claro y apropiado que decir o hacer en inglés. Elige y luego selecciona Revisar."
+      },
+      "teacherDirections": {
+        "en": "Older newcomers face graduation-credit systems and more formal adult interactions. Two items (credit, transcript, syllabus) are meaning-from-context; the rest practice a formal register with a counselor, teacher, or principal. Turn on More support for bilingual frames and role-play the staff conversations.",
+        "es": "Los recién llegados mayores enfrentan sistemas de créditos para graduarse e interacciones más formales con adultos. Dos ejercicios (credit, transcript, syllabus) son de deducir el significado por el contexto; los demás practican un registro formal con un consejero, maestro o director. Activa Más apoyo para marcos bilingües y representen las conversaciones con el personal."
+      },
+      "languageFunction": {
+        "en": "Inferring word meaning from context and using a formal register to request information in a high-school setting.",
+        "es": "Deducir el significado de palabras por el contexto y usar un registro formal para pedir información en un entorno de preparatoria."
+      },
+      "materials": [],
+      "items": [
+        {
+          "id": "h1",
+          "context": {
+            "en": "Your counselor says: “You need 26 credits to graduate. Each class you pass gives you credits toward that total.”",
+            "es": "Tu consejero dice: “You need 26 credits to graduate. Each class you pass gives you credits toward that total.”"
+          },
+          "prompt": {
+            "en": "What does “credit” most likely mean here?",
+            "es": "¿Qué significa probablemente “credit” aquí?"
+          },
+          "support": {
+            "high": {
+              "en": "Clue: you earn them by passing classes, and you need 26 to graduate. A “credit” = points toward graduation.",
+              "es": "Pista: los ganas al aprobar clases, y necesitas 26 para graduarte. Un “credit” = puntos para graduarte."
+            },
+            "medium": {
+              "en": "What do you get each time you pass a class?",
+              "es": "¿Qué obtienes cada vez que apruebas una clase?"
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "Points you earn for passing a class, which count toward graduation",
+                "es": "Puntos que ganas por aprobar una clase, que cuentan para graduarte"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "Money the school pays you",
+                "es": "Dinero que la escuela te paga"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "A kind of test",
+                "es": "Un tipo de examen"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right — you used the clue. You earn credits by passing classes and need 26 to graduate, so a credit is points toward graduation.",
+                "es": "Correcto: usaste la pista. Ganas créditos al aprobar clases y necesitas 26 para graduarte, así que un crédito es puntos para graduarte."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "“Credit” can mean money elsewhere, but the counselor said you EARN it by passing classes to graduate — not money.",
+                "es": "“Credit” puede significar dinero en otros contextos, pero el consejero dijo que lo GANAS al aprobar clases para graduarte, no dinero."
+              },
+              "hint": {
+                "en": "How do you get a credit — by being paid, or by passing?",
+                "es": "¿Cómo obtienes un crédito: te pagan, o apruebas?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "You earn a credit by passing a class, not by taking one test. It counts toward graduation.",
+                "es": "Ganas un crédito al aprobar una clase, no con un solo examen. Cuenta para graduarte."
+              }
+            }
+          }
+        },
+        {
+          "id": "h2",
+          "context": {
+            "en": "You look at your class schedule and think there is a mistake — a class you never signed up for is on it. The counselor is at her desk.",
+            "es": "Miras tu horario de clases y crees que hay un error: aparece una clase en la que nunca te inscribiste. La consejera está en su escritorio."
+          },
+          "prompt": {
+            "en": "What is the best, most appropriate thing to say?",
+            "es": "¿Qué es lo más apropiado que puedes decir?"
+          },
+          "support": {
+            "high": {
+              "en": "Frame: “Excuse me, I think there may be a mistake in my schedule. Could you help me check it?”",
+              "es": "Marco: “Excuse me, I think there may be a mistake in my schedule. Could you help me check it?”"
+            },
+            "medium": {
+              "en": "With a counselor, use a polite, formal question — not a demand.",
+              "es": "Con una consejera, usa una pregunta cortés y formal, no una exigencia."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "“Excuse me, I think there may be a mistake in my schedule. Could you help me check it?”",
+                "es": "“Excuse me, I think there may be a mistake in my schedule. Could you help me check it?”"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "“This schedule is wrong. Fix it.”",
+                "es": "“This schedule is wrong. Fix it.”"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "(Say nothing and just skip the class you don't recognize.)",
+                "es": "(No decir nada y simplemente faltar a la clase que no reconoces.)"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. It is polite and formal, says what might be wrong, and asks for help — exactly the register to use with a counselor.",
+                "es": "Correcto. Es cortés y formal, dice qué podría estar mal y pide ayuda: justo el registro para usar con una consejera."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "“Fix it” is a demand and sounds rude to an adult. A polite question gets better help: “Could you help me check it?”",
+                "es": "“Fix it” es una exigencia y suena grosero con un adulto. Una pregunta cortés consigue mejor ayuda: “Could you help me check it?”"
+              },
+              "hint": {
+                "en": "Ask politely instead of ordering.",
+                "es": "Pide con cortesía en vez de ordenar."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "Skipping a class on your schedule can hurt your attendance and credits. Ask the counselor to check it.",
+                "es": "Faltar a una clase de tu horario puede afectar tu asistencia y tus créditos. Pide a la consejera que lo revise."
+              }
+            }
+          }
+        },
+        {
+          "id": "h3",
+          "context": {
+            "en": "The counselor says: “Please bring your transcript from your old school. It lists every class you took and the grades you earned.”",
+            "es": "La consejera dice: “Please bring your transcript from your old school. It lists every class you took and the grades you earned.”"
+          },
+          "prompt": {
+            "en": "What is a “transcript”?",
+            "es": "¿Qué es un “transcript”?"
+          },
+          "support": {
+            "high": {
+              "en": "Clue: it lists every class you took and your grades. A transcript = an official record of your classes and grades.",
+              "es": "Pista: enumera cada clase que tomaste y tus calificaciones. Un transcript = un registro oficial de tus clases y calificaciones."
+            },
+            "medium": {
+              "en": "Use the counselor's own description: what does it list?",
+              "es": "Usa la descripción de la consejera: ¿qué enumera?"
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "An official record of the classes you took and the grades you earned",
+                "es": "Un registro oficial de las clases que tomaste y las calificaciones que obtuviste"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "A bus pass",
+                "es": "Un pase de autobús"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "A letter from a teacher",
+                "es": "Una carta de un maestro"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right — the counselor told you: it lists every class and your grades. That is a transcript, an official school record.",
+                "es": "Correcto: la consejera te lo dijo: enumera cada clase y tus calificaciones. Eso es un transcript, un registro escolar oficial."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "The clue said it lists classes and grades, not transportation. A transcript is a school record.",
+                "es": "La pista dijo que enumera clases y calificaciones, no transporte. Un transcript es un registro escolar."
+              },
+              "hint": {
+                "en": "Re-read what the counselor said it lists.",
+                "es": "Relee lo que la consejera dijo que enumera."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "A letter from a teacher is a recommendation. A transcript is the official list of your classes and grades.",
+                "es": "Una carta de un maestro es una recomendación. Un transcript es la lista oficial de tus clases y calificaciones."
+              }
+            }
+          }
+        },
+        {
+          "id": "h4",
+          "context": {
+            "en": "You understand the essay assignment but you are still learning English and need more time. You want to ask your teacher.",
+            "es": "Entiendes la tarea del ensayo pero aún estás aprendiendo inglés y necesitas más tiempo. Quieres preguntarle a tu maestro."
+          },
+          "prompt": {
+            "en": "What is the best way to ask?",
+            "es": "¿Cuál es la mejor manera de pedirlo?"
+          },
+          "support": {
+            "high": {
+              "en": "Frame: “I understand the assignment, but I am still learning English. Could I please have a little more time?”",
+              "es": "Marco: “I understand the assignment, but I am still learning English. Could I please have a little more time?”"
+            },
+            "medium": {
+              "en": "Explain your reason AND ask politely for what you need.",
+              "es": "Explica tu razón Y pide con cortesía lo que necesitas."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "“I understand the assignment, but I am still learning English. Could I please have a little more time?”",
+                "es": "“I understand the assignment, but I am still learning English. Could I please have a little more time?”"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "“I need more time. Give me more time.”",
+                "es": "“I need more time. Give me more time.”"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "Turn it in unfinished and say nothing.",
+                "es": "Entregarlo sin terminar y no decir nada."
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. You give a clear, honest reason and ask politely — teachers can usually grant an extension when you ask this way.",
+                "es": "Correcto. Das una razón clara y honesta y pides con cortesía: los maestros normalmente pueden dar una prórroga cuando pides así."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "“Give me more time” is a command. A polite request with a reason works better: “Could I please have more time?”",
+                "es": "“Give me more time” es una orden. Una petición cortés con una razón funciona mejor: “Could I please have more time?”"
+              },
+              "hint": {
+                "en": "Add “could I please” and your reason.",
+                "es": "Agrega “could I please” y tu razón."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "Turning it in unfinished without asking means a lower grade you could have avoided. Asking early is the better move.",
+                "es": "Entregarlo sin terminar y sin preguntar significa una calificación más baja que pudiste evitar. Preguntar a tiempo es la mejor decisión."
+              }
+            }
+          }
+        },
+        {
+          "id": "h5",
+          "context": {
+            "en": "Your class syllabus says: “Late work loses 10% per day.” You will turn in an essay one day late.",
+            "es": "El programa de tu clase dice: “Late work loses 10% per day.” Entregarás un ensayo un día tarde."
+          },
+          "prompt": {
+            "en": "What does this mean for your essay?",
+            "es": "¿Qué significa esto para tu ensayo?"
+          },
+          "support": {
+            "high": {
+              "en": "Clue: “10% per day” and your essay is ONE day late. It loses 10% of the possible points.",
+              "es": "Pista: “10% per day” y tu ensayo va UN día tarde. Pierde el 10% de los puntos posibles."
+            },
+            "medium": {
+              "en": "How many days late, and how much is lost per day?",
+              "es": "¿Cuántos días tarde, y cuánto se pierde por día?"
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "The essay's score will be reduced by 10%.",
+                "es": "La calificación del ensayo se reducirá un 10%."
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "The essay will not be accepted at all.",
+                "es": "El ensayo no se aceptará en absoluto."
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "Nothing happens because it is only one day.",
+                "es": "No pasa nada porque es solo un día."
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right — you read the syllabus. It loses 10% per day, and one day late means a 10% reduction. Still worth turning in.",
+                "es": "Correcto: leíste el programa. Pierde 10% por día, y un día tarde es una reducción del 10%. Aún vale la pena entregarlo."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "The syllabus says it LOSES points, not that it is refused. One day late = 10% off, so still turn it in.",
+                "es": "El programa dice que PIERDE puntos, no que se rechaza. Un día tarde = 10% menos, así que entrégalo igual."
+              },
+              "hint": {
+                "en": "Does “loses 10% per day” mean refused, or reduced?",
+                "es": "¿“loses 10% per day” significa rechazado, o reducido?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "One day still costs 10% — the rule applies from the first day late. Turn it in soon to avoid losing more.",
+                "es": "Un día ya cuesta 10%: la regla aplica desde el primer día tarde. Entrégalo pronto para no perder más."
+              }
+            }
+          }
+        },
+        {
+          "id": "h6",
+          "context": {
+            "en": "You want to join the school soccer team and you see the principal in the hallway in the morning.",
+            "es": "Quieres unirte al equipo de fútbol de la escuela y ves al director en el pasillo por la mañana."
+          },
+          "prompt": {
+            "en": "Which is the most appropriate way to begin?",
+            "es": "¿Cuál es la forma más apropiada de empezar?"
+          },
+          "support": {
+            "high": {
+              "en": "Frame: “Good morning. May I ask you about joining the soccer team?” Use a formal greeting with the principal.",
+              "es": "Marco: “Good morning. May I ask you about joining the soccer team?” Usa un saludo formal con el director."
+            },
+            "medium": {
+              "en": "Speaking to the principal calls for a more formal register than talking to a friend.",
+              "es": "Hablar con el director requiere un registro más formal que hablar con un amigo."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "“Good morning. May I ask you about joining the soccer team?”",
+                "es": "“Good morning. May I ask you about joining the soccer team?”"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "“Hey, I wanna play soccer, how do I?”",
+                "es": "“Hey, I wanna play soccer, how do I?”"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "(Walk up and start talking about soccer with no greeting.)",
+                "es": "(Acercarse y empezar a hablar de fútbol sin saludar.)"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. A formal greeting and a polite request (“May I ask you…”) fit speaking with a principal.",
+                "es": "Correcto. Un saludo formal y una petición cortés (“May I ask you…”) encajan al hablar con un director."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "“Hey… wanna” is casual — fine with a friend, too informal for the principal. Use “Good morning. May I…?”",
+                "es": "“Hey… wanna” es casual: está bien con un amigo, demasiado informal para el director. Usa “Good morning. May I…?”"
+              },
+              "hint": {
+                "en": "Match the register to the person — the principal is formal.",
+                "es": "Ajusta el registro a la persona: con el director es formal."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "Starting with no greeting feels abrupt to an adult in authority. Begin with “Good morning.”",
+                "es": "Empezar sin saludar se siente brusco con un adulto con autoridad. Empieza con “Good morning.”"
+              }
+            }
+          }
+        }
+      ],
+      "ace": {
+        "articulate": true,
+        "connect": true,
+        "extend": true
+      },
+      "clear": {
+        "enabled": false,
+        "emphasis": []
+      },
+      "udl": [
+        "representation.language-support",
+        "representation.context",
+        "action-expression.multiple-response-modes",
+        "engagement.relevance"
+      ],
+      "strategies": [
+        "sentence-frames",
+        "context-clues",
+        "role-play",
+        "corrective-feedback"
+      ],
+      "standards": {
+        "elps": [
+          {
+            "code": "§120.21(d)(2)(F)",
+            "alignment": "direct",
+            "grades": [
+              9,
+              10,
+              11,
+              12
+            ],
+            "rationale": "Students ask questions and respond to information during high-school interactions with staff."
+          },
+          {
+            "code": "§120.21(d)(2)(D)",
+            "alignment": "supporting",
+            "grades": [
+              9,
+              10,
+              11,
+              12
+            ],
+            "rationale": "Students choose a formal register appropriate for a counselor, teacher, or principal."
+          },
+          {
+            "code": "§120.21(d)(1)(C)",
+            "alignment": "supporting",
+            "grades": [
+              9,
+              10,
+              11,
+              12
+            ],
+            "rationale": "Students respond accurately to a counselor's directions and a written syllabus rule."
+          }
+        ],
+        "teks": [
+          {
+            "code": "§110.36(c)(2)(B)",
+            "alignment": "supporting",
+            "grades": [
+              9
+            ],
+            "rationale": "Students analyze context to determine the meaning of school terms such as credit and transcript."
+          },
+          {
+            "code": "§110.37(c)(2)(B)",
+            "alignment": "supporting",
+            "grades": [
+              10
+            ],
+            "rationale": "Students analyze context to determine the meaning of unfamiliar school terms."
+          }
+        ],
+        "slar": []
+      },
+      "printables": [
+        "nav-highschool-9-12-007-student",
+        "nav-highschool-9-12-007-answer-key"
+      ],
+      "created": "2026-10-11",
+      "updated": "2026-10-11",
+      "status": "reviewed"
     }
   ]
 }

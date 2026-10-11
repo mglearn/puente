@@ -7,18 +7,21 @@
         "en": "Academic Talk Moves",
         "es": "Movimientos de conversación académica"
       },
-
-      "grades": [5],
+      "grades": [
+        5
+      ],
       "gradeBand": "3-5",
-      "subjects": ["science", "elar"],
+      "subjects": [
+        "science",
+        "elar"
+      ],
       "duration": 10,
-
       "interactionType": "multiple-choice",
-
       "targetLanguage": "en",
-      "supportedHomeLanguages": ["es"],
+      "supportedHomeLanguages": [
+        "es"
+      ],
       "languagePair": "en-es",
-
       "studentGoal": {
         "en": "Choose academic talk moves — agree and build, respectfully disagree, ask a clarifying question, and cite evidence — to contribute to a science discussion.",
         "es": "Elige movimientos de conversación académica —estar de acuerdo y ampliar, estar en desacuerdo con respeto, hacer una pregunta aclaratoria y citar evidencia— para participar en una discusión de ciencias."
@@ -35,9 +38,7 @@
         "en": "Contributing to academic discussion: agreeing and building, disagreeing, questioning, and citing evidence.",
         "es": "Participar en la discusión académica: estar de acuerdo y ampliar, estar en desacuerdo, preguntar y citar evidencia."
       },
-
       "materials": [],
-
       "items": [
         {
           "id": "t1",
@@ -60,19 +61,55 @@
             }
           },
           "choices": [
-            { "id": "a", "label": { "en": "\"I agree with Mia, and I want to add that plants use sunlight in photosynthesis to make their own food.\"", "es": "\"Estoy de acuerdo con Mia, y quiero agregar que las plantas usan la luz solar en la fotosíntesis para producir su propio alimento.\"" } },
-            { "id": "b", "label": { "en": "\"Yeah, plants are cool.\"", "es": "\"Sí, las plantas son geniales.\"" } },
-            { "id": "c", "label": { "en": "\"My plant died once.\"", "es": "\"Una vez se me murió una planta.\"" } }
+            {
+              "id": "a",
+              "label": {
+                "en": "\"I agree with Mia, and I want to add that plants use sunlight in photosynthesis to make their own food.\"",
+                "es": "\"Estoy de acuerdo con Mia, y quiero agregar que las plantas usan la luz solar en la fotosíntesis para producir su propio alimento.\""
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "\"Yeah, plants are cool.\"",
+                "es": "\"Sí, las plantas son geniales.\""
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "\"My plant died once.\"",
+                "es": "\"Una vez se me murió una planta.\""
+              }
+            }
           ],
           "answer": "a",
           "feedback": {
-            "a": { "correct": true,
-              "why": { "en": "Strong move. You agreed, built on Mia's idea, and used the precise science word \"photosynthesis.\" Agreeing and adding evidence keeps the discussion moving.", "es": "Buen movimiento. Estuviste de acuerdo, ampliaste la idea de Mia y usaste la palabra precisa \"fotosíntesis.\" Estar de acuerdo y agregar evidencia hace avanzar la discusión." } },
-            "b": { "correct": false,
-              "why": { "en": "This agrees but adds nothing new. A strong talk move builds on the idea — add a reason or a science word.", "es": "Esto está de acuerdo pero no agrega nada nuevo. Un buen movimiento amplía la idea: agrega una razón o una palabra de ciencia." },
-              "hint": { "en": "Try the frame: \"I agree, and I want to add that ___.\"", "es": "Prueba el marco: \"Estoy de acuerdo, y quiero agregar que ___.\"" } },
-            "c": { "correct": false,
-              "why": { "en": "This is a personal story that drifts off topic. Keep your response connected to the claim and add academic detail.", "es": "Esto es una anécdota personal que se aleja del tema. Mantén tu respuesta conectada con la afirmación y agrega detalle académico." } }
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Strong move. You agreed, built on Mia's idea, and used the precise science word \"photosynthesis.\" Agreeing and adding evidence keeps the discussion moving.",
+                "es": "Buen movimiento. Estuviste de acuerdo, ampliaste la idea de Mia y usaste la palabra precisa \"fotosíntesis.\" Estar de acuerdo y agregar evidencia hace avanzar la discusión."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "This agrees but adds nothing new. A strong talk move builds on the idea — add a reason or a science word.",
+                "es": "Esto está de acuerdo pero no agrega nada nuevo. Un buen movimiento amplía la idea: agrega una razón o una palabra de ciencia."
+              },
+              "hint": {
+                "en": "Try the frame: \"I agree, and I want to add that ___.\"",
+                "es": "Prueba el marco: \"Estoy de acuerdo, y quiero agregar que ___.\""
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "This is a personal story that drifts off topic. Keep your response connected to the claim and add academic detail.",
+                "es": "Esto es una anécdota personal que se aleja del tema. Mantén tu respuesta conectada con la afirmación y agrega detalle académico."
+              }
+            }
           }
         },
         {
@@ -96,19 +133,55 @@
             }
           },
           "choices": [
-            { "id": "a", "label": { "en": "\"I see it differently. In our experiment, the heavy ball and the light ball hit the ground at the same time.\"", "es": "\"Lo veo de otra manera. En nuestro experimento, la pelota pesada y la ligera llegaron al suelo al mismo tiempo.\"" } },
-            { "id": "b", "label": { "en": "\"No, you're wrong.\"", "es": "\"No, estás equivocado.\"" } },
-            { "id": "c", "label": { "en": "\"Maybe. I don't really know.\"", "es": "\"Tal vez. No sé muy bien.\"" } }
+            {
+              "id": "a",
+              "label": {
+                "en": "\"I see it differently. In our experiment, the heavy ball and the light ball hit the ground at the same time.\"",
+                "es": "\"Lo veo de otra manera. En nuestro experimento, la pelota pesada y la ligera llegaron al suelo al mismo tiempo.\""
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "\"No, you're wrong.\"",
+                "es": "\"No, estás equivocado.\""
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "\"Maybe. I don't really know.\"",
+                "es": "\"Tal vez. No sé muy bien.\""
+              }
+            }
           ],
           "answer": "a",
           "feedback": {
-            "a": { "correct": true,
-              "why": { "en": "Excellent. You disagreed respectfully and supported it with evidence from the experiment. \"I see it differently because...\" is a powerful talk move.", "es": "Excelente. Estuviste en desacuerdo con respeto y lo apoyaste con evidencia del experimento. \"Lo veo de otra manera porque...\" es un movimiento poderoso." } },
-            "b": { "correct": false,
-              "why": { "en": "This disagrees, but it sounds dismissive and gives no evidence. Rephrase respectfully and add proof.", "es": "Esto está en desacuerdo, pero suena descortés y no da evidencia. Reformula con respeto y agrega una prueba." },
-              "hint": { "en": "Start with \"I see it differently because...\" and add what you observed.", "es": "Empieza con \"Lo veo de otra manera porque...\" y agrega lo que observaste." } },
-            "c": { "correct": false,
-              "why": { "en": "This avoids taking a position. Academic discussion needs a claim backed by evidence.", "es": "Esto evita tomar una posición. La discusión académica necesita una afirmación apoyada con evidencia." } }
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Excellent. You disagreed respectfully and supported it with evidence from the experiment. \"I see it differently because...\" is a powerful talk move.",
+                "es": "Excelente. Estuviste en desacuerdo con respeto y lo apoyaste con evidencia del experimento. \"Lo veo de otra manera porque...\" es un movimiento poderoso."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "This disagrees, but it sounds dismissive and gives no evidence. Rephrase respectfully and add proof.",
+                "es": "Esto está en desacuerdo, pero suena descortés y no da evidencia. Reformula con respeto y agrega una prueba."
+              },
+              "hint": {
+                "en": "Start with \"I see it differently because...\" and add what you observed.",
+                "es": "Empieza con \"Lo veo de otra manera porque...\" y agrega lo que observaste."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "This avoids taking a position. Academic discussion needs a claim backed by evidence.",
+                "es": "Esto evita tomar una posición. La discusión académica necesita una afirmación apoyada con evidencia."
+              }
+            }
           }
         },
         {
@@ -132,19 +205,55 @@
             }
           },
           "choices": [
-            { "id": "a", "label": { "en": "\"Can you say more about what you mean by 'disappeared'? Do you think it evaporated?\"", "es": "\"¿Puedes decir más sobre qué quieres decir con 'desapareció'? ¿Crees que se evaporó?\"" } },
-            { "id": "b", "label": { "en": "\"No, it didn't.\"", "es": "\"No, no es cierto.\"" } },
-            { "id": "c", "label": { "en": "\"Okay.\"", "es": "\"Está bien.\"" } }
+            {
+              "id": "a",
+              "label": {
+                "en": "\"Can you say more about what you mean by 'disappeared'? Do you think it evaporated?\"",
+                "es": "\"¿Puedes decir más sobre qué quieres decir con 'desapareció'? ¿Crees que se evaporó?\""
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "\"No, it didn't.\"",
+                "es": "\"No, no es cierto.\""
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "\"Okay.\"",
+                "es": "\"Está bien.\""
+              }
+            }
           ],
           "answer": "a",
           "feedback": {
-            "a": { "correct": true,
-              "why": { "en": "Great talk move. A clarifying question invites more thinking and introduces the precise word \"evaporated.\"", "es": "Buen movimiento. Una pregunta aclaratoria invita a pensar más e introduce la palabra precisa \"evaporó.\"" } },
-            "b": { "correct": false,
-              "why": { "en": "This shuts the idea down without exploring it. Ask a question that opens up the thinking instead.", "es": "Esto cierra la idea sin explorarla. Mejor haz una pregunta que abra el pensamiento." },
-              "hint": { "en": "Try \"Can you say more about...?\"", "es": "Prueba \"¿Puedes decir más sobre...?\"" } },
-            "c": { "correct": false,
-              "why": { "en": "This adds nothing. A clarifying question would move the discussion forward.", "es": "Esto no aporta nada. Una pregunta aclaratoria haría avanzar la discusión." } }
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Great talk move. A clarifying question invites more thinking and introduces the precise word \"evaporated.\"",
+                "es": "Buen movimiento. Una pregunta aclaratoria invita a pensar más e introduce la palabra precisa \"evaporó.\""
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "This shuts the idea down without exploring it. Ask a question that opens up the thinking instead.",
+                "es": "Esto cierra la idea sin explorarla. Mejor haz una pregunta que abra el pensamiento."
+              },
+              "hint": {
+                "en": "Try \"Can you say more about...?\"",
+                "es": "Prueba \"¿Puedes decir más sobre...?\""
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "This adds nothing. A clarifying question would move the discussion forward.",
+                "es": "Esto no aporta nada. Una pregunta aclaratoria haría avanzar la discusión."
+              }
+            }
           }
         },
         {
@@ -168,19 +277,55 @@
             }
           },
           "choices": [
-            { "id": "a", "label": { "en": "\"According to our data, the soil sample held 20 mL more water than the sand sample.\"", "es": "\"Según nuestros datos, la muestra de suelo retuvo 20 mL más de agua que la de arena.\"" } },
-            { "id": "b", "label": { "en": "\"Because I think so.\"", "es": "\"Porque yo creo que sí.\"" } },
-            { "id": "c", "label": { "en": "\"It just does.\"", "es": "\"Simplemente es así.\"" } }
+            {
+              "id": "a",
+              "label": {
+                "en": "\"According to our data, the soil sample held 20 mL more water than the sand sample.\"",
+                "es": "\"Según nuestros datos, la muestra de suelo retuvo 20 mL más de agua que la de arena.\""
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "\"Because I think so.\"",
+                "es": "\"Porque yo creo que sí.\""
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "\"It just does.\"",
+                "es": "\"Simplemente es así.\""
+              }
+            }
           ],
           "answer": "a",
           "feedback": {
-            "a": { "correct": true,
-              "why": { "en": "Yes. \"According to our data...\" backs your claim with evidence you measured — the heart of academic talk.", "es": "Sí. \"Según nuestros datos...\" apoya tu afirmación con evidencia que midieron: el corazón de la conversación académica." } },
-            "b": { "correct": false,
-              "why": { "en": "This is an opinion with no evidence. Point to your data or measurement.", "es": "Esto es una opinión sin evidencia. Señala tus datos o tu medición." },
-              "hint": { "en": "Use \"According to our data, ___.\"", "es": "Usa \"Según nuestros datos, ___.\"" } },
-            "c": { "correct": false,
-              "why": { "en": "This gives no evidence. A strong response cites what you observed or measured.", "es": "Esto no da evidencia. Una respuesta fuerte cita lo que observaron o midieron." } }
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Yes. \"According to our data...\" backs your claim with evidence you measured — the heart of academic talk.",
+                "es": "Sí. \"Según nuestros datos...\" apoya tu afirmación con evidencia que midieron: el corazón de la conversación académica."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "This is an opinion with no evidence. Point to your data or measurement.",
+                "es": "Esto es una opinión sin evidencia. Señala tus datos o tu medición."
+              },
+              "hint": {
+                "en": "Use \"According to our data, ___.\"",
+                "es": "Usa \"Según nuestros datos, ___.\""
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "This gives no evidence. A strong response cites what you observed or measured.",
+                "es": "Esto no da evidencia. Una respuesta fuerte cita lo que observaron o midieron."
+              }
+            }
           }
         },
         {
@@ -204,46 +349,89 @@
             }
           },
           "choices": [
-            { "id": "a", "label": { "en": "\"Building on Leo's idea, when water gets cold enough it freezes and changes from a liquid to a solid.\"", "es": "\"Ampliando la idea de Leo, cuando el agua se enfría lo suficiente se congela y cambia de líquido a sólido.\"" } },
-            { "id": "b", "label": { "en": "\"That's basically what I already said.\"", "es": "\"Eso es básicamente lo que ya dije.\"" } },
-            { "id": "c", "label": { "en": "\"Ice is cold.\"", "es": "\"El hielo es frío.\"" } }
+            {
+              "id": "a",
+              "label": {
+                "en": "\"Building on Leo's idea, when water gets cold enough it freezes and changes from a liquid to a solid.\"",
+                "es": "\"Ampliando la idea de Leo, cuando el agua se enfría lo suficiente se congela y cambia de líquido a sólido.\""
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "\"That's basically what I already said.\"",
+                "es": "\"Eso es básicamente lo que ya dije.\""
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "\"Ice is cold.\"",
+                "es": "\"El hielo es frío.\""
+              }
+            }
           ],
           "answer": "a",
           "feedback": {
-            "a": { "correct": true,
-              "why": { "en": "Strong. You built on Leo and named the change of state from liquid to solid. Building on peers' ideas deepens the discussion.", "es": "Fuerte. Ampliaste la idea de Leo y nombraste el cambio de estado de líquido a sólido. Ampliar las ideas de los compañeros profundiza la discusión." } },
-            "b": { "correct": false,
-              "why": { "en": "This competes instead of building. A talk move adds to a peer's idea rather than claiming it.", "es": "Esto compite en lugar de ampliar. Un movimiento de conversación aporta a la idea del compañero en vez de reclamarla." },
-              "hint": { "en": "Try \"Building on Leo's idea, ___.\"", "es": "Prueba \"Ampliando la idea de Leo, ___.\"" } },
-            "c": { "correct": false,
-              "why": { "en": "This just restates the obvious. Add the next step — what happens when water freezes?", "es": "Esto solo repite lo obvio. Agrega el siguiente paso: ¿qué pasa cuando el agua se congela?" } }
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Strong. You built on Leo and named the change of state from liquid to solid. Building on peers' ideas deepens the discussion.",
+                "es": "Fuerte. Ampliaste la idea de Leo y nombraste el cambio de estado de líquido a sólido. Ampliar las ideas de los compañeros profundiza la discusión."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "This competes instead of building. A talk move adds to a peer's idea rather than claiming it.",
+                "es": "Esto compite en lugar de ampliar. Un movimiento de conversación aporta a la idea del compañero en vez de reclamarla."
+              },
+              "hint": {
+                "en": "Try \"Building on Leo's idea, ___.\"",
+                "es": "Prueba \"Ampliando la idea de Leo, ___.\""
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "This just restates the obvious. Add the next step — what happens when water freezes?",
+                "es": "Esto solo repite lo obvio. Agrega el siguiente paso: ¿qué pasa cuando el agua se congela?"
+              }
+            }
           }
         }
       ],
-
-      "ace": { "articulate": true, "connect": true, "extend": true },
-
-      "clear": { "enabled": true, "emphasis": ["claim", "evidence"] },
-
+      "ace": {
+        "articulate": true,
+        "connect": true,
+        "extend": true
+      },
+      "clear": {
+        "enabled": true,
+        "emphasis": [
+          "claim",
+          "evidence"
+        ]
+      },
       "udl": [
         "representation.language-support",
         "representation.context",
         "action-expression.multiple-response-modes",
         "engagement.relevance"
       ],
-
       "strategies": [
         "classroom-discussion",
         "sentence-frames",
         "corrective-feedback"
       ],
-
       "standards": {
         "elps": [
           {
             "code": "§120.21(d)(2)(B)",
             "alignment": "direct",
-            "grades": [5],
+            "grades": [
+              5
+            ],
             "rationale": "Students speak using content-area vocabulary to contribute to a science discussion."
           }
         ],
@@ -251,27 +439,34 @@
           {
             "code": "§110.7(b)(1)(A)",
             "alignment": "direct",
-            "grades": [5],
+            "grades": [
+              5
+            ],
             "rationale": "Students listen actively, ask relevant questions, and make pertinent comments in discussion."
           },
           {
             "code": "§110.7(b)(7)(C)",
             "alignment": "supporting",
-            "grades": [5],
+            "grades": [
+              5
+            ],
             "rationale": "Several talk moves require supporting a response with evidence."
           },
           {
             "code": "§110.7(b)(1)(C)",
             "alignment": "supporting",
-            "grades": [5],
+            "grades": [
+              5
+            ],
             "rationale": "Choosing precise, conventional academic phrasing supports effective spoken communication."
           }
         ],
         "slar": []
       },
-
-      "printables": ["all-talk-3-5-001-student", "all-talk-3-5-001-answer-key"],
-
+      "printables": [
+        "all-talk-3-5-001-student",
+        "all-talk-3-5-001-answer-key"
+      ],
       "created": "2026-09-17",
       "updated": "2026-09-17",
       "status": "reviewed"
@@ -283,18 +478,21 @@
         "en": "Say It Three Ways",
         "es": "Dilo de tres maneras"
       },
-
-      "grades": [5],
+      "grades": [
+        5
+      ],
       "gradeBand": "3-5",
-      "subjects": ["science", "elar"],
+      "subjects": [
+        "science",
+        "elar"
+      ],
       "duration": 8,
-
       "interactionType": "multiple-choice",
-
       "targetLanguage": "en",
-      "supportedHomeLanguages": ["es"],
+      "supportedHomeLanguages": [
+        "es"
+      ],
       "languagePair": "en-es",
-
       "studentGoal": {
         "en": "Recognize academic register — the precise, formal way to say a science idea — and tell it apart from everyday phrasing.",
         "es": "Reconoce el registro académico —la manera precisa y formal de expresar una idea de ciencias— y distínguelo del lenguaje cotidiano."
@@ -311,132 +509,316 @@
         "en": "Choosing academic register and precise vocabulary to describe, compare, and explain.",
         "es": "Elegir el registro académico y vocabulario preciso para describir, comparar y explicar."
       },
-
       "materials": [],
-
       "items": [
         {
           "id": "r1",
-          "prompt": { "en": "Which sentence uses the most academic language?", "es": "¿Qué oración usa el lenguaje más académico?" },
+          "prompt": {
+            "en": "Which sentence uses the most academic language?",
+            "es": "¿Qué oración usa el lenguaje más académico?"
+          },
           "support": {
-            "high": { "en": "Academic English uses precise verbs (increased) and complete sentences. / El inglés académico usa verbos precisos (increased) y oraciones completas.", "es": "El inglés académico usa verbos precisos (increased) y oraciones completas." },
-            "medium": { "en": "Look for a precise verb and a full, formal sentence.", "es": "Busca un verbo preciso y una oración completa y formal." }
+            "high": {
+              "en": "Academic English uses precise verbs (increased) and complete sentences. / El inglés académico usa verbos precisos (increased) y oraciones completas.",
+              "es": "El inglés académico usa verbos precisos (increased) y oraciones completas."
+            },
+            "medium": {
+              "en": "Look for a precise verb and a full, formal sentence.",
+              "es": "Busca un verbo preciso y una oración completa y formal."
+            }
           },
           "choices": [
-            { "id": "a", "label": { "en": "During the experiment, the temperature increased steadily.", "es": "Durante el experimento, la temperatura aumentó de manera constante." } },
-            { "id": "b", "label": { "en": "The temp went up and up.", "es": "La \"temp\" subía y subía." } },
-            { "id": "c", "label": { "en": "It got hotter and hotter.", "es": "Se puso cada vez más caliente." } }
+            {
+              "id": "a",
+              "label": {
+                "en": "During the experiment, the temperature increased steadily.",
+                "es": "Durante el experimento, la temperatura aumentó de manera constante."
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "The temp went up and up.",
+                "es": "La \"temp\" subía y subía."
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "It got hotter and hotter.",
+                "es": "Se puso cada vez más caliente."
+              }
+            }
           ],
           "answer": "a",
           "feedback": {
-            "a": { "correct": true,
-              "why": { "en": "Most academic. It uses a precise verb (\"increased\"), an adverb (\"steadily\"), and a complete sentence — the register of a science report.", "es": "El más académico. Usa un verbo preciso (\"increased\"), un adverbio (\"steadily\") y una oración completa: el registro de un informe de ciencias." } },
-            "b": { "correct": false,
-              "why": { "en": "Too casual. \"Temp\" is slang and \"went up and up\" is vague. Use \"temperature increased.\"", "es": "Demasiado informal. \"Temp\" es jerga y \"went up and up\" es vago. Usa \"temperature increased.\"" },
-              "hint": { "en": "Which sentence would fit in a science report?", "es": "¿Qué oración encajaría en un informe de ciencias?" } },
-            "c": { "correct": false,
-              "why": { "en": "Everyday phrasing. It's true, but \"got hotter and hotter\" isn't the precise academic register.", "es": "Lenguaje cotidiano. Es cierto, pero \"got hotter and hotter\" no es el registro académico preciso." } }
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Most academic. It uses a precise verb (\"increased\"), an adverb (\"steadily\"), and a complete sentence — the register of a science report.",
+                "es": "El más académico. Usa un verbo preciso (\"increased\"), un adverbio (\"steadily\") y una oración completa: el registro de un informe de ciencias."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Too casual. \"Temp\" is slang and \"went up and up\" is vague. Use \"temperature increased.\"",
+                "es": "Demasiado informal. \"Temp\" es jerga y \"went up and up\" es vago. Usa \"temperature increased.\""
+              },
+              "hint": {
+                "en": "Which sentence would fit in a science report?",
+                "es": "¿Qué oración encajaría en un informe de ciencias?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "Everyday phrasing. It's true, but \"got hotter and hotter\" isn't the precise academic register.",
+                "es": "Lenguaje cotidiano. Es cierto, pero \"got hotter and hotter\" no es el registro académico preciso."
+              }
+            }
           }
         },
         {
           "id": "r2",
-          "prompt": { "en": "Which sentence uses the most academic language?", "es": "¿Qué oración usa el lenguaje más académico?" },
+          "prompt": {
+            "en": "Which sentence uses the most academic language?",
+            "es": "¿Qué oración usa el lenguaje más académico?"
+          },
           "support": {
-            "high": { "en": "Academic English names the exact quality being compared (mass, density). / El inglés académico nombra la cualidad exacta que se compara (masa, densidad).", "es": "El inglés académico nombra la cualidad exacta que se compara (masa, densidad)." },
-            "medium": { "en": "Which one names exactly how the samples are different?", "es": "¿Cuál nombra exactamente en qué se diferencian las muestras?" }
+            "high": {
+              "en": "Academic English names the exact quality being compared (mass, density). / El inglés académico nombra la cualidad exacta que se compara (masa, densidad).",
+              "es": "El inglés académico nombra la cualidad exacta que se compara (masa, densidad)."
+            },
+            "medium": {
+              "en": "Which one names exactly how the samples are different?",
+              "es": "¿Cuál nombra exactamente en qué se diferencian las muestras?"
+            }
           },
           "choices": [
-            { "id": "a", "label": { "en": "The two samples differ in mass.", "es": "Las dos muestras difieren en masa." } },
-            { "id": "b", "label": { "en": "The samples aren't really the same.", "es": "Las muestras no son realmente iguales." } },
-            { "id": "c", "label": { "en": "One is way heavier than the other one.", "es": "Una es mucho más pesada que la otra." } }
+            {
+              "id": "a",
+              "label": {
+                "en": "The two samples differ in mass.",
+                "es": "Las dos muestras difieren en masa."
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "The samples aren't really the same.",
+                "es": "Las muestras no son realmente iguales."
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "One is way heavier than the other one.",
+                "es": "Una es mucho más pesada que la otra."
+              }
+            }
           ],
           "answer": "a",
           "feedback": {
-            "a": { "correct": true,
-              "why": { "en": "Most academic. \"Differ in mass\" names the exact quality and uses a precise verb — clear and formal.", "es": "El más académico. \"Differ in mass\" nombra la cualidad exacta y usa un verbo preciso: claro y formal." } },
-            "b": { "correct": false,
-              "why": { "en": "Vague. \"Aren't really the same\" doesn't say how. Name the quality: mass.", "es": "Vago. \"Aren't really the same\" no dice cómo. Nombra la cualidad: mass." },
-              "hint": { "en": "Say exactly what is different.", "es": "Di exactamente qué es diferente." } },
-            "c": { "correct": false,
-              "why": { "en": "Casual. \"Way heavier\" is everyday speech; academic writing names the measured quality (mass).", "es": "Informal. \"Way heavier\" es habla cotidiana; la escritura académica nombra la cualidad medida (mass)." } }
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Most academic. \"Differ in mass\" names the exact quality and uses a precise verb — clear and formal.",
+                "es": "El más académico. \"Differ in mass\" nombra la cualidad exacta y usa un verbo preciso: claro y formal."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Vague. \"Aren't really the same\" doesn't say how. Name the quality: mass.",
+                "es": "Vago. \"Aren't really the same\" no dice cómo. Nombra la cualidad: mass."
+              },
+              "hint": {
+                "en": "Say exactly what is different.",
+                "es": "Di exactamente qué es diferente."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "Casual. \"Way heavier\" is everyday speech; academic writing names the measured quality (mass).",
+                "es": "Informal. \"Way heavier\" es habla cotidiana; la escritura académica nombra la cualidad medida (mass)."
+              }
+            }
           }
         },
         {
           "id": "r3",
-          "prompt": { "en": "Which sentence uses the most academic language?", "es": "¿Qué oración usa el lenguaje más académico?" },
+          "prompt": {
+            "en": "Which sentence uses the most academic language?",
+            "es": "¿Qué oración usa el lenguaje más académico?"
+          },
           "support": {
-            "high": { "en": "Academic English states cause with \"because\" and precise terms. / El inglés académico expresa la causa con \"because\" y términos precisos.", "es": "El inglés académico expresa la causa con \"because\" y términos precisos." },
-            "medium": { "en": "Which one explains the cause clearly and formally?", "es": "¿Cuál explica la causa de manera clara y formal?" }
+            "high": {
+              "en": "Academic English states cause with \"because\" and precise terms. / El inglés académico expresa la causa con \"because\" y términos precisos.",
+              "es": "El inglés académico expresa la causa con \"because\" y términos precisos."
+            },
+            "medium": {
+              "en": "Which one explains the cause clearly and formally?",
+              "es": "¿Cuál explica la causa de manera clara y formal?"
+            }
           },
           "choices": [
-            { "id": "a", "label": { "en": "The ice melted because the temperature rose above freezing.", "es": "El hielo se derritió porque la temperatura subió por encima del punto de congelación." } },
-            { "id": "b", "label": { "en": "The ice melted 'cause it got warm.", "es": "El hielo se derritió \"'cause\" se calentó." } },
-            { "id": "c", "label": { "en": "It got warm so bye-bye ice.", "es": "Se calentó, así que adiós hielo." } }
+            {
+              "id": "a",
+              "label": {
+                "en": "The ice melted because the temperature rose above freezing.",
+                "es": "El hielo se derritió porque la temperatura subió por encima del punto de congelación."
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "The ice melted 'cause it got warm.",
+                "es": "El hielo se derritió \"'cause\" se calentó."
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "It got warm so bye-bye ice.",
+                "es": "Se calentó, así que adiós hielo."
+              }
+            }
           ],
           "answer": "a",
           "feedback": {
-            "a": { "correct": true,
-              "why": { "en": "Most academic. It states the cause with \"because\" and the precise idea \"rose above freezing.\"", "es": "El más académico. Expresa la causa con \"because\" y la idea precisa \"rose above freezing.\"" } },
-            "b": { "correct": false,
-              "why": { "en": "\"'Cause\" is slang for \"because.\" Use the full word and a precise reason.", "es": "\"'Cause\" es jerga de \"because.\" Usa la palabra completa y una razón precisa." },
-              "hint": { "en": "Use \"because\" and a precise temperature idea.", "es": "Usa \"because\" y una idea precisa de temperatura." } },
-            "c": { "correct": false,
-              "why": { "en": "Playful, not academic. \"Bye-bye ice\" would not appear in a science explanation.", "es": "Juguetón, no académico. \"Bye-bye ice\" no aparecería en una explicación de ciencias." } }
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Most academic. It states the cause with \"because\" and the precise idea \"rose above freezing.\"",
+                "es": "El más académico. Expresa la causa con \"because\" y la idea precisa \"rose above freezing.\""
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "\"'Cause\" is slang for \"because.\" Use the full word and a precise reason.",
+                "es": "\"'Cause\" es jerga de \"because.\" Usa la palabra completa y una razón precisa."
+              },
+              "hint": {
+                "en": "Use \"because\" and a precise temperature idea.",
+                "es": "Usa \"because\" y una idea precisa de temperatura."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "Playful, not academic. \"Bye-bye ice\" would not appear in a science explanation.",
+                "es": "Juguetón, no académico. \"Bye-bye ice\" no aparecería en una explicación de ciencias."
+              }
+            }
           }
         },
         {
           "id": "r4",
-          "prompt": { "en": "Which sentence uses the most academic language?", "es": "¿Qué oración usa el lenguaje más académico?" },
+          "prompt": {
+            "en": "Which sentence uses the most academic language?",
+            "es": "¿Qué oración usa el lenguaje más académico?"
+          },
           "support": {
-            "high": { "en": "Academic English reports results with confident, precise phrasing (\"The results indicate\"). / El inglés académico reporta resultados con frases precisas y seguras.", "es": "El inglés académico reporta resultados con frases precisas y seguras." },
-            "medium": { "en": "Which one reports the result clearly, without hedging or shortcuts?", "es": "¿Cuál reporta el resultado con claridad, sin dudar ni usar atajos?" }
+            "high": {
+              "en": "Academic English reports results with confident, precise phrasing (\"The results indicate\"). / El inglés académico reporta resultados con frases precisas y seguras.",
+              "es": "El inglés académico reporta resultados con frases precisas y seguras."
+            },
+            "medium": {
+              "en": "Which one reports the result clearly, without hedging or shortcuts?",
+              "es": "¿Cuál reporta el resultado con claridad, sin dudar ni usar atajos?"
+            }
           },
           "choices": [
-            { "id": "a", "label": { "en": "The results indicate that the plants near the window grew taller.", "es": "Los resultados indican que las plantas cerca de la ventana crecieron más." } },
-            { "id": "b", "label": { "en": "The window plants got taller, I guess.", "es": "Las plantas de la ventana crecieron más, creo." } },
-            { "id": "c", "label": { "en": "Plants by the window = taller.", "es": "Plantas junto a la ventana = más altas." } }
+            {
+              "id": "a",
+              "label": {
+                "en": "The results indicate that the plants near the window grew taller.",
+                "es": "Los resultados indican que las plantas cerca de la ventana crecieron más."
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "The window plants got taller, I guess.",
+                "es": "Las plantas de la ventana crecieron más, creo."
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "Plants by the window = taller.",
+                "es": "Plantas junto a la ventana = más altas."
+              }
+            }
           ],
           "answer": "a",
           "feedback": {
-            "a": { "correct": true,
-              "why": { "en": "Most academic. \"The results indicate that...\" reports a finding clearly and formally in a complete sentence.", "es": "El más académico. \"The results indicate that...\" reporta un hallazgo de manera clara y formal en una oración completa." } },
-            "b": { "correct": false,
-              "why": { "en": "\"I guess\" hedges the finding. Report results with confidence: \"The results indicate...\"", "es": "\"I guess\" resta seguridad al hallazgo. Reporta los resultados con seguridad: \"The results indicate...\"" },
-              "hint": { "en": "Report the result without \"I guess.\"", "es": "Reporta el resultado sin \"I guess.\"" } },
-            "c": { "correct": false,
-              "why": { "en": "A fragment with an equals sign is a note, not academic writing. Use a full sentence.", "es": "Un fragmento con un signo de igual es una nota, no escritura académica. Usa una oración completa." } }
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Most academic. \"The results indicate that...\" reports a finding clearly and formally in a complete sentence.",
+                "es": "El más académico. \"The results indicate that...\" reporta un hallazgo de manera clara y formal en una oración completa."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "\"I guess\" hedges the finding. Report results with confidence: \"The results indicate...\"",
+                "es": "\"I guess\" resta seguridad al hallazgo. Reporta los resultados con seguridad: \"The results indicate...\""
+              },
+              "hint": {
+                "en": "Report the result without \"I guess.\"",
+                "es": "Reporta el resultado sin \"I guess.\""
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "A fragment with an equals sign is a note, not academic writing. Use a full sentence.",
+                "es": "Un fragmento con un signo de igual es una nota, no escritura académica. Usa una oración completa."
+              }
+            }
           }
         }
       ],
-
-      "ace": { "articulate": true, "connect": true, "extend": true },
-
-      "clear": { "enabled": false, "emphasis": [] },
-
+      "ace": {
+        "articulate": true,
+        "connect": true,
+        "extend": true
+      },
+      "clear": {
+        "enabled": false,
+        "emphasis": []
+      },
       "udl": [
         "representation.language-support",
         "action-expression.multiple-response-modes",
         "engagement.relevance"
       ],
-
       "strategies": [
         "sentence-frames",
         "vocabulary-programs",
         "corrective-feedback"
       ],
-
       "standards": {
         "elps": [
           {
             "code": "§120.21(d)(2)(D)",
             "alignment": "direct",
-            "grades": [5],
+            "grades": [
+              5
+            ],
             "rationale": "Students choose an appropriate academic register to convey a science idea."
           },
           {
             "code": "§120.21(d)(2)(B)",
             "alignment": "supporting",
-            "grades": [5],
+            "grades": [
+              5
+            ],
             "rationale": "Choosing the academic version requires content-area vocabulary."
           }
         ],
@@ -444,15 +826,18 @@
           {
             "code": "§110.7(b)(1)(C)",
             "alignment": "supporting",
-            "grades": [5],
+            "grades": [
+              5
+            ],
             "rationale": "Recognizing conventional, organized academic phrasing supports effective communication."
           }
         ],
         "slar": []
       },
-
-      "printables": ["all-say-3-5-002-student", "all-say-3-5-002-answer-key"],
-
+      "printables": [
+        "all-say-3-5-002-student",
+        "all-say-3-5-002-answer-key"
+      ],
       "created": "2026-09-17",
       "updated": "2026-09-17",
       "status": "reviewed"
@@ -464,18 +849,21 @@
         "en": "Evidence Match",
         "es": "Empareja la evidencia"
       },
-
-      "grades": [5],
+      "grades": [
+        5
+      ],
       "gradeBand": "3-5",
-      "subjects": ["science", "elar"],
+      "subjects": [
+        "science",
+        "elar"
+      ],
       "duration": 8,
-
       "interactionType": "multiple-choice",
-
       "targetLanguage": "en",
-      "supportedHomeLanguages": ["es"],
+      "supportedHomeLanguages": [
+        "es"
+      ],
       "languagePair": "en-es",
-
       "studentGoal": {
         "en": "Match a claim to the sentence that best supports it with evidence — data or an observation, not an opinion.",
         "es": "Empareja una afirmación con la oración que mejor la apoya con evidencia: datos o una observación, no una opinión."
@@ -492,119 +880,343 @@
         "en": "Identifying and citing evidence that supports a claim.",
         "es": "Identificar y citar evidencia que apoya una afirmación."
       },
-
       "materials": [],
-
       "items": [
         {
           "id": "v1",
-          "context": { "en": "Claim: “The plants near the window grew taller.”", "es": "Afirmación: “Las plantas cerca de la ventana crecieron más.”" },
-          "prompt": { "en": "Which sentence best supports the claim with evidence?", "es": "¿Qué oración apoya mejor la afirmación con evidencia?" },
+          "context": {
+            "en": "Claim: “The plants near the window grew taller.”",
+            "es": "Afirmación: “Las plantas cerca de la ventana crecieron más.”"
+          },
+          "prompt": {
+            "en": "Which sentence best supports the claim with evidence?",
+            "es": "¿Qué oración apoya mejor la afirmación con evidencia?"
+          },
           "support": {
-            "high": { "en": "Evidence uses numbers or a measurement, not a feeling. / La evidencia usa números o una medición, no un sentimiento.", "es": "La evidencia usa números o una medición, no un sentimiento." },
-            "medium": { "en": "Which choice has a measurement?", "es": "¿Qué opción tiene una medición?" }
+            "high": {
+              "en": "Evidence uses numbers or a measurement, not a feeling. / La evidencia usa números o una medición, no un sentimiento.",
+              "es": "La evidencia usa números o una medición, no un sentimiento."
+            },
+            "medium": {
+              "en": "Which choice has a measurement?",
+              "es": "¿Qué opción tiene una medición?"
+            }
           },
           "choices": [
-            { "id": "a", "label": { "en": "The window plants averaged 15 cm; the shelf plants averaged 9 cm.", "es": "Las plantas de la ventana midieron 15 cm en promedio; las del estante, 9 cm." } },
-            { "id": "b", "label": { "en": "I think the window plants look nicer.", "es": "Creo que las plantas de la ventana se ven mejor." } },
-            { "id": "c", "label": { "en": "Plants are green.", "es": "Las plantas son verdes." } }
+            {
+              "id": "a",
+              "label": {
+                "en": "The window plants averaged 15 cm; the shelf plants averaged 9 cm.",
+                "es": "Las plantas de la ventana midieron 15 cm en promedio; las del estante, 9 cm."
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "I think the window plants look nicer.",
+                "es": "Creo que las plantas de la ventana se ven mejor."
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "Plants are green.",
+                "es": "Las plantas son verdes."
+              }
+            }
           ],
           "answer": "a",
           "feedback": {
-            "a": { "correct": true, "why": { "en": "Yes. The measurements (15 cm vs. 9 cm) are evidence — they directly support the claim that the window plants grew taller.", "es": "Sí. Las medidas (15 cm vs. 9 cm) son evidencia: apoyan directamente la afirmación de que las plantas de la ventana crecieron más." } },
-            "b": { "correct": false, "why": { "en": "That's an opinion (“look nicer”), not evidence. Evidence measures or observes something.", "es": "Eso es una opinión (“se ven mejor”), no evidencia. La evidencia mide u observa algo." }, "hint": { "en": "Which sentence has numbers?", "es": "¿Qué oración tiene números?" } },
-            "c": { "correct": false, "why": { "en": "True but unrelated to height. Evidence must support the specific claim.", "es": "Cierto, pero no tiene que ver con la altura. La evidencia debe apoyar la afirmación específica." } }
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Yes. The measurements (15 cm vs. 9 cm) are evidence — they directly support the claim that the window plants grew taller.",
+                "es": "Sí. Las medidas (15 cm vs. 9 cm) son evidencia: apoyan directamente la afirmación de que las plantas de la ventana crecieron más."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "That's an opinion (“look nicer”), not evidence. Evidence measures or observes something.",
+                "es": "Eso es una opinión (“se ven mejor”), no evidencia. La evidencia mide u observa algo."
+              },
+              "hint": {
+                "en": "Which sentence has numbers?",
+                "es": "¿Qué oración tiene números?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "True but unrelated to height. Evidence must support the specific claim.",
+                "es": "Cierto, pero no tiene que ver con la altura. La evidencia debe apoyar la afirmación específica."
+              }
+            }
           }
         },
         {
           "id": "v2",
-          "context": { "en": "Claim: “The soil holds more water than the sand.”", "es": "Afirmación: “El suelo retiene más agua que la arena.”" },
-          "prompt": { "en": "Which sentence best supports the claim with evidence?", "es": "¿Qué oración apoya mejor la afirmación con evidencia?" },
+          "context": {
+            "en": "Claim: “The soil holds more water than the sand.”",
+            "es": "Afirmación: “El suelo retiene más agua que la arena.”"
+          },
+          "prompt": {
+            "en": "Which sentence best supports the claim with evidence?",
+            "es": "¿Qué oración apoya mejor la afirmación con evidencia?"
+          },
           "support": {
-            "high": { "en": "Look for a measured difference. / Busca una diferencia medida.", "es": "Busca una diferencia medida." }
+            "high": {
+              "en": "Look for a measured difference. / Busca una diferencia medida.",
+              "es": "Busca una diferencia medida."
+            }
           },
           "choices": [
-            { "id": "a", "label": { "en": "After watering, the soil sample weighed 20 g more than the sand sample.", "es": "Después de regar, la muestra de suelo pesó 20 g más que la de arena." } },
-            { "id": "b", "label": { "en": "Soil is brown and sand is tan.", "es": "El suelo es café y la arena es beige." } },
-            { "id": "c", "label": { "en": "I like playing in sand.", "es": "Me gusta jugar en la arena." } }
+            {
+              "id": "a",
+              "label": {
+                "en": "After watering, the soil sample weighed 20 g more than the sand sample.",
+                "es": "Después de regar, la muestra de suelo pesó 20 g más que la de arena."
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "Soil is brown and sand is tan.",
+                "es": "El suelo es café y la arena es beige."
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "I like playing in sand.",
+                "es": "Me gusta jugar en la arena."
+              }
+            }
           ],
           "answer": "a",
           "feedback": {
-            "a": { "correct": true, "why": { "en": "Yes. The 20 g weight difference after watering is measured evidence that the soil held more water.", "es": "Sí. La diferencia de 20 g después de regar es evidencia medida de que el suelo retuvo más agua." } },
-            "b": { "correct": false, "why": { "en": "Color doesn't tell us about water. Evidence must connect to the claim about holding water.", "es": "El color no nos dice nada sobre el agua. La evidencia debe conectarse con la afirmación sobre retener agua." }, "hint": { "en": "Which choice mentions weight or water?", "es": "¿Qué opción menciona peso o agua?" } },
-            "c": { "correct": false, "why": { "en": "A personal preference is not evidence. Point to a measurement.", "es": "Una preferencia personal no es evidencia. Señala una medición." } }
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Yes. The 20 g weight difference after watering is measured evidence that the soil held more water.",
+                "es": "Sí. La diferencia de 20 g después de regar es evidencia medida de que el suelo retuvo más agua."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Color doesn't tell us about water. Evidence must connect to the claim about holding water.",
+                "es": "El color no nos dice nada sobre el agua. La evidencia debe conectarse con la afirmación sobre retener agua."
+              },
+              "hint": {
+                "en": "Which choice mentions weight or water?",
+                "es": "¿Qué opción menciona peso o agua?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "A personal preference is not evidence. Point to a measurement.",
+                "es": "Una preferencia personal no es evidencia. Señala una medición."
+              }
+            }
           }
         },
         {
           "id": "v3",
-          "context": { "en": "Claim: “The ice melted faster in the sun than in the shade.”", "es": "Afirmación: “El hielo se derritió más rápido al sol que a la sombra.”" },
-          "prompt": { "en": "Which sentence best supports the claim with evidence?", "es": "¿Qué oración apoya mejor la afirmación con evidencia?" },
+          "context": {
+            "en": "Claim: “The ice melted faster in the sun than in the shade.”",
+            "es": "Afirmación: “El hielo se derritió más rápido al sol que a la sombra.”"
+          },
+          "prompt": {
+            "en": "Which sentence best supports the claim with evidence?",
+            "es": "¿Qué oración apoya mejor la afirmación con evidencia?"
+          },
           "support": {
-            "high": { "en": "Good evidence compares the two conditions with numbers. / La buena evidencia compara las dos condiciones con números.", "es": "La buena evidencia compara las dos condiciones con números." }
+            "high": {
+              "en": "Good evidence compares the two conditions with numbers. / La buena evidencia compara las dos condiciones con números.",
+              "es": "La buena evidencia compara las dos condiciones con números."
+            }
           },
           "choices": [
-            { "id": "a", "label": { "en": "The ice in the sun melted in 5 minutes; the ice in the shade took 12 minutes.", "es": "El hielo al sol se derritió en 5 minutos; el de la sombra tardó 12 minutos." } },
-            { "id": "b", "label": { "en": "The sun is very hot.", "es": "El sol está muy caliente." } },
-            { "id": "c", "label": { "en": "Ice is made of water.", "es": "El hielo está hecho de agua." } }
+            {
+              "id": "a",
+              "label": {
+                "en": "The ice in the sun melted in 5 minutes; the ice in the shade took 12 minutes.",
+                "es": "El hielo al sol se derritió en 5 minutos; el de la sombra tardó 12 minutos."
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "The sun is very hot.",
+                "es": "El sol está muy caliente."
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "Ice is made of water.",
+                "es": "El hielo está hecho de agua."
+              }
+            }
           ],
           "answer": "a",
           "feedback": {
-            "a": { "correct": true, "why": { "en": "Yes. Comparing the two times (5 vs. 12 minutes) is evidence from the experiment itself.", "es": "Sí. Comparar los dos tiempos (5 vs. 12 minutos) es evidencia del propio experimento." } },
-            "b": { "correct": false, "why": { "en": "A general fact, not evidence from this experiment. Compare the two melting times.", "es": "Un hecho general, no evidencia de este experimento. Compara los dos tiempos de derretimiento." }, "hint": { "en": "Which choice measures both conditions?", "es": "¿Qué opción mide las dos condiciones?" } },
-            "c": { "correct": false, "why": { "en": "True but unrelated to speed. Evidence must support the specific claim.", "es": "Cierto, pero no se relaciona con la rapidez. La evidencia debe apoyar la afirmación específica." } }
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Yes. Comparing the two times (5 vs. 12 minutes) is evidence from the experiment itself.",
+                "es": "Sí. Comparar los dos tiempos (5 vs. 12 minutos) es evidencia del propio experimento."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "A general fact, not evidence from this experiment. Compare the two melting times.",
+                "es": "Un hecho general, no evidencia de este experimento. Compara los dos tiempos de derretimiento."
+              },
+              "hint": {
+                "en": "Which choice measures both conditions?",
+                "es": "¿Qué opción mide las dos condiciones?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "True but unrelated to speed. Evidence must support the specific claim.",
+                "es": "Cierto, pero no se relaciona con la rapidez. La evidencia debe apoyar la afirmación específica."
+              }
+            }
           }
         },
         {
           "id": "v4",
-          "context": { "en": "Claim: “The plant needs light to grow.”", "es": "Afirmación: “La planta necesita luz para crecer.”" },
-          "prompt": { "en": "Which sentence best supports the claim with evidence?", "es": "¿Qué oración apoya mejor la afirmación con evidencia?" },
+          "context": {
+            "en": "Claim: “The plant needs light to grow.”",
+            "es": "Afirmación: “La planta necesita luz para crecer.”"
+          },
+          "prompt": {
+            "en": "Which sentence best supports the claim with evidence?",
+            "es": "¿Qué oración apoya mejor la afirmación con evidencia?"
+          },
           "support": {
-            "high": { "en": "The best evidence shows what happened WITHOUT light. / La mejor evidencia muestra qué pasó SIN luz.", "es": "La mejor evidencia muestra qué pasó SIN luz." }
+            "high": {
+              "en": "The best evidence shows what happened WITHOUT light. / La mejor evidencia muestra qué pasó SIN luz.",
+              "es": "La mejor evidencia muestra qué pasó SIN luz."
+            }
           },
           "choices": [
-            { "id": "a", "label": { "en": "The plant kept in a dark closet turned yellow and stopped growing.", "es": "La planta que se mantuvo en un clóset oscuro se puso amarilla y dejó de crecer." } },
-            { "id": "b", "label": { "en": "Plants are pretty.", "es": "Las plantas son bonitas." } },
-            { "id": "c", "label": { "en": "I watered the plant every day.", "es": "Regué la planta todos los días." } }
+            {
+              "id": "a",
+              "label": {
+                "en": "The plant kept in a dark closet turned yellow and stopped growing.",
+                "es": "La planta que se mantuvo en un clóset oscuro se puso amarilla y dejó de crecer."
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "Plants are pretty.",
+                "es": "Las plantas son bonitas."
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "I watered the plant every day.",
+                "es": "Regué la planta todos los días."
+              }
+            }
           ],
           "answer": "a",
           "feedback": {
-            "a": { "correct": true, "why": { "en": "Yes. The plant without light turned yellow and stopped growing — an observation that supports the claim.", "es": "Sí. La planta sin luz se puso amarilla y dejó de crecer: una observación que apoya la afirmación." } },
-            "b": { "correct": false, "why": { "en": "An opinion, not evidence. Show what happened when the plant had no light.", "es": "Una opinión, no evidencia. Muestra qué pasó cuando la planta no tuvo luz." }, "hint": { "en": "Which choice is about light?", "es": "¿Qué opción trata sobre la luz?" } },
-            "c": { "correct": false, "why": { "en": "That's about water, not light. Evidence must match the claim about light.", "es": "Eso trata del agua, no de la luz. La evidencia debe coincidir con la afirmación sobre la luz." } }
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Yes. The plant without light turned yellow and stopped growing — an observation that supports the claim.",
+                "es": "Sí. La planta sin luz se puso amarilla y dejó de crecer: una observación que apoya la afirmación."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "An opinion, not evidence. Show what happened when the plant had no light.",
+                "es": "Una opinión, no evidencia. Muestra qué pasó cuando la planta no tuvo luz."
+              },
+              "hint": {
+                "en": "Which choice is about light?",
+                "es": "¿Qué opción trata sobre la luz?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "That's about water, not light. Evidence must match the claim about light.",
+                "es": "Eso trata del agua, no de la luz. La evidencia debe coincidir con la afirmación sobre la luz."
+              }
+            }
           }
         }
       ],
-
-      "ace": { "articulate": true, "connect": true, "extend": true },
-
-      "clear": { "enabled": true, "emphasis": ["claim", "evidence"] },
-
+      "ace": {
+        "articulate": true,
+        "connect": true,
+        "extend": true
+      },
+      "clear": {
+        "enabled": true,
+        "emphasis": [
+          "claim",
+          "evidence"
+        ]
+      },
       "udl": [
         "representation.language-support",
         "representation.context",
         "action-expression.multiple-response-modes",
         "engagement.relevance"
       ],
-
       "strategies": [
         "corrective-feedback",
         "retrieval-practice",
         "classroom-discussion"
       ],
-
       "standards": {
         "elps": [
-          { "code": "§120.21(d)(2)(B)", "alignment": "supporting", "grades": [5], "rationale": "Students use content-area vocabulary to talk about evidence." }
+          {
+            "code": "§120.21(d)(2)(B)",
+            "alignment": "supporting",
+            "grades": [
+              5
+            ],
+            "rationale": "Students use content-area vocabulary to talk about evidence."
+          }
         ],
         "teks": [
-          { "code": "§110.7(b)(7)(C)", "alignment": "direct", "grades": [5], "rationale": "Students identify text evidence that supports a claim." },
-          { "code": "§110.7(b)(1)(A)", "alignment": "supporting", "grades": [5], "rationale": "Students make pertinent comments that connect evidence to a claim." }
+          {
+            "code": "§110.7(b)(7)(C)",
+            "alignment": "direct",
+            "grades": [
+              5
+            ],
+            "rationale": "Students identify text evidence that supports a claim."
+          },
+          {
+            "code": "§110.7(b)(1)(A)",
+            "alignment": "supporting",
+            "grades": [
+              5
+            ],
+            "rationale": "Students make pertinent comments that connect evidence to a claim."
+          }
         ],
         "slar": []
       },
-
-      "printables": ["all-evidence-3-5-003-student", "all-evidence-3-5-003-answer-key"],
-
+      "printables": [
+        "all-evidence-3-5-003-student",
+        "all-evidence-3-5-003-answer-key"
+      ],
       "created": "2026-09-17",
       "updated": "2026-09-17",
       "status": "reviewed"
@@ -616,18 +1228,21 @@
         "en": "Build the Explanation",
         "es": "Construye la explicación"
       },
-
-      "grades": [5],
+      "grades": [
+        5
+      ],
       "gradeBand": "3-5",
-      "subjects": ["science", "elar"],
+      "subjects": [
+        "science",
+        "elar"
+      ],
       "duration": 8,
-
       "interactionType": "multiple-choice",
-
       "targetLanguage": "en",
-      "supportedHomeLanguages": ["es"],
+      "supportedHomeLanguages": [
+        "es"
+      ],
       "languagePair": "en-es",
-
       "studentGoal": {
         "en": "Build a strong science explanation that names a cause with “because” and precise vocabulary.",
         "es": "Construye una explicación científica sólida que nombre una causa con “because” y vocabulario preciso."
@@ -644,119 +1259,343 @@
         "en": "Explaining cause and effect with precise academic language.",
         "es": "Explicar causa y efecto con lenguaje académico preciso."
       },
-
       "materials": [],
-
       "items": [
         {
           "id": "b1",
-          "context": { "en": "Question: Why do we see the moon shine at night?", "es": "Pregunta: ¿Por qué vemos brillar la luna de noche?" },
-          "prompt": { "en": "Which sentence best explains why?", "es": "¿Qué oración explica mejor el porqué?" },
+          "context": {
+            "en": "Question: Why do we see the moon shine at night?",
+            "es": "Pregunta: ¿Por qué vemos brillar la luna de noche?"
+          },
+          "prompt": {
+            "en": "Which sentence best explains why?",
+            "es": "¿Qué oración explica mejor el porqué?"
+          },
           "support": {
-            "high": { "en": "A strong explanation uses “because” and a precise reason. / Una buena explicación usa “because” y una razón precisa.", "es": "Una buena explicación usa “because” y una razón precisa." },
-            "medium": { "en": "Which choice gives a scientific reason?", "es": "¿Qué opción da una razón científica?" }
+            "high": {
+              "en": "A strong explanation uses “because” and a precise reason. / Una buena explicación usa “because” y una razón precisa.",
+              "es": "Una buena explicación usa “because” y una razón precisa."
+            },
+            "medium": {
+              "en": "Which choice gives a scientific reason?",
+              "es": "¿Qué opción da una razón científica?"
+            }
           },
           "choices": [
-            { "id": "a", "label": { "en": "The moon shines because it reflects light from the sun.", "es": "La luna brilla porque refleja la luz del sol." } },
-            { "id": "b", "label": { "en": "The moon is very bright.", "es": "La luna es muy brillante." } },
-            { "id": "c", "label": { "en": "The moon shines because it likes the night.", "es": "La luna brilla porque le gusta la noche." } }
+            {
+              "id": "a",
+              "label": {
+                "en": "The moon shines because it reflects light from the sun.",
+                "es": "La luna brilla porque refleja la luz del sol."
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "The moon is very bright.",
+                "es": "La luna es muy brillante."
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "The moon shines because it likes the night.",
+                "es": "La luna brilla porque le gusta la noche."
+              }
+            }
           ],
           "answer": "a",
           "feedback": {
-            "a": { "correct": true, "why": { "en": "Yes. It names the cause with “because” and a precise idea: the moon reflects sunlight. That's a scientific explanation.", "es": "Sí. Nombra la causa con “because” y una idea precisa: la luna refleja la luz del sol. Esa es una explicación científica." } },
-            "b": { "correct": false, "why": { "en": "That's a fact, not an explanation. It doesn't say why. Add “because…”.", "es": "Eso es un hecho, no una explicación. No dice por qué. Agrega “because…”." }, "hint": { "en": "Which choice says “because…”?", "es": "¿Qué opción dice “because…”?" } },
-            "c": { "correct": false, "why": { "en": "The moon doesn't have feelings. A science explanation gives a physical cause (reflecting sunlight).", "es": "La luna no tiene sentimientos. Una explicación científica da una causa física (reflejar la luz del sol)." } }
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Yes. It names the cause with “because” and a precise idea: the moon reflects sunlight. That's a scientific explanation.",
+                "es": "Sí. Nombra la causa con “because” y una idea precisa: la luna refleja la luz del sol. Esa es una explicación científica."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "That's a fact, not an explanation. It doesn't say why. Add “because…”.",
+                "es": "Eso es un hecho, no una explicación. No dice por qué. Agrega “because…”."
+              },
+              "hint": {
+                "en": "Which choice says “because…”?",
+                "es": "¿Qué opción dice “because…”?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "The moon doesn't have feelings. A science explanation gives a physical cause (reflecting sunlight).",
+                "es": "La luna no tiene sentimientos. Una explicación científica da una causa física (reflejar la luz del sol)."
+              }
+            }
           }
         },
         {
           "id": "b2",
-          "context": { "en": "Question: Why does ice float on water?", "es": "Pregunta: ¿Por qué el hielo flota en el agua?" },
-          "prompt": { "en": "Which sentence best explains why?", "es": "¿Qué oración explica mejor el porqué?" },
+          "context": {
+            "en": "Question: Why does ice float on water?",
+            "es": "Pregunta: ¿Por qué el hielo flota en el agua?"
+          },
+          "prompt": {
+            "en": "Which sentence best explains why?",
+            "es": "¿Qué oración explica mejor el porqué?"
+          },
           "support": {
-            "high": { "en": "The precise reason is about density. / La razón precisa tiene que ver con la densidad.", "es": "La razón precisa tiene que ver con la densidad." }
+            "high": {
+              "en": "The precise reason is about density. / La razón precisa tiene que ver con la densidad.",
+              "es": "La razón precisa tiene que ver con la densidad."
+            }
           },
           "choices": [
-            { "id": "a", "label": { "en": "Ice floats because it is less dense than liquid water.", "es": "El hielo flota porque es menos denso que el agua líquida." } },
-            { "id": "b", "label": { "en": "Ice floats because it is cold.", "es": "El hielo flota porque está frío." } },
-            { "id": "c", "label": { "en": "Ice just floats.", "es": "El hielo simplemente flota." } }
+            {
+              "id": "a",
+              "label": {
+                "en": "Ice floats because it is less dense than liquid water.",
+                "es": "El hielo flota porque es menos denso que el agua líquida."
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "Ice floats because it is cold.",
+                "es": "El hielo flota porque está frío."
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "Ice just floats.",
+                "es": "El hielo simplemente flota."
+              }
+            }
           ],
           "answer": "a",
           "feedback": {
-            "a": { "correct": true, "why": { "en": "Correct. The cause is density: ice is less dense than liquid water, so it floats. Precise and scientific.", "es": "Correcto. La causa es la densidad: el hielo es menos denso que el agua líquida, así que flota. Preciso y científico." } },
-            "b": { "correct": false, "why": { "en": "Being cold isn't the reason — cold water doesn't float. The cause is lower density.", "es": "Estar frío no es la razón: el agua fría no flota. La causa es la menor densidad." }, "hint": { "en": "What makes something float — temperature or density?", "es": "¿Qué hace que algo flote: la temperatura o la densidad?" } },
-            "c": { "correct": false, "why": { "en": "This gives no reason. A strong explanation names the cause: it's less dense.", "es": "Esto no da una razón. Una buena explicación nombra la causa: es menos denso." } }
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Correct. The cause is density: ice is less dense than liquid water, so it floats. Precise and scientific.",
+                "es": "Correcto. La causa es la densidad: el hielo es menos denso que el agua líquida, así que flota. Preciso y científico."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Being cold isn't the reason — cold water doesn't float. The cause is lower density.",
+                "es": "Estar frío no es la razón: el agua fría no flota. La causa es la menor densidad."
+              },
+              "hint": {
+                "en": "What makes something float — temperature or density?",
+                "es": "¿Qué hace que algo flote: la temperatura o la densidad?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "This gives no reason. A strong explanation names the cause: it's less dense.",
+                "es": "Esto no da una razón. Una buena explicación nombra la causa: es menos denso."
+              }
+            }
           }
         },
         {
           "id": "b3",
-          "context": { "en": "Question: Why do plants near a window grow toward it?", "es": "Pregunta: ¿Por qué las plantas cerca de una ventana crecen hacia ella?" },
-          "prompt": { "en": "Which sentence best explains why?", "es": "¿Qué oración explica mejor el porqué?" },
+          "context": {
+            "en": "Question: Why do plants near a window grow toward it?",
+            "es": "Pregunta: ¿Por qué las plantas cerca de una ventana crecen hacia ella?"
+          },
+          "prompt": {
+            "en": "Which sentence best explains why?",
+            "es": "¿Qué oración explica mejor el porqué?"
+          },
           "support": {
-            "high": { "en": "Plants need light for photosynthesis. / Las plantas necesitan luz para la fotosíntesis.", "es": "Las plantas necesitan luz para la fotosíntesis." }
+            "high": {
+              "en": "Plants need light for photosynthesis. / Las plantas necesitan luz para la fotosíntesis.",
+              "es": "Las plantas necesitan luz para la fotosíntesis."
+            }
           },
           "choices": [
-            { "id": "a", "label": { "en": "They grow toward the window because they need light for photosynthesis.", "es": "Crecen hacia la ventana porque necesitan luz para la fotosíntesis." } },
-            { "id": "b", "label": { "en": "They grow toward the window because they like the view.", "es": "Crecen hacia la ventana porque les gusta la vista." } },
-            { "id": "c", "label": { "en": "Plants grow.", "es": "Las plantas crecen." } }
+            {
+              "id": "a",
+              "label": {
+                "en": "They grow toward the window because they need light for photosynthesis.",
+                "es": "Crecen hacia la ventana porque necesitan luz para la fotosíntesis."
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "They grow toward the window because they like the view.",
+                "es": "Crecen hacia la ventana porque les gusta la vista."
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "Plants grow.",
+                "es": "Las plantas crecen."
+              }
+            }
           ],
           "answer": "a",
           "feedback": {
-            "a": { "correct": true, "why": { "en": "Yes. The cause is light: plants need it for photosynthesis, so they grow toward the window.", "es": "Sí. La causa es la luz: las plantas la necesitan para la fotosíntesis, así que crecen hacia la ventana." } },
-            "b": { "correct": false, "why": { "en": "Plants don't enjoy views. The scientific cause is their need for light.", "es": "A las plantas no les gustan las vistas. La causa científica es su necesidad de luz." }, "hint": { "en": "What do plants get from a window?", "es": "¿Qué obtienen las plantas de una ventana?" } },
-            "c": { "correct": false, "why": { "en": "This doesn't explain the direction. Name the cause: they need light.", "es": "Esto no explica la dirección. Nombra la causa: necesitan luz." } }
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Yes. The cause is light: plants need it for photosynthesis, so they grow toward the window.",
+                "es": "Sí. La causa es la luz: las plantas la necesitan para la fotosíntesis, así que crecen hacia la ventana."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Plants don't enjoy views. The scientific cause is their need for light.",
+                "es": "A las plantas no les gustan las vistas. La causa científica es su necesidad de luz."
+              },
+              "hint": {
+                "en": "What do plants get from a window?",
+                "es": "¿Qué obtienen las plantas de una ventana?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "This doesn't explain the direction. Name the cause: they need light.",
+                "es": "Esto no explica la dirección. Nombra la causa: necesitan luz."
+              }
+            }
           }
         },
         {
           "id": "b4",
-          "context": { "en": "Question: Why does a metal spoon feel cold when you pick it up?", "es": "Pregunta: ¿Por qué una cuchara de metal se siente fría al tomarla?" },
-          "prompt": { "en": "Which sentence best explains why?", "es": "¿Qué oración explica mejor el porqué?" },
+          "context": {
+            "en": "Question: Why does a metal spoon feel cold when you pick it up?",
+            "es": "Pregunta: ¿Por qué una cuchara de metal se siente fría al tomarla?"
+          },
+          "prompt": {
+            "en": "Which sentence best explains why?",
+            "es": "¿Qué oración explica mejor el porqué?"
+          },
           "support": {
-            "high": { "en": "Metal conducts heat away from your warm hand. / El metal conduce el calor lejos de tu mano tibia.", "es": "El metal conduce el calor lejos de tu mano tibia." }
+            "high": {
+              "en": "Metal conducts heat away from your warm hand. / El metal conduce el calor lejos de tu mano tibia.",
+              "es": "El metal conduce el calor lejos de tu mano tibia."
+            }
           },
           "choices": [
-            { "id": "a", "label": { "en": "It feels cold because the metal conducts heat away from your hand.", "es": "Se siente fría porque el metal conduce el calor lejos de tu mano." } },
-            { "id": "b", "label": { "en": "It feels cold because metal is always cold.", "es": "Se siente fría porque el metal siempre está frío." } },
-            { "id": "c", "label": { "en": "Spoons feel weird.", "es": "Las cucharas se sienten raras." } }
+            {
+              "id": "a",
+              "label": {
+                "en": "It feels cold because the metal conducts heat away from your hand.",
+                "es": "Se siente fría porque el metal conduce el calor lejos de tu mano."
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "It feels cold because metal is always cold.",
+                "es": "Se siente fría porque el metal siempre está frío."
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "Spoons feel weird.",
+                "es": "Las cucharas se sienten raras."
+              }
+            }
           ],
           "answer": "a",
           "feedback": {
-            "a": { "correct": true, "why": { "en": "Correct. The cause is heat conduction: metal pulls heat from your warmer hand, so it feels cold. Precise science.", "es": "Correcto. La causa es la conducción del calor: el metal jala el calor de tu mano más tibia, así que se siente fría. Ciencia precisa." } },
-            "b": { "correct": false, "why": { "en": "Metal isn't “always cold” — it matches room temperature. It feels cold because it conducts heat from your hand.", "es": "El metal no “siempre está frío”: iguala la temperatura del cuarto. Se siente fría porque conduce el calor de tu mano." }, "hint": { "en": "What does metal do with your hand's heat?", "es": "¿Qué hace el metal con el calor de tu mano?" } },
-            "c": { "correct": false, "why": { "en": "This gives no reason. Name the cause: metal conducts heat away from your hand.", "es": "Esto no da una razón. Nombra la causa: el metal conduce el calor lejos de tu mano." } }
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Correct. The cause is heat conduction: metal pulls heat from your warmer hand, so it feels cold. Precise science.",
+                "es": "Correcto. La causa es la conducción del calor: el metal jala el calor de tu mano más tibia, así que se siente fría. Ciencia precisa."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Metal isn't “always cold” — it matches room temperature. It feels cold because it conducts heat from your hand.",
+                "es": "El metal no “siempre está frío”: iguala la temperatura del cuarto. Se siente fría porque conduce el calor de tu mano."
+              },
+              "hint": {
+                "en": "What does metal do with your hand's heat?",
+                "es": "¿Qué hace el metal con el calor de tu mano?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "This gives no reason. Name the cause: metal conducts heat away from your hand.",
+                "es": "Esto no da una razón. Nombra la causa: el metal conduce el calor lejos de tu mano."
+              }
+            }
           }
         }
       ],
-
-      "ace": { "articulate": true, "connect": true, "extend": true },
-
-      "clear": { "enabled": true, "emphasis": ["claim", "evidence"] },
-
+      "ace": {
+        "articulate": true,
+        "connect": true,
+        "extend": true
+      },
+      "clear": {
+        "enabled": true,
+        "emphasis": [
+          "claim",
+          "evidence"
+        ]
+      },
       "udl": [
         "representation.language-support",
         "representation.context",
         "action-expression.multiple-response-modes",
         "engagement.relevance"
       ],
-
       "strategies": [
         "vocabulary-programs",
         "corrective-feedback",
         "classroom-discussion"
       ],
-
       "standards": {
         "elps": [
-          { "code": "§120.21(d)(2)(B)", "alignment": "direct", "grades": [5], "rationale": "Students use content-area vocabulary to explain a science cause." }
+          {
+            "code": "§120.21(d)(2)(B)",
+            "alignment": "direct",
+            "grades": [
+              5
+            ],
+            "rationale": "Students use content-area vocabulary to explain a science cause."
+          }
         ],
         "teks": [
-          { "code": "§110.7(b)(7)(C)", "alignment": "supporting", "grades": [5], "rationale": "A strong explanation is grounded in a reason that functions as evidence." },
-          { "code": "§110.7(b)(1)(C)", "alignment": "supporting", "grades": [5], "rationale": "Choosing precise, conventional phrasing supports clear explanation." }
+          {
+            "code": "§110.7(b)(7)(C)",
+            "alignment": "supporting",
+            "grades": [
+              5
+            ],
+            "rationale": "A strong explanation is grounded in a reason that functions as evidence."
+          },
+          {
+            "code": "§110.7(b)(1)(C)",
+            "alignment": "supporting",
+            "grades": [
+              5
+            ],
+            "rationale": "Choosing precise, conventional phrasing supports clear explanation."
+          }
         ],
         "slar": []
       },
-
-      "printables": ["all-explain-3-5-004-student", "all-explain-3-5-004-answer-key"],
-
+      "printables": [
+        "all-explain-3-5-004-student",
+        "all-explain-3-5-004-answer-key"
+      ],
       "created": "2026-09-17",
       "updated": "2026-09-17",
       "status": "reviewed"
@@ -768,18 +1607,21 @@
         "en": "Shades of Meaning",
         "es": "Matices de significado"
       },
-
-      "grades": [9, 10],
+      "grades": [
+        9,
+        10
+      ],
       "gradeBand": "9-12",
-      "subjects": ["elar"],
+      "subjects": [
+        "elar"
+      ],
       "duration": 10,
-
       "interactionType": "context-choice",
-
       "targetLanguage": "en",
-      "supportedHomeLanguages": ["es"],
+      "supportedHomeLanguages": [
+        "es"
+      ],
       "languagePair": "en-es",
-
       "studentGoal": {
         "en": "Use context to choose the word whose connotation — its positive, negative, or neutral feeling — fits the writer's intent, even when several words share the same denotation.",
         "es": "Usa el contexto para elegir la palabra cuya connotación —su sentido positivo, negativo o neutral— coincide con la intención del autor, aunque varias palabras compartan la misma denotación."
@@ -796,119 +1638,345 @@
         "en": "Distinguishing denotative and connotative meaning; choosing precise words for tone.",
         "es": "Distinguir el significado denotativo del connotativo; elegir palabras precisas según el tono."
       },
-
       "materials": [],
-
       "items": [
         {
-          "id": "c1", "targetWord": "thrifty",
-          "context": { "en": "Maria saves carefully and always plans ahead. Her friends admire how she manages money and want to praise her.", "es": "Maria ahorra con cuidado y siempre planea con anticipación. Sus amigos admiran cómo maneja el dinero y quieren elogiarla." },
-          "prompt": { "en": "Which word fits the admiring, positive tone?", "es": "¿Qué palabra encaja con el tono positivo y de admiración?" },
+          "id": "c1",
+          "targetWord": "thrifty",
+          "context": {
+            "en": "Maria saves carefully and always plans ahead. Her friends admire how she manages money and want to praise her.",
+            "es": "Maria ahorra con cuidado y siempre planea con anticipación. Sus amigos admiran cómo maneja el dinero y quieren elogiarla."
+          },
+          "prompt": {
+            "en": "Which word fits the admiring, positive tone?",
+            "es": "¿Qué palabra encaja con el tono positivo y de admiración?"
+          },
           "support": {
-            "high": { "en": "All three can mean “careful with money,” but their feelings differ. Which one is a compliment? / Las tres pueden significar “cuidadoso con el dinero,” pero su sentido difiere. ¿Cuál es un elogio?", "es": "Las tres pueden significar “cuidadoso con el dinero,” pero su sentido difiere. ¿Cuál es un elogio?" },
-            "medium": { "en": "Her friends want to praise her — pick the positive word.", "es": "Sus amigos quieren elogiarla: elige la palabra positiva." }
+            "high": {
+              "en": "All three can mean “careful with money,” but their feelings differ. Which one is a compliment? / Las tres pueden significar “cuidadoso con el dinero,” pero su sentido difiere. ¿Cuál es un elogio?",
+              "es": "Las tres pueden significar “cuidadoso con el dinero,” pero su sentido difiere. ¿Cuál es un elogio?"
+            },
+            "medium": {
+              "en": "Her friends want to praise her — pick the positive word.",
+              "es": "Sus amigos quieren elogiarla: elige la palabra positiva."
+            }
           },
           "choices": [
-            { "id": "a", "label": { "en": "thrifty (careful and wise with money)", "es": "thrifty (cuidadosa y sabia con el dinero)" } },
-            { "id": "b", "label": { "en": "cheap (unwilling to spend, negative)", "es": "cheap (que no quiere gastar, negativo)" } },
-            { "id": "c", "label": { "en": "stingy (mean about money, negative)", "es": "stingy (tacaña, negativo)" } }
+            {
+              "id": "a",
+              "label": {
+                "en": "thrifty (careful and wise with money)",
+                "es": "thrifty (cuidadosa y sabia con el dinero)"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "cheap (unwilling to spend, negative)",
+                "es": "cheap (que no quiere gastar, negativo)"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "stingy (mean about money, negative)",
+                "es": "stingy (tacaña, negativo)"
+              }
+            }
           ],
           "answer": "a",
           "feedback": {
-            "a": { "correct": true, "why": { "en": "Yes. All three describe saving money (same denotation), but only “thrifty” has a positive connotation — it praises her. “Cheap” and “stingy” criticize.", "es": "Sí. Las tres describen ahorrar dinero (misma denotación), pero solo “thrifty” tiene una connotación positiva: la elogia. “Cheap” y “stingy” critican." } },
-            "b": { "correct": false, "why": { "en": "“Cheap” has a negative connotation — it sounds like an insult. The friends want to praise her, so choose “thrifty.”", "es": "“Cheap” tiene una connotación negativa: suena a insulto. Los amigos quieren elogiarla, así que elige “thrifty.”" }, "hint": { "en": "Which of the three is a compliment?", "es": "¿Cuál de las tres es un elogio?" } },
-            "c": { "correct": false, "why": { "en": "“Stingy” is negative — it means mean about money. For praise, “thrifty” fits the tone.", "es": "“Stingy” es negativo: significa tacaña. Para elogiar, “thrifty” encaja con el tono." } }
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Yes. All three describe saving money (same denotation), but only “thrifty” has a positive connotation — it praises her. “Cheap” and “stingy” criticize.",
+                "es": "Sí. Las tres describen ahorrar dinero (misma denotación), pero solo “thrifty” tiene una connotación positiva: la elogia. “Cheap” y “stingy” critican."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "“Cheap” has a negative connotation — it sounds like an insult. The friends want to praise her, so choose “thrifty.”",
+                "es": "“Cheap” tiene una connotación negativa: suena a insulto. Los amigos quieren elogiarla, así que elige “thrifty.”"
+              },
+              "hint": {
+                "en": "Which of the three is a compliment?",
+                "es": "¿Cuál de las tres es un elogio?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "“Stingy” is negative — it means mean about money. For praise, “thrifty” fits the tone.",
+                "es": "“Stingy” es negativo: significa tacaña. Para elogiar, “thrifty” encaja con el tono."
+              }
+            }
           }
         },
         {
-          "id": "c2", "targetWord": "arrogant",
-          "context": { "en": "A film critic disliked the lead character and wanted readers to see him as unpleasant and too full of himself.", "es": "Un crítico de cine no soportó al personaje principal y quería que los lectores lo vieran como desagradable y demasiado creído." },
-          "prompt": { "en": "Which word matches the critic's negative tone?", "es": "¿Qué palabra coincide con el tono negativo del crítico?" },
+          "id": "c2",
+          "targetWord": "arrogant",
+          "context": {
+            "en": "A film critic disliked the lead character and wanted readers to see him as unpleasant and too full of himself.",
+            "es": "Un crítico de cine no soportó al personaje principal y quería que los lectores lo vieran como desagradable y demasiado creído."
+          },
+          "prompt": {
+            "en": "Which word matches the critic's negative tone?",
+            "es": "¿Qué palabra coincide con el tono negativo del crítico?"
+          },
           "support": {
-            "high": { "en": "“Confident,” “self-assured,” and “arrogant” all describe someone sure of himself — but with different feelings. / Las tres describen a alguien seguro de sí mismo, con sentidos diferentes.", "es": "Las tres describen a alguien seguro de sí mismo, con sentidos diferentes." }
+            "high": {
+              "en": "“Confident,” “self-assured,” and “arrogant” all describe someone sure of himself — but with different feelings. / Las tres describen a alguien seguro de sí mismo, con sentidos diferentes.",
+              "es": "Las tres describen a alguien seguro de sí mismo, con sentidos diferentes."
+            }
           },
           "choices": [
-            { "id": "a", "label": { "en": "arrogant (too proud, negative)", "es": "arrogant (demasiado orgulloso, negativo)" } },
-            { "id": "b", "label": { "en": "confident (sure of himself, positive)", "es": "confident (seguro de sí, positivo)" } },
-            { "id": "c", "label": { "en": "self-assured (calmly certain, positive/neutral)", "es": "self-assured (con calma seguro, positivo/neutral)" } }
+            {
+              "id": "a",
+              "label": {
+                "en": "arrogant (too proud, negative)",
+                "es": "arrogant (demasiado orgulloso, negativo)"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "confident (sure of himself, positive)",
+                "es": "confident (seguro de sí, positivo)"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "self-assured (calmly certain, positive/neutral)",
+                "es": "self-assured (con calma seguro, positivo/neutral)"
+              }
+            }
           ],
           "answer": "a",
           "feedback": {
-            "a": { "correct": true, "why": { "en": "Right. The critic wants a negative tone, and “arrogant” carries that criticism. “Confident” and “self-assured” are positive.", "es": "Correcto. El crítico quiere un tono negativo, y “arrogant” lleva esa crítica. “Confident” y “self-assured” son positivos." } },
-            "b": { "correct": false, "why": { "en": "“Confident” is positive — it praises. The critic dislikes the character, so the negative “arrogant” fits.", "es": "“Confident” es positivo: elogia. Al crítico no le gusta el personaje, así que el negativo “arrogant” encaja." }, "hint": { "en": "Which word sounds like a criticism?", "es": "¿Qué palabra suena a crítica?" } },
-            "c": { "correct": false, "why": { "en": "“Self-assured” is calm and positive. For a negative tone, choose “arrogant.”", "es": "“Self-assured” es tranquilo y positivo. Para un tono negativo, elige “arrogant.”" } }
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. The critic wants a negative tone, and “arrogant” carries that criticism. “Confident” and “self-assured” are positive.",
+                "es": "Correcto. El crítico quiere un tono negativo, y “arrogant” lleva esa crítica. “Confident” y “self-assured” son positivos."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "“Confident” is positive — it praises. The critic dislikes the character, so the negative “arrogant” fits.",
+                "es": "“Confident” es positivo: elogia. Al crítico no le gusta el personaje, así que el negativo “arrogant” encaja."
+              },
+              "hint": {
+                "en": "Which word sounds like a criticism?",
+                "es": "¿Qué palabra suena a crítica?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "“Self-assured” is calm and positive. For a negative tone, choose “arrogant.”",
+                "es": "“Self-assured” es tranquilo y positivo. Para un tono negativo, elige “arrogant.”"
+              }
+            }
           }
         },
         {
-          "id": "c3", "targetWord": "curious",
-          "context": { "en": "A teacher wants to compliment a student who asks lots of thoughtful questions and loves to learn.", "es": "Una maestra quiere elogiar a un estudiante que hace muchas preguntas reflexivas y ama aprender." },
-          "prompt": { "en": "Which word gives the positive compliment?", "es": "¿Qué palabra da el elogio positivo?" },
+          "id": "c3",
+          "targetWord": "curious",
+          "context": {
+            "en": "A teacher wants to compliment a student who asks lots of thoughtful questions and loves to learn.",
+            "es": "Una maestra quiere elogiar a un estudiante que hace muchas preguntas reflexivas y ama aprender."
+          },
+          "prompt": {
+            "en": "Which word gives the positive compliment?",
+            "es": "¿Qué palabra da el elogio positivo?"
+          },
           "support": {
-            "high": { "en": "“Curious,” “nosy,” and “prying” all involve wanting to know — but only one is kind. / Las tres tienen que ver con querer saber, pero solo una es amable.", "es": "Las tres tienen que ver con querer saber, pero solo una es amable." }
+            "high": {
+              "en": "“Curious,” “nosy,” and “prying” all involve wanting to know — but only one is kind. / Las tres tienen que ver con querer saber, pero solo una es amable.",
+              "es": "Las tres tienen que ver con querer saber, pero solo una es amable."
+            }
           },
           "choices": [
-            { "id": "a", "label": { "en": "curious (eager to learn, positive)", "es": "curious (con ganas de aprender, positivo)" } },
-            { "id": "b", "label": { "en": "nosy (intrusive, negative)", "es": "nosy (entrometido, negativo)" } },
-            { "id": "c", "label": { "en": "prying (interfering, negative)", "es": "prying (que se mete, negativo)" } }
+            {
+              "id": "a",
+              "label": {
+                "en": "curious (eager to learn, positive)",
+                "es": "curious (con ganas de aprender, positivo)"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "nosy (intrusive, negative)",
+                "es": "nosy (entrometido, negativo)"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "prying (interfering, negative)",
+                "es": "prying (que se mete, negativo)"
+              }
+            }
           ],
           "answer": "a",
           "feedback": {
-            "a": { "correct": true, "why": { "en": "Yes. All three describe wanting to know things, but only “curious” is a compliment. “Nosy” and “prying” are negative.", "es": "Sí. Las tres describen querer saber cosas, pero solo “curious” es un elogio. “Nosy” y “prying” son negativas." } },
-            "b": { "correct": false, "why": { "en": "“Nosy” is negative — it criticizes. To compliment, use the positive “curious.”", "es": "“Nosy” es negativo: critica. Para elogiar, usa el positivo “curious.”" }, "hint": { "en": "Which word would a teacher say kindly?", "es": "¿Qué palabra diría una maestra con amabilidad?" } },
-            "c": { "correct": false, "why": { "en": "“Prying” suggests interfering — negative. The kind compliment is “curious.”", "es": "“Prying” sugiere entrometerse: negativo. El elogio amable es “curious.”" } }
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Yes. All three describe wanting to know things, but only “curious” is a compliment. “Nosy” and “prying” are negative.",
+                "es": "Sí. Las tres describen querer saber cosas, pero solo “curious” es un elogio. “Nosy” y “prying” son negativas."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "“Nosy” is negative — it criticizes. To compliment, use the positive “curious.”",
+                "es": "“Nosy” es negativo: critica. Para elogiar, usa el positivo “curious.”"
+              },
+              "hint": {
+                "en": "Which word would a teacher say kindly?",
+                "es": "¿Qué palabra diría una maestra con amabilidad?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "“Prying” suggests interfering — negative. The kind compliment is “curious.”",
+                "es": "“Prying” sugiere entrometerse: negativo. El elogio amable es “curious.”"
+              }
+            }
           }
         },
         {
-          "id": "c4", "targetWord": "slim",
-          "context": { "en": "Two words, “slim” and “skinny,” both mean thin. A writer wants to describe a model in a flattering way.", "es": "Dos palabras, “slim” y “skinny,” significan delgado. Un escritor quiere describir a una modelo de manera favorable." },
-          "prompt": { "en": "Which word has the more positive connotation?", "es": "¿Qué palabra tiene la connotación más positiva?" },
+          "id": "c4",
+          "targetWord": "slim",
+          "context": {
+            "en": "Two words, “slim” and “skinny,” both mean thin. A writer wants to describe a model in a flattering way.",
+            "es": "Dos palabras, “slim” y “skinny,” significan delgado. Un escritor quiere describir a una modelo de manera favorable."
+          },
+          "prompt": {
+            "en": "Which word has the more positive connotation?",
+            "es": "¿Qué palabra tiene la connotación más positiva?"
+          },
           "support": {
-            "high": { "en": "Same denotation (thin), different feeling. Which sounds flattering? / Misma denotación (delgado), sentido diferente. ¿Cuál suena favorable?", "es": "Misma denotación (delgado), sentido diferente. ¿Cuál suena favorable?" }
+            "high": {
+              "en": "Same denotation (thin), different feeling. Which sounds flattering? / Misma denotación (delgado), sentido diferente. ¿Cuál suena favorable?",
+              "es": "Misma denotación (delgado), sentido diferente. ¿Cuál suena favorable?"
+            }
           },
           "choices": [
-            { "id": "a", "label": { "en": "slim (attractively thin, positive)", "es": "slim (delgado de forma atractiva, positivo)" } },
-            { "id": "b", "label": { "en": "skinny (too thin, often negative)", "es": "skinny (demasiado delgado, a menudo negativo)" } },
-            { "id": "c", "label": { "en": "They mean exactly the same thing.", "es": "Significan exactamente lo mismo." } }
+            {
+              "id": "a",
+              "label": {
+                "en": "slim (attractively thin, positive)",
+                "es": "slim (delgado de forma atractiva, positivo)"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "skinny (too thin, often negative)",
+                "es": "skinny (demasiado delgado, a menudo negativo)"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "They mean exactly the same thing.",
+                "es": "Significan exactamente lo mismo."
+              }
+            }
           ],
           "answer": "a",
           "feedback": {
-            "a": { "correct": true, "why": { "en": "Right. “Slim” and “skinny” share a denotation (thin) but not a connotation — “slim” is flattering, “skinny” often is not.", "es": "Correcto. “Slim” y “skinny” comparten una denotación (delgado) pero no una connotación: “slim” es favorable, “skinny” a menudo no." } },
-            "b": { "correct": false, "why": { "en": "“Skinny” often sounds negative or unhealthy. For a flattering tone, “slim” is the choice.", "es": "“Skinny” suele sonar negativo o poco saludable. Para un tono favorable, “slim” es la opción." }, "hint": { "en": "Which word is a compliment?", "es": "¿Qué palabra es un elogio?" } },
-            "c": { "correct": false, "why": { "en": "They have the same denotation but different connotations — that's the whole point. “Slim” is the positive one.", "es": "Tienen la misma denotación pero distinta connotación: ese es el punto. “Slim” es la positiva." } }
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. “Slim” and “skinny” share a denotation (thin) but not a connotation — “slim” is flattering, “skinny” often is not.",
+                "es": "Correcto. “Slim” y “skinny” comparten una denotación (delgado) pero no una connotación: “slim” es favorable, “skinny” a menudo no."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "“Skinny” often sounds negative or unhealthy. For a flattering tone, “slim” is the choice.",
+                "es": "“Skinny” suele sonar negativo o poco saludable. Para un tono favorable, “slim” es la opción."
+              },
+              "hint": {
+                "en": "Which word is a compliment?",
+                "es": "¿Qué palabra es un elogio?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "They have the same denotation but different connotations — that's the whole point. “Slim” is the positive one.",
+                "es": "Tienen la misma denotación pero distinta connotación: ese es el punto. “Slim” es la positiva."
+              }
+            }
           }
         }
       ],
-
-      "ace": { "articulate": true, "connect": true, "extend": true },
-
-      "clear": { "enabled": false, "emphasis": [] },
-
+      "ace": {
+        "articulate": true,
+        "connect": true,
+        "extend": true
+      },
+      "clear": {
+        "enabled": false,
+        "emphasis": []
+      },
       "udl": [
         "representation.language-support",
         "representation.context",
         "action-expression.multiple-response-modes",
         "engagement.relevance"
       ],
-
       "strategies": [
         "vocabulary-programs",
         "corrective-feedback",
         "retrieval-practice"
       ],
-
       "standards": {
         "elps": [
-          { "code": "§120.21(d)(3)(C)", "alignment": "supporting", "grades": [9, 10], "rationale": "Students use context to comprehend the nuanced meaning of academic vocabulary." }
+          {
+            "code": "§120.21(d)(3)(C)",
+            "alignment": "supporting",
+            "grades": [
+              9,
+              10
+            ],
+            "rationale": "Students use context to comprehend the nuanced meaning of academic vocabulary."
+          }
         ],
         "teks": [
-          { "code": "§110.36(c)(2)(B)", "alignment": "direct", "grades": [9], "rationale": "Students analyze context to distinguish denotative from connotative meaning." },
-          { "code": "§110.37(c)(2)(B)", "alignment": "direct", "grades": [10], "rationale": "Students analyze context to distinguish denotative, connotative, and figurative meaning." }
+          {
+            "code": "§110.36(c)(2)(B)",
+            "alignment": "direct",
+            "grades": [
+              9
+            ],
+            "rationale": "Students analyze context to distinguish denotative from connotative meaning."
+          },
+          {
+            "code": "§110.37(c)(2)(B)",
+            "alignment": "direct",
+            "grades": [
+              10
+            ],
+            "rationale": "Students analyze context to distinguish denotative, connotative, and figurative meaning."
+          }
         ],
         "slar": []
       },
-
-      "printables": ["all-connotation-9-12-005-student", "all-connotation-9-12-005-answer-key"],
-
+      "printables": [
+        "all-connotation-9-12-005-student",
+        "all-connotation-9-12-005-answer-key"
+      ],
       "created": "2026-09-17",
       "updated": "2026-09-17",
       "status": "reviewed"
@@ -920,18 +1988,21 @@
         "en": "Sentence Expansion",
         "es": "Ampliar la oración"
       },
-
-      "grades": [5],
+      "grades": [
+        5
+      ],
       "gradeBand": "3-5",
-      "subjects": ["science", "elar"],
+      "subjects": [
+        "science",
+        "elar"
+      ],
       "duration": 8,
-
       "interactionType": "multiple-choice",
-
       "targetLanguage": "en",
-      "supportedHomeLanguages": ["es"],
+      "supportedHomeLanguages": [
+        "es"
+      ],
       "languagePair": "en-es",
-
       "studentGoal": {
         "en": "Turn a bare sentence into a complete academic one by adding precise detail — what, when, how, and why.",
         "es": "Convierte una oración básica en una oración académica completa agregando detalles precisos: qué, cuándo, cómo y por qué."
@@ -948,118 +2019,332 @@
         "en": "Elaborating with precise detail using academic vocabulary.",
         "es": "Elaborar con detalles precisos usando vocabulario académico."
       },
-
       "materials": [],
-
       "items": [
         {
           "id": "x1",
-          "context": { "en": "Basic sentence: “The plant grew.”", "es": "Oración básica: “The plant grew.”" },
-          "prompt": { "en": "Which version adds the most precise detail?", "es": "¿Qué versión agrega los detalles más precisos?" },
+          "context": {
+            "en": "Basic sentence: “The plant grew.”",
+            "es": "Oración básica: “The plant grew.”"
+          },
+          "prompt": {
+            "en": "Which version adds the most precise detail?",
+            "es": "¿Qué versión agrega los detalles más precisos?"
+          },
           "support": {
-            "high": { "en": "A strong sentence tells how much, how long, or how it happened. / Una oración fuerte dice cuánto, cuánto tiempo o cómo pasó.", "es": "Una oración fuerte dice cuánto, cuánto tiempo o cómo pasó." },
-            "medium": { "en": "Which choice has the most specific information?", "es": "¿Qué opción tiene la información más específica?" }
+            "high": {
+              "en": "A strong sentence tells how much, how long, or how it happened. / Una oración fuerte dice cuánto, cuánto tiempo o cómo pasó.",
+              "es": "Una oración fuerte dice cuánto, cuánto tiempo o cómo pasó."
+            },
+            "medium": {
+              "en": "Which choice has the most specific information?",
+              "es": "¿Qué opción tiene la información más específica?"
+            }
           },
           "choices": [
-            { "id": "a", "label": { "en": "Over three weeks, the bean plant grew from a small seed into a tall stem with leaves.", "es": "En tres semanas, la planta de frijol creció de una pequeña semilla a un tallo alto con hojas." } },
-            { "id": "b", "label": { "en": "The plant got bigger.", "es": "La planta se hizo más grande." } },
-            { "id": "c", "label": { "en": "It grew and grew.", "es": "Creció y creció." } }
+            {
+              "id": "a",
+              "label": {
+                "en": "Over three weeks, the bean plant grew from a small seed into a tall stem with leaves.",
+                "es": "En tres semanas, la planta de frijol creció de una pequeña semilla a un tallo alto con hojas."
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "The plant got bigger.",
+                "es": "La planta se hizo más grande."
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "It grew and grew.",
+                "es": "Creció y creció."
+              }
+            }
           ],
           "answer": "a",
           "feedback": {
-            "a": { "correct": true, "why": { "en": "Yes. It adds when (three weeks), what kind (bean plant), and how it changed (seed to tall stem). Precise academic detail.", "es": "Sí. Agrega cuándo (tres semanas), qué tipo (planta de frijol) y cómo cambió (de semilla a tallo alto). Detalle académico preciso." } },
-            "b": { "correct": false, "why": { "en": "“Got bigger” is vague. Add specifics: how long, what kind, how it changed.", "es": "“Got bigger” es vago. Agrega detalles: cuánto tiempo, qué tipo, cómo cambió." }, "hint": { "en": "Which choice tells you when and how much?", "es": "¿Qué opción dice cuándo y cuánto?" } },
-            "c": { "correct": false, "why": { "en": "Repeating “grew” adds no detail. A strong sentence names specifics.", "es": "Repetir “grew” no agrega detalle. Una oración fuerte nombra detalles específicos." } }
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Yes. It adds when (three weeks), what kind (bean plant), and how it changed (seed to tall stem). Precise academic detail.",
+                "es": "Sí. Agrega cuándo (tres semanas), qué tipo (planta de frijol) y cómo cambió (de semilla a tallo alto). Detalle académico preciso."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "“Got bigger” is vague. Add specifics: how long, what kind, how it changed.",
+                "es": "“Got bigger” es vago. Agrega detalles: cuánto tiempo, qué tipo, cómo cambió."
+              },
+              "hint": {
+                "en": "Which choice tells you when and how much?",
+                "es": "¿Qué opción dice cuándo y cuánto?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "Repeating “grew” adds no detail. A strong sentence names specifics.",
+                "es": "Repetir “grew” no agrega detalle. Una oración fuerte nombra detalles específicos."
+              }
+            }
           }
         },
         {
           "id": "x2",
-          "context": { "en": "Basic sentence: “The water changed.”", "es": "Oración básica: “The water changed.”" },
-          "prompt": { "en": "Which version adds the most precise detail?", "es": "¿Qué versión agrega los detalles más precisos?" },
+          "context": {
+            "en": "Basic sentence: “The water changed.”",
+            "es": "Oración básica: “The water changed.”"
+          },
+          "prompt": {
+            "en": "Which version adds the most precise detail?",
+            "es": "¿Qué versión agrega los detalles más precisos?"
+          },
           "support": {
-            "high": { "en": "Name the exact change and when it happened. / Nombra el cambio exacto y cuándo ocurrió.", "es": "Nombra el cambio exacto y cuándo ocurrió." }
+            "high": {
+              "en": "Name the exact change and when it happened. / Nombra el cambio exacto y cuándo ocurrió.",
+              "es": "Nombra el cambio exacto y cuándo ocurrió."
+            }
           },
           "choices": [
-            { "id": "a", "label": { "en": "When the water reached 100°C, it began to boil and turn into steam.", "es": "Cuando el agua llegó a 100 °C, empezó a hervir y convertirse en vapor." } },
-            { "id": "b", "label": { "en": "The water was different.", "es": "El agua estaba diferente." } },
-            { "id": "c", "label": { "en": "It changed somehow.", "es": "Cambió de alguna manera." } }
+            {
+              "id": "a",
+              "label": {
+                "en": "When the water reached 100°C, it began to boil and turn into steam.",
+                "es": "Cuando el agua llegó a 100 °C, empezó a hervir y convertirse en vapor."
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "The water was different.",
+                "es": "El agua estaba diferente."
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "It changed somehow.",
+                "es": "Cambió de alguna manera."
+              }
+            }
           ],
           "answer": "a",
           "feedback": {
-            "a": { "correct": true, "why": { "en": "Yes. It says when (100°C) and exactly what happened (boiled, turned to steam). That's precise science language.", "es": "Sí. Dice cuándo (100 °C) y exactamente qué pasó (hirvió, se convirtió en vapor). Ese es lenguaje científico preciso." } },
-            "b": { "correct": false, "why": { "en": "“Different” doesn't say how. Name the change: it boiled and became steam.", "es": "“Different” no dice cómo. Nombra el cambio: hirvió y se convirtió en vapor." }, "hint": { "en": "What exactly happened to the water?", "es": "¿Qué le pasó exactamente al agua?" } },
-            "c": { "correct": false, "why": { "en": "“Somehow” is the opposite of precise. Say exactly what changed.", "es": "“Somehow” es lo contrario de preciso. Di exactamente qué cambió." } }
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Yes. It says when (100°C) and exactly what happened (boiled, turned to steam). That's precise science language.",
+                "es": "Sí. Dice cuándo (100 °C) y exactamente qué pasó (hirvió, se convirtió en vapor). Ese es lenguaje científico preciso."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "“Different” doesn't say how. Name the change: it boiled and became steam.",
+                "es": "“Different” no dice cómo. Nombra el cambio: hirvió y se convirtió en vapor."
+              },
+              "hint": {
+                "en": "What exactly happened to the water?",
+                "es": "¿Qué le pasó exactamente al agua?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "“Somehow” is the opposite of precise. Say exactly what changed.",
+                "es": "“Somehow” es lo contrario de preciso. Di exactamente qué cambió."
+              }
+            }
           }
         },
         {
           "id": "x3",
-          "context": { "en": "Basic sentence: “The animal moved.”", "es": "Oración básica: “The animal moved.”" },
-          "prompt": { "en": "Which version adds the most precise detail?", "es": "¿Qué versión agrega los detalles más precisos?" },
+          "context": {
+            "en": "Basic sentence: “The animal moved.”",
+            "es": "Oración básica: “The animal moved.”"
+          },
+          "prompt": {
+            "en": "Which version adds the most precise detail?",
+            "es": "¿Qué versión agrega los detalles más precisos?"
+          },
           "support": {
-            "high": { "en": "Tell which animal, how it moved, and why. / Di qué animal, cómo se movió y por qué.", "es": "Di qué animal, cómo se movió y por qué." }
+            "high": {
+              "en": "Tell which animal, how it moved, and why. / Di qué animal, cómo se movió y por qué.",
+              "es": "Di qué animal, cómo se movió y por qué."
+            }
           },
           "choices": [
-            { "id": "a", "label": { "en": "The rabbit hopped quickly across the field to escape the fox.", "es": "El conejo saltó rápidamente por el campo para escapar del zorro." } },
-            { "id": "b", "label": { "en": "The animal went somewhere.", "es": "El animal fue a algún lugar." } },
-            { "id": "c", "label": { "en": "It moved a lot.", "es": "Se movió mucho." } }
+            {
+              "id": "a",
+              "label": {
+                "en": "The rabbit hopped quickly across the field to escape the fox.",
+                "es": "El conejo saltó rápidamente por el campo para escapar del zorro."
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "The animal went somewhere.",
+                "es": "El animal fue a algún lugar."
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "It moved a lot.",
+                "es": "Se movió mucho."
+              }
+            }
           ],
           "answer": "a",
           "feedback": {
-            "a": { "correct": true, "why": { "en": "Yes. It names which animal (rabbit), how (hopped quickly), where (across the field), and why (to escape the fox).", "es": "Sí. Nombra qué animal (conejo), cómo (saltó rápidamente), dónde (por el campo) y por qué (para escapar del zorro)." } },
-            "b": { "correct": false, "why": { "en": "“Somewhere” gives no detail. Add which animal, how, and why.", "es": "“Somewhere” no da detalle. Agrega qué animal, cómo y por qué." }, "hint": { "en": "Which choice answers what, how, and why?", "es": "¿Qué opción responde qué, cómo y por qué?" } },
-            "c": { "correct": false, "why": { "en": "“A lot” isn't specific. Name the animal and how it moved.", "es": "“A lot” no es específico. Nombra el animal y cómo se movió." } }
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Yes. It names which animal (rabbit), how (hopped quickly), where (across the field), and why (to escape the fox).",
+                "es": "Sí. Nombra qué animal (conejo), cómo (saltó rápidamente), dónde (por el campo) y por qué (para escapar del zorro)."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "“Somewhere” gives no detail. Add which animal, how, and why.",
+                "es": "“Somewhere” no da detalle. Agrega qué animal, cómo y por qué."
+              },
+              "hint": {
+                "en": "Which choice answers what, how, and why?",
+                "es": "¿Qué opción responde qué, cómo y por qué?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "“A lot” isn't specific. Name the animal and how it moved.",
+                "es": "“A lot” no es específico. Nombra el animal y cómo se movió."
+              }
+            }
           }
         },
         {
           "id": "x4",
-          "context": { "en": "Basic sentence: “We did an experiment.”", "es": "Oración básica: “We did an experiment.”" },
-          "prompt": { "en": "Which version adds the most precise detail?", "es": "¿Qué versión agrega los detalles más precisos?" },
+          "context": {
+            "en": "Basic sentence: “We did an experiment.”",
+            "es": "Oración básica: “We did an experiment.”"
+          },
+          "prompt": {
+            "en": "Which version adds the most precise detail?",
+            "es": "¿Qué versión agrega los detalles más precisos?"
+          },
           "support": {
-            "high": { "en": "Say what you measured and how often. / Di qué mediste y cada cuánto.", "es": "Di qué mediste y cada cuánto." }
+            "high": {
+              "en": "Say what you measured and how often. / Di qué mediste y cada cuánto.",
+              "es": "Di qué mediste y cada cuánto."
+            }
           },
           "choices": [
-            { "id": "a", "label": { "en": "We measured how the temperature of the water changed every five minutes during the experiment.", "es": "Medimos cómo cambiaba la temperatura del agua cada cinco minutos durante el experimento." } },
-            { "id": "b", "label": { "en": "We did some science.", "es": "Hicimos algo de ciencia." } },
-            { "id": "c", "label": { "en": "We did an experiment in class.", "es": "Hicimos un experimento en clase." } }
+            {
+              "id": "a",
+              "label": {
+                "en": "We measured how the temperature of the water changed every five minutes during the experiment.",
+                "es": "Medimos cómo cambiaba la temperatura del agua cada cinco minutos durante el experimento."
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "We did some science.",
+                "es": "Hicimos algo de ciencia."
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "We did an experiment in class.",
+                "es": "Hicimos un experimento en clase."
+              }
+            }
           ],
           "answer": "a",
           "feedback": {
-            "a": { "correct": true, "why": { "en": "Yes. It says what you measured (temperature of the water) and how often (every five minutes). Precise and academic.", "es": "Sí. Dice qué mediste (la temperatura del agua) y cada cuánto (cada cinco minutos). Preciso y académico." } },
-            "b": { "correct": false, "why": { "en": "“Some science” is vague. Say what you measured and how.", "es": "“Some science” es vago. Di qué mediste y cómo." }, "hint": { "en": "What did you measure, and how often?", "es": "¿Qué mediste y cada cuánto?" } },
-            "c": { "correct": false, "why": { "en": "This adds only where. Add what you measured and how often.", "es": "Esto solo agrega dónde. Agrega qué mediste y cada cuánto." } }
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Yes. It says what you measured (temperature of the water) and how often (every five minutes). Precise and academic.",
+                "es": "Sí. Dice qué mediste (la temperatura del agua) y cada cuánto (cada cinco minutos). Preciso y académico."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "“Some science” is vague. Say what you measured and how.",
+                "es": "“Some science” es vago. Di qué mediste y cómo."
+              },
+              "hint": {
+                "en": "What did you measure, and how often?",
+                "es": "¿Qué mediste y cada cuánto?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "This adds only where. Add what you measured and how often.",
+                "es": "Esto solo agrega dónde. Agrega qué mediste y cada cuánto."
+              }
+            }
           }
         }
       ],
-
-      "ace": { "articulate": true, "connect": true, "extend": true },
-
-      "clear": { "enabled": false, "emphasis": [] },
-
+      "ace": {
+        "articulate": true,
+        "connect": true,
+        "extend": true
+      },
+      "clear": {
+        "enabled": false,
+        "emphasis": []
+      },
       "udl": [
         "representation.language-support",
         "representation.context",
         "action-expression.multiple-response-modes",
         "engagement.relevance"
       ],
-
       "strategies": [
         "sentence-frames",
         "vocabulary-programs",
         "corrective-feedback"
       ],
-
       "standards": {
         "elps": [
-          { "code": "§120.21(d)(2)(B)", "alignment": "direct", "grades": [5], "rationale": "Students use content-area vocabulary in more complex, complete sentences." }
+          {
+            "code": "§120.21(d)(2)(B)",
+            "alignment": "direct",
+            "grades": [
+              5
+            ],
+            "rationale": "Students use content-area vocabulary in more complex, complete sentences."
+          }
         ],
         "teks": [
-          { "code": "§110.7(b)(1)(C)", "alignment": "supporting", "grades": [5], "rationale": "Precise, organized phrasing supports clear academic communication." }
+          {
+            "code": "§110.7(b)(1)(C)",
+            "alignment": "supporting",
+            "grades": [
+              5
+            ],
+            "rationale": "Precise, organized phrasing supports clear academic communication."
+          }
         ],
         "slar": []
       },
-
-      "printables": ["all-expand-3-5-006-student", "all-expand-3-5-006-answer-key"],
-
+      "printables": [
+        "all-expand-3-5-006-student",
+        "all-expand-3-5-006-answer-key"
+      ],
       "created": "2026-09-18",
       "updated": "2026-09-18",
       "status": "reviewed"
@@ -1071,18 +2356,21 @@
         "en": "Compare It",
         "es": "Compáralo"
       },
-
-      "grades": [5],
+      "grades": [
+        5
+      ],
       "gradeBand": "3-5",
-      "subjects": ["science", "elar"],
+      "subjects": [
+        "science",
+        "elar"
+      ],
       "duration": 8,
-
       "interactionType": "multiple-choice",
-
       "targetLanguage": "en",
-      "supportedHomeLanguages": ["es"],
+      "supportedHomeLanguages": [
+        "es"
+      ],
       "languagePair": "en-es",
-
       "studentGoal": {
         "en": "Use academic comparison language — both, but, however, while, whereas — to compare two things clearly.",
         "es": "Usa lenguaje académico de comparación —both, but, however, while, whereas— para comparar dos cosas con claridad."
@@ -1099,120 +2387,817 @@
         "en": "Comparing and contrasting with academic connectives.",
         "es": "Comparar y contrastar con conectores académicos."
       },
-
       "materials": [],
-
       "items": [
         {
           "id": "c1",
-          "context": { "en": "Compare a whale and a fish.", "es": "Compara una ballena y un pez." },
-          "prompt": { "en": "Which sentence compares them best?", "es": "¿Qué oración los compara mejor?" },
+          "context": {
+            "en": "Compare a whale and a fish.",
+            "es": "Compara una ballena y un pez."
+          },
+          "prompt": {
+            "en": "Which sentence compares them best?",
+            "es": "¿Qué oración los compara mejor?"
+          },
           "support": {
-            "high": { "en": "A strong comparison names a similarity AND a difference: “Both ___, but ___.” / Una buena comparación nombra una semejanza Y una diferencia: “Both ___, but ___.”", "es": "Una buena comparación nombra una semejanza Y una diferencia: “Both ___, but ___.”" },
-            "medium": { "en": "Which choice tells what is the same and what is different?", "es": "¿Qué opción dice qué es igual y qué es diferente?" }
+            "high": {
+              "en": "A strong comparison names a similarity AND a difference: “Both ___, but ___.” / Una buena comparación nombra una semejanza Y una diferencia: “Both ___, but ___.”",
+              "es": "Una buena comparación nombra una semejanza Y una diferencia: “Both ___, but ___.”"
+            },
+            "medium": {
+              "en": "Which choice tells what is the same and what is different?",
+              "es": "¿Qué opción dice qué es igual y qué es diferente?"
+            }
           },
           "choices": [
-            { "id": "a", "label": { "en": "Both a whale and a fish live in water, but a whale breathes air while a fish uses gills.", "es": "Tanto la ballena como el pez viven en el agua, pero la ballena respira aire mientras que el pez usa branquias." } },
-            { "id": "b", "label": { "en": "A whale and a fish are different.", "es": "Una ballena y un pez son diferentes." } },
-            { "id": "c", "label": { "en": "Whales are really big.", "es": "Las ballenas son muy grandes." } }
+            {
+              "id": "a",
+              "label": {
+                "en": "Both a whale and a fish live in water, but a whale breathes air while a fish uses gills.",
+                "es": "Tanto la ballena como el pez viven en el agua, pero la ballena respira aire mientras que el pez usa branquias."
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "A whale and a fish are different.",
+                "es": "Una ballena y un pez son diferentes."
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "Whales are really big.",
+                "es": "Las ballenas son muy grandes."
+              }
+            }
           ],
           "answer": "a",
           "feedback": {
-            "a": { "correct": true, "why": { "en": "Yes. It names a similarity (“both… live in water”) and a difference (“a whale breathes air while a fish uses gills”), using comparison words.", "es": "Sí. Nombra una semejanza (“both… live in water”) y una diferencia (“a whale breathes air while a fish uses gills”), usando palabras de comparación." } },
-            "b": { "correct": false, "why": { "en": "“Are different” doesn't say how. A strong comparison names the difference.", "es": "“Are different” no dice cómo. Una buena comparación nombra la diferencia." }, "hint": { "en": "Which choice uses “both” and “but/while”?", "es": "¿Qué opción usa “both” y “but/while”?" } },
-            "c": { "correct": false, "why": { "en": "This describes only whales. A comparison talks about both things.", "es": "Esto describe solo a las ballenas. Una comparación habla de las dos cosas." } }
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Yes. It names a similarity (“both… live in water”) and a difference (“a whale breathes air while a fish uses gills”), using comparison words.",
+                "es": "Sí. Nombra una semejanza (“both… live in water”) y una diferencia (“a whale breathes air while a fish uses gills”), usando palabras de comparación."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "“Are different” doesn't say how. A strong comparison names the difference.",
+                "es": "“Are different” no dice cómo. Una buena comparación nombra la diferencia."
+              },
+              "hint": {
+                "en": "Which choice uses “both” and “but/while”?",
+                "es": "¿Qué opción usa “both” y “but/while”?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "This describes only whales. A comparison talks about both things.",
+                "es": "Esto describe solo a las ballenas. Una comparación habla de las dos cosas."
+              }
+            }
           }
         },
         {
           "id": "c2",
-          "context": { "en": "Compare rain and snow.", "es": "Compara la lluvia y la nieve." },
-          "prompt": { "en": "Which sentence compares them best?", "es": "¿Qué oración los compara mejor?" },
+          "context": {
+            "en": "Compare rain and snow.",
+            "es": "Compara la lluvia y la nieve."
+          },
+          "prompt": {
+            "en": "Which sentence compares them best?",
+            "es": "¿Qué oración los compara mejor?"
+          },
           "support": {
-            "high": { "en": "Try “Both ___; however, ___.” / Prueba “Both ___; however, ___.”", "es": "Prueba “Both ___; however, ___.”" }
+            "high": {
+              "en": "Try “Both ___; however, ___.” / Prueba “Both ___; however, ___.”",
+              "es": "Prueba “Both ___; however, ___.”"
+            }
           },
           "choices": [
-            { "id": "a", "label": { "en": "Rain and snow both fall from clouds; however, rain is liquid and snow is frozen.", "es": "La lluvia y la nieve caen de las nubes; sin embargo, la lluvia es líquida y la nieve está congelada." } },
-            { "id": "b", "label": { "en": "Rain is wet.", "es": "La lluvia es mojada." } },
-            { "id": "c", "label": { "en": "They are not the same thing.", "es": "No son lo mismo." } }
+            {
+              "id": "a",
+              "label": {
+                "en": "Rain and snow both fall from clouds; however, rain is liquid and snow is frozen.",
+                "es": "La lluvia y la nieve caen de las nubes; sin embargo, la lluvia es líquida y la nieve está congelada."
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "Rain is wet.",
+                "es": "La lluvia es mojada."
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "They are not the same thing.",
+                "es": "No son lo mismo."
+              }
+            }
           ],
           "answer": "a",
           "feedback": {
-            "a": { "correct": true, "why": { "en": "Yes. It names the similarity (“both fall from clouds”) and the difference (“rain is liquid… snow is frozen”) with “however.”", "es": "Sí. Nombra la semejanza (“both fall from clouds”) y la diferencia (“rain is liquid… snow is frozen”) con “however.”" } },
-            "b": { "correct": false, "why": { "en": "This describes only rain. Compare both, and name the difference.", "es": "Esto describe solo la lluvia. Compara las dos y nombra la diferencia." }, "hint": { "en": "Say what's the same AND what's different.", "es": "Di qué es igual Y qué es diferente." } },
-            "c": { "correct": false, "why": { "en": "“Not the same” doesn't say how. Name the difference: liquid vs. frozen.", "es": "“Not the same” no dice cómo. Nombra la diferencia: líquida vs. congelada." } }
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Yes. It names the similarity (“both fall from clouds”) and the difference (“rain is liquid… snow is frozen”) with “however.”",
+                "es": "Sí. Nombra la semejanza (“both fall from clouds”) y la diferencia (“rain is liquid… snow is frozen”) con “however.”"
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "This describes only rain. Compare both, and name the difference.",
+                "es": "Esto describe solo la lluvia. Compara las dos y nombra la diferencia."
+              },
+              "hint": {
+                "en": "Say what's the same AND what's different.",
+                "es": "Di qué es igual Y qué es diferente."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "“Not the same” doesn't say how. Name the difference: liquid vs. frozen.",
+                "es": "“Not the same” no dice cómo. Nombra la diferencia: líquida vs. congelada."
+              }
+            }
           }
         },
         {
           "id": "c3",
-          "context": { "en": "Compare a triangle and a square.", "es": "Compara un triángulo y un cuadrado." },
-          "prompt": { "en": "Which sentence compares them best?", "es": "¿Qué oración los compara mejor?" },
+          "context": {
+            "en": "Compare a triangle and a square.",
+            "es": "Compara un triángulo y un cuadrado."
+          },
+          "prompt": {
+            "en": "Which sentence compares them best?",
+            "es": "¿Qué oración los compara mejor?"
+          },
           "support": {
-            "high": { "en": "Try “A ___ has ___, whereas a ___ has ___.” / Prueba “A ___ has ___, whereas a ___ has ___.”", "es": "Prueba “A ___ has ___, whereas a ___ has ___.”" }
+            "high": {
+              "en": "Try “A ___ has ___, whereas a ___ has ___.” / Prueba “A ___ has ___, whereas a ___ has ___.”",
+              "es": "Prueba “A ___ has ___, whereas a ___ has ___.”"
+            }
           },
           "choices": [
-            { "id": "a", "label": { "en": "A triangle has three sides, whereas a square has four.", "es": "Un triángulo tiene tres lados, mientras que un cuadrado tiene cuatro." } },
-            { "id": "b", "label": { "en": "A square is a shape.", "es": "Un cuadrado es una figura." } },
-            { "id": "c", "label": { "en": "Shapes can be different.", "es": "Las figuras pueden ser diferentes." } }
+            {
+              "id": "a",
+              "label": {
+                "en": "A triangle has three sides, whereas a square has four.",
+                "es": "Un triángulo tiene tres lados, mientras que un cuadrado tiene cuatro."
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "A square is a shape.",
+                "es": "Un cuadrado es una figura."
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "Shapes can be different.",
+                "es": "Las figuras pueden ser diferentes."
+              }
+            }
           ],
           "answer": "a",
           "feedback": {
-            "a": { "correct": true, "why": { "en": "Yes. It compares the exact difference (three sides vs. four) using “whereas.”", "es": "Sí. Compara la diferencia exacta (tres lados vs. cuatro) usando “whereas.”" } },
-            "b": { "correct": false, "why": { "en": "This describes only the square. Compare both shapes' sides.", "es": "Esto describe solo el cuadrado. Compara los lados de las dos figuras." }, "hint": { "en": "How many sides does each shape have?", "es": "¿Cuántos lados tiene cada figura?" } },
-            "c": { "correct": false, "why": { "en": "“Can be different” is vague. Name the exact difference in sides.", "es": "“Can be different” es vago. Nombra la diferencia exacta en los lados." } }
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Yes. It compares the exact difference (three sides vs. four) using “whereas.”",
+                "es": "Sí. Compara la diferencia exacta (tres lados vs. cuatro) usando “whereas.”"
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "This describes only the square. Compare both shapes' sides.",
+                "es": "Esto describe solo el cuadrado. Compara los lados de las dos figuras."
+              },
+              "hint": {
+                "en": "How many sides does each shape have?",
+                "es": "¿Cuántos lados tiene cada figura?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "“Can be different” is vague. Name the exact difference in sides.",
+                "es": "“Can be different” es vago. Nombra la diferencia exacta en los lados."
+              }
+            }
           }
         },
         {
           "id": "c4",
-          "context": { "en": "Compare the sun and the moon.", "es": "Compara el sol y la luna." },
-          "prompt": { "en": "Which sentence compares them best?", "es": "¿Qué oración los compara mejor?" },
+          "context": {
+            "en": "Compare the sun and the moon.",
+            "es": "Compara el sol y la luna."
+          },
+          "prompt": {
+            "en": "Which sentence compares them best?",
+            "es": "¿Qué oración los compara mejor?"
+          },
           "support": {
-            "high": { "en": "Name what's the same and the key difference (light). / Nombra lo que es igual y la diferencia clave (la luz).", "es": "Nombra lo que es igual y la diferencia clave (la luz)." }
+            "high": {
+              "en": "Name what's the same and the key difference (light). / Nombra lo que es igual y la diferencia clave (la luz).",
+              "es": "Nombra lo que es igual y la diferencia clave (la luz)."
+            }
           },
           "choices": [
-            { "id": "a", "label": { "en": "Both the sun and the moon appear in the sky, but the sun makes its own light while the moon reflects it.", "es": "Tanto el sol como la luna aparecen en el cielo, pero el sol produce su propia luz mientras que la luna la refleja." } },
-            { "id": "b", "label": { "en": "The sun is bright.", "es": "El sol es brillante." } },
-            { "id": "c", "label": { "en": "The sun and the moon are in space.", "es": "El sol y la luna están en el espacio." } }
+            {
+              "id": "a",
+              "label": {
+                "en": "Both the sun and the moon appear in the sky, but the sun makes its own light while the moon reflects it.",
+                "es": "Tanto el sol como la luna aparecen en el cielo, pero el sol produce su propia luz mientras que la luna la refleja."
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "The sun is bright.",
+                "es": "El sol es brillante."
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "The sun and the moon are in space.",
+                "es": "El sol y la luna están en el espacio."
+              }
+            }
           ],
           "answer": "a",
           "feedback": {
-            "a": { "correct": true, "why": { "en": "Yes. It names the similarity (“both… appear in the sky”) and the key difference (makes light vs. reflects light) with “but/while.”", "es": "Sí. Nombra la semejanza (“both… appear in the sky”) y la diferencia clave (produce luz vs. la refleja) con “but/while.”" } },
-            "b": { "correct": false, "why": { "en": "This describes only the sun. Compare both, and name the difference.", "es": "Esto describe solo el sol. Compara los dos y nombra la diferencia." }, "hint": { "en": "Which one makes light, and which reflects it?", "es": "¿Cuál produce luz y cuál la refleja?" } },
-            "c": { "correct": false, "why": { "en": "This only names a similarity. A strong comparison also names a difference.", "es": "Esto solo nombra una semejanza. Una buena comparación también nombra una diferencia." } }
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Yes. It names the similarity (“both… appear in the sky”) and the key difference (makes light vs. reflects light) with “but/while.”",
+                "es": "Sí. Nombra la semejanza (“both… appear in the sky”) y la diferencia clave (produce luz vs. la refleja) con “but/while.”"
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "This describes only the sun. Compare both, and name the difference.",
+                "es": "Esto describe solo el sol. Compara los dos y nombra la diferencia."
+              },
+              "hint": {
+                "en": "Which one makes light, and which reflects it?",
+                "es": "¿Cuál produce luz y cuál la refleja?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "This only names a similarity. A strong comparison also names a difference.",
+                "es": "Esto solo nombra una semejanza. Una buena comparación también nombra una diferencia."
+              }
+            }
           }
         }
       ],
-
-      "ace": { "articulate": true, "connect": true, "extend": true },
-
-      "clear": { "enabled": false, "emphasis": [] },
-
+      "ace": {
+        "articulate": true,
+        "connect": true,
+        "extend": true
+      },
+      "clear": {
+        "enabled": false,
+        "emphasis": []
+      },
       "udl": [
         "representation.language-support",
         "representation.context",
         "action-expression.multiple-response-modes",
         "engagement.relevance"
       ],
-
       "strategies": [
         "sentence-frames",
         "vocabulary-programs",
         "corrective-feedback"
       ],
-
       "standards": {
         "elps": [
-          { "code": "§120.21(d)(2)(B)", "alignment": "supporting", "grades": [5], "rationale": "Students use content-area vocabulary while comparing two things." }
+          {
+            "code": "§120.21(d)(2)(B)",
+            "alignment": "supporting",
+            "grades": [
+              5
+            ],
+            "rationale": "Students use content-area vocabulary while comparing two things."
+          }
         ],
         "teks": [
-          { "code": "§110.7(b)(1)(C)", "alignment": "direct", "grades": [5], "rationale": "Students use organized, conventional academic phrasing to compare clearly." }
+          {
+            "code": "§110.7(b)(1)(C)",
+            "alignment": "direct",
+            "grades": [
+              5
+            ],
+            "rationale": "Students use organized, conventional academic phrasing to compare clearly."
+          }
         ],
         "slar": []
       },
-
-      "printables": ["all-compare-3-5-007-student", "all-compare-3-5-007-answer-key"],
-
+      "printables": [
+        "all-compare-3-5-007-student",
+        "all-compare-3-5-007-answer-key"
+      ],
       "created": "2026-09-18",
       "updated": "2026-09-18",
+      "status": "reviewed"
+    },
+    {
+      "id": "all-academic-6-8-008",
+      "module": "academic-language-lab",
+      "title": {
+        "en": "Say It the Academic Way",
+        "es": "Dílo de forma académica"
+      },
+      "grades": [
+        6,
+        7,
+        8
+      ],
+      "gradeBand": "6-8",
+      "subjects": [
+        "science",
+        "math",
+        "elar"
+      ],
+      "duration": 10,
+      "interactionType": "multiple-choice",
+      "targetLanguage": "en",
+      "supportedHomeLanguages": [
+        "es"
+      ],
+      "languagePair": "en-es",
+      "studentGoal": {
+        "en": "Take an everyday statement and say it the academic way — using precise content-area words so your meaning is clear in a class discussion or on a test.",
+        "es": "Toma una afirmación cotidiana y díla de forma académica, usando palabras precisas del área de contenido para que tu significado sea claro en una discusión de clase o en un examen."
+      },
+      "studentDirections": {
+        "en": "Each item shows a casual way to say something. Choose the response that says the SAME idea in a more academic, precise way. Choose, then select Check.",
+        "es": "Cada ejercicio muestra una forma casual de decir algo. Elige la respuesta que dice la MISMA idea de forma más académica y precisa. Elige y luego selecciona Revisar."
+      },
+      "teacherDirections": {
+        "en": "Middle-school content classes expect precise academic vocabulary. Each item contrasts a casual statement with an academic restatement; the distractors are either vague or wordy-but-imprecise. Turn on More support for a word bank and a sentence frame. Have students say the academic version aloud and use it in their next written response.",
+        "es": "Las clases de contenido de secundaria esperan vocabulario académico preciso. Cada ejercicio contrasta una afirmación casual con una reformulación académica; los distractores son vagos o largos pero imprecisos. Activa Más apoyo para ver un banco de palabras y un marco de oración. Pide a los estudiantes que digan la versión académica en voz alta y la usen en su siguiente respuesta escrita."
+      },
+      "languageFunction": {
+        "en": "Restating ideas with precise academic and content-area vocabulary.",
+        "es": "Reformular ideas con vocabulario académico y de contenido preciso."
+      },
+      "materials": [],
+      "items": [
+        {
+          "id": "a1",
+          "context": {
+            "en": "In science class, a student says: “The water went up into the air and disappeared.”",
+            "es": "En la clase de ciencias, un estudiante dice: “The water went up into the air and disappeared.”"
+          },
+          "prompt": {
+            "en": "Which says the same idea the academic way?",
+            "es": "¿Cuál dice la misma idea de forma académica?"
+          },
+          "support": {
+            "high": {
+              "en": "Word bank: evaporate, water vapor, atmosphere. Frame: “The water ___ and rose into the ___ as ___.”",
+              "es": "Banco de palabras: evaporate, water vapor, atmosphere. Marco: “The water ___ and rose into the ___ as ___.”"
+            },
+            "medium": {
+              "en": "What is the science word for water turning into a gas?",
+              "es": "¿Cuál es la palabra de ciencia para cuando el agua se convierte en gas?"
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "“The water evaporated and rose into the atmosphere as water vapor.”",
+                "es": "“The water evaporated and rose into the atmosphere as water vapor.”"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "“The water just kind of went away up there.”",
+                "es": "“The water just kind of went away up there.”"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "“The water went up really high into the big sky and then it was gone somehow.”",
+                "es": "“The water went up really high into the big sky and then it was gone somehow.”"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. “Evaporated,” “atmosphere,” and “water vapor” are the precise science words — clear and correct on a test or in discussion.",
+                "es": "Correcto. “Evaporated,” “atmosphere” y “water vapor” son las palabras de ciencia precisas: claras y correctas en un examen o en una discusión."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "This is still casual and vague (“kind of went away”). The academic version names the process: evaporated into water vapor.",
+                "es": "Esto sigue siendo casual y vago (“kind of went away”). La versión académica nombra el proceso: evaporated into water vapor."
+              },
+              "hint": {
+                "en": "Use the science word for turning into gas.",
+                "es": "Usa la palabra de ciencia para convertirse en gas."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "Longer isn't more academic — this is wordy and still vague (“gone somehow”). Precise words beat extra words.",
+                "es": "Más largo no es más académico: esto es palabrero y aún vago (“gone somehow”). Las palabras precisas superan a las palabras de más."
+              }
+            }
+          }
+        },
+        {
+          "id": "a2",
+          "context": {
+            "en": "In math class, a student describes a graph: “The line goes up as you go to the right.”",
+            "es": "En la clase de matemáticas, un estudiante describe una gráfica: “The line goes up as you go to the right.”"
+          },
+          "prompt": {
+            "en": "Which says it the academic way?",
+            "es": "¿Cuál lo dice de forma académica?"
+          },
+          "support": {
+            "high": {
+              "en": "Word bank: increases, positive slope. Frame: “As x increases, y ___, so the line has a ___ slope.”",
+              "es": "Banco de palabras: increases, positive slope. Marco: “As x increases, y ___, so the line has a ___ slope.”"
+            },
+            "medium": {
+              "en": "What math word describes a line that rises?",
+              "es": "¿Qué palabra de matemáticas describe una línea que sube?"
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "“As x increases, y increases, so the line has a positive slope.”",
+                "es": "“As x increases, y increases, so the line has a positive slope.”"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "“The line is going up and stuff.”",
+                "es": "“The line is going up and stuff.”"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "“The line is happy because it keeps climbing higher and higher.”",
+                "es": "“The line is happy because it keeps climbing higher and higher.”"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. “Increases” and “positive slope” are the precise math terms that describe the relationship exactly.",
+                "es": "Correcto. “Increases” y “positive slope” son los términos matemáticos precisos que describen la relación exactamente."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "“And stuff” is casual filler. The academic version names the variables and the slope.",
+                "es": "“And stuff” es relleno casual. La versión académica nombra las variables y la pendiente."
+              },
+              "hint": {
+                "en": "Use “increases” and “positive slope.”",
+                "es": "Usa “increases” y “positive slope.”"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "A line doesn't have feelings — this is imprecise. Describe it with variables and slope.",
+                "es": "Una línea no tiene sentimientos: esto es impreciso. Descríbela con variables y pendiente."
+              }
+            }
+          }
+        },
+        {
+          "id": "a3",
+          "context": {
+            "en": "In social studies, a student says: “A lot of people moved to the city to find jobs.”",
+            "es": "En estudios sociales, un estudiante dice: “A lot of people moved to the city to find jobs.”"
+          },
+          "prompt": {
+            "en": "Which uses the academic term?",
+            "es": "¿Cuál usa el término académico?"
+          },
+          "support": {
+            "high": {
+              "en": "Word bank: migrated, in search of. Frame: “Many people ___ to the city in search of ___.”",
+              "es": "Banco de palabras: migrated, in search of. Marco: “Many people ___ to the city in search of ___.”"
+            },
+            "medium": {
+              "en": "What is the social-studies word for people moving to a new place?",
+              "es": "¿Cuál es la palabra de estudios sociales para la gente que se muda a un lugar nuevo?"
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "“Many people migrated to the city in search of work.”",
+                "es": "“Many people migrated to the city in search of work.”"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "“Tons of people went over there for jobs.”",
+                "es": "“Tons of people went over there for jobs.”"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "“People moved to the city because the city had jobs that people wanted to get.”",
+                "es": "“People moved to the city because the city had jobs that people wanted to get.”"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. “Migrated” is the precise social-studies term, and “in search of work” states the cause clearly.",
+                "es": "Correcto. “Migrated” es el término preciso de estudios sociales, y “in search of work” expresa la causa con claridad."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "“Tons of people… over there” is casual. The academic word is “migrated.”",
+                "es": "“Tons of people… over there” es casual. La palabra académica es “migrated.”"
+              },
+              "hint": {
+                "en": "Use the word “migrated.”",
+                "es": "Usa la palabra “migrated.”"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "This repeats “jobs” and “city” and never uses the precise term. Academic writing is precise, not repetitive.",
+                "es": "Esto repite “jobs” y “city” y nunca usa el término preciso. La escritura académica es precisa, no repetitiva."
+              }
+            }
+          }
+        },
+        {
+          "id": "a4",
+          "context": {
+            "en": "In an ELAR discussion, a student says: “The character was sad, but at the end he felt better.”",
+            "es": "En una discusión de ELAR, un estudiante dice: “The character was sad, but at the end he felt better.”"
+          },
+          "prompt": {
+            "en": "Which states it more precisely?",
+            "es": "¿Cuál lo expresa con más precisión?"
+          },
+          "support": {
+            "high": {
+              "en": "Word bank: mood, shifted, despair, relief. Frame: “The character's mood shifted from ___ to ___.”",
+              "es": "Banco de palabras: mood, shifted, despair, relief. Marco: “The character's mood shifted from ___ to ___.”"
+            },
+            "medium": {
+              "en": "What literary word means how a character feels across the text?",
+              "es": "¿Qué palabra literaria significa cómo se siente un personaje a lo largo del texto?"
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "“The character's mood shifted from despair to relief by the end of the chapter.”",
+                "es": "“The character's mood shifted from despair to relief by the end of the chapter.”"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "“He was down and then he was okay I guess.”",
+                "es": "“He was down and then he was okay I guess.”"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "“The character felt a lot of different feelings that changed from the start to the end a lot.”",
+                "es": "“The character felt a lot of different feelings that changed from the start to the end a lot.”"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. “Mood shifted,” “despair,” and “relief” are precise literary words that show the change exactly.",
+                "es": "Correcto. “Mood shifted,” “despair” y “relief” son palabras literarias precisas que muestran el cambio exactamente."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "“Okay I guess” is casual and uncertain. The academic version names the mood and the shift.",
+                "es": "“Okay I guess” es casual e inseguro. La versión académica nombra el estado de ánimo y el cambio."
+              },
+              "hint": {
+                "en": "Use “mood shifted from ___ to ___.”",
+                "es": "Usa “mood shifted from ___ to ___.”"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "This is long and vague (“a lot of different feelings… a lot”). Name the specific moods instead.",
+                "es": "Esto es largo y vago (“a lot of different feelings… a lot”). Nombra los estados de ánimo específicos."
+              }
+            }
+          }
+        },
+        {
+          "id": "a5",
+          "context": {
+            "en": "Looking at a bar graph of monthly rainfall, a student says: “There was more rain in July than the other months.”",
+            "es": "Mirando una gráfica de barras de lluvia mensual, un estudiante dice: “There was more rain in July than the other months.”"
+          },
+          "prompt": {
+            "en": "Which reports the data the academic way?",
+            "es": "¿Cuál reporta los datos de forma académica?"
+          },
+          "support": {
+            "high": {
+              "en": "Word bank: data show, greatest value. Frame: “The data show that the ___ value of ___ occurred in ___.”",
+              "es": "Banco de palabras: data show, greatest value. Marco: “The data show that the ___ value of ___ occurred in ___.”"
+            },
+            "medium": {
+              "en": "How do you point to evidence from a graph in academic language?",
+              "es": "¿Cómo señalas evidencia de una gráfica en lenguaje académico?"
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "“The data show that the greatest amount of rainfall occurred in July.”",
+                "es": "“The data show that the greatest amount of rainfall occurred in July.”"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "“July had like the most rain for sure.”",
+                "es": "“July had like the most rain for sure.”"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "“It rained a whole lot in July and that is what the picture is showing us here.”",
+                "es": "“It rained a whole lot in July and that is what the picture is showing us here.”"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. “The data show” and “greatest amount” are the academic phrases for citing evidence from a graph.",
+                "es": "Correcto. “The data show” y “greatest amount” son las frases académicas para citar evidencia de una gráfica."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "“Like… for sure” is casual. Academic reporting says “the data show.”",
+                "es": "“Like… for sure” es casual. El reporte académico dice “the data show.”"
+              },
+              "hint": {
+                "en": "Start with “The data show…”",
+                "es": "Empieza con “The data show…”"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "“Picture” and “a whole lot” are casual and imprecise. Say “the data show the greatest amount.”",
+                "es": "“Picture” y “a whole lot” son casuales e imprecisos. Di “the data show the greatest amount.”"
+              }
+            }
+          }
+        }
+      ],
+      "ace": {
+        "articulate": true,
+        "connect": true,
+        "extend": true
+      },
+      "clear": {
+        "enabled": false,
+        "emphasis": []
+      },
+      "udl": [
+        "representation.language-support",
+        "representation.vocabulary",
+        "action-expression.multiple-response-modes",
+        "engagement.relevance"
+      ],
+      "strategies": [
+        "sentence-frames",
+        "vocabulary-programs",
+        "corrective-feedback"
+      ],
+      "standards": {
+        "elps": [
+          {
+            "code": "§120.21(d)(2)(B)",
+            "alignment": "direct",
+            "grades": [
+              6,
+              7,
+              8
+            ],
+            "rationale": "Students speak using precise content-area vocabulary during classroom interactions."
+          },
+          {
+            "code": "§120.21(d)(2)(F)",
+            "alignment": "supporting",
+            "grades": [
+              6,
+              7,
+              8
+            ],
+            "rationale": "Students restate a peer's idea using more academic language."
+          }
+        ],
+        "teks": [
+          {
+            "code": "§110.22(b)(2)(B)",
+            "alignment": "supporting",
+            "grades": [
+              6
+            ],
+            "rationale": "Students clarify meaning by choosing precise words and examples over vague ones."
+          },
+          {
+            "code": "§110.23(b)(2)(B)",
+            "alignment": "supporting",
+            "grades": [
+              7
+            ],
+            "rationale": "Students clarify meaning by contrasting casual and precise academic wording."
+          },
+          {
+            "code": "§110.24(b)(2)(B)",
+            "alignment": "supporting",
+            "grades": [
+              8
+            ],
+            "rationale": "Students clarify meaning by selecting academic vocabulary in context."
+          }
+        ],
+        "slar": []
+      },
+      "printables": [
+        "all-academic-6-8-008-student",
+        "all-academic-6-8-008-answer-key"
+      ],
+      "created": "2026-10-11",
+      "updated": "2026-10-11",
       "status": "reviewed"
     }
   ]

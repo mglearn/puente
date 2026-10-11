@@ -2,26 +2,60 @@
 
 ## Current state (2026-10-11)
 
-**Live at https://mglearn.github.io/puente/** — 3 launch modules, **23 activities**
-across **all four grade bands K–2, 3–5, 6–8, 9–12**, **25 verified standards** (0 pending),
-full site navigation, 18 smoke tests + 5 validators (data / standards / locales / links /
-contrast) all green.
+**Live at https://mglearn.github.io/puente/** — 3 launch modules, **26 activities**,
+**25 verified standards** (0 pending), full site navigation, 18 smoke tests + 5 validators
+(data / standards / locales / links / contrast) all green.
 
-- **Cognate Detective (10):** Cognate Picture Match ×2 (K–2) · Cognate or False Friend? ·
+- **Cognate Detective (11):** Cognate Picture Match ×2 (K–2) · Cognate or False Friend? ·
   Cognate or Not? (sort) · Science / Math / Social Studies Cognate Hunts (sort) · False
-  Friend Detective (CLEAR) · Academic False Friends (6–8) · Academic Cognate Sort (6–8)
-- **Academic Language Lab (7):** Academic Talk Moves · Say It Three Ways · Evidence Match ·
-  Build the Explanation · Shades of Meaning (9–10) · Sentence Expansion · Compare It
-- **Newcomer Navigator (6):** What Do You Say? · Build the Question · What Does That Mean? ·
-  Conversation Repair · Getting Help at School · Navigating Middle School (6–8)
+  Friend Detective (CLEAR) · Academic False Friends (6–8) · Academic Cognate Sort (6–8) ·
+  **Academic False Friends II (9–12)**
+- **Academic Language Lab (8):** Academic Talk Moves · Say It Three Ways · Evidence Match ·
+  Build the Explanation · Shades of Meaning (9–10) · Sentence Expansion · Compare It ·
+  **Say It the Academic Way (6–8)**
+- **Newcomer Navigator (7):** What Do You Say? · Build the Question · What Does That Mean? ·
+  Conversation Repair · Getting Help at School · **Navigating Middle School (6–8)** ·
+  **Navigating High School (9–12)**
 
-**2026-10-11:** added **Navigating Middle School** (`nav-navigate-6-8-006`, context-choice,
-6 items) — the first **6–8** Newcomer Navigator activity, breaking that module out of the
-3–5-only band. Older newcomers handle a secondary schedule: changing classes, making up
-missed work, advisory, group projects, permission slips. Two items (tardy, advisory) are
-meaning-from-context, honestly correlated to the grade 6/7/8 vocabulary-in-context TEKS
-(§110.22/23/24(b)(2)(B), *supporting*); the speaking/listening moves correlate to ELPS
-§120.21(d)(2)(F) direct + (2)(D)/(1)(C) supporting. EN + ES throughout. Check stays green.
+### Grade-band coverage
+
+| Module | K–2 | 3–5 | 6–8 | 9–12 |
+|---|---|---|---|---|
+| Cognate Detective | ✅ | ✅ | ✅ | ✅ |
+| Academic Language Lab | ⬜ | ✅ | ✅ | ✅ |
+| Newcomer Navigator | ⬜ | ✅ | ✅ | ✅ |
+
+**2026-10-11 — secondary-band build-out (4 activities, every module now reaches 9–12):**
+
+- **Navigating Middle School** (`nav-navigate-6-8-006`, context-choice, 6 items) — first
+  6–8 Newcomer activity: changing classes, make-up work, advisory, group projects,
+  permission slips. Meaning-from-context on *tardy*/*advisory*.
+- **Academic False Friends II** (`cog-falsefriend-9-12-009`, context-choice, 6 items) — the
+  9–12 Cognate Detective cap: high-frequency academic false friends (actually, assist,
+  lecture, career, realize, sensible) resolved from sentence evidence; CLEAR routine on.
+- **Say It the Academic Way** (`all-academic-6-8-008`, multiple-choice, 5 items) — the 6–8
+  Academic Language Lab entry: restate a casual sentence in precise content-area language
+  across science, math, social studies, ELAR, and data.
+- **Navigating High School** (`nav-highschool-9-12-007`, context-choice, 6 items) — the 9–12
+  Newcomer activity: credits/transcripts/syllabus from context + formal register with a
+  counselor, teacher, and principal.
+
+All correlate **only to the 25 already-verified standard codes** (no new/invented codes):
+ELPS §120.21 speaking/listening/reading (4–12 range) and TEKS vocabulary-in-context
+(§110.22/23/24(b)(2)(B) for 6–8, §110.36/37(c)(2)(B) for 9–10). EN + ES throughout; every
+choice teaches *why*. `npm run check` green (26 activities, 18 smoke tests, 5 validators).
+
+### K–2 gap (honest blocker, not shipped)
+
+Academic Language Lab and Newcomer Navigator have **no K–2 activity**, and it should not be
+forced. Both modules are speaking/listening-centered, but the standards stores hold **only
+one K–3 ELPS code** — §120.20(d)(3)(C), *reading*. There is no verified K–3 speaking/
+listening ELPS code to correlate a K–2 talk/navigation activity honestly, and the image
+manifest has no K–2 artwork for those modules (only cognate cards + the 4 newcomer scenario
+images already in use). Closing this needs an **owner decision**: either verify + add the
+K–3 speaking/listening ELPS codes against TEA Ch. 120, or commission K–2 artwork so a
+picture/vocabulary-based K–2 entry can be built (Cognate Detective's K–2 picture-match is the
+model). Until then, K–2 for these two modules stays open rather than standards-stretched.
 
 **Launch readiness (2026-09-18):** linked from the mglearn hub (`mglearn.github.io`
 Language Bridge card → `/puente/`). All ELPS codes now **two-source confirmed**
@@ -46,11 +80,12 @@ generic/abstract "animal" grouping if that cognate card is wanted.
 
 ## Next
 
-1. **Depth toward MVP.** Cognate Detective 10/24, Academic Language Lab 7/32, Newcomer 6/30 —
-   all feed the shared engines. 4 optional K–2 cards (animal, chocolate, doctor, telephone)
-   are already delivered + `available` in the manifest, ready for more K–2 picture items.
-   Newcomer Navigator now spans 3–5 and 6–8; a K–2 and a 9–12 newcomer activity would
-   complete its band coverage. Academic Language Lab still has no K–2 or 6–8 activity.
+1. **Depth toward MVP.** Cognate Detective 11/24, Academic Language Lab 8/32, Newcomer 7/30 —
+   all feed the shared engines. Every module now reaches 9–12; the open coverage gap is
+   **K–2 for Academic Language Lab and Newcomer Navigator** (see "K–2 gap" above — an owner
+   decision on K–3 speaking/listening ELPS codes or K–2 artwork). 4 K–2 cognate cards
+   (animal, chocolate, doctor, telephone) are already `available` in the manifest, ready for
+   more Cognate Detective K–2 picture items.
 3. **A11y round two** (real AT walkthrough, print QA, axe) and **Spanish review** (the 2 `reviewed`
    locale keys are an intentional QC-gate fixture — see es.json `_meta`).
 
