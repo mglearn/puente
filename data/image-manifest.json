@@ -190,11 +190,11 @@
     "cognate-card-animal": {
       "file": "cognate-card-animal.webp",
       "aspect": "1:1",
-      "alt": "A friendly golden dog standing.",
+      "alt": "A generic friendly animal (regenerated 2026-10-11; the earlier card read as a dog).",
       "status": "available",
       "tool": "OpenAI built-in image generation",
-      "created": "2026-09-18",
-      "source": "Prompt and PNG master recorded in ~/projects/assets/img/generation-notes.md",
+      "created": "2026-10-11",
+      "source": "Prompt in ~/projects/puente-artwork-prompts.md; PNG master was in ~/projects/assets/img/ (cleaned after import).",
       "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
     },
     "cognate-card-chocolate": {
@@ -325,6 +325,366 @@
       "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
       "created": "2026-10-11",
       "source": "Prompt in ~/projects/puente-artwork-prompts.md (Section 2); PNG master in ~/projects/assets/img/",
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+    },
+    "cognate-card-insect": {
+      "file": "cognate-card-insect.webp",
+      "aspect": "1:1",
+      "status": "available",
+      "alt": "A friendly red ladybug.",
+      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
+      "created": "2026-10-11",
+      "source": "Prompt in ~/projects/puente-artwork-prompts.md; PNG master was in ~/projects/assets/img/ (cleaned after import).",
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+    },
+    "cognate-card-robot": {
+      "file": "cognate-card-robot.webp",
+      "aspect": "1:1",
+      "status": "available",
+      "alt": "A friendly boxy robot.",
+      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
+      "created": "2026-10-11",
+      "source": "Prompt in ~/projects/puente-artwork-prompts.md; PNG master was in ~/projects/assets/img/ (cleaned after import).",
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+    },
+    "cognate-card-cactus": {
+      "file": "cognate-card-cactus.webp",
+      "aspect": "1:1",
+      "status": "available",
+      "alt": "A potted green cactus.",
+      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
+      "created": "2026-10-11",
+      "source": "Prompt in ~/projects/puente-artwork-prompts.md; PNG master was in ~/projects/assets/img/ (cleaned after import).",
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+    },
+    "cognate-card-tractor": {
+      "file": "cognate-card-tractor.webp",
+      "aspect": "1:1",
+      "status": "available",
+      "alt": "A red farm tractor.",
+      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
+      "created": "2026-10-11",
+      "source": "Prompt in ~/projects/puente-artwork-prompts.md; PNG master was in ~/projects/assets/img/ (cleaned after import).",
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+    },
+    "cognate-card-pizza": {
+      "file": "cognate-card-pizza.webp",
+      "aspect": "1:1",
+      "status": "available",
+      "alt": "A whole cheese pizza.",
+      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
+      "created": "2026-10-11",
+      "source": "Prompt in ~/projects/puente-artwork-prompts.md; PNG master was in ~/projects/assets/img/ (cleaned after import).",
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+    },
+    "cognate-card-taxi": {
+      "file": "cognate-card-taxi.webp",
+      "aspect": "1:1",
+      "status": "available",
+      "alt": "A yellow taxi car.",
+      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
+      "created": "2026-10-11",
+      "source": "Prompt in ~/projects/puente-artwork-prompts.md; PNG master was in ~/projects/assets/img/ (cleaned after import).",
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+    },
+    "cognate-card-guitar": {
+      "file": "cognate-card-guitar.webp",
+      "aspect": "1:1",
+      "status": "available",
+      "alt": "An acoustic guitar.",
+      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
+      "created": "2026-10-11",
+      "source": "Prompt in ~/projects/puente-artwork-prompts.md; PNG master was in ~/projects/assets/img/ (cleaned after import).",
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+    },
+    "cognate-card-tomato": {
+      "file": "cognate-card-tomato.webp",
+      "aspect": "1:1",
+      "status": "available",
+      "alt": "A ripe red tomato.",
+      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
+      "created": "2026-10-11",
+      "source": "Prompt in ~/projects/puente-artwork-prompts.md; PNG master was in ~/projects/assets/img/ (cleaned after import).",
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+    },
+    "action-card-read": {
+      "file": "action-card-read.webp",
+      "aspect": "1:1",
+      "status": "available",
+      "alt": "A child reading an open book.",
+      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
+      "created": "2026-10-11",
+      "source": "Prompt in ~/projects/puente-artwork-prompts.md; PNG master was in ~/projects/assets/img/ (cleaned after import).",
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+    },
+    "action-card-write": {
+      "file": "action-card-write.webp",
+      "aspect": "1:1",
+      "status": "available",
+      "alt": "A child writing with a pencil.",
+      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
+      "created": "2026-10-11",
+      "source": "Prompt in ~/projects/puente-artwork-prompts.md; PNG master was in ~/projects/assets/img/ (cleaned after import).",
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+    },
+    "action-card-listen": {
+      "file": "action-card-listen.webp",
+      "aspect": "1:1",
+      "status": "available",
+      "alt": "A child listening with a hand to the ear.",
+      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
+      "created": "2026-10-11",
+      "source": "Prompt in ~/projects/puente-artwork-prompts.md; PNG master was in ~/projects/assets/img/ (cleaned after import).",
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+    },
+    "action-card-draw": {
+      "file": "action-card-draw.webp",
+      "aspect": "1:1",
+      "status": "available",
+      "alt": "A child drawing with crayons.",
+      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
+      "created": "2026-10-11",
+      "source": "Prompt in ~/projects/puente-artwork-prompts.md; PNG master was in ~/projects/assets/img/ (cleaned after import).",
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+    },
+    "action-card-cut": {
+      "file": "action-card-cut.webp",
+      "aspect": "1:1",
+      "status": "available",
+      "alt": "A child cutting paper with safety scissors.",
+      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
+      "created": "2026-10-11",
+      "source": "Prompt in ~/projects/puente-artwork-prompts.md; PNG master was in ~/projects/assets/img/ (cleaned after import).",
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+    },
+    "action-card-glue": {
+      "file": "action-card-glue.webp",
+      "aspect": "1:1",
+      "status": "available",
+      "alt": "A child using a glue stick.",
+      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
+      "created": "2026-10-11",
+      "source": "Prompt in ~/projects/puente-artwork-prompts.md; PNG master was in ~/projects/assets/img/ (cleaned after import).",
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+    },
+    "action-card-count": {
+      "file": "action-card-count.webp",
+      "aspect": "1:1",
+      "status": "available",
+      "alt": "A child counting on their fingers.",
+      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
+      "created": "2026-10-11",
+      "source": "Prompt in ~/projects/puente-artwork-prompts.md; PNG master was in ~/projects/assets/img/ (cleaned after import).",
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+    },
+    "action-card-share": {
+      "file": "action-card-share.webp",
+      "aspect": "1:1",
+      "status": "available",
+      "alt": "Two children sharing art supplies.",
+      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
+      "created": "2026-10-11",
+      "source": "Prompt in ~/projects/puente-artwork-prompts.md; PNG master was in ~/projects/assets/img/ (cleaned after import).",
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+    },
+    "action-card-point": {
+      "file": "action-card-point.webp",
+      "aspect": "1:1",
+      "status": "available",
+      "alt": "A child pointing toward a blank board.",
+      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
+      "created": "2026-10-11",
+      "source": "Prompt in ~/projects/puente-artwork-prompts.md; PNG master was in ~/projects/assets/img/ (cleaned after import).",
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+    },
+    "action-card-raise-hand": {
+      "file": "action-card-raise-hand.webp",
+      "aspect": "1:1",
+      "status": "available",
+      "alt": "A seated child raising a hand.",
+      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
+      "created": "2026-10-11",
+      "source": "Prompt in ~/projects/puente-artwork-prompts.md; PNG master was in ~/projects/assets/img/ (cleaned after import).",
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+    },
+    "newcomer-scenario-takeout-book": {
+      "file": "newcomer-scenario-takeout-book.webp",
+      "aspect": "4:3",
+      "status": "available",
+      "alt": "A student taking out a book and opening it at a desk.",
+      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
+      "created": "2026-10-11",
+      "source": "Prompt in ~/projects/puente-artwork-prompts.md; PNG master was in ~/projects/assets/img/ (cleaned after import).",
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+    },
+    "newcomer-scenario-line-up": {
+      "file": "newcomer-scenario-line-up.webp",
+      "aspect": "4:3",
+      "status": "available",
+      "alt": "Students forming a line at the classroom door.",
+      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
+      "created": "2026-10-11",
+      "source": "Prompt in ~/projects/puente-artwork-prompts.md; PNG master was in ~/projects/assets/img/ (cleaned after import).",
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+    },
+    "newcomer-scenario-partner": {
+      "file": "newcomer-scenario-partner.webp",
+      "aspect": "4:3",
+      "status": "available",
+      "alt": "Two students working together at a desk.",
+      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
+      "created": "2026-10-11",
+      "source": "Prompt in ~/projects/puente-artwork-prompts.md; PNG master was in ~/projects/assets/img/ (cleaned after import).",
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+    },
+    "newcomer-scenario-name-top": {
+      "file": "newcomer-scenario-name-top.webp",
+      "aspect": "4:3",
+      "status": "available",
+      "alt": "A hand writing at the top of a blank worksheet.",
+      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
+      "created": "2026-10-11",
+      "source": "Prompt in ~/projects/puente-artwork-prompts.md; PNG master was in ~/projects/assets/img/ (cleaned after import).",
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+    },
+    "newcomer-scenario-raise-hand-class": {
+      "file": "newcomer-scenario-raise-hand-class.webp",
+      "aspect": "4:3",
+      "status": "available",
+      "alt": "A student raising a hand in class as the teacher looks on.",
+      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
+      "created": "2026-10-11",
+      "source": "Prompt in ~/projects/puente-artwork-prompts.md; PNG master was in ~/projects/assets/img/ (cleaned after import).",
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+    },
+    "newcomer-scenario-sick": {
+      "file": "newcomer-scenario-sick.webp",
+      "aspect": "4:3",
+      "status": "available",
+      "alt": "A student holding their stomach, feeling unwell.",
+      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
+      "created": "2026-10-11",
+      "source": "Prompt in ~/projects/puente-artwork-prompts.md; PNG master was in ~/projects/assets/img/ (cleaned after import).",
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+    },
+    "newcomer-scenario-confused": {
+      "file": "newcomer-scenario-confused.webp",
+      "aspect": "4:3",
+      "status": "available",
+      "alt": "A puzzled student looking at their work.",
+      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
+      "created": "2026-10-11",
+      "source": "Prompt in ~/projects/puente-artwork-prompts.md; PNG master was in ~/projects/assets/img/ (cleaned after import).",
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+    },
+    "newcomer-scenario-finished": {
+      "file": "newcomer-scenario-finished.webp",
+      "aspect": "4:3",
+      "status": "available",
+      "alt": "A student who has finished, raising a hand.",
+      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
+      "created": "2026-10-11",
+      "source": "Prompt in ~/projects/puente-artwork-prompts.md; PNG master was in ~/projects/assets/img/ (cleaned after import).",
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+    },
+    "newcomer-scenario-join-game": {
+      "file": "newcomer-scenario-join-game.webp",
+      "aspect": "4:3",
+      "status": "available",
+      "alt": "A child hoping to join others playing at recess.",
+      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
+      "created": "2026-10-11",
+      "source": "Prompt in ~/projects/puente-artwork-prompts.md; PNG master was in ~/projects/assets/img/ (cleaned after import).",
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+    },
+    "cognate-root-biology": {
+      "file": "cognate-root-biology.webp",
+      "aspect": "1:1",
+      "status": "available",
+      "alt": "A plant and a small animal, showing living things.",
+      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
+      "created": "2026-10-11",
+      "source": "Prompt in ~/projects/puente-artwork-prompts.md; PNG master was in ~/projects/assets/img/ (cleaned after import).",
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+    },
+    "cognate-root-geography": {
+      "file": "cognate-root-geography.webp",
+      "aspect": "1:1",
+      "status": "available",
+      "alt": "A globe beside a simple map of mountains and a river.",
+      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
+      "created": "2026-10-11",
+      "source": "Prompt in ~/projects/puente-artwork-prompts.md; PNG master was in ~/projects/assets/img/ (cleaned after import).",
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+    },
+    "cognate-root-photograph": {
+      "file": "cognate-root-photograph.webp",
+      "aspect": "1:1",
+      "status": "available",
+      "alt": "A camera with a beam of light toward the lens.",
+      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
+      "created": "2026-10-11",
+      "source": "Prompt in ~/projects/puente-artwork-prompts.md; PNG master was in ~/projects/assets/img/ (cleaned after import).",
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+    },
+    "cognate-root-aquarium": {
+      "file": "cognate-root-aquarium.webp",
+      "aspect": "1:1",
+      "status": "available",
+      "alt": "A fish tank with colorful fish.",
+      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
+      "created": "2026-10-11",
+      "source": "Prompt in ~/projects/puente-artwork-prompts.md; PNG master was in ~/projects/assets/img/ (cleaned after import).",
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+    },
+    "cognate-sci-energy": {
+      "file": "cognate-sci-energy.webp",
+      "aspect": "1:1",
+      "status": "available",
+      "alt": "The sun shining energy onto a growing sprout.",
+      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
+      "created": "2026-10-11",
+      "source": "Prompt in ~/projects/puente-artwork-prompts.md; PNG master was in ~/projects/assets/img/ (cleaned after import).",
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+    },
+    "cognate-sci-molecule": {
+      "file": "cognate-sci-molecule.webp",
+      "aspect": "1:1",
+      "status": "available",
+      "alt": "A simple molecule of linked spheres.",
+      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
+      "created": "2026-10-11",
+      "source": "Prompt in ~/projects/puente-artwork-prompts.md; PNG master was in ~/projects/assets/img/ (cleaned after import).",
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+    },
+    "cognate-sci-function": {
+      "file": "cognate-sci-function.webp",
+      "aspect": "1:1",
+      "status": "available",
+      "alt": "A cartoon heart with motion lines, pumping.",
+      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
+      "created": "2026-10-11",
+      "source": "Prompt in ~/projects/puente-artwork-prompts.md; PNG master was in ~/projects/assets/img/ (cleaned after import).",
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+    },
+    "cognate-sci-observe": {
+      "file": "cognate-sci-observe.webp",
+      "aspect": "1:1",
+      "status": "available",
+      "alt": "A child observing a plant with a magnifying glass.",
+      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
+      "created": "2026-10-11",
+      "source": "Prompt in ~/projects/puente-artwork-prompts.md; PNG master was in ~/projects/assets/img/ (cleaned after import).",
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+    },
+    "cognate-sci-organism": {
+      "file": "cognate-sci-organism.webp",
+      "aspect": "1:1",
+      "status": "available",
+      "alt": "A friendly single-celled organism.",
+      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
+      "created": "2026-10-11",
+      "source": "Prompt in ~/projects/puente-artwork-prompts.md; PNG master was in ~/projects/assets/img/ (cleaned after import).",
       "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
     }
   }

@@ -4848,7 +4848,8 @@
             "medium": {
               "en": "Think of “teléfono” — talking to someone far away.",
               "es": "Piensa en “teléfono”: hablar con alguien que está lejos."
-            }
+            },
+            "image": "cognate-observe"
           },
           "choices": [
             {
@@ -4921,7 +4922,8 @@
             "medium": {
               "en": "Plants and animals are all living things.",
               "es": "Las plantas y los animales son seres vivos."
-            }
+            },
+            "image": "cognate-root-biology"
           },
           "choices": [
             {
@@ -4994,7 +4996,8 @@
             "medium": {
               "en": "The book is full of maps of the Earth.",
               "es": "El libro está lleno de mapas de la Tierra."
-            }
+            },
+            "image": "cognate-root-geography"
           },
           "choices": [
             {
@@ -5067,7 +5070,8 @@
             "medium": {
               "en": "Think of “fotosíntesis” — plants using light.",
               "es": "Piensa en “fotosíntesis”: plantas que usan luz."
-            }
+            },
+            "image": "cognate-root-photograph"
           },
           "choices": [
             {
@@ -5140,7 +5144,8 @@
             "medium": {
               "en": "Where do fish and sea animals live?",
               "es": "¿Dónde viven los peces y los animales marinos?"
-            }
+            },
+            "image": "cognate-root-aquarium"
           },
           "choices": [
             {
@@ -5324,7 +5329,8 @@
             "medium": {
               "en": "Say it aloud — what Spanish word does it sound like?",
               "es": "Dílo en voz alta: ¿a qué palabra en español se parece?"
-            }
+            },
+            "image": "cognate-sci-energy"
           },
           "choices": [
             {
@@ -5397,7 +5403,8 @@
             "medium": {
               "en": "Say it aloud — it sounds like a Spanish science word.",
               "es": "Dílo en voz alta: suena como una palabra de ciencias en español."
-            }
+            },
+            "image": "cognate-sci-molecule"
           },
           "choices": [
             {
@@ -5470,7 +5477,8 @@
             "medium": {
               "en": "What does a heart DO? That is its ___.",
               "es": "¿Qué HACE el corazón? Esa es su ___."
-            }
+            },
+            "image": "cognate-sci-function"
           },
           "choices": [
             {
@@ -5543,7 +5551,8 @@
             "medium": {
               "en": "You do it each day and then write changes.",
               "es": "Lo haces cada día y luego escribes los cambios."
-            }
+            },
+            "image": "cognate-sci-observe"
           },
           "choices": [
             {
@@ -5616,7 +5625,8 @@
             "medium": {
               "en": "A bacterium is alive. So an organism is a ___ thing.",
               "es": "Una bacteria está viva. Entonces un organism es un ser ___."
-            }
+            },
+            "image": "cognate-sci-organism"
           },
           "choices": [
             {
@@ -6534,6 +6544,710 @@
       "printables": [
         "cog-glossary-3-5-013-student",
         "cog-glossary-3-5-013-answer-key"
+      ],
+      "created": "2026-10-11",
+      "updated": "2026-10-11",
+      "status": "reviewed"
+    },
+    {
+      "id": "cog-picture-k-2-014",
+      "module": "cognate-detective",
+      "title": {
+        "en": "Cognate Picture Match: Everyday Words",
+        "es": "Empareja el cognado: palabras de todos los días"
+      },
+      "grades": [
+        0,
+        1,
+        2
+      ],
+      "gradeBand": "K-2",
+      "subjects": [
+        "elar"
+      ],
+      "duration": 8,
+      "interactionType": "picture-match",
+      "targetLanguage": "en",
+      "supportedHomeLanguages": [
+        "es"
+      ],
+      "languagePair": "en-es",
+      "studentGoal": {
+        "en": "Look at a picture and choose the English word — and notice it sounds like the Spanish word you already know.",
+        "es": "Mira una imagen y elige la palabra en inglés, y observa que se parece a la palabra en español que ya conoces."
+      },
+      "studentDirections": {
+        "en": "Look at the picture. Which English word names it? Choose, then select Check. The word sounds like a Spanish word you know!",
+        "es": "Mira la imagen. ¿Qué palabra en inglés la nombra? Elige y luego selecciona Revisar. ¡La palabra se parece a una palabra en español que conoces!"
+      },
+      "teacherDirections": {
+        "en": "A third K-2 picture match using strong everyday cognates (insect/insecto, robot, cactus, tractor, pizza, taxi, guitar/guitarra, tomato/tomate, animal). Say each name in both languages so students hear how close they sound. Turn on More support for the Spanish cognate. Best read aloud or as a whole group.",
+        "es": "Una tercera actividad de emparejar imágenes de K-2 con cognados cotidianos fuertes (insect/insecto, robot, cactus, tractor, pizza, taxi, guitar/guitarra, tomato/tomate, animal). Di cada nombre en los dos idiomas para que escuchen lo parecidos que suenan. Activa Más apoyo para el cognado en español. Ideal para leer en voz alta o en grupo."
+      },
+      "languageFunction": {
+        "en": "Naming pictured objects in English using cognate knowledge.",
+        "es": "Nombrar objetos ilustrados en inglés usando el conocimiento de cognados."
+      },
+      "materials": [],
+      "items": [
+        {
+          "id": "e1",
+          "image": "cognate-card-insect",
+          "prompt": {
+            "en": "Which word names this picture?",
+            "es": "¿Qué palabra nombra esta imagen?"
+          },
+          "support": {
+            "image": "cognate-card-insect",
+            "high": {
+              "en": "In Spanish: insecto. It sounds like insect!",
+              "es": "En español: insecto. ¡Se parece a insect!"
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "insect",
+                "es": "insect"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "robot",
+                "es": "robot"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "pizza",
+                "es": "pizza"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Yes! This is the insect. In Spanish: insecto — it sounds like insect, a cognate!",
+                "es": "¡Sí! Esto es insecto. En inglés: insect — se parece a insecto, ¡un cognado!"
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Look again — this picture is the insect (in Spanish, insecto), not the robot.",
+                "es": "Mira otra vez: esta imagen es insecto (en inglés, insect), no robot."
+              },
+              "hint": {
+                "en": "Say the word out loud and look closely.",
+                "es": "Di la palabra en voz alta y mira con atención."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "This picture is the insect (in Spanish, insecto), not the pizza.",
+                "es": "Esta imagen es insecto (en inglés, insect), no pizza."
+              }
+            }
+          }
+        },
+        {
+          "id": "e2",
+          "image": "cognate-card-robot",
+          "prompt": {
+            "en": "Which word names this picture?",
+            "es": "¿Qué palabra nombra esta imagen?"
+          },
+          "support": {
+            "image": "cognate-card-robot",
+            "high": {
+              "en": "In Spanish: robot. It sounds like robot!",
+              "es": "En español: robot. ¡Se parece a robot!"
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "robot",
+                "es": "robot"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "taxi",
+                "es": "taxi"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "guitar",
+                "es": "guitar"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Yes! This is the robot. In Spanish: robot — it sounds like robot, a cognate!",
+                "es": "¡Sí! Esto es robot. En inglés: robot — se parece a robot, ¡un cognado!"
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Look again — this picture is the robot (in Spanish, robot), not the taxi.",
+                "es": "Mira otra vez: esta imagen es robot (en inglés, robot), no taxi."
+              },
+              "hint": {
+                "en": "Say the word out loud and look closely.",
+                "es": "Di la palabra en voz alta y mira con atención."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "This picture is the robot (in Spanish, robot), not the guitar.",
+                "es": "Esta imagen es robot (en inglés, robot), no guitar."
+              }
+            }
+          }
+        },
+        {
+          "id": "e3",
+          "image": "cognate-card-cactus",
+          "prompt": {
+            "en": "Which word names this picture?",
+            "es": "¿Qué palabra nombra esta imagen?"
+          },
+          "support": {
+            "image": "cognate-card-cactus",
+            "high": {
+              "en": "In Spanish: cacto. It sounds like cactus!",
+              "es": "En español: cacto. ¡Se parece a cactus!"
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "cactus",
+                "es": "cactus"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "tomato",
+                "es": "tomato"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "tractor",
+                "es": "tractor"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Yes! This is the cactus. In Spanish: cacto — it sounds like cactus, a cognate!",
+                "es": "¡Sí! Esto es cacto. En inglés: cactus — se parece a cacto, ¡un cognado!"
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Look again — this picture is the cactus (in Spanish, cacto), not the tomato.",
+                "es": "Mira otra vez: esta imagen es cacto (en inglés, cactus), no tomato."
+              },
+              "hint": {
+                "en": "Say the word out loud and look closely.",
+                "es": "Di la palabra en voz alta y mira con atención."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "This picture is the cactus (in Spanish, cacto), not the tractor.",
+                "es": "Esta imagen es cacto (en inglés, cactus), no tractor."
+              }
+            }
+          }
+        },
+        {
+          "id": "e4",
+          "image": "cognate-card-tractor",
+          "prompt": {
+            "en": "Which word names this picture?",
+            "es": "¿Qué palabra nombra esta imagen?"
+          },
+          "support": {
+            "image": "cognate-card-tractor",
+            "high": {
+              "en": "In Spanish: tractor. It sounds like tractor!",
+              "es": "En español: tractor. ¡Se parece a tractor!"
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "tractor",
+                "es": "tractor"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "taxi",
+                "es": "taxi"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "cactus",
+                "es": "cactus"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Yes! This is the tractor. In Spanish: tractor — it sounds like tractor, a cognate!",
+                "es": "¡Sí! Esto es tractor. En inglés: tractor — se parece a tractor, ¡un cognado!"
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Look again — this picture is the tractor (in Spanish, tractor), not the taxi.",
+                "es": "Mira otra vez: esta imagen es tractor (en inglés, tractor), no taxi."
+              },
+              "hint": {
+                "en": "Say the word out loud and look closely.",
+                "es": "Di la palabra en voz alta y mira con atención."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "This picture is the tractor (in Spanish, tractor), not the cactus.",
+                "es": "Esta imagen es tractor (en inglés, tractor), no cactus."
+              }
+            }
+          }
+        },
+        {
+          "id": "e5",
+          "image": "cognate-card-pizza",
+          "prompt": {
+            "en": "Which word names this picture?",
+            "es": "¿Qué palabra nombra esta imagen?"
+          },
+          "support": {
+            "image": "cognate-card-pizza",
+            "high": {
+              "en": "In Spanish: pizza. It sounds like pizza!",
+              "es": "En español: pizza. ¡Se parece a pizza!"
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "pizza",
+                "es": "pizza"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "tomato",
+                "es": "tomato"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "banana",
+                "es": "banana"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Yes! This is the pizza. In Spanish: pizza — it sounds like pizza, a cognate!",
+                "es": "¡Sí! Esto es pizza. En inglés: pizza — se parece a pizza, ¡un cognado!"
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Look again — this picture is the pizza (in Spanish, pizza), not the tomato.",
+                "es": "Mira otra vez: esta imagen es pizza (en inglés, pizza), no tomato."
+              },
+              "hint": {
+                "en": "Say the word out loud and look closely.",
+                "es": "Di la palabra en voz alta y mira con atención."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "This picture is the pizza (in Spanish, pizza), not the banana.",
+                "es": "Esta imagen es pizza (en inglés, pizza), no banana."
+              }
+            }
+          }
+        },
+        {
+          "id": "e6",
+          "image": "cognate-card-taxi",
+          "prompt": {
+            "en": "Which word names this picture?",
+            "es": "¿Qué palabra nombra esta imagen?"
+          },
+          "support": {
+            "image": "cognate-card-taxi",
+            "high": {
+              "en": "In Spanish: taxi. It sounds like taxi!",
+              "es": "En español: taxi. ¡Se parece a taxi!"
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "taxi",
+                "es": "taxi"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "tractor",
+                "es": "tractor"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "robot",
+                "es": "robot"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Yes! This is the taxi. In Spanish: taxi — it sounds like taxi, a cognate!",
+                "es": "¡Sí! Esto es taxi. En inglés: taxi — se parece a taxi, ¡un cognado!"
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Look again — this picture is the taxi (in Spanish, taxi), not the tractor.",
+                "es": "Mira otra vez: esta imagen es taxi (en inglés, taxi), no tractor."
+              },
+              "hint": {
+                "en": "Say the word out loud and look closely.",
+                "es": "Di la palabra en voz alta y mira con atención."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "This picture is the taxi (in Spanish, taxi), not the robot.",
+                "es": "Esta imagen es taxi (en inglés, taxi), no robot."
+              }
+            }
+          }
+        },
+        {
+          "id": "e7",
+          "image": "cognate-card-guitar",
+          "prompt": {
+            "en": "Which word names this picture?",
+            "es": "¿Qué palabra nombra esta imagen?"
+          },
+          "support": {
+            "image": "cognate-card-guitar",
+            "high": {
+              "en": "In Spanish: guitarra. It sounds like guitar!",
+              "es": "En español: guitarra. ¡Se parece a guitar!"
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "guitar",
+                "es": "guitar"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "piano",
+                "es": "piano"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "robot",
+                "es": "robot"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Yes! This is the guitar. In Spanish: guitarra — it sounds like guitar, a cognate!",
+                "es": "¡Sí! Esto es guitarra. En inglés: guitar — se parece a guitarra, ¡un cognado!"
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Look again — this picture is the guitar (in Spanish, guitarra), not the piano.",
+                "es": "Mira otra vez: esta imagen es guitarra (en inglés, guitar), no piano."
+              },
+              "hint": {
+                "en": "Say the word out loud and look closely.",
+                "es": "Di la palabra en voz alta y mira con atención."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "This picture is the guitar (in Spanish, guitarra), not the robot.",
+                "es": "Esta imagen es guitarra (en inglés, guitar), no robot."
+              }
+            }
+          }
+        },
+        {
+          "id": "e8",
+          "image": "cognate-card-tomato",
+          "prompt": {
+            "en": "Which word names this picture?",
+            "es": "¿Qué palabra nombra esta imagen?"
+          },
+          "support": {
+            "image": "cognate-card-tomato",
+            "high": {
+              "en": "In Spanish: tomate. It sounds like tomato!",
+              "es": "En español: tomate. ¡Se parece a tomato!"
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "tomato",
+                "es": "tomato"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "pizza",
+                "es": "pizza"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "cactus",
+                "es": "cactus"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Yes! This is the tomato. In Spanish: tomate — it sounds like tomato, a cognate!",
+                "es": "¡Sí! Esto es tomate. En inglés: tomato — se parece a tomate, ¡un cognado!"
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Look again — this picture is the tomato (in Spanish, tomate), not the pizza.",
+                "es": "Mira otra vez: esta imagen es tomate (en inglés, tomato), no pizza."
+              },
+              "hint": {
+                "en": "Say the word out loud and look closely.",
+                "es": "Di la palabra en voz alta y mira con atención."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "This picture is the tomato (in Spanish, tomate), not the cactus.",
+                "es": "Esta imagen es tomate (en inglés, tomato), no cactus."
+              }
+            }
+          }
+        },
+        {
+          "id": "e9",
+          "image": "cognate-card-animal",
+          "prompt": {
+            "en": "Which word names this picture?",
+            "es": "¿Qué palabra nombra esta imagen?"
+          },
+          "support": {
+            "image": "cognate-card-animal",
+            "high": {
+              "en": "In Spanish: animal. It sounds like animal!",
+              "es": "En español: animal. ¡Se parece a animal!"
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "animal",
+                "es": "animal"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "insect",
+                "es": "insect"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "robot",
+                "es": "robot"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Yes! This is the animal. In Spanish: animal — it sounds like animal, a cognate!",
+                "es": "¡Sí! Esto es animal. En inglés: animal — se parece a animal, ¡un cognado!"
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Look again — this picture is the animal (in Spanish, animal), not the insect.",
+                "es": "Mira otra vez: esta imagen es animal (en inglés, animal), no insect."
+              },
+              "hint": {
+                "en": "Say the word out loud and look closely.",
+                "es": "Di la palabra en voz alta y mira con atención."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "This picture is the animal (in Spanish, animal), not the robot.",
+                "es": "Esta imagen es animal (en inglés, animal), no robot."
+              }
+            }
+          }
+        }
+      ],
+      "ace": {
+        "articulate": true,
+        "connect": true,
+        "extend": false
+      },
+      "clear": {
+        "enabled": false,
+        "emphasis": []
+      },
+      "udl": [
+        "representation.language-support",
+        "representation.context",
+        "action-expression.multiple-response-modes",
+        "engagement.relevance"
+      ],
+      "strategies": [
+        "vocabulary-programs",
+        "corrective-feedback"
+      ],
+      "standards": {
+        "elps": [
+          {
+            "code": "§120.20(d)(3)(C)",
+            "alignment": "direct",
+            "grades": [
+              0,
+              1,
+              2
+            ],
+            "rationale": "Students use high-frequency and content-area vocabulary to comprehend and name classroom words."
+          }
+        ],
+        "teks": [
+          {
+            "code": "§110.2(b)(3)(B)",
+            "alignment": "direct",
+            "grades": [
+              0
+            ],
+            "rationale": "Students use illustrations to learn and clarify the meaning of a word."
+          },
+          {
+            "code": "§110.3(b)(3)(B)",
+            "alignment": "direct",
+            "grades": [
+              1
+            ],
+            "rationale": "Students use illustrations to learn and clarify the meaning of a word."
+          },
+          {
+            "code": "§110.4(b)(3)(B)",
+            "alignment": "supporting",
+            "grades": [
+              2
+            ],
+            "rationale": "The picture supports determining the meaning of an unfamiliar word."
+          }
+        ],
+        "slar": []
+      },
+      "printables": [
+        "cog-picture-k-2-014-student",
+        "cog-picture-k-2-014-answer-key"
       ],
       "created": "2026-10-11",
       "updated": "2026-10-11",

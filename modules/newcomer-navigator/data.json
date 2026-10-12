@@ -3176,7 +3176,8 @@
                 "es": "La maestra dijo libro de MATEMÁTICAS, página 12, no el libro de lectura. Escucha qué libro y qué página."
               }
             }
-          }
+          },
+          "image": "newcomer-scenario-takeout-book"
         },
         {
           "id": "d2",
@@ -3248,7 +3249,8 @@
                 "es": "“Quietly” significa con calma y sin hablar, no correr. Forma una fila en la puerta."
               }
             }
-          }
+          },
+          "image": "newcomer-scenario-line-up"
         },
         {
           "id": "d3",
@@ -3320,7 +3322,8 @@
                 "es": "La maestra quiere que HAGAS la pregunta 3 con un compañero, no que te la saltes."
               }
             }
-          }
+          },
+          "image": "newcomer-scenario-partner"
         },
         {
           "id": "d4",
@@ -3392,7 +3395,8 @@
                 "es": "La maestra dijo ARRIBA, y ANTES de empezar, no abajo después. Nombre arriba primero."
               }
             }
-          }
+          },
+          "image": "newcomer-scenario-name-top"
         },
         {
           "id": "d5",
@@ -3464,7 +3468,8 @@
                 "es": "La instrucción es levantar la mano, no dejar tu asiento. Levanta la mano y espera."
               }
             }
-          }
+          },
+          "image": "newcomer-scenario-raise-hand-class"
         }
       ],
       "ace": {
@@ -3638,7 +3643,8 @@
                 "es": "“Goodbye” no le dice a la maestra qué pasa. Di que no te sientes bien."
               }
             }
-          }
+          },
+          "image": "newcomer-scenario-sick"
         },
         {
           "id": "f2",
@@ -3710,7 +3716,8 @@
                 "es": "Copiar no te ayuda a aprender, y no es honesto. Pide a la maestra que explique de nuevo."
               }
             }
-          }
+          },
+          "image": "newcomer-scenario-confused"
         },
         {
           "id": "f3",
@@ -3782,7 +3789,8 @@
                 "es": "No puedes salir sin permiso. Pregúntale a la maestra qué hacer después."
               }
             }
-          }
+          },
+          "image": "newcomer-scenario-finished"
         },
         {
           "id": "f4",
@@ -3854,7 +3862,8 @@
                 "es": "Si no dices nada, quizás no sepan que quieres unirte. Está bien preguntar."
               }
             }
-          }
+          },
+          "image": "newcomer-scenario-join-game"
         },
         {
           "id": "f5",
@@ -3926,7 +3935,8 @@
                 "es": "Gritar interrumpe la clase. Levanta la mano y pide con cortesía."
               }
             }
-          }
+          },
+          "image": "newcomer-scenario-restroom"
         }
       ],
       "ace": {

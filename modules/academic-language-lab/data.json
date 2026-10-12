@@ -4577,6 +4577,777 @@
       "created": "2026-10-11",
       "updated": "2026-10-11",
       "status": "reviewed"
+    },
+    {
+      "id": "all-actions-k-2-012",
+      "module": "academic-language-lab",
+      "title": {
+        "en": "Classroom Action Words",
+        "es": "Palabras de acción en la clase"
+      },
+      "grades": [
+        0,
+        1,
+        2
+      ],
+      "gradeBand": "K-2",
+      "subjects": [
+        "elar"
+      ],
+      "duration": 8,
+      "interactionType": "picture-match",
+      "targetLanguage": "en",
+      "supportedHomeLanguages": [
+        "es"
+      ],
+      "languagePair": "en-es",
+      "studentGoal": {
+        "en": "Look at a picture of a classroom action and choose the English word that names it.",
+        "es": "Mira una imagen de una acción de la clase y elige la palabra en inglés que la nombra."
+      },
+      "studentDirections": {
+        "en": "Look at the picture. Which English word tells what the child is doing? Choose, then select Check. Say it out loud!",
+        "es": "Mira la imagen. ¿Qué palabra en inglés dice lo que hace el niño? Elige y luego selecciona Revisar. ¡Dila en voz alta!"
+      },
+      "teacherDirections": {
+        "en": "The everyday classroom verbs young newcomers need to follow directions: read, write, listen, draw, cut, glue, count, share, point, raise your hand. Say each in both languages and act it out (TPR). Turn on More support for the Spanish verb. Best read aloud or as a whole group.",
+        "es": "Los verbos cotidianos de la clase que los recién llegados pequeños necesitan para seguir instrucciones: read, write, listen, draw, cut, glue, count, share, point, raise your hand. Di cada uno en los dos idiomas y actúalo (TPR). Activa Más apoyo para ver el verbo en español. Ideal para leer en voz alta o en grupo."
+      },
+      "languageFunction": {
+        "en": "Naming classroom actions in English.",
+        "es": "Nombrar acciones de la clase en inglés."
+      },
+      "materials": [],
+      "items": [
+        {
+          "id": "a1",
+          "image": "action-card-read",
+          "prompt": {
+            "en": "Which word names this picture?",
+            "es": "¿Qué palabra nombra esta imagen?"
+          },
+          "support": {
+            "image": "action-card-read",
+            "high": {
+              "en": "In Spanish: leer.",
+              "es": "En español: leer."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "read",
+                "es": "read"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "write",
+                "es": "write"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "draw",
+                "es": "draw"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Yes! This is the read. In Spanish: leer.",
+                "es": "¡Sí! Esto es leer. En inglés: read."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Look again — this picture is the read (in Spanish, leer), not the write.",
+                "es": "Mira otra vez: esta imagen es leer (en inglés, read), no write."
+              },
+              "hint": {
+                "en": "Say the word out loud and look closely.",
+                "es": "Di la palabra en voz alta y mira con atención."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "This picture is the read (in Spanish, leer), not the draw.",
+                "es": "Esta imagen es leer (en inglés, read), no draw."
+              }
+            }
+          }
+        },
+        {
+          "id": "a2",
+          "image": "action-card-write",
+          "prompt": {
+            "en": "Which word names this picture?",
+            "es": "¿Qué palabra nombra esta imagen?"
+          },
+          "support": {
+            "image": "action-card-write",
+            "high": {
+              "en": "In Spanish: escribir.",
+              "es": "En español: escribir."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "write",
+                "es": "write"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "read",
+                "es": "read"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "cut",
+                "es": "cut"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Yes! This is the write. In Spanish: escribir.",
+                "es": "¡Sí! Esto es escribir. En inglés: write."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Look again — this picture is the write (in Spanish, escribir), not the read.",
+                "es": "Mira otra vez: esta imagen es escribir (en inglés, write), no read."
+              },
+              "hint": {
+                "en": "Say the word out loud and look closely.",
+                "es": "Di la palabra en voz alta y mira con atención."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "This picture is the write (in Spanish, escribir), not the cut.",
+                "es": "Esta imagen es escribir (en inglés, write), no cut."
+              }
+            }
+          }
+        },
+        {
+          "id": "a3",
+          "image": "action-card-listen",
+          "prompt": {
+            "en": "Which word names this picture?",
+            "es": "¿Qué palabra nombra esta imagen?"
+          },
+          "support": {
+            "image": "action-card-listen",
+            "high": {
+              "en": "In Spanish: escuchar.",
+              "es": "En español: escuchar."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "listen",
+                "es": "listen"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "point",
+                "es": "point"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "share",
+                "es": "share"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Yes! This is the listen. In Spanish: escuchar.",
+                "es": "¡Sí! Esto es escuchar. En inglés: listen."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Look again — this picture is the listen (in Spanish, escuchar), not the point.",
+                "es": "Mira otra vez: esta imagen es escuchar (en inglés, listen), no point."
+              },
+              "hint": {
+                "en": "Say the word out loud and look closely.",
+                "es": "Di la palabra en voz alta y mira con atención."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "This picture is the listen (in Spanish, escuchar), not the share.",
+                "es": "Esta imagen es escuchar (en inglés, listen), no share."
+              }
+            }
+          }
+        },
+        {
+          "id": "a4",
+          "image": "action-card-draw",
+          "prompt": {
+            "en": "Which word names this picture?",
+            "es": "¿Qué palabra nombra esta imagen?"
+          },
+          "support": {
+            "image": "action-card-draw",
+            "high": {
+              "en": "In Spanish: dibujar.",
+              "es": "En español: dibujar."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "draw",
+                "es": "draw"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "write",
+                "es": "write"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "glue",
+                "es": "glue"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Yes! This is the draw. In Spanish: dibujar.",
+                "es": "¡Sí! Esto es dibujar. En inglés: draw."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Look again — this picture is the draw (in Spanish, dibujar), not the write.",
+                "es": "Mira otra vez: esta imagen es dibujar (en inglés, draw), no write."
+              },
+              "hint": {
+                "en": "Say the word out loud and look closely.",
+                "es": "Di la palabra en voz alta y mira con atención."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "This picture is the draw (in Spanish, dibujar), not the glue.",
+                "es": "Esta imagen es dibujar (en inglés, draw), no glue."
+              }
+            }
+          }
+        },
+        {
+          "id": "a5",
+          "image": "action-card-cut",
+          "prompt": {
+            "en": "Which word names this picture?",
+            "es": "¿Qué palabra nombra esta imagen?"
+          },
+          "support": {
+            "image": "action-card-cut",
+            "high": {
+              "en": "In Spanish: cortar.",
+              "es": "En español: cortar."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "cut",
+                "es": "cut"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "glue",
+                "es": "glue"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "draw",
+                "es": "draw"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Yes! This is the cut. In Spanish: cortar.",
+                "es": "¡Sí! Esto es cortar. En inglés: cut."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Look again — this picture is the cut (in Spanish, cortar), not the glue.",
+                "es": "Mira otra vez: esta imagen es cortar (en inglés, cut), no glue."
+              },
+              "hint": {
+                "en": "Say the word out loud and look closely.",
+                "es": "Di la palabra en voz alta y mira con atención."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "This picture is the cut (in Spanish, cortar), not the draw.",
+                "es": "Esta imagen es cortar (en inglés, cut), no draw."
+              }
+            }
+          }
+        },
+        {
+          "id": "a6",
+          "image": "action-card-glue",
+          "prompt": {
+            "en": "Which word names this picture?",
+            "es": "¿Qué palabra nombra esta imagen?"
+          },
+          "support": {
+            "image": "action-card-glue",
+            "high": {
+              "en": "In Spanish: pegar.",
+              "es": "En español: pegar."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "glue",
+                "es": "glue"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "cut",
+                "es": "cut"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "count",
+                "es": "count"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Yes! This is the glue. In Spanish: pegar.",
+                "es": "¡Sí! Esto es pegar. En inglés: glue."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Look again — this picture is the glue (in Spanish, pegar), not the cut.",
+                "es": "Mira otra vez: esta imagen es pegar (en inglés, glue), no cut."
+              },
+              "hint": {
+                "en": "Say the word out loud and look closely.",
+                "es": "Di la palabra en voz alta y mira con atención."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "This picture is the glue (in Spanish, pegar), not the count.",
+                "es": "Esta imagen es pegar (en inglés, glue), no count."
+              }
+            }
+          }
+        },
+        {
+          "id": "a7",
+          "image": "action-card-count",
+          "prompt": {
+            "en": "Which word names this picture?",
+            "es": "¿Qué palabra nombra esta imagen?"
+          },
+          "support": {
+            "image": "action-card-count",
+            "high": {
+              "en": "In Spanish: contar.",
+              "es": "En español: contar."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "count",
+                "es": "count"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "share",
+                "es": "share"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "point",
+                "es": "point"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Yes! This is the count. In Spanish: contar.",
+                "es": "¡Sí! Esto es contar. En inglés: count."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Look again — this picture is the count (in Spanish, contar), not the share.",
+                "es": "Mira otra vez: esta imagen es contar (en inglés, count), no share."
+              },
+              "hint": {
+                "en": "Say the word out loud and look closely.",
+                "es": "Di la palabra en voz alta y mira con atención."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "This picture is the count (in Spanish, contar), not the point.",
+                "es": "Esta imagen es contar (en inglés, count), no point."
+              }
+            }
+          }
+        },
+        {
+          "id": "a8",
+          "image": "action-card-share",
+          "prompt": {
+            "en": "Which word names this picture?",
+            "es": "¿Qué palabra nombra esta imagen?"
+          },
+          "support": {
+            "image": "action-card-share",
+            "high": {
+              "en": "In Spanish: compartir.",
+              "es": "En español: compartir."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "share",
+                "es": "share"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "count",
+                "es": "count"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "listen",
+                "es": "listen"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Yes! This is the share. In Spanish: compartir.",
+                "es": "¡Sí! Esto es compartir. En inglés: share."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Look again — this picture is the share (in Spanish, compartir), not the count.",
+                "es": "Mira otra vez: esta imagen es compartir (en inglés, share), no count."
+              },
+              "hint": {
+                "en": "Say the word out loud and look closely.",
+                "es": "Di la palabra en voz alta y mira con atención."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "This picture is the share (in Spanish, compartir), not the listen.",
+                "es": "Esta imagen es compartir (en inglés, share), no listen."
+              }
+            }
+          }
+        },
+        {
+          "id": "a9",
+          "image": "action-card-point",
+          "prompt": {
+            "en": "Which word names this picture?",
+            "es": "¿Qué palabra nombra esta imagen?"
+          },
+          "support": {
+            "image": "action-card-point",
+            "high": {
+              "en": "In Spanish: señalar.",
+              "es": "En español: señalar."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "point",
+                "es": "point"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "listen",
+                "es": "listen"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "raise your hand",
+                "es": "raise your hand"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Yes! This is the point. In Spanish: señalar.",
+                "es": "¡Sí! Esto es señalar. En inglés: point."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Look again — this picture is the point (in Spanish, señalar), not the listen.",
+                "es": "Mira otra vez: esta imagen es señalar (en inglés, point), no listen."
+              },
+              "hint": {
+                "en": "Say the word out loud and look closely.",
+                "es": "Di la palabra en voz alta y mira con atención."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "This picture is the point (in Spanish, señalar), not the raise your hand.",
+                "es": "Esta imagen es señalar (en inglés, point), no raise your hand."
+              }
+            }
+          }
+        },
+        {
+          "id": "a10",
+          "image": "action-card-raise-hand",
+          "prompt": {
+            "en": "Which word names this picture?",
+            "es": "¿Qué palabra nombra esta imagen?"
+          },
+          "support": {
+            "image": "action-card-raise-hand",
+            "high": {
+              "en": "In Spanish: levantar la mano.",
+              "es": "En español: levantar la mano."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "raise your hand",
+                "es": "raise your hand"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "point",
+                "es": "point"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "share",
+                "es": "share"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Yes! This is the raise your hand. In Spanish: levantar la mano.",
+                "es": "¡Sí! Esto es levantar la mano. En inglés: raise your hand."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Look again — this picture is the raise your hand (in Spanish, levantar la mano), not the point.",
+                "es": "Mira otra vez: esta imagen es levantar la mano (en inglés, raise your hand), no point."
+              },
+              "hint": {
+                "en": "Say the word out loud and look closely.",
+                "es": "Di la palabra en voz alta y mira con atención."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "This picture is the raise your hand (in Spanish, levantar la mano), not the share.",
+                "es": "Esta imagen es levantar la mano (en inglés, raise your hand), no share."
+              }
+            }
+          }
+        }
+      ],
+      "ace": {
+        "articulate": true,
+        "connect": false,
+        "extend": false
+      },
+      "clear": {
+        "enabled": false,
+        "emphasis": []
+      },
+      "udl": [
+        "representation.language-support",
+        "representation.context",
+        "action-expression.multiple-response-modes",
+        "engagement.relevance"
+      ],
+      "strategies": [
+        "vocabulary-programs",
+        "total-physical-response",
+        "corrective-feedback"
+      ],
+      "standards": {
+        "elps": [
+          {
+            "code": "§120.20(d)(3)(C)",
+            "alignment": "direct",
+            "grades": [
+              0,
+              1,
+              2
+            ],
+            "rationale": "Students use high-frequency and content-area vocabulary to comprehend and name classroom words."
+          }
+        ],
+        "teks": [
+          {
+            "code": "§110.2(b)(3)(B)",
+            "alignment": "direct",
+            "grades": [
+              0
+            ],
+            "rationale": "Students use illustrations to learn and clarify the meaning of a word."
+          },
+          {
+            "code": "§110.3(b)(3)(B)",
+            "alignment": "direct",
+            "grades": [
+              1
+            ],
+            "rationale": "Students use illustrations to learn and clarify the meaning of a word."
+          },
+          {
+            "code": "§110.4(b)(3)(B)",
+            "alignment": "supporting",
+            "grades": [
+              2
+            ],
+            "rationale": "The picture supports determining the meaning of an unfamiliar word."
+          }
+        ],
+        "slar": []
+      },
+      "printables": [
+        "all-actions-k-2-012-student",
+        "all-actions-k-2-012-answer-key"
+      ],
+      "created": "2026-10-11",
+      "updated": "2026-10-11",
+      "status": "reviewed"
     }
   ]
 }
