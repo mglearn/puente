@@ -2,9 +2,22 @@
 
 ## Current state (2026-10-11)
 
-**Live at https://mglearn.github.io/puente/** — 3 launch modules, **36 activities**,
+**Live at https://mglearn.github.io/puente/** — 3 launch modules, **39 activities**,
 **25 verified standards** (0 pending), full site navigation, 18 smoke tests + 5 validators
 (data / standards / locales / links / contrast) all green.
+**All three modules now cover every grade band K–2 · 3–5 · 6–8 · 9–12.**
+
+**Artwork complete (2026-10-11).** The full artwork batch (47 new images, generated from
+`~/projects/puente-artwork-prompts.md`, converted to WebP, registered in the manifest) is
+in and the PNG masters cleaned up. This closed the last two K–2 gaps with two new
+picture-match activities — **Classroom Action Words** (`all-actions-k-2-012`, 10 action
+cards) for Academic Language Lab and **Cognate Picture Match: Everyday Words**
+(`cog-picture-k-2-014`, 9 everyday-cognate cards; the `animal` card was regenerated as a
+generic animal) for Cognate Detective — plus a 2nd Newcomer K–2 **Around My School**
+(`nav-school-k-2-011`, 10 school-place cards). Enrichment: 9 newcomer scenario images wired
+as per-item images on *Following Classroom Directions* & *Telling How You Feel*, and 9
+concept scaffolds as high-support images on *Root Detective* & *Cognates You Hear in
+Science*.
 
 **Activity map + topic search (2026-10-11).** `activities/` now opens with an ELE-Activity-
 Bank-style **Activity map**: a module × grade-band grid (3×4) where each cell shows its
@@ -40,8 +53,12 @@ Feel (3–5), School Offices and Forms (9–12). Speaking/register activities ho
 | Module | K–2 | 3–5 | 6–8 | 9–12 |
 |---|---|---|---|---|
 | Cognate Detective | ✅ | ✅ | ✅ | ✅ |
-| Academic Language Lab | ⬜ | ✅ | ✅ | ✅ |
-| Newcomer Navigator | ⬜ | ✅ | ✅ | ✅ |
+| Academic Language Lab | ✅ | ✅ | ✅ | ✅ |
+| Newcomer Navigator | ✅ | ✅ | ✅ | ✅ |
+
+**Full 4×3 grade-band matrix complete (2026-10-11)** — every module reaches every band,
+via vocabulary/picture-match at K–2 (honest K–3 reading ELPS §120.20(d)(3)(C) + K–2
+illustration TEKS §110.2/3/4(b)(3)(B)).
 
 **2026-10-11 — secondary-band build-out (4 activities, every module now reaches 9–12):**
 
@@ -63,17 +80,16 @@ ELPS §120.21 speaking/listening/reading (4–12 range) and TEKS vocabulary-in-c
 (§110.22/23/24(b)(2)(B) for 6–8, §110.36/37(c)(2)(B) for 9–10). EN + ES throughout; every
 choice teaches *why*. `npm run check` green (26 activities, 18 smoke tests, 5 validators).
 
-### K–2 gap (honest blocker, not shipped)
+### K–2 gap — RESOLVED (2026-10-11)
 
-Academic Language Lab and Newcomer Navigator have **no K–2 activity**, and it should not be
-forced. Both modules are speaking/listening-centered, but the standards stores hold **only
-one K–3 ELPS code** — §120.20(d)(3)(C), *reading*. There is no verified K–3 speaking/
-listening ELPS code to correlate a K–2 talk/navigation activity honestly, and the image
-manifest has no K–2 artwork for those modules (only cognate cards + the 4 newcomer scenario
-images already in use). Closing this needs an **owner decision**: either verify + add the
-K–3 speaking/listening ELPS codes against TEA Ch. 120, or commission K–2 artwork so a
-picture/vocabulary-based K–2 entry can be built (Cognate Detective's K–2 picture-match is the
-model). Until then, K–2 for these two modules stays open rather than standards-stretched.
+Previously open because both modules are speaking/listening-centered while the only verified
+K–3 ELPS code is reading (§120.20(d)(3)(C)). Resolved **honestly, not by stretching
+standards**: each new K–2 entry is a **vocabulary picture-match** (name the pictured
+word), which maps correctly to the K–3 reading ELPS + the K–2 illustration TEKS
+(§110.2/3/4(b)(3)(B)) — the same honest basis as the original cognate K–2 cards. The
+artwork that unblocked it is now in. (A still-open, lower-priority item: a verified K–3
+*speaking/listening* ELPS code would allow a talk/navigation-style K–2 activity, not just
+vocabulary — that remains a future standards-verification task.)
 
 **Launch readiness (2026-09-18):** linked from the mglearn hub (`mglearn.github.io`
 Language Bridge card → `/puente/`). All ELPS codes now **two-source confirmed**
@@ -98,15 +114,13 @@ generic/abstract "animal" grouping if that cognate card is wanted.
 
 ## Next
 
-1. **Depth toward MVP.** Cognate Detective 15/24, Academic Language Lab 11/32, Newcomer 10/30 —
-   all feed the shared engines. The current 25 verified codes are now well-saturated (both
-   previously-unused codes are covered). Going further toward the MVP targets will need
-   **new verified standards** (more 6–8/9–12 listening/speaking/writing TEKS, SLAR beyond
-   grade 5, and K–3 speaking/listening ELPS) — a standards-verification research pass against
-   TEA Ch. 110/120/128, flagged for human sign-off. Every module reaches 9–12; the open
-   coverage gap is **K–2 for Academic Language Lab and Newcomer Navigator** (see "K–2 gap"
-   above). 4 K–2 cognate cards (animal, chocolate, doctor, telephone) are already `available`
-   in the manifest, ready for more Cognate Detective K–2 picture items.
+1. **Depth toward MVP.** Cognate Detective 16/24, Academic Language Lab 12/32, Newcomer 11/30 —
+   all feed the shared engines. Full 4×3 grade-band matrix is complete; the current 25
+   verified codes are now well-saturated (both previously-unused codes are covered). Going
+   further toward the MVP targets will need **new verified standards** (more 6–8/9–12
+   listening/speaking/writing TEKS, SLAR beyond grade 5, and K–3 speaking/listening ELPS) —
+   a standards-verification research pass against TEA Ch. 110/120/128, flagged for human
+   sign-off.
 3. **A11y round two** (real AT walkthrough, print QA, axe) and **Spanish review** (the 2 `reviewed`
    locale keys are an intentional QC-gate fixture — see es.json `_meta`).
 
