@@ -4466,6 +4466,767 @@
       "created": "2026-10-11",
       "updated": "2026-10-11",
       "status": "reviewed"
+    },
+    {
+      "id": "nav-school-k-2-011",
+      "module": "newcomer-navigator",
+      "title": {
+        "en": "Around My School",
+        "es": "En mi escuela"
+      },
+      "grades": [
+        0,
+        1,
+        2
+      ],
+      "gradeBand": "K-2",
+      "subjects": [
+        "elar"
+      ],
+      "duration": 8,
+      "interactionType": "picture-match",
+      "targetLanguage": "en",
+      "supportedHomeLanguages": [
+        "es"
+      ],
+      "languagePair": "en-es",
+      "studentGoal": {
+        "en": "Look at a picture of a place or person at school and choose the English word that names it.",
+        "es": "Mira una imagen de un lugar o una persona de la escuela y elige la palabra en inglés que la nombra."
+      },
+      "studentDirections": {
+        "en": "Look at the picture. Which English word names it? Choose, then select Check. Say it out loud!",
+        "es": "Mira la imagen. ¿Qué palabra en inglés la nombra? Elige y luego selecciona Revisar. ¡Dila en voz alta!"
+      },
+      "teacherDirections": {
+        "en": "For the youngest newcomers learning where things are and who helps at school. Say each word aloud in both languages; several are cognates (cafeteria, office, bus, gym) you can point out. Turn on More support for the Spanish word. Best read aloud or as a whole group, paired with a walk around campus.",
+        "es": "Para los recién llegados más pequeños que aprenden dónde están las cosas y quién ayuda en la escuela. Di cada palabra en voz alta en los dos idiomas; varios son cognados (cafeteria, office, bus, gym) que puedes señalar. Activa Más apoyo para ver la palabra en español. Ideal para leer en voz alta o en grupo, junto con un recorrido por el plantel."
+      },
+      "languageFunction": {
+        "en": "Naming school places and people in English.",
+        "es": "Nombrar lugares y personas de la escuela en inglés."
+      },
+      "materials": [],
+      "items": [
+        {
+          "id": "s1",
+          "image": "school-card-classroom",
+          "prompt": {
+            "en": "Which word names this picture?",
+            "es": "¿Qué palabra nombra esta imagen?"
+          },
+          "support": {
+            "high": {
+              "en": "In Spanish: salón de clases.",
+              "es": "En español: salón de clases."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "classroom",
+                "es": "classroom"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "library",
+                "es": "library"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "gym",
+                "es": "gym"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Yes! This is the classroom. In Spanish: salón de clases.",
+                "es": "¡Sí! Esto es salón de clases. En inglés: classroom."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Look again — this picture is the classroom (in Spanish, salón de clases), not the library.",
+                "es": "Mira otra vez: esta imagen es salón de clases (en inglés, classroom), no library."
+              },
+              "hint": {
+                "en": "Think about where this is at school.",
+                "es": "Piensa dónde está esto en la escuela."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "This picture is the classroom (in Spanish, salón de clases), not the gym.",
+                "es": "Esta imagen es salón de clases (en inglés, classroom), no gym."
+              }
+            }
+          }
+        },
+        {
+          "id": "s2",
+          "image": "school-card-cafeteria",
+          "prompt": {
+            "en": "Which word names this picture?",
+            "es": "¿Qué palabra nombra esta imagen?"
+          },
+          "support": {
+            "high": {
+              "en": "In Spanish: cafetería.",
+              "es": "En español: cafetería."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "cafeteria",
+                "es": "cafeteria"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "office",
+                "es": "office"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "playground",
+                "es": "playground"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Yes! This is the cafeteria. In Spanish: cafetería. “Cafeteria” looks like “cafetería” — a cognate!",
+                "es": "¡Sí! Esto es cafetería. En inglés: cafeteria. “Cafeteria” se parece a “cafetería”: ¡un cognado!"
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Look again — this picture is the cafeteria (in Spanish, cafetería), not the office.",
+                "es": "Mira otra vez: esta imagen es cafetería (en inglés, cafeteria), no office."
+              },
+              "hint": {
+                "en": "Think about where this is at school.",
+                "es": "Piensa dónde está esto en la escuela."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "This picture is the cafeteria (in Spanish, cafetería), not the playground.",
+                "es": "Esta imagen es cafetería (en inglés, cafeteria), no playground."
+              }
+            }
+          }
+        },
+        {
+          "id": "s3",
+          "image": "school-card-library",
+          "prompt": {
+            "en": "Which word names this picture?",
+            "es": "¿Qué palabra nombra esta imagen?"
+          },
+          "support": {
+            "high": {
+              "en": "In Spanish: biblioteca.",
+              "es": "En español: biblioteca."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "library",
+                "es": "library"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "cafeteria",
+                "es": "cafeteria"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "gym",
+                "es": "gym"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Yes! This is the library. In Spanish: biblioteca. Careful: “library” is biblioteca, not “librería” (a bookstore).",
+                "es": "¡Sí! Esto es biblioteca. En inglés: library. Cuidado: “library” es biblioteca, no “librería” (una tienda de libros)."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Look again — this picture is the library (in Spanish, biblioteca), not the cafeteria.",
+                "es": "Mira otra vez: esta imagen es biblioteca (en inglés, library), no cafeteria."
+              },
+              "hint": {
+                "en": "Think about where this is at school.",
+                "es": "Piensa dónde está esto en la escuela."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "This picture is the library (in Spanish, biblioteca), not the gym.",
+                "es": "Esta imagen es biblioteca (en inglés, library), no gym."
+              }
+            }
+          }
+        },
+        {
+          "id": "s4",
+          "image": "school-card-nurse",
+          "prompt": {
+            "en": "Which word names this picture?",
+            "es": "¿Qué palabra nombra esta imagen?"
+          },
+          "support": {
+            "high": {
+              "en": "In Spanish: enfermera.",
+              "es": "En español: enfermera."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "nurse",
+                "es": "nurse"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "teacher",
+                "es": "teacher"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "office",
+                "es": "office"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Yes! This is the nurse. In Spanish: enfermera.",
+                "es": "¡Sí! Esto es enfermera. En inglés: nurse."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Look again — this picture is the nurse (in Spanish, enfermera), not the teacher.",
+                "es": "Mira otra vez: esta imagen es enfermera (en inglés, nurse), no teacher."
+              },
+              "hint": {
+                "en": "Think about where this is at school.",
+                "es": "Piensa dónde está esto en la escuela."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "This picture is the nurse (in Spanish, enfermera), not the office.",
+                "es": "Esta imagen es enfermera (en inglés, nurse), no office."
+              }
+            }
+          }
+        },
+        {
+          "id": "s5",
+          "image": "school-card-office",
+          "prompt": {
+            "en": "Which word names this picture?",
+            "es": "¿Qué palabra nombra esta imagen?"
+          },
+          "support": {
+            "high": {
+              "en": "In Spanish: oficina.",
+              "es": "En español: oficina."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "office",
+                "es": "office"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "library",
+                "es": "library"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "classroom",
+                "es": "classroom"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Yes! This is the office. In Spanish: oficina. “Office” looks like “oficina” — a cognate!",
+                "es": "¡Sí! Esto es oficina. En inglés: office. “Office” se parece a “oficina”: ¡un cognado!"
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Look again — this picture is the office (in Spanish, oficina), not the library.",
+                "es": "Mira otra vez: esta imagen es oficina (en inglés, office), no library."
+              },
+              "hint": {
+                "en": "Think about where this is at school.",
+                "es": "Piensa dónde está esto en la escuela."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "This picture is the office (in Spanish, oficina), not the classroom.",
+                "es": "Esta imagen es oficina (en inglés, office), no classroom."
+              }
+            }
+          }
+        },
+        {
+          "id": "s6",
+          "image": "school-card-playground",
+          "prompt": {
+            "en": "Which word names this picture?",
+            "es": "¿Qué palabra nombra esta imagen?"
+          },
+          "support": {
+            "high": {
+              "en": "In Spanish: patio de recreo.",
+              "es": "En español: patio de recreo."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "playground",
+                "es": "playground"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "gym",
+                "es": "gym"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "cafeteria",
+                "es": "cafeteria"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Yes! This is the playground. In Spanish: patio de recreo.",
+                "es": "¡Sí! Esto es patio de recreo. En inglés: playground."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Look again — this picture is the playground (in Spanish, patio de recreo), not the gym.",
+                "es": "Mira otra vez: esta imagen es patio de recreo (en inglés, playground), no gym."
+              },
+              "hint": {
+                "en": "Think about where this is at school.",
+                "es": "Piensa dónde está esto en la escuela."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "This picture is the playground (in Spanish, patio de recreo), not the cafeteria.",
+                "es": "Esta imagen es patio de recreo (en inglés, playground), no cafeteria."
+              }
+            }
+          }
+        },
+        {
+          "id": "s7",
+          "image": "school-card-bus",
+          "prompt": {
+            "en": "Which word names this picture?",
+            "es": "¿Qué palabra nombra esta imagen?"
+          },
+          "support": {
+            "high": {
+              "en": "In Spanish: autobús.",
+              "es": "En español: autobús."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "bus",
+                "es": "bus"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "classroom",
+                "es": "classroom"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "playground",
+                "es": "playground"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Yes! This is the bus. In Spanish: autobús. “Bus” looks like “autobús” — a cognate!",
+                "es": "¡Sí! Esto es autobús. En inglés: bus. “Bus” se parece a “autobús”: ¡un cognado!"
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Look again — this picture is the bus (in Spanish, autobús), not the classroom.",
+                "es": "Mira otra vez: esta imagen es autobús (en inglés, bus), no classroom."
+              },
+              "hint": {
+                "en": "Think about where this is at school.",
+                "es": "Piensa dónde está esto en la escuela."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "This picture is the bus (in Spanish, autobús), not the playground.",
+                "es": "Esta imagen es autobús (en inglés, bus), no playground."
+              }
+            }
+          }
+        },
+        {
+          "id": "s8",
+          "image": "school-card-restroom",
+          "prompt": {
+            "en": "Which word names this picture?",
+            "es": "¿Qué palabra nombra esta imagen?"
+          },
+          "support": {
+            "high": {
+              "en": "In Spanish: baño.",
+              "es": "En español: baño."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "restroom",
+                "es": "restroom"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "office",
+                "es": "office"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "gym",
+                "es": "gym"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Yes! This is the restroom. In Spanish: baño.",
+                "es": "¡Sí! Esto es baño. En inglés: restroom."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Look again — this picture is the restroom (in Spanish, baño), not the office.",
+                "es": "Mira otra vez: esta imagen es baño (en inglés, restroom), no office."
+              },
+              "hint": {
+                "en": "Think about where this is at school.",
+                "es": "Piensa dónde está esto en la escuela."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "This picture is the restroom (in Spanish, baño), not the gym.",
+                "es": "Esta imagen es baño (en inglés, restroom), no gym."
+              }
+            }
+          }
+        },
+        {
+          "id": "s9",
+          "image": "school-card-gym",
+          "prompt": {
+            "en": "Which word names this picture?",
+            "es": "¿Qué palabra nombra esta imagen?"
+          },
+          "support": {
+            "high": {
+              "en": "In Spanish: gimnasio.",
+              "es": "En español: gimnasio."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "gym",
+                "es": "gym"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "library",
+                "es": "library"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "cafeteria",
+                "es": "cafeteria"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Yes! This is the gym. In Spanish: gimnasio. “Gym” comes from “gimnasio” — a cognate!",
+                "es": "¡Sí! Esto es gimnasio. En inglés: gym. “Gym” viene de “gimnasio”: ¡un cognado!"
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Look again — this picture is the gym (in Spanish, gimnasio), not the library.",
+                "es": "Mira otra vez: esta imagen es gimnasio (en inglés, gym), no library."
+              },
+              "hint": {
+                "en": "Think about where this is at school.",
+                "es": "Piensa dónde está esto en la escuela."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "This picture is the gym (in Spanish, gimnasio), not the cafeteria.",
+                "es": "Esta imagen es gimnasio (en inglés, gym), no cafeteria."
+              }
+            }
+          }
+        },
+        {
+          "id": "s10",
+          "image": "school-card-teacher",
+          "prompt": {
+            "en": "Which word names this picture?",
+            "es": "¿Qué palabra nombra esta imagen?"
+          },
+          "support": {
+            "high": {
+              "en": "In Spanish: maestra.",
+              "es": "En español: maestra."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "teacher",
+                "es": "teacher"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "nurse",
+                "es": "nurse"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "office",
+                "es": "office"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Yes! This is the teacher. In Spanish: maestra.",
+                "es": "¡Sí! Esto es maestra. En inglés: teacher."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Look again — this picture is the teacher (in Spanish, maestra), not the nurse.",
+                "es": "Mira otra vez: esta imagen es maestra (en inglés, teacher), no nurse."
+              },
+              "hint": {
+                "en": "Think about where this is at school.",
+                "es": "Piensa dónde está esto en la escuela."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "This picture is the teacher (in Spanish, maestra), not the office.",
+                "es": "Esta imagen es maestra (en inglés, teacher), no office."
+              }
+            }
+          }
+        }
+      ],
+      "ace": {
+        "articulate": true,
+        "connect": true,
+        "extend": false
+      },
+      "clear": {
+        "enabled": false,
+        "emphasis": []
+      },
+      "udl": [
+        "representation.language-support",
+        "representation.context",
+        "action-expression.multiple-response-modes",
+        "engagement.relevance"
+      ],
+      "strategies": [
+        "vocabulary-programs",
+        "total-physical-response",
+        "corrective-feedback"
+      ],
+      "standards": {
+        "elps": [
+          {
+            "code": "§120.20(d)(3)(C)",
+            "alignment": "direct",
+            "grades": [
+              0,
+              1,
+              2
+            ],
+            "rationale": "Students use high-frequency and content-area vocabulary to comprehend and name school materials and places."
+          }
+        ],
+        "teks": [
+          {
+            "code": "§110.2(b)(3)(B)",
+            "alignment": "direct",
+            "grades": [
+              0
+            ],
+            "rationale": "Students use illustrations to learn and clarify the meaning of a word."
+          },
+          {
+            "code": "§110.3(b)(3)(B)",
+            "alignment": "direct",
+            "grades": [
+              1
+            ],
+            "rationale": "Students use illustrations to learn and clarify the meaning of a word."
+          },
+          {
+            "code": "§110.4(b)(3)(B)",
+            "alignment": "supporting",
+            "grades": [
+              2
+            ],
+            "rationale": "The picture supports determining the meaning of an unfamiliar word."
+          }
+        ],
+        "slar": []
+      },
+      "printables": [
+        "nav-school-k-2-011-student",
+        "nav-school-k-2-011-answer-key"
+      ],
+      "created": "2026-10-11",
+      "updated": "2026-10-11",
+      "status": "reviewed"
     }
   ]
 }

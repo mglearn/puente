@@ -226,6 +226,106 @@
       "created": "2026-09-18",
       "source": "Prompt and PNG master recorded in ~/projects/assets/img/generation-notes.md",
       "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+    },
+    "school-card-classroom": {
+      "file": "school-card-classroom.webp",
+      "aspect": "1:1",
+      "status": "available",
+      "alt": "An elementary classroom with desks and a blank board.",
+      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
+      "created": "2026-10-11",
+      "source": "Prompt in ~/projects/puente-artwork-prompts.md (Section 2); PNG master in ~/projects/assets/img/",
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+    },
+    "school-card-cafeteria": {
+      "file": "school-card-cafeteria.webp",
+      "aspect": "1:1",
+      "status": "available",
+      "alt": "A school cafeteria with lunch tables.",
+      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
+      "created": "2026-10-11",
+      "source": "Prompt in ~/projects/puente-artwork-prompts.md (Section 2); PNG master in ~/projects/assets/img/",
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+    },
+    "school-card-library": {
+      "file": "school-card-library.webp",
+      "aspect": "1:1",
+      "status": "available",
+      "alt": "A school library with shelves of books.",
+      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
+      "created": "2026-10-11",
+      "source": "Prompt in ~/projects/puente-artwork-prompts.md (Section 2); PNG master in ~/projects/assets/img/",
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+    },
+    "school-card-nurse": {
+      "file": "school-card-nurse.webp",
+      "aspect": "1:1",
+      "status": "available",
+      "alt": "A friendly school nurse by an exam cot.",
+      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
+      "created": "2026-10-11",
+      "source": "Prompt in ~/projects/puente-artwork-prompts.md (Section 2); PNG master in ~/projects/assets/img/",
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+    },
+    "school-card-office": {
+      "file": "school-card-office.webp",
+      "aspect": "1:1",
+      "status": "available",
+      "alt": "A school front-office reception desk.",
+      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
+      "created": "2026-10-11",
+      "source": "Prompt in ~/projects/puente-artwork-prompts.md (Section 2); PNG master in ~/projects/assets/img/",
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+    },
+    "school-card-playground": {
+      "file": "school-card-playground.webp",
+      "aspect": "1:1",
+      "status": "available",
+      "alt": "A playground with a slide and swings.",
+      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
+      "created": "2026-10-11",
+      "source": "Prompt in ~/projects/puente-artwork-prompts.md (Section 2); PNG master in ~/projects/assets/img/",
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+    },
+    "school-card-bus": {
+      "file": "school-card-bus.webp",
+      "aspect": "1:1",
+      "status": "available",
+      "alt": "A yellow school bus.",
+      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
+      "created": "2026-10-11",
+      "source": "Prompt in ~/projects/puente-artwork-prompts.md (Section 2); PNG master in ~/projects/assets/img/",
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+    },
+    "school-card-restroom": {
+      "file": "school-card-restroom.webp",
+      "aspect": "1:1",
+      "status": "available",
+      "alt": "A restroom door with universal pictogram symbols.",
+      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
+      "created": "2026-10-11",
+      "source": "Prompt in ~/projects/puente-artwork-prompts.md (Section 2); PNG master in ~/projects/assets/img/",
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+    },
+    "school-card-gym": {
+      "file": "school-card-gym.webp",
+      "aspect": "1:1",
+      "status": "available",
+      "alt": "A school gym with a basketball hoop.",
+      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
+      "created": "2026-10-11",
+      "source": "Prompt in ~/projects/puente-artwork-prompts.md (Section 2); PNG master in ~/projects/assets/img/",
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+    },
+    "school-card-teacher": {
+      "file": "school-card-teacher.webp",
+      "aspect": "1:1",
+      "status": "available",
+      "alt": "A friendly teacher beside a blank whiteboard.",
+      "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
+      "created": "2026-10-11",
+      "source": "Prompt in ~/projects/puente-artwork-prompts.md (Section 2); PNG master in ~/projects/assets/img/",
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
     }
   }
 }
