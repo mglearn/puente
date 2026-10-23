@@ -8,7 +8,7 @@
 **All three modules now cover every grade band K–2 · 3–5 · 6–8 · 9–12.**
 
 **Artwork complete (2026-10-11).** The full artwork batch (47 new images, generated from
-`~/projects/puente-artwork-prompts.md`, converted to WebP, registered in the manifest) is
+`~/projects/archive/puente-artwork-prompts.md`, converted to WebP, registered in the manifest) is
 in and the PNG masters cleaned up. This closed the last two K–2 gaps with two new
 picture-match activities — **Classroom Action Words** (`all-actions-k-2-012`, 10 action
 cards) for Academic Language Lab and **Cognate Picture Match: Everyday Words**
@@ -154,7 +154,7 @@ The vertical slice is complete and passes `npm run check`:
   darkened to pass.
 - **Artwork wiring.** `data/image-manifest.json` gates optional item images and
   module heroes — dormant until an asset's `status` flips to `available`, so no
-  broken images. Filenames match `~/projects/puente-image-prompts.md`.
+  broken images. Filenames matched `~/projects/puente-image-prompts.md` (that prompt file is no longer retained).
 - **Artwork delivered (12 illustrations).** Reviewed for brief/palette/no-text;
   PNG originals in `~/projects/assets/img/` converted to right-sized WebP
   (19–94 KB) into `assets/img/`. Cognate Detective hero + high-support item
