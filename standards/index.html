@@ -52,7 +52,7 @@
   function pick(o){ return I18n.pick(o, I18n.uiLang); }
   function esc(s){ return String(s==null?"":s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
 
-  function groupLabel(f){ return /ELPS/.test(f) ? "ELPS (English Language Proficiency Standards)" : /SLAR/.test(f) ? "TEKS — Spanish Language Arts (Ch. 128)" : "TEKS — English Language Arts (Ch. 110)"; }
+  function groupLabel(f){ return /ELPS/.test(f) ? "ELPS (English Language Proficiency Standards)" : /ESL|ELDA/.test(f) ? "TEKS — English as a Second Language (Ch. 128)" : /SLAR/.test(f) ? "TEKS — Spanish Language Arts (Ch. 128)" : "TEKS — English Language Arts (Ch. 110)"; }
 
   function render() {
     var q = (document.getElementById("q").value || "").toLowerCase().trim();
@@ -64,7 +64,7 @@
       var g = groupLabel(s.framework);
       (byGroup[g] = byGroup[g] || []).push(s);
     });
-    var order = ["ELPS (English Language Proficiency Standards)","TEKS — English Language Arts (Ch. 110)","TEKS — Spanish Language Arts (Ch. 128)"];
+    var order = ["ELPS (English Language Proficiency Standards)","TEKS — English Language Arts (Ch. 110)","TEKS — Spanish Language Arts (Ch. 128)","TEKS — English as a Second Language (Ch. 128)"];
     var html = order.filter(function(g){return byGroup[g];}).map(function (g) {
       return '<h2 class="group-h">' + esc(g) + '</h2>' + byGroup[g].sort(function(a,b){return a.code<b.code?-1:1;}).map(function (s) {
         var u = uses[s.code] || [];

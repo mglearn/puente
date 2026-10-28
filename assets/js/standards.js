@@ -71,7 +71,7 @@
       if (!body) body = "<p>—</p>";
       body += '<p style="font-size:.8rem;color:var(--ink-soft)">' +
         esc(I18n.t("std.official")) +
-        ' · 19 TAC Ch. 120 (ELPS) / Ch. 110 (TEKS).</p>';
+        ' · 19 TAC Ch. 120 (ELPS) / Ch. 110 (TEKS) / Ch. 128 (SLAR &amp; ESL).</p>';
       return body;
     }
   };

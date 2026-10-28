@@ -1,6 +1,66 @@
 # Roadmap
 
-## Current state (2026-10-11)
+## Current state (2026-10-28)
+
+**Live at https://mglearn.github.io/puente/** (deployed from this repo via GitHub Pages) —
+3 launch modules, **39 activities** (Cognate Detective 16 · Academic Language Lab 12 ·
+Newcomer Navigator 11), every module in every grade band K–2 · 3–5 · 6–8 · 9–12,
+**63 verified standards** (all two-source, 0 pending). `npm run check` green: 5 validators
+(data / standards / locales / links / contrast) + 18 smoke tests.
+
+**2026-10-28 — standards research pass.** +38 codes, each checked word for word against
+TEA's chapter PDFs and Cornell LII: ELPS §120.20 K–3 listening/speaking (9), more ELPS
+§120.21 4–12 (9), ELAR K–2 oral language, 6–8 roots/register, English I–II Latin phrases
+and register (15), SLAR grade 6 §128.21 (4), and ELDA §128.36(c)(3)(C) for newcomer high
+schoolers (course standard — only for students enrolled in ELDA; shown under its own
+"English as a Second Language (Ch. 128)" heading). Grade-5 SLAR §128.7 is now two-source
+(one summary corrected). **Finding:** Ch. 128 has no Spanish Language Arts beyond grade 6 —
+§128.22–23 are ELLA and §128.34–36 are ESOL/ELDA (English courses). Usage notes in the
+store: §110.36/.37(c)(2)(C) only for Latin-origin phrases; false friends map to "commonly
+confused terms" (§128.7(b)(3)(E), §128.21(b)(3)(D)).
+
+**2026-10-28 — accessibility round two (automated).** axe (WCAG 2.1 A/AA + best practice)
+over every page and all 39 activities in EN/ES/AR, teacher/student, 390/1280px: 6 rules →
+**0 violations**. Keyboard: fixed buttons visible before Check, focus lost after
+Next/Try again/Explain, noisy sort announcements, faint focus rings, a crash on sort "More
+support". Print (390 PDFs): picture/scenario packs now include images, correct module
+names, Spanish packs fully Spanish, no blank pages. Human screen-reader walkthrough
+script: `docs/A11Y_SCREENREADER_SCRIPT.md`.
+
+## Next
+
+1. **Content build-out toward the MVP** (Cognate Detective 16/24 · Academic Language Lab
+   12/32 · Newcomer Navigator 11/30) using the new codes. Activity ideas they unlock:
+   - **Newcomer Navigator** — K–2: follow-the-directions school map (§120.20(d)(1)(C);
+     §110.2/3/4(b)(1)(B)); say hello / introduce yourself / ask for what you need
+     (§110.2/3(b)(1)(E), §120.20(d)(2)(F)); principal or friend? register
+     (§120.20(d)(2)(D)); retell what the nurse said (§120.20(d)(1)(E)). 3–5:
+     picture-supported notices — menu, bus schedule (§120.21(d)(3)(F)). 6–12: ask the
+     office for clarification / paraphrase the announcement (§120.21(d)(1)(E), (2)(F));
+     9–12 ELDA: give name, address, age, directions (§128.36(c)(3)(C)).
+   - **Academic Language Lab** — K–2: best sentence to describe/explain
+     (§120.20(d)(2)(E)); multiple-meaning words heard in context (§120.20(d)(1)(D)). 3–5+:
+     sentence-frame and transition-word builders (§120.21(d)(2)(C), (4)(D)). 6–8: text
+     message → email to a teacher (§110.22–24(b)(6)(H), §120.21(d)(2)(D)); justify or
+     evaluate with frames (§120.21(d)(2)(E), (4)(F)). 9–12: register in academic responses
+     (§110.36/37(c)(5)(H)); idioms and figurative language (§120.21(d)(3)(D), (1)(D)).
+   - **Cognate Detective** — 6–8: Greek/Latin root families with Spanish bridges
+     (§110.22–24(b)(2)(C), §128.21(b)(3)(C)); 6: Spanish context-clue detective
+     (§128.21(b)(3)(B)); 4–12: say-the-cognate pronunciation contrasts (§120.21(d)(2)(A));
+     9–10: Latin phrases in English (§110.36/37(c)(2)(C)).
+2. **Screen-reader walkthrough** on real AT (NVDA + VoiceOver) — owner, following
+   `docs/A11Y_SCREENREADER_SCRIPT.md`.
+3. **A11y/i18n follow-ups found in round two** (not yet done):
+   hard-coded English in the activities index, printables and some `aria-label`s (needs
+   locale keys); printables have no Arabic option and always start in English; the
+   "Use the English word in a new sentence" line prints on every non-sort sheet;
+   picture-match image alt text names the answer; `es` picture-match labels are English
+   words without an English `lang` tag; teacher-page print shows "Answer guidance"
+   collapsed and student-mode print shows only the current item; "Copy student link" has
+   no screen-reader announcement or clipboard fallback; activity-map cells use an invalid
+   `font:` shorthand. Teal was darkened (#147F84 → #12777C) for contrast — worth a look.
+
+## History — state on 2026-10-11
 
 **Live at https://mglearn.github.io/puente/** — 3 launch modules, **39 activities**,
 **25 verified standards** (0 pending), full site navigation, 18 smoke tests + 5 validators
@@ -112,18 +172,6 @@ generic/abstract "animal" grouping if that cognate card is wanted.
 - Every top-nav link resolves (activities / printables / teacher / standards / frameworks / about
   + sub-pages); homepage has a "Recently added" strip; custom 404 page.
 
-## Next
-
-1. **Depth toward MVP.** Cognate Detective 16/24, Academic Language Lab 12/32, Newcomer 11/30 —
-   all feed the shared engines. Full 4×3 grade-band matrix is complete; the current 25
-   verified codes are now well-saturated (both previously-unused codes are covered). Going
-   further toward the MVP targets will need **new verified standards** (more 6–8/9–12
-   listening/speaking/writing TEKS, SLAR beyond grade 5, and K–3 speaking/listening ELPS) —
-   a standards-verification research pass against TEA Ch. 110/120/128, flagged for human
-   sign-off.
-3. **A11y round two** (real AT walkthrough, print QA, axe) and **Spanish review** (the 2 `reviewed`
-   locale keys are an intentional QC-gate fixture — see es.json `_meta`).
-
 ## Done — §118 proof-of-concept (the architecture test)
 
 The vertical slice is complete and passes `npm run check`:
@@ -181,13 +229,6 @@ The vertical slice is complete and passes `npm run check`:
   direct, (d)(1)(C) supporting — two-source corroborated) + §110.7(b)(1)(A). All
   three launch modules are now live; the top-nav "Newcomer" link resolves.
 
-## Next
-
-1. **Fill out each module's activity set** toward the MVP targets (Cognate Detective
-   24, Academic Language Lab 32, Newcomer Navigator 30) — all feed the shared engines.
-2. **Es review pass** (2 `reviewed` keys → `published`); **a11y round two** (real AT,
-   print QA, axe).
-
 ## Deferred / owner decisions
 
 1. **Artwork license — RESOLVED (2026-09-18):** aligned to the mglearn site.
@@ -196,21 +237,21 @@ The vertical slice is complete and passes `npm run check`:
    footer, printables, and every `image-manifest.json` `rights` field. (The WebP
    conversion still drops the C2PA manifest — preserving it on published files
    remains optional.)
-2. **SLAR codes.** Import + verify Chapter 128 (Spanish LA) codes — do not guess them.
+2. **SLAR codes — RESOLVED (2026-10-28):** grades 5 and 6 verified (two-source); Ch. 128 has
+   no SLAR beyond grade 6. ELDA §128.36(c)(3)(C) added for newcomer high schoolers.
 3. **Es review pass.** Move remaining `reviewed` Spanish keys to `published` after
    a human check; keep the QC gate honest.
-4. **A11y round two.** Screen-reader walkthrough on real AT; verify print output;
-   run an automated axe pass (spec §98).
-5. **Content pipeline.** Author remaining Cognate Detective MVP activities (24 total)
-   across grade bands and content areas, feeding the shared engines (spec §40).
+4. **A11y round two — automated part DONE (2026-10-28):** axe 0 violations, print verified.
+   Real-AT walkthrough remains (see Next #2).
+5. **Content pipeline.** See Next #1.
 
 ## Later modules
 
-- Academic Language Lab (flagship, 32 activities — spec §46–§59)
-- Newcomer Navigator (30 activities — spec §60–§79)
-- Future priorities 4–16 (spec §89)
+- Future priorities 4–16 (spec §89) — none started. (Academic Language Lab and Newcomer
+  Navigator are live; see Next #1 for their MVP targets.)
 
 ## Deployment
 
-Source lives in `mglearn/puente/`. Planned public home: `mglearn.github.io/puente/`
-(copy build into the `mglearn.github.io` repo under `/puente/`). Not yet deployed.
+Source and site are this repo (`mglearn/puente`), published by GitHub Pages at
+https://mglearn.github.io/puente/ and linked from the mglearn hub (Language Bridge card).
+Push to `main` deploys.
