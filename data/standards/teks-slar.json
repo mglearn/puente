@@ -2,11 +2,11 @@
   "_meta": {
     "framework": "Texas Essential Knowledge and Skills — Spanish Language Arts and Reading (SLAR)",
     "authority": "Texas Education Agency — 19 TAC Chapter 128",
-    "citation": "§128.7 (Grade 5) and §128.21 (Grade 6), adopted eff. 2017-09-25 (42 TexReg 5096), amended 2019-08-01 (44 TexReg 3858)",
+    "citation": "§128.7 (Grade 5) and §128.21 (Grade 6), adopted eff. 2017-09-25 (42 TexReg 5096), amended 2019-08-01 (44 TexReg 3858); §128.36 ELDA (high school ESL course), adopted eff. 2017-11-12 (42 TexReg 6164)",
     "sourceStatus": "official",
-    "reviewNote": "Verified 2026-09-17 against TEA ch128a.pdf and cross-confirmed with Cornell LII. IMPORTANT: §128.7 is codified in ENGLISH with authentic Spanish examples embedded — it is not a Spanish-prose translation of the ELAR TEKS. There is NO 'cognados' student expectation in §128.7(b)(3); cognates appear only in the non-binding introduction (a)(6). False friends are covered as 'commonly confused terms' under (b)(3)(E). 2026-10-28 cross-check: the full §128.7(b) knowledge-and-skills text was compared word-for-word between TEA ch128a.pdf (currently-in-effect, Aug 2019 update) and Cornell LII §128.7 — identical apart from one PDF line-break hyphen ('- logía'); §128.7 is TWO-SOURCE. Added §128.21 (Grade 6), likewise word-for-word identical between TEA ch128b.pdf and Cornell LII §128.21. In §128.21 the vocabulary strand is (b)(3) and response is (b)(7) (strand (b)(2) is beginning reading/writing). Scope note: Chapter 128 has NO Spanish Language Arts beyond grade 6 — §128.22/§128.23 are English Learners Language Arts (ELLA) grades 7–8 and Subchapter C (§§128.34–128.36) is ESOL I/II and ELDA, all English-language ESL courses, deliberately not stored here.",
+    "reviewNote": "Verified 2026-09-17 against TEA ch128a.pdf and cross-confirmed with Cornell LII. IMPORTANT: §128.7 is codified in ENGLISH with authentic Spanish examples embedded — it is not a Spanish-prose translation of the ELAR TEKS. There is NO 'cognados' student expectation in §128.7(b)(3); cognates appear only in the non-binding introduction (a)(6). False friends are covered as 'commonly confused terms' under (b)(3)(E). 2026-10-28 cross-check: the full §128.7(b) knowledge-and-skills text was compared word-for-word between TEA ch128a.pdf (currently-in-effect, Aug 2019 update) and Cornell LII §128.7 — identical apart from one PDF line-break hyphen ('- logía'); §128.7 is TWO-SOURCE. Added §128.21 (Grade 6), likewise word-for-word identical between TEA ch128b.pdf and Cornell LII §128.21. In §128.21 the vocabulary strand is (b)(3) and response is (b)(7) (strand (b)(2) is beginning reading/writing). Scope note: Chapter 128 has NO Spanish Language Arts beyond grade 6 — §128.22/§128.23 are English Learners Language Arts (ELLA) grades 7–8 and Subchapter C (§§128.34–128.36) is ESOL I/II and ELDA, all English-language ESL courses. By owner decision (2026-10-28) ONE ELDA code, §128.36(c)(3)(C), is stored here because this is the Ch. 128 file; it carries framework 'Texas TEKS ESL — ELDA (Ch. 128)', chapter '128', subject 'esl' and a course-standard note — it is NOT a SLAR expectation. Verified word-for-word: TEA ch128c.pdf vs Cornell LII §128.36.",
     "verified": "2026-10-28",
-    "verifiedSource": "https://tea.texas.gov/laws-and-rules/sboe-rules-tac/sboe-tac-currently-effect/ch128a.pdf ; https://tea.texas.gov/laws-and-rules/sboe-rules-tac/sboe-tac-currently-effect/ch128b.pdf ; https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-128-7 ; https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-128-21"
+    "verifiedSource": "https://tea.texas.gov/laws-and-rules/sboe-rules-tac/sboe-tac-currently-effect/ch128a.pdf ; https://tea.texas.gov/laws-and-rules/sboe-rules-tac/sboe-tac-currently-effect/ch128b.pdf ; https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-128-7 ; https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-128-21 ; https://tea.texas.gov/laws-and-rules/sboe-rules-tac/sboe-tac-currently-effect/ch128c.pdf ; https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-128-36"
   },
   "standards": [
     {
@@ -73,7 +73,8 @@
       "summary": "Differentiate between and use homographs, homophones, and commonly confused terms (such as porque/porqué/por qué/por que, sino/si no, también/tan bien).",
       "sourceStatus": "official",
       "verified": "2026-10-28",
-      "source": "Texas Education Agency / 19 TAC §128.21(b)(3)(D)"
+      "source": "Texas Education Agency / 19 TAC §128.21(b)(3)(D)",
+      "notes": "Usage (owner-confirmed 2026-10-28): Cognate Detective false-friend (cognado falso) activities may correlate here as 'commonly confused terms', mirroring the grade-5 §128.7(b)(3)(E) mapping. The TEKS text itself names only Spanish-internal pairs (porque/porqué, sino/si no, también/tan bien)."
     },
     {
       "code": "§128.21(b)(7)(H)",
@@ -85,6 +86,19 @@
       "sourceStatus": "official",
       "verified": "2026-10-28",
       "source": "Texas Education Agency / 19 TAC §128.21(b)(7)(H)"
+    },
+    {
+      "code": "§128.36(c)(3)(C)",
+      "framework": "Texas TEKS ESL — ELDA (Ch. 128)",
+      "chapter": "128",
+      "gradeRange": "9-12",
+      "subject": "esl",
+      "domain": "speaking",
+      "summary": "Ask for and give information such as directions, address, name, age, and nationality.",
+      "sourceStatus": "official",
+      "verified": "2026-10-28",
+      "source": "Texas Education Agency / 19 TAC §128.36(c)(3)(C)",
+      "notes": "COURSE STANDARD: applies only to students enrolled in English Language Development and Acquisition (ELDA), the one-credit high school course for recent immigrant (newcomer) students with little or no English proficiency (§128.36(b)(1)); taken with a corequisite such as ESOL I/II. It is an English-language ESL course in Ch. 128 Subchapter C — not Spanish Language Arts. Correlate as supporting/direct only for newcomer 9–12 activities and say 'for ELDA classes' in the rationale. Two-source: TEA ch128c.pdf + Cornell LII §128.36 (adopted eff. 2017-11-12, 42 TexReg 6164), word-for-word match 2026-10-28."
     }
   ]
 }

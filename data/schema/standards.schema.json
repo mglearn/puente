@@ -23,7 +23,9 @@
           "sourceStatus": { "type": "string", "enum": ["official", "spec-provisional"] },
           "effective": { "type": "string" },
           "verified": { "type": ["string", "null"] },
-          "source": { "type": "string" }
+          "source": { "type": "string" },
+          "chapter": { "type": "string", "description": "19 TAC chapter, when the framework label alone is ambiguous (e.g. ELDA in Ch. 128)" },
+          "notes": { "type": "string", "description": "Usage guidance for authors (scope limits, enrollment conditions)" }
         }
       }
     }
