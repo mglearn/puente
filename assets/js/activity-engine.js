@@ -11,6 +11,8 @@
       .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
   }
   function pick(o) { return I18n.pick(o, I18n.uiLang); }
+  // lang/dir for fallback text (e.g. English content under an Arabic UI).
+  function la(o) { return I18n.langAttr(o, I18n.uiLang); }
 
   // Optional artwork registry (data/image-manifest.json). An asset renders only
   // when present AND status === "available", so planned art stays dormant — no
@@ -59,11 +61,11 @@
     if (item.support) {
       if (support === "high" && item.support.image) supportHtml += manifestImage(item.support.image);
       if (support === "high" && item.support.high) {
-        supportHtml += '<div class="support-note high"><span class="home-lang">▸</span> ' +
+        supportHtml += '<div class="support-note high"' + la(item.support.high) + '><span class="home-lang">▸</span> ' +
           esc(pick(item.support.high)) + '</div>';
       }
       if ((support === "high" || support === "medium") && item.support.medium) {
-        supportHtml += '<div class="support-note medium">' + esc(pick(item.support.medium)) + '</div>';
+        supportHtml += '<div class="support-note medium"' + la(item.support.medium) + '>' + esc(pick(item.support.medium)) + '</div>';
       }
     }
 
@@ -78,15 +80,15 @@
 
     var choicesHtml = item.choices.map(function (c) {
       return '<button class="choice" type="button" aria-pressed="false" ' +
-        'data-choice="' + esc(c.id) + '">' + esc(pick(c.label)) + '</button>';
+        'data-choice="' + esc(c.id) + '"' + la(c.label) + '>' + esc(pick(c.label)) + '</button>';
     }).join("");
 
     this.root.innerHTML =
-      '<div class="activity-head">' +
+      '<div class="activity-head" tabindex="-1">' +
         '<p class="progress" aria-live="polite">' + esc(I18n.t("activity.item_of", { n: this.i + 1, total: total })) + '</p>' +
         imageHtml +
         contextHtml +
-        '<p class="prompt">' + esc(pick(item.prompt)) + '</p>' +
+        '<p class="prompt"' + la(item.prompt) + '>' + esc(pick(item.prompt)) + '</p>' +
       '</div>' +
       (supportHtml ? '<div class="support">' + supportHtml + '</div>' : "") +
       '<div class="choices" role="group" aria-label="' + esc(pick(item.prompt)) + '">' + choicesHtml + '</div>' +
@@ -179,7 +181,9 @@
     this.root.querySelector('[data-act="check"]').hidden = true;
     this.root.querySelector('[data-act="hint"]').hidden = true;
     this.root.querySelector('[data-act="explain"]').hidden = true;
-    this.root.querySelector('[data-act="next"]').hidden = false;
+    var nextBtn = this.root.querySelector('[data-act="next"]');
+    nextBtn.hidden = false;
+    nextBtn.focus(); // the focused Explain button was just hidden
   };
 
   Engine.prototype.next = function () {
@@ -192,6 +196,16 @@
         ? "ace" : "done";
       this.render();
     }
+    this.focusStart();
+  };
+
+  // After the view is replaced, move focus to its start so keyboard and
+  // screen-reader users are not dropped back to the top of the page.
+  Engine.prototype.focusStart = function () {
+    var t = this.root.querySelector(".ace-close h2, .done h2, .activity-head");
+    if (!t) return;
+    if (!t.hasAttribute("tabindex")) t.setAttribute("tabindex", "-1");
+    t.focus();
   };
 
   // ---- Sort engine (spec §18 Engine 2, §39B) ----
@@ -217,9 +231,9 @@
       if (it.support) {
         if (support === "high" && it.support.image) supportHtml += manifestImage(it.support.image);
         if (support === "high" && it.support.high)
-          supportHtml += '<div class="support-note high"><span class="home-lang">▸</span> ' + esc(pick(it.support.high)) + '</div>';
+          supportHtml += '<div class="support-note high"' + la(it.support.high) + '><span class="home-lang">▸</span> ' + esc(pick(it.support.high)) + '</div>';
         if ((support === "high" || support === "medium") && it.support.medium)
-          supportHtml += '<div class="support-note medium">' + esc(pick(it.support.medium)) + '</div>';
+          supportHtml += '<div class="support-note medium"' + la(it.support.medium) + '>' + esc(pick(it.support.medium)) + '</div>';
       }
 
       var bins = a.categories.map(function (c) {
@@ -227,7 +241,7 @@
         return '<button class="sort-bin choice" type="button" ' +
           'aria-pressed="' + (on ? "true" : "false") + '" ' +
           (isLocked ? 'disabled ' : '') +
-          'data-item="' + esc(it.id) + '" data-cat="' + esc(c.id) + '">' + esc(pick(c.label)) + '</button>';
+          'data-item="' + esc(it.id) + '" data-cat="' + esc(c.id) + '"' + la(c.label) + '>' + esc(pick(c.label)) + '</button>';
       }).join("");
 
       var wLang = esc(a.targetLanguage);
@@ -235,12 +249,12 @@
         '<div class="sort-word prompt" lang="' + wLang + '">' + esc(pick(it.prompt)) + '</div>' +
         (supportHtml ? '<div class="support">' + supportHtml + '</div>' : "") +
         '<div class="sort-bins" role="group" aria-label="' + esc(pick(it.prompt)) + '">' + bins + '</div>' +
-        '<div class="sort-fb" data-show="false" aria-live="polite"></div>' +
+        '<div class="sort-fb" data-show="false"></div>' +
       '</div>';
     }).join("");
 
     this.root.innerHTML =
-      '<div class="activity-head"><p class="progress" data-role="progress" aria-live="polite"></p></div>' +
+      '<div class="activity-head" tabindex="-1"><p class="progress" data-role="progress" aria-live="polite"></p></div>' +
       legend +
       '<div class="sort-cards">' + cards + '</div>' +
       '<div class="feedback" data-show="false" data-role="summary" aria-live="polite"></div>' +
@@ -275,6 +289,7 @@
     this.root.querySelector('[data-act="continue"]').addEventListener("click", function () {
       self.phase = (self.activity.ace && (self.activity.ace.articulate || self.activity.ace.connect || self.activity.ace.extend)) ? "ace" : "done";
       self.render();
+      self.focusStart();
     });
   };
 
@@ -320,11 +335,11 @@
         self.locked[it.id] = true;
         card.querySelectorAll(".sort-bin").forEach(function (b) { b.disabled = true; });
         fbNode.className = "sort-fb feedback correct";
-        fbNode.innerHTML = '<p class="why">' + esc(pick(entry.why)) + '</p>';
+        fbNode.innerHTML = '<p class="why"' + la(entry.why) + '>' + esc(pick(entry.why)) + '</p>';
       } else {
         wrong++;
         fbNode.className = "sort-fb feedback rethink";
-        var hint = entry.hint ? '<p class="hint">💡 ' + esc(pick(entry.hint)) + '</p>' : "";
+        var hint = entry.hint ? '<p class="hint"' + la(entry.hint) + '>💡 ' + esc(pick(entry.hint)) + '</p>' : "";
         fbNode.innerHTML = '<p class="why">' + esc(I18n.t("feedback.rethink_head")) + '</p>' + hint;
         // The rethink marking on the chosen bin stays until the student re-places it.
       }
@@ -340,7 +355,11 @@
       var cont = this.root.querySelector('[data-act="continue"]');
       cont.hidden = false; cont.focus();
     } else {
-      summary.setAttribute("data-show", "false");
+      // One announcement for the whole check (per-card notes are not live).
+      summary.className = "feedback rethink";
+      summary.setAttribute("data-show", "true");
+      summary.innerHTML = '<p class="why">' + esc(I18n.t("feedback.rethink_head")) + ' ' +
+        Object.keys(this.locked).length + ' / ' + a.items.length + ' ✓</p>';
     }
   };
 
@@ -348,9 +367,9 @@
   Engine.prototype.renderAce = function () {
     var a = this.activity.ace || {};
     var steps = "";
-    if (a.articulate) steps += aceStep("ace.articulate", "ace.q_articulate", "textarea");
-    if (a.connect)    steps += aceStep("ace.connect", "ace.q_connect", "text");
-    if (a.extend)     steps += aceStep("ace.extend", "ace.q_extend", "textarea");
+    if (a.articulate) steps += aceStep("ace.articulate", "ace.q_articulate", "textarea", "ace-a");
+    if (a.connect)    steps += aceStep("ace.connect", "ace.q_connect", "text", "ace-c");
+    if (a.extend)     steps += aceStep("ace.extend", "ace.q_extend", "textarea", "ace-e");
 
     this.root.innerHTML =
       '<div class="ace-close">' +
@@ -362,15 +381,15 @@
       '</div>';
     var self = this;
     this.root.querySelector('[data-act="finish"]').addEventListener("click", function () {
-      self.phase = "done"; self.render();
+      self.phase = "done"; self.render(); self.focusStart();
     });
 
-    function aceStep(tagKey, qKey, field) {
+    function aceStep(tagKey, qKey, field, id) {
       var input = field === "textarea"
-        ? '<textarea rows="2"></textarea>'
-        : '<input type="text">';
+        ? '<textarea rows="2" id="' + id + '"></textarea>'
+        : '<input type="text" id="' + id + '">';
       return '<div class="ace-step">' +
-        '<label><span class="ace-tag">' + esc(I18n.t(tagKey).toUpperCase()) + '</span><br>' +
+        '<label for="' + id + '"><span class="ace-tag">' + esc(I18n.t(tagKey).toUpperCase()) + '</span><br>' +
         esc(I18n.t(qKey)) + '</label>' + input + '</div>';
     }
   };
@@ -388,7 +407,8 @@
     this.root.querySelector('[data-act="again"]').addEventListener("click", function () {
       self.i = 0; self.phase = "items"; self.selected = null;
       self.checked = false; self.locked = false; self.showHint = false;
-      self.render();
+      self.placements = null; // sort: start the round clean
+      self.render(); self.focusStart();
     });
   };
 
@@ -403,7 +423,8 @@
       document.addEventListener("lb:langchange", function () { engine.render(); });
       // Re-render on support-level change.
       document.addEventListener("lb:supportchange", function () {
-        if (engine.phase === "items") engine.renderItem();
+        // render() dispatches to the sort view too (renderItem crashed on sort).
+        if (engine.phase === "items") engine.render();
       });
       return engine;
     }

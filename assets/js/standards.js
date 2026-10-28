@@ -46,7 +46,7 @@
         var label = I18n.t(g[0]);
         var list = g[1] || [];
         if (!list.length) return;
-        body += '<h4 class="tag-official">' + esc(label) + '</h4>';
+        body += '<h2 class="tag-official std-group">' + esc(label) + '</h2>';
         body += '<div class="std-list">';
         list.forEach(function (corr) {
           var std = self.get(corr.code) || {};

@@ -38,7 +38,7 @@
   .map-search input { flex:1; min-width:0; font:400 .95rem inherit; padding:10px 12px; border-radius:10px;
     border:1.5px solid rgba(255,255,255,.3); background:rgba(255,255,255,.1); color:#fff; }
   .map-search input::placeholder { color:rgba(255,255,255,.6); }
-  .map-search input:focus { outline:none; border-color:var(--gold); background:rgba(255,255,255,.16); }
+  .map-search input:focus { border-color:var(--gold); background:rgba(255,255,255,.16); }
   .map-topics { font-size:.85rem; color:rgba(255,255,255,.7); margin:0; display:flex; flex-wrap:wrap; gap:4px 12px; align-items:center; }
   .map-topics a { color:#FFD98A; font-weight:600; }
   .active-note { color:rgba(255,255,255,.9); font-size:.9rem; margin:10px 0 0; }
@@ -149,14 +149,15 @@
       BANDS.forEach(function(b){
         var n = all.filter(function(a){ return a.module===mid && a.gradeBand===b; }).length;
         var lv = levelFor(n), mn = modules[mid] ? pick(modules[mid].name) : mid;
-        var label = mn + ", " + b + ": " + n + (n===1?" activity":" activities");
+        // Name starts with the visible text ("<module> <count>") — WCAG 2.5.3 label in name.
+        var label = mn + " " + n + (n===1?" activity":" activities") + ", " + b;
         var pressed = (cellModule===mid && cellBand===b);
         if (n === 0) {
-          html += '<div class="mx-cell lv0" aria-label="' + esc(label) + ', none yet"><span class="mx-title"></span><span class="mx-n">0</span></div>';
+          html += '<div class="mx-cell lv0" aria-label="' + esc(label) + '"><span class="mx-title"></span><span class="mx-n">0</span></div>';
         } else {
           html += '<button type="button" class="mx-cell lv' + lv + '" data-module="' + esc(mid) + '" data-band="' + esc(b) +
             '" aria-pressed="' + pressed + '" aria-label="' + esc(label) + '">' +
-            '<span class="mx-title">' + esc(mn) + '</span><span class="mx-n">' + n + '</span></button>';
+            '<span class="mx-title">' + esc(mn) + '</span> <span class="mx-n">' + n + '</span></button>';
         }
       });
     });

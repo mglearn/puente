@@ -33,7 +33,7 @@
   }).then(function (site) {
     document.getElementById("module-grid").innerHTML = site.modules.map(function (m) {
       var live = m.status === "live";
-      var inner = '<div class="pad"><h3>' + esc(pick(m.name)) + '</h3><p>' + esc(pick(m.blurb)) + '</p>' +
+      var inner = '<div class="pad"><h2 class="h3">' + esc(pick(m.name)) + '</h2><p>' + esc(pick(m.blurb)) + '</p>' +
         '<span class="chip">' + (live?"Available now":"Coming soon") + '</span></div>';
       return live
         ? '<a class="card" style="text-decoration:none;color:inherit" href="' + esc(m.id) + '/">' + inner + '</a>'

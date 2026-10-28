@@ -40,7 +40,7 @@
       document.getElementById("fw-authority").textContent = f.authority;
       document.getElementById("fw-disclaimer").textContent = f.officialDisclaimer;
       document.getElementById("fw-options").innerHTML = Object.keys(f.options).map(function (k) {
-        return '<div class="card"><div class="pad"><h3 style="margin:0 0 .3rem;font-size:1rem"><code>' + esc(k) + '</code></h3>' +
+        return '<div class="card"><div class="pad"><h2 class="h3" style="margin:0 0 .3rem;font-size:1rem"><code>' + esc(k) + '</code></h2>' +
           '<p style="margin:0">' + esc(pick(f.options[k])) + '</p></div></div>';
       }).join("");
     }

@@ -53,7 +53,7 @@
     // Include any curated strategies even if unused yet.
     Object.keys(DESC).forEach(function (k){ if(!(k in set)) set[k]=0; });
     document.getElementById("strat-list").innerHTML = Object.keys(set).sort().map(function (k) {
-      return '<div class="card"><div class="pad"><h3 style="margin:0 0 .3rem">' + esc(humanize(k)) + '</h3>' +
+      return '<div class="card"><div class="pad"><h2 class="h3" style="margin:0 0 .3rem">' + esc(humanize(k)) + '</h2>' +
         '<p style="margin:0">' + esc(DESC[k] || "A research-informed instructional strategy.") + '</p>' +
         (set[k] ? '<p style="margin:.5rem 0 0;color:var(--ink-soft);font-size:.85rem">Used by ' + set[k] + ' activit' + (set[k]===1?"y":"ies") + '</p>' : '') +
         '</div></div>';

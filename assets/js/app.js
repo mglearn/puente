@@ -39,7 +39,9 @@
 
     var navItems = NAV.map(function (item) {
       var a = el("a", { href: BASE + item[1], "data-i18n": item[0] }, [item[0]]);
-      if (current && item[1].indexOf(current) === 0) a.setAttribute("aria-current", "page");
+      // Exact match: a prefix test also marked "Newcomer" (modules/newcomer-navigator/)
+      // as current on every modules/ page — two aria-current links.
+      if (current && item[1] === current) a.setAttribute("aria-current", "page");
       return el("li", null, [a]);
     });
     var nav = el("ul", { class: "nav", "aria-label": "Primary" }, navItems);

@@ -14,7 +14,7 @@ body {
 h1, h2, h3 { color: var(--navy); line-height: 1.15; margin: 0 0 var(--sp-3); }
 h1 { font-size: clamp(1.8rem, 5vw, 2.6rem); }
 h2 { font-size: clamp(1.35rem, 3.5vw, 1.8rem); }
-h3 { font-size: clamp(1.1rem, 2.5vw, 1.3rem); }
+h3, h2.h3 { font-size: clamp(1.1rem, 2.5vw, 1.3rem); } /* h2.h3: card titles directly under the h1 (heading order) */
 p  { margin: 0 0 var(--sp-4); }
 
 a { color: var(--blue); }
@@ -28,6 +28,14 @@ img { max-width: 100%; height: auto; }
   outline-offset: 2px;
   border-radius: 4px;
 }
+/* Blue ring is under 3:1 on navy surfaces (WCAG 1.4.11) — use gold there. */
+.site-header :focus-visible,
+.mode-bar :focus-visible, .map-card :focus-visible { outline-color: var(--gold); }
+/* Light segmented group inside the dark bar: push the ring out onto the navy. */
+.mode-bar .segmented.on-light :focus-visible { outline-offset: 3px; }
+
+/* The `hidden` attribute must win over component display rules (.btn is flex). */
+[hidden] { display: none !important; }
 
 .sr-only {
   position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;

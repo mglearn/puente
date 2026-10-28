@@ -7,7 +7,7 @@
   --navy-tcea: #0A3476;   /* TCEA navy */
   --blue: #1270C6;        /* bright blue (was #147AD6; AA for buttons + links) */
   --gold: #FCB040;        /* warm gold */
-  --teal: #147F84;        /* teal (was #1B8A8F; AA for small text on white) */
+  --teal: #12777C;        /* teal (was #1B8A8F, then #147F84; AA for small text on white, pale and mint) */
   --pale: #EEF4FC;        /* pale blue panels */
   --white: #FFFFFF;
   --body: #172033;        /* body text */
@@ -22,7 +22,7 @@
   --module-accent: var(--teal); /* overridden per module */
 
   /* Feedback (never red-only, never punitive — spec §19) */
-  --ok: #147F84;           /* aligned with --teal */
+  --ok: #12777C;           /* aligned with --teal */
   --ok-bg: #e7f4f4;
   --rethink: #B8791A;      /* amber border, "look again" — not alarm red */
   --rethink-text: #8a5612; /* darker amber for amber TEXT (AA on cream) */

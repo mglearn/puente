@@ -39,7 +39,7 @@
       document.getElementById("fw-expansion").textContent = f.expansion;
       document.getElementById("fw-disclaimer").innerHTML = '<span class="tag-local"></span> ' + esc(f.officialDisclaimer);
       document.getElementById("fw-steps").innerHTML = Object.keys(f.steps).map(function (k) {
-        return '<div class="card"><div class="pad"><h3 style="text-transform:capitalize;margin:0 0 .3rem">' + esc(k) + '</h3>' +
+        return '<div class="card"><div class="pad"><h2 class="h3" style="text-transform:capitalize;margin:0 0 .3rem">' + esc(k) + '</h2>' +
           '<p style="margin:0">' + esc(pick(f.steps[k])) + '</p></div></div>';
       }).join("");
     }

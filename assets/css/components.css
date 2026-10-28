@@ -67,6 +67,7 @@
 .chip.local { background: #fdf3e2; color: #8a5a12; }
 
 .tag-official { color: var(--navy-tcea); font-weight: 700; }
+h2.std-group { font-size: 1rem; margin: var(--sp-4) 0 var(--sp-2); } /* was h4; h2 keeps heading order */
 .tag-local::after {
   content: "local framework";
   font-size: .68rem; font-weight: 700; text-transform: uppercase;
@@ -102,7 +103,7 @@
 .meta-row { display: grid; grid-template-columns: 10rem 1fr; gap: var(--sp-3); padding: .4rem 0; border-top: 1px solid #eef2f8; }
 .meta-row:first-child { border-top: 0; }
 .meta-row dt { font-weight: 700; color: var(--navy); }
-.meta-row dd { margin: 0; }
+.meta-row dd { margin: 0; min-width: 0; overflow-wrap: anywhere; } /* long UDL ids overflowed at 390px */
 
 /* Notice / translation status */
 .tstatus { font-size: .72rem; color: var(--ink-soft); }

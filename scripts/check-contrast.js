@@ -33,6 +33,8 @@ const PAIRS = [
   ["body text on white",           t("body"),       t("white"),     4.5],
   ["navy heading on white",        t("navy"),       t("white"),     4.5],
   ["teal text on white",           t("teal"),       t("white"),     4.5],
+  ["teal text on pale panel",      t("teal"),       t("pale"),      4.5],
+  ["teal text on mint chip",       t("teal"),       t("ok-bg"),     4.5],
   ["ink-soft meta on white",       t("ink-soft"),   t("white"),     4.5],
   ["white on blue button",         t("white"),      t("blue"),      4.5],
   ["white on navy hover",          t("white"),      t("navy-tcea"), 4.5],

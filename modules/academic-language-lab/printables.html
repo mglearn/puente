@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="../../assets/css/base.css">
 <link rel="stylesheet" href="../../assets/css/print.css">
 <style>
-  body { background: #e9edf3; }
+  @media screen { body { background: #e9edf3; } } /* never on paper */
   .toolbar { text-align: center; padding: 1rem; }
   .toolbar button, .toolbar select {
     font: inherit; font-weight: 600; padding: .5rem 1rem; border-radius: 999px;
@@ -19,7 +19,7 @@
 </style>
 </head>
 <body>
-<div class="toolbar no-print">
+<div class="toolbar no-print" role="region" aria-label="Print options">
   <label>Language
     <select id="lang"><option value="en">English</option><option value="es">Español</option></select>
   </label>
@@ -32,7 +32,7 @@
   <button onclick="window.print()">Print</button>
 </div>
 
-<div class="printable" id="printable"></div>
+<main class="printable" id="printable"></main>
 
 <script src="../../assets/js/i18n.js"></script>
 <script>
@@ -40,10 +40,17 @@
   "use strict";
   var BASE = "../../";
   var MODULE = location.pathname.split("/").filter(Boolean).slice(-2)[0];
-  var activity = null;
+  var activity = null, moduleName = null, manifest = null;
   var lang = "en", sheet = "student";
 
   function pick(o) { return (o && (o[lang] || o.en)) || ""; }
+  // Item artwork (picture-match / scenario items) — same render gate as the engine.
+  function img(it) {
+    var a = it.image && manifest && manifest.assets && manifest.assets[it.image];
+    if (!a || a.status !== ((manifest._meta && manifest._meta.renderGate) || "available")) return "";
+    return '<img class="p-img" src="' + esc(BASE + ((manifest._meta && manifest._meta.base) || "assets/img/") + a.file) +
+      '" alt="' + esc(a.alt || "") + '">';
+  }
   function esc(s) { return String(s == null ? "" : s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
 
   function render() {
@@ -51,7 +58,7 @@
     var a = activity;
     var today = a.updated;
     var head =
-      '<div class="brandline"><strong>Language Bridge · Cognate Detective</strong>' +
+      '<div class="brandline"><strong>Language Bridge · ' + esc(pick(moduleName) || MODULE) + '</strong>' +
       '<span>' + esc(pick(a.title)) + '</span></div>';
 
     var isSort = a.interactionType === "sort";
@@ -65,9 +72,9 @@
       body = '<h1>' + esc(pick(a.title)) + ' — Answer Key</h1>' +
         '<ol class="p-items">' + a.items.map(function (it) {
           var fb = it.feedback[it.answer] || {};
-          return '<li><strong>' + esc(pick(it.context) || pick(it.prompt)) + '</strong><br>' +
+          return '<li>' + img(it) + '<strong>' + esc(pick(it.context) || pick(it.prompt)) + '</strong><br>' +
             (it.context ? esc(pick(it.prompt)) + '<br>' : '') +
-            '<span style="color:#0a6">✔ ' + esc(labelFor(it)) + '</span><br>' +
+            '<span style="color:#087a4b">✔ ' + esc(labelFor(it)) + '</span><br>' +
             '<em style="font-size:.85em">' + esc(pick(fb.why)) + '</em></li>';
         }).join("") + '</ol>';
     } else if (isSort) {
@@ -84,7 +91,7 @@
         '<p>' + esc(pick(a.studentDirections)) + '</p>' +
         '<div class="namebar"><span>Name</span><span>Date</span></div>' +
         '<ol class="p-items">' + a.items.map(function (it) {
-          return '<li><strong>' + esc(pick(it.context)) + '</strong><br>' +
+          return '<li>' + img(it) + (it.context ? '<strong>' + esc(pick(it.context)) + '</strong><br>' : '') +
             esc(pick(it.prompt)) +
             '<ol class="p-choices">' + it.choices.map(function (c) {
               return '<li>' + esc(pick(c.label)) + '</li>';
@@ -106,12 +113,25 @@
       '<section class="sheet">' + head + body + foot + '</section>';
   }
 
-  document.getElementById("lang").addEventListener("change", function (e) { lang = e.target.value; render(); });
+  document.getElementById("lang").addEventListener("change", function (e) {
+    lang = e.target.value;
+    I18n.uiLang = lang;                              // so I18n.t() strings follow the sheet language
+    document.documentElement.setAttribute("lang", lang);
+    render();
+  });
   document.getElementById("sheet").addEventListener("change", function (e) { sheet = e.target.value; render(); });
 
   I18n.basePath(BASE).load(["en", "es"]).then(function () {
-    return fetch(BASE + "modules/" + MODULE + "/data.json").then(function (r) { return r.json(); });
-  }).then(function (store) {
+    return Promise.all([
+      fetch(BASE + "modules/" + MODULE + "/data.json").then(function (r) { return r.json(); }),
+      fetch(BASE + "data/site.json").then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; }),
+      fetch(BASE + "data/image-manifest.json").then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; })
+    ]);
+  }).then(function (out) {
+    var store = out[0];
+    var mod = out[1] && (out[1].modules || []).filter(function (m) { return m.id === MODULE; })[0];
+    moduleName = mod ? mod.name : null;
+    manifest = out[2];
     var params = new URLSearchParams(location.search);
     var id = params.get("id") || "cog-context-3-5-001";
     activity = store.activities.filter(function (x) { return x.id === id; })[0] || store.activities[0];

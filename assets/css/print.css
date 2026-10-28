@@ -7,6 +7,9 @@
   .card { box-shadow: none; border: 1px solid #999; }
   a { color: #000; text-decoration: none; }
   .choice { border-color: #000 !important; background: #fff !important; }
+  /* Keep each unit on one page (a word card, a question, a standard). */
+  .sort-card, .choice, .support-note, .panel, .meta-row, .feedback, .ace-step { break-inside: avoid; }
+  h1, h2, h3 { break-after: avoid; }
 }
 
 /* Printable page layout (screen preview + print) */
@@ -31,10 +34,19 @@
 .printable .namebar span { border-bottom: 1px solid #999; flex: 1; padding-bottom: 2px; }
 .printable ol.p-items { padding-inline-start: 1.4rem; }
 .printable ol.p-items li { margin-bottom: 1rem; }
+.printable ol.p-items > li { break-inside: avoid; }
+.printable .p-img { display: block; width: 1.5in; height: auto; margin: 0 0 .4rem; border-radius: 6px; }
 .printable .p-choices { list-style: upper-alpha; padding-inline-start: 1.5rem; margin-top: .4rem; }
 .printable .p-choices li { margin-bottom: .25rem; }
 .printable .answer-key { border-top: 2px dashed #999; margin-top: 1.5rem; padding-top: 1rem; }
 .printable .foot {
   margin-top: 1.5rem; font-size: .72rem; color: #555;
   border-top: 1px solid #ccc; padding-top: .5rem;
+}
+
+/* On paper the page margins do this job; the screen padding spilled a blank last page.
+   (Kept last so it overrides the .printable screen preview rules above.) */
+@media print {
+  .main { padding-block: 0; }
+  .printable { padding: 0; max-width: none; }
 }

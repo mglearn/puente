@@ -25,7 +25,7 @@
 <div data-shell="header"></div>
 
 <!-- Mode + support controls -->
-<div class="mode-bar no-print">
+<div class="mode-bar no-print" role="region" aria-label="View and support controls">
   <div class="bar">
     <div class="row">
       <span class="sr-only" data-i18n="mode.label">View</span>
@@ -114,6 +114,12 @@
     document.getElementById("t-title").textContent = pick(a.title);
     document.getElementById("s-title").textContent = pick(a.title);
     document.getElementById("s-directions").textContent = pick(a.studentDirections);
+    // Tag fallback text with its real language (e.g. English under the Arabic UI).
+    [["s-title", a.title], ["s-directions", a.studentDirections]].forEach(function (x) {
+      var n = document.getElementById(x[0]), l = I18n.langOf(x[1]);
+      if (l && l !== I18n.uiLang) { n.setAttribute("lang", l); n.setAttribute("dir", I18n.dir(l)); }
+      else { n.removeAttribute("lang"); n.removeAttribute("dir"); }
+    });
 
     // Meta chips
     document.getElementById("t-meta").innerHTML =

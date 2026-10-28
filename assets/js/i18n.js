@@ -88,6 +88,25 @@
       return "";
     },
 
+    /* Which language pick() actually returns for obj (so fallback text can be
+     * tagged with its real lang/dir for screen readers and bidi). */
+    langOf: function (obj, lang) {
+      if (!obj) return null;
+      lang = lang || this.uiLang;
+      if (obj[lang] != null) return lang;
+      if (obj.en != null) return "en";
+      for (var k in obj) if (obj.hasOwnProperty(k)) return k;
+      return null;
+    },
+
+    /* Attribute string marking fallback content: ' lang="en" dir="ltr"' when
+     * the picked text is not in the UI language, else "". */
+    langAttr: function (obj, lang) {
+      lang = lang || this.uiLang;
+      var l = this.langOf(obj, lang);
+      return (l && l !== lang) ? ' lang="' + l + '" dir="' + this.dir(l) + '"' : "";
+    },
+
     dir: function (lang) {
       lang = lang || this.uiLang;
       return (LOCALES[lang] && LOCALES[lang].dir) || "ltr";

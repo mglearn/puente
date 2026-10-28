@@ -19,7 +19,9 @@
         tone: isCorrect ? "correct" : "rethink",
         head: I18n.t(isCorrect ? "feedback.correct_head" : "feedback.rethink_head"),
         why: entry ? I18n.pick(entry.why, lang) : "",
-        hint: entry && entry.hint ? I18n.pick(entry.hint, lang) : ""
+        whyAttr: entry ? I18n.langAttr(entry.why, lang) : "",
+        hint: entry && entry.hint ? I18n.pick(entry.hint, lang) : "",
+        hintAttr: entry && entry.hint ? I18n.langAttr(entry.hint, lang) : ""
       };
     },
 
@@ -31,9 +33,9 @@
       node.setAttribute("data-show", "true");
       node.setAttribute("role", "status");
 
-      var html = '<h3>' + esc(fb.head) + '</h3><p class="why">' + esc(fb.why) + '</p>';
+      var html = '<h2>' + esc(fb.head) + '</h2><p class="why"' + fb.whyAttr + '>' + esc(fb.why) + '</p>';
       if (opts.showHint && fb.hint) {
-        html += '<p class="hint">💡 ' + esc(fb.hint) + '</p>';
+        html += '<p class="hint"' + fb.hintAttr + '>💡 ' + esc(fb.hint) + '</p>';
       }
       node.innerHTML = html;
       return fb;

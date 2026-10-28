@@ -63,7 +63,7 @@
 .feedback[data-show="true"] { display: block; }
 .feedback.correct { background: var(--ok-bg); border-inline-start: 5px solid var(--ok); }
 .feedback.rethink { background: var(--rethink-bg); border-inline-start: 5px solid var(--rethink); }
-.feedback h3 { margin-top: 0; }
+.feedback h2, .feedback h3 { margin-top: 0; font-size: clamp(1.1rem, 2.5vw, 1.3rem); }
 .feedback .why { margin: 0; }
 .feedback .hint { margin: var(--sp-3) 0 0; font-style: italic; color: var(--ink-soft); }
 
