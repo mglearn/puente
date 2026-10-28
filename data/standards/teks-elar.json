@@ -3,9 +3,9 @@
     "framework": "Texas Essential Knowledge and Skills — English Language Arts and Reading",
     "authority": "Texas Education Agency — 19 TAC Chapter 110",
     "sourceStatus": "official",
-    "reviewNote": "Plain-language paraphrases for teacher display, checked 2026-09-17 against the codified 19 TAC text (Cornell LII reproduction). Grade 5 = §110.7; middle school = §110.22 (6), §110.23 (7), §110.24 (8). The (b)(2)/(b)(3) vocabulary strand: 'the student uses newly acquired vocabulary expressively.' CAVEAT: grades 6 and 7 rest on the single Cornell LII reproduction; grade 8 (b)(2)(C) was cross-verified against Texas Gateway. Note: the TEKS text itself does not use the word 'cognates' — cognate awareness is an ELPS/cross-linguistic strategy layered onto the context and roots expectations.",
-    "verified": "2026-09-17",
-    "verifiedSource": "https://www.law.cornell.edu/regulations/texas/ (19 TAC §§110.7, 110.22, 110.23, 110.24)"
+    "reviewNote": "Plain-language paraphrases for teacher display. Grade 5 = §110.7; K–2 = §110.2 (K), §110.3 (1), §110.4 (2); middle school = §110.22 (6), §110.23 (7), §110.24 (8); high school = §110.36 (English I), §110.37 (English II). The (b)(2)/(c)(2) vocabulary strand: 'the student uses newly acquired vocabulary expressively.' First checked 2026-09-17 against Cornell LII (grade 8 (b)(2)(C) also against Texas Gateway). 2026-10-28: the full knowledge-and-skills text of §§110.2, 110.3, 110.4, 110.22, 110.23, 110.24, 110.36, 110.37 (plus 110.38/110.39, not yet stored) was compared word-for-word between TEA's currently-in-effect ch110a/ch110b/ch110c.pdf and Cornell LII — no substantive differences (only line-break hyphenation and LII character-encoding of accented French words). The earlier single-source CAVEAT on grades 6 and 7 is CLEARED; every code in this file is now TWO-SOURCE. Note: the TEKS text itself does not use the word 'cognates' — cognate awareness is an ELPS/cross-linguistic strategy layered onto the context and roots expectations.",
+    "verified": "2026-10-28",
+    "verifiedSource": "https://tea.texas.gov/laws-and-rules/sboe-rules-tac/sboe-tac-currently-effect/ch110a.pdf ; .../ch110b.pdf ; .../ch110c.pdf ; https://www.law.cornell.edu/regulations/texas/ (19 TAC §§110.2, 110.3, 110.4, 110.7, 110.22, 110.23, 110.24, 110.36, 110.37)"
   },
   "standards": [
     {
@@ -161,6 +161,171 @@
       "sourceStatus": "official",
       "verified": "2026-09-17",
       "source": "Texas Education Agency / 19 TAC §110.4(b)(3)(B)"
+    },
+    {
+      "code": "§110.2(b)(1)(B)",
+      "framework": "Texas TEKS ELAR",
+      "grade": 0,
+      "subject": "elar",
+      "domain": "listening",
+      "summary": "Restate and follow oral directions that involve a short, related sequence of actions.",
+      "sourceStatus": "official",
+      "verified": "2026-10-28",
+      "source": "Texas Education Agency / 19 TAC §110.2(b)(1)(B)"
+    },
+    {
+      "code": "§110.2(b)(1)(E)",
+      "framework": "Texas TEKS ELAR",
+      "grade": 0,
+      "subject": "elar",
+      "domain": "speaking",
+      "summary": "Develop social communication such as introducing oneself, using common greetings, and expressing needs and wants.",
+      "sourceStatus": "official",
+      "verified": "2026-10-28",
+      "source": "Texas Education Agency / 19 TAC §110.2(b)(1)(E)"
+    },
+    {
+      "code": "§110.3(b)(1)(B)",
+      "framework": "Texas TEKS ELAR",
+      "grade": 1,
+      "subject": "elar",
+      "domain": "listening",
+      "summary": "Follow, restate, and give oral instructions that involve a short, related sequence of actions.",
+      "sourceStatus": "official",
+      "verified": "2026-10-28",
+      "source": "Texas Education Agency / 19 TAC §110.3(b)(1)(B)"
+    },
+    {
+      "code": "§110.3(b)(1)(E)",
+      "framework": "Texas TEKS ELAR",
+      "grade": 1,
+      "subject": "elar",
+      "domain": "speaking",
+      "summary": "Develop social communication such as introducing oneself and others, relating experiences to a classmate, and expressing needs and feelings.",
+      "sourceStatus": "official",
+      "verified": "2026-10-28",
+      "source": "Texas Education Agency / 19 TAC §110.3(b)(1)(E)"
+    },
+    {
+      "code": "§110.4(b)(1)(B)",
+      "framework": "Texas TEKS ELAR",
+      "grade": 2,
+      "subject": "elar",
+      "domain": "listening",
+      "summary": "Follow, restate, and give oral instructions that involve a short, related sequence of actions.",
+      "sourceStatus": "official",
+      "verified": "2026-10-28",
+      "source": "Texas Education Agency / 19 TAC §110.4(b)(1)(B)"
+    },
+    {
+      "code": "§110.22(b)(2)(C)",
+      "framework": "Texas TEKS ELAR",
+      "grade": 6,
+      "subject": "elar",
+      "domain": "vocabulary",
+      "summary": "Determine the meaning and usage of grade-level academic English words derived from Greek and Latin roots (such as mis/mit, bene, man, vac, scrib/script, jur/jus).",
+      "sourceStatus": "official",
+      "verified": "2026-10-28",
+      "source": "Texas Education Agency / 19 TAC §110.22(b)(2)(C)"
+    },
+    {
+      "code": "§110.23(b)(2)(C)",
+      "framework": "Texas TEKS ELAR",
+      "grade": 7,
+      "subject": "elar",
+      "domain": "vocabulary",
+      "summary": "Determine the meaning and usage of grade-level academic English words derived from Greek and Latin roots (such as omni, log/logue, gen, vid/vis, phil, luc, sens/sent).",
+      "sourceStatus": "official",
+      "verified": "2026-10-28",
+      "source": "Texas Education Agency / 19 TAC §110.23(b)(2)(C)"
+    },
+    {
+      "code": "§110.24(b)(2)(C)",
+      "framework": "Texas TEKS ELAR",
+      "grade": 8,
+      "subject": "elar",
+      "domain": "vocabulary",
+      "summary": "Determine the meaning and usage of grade-level academic English words derived from Greek and Latin roots (such as ast, qui, path, mand/mend, duc).",
+      "sourceStatus": "official",
+      "verified": "2026-10-28",
+      "source": "Texas Education Agency / 19 TAC §110.24(b)(2)(C)"
+    },
+    {
+      "code": "§110.22(b)(6)(H)",
+      "framework": "Texas TEKS ELAR",
+      "grade": 6,
+      "subject": "elar",
+      "domain": "speaking",
+      "summary": "Respond orally or in writing with appropriate register, vocabulary, tone, and voice.",
+      "sourceStatus": "official",
+      "verified": "2026-10-28",
+      "source": "Texas Education Agency / 19 TAC §110.22(b)(6)(H)"
+    },
+    {
+      "code": "§110.23(b)(6)(H)",
+      "framework": "Texas TEKS ELAR",
+      "grade": 7,
+      "subject": "elar",
+      "domain": "speaking",
+      "summary": "Respond orally or in writing with appropriate register, vocabulary, tone, and voice.",
+      "sourceStatus": "official",
+      "verified": "2026-10-28",
+      "source": "Texas Education Agency / 19 TAC §110.23(b)(6)(H)"
+    },
+    {
+      "code": "§110.24(b)(6)(H)",
+      "framework": "Texas TEKS ELAR",
+      "grade": 8,
+      "subject": "elar",
+      "domain": "speaking",
+      "summary": "Respond orally or in writing with appropriate register, vocabulary, tone, and voice.",
+      "sourceStatus": "official",
+      "verified": "2026-10-28",
+      "source": "Texas Education Agency / 19 TAC §110.24(b)(6)(H)"
+    },
+    {
+      "code": "§110.36(c)(2)(C)",
+      "framework": "Texas TEKS ELAR (English I)",
+      "grade": 9,
+      "subject": "elar",
+      "domain": "vocabulary",
+      "summary": "Determine the meaning of foreign words or phrases used frequently in English (such as bona fide, caveat, carte blanche, quid pro quo).",
+      "sourceStatus": "official",
+      "verified": "2026-10-28",
+      "source": "Texas Education Agency / 19 TAC §110.36(c)(2)(C)"
+    },
+    {
+      "code": "§110.37(c)(2)(C)",
+      "framework": "Texas TEKS ELAR (English II)",
+      "grade": 10,
+      "subject": "elar",
+      "domain": "vocabulary",
+      "summary": "Determine the meaning of foreign words or phrases used frequently in English (such as status quo, déjà vu, avant-garde, coup d'état).",
+      "sourceStatus": "official",
+      "verified": "2026-10-28",
+      "source": "Texas Education Agency / 19 TAC §110.37(c)(2)(C)"
+    },
+    {
+      "code": "§110.36(c)(5)(H)",
+      "framework": "Texas TEKS ELAR (English I)",
+      "grade": 9,
+      "subject": "elar",
+      "domain": "speaking",
+      "summary": "Respond orally or in writing with appropriate register, vocabulary, tone, and voice.",
+      "sourceStatus": "official",
+      "verified": "2026-10-28",
+      "source": "Texas Education Agency / 19 TAC §110.36(c)(5)(H)"
+    },
+    {
+      "code": "§110.37(c)(5)(H)",
+      "framework": "Texas TEKS ELAR (English II)",
+      "grade": 10,
+      "subject": "elar",
+      "domain": "speaking",
+      "summary": "Respond orally or in writing with appropriate register, vocabulary, tone, and voice.",
+      "sourceStatus": "official",
+      "verified": "2026-10-28",
+      "source": "Texas Education Agency / 19 TAC §110.37(c)(5)(H)"
     }
   ]
 }

@@ -5,9 +5,9 @@
     "citation": "§120.20 (K–3) and §120.21 (grades 4–12)",
     "effective": "2026-2027",
     "sourceStatus": "official",
-    "reviewNote": "Summaries are plain-language paraphrases for teacher display. ALL §120.20/§120.21 codes here are TWO-SOURCE corroborated — Cornell LII AND TEA's currently-in-effect ch120b.pdf (revised ELPS, adopted eff. 2025-02-02, 50 TexReg 539, implementation 2026-2027) — cross-checked 2026-09-18, no discrepancies. Fidelity notes: the adopted text says 'contextual factors' (rendered here as 'context/contextual factors'); §120.21(d)(1)(B) also specifies 'when heard during formal and informal classroom interactions' and response modalities, trimmed in the short summary.",
-    "verified": "2026-09-18",
-    "verifiedSource": "TEA ch120b.pdf (currently-in-effect, eff. 2025-02-02) + https://www.law.cornell.edu/regulations/texas/ (19 TAC §§120.20, 120.21)"
+    "reviewNote": "Summaries are plain-language paraphrases for teacher display. ALL §120.20/§120.21 codes here are TWO-SOURCE corroborated — Cornell LII AND TEA's currently-in-effect ch120b.pdf (revised ELPS, adopted eff. 2025-02-02, 50 TexReg 539, implementation 2026-2027) — cross-checked 2026-09-18, no discrepancies. Fidelity notes: the adopted text says 'contextual factors' (rendered here as 'context/contextual factors'); §120.21(d)(1)(B) also specifies 'when heard during formal and informal classroom interactions' and response modalities, trimmed in the short summary. 2026-10-28 expansion: added 9 §120.20 (K–3) listening/speaking/reading codes and 9 more §120.21 (4–12) codes; every added code was compared word-for-word between TEA ch120b.pdf (currently-in-effect) and Cornell LII §§120.20/120.21 — the full (d) student-expectation text of both sections matches (only PDF line-break hyphenation differs). All codes in this file remain TWO-SOURCE.",
+    "verified": "2026-10-28",
+    "verifiedSource": "https://tea.texas.gov/laws-and-rules/sboe-rules-tac/sboe-tac-currently-effect/ch120b.pdf ; https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-120-20 ; https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-120-21"
   },
   "standards": [
     {
@@ -97,6 +97,204 @@
       "effective": "2026-2027",
       "verified": "2026-09-17",
       "source": "Texas Education Agency / 19 TAC §120.21(d)(1)(C)"
+    },
+    {
+      "code": "§120.20(d)(1)(B)",
+      "framework": "Texas ELPS",
+      "gradeRange": "K-3",
+      "domain": "listening",
+      "summary": "Show understanding of content-area vocabulary heard during formal and informal classroom interactions by responding with gestures or images, orally, or in writing.",
+      "sourceStatus": "official",
+      "effective": "2026-2027",
+      "verified": "2026-10-28",
+      "source": "Texas Education Agency / 19 TAC §120.20(d)(1)(B)"
+    },
+    {
+      "code": "§120.20(d)(1)(C)",
+      "framework": "Texas ELPS",
+      "gradeRange": "K-3",
+      "domain": "listening",
+      "summary": "Follow oral directions with accuracy.",
+      "sourceStatus": "official",
+      "effective": "2026-2027",
+      "verified": "2026-10-28",
+      "source": "Texas Education Agency / 19 TAC §120.20(d)(1)(C)"
+    },
+    {
+      "code": "§120.20(d)(1)(D)",
+      "framework": "Texas ELPS",
+      "gradeRange": "K-3",
+      "domain": "listening",
+      "summary": "Use context to understand descriptive language, multiple-meaning words, register, or figurative language such as idioms heard during classroom interactions.",
+      "sourceStatus": "official",
+      "effective": "2026-2027",
+      "verified": "2026-10-28",
+      "source": "Texas Education Agency / 19 TAC §120.20(d)(1)(D)"
+    },
+    {
+      "code": "§120.20(d)(1)(E)",
+      "framework": "Texas ELPS",
+      "gradeRange": "K-3",
+      "domain": "listening",
+      "summary": "Show listening comprehension of information presented orally by recalling, retelling, responding, or asking for clarification or more details.",
+      "sourceStatus": "official",
+      "effective": "2026-2027",
+      "verified": "2026-10-28",
+      "source": "Texas Education Agency / 19 TAC §120.20(d)(1)(E)"
+    },
+    {
+      "code": "§120.20(d)(2)(B)",
+      "framework": "Texas ELPS",
+      "gradeRange": "K-3",
+      "domain": "speaking",
+      "summary": "Speak using content-area vocabulary during formal and informal classroom interactions to show acquisition of new and high-frequency words.",
+      "sourceStatus": "official",
+      "effective": "2026-2027",
+      "verified": "2026-10-28",
+      "source": "Texas Education Agency / 19 TAC §120.20(d)(2)(B)"
+    },
+    {
+      "code": "§120.20(d)(2)(D)",
+      "framework": "Texas ELPS",
+      "gradeRange": "K-3",
+      "domain": "speaking",
+      "summary": "Speak using an appropriate register to convey a message during formal and informal classroom interactions with accuracy and fluency.",
+      "sourceStatus": "official",
+      "effective": "2026-2027",
+      "verified": "2026-10-28",
+      "source": "Texas Education Agency / 19 TAC §120.20(d)(2)(D)"
+    },
+    {
+      "code": "§120.20(d)(2)(E)",
+      "framework": "Texas ELPS",
+      "gradeRange": "K-3",
+      "domain": "speaking",
+      "summary": "Narrate, describe, explain information, or persuade orally with increasing specificity and detail during classroom interactions.",
+      "sourceStatus": "official",
+      "effective": "2026-2027",
+      "verified": "2026-10-28",
+      "source": "Texas Education Agency / 19 TAC §120.20(d)(2)(E)"
+    },
+    {
+      "code": "§120.20(d)(2)(F)",
+      "framework": "Texas ELPS",
+      "gradeRange": "K-3",
+      "domain": "speaking",
+      "summary": "Restate, ask questions about, or respond to information during formal and informal classroom interactions.",
+      "sourceStatus": "official",
+      "effective": "2026-2027",
+      "verified": "2026-10-28",
+      "source": "Texas Education Agency / 19 TAC §120.20(d)(2)(F)"
+    },
+    {
+      "code": "§120.20(d)(3)(F)",
+      "framework": "Texas ELPS",
+      "gradeRange": "K-3",
+      "domain": "reading",
+      "summary": "Derive meaning from and show comprehension of content-area texts using visual, contextual, and linguistic supports.",
+      "sourceStatus": "official",
+      "effective": "2026-2027",
+      "verified": "2026-10-28",
+      "source": "Texas Education Agency / 19 TAC §120.20(d)(3)(F)"
+    },
+    {
+      "code": "§120.21(d)(1)(D)",
+      "framework": "Texas ELPS",
+      "gradeRange": "4-12",
+      "domain": "listening",
+      "summary": "Use context to understand descriptive language, multiple-meaning words, register, and figurative language such as idioms heard during classroom interactions.",
+      "sourceStatus": "official",
+      "effective": "2026-2027",
+      "verified": "2026-10-28",
+      "source": "Texas Education Agency / 19 TAC §120.21(d)(1)(D)"
+    },
+    {
+      "code": "§120.21(d)(1)(E)",
+      "framework": "Texas ELPS",
+      "gradeRange": "4-12",
+      "domain": "listening",
+      "summary": "Show listening comprehension of information presented orally by restating, responding, paraphrasing, summarizing, or asking for clarification or more details.",
+      "sourceStatus": "official",
+      "effective": "2026-2027",
+      "verified": "2026-10-28",
+      "source": "Texas Education Agency / 19 TAC §120.21(d)(1)(E)"
+    },
+    {
+      "code": "§120.21(d)(2)(A)",
+      "framework": "Texas ELPS",
+      "gradeRange": "4-12",
+      "domain": "speaking",
+      "summary": "Pronounce words — including high-frequency words, cognates, and increasingly complex syllable types — with accuracy.",
+      "sourceStatus": "official",
+      "effective": "2026-2027",
+      "verified": "2026-10-28",
+      "source": "Texas Education Agency / 19 TAC §120.21(d)(2)(A)"
+    },
+    {
+      "code": "§120.21(d)(2)(C)",
+      "framework": "Texas ELPS",
+      "gradeRange": "4-12",
+      "domain": "speaking",
+      "summary": "Speak using a variety of language and grammatical structures, sentence lengths and types, and transition words.",
+      "sourceStatus": "official",
+      "effective": "2026-2027",
+      "verified": "2026-10-28",
+      "source": "Texas Education Agency / 19 TAC §120.21(d)(2)(C)"
+    },
+    {
+      "code": "§120.21(d)(2)(E)",
+      "framework": "Texas ELPS",
+      "gradeRange": "4-12",
+      "domain": "speaking",
+      "summary": "Narrate, describe, explain, justify, discuss, elaborate, or evaluate orally with increasing specificity and detail in academic contexts.",
+      "sourceStatus": "official",
+      "effective": "2026-2027",
+      "verified": "2026-10-28",
+      "source": "Texas Education Agency / 19 TAC §120.21(d)(2)(E)"
+    },
+    {
+      "code": "§120.21(d)(3)(D)",
+      "framework": "Texas ELPS",
+      "gradeRange": "4-12",
+      "domain": "reading",
+      "summary": "Use context to understand figurative language such as idioms, descriptive language, and multiple-meaning words in a variety of texts.",
+      "sourceStatus": "official",
+      "effective": "2026-2027",
+      "verified": "2026-10-28",
+      "source": "Texas Education Agency / 19 TAC §120.21(d)(3)(D)"
+    },
+    {
+      "code": "§120.21(d)(3)(F)",
+      "framework": "Texas ELPS",
+      "gradeRange": "4-12",
+      "domain": "reading",
+      "summary": "Derive meaning from and show comprehension of content-area texts using visual, contextual, and linguistic supports.",
+      "sourceStatus": "official",
+      "effective": "2026-2027",
+      "verified": "2026-10-28",
+      "source": "Texas Education Agency / 19 TAC §120.21(d)(3)(F)"
+    },
+    {
+      "code": "§120.21(d)(4)(D)",
+      "framework": "Texas ELPS",
+      "gradeRange": "4-12",
+      "domain": "writing",
+      "summary": "Write content-area texts using a variety of sentence lengths and types and transition words.",
+      "sourceStatus": "official",
+      "effective": "2026-2027",
+      "verified": "2026-10-28",
+      "source": "Texas Education Agency / 19 TAC §120.21(d)(4)(D)"
+    },
+    {
+      "code": "§120.21(d)(4)(F)",
+      "framework": "Texas ELPS",
+      "gradeRange": "4-12",
+      "domain": "writing",
+      "summary": "Write to narrate, describe, explain, respond, or justify with supporting details and evidence, using content, style, register, and conventions suited to purpose and audience.",
+      "sourceStatus": "official",
+      "effective": "2026-2027",
+      "verified": "2026-10-28",
+      "source": "Texas Education Agency / 19 TAC §120.21(d)(4)(F)"
     }
   ]
 }
