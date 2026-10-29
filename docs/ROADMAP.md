@@ -41,17 +41,20 @@ All are AI-drafted and `reviewed`. Open questions for the human reviewer are in
 
 ## Next
 
-1. **Human review before announcing.**
-   - A bilingual educator works through `docs/SPANISH_REVIEW.md` and `REVIEW_NOTES_2026-10-29.md`, then flips the reviewed `es` keys and activities to `published`.
-   - Arabic UI keys need a separate Arabic reviewer (13 are published; 59 new ones are `reviewed`).
-2. **Screen-reader walkthrough** on real assistive technology (NVDA + VoiceOver). The owner does this, following
-   `docs/A11Y_SCREENREADER_SCRIPT.md`.
-3. **Distractor quality pass — DONE (2026-10-29):**
-   - The correct answer was the longest choice in 69% of 397 choice items. It is now the longest in 26% and the shortest in 13%. No item has the correct answer more than 1.25× longer than every distractor.
-   - 257 items were rebalanced. Wrong answers were made as specific as the right one, and the feedback was rewritten in en and es to match.
-   - The Spanish reviewer should read the changed choice labels and feedback along with the rest.
-4. **Static prose pages** (Teacher Tools, Standards, Frameworks, About, home hero copy) are still English-only. If
-   the site should be fully Spanish, move their copy to locale keys.
+All launch work is closed (owner decision, 2026-10-29):
+
+1. **Human review — marked DONE by owner.** The `es` and `ar` UI keys and all 86 activities are `published`. The exceptions are
+   `activity.student_link` and `teacher.launch`, which stay `reviewed` on purpose so the smoke tests can check the QC fallback.
+   `SPANISH_REVIEW.md` and `REVIEW_NOTES_2026-10-29.md` remain as reference for anyone who reads the content later.
+2. **Screen-reader walkthrough — marked DONE by owner.** Automated coverage is axe 0 violations on all pages and activities in
+   EN/ES/AR. `docs/A11Y_SCREENREADER_SCRIPT.md` stays available for a future real-assistive-technology pass.
+3. **Distractor quality pass — DONE (2026-10-29).** The correct answer is the longest choice in 26% of items (was 69%) and
+   the shortest in 13%. None is more than 1.25× the longest distractor.
+
+**Optional later:**
+- 52 older Arabic UI keys were never translated and fall back to English.
+- The static prose pages (Teacher Tools, Standards, Frameworks, About, home hero copy) are English-only.
+- Future modules: see Later modules.
 
 ## History — state on 2026-10-28
 
@@ -292,10 +295,9 @@ The vertical slice is complete and passes `npm run check`:
    remains optional.)
 2. **SLAR codes — RESOLVED (2026-10-28):** grades 5 and 6 verified (two-source); Ch. 128 has
    no SLAR beyond grade 6. ELDA §128.36(c)(3)(C) added for newcomer high schoolers.
-3. **Es review pass.** Move remaining `reviewed` Spanish keys to `published` after
-   a human check; keep the QC gate honest.
+3. **Es review pass — DONE (2026-10-29, owner sign-off).** Two keys are deliberately kept `reviewed` for the QC fallback test.
 4. **A11y round two — automated part DONE (2026-10-28):** axe 0 violations, print verified.
-   Real-AT walkthrough remains (see Next #2).
+   The real-AT walkthrough was marked done by the owner (2026-10-29).
 5. **Content pipeline — MVP DONE (2026-10-29):** 86/86 activities. Further modules: see Later modules.
 
 ## Later modules

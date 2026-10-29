@@ -402,7 +402,7 @@
       ],
       "created": "2026-09-17",
       "updated": "2026-09-17",
-      "status": "reviewed"
+      "status": "published"
     },
     {
       "id": "nav-question-3-5-002",
@@ -792,7 +792,7 @@
       ],
       "created": "2026-09-17",
       "updated": "2026-09-17",
-      "status": "reviewed"
+      "status": "published"
     },
     {
       "id": "nav-mean-3-5-003",
@@ -1158,7 +1158,7 @@
       ],
       "created": "2026-09-17",
       "updated": "2026-09-17",
-      "status": "reviewed"
+      "status": "published"
     },
     {
       "id": "nav-repair-3-5-004",
@@ -1549,7 +1549,7 @@
       ],
       "created": "2026-09-17",
       "updated": "2026-09-17",
-      "status": "reviewed"
+      "status": "published"
     },
     {
       "id": "nav-help-3-5-005",
@@ -1940,7 +1940,7 @@
       ],
       "created": "2026-09-18",
       "updated": "2026-09-18",
-      "status": "reviewed"
+      "status": "published"
     },
     {
       "id": "nav-navigate-6-8-006",
@@ -2504,7 +2504,7 @@
       ],
       "created": "2026-10-11",
       "updated": "2026-10-11",
-      "status": "reviewed"
+      "status": "published"
     },
     {
       "id": "nav-highschool-9-12-007",
@@ -3064,7 +3064,7 @@
       ],
       "created": "2026-10-11",
       "updated": "2026-10-11",
-      "status": "reviewed"
+      "status": "published"
     },
     {
       "id": "nav-directions-3-5-008",
@@ -3531,7 +3531,7 @@
       ],
       "created": "2026-10-11",
       "updated": "2026-10-11",
-      "status": "reviewed"
+      "status": "published"
     },
     {
       "id": "nav-feelings-3-5-009",
@@ -3998,7 +3998,7 @@
       ],
       "created": "2026-10-11",
       "updated": "2026-10-11",
-      "status": "reviewed"
+      "status": "published"
     },
     {
       "id": "nav-offices-9-12-010",
@@ -4475,7 +4475,7 @@
       ],
       "created": "2026-10-11",
       "updated": "2026-10-11",
-      "status": "reviewed"
+      "status": "published"
     },
     {
       "id": "nav-school-k-2-011",
@@ -5236,7 +5236,7 @@
       ],
       "created": "2026-10-11",
       "updated": "2026-10-11",
-      "status": "reviewed"
+      "status": "published"
     },
     {
       "id": "nav-map-k-2-012",
@@ -5819,7 +5819,7 @@
       ],
       "created": "2026-10-29",
       "updated": "2026-10-29",
-      "status": "reviewed"
+      "status": "published"
     },
     {
       "id": "nav-hello-k-2-013",
@@ -6393,7 +6393,7 @@
       ],
       "created": "2026-10-29",
       "updated": "2026-10-29",
-      "status": "reviewed"
+      "status": "published"
     },
     {
       "id": "nav-register-k-2-014",
@@ -6755,7 +6755,7 @@
       ],
       "created": "2026-10-29",
       "updated": "2026-10-29",
-      "status": "reviewed"
+      "status": "published"
     },
     {
       "id": "nav-nurse-k-2-015",
@@ -7260,7 +7260,7 @@
       ],
       "created": "2026-10-29",
       "updated": "2026-10-29",
-      "status": "reviewed"
+      "status": "published"
     },
     {
       "id": "nav-routines-k-2-016",
@@ -7840,7 +7840,7 @@
       ],
       "created": "2026-10-29",
       "updated": "2026-10-29",
-      "status": "reviewed"
+      "status": "published"
     },
     {
       "id": "nav-menu-3-5-017",
@@ -8322,7 +8322,7 @@
       ],
       "created": "2026-10-29",
       "updated": "2026-10-29",
-      "status": "reviewed"
+      "status": "published"
     },
     {
       "id": "nav-bus-3-5-018",
@@ -8804,7 +8804,7 @@
       ],
       "created": "2026-10-29",
       "updated": "2026-10-29",
-      "status": "reviewed"
+      "status": "published"
     },
     {
       "id": "nav-fieldtrip-3-5-019",
@@ -9286,7 +9286,7 @@
       ],
       "created": "2026-10-29",
       "updated": "2026-10-29",
-      "status": "reviewed"
+      "status": "published"
     },
     {
       "id": "nav-schedule-3-5-020",
@@ -9768,7 +9768,7 @@
       ],
       "created": "2026-10-29",
       "updated": "2026-10-29",
-      "status": "reviewed"
+      "status": "published"
     },
     {
       "id": "nav-signs-3-5-021",
@@ -10165,7 +10165,7 @@
       ],
       "created": "2026-10-29",
       "updated": "2026-10-29",
-      "status": "reviewed"
+      "status": "published"
     },
     {
       "id": "nav-schedule-6-8-022",
@@ -10666,7 +10666,7 @@
       ],
       "created": "2026-10-29",
       "updated": "2026-10-29",
-      "status": "reviewed"
+      "status": "published"
     },
     {
       "id": "nav-announce-6-8-023",
@@ -11154,7 +11154,7 @@
       ],
       "created": "2026-10-29",
       "updated": "2026-10-29",
-      "status": "reviewed"
+      "status": "published"
     },
     {
       "id": "nav-email-6-8-024",
@@ -11635,7 +11635,7 @@
       ],
       "created": "2026-10-29",
       "updated": "2026-10-29",
-      "status": "reviewed"
+      "status": "published"
     },
     {
       "id": "nav-drills-6-8-025",
@@ -12138,7 +12138,7 @@
       ],
       "created": "2026-10-29",
       "updated": "2026-10-29",
-      "status": "reviewed"
+      "status": "published"
     },
     {
       "id": "nav-roles-6-8-026",
@@ -12529,7 +12529,7 @@
       ],
       "created": "2026-10-29",
       "updated": "2026-10-29",
-      "status": "reviewed"
+      "status": "published"
     },
     {
       "id": "nav-syllabus-9-12-027",
@@ -13084,7 +13084,7 @@
       ],
       "created": "2026-10-29",
       "updated": "2026-10-29",
-      "status": "reviewed"
+      "status": "published"
     },
     {
       "id": "nav-portal-9-12-028",
@@ -13592,7 +13592,7 @@
       ],
       "created": "2026-10-29",
       "updated": "2026-10-29",
-      "status": "reviewed"
+      "status": "published"
     },
     {
       "id": "nav-aboutme-9-12-029",
@@ -14160,7 +14160,7 @@
       ],
       "created": "2026-10-29",
       "updated": "2026-10-29",
-      "status": "reviewed"
+      "status": "published"
     },
     {
       "id": "nav-campus-9-12-030",
@@ -14652,7 +14652,7 @@
       ],
       "created": "2026-10-29",
       "updated": "2026-10-29",
-      "status": "reviewed"
+      "status": "published"
     }
   ]
 }

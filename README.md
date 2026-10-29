@@ -9,9 +9,8 @@ Home: <https://mglearn.github.io/puente/>
 
 > **Status: MVP content complete (2026-10-29).** Live at <https://mglearn.github.io/puente/>:
 > 3 modules, 86 activities across K–12, every one driving the student interactive, teacher view,
-> ELPS/TEKS drawer, ACE/CLEAR metadata, and printable from a single record. Remaining before an
-> announcement: human Spanish/Arabic review and a real screen-reader walkthrough — see
-> [`docs/ROADMAP.md`](docs/ROADMAP.md). The full blueprint lives in
+> ELPS/TEKS drawer, ACE/CLEAR metadata, and printable from a single record. English, Spanish,
+> and Arabic UI published; launch checklist closed (see [`docs/ROADMAP.md`](docs/ROADMAP.md)). The full blueprint lives in
 > [`docs/BUILD_SPEC.md`](docs/BUILD_SPEC.md); read it before adding modules or activities.
 
 ## Run it

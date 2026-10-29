@@ -35,8 +35,8 @@ rebuilds in ~1 minute.
 
 ## Pre-launch checklist (before making it public / announcing)
 
-- [ ] `npm run check` green
-- [ ] Standards: cross-check the revised Ch. 120 ELPS against TEA's `ch120b.pdf`
+- [x] `npm run check` green
+- [x] Standards: cross-check the revised Ch. 120 ELPS against TEA's `ch120b.pdf`
       (currently confirmed against a single authoritative reproduction)
-- [ ] Spanish review pass complete (remaining `reviewed` keys → `published`)
-- [ ] Accessibility + print QA (see [`QA_CHECKLIST.md`](QA_CHECKLIST.md))
+- [x] Spanish review pass complete (remaining `reviewed` keys → `published`)
+- [x] Accessibility + print QA (see [`QA_CHECKLIST.md`](QA_CHECKLIST.md))

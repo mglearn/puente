@@ -469,7 +469,7 @@
       ],
       "created": "2026-09-17",
       "updated": "2026-09-17",
-      "status": "reviewed"
+      "status": "published"
     },
     {
       "id": "all-say-3-5-002",
@@ -840,7 +840,7 @@
       ],
       "created": "2026-09-17",
       "updated": "2026-09-17",
-      "status": "reviewed"
+      "status": "published"
     },
     {
       "id": "all-evidence-3-5-003",
@@ -1219,7 +1219,7 @@
       ],
       "created": "2026-09-17",
       "updated": "2026-09-17",
-      "status": "reviewed"
+      "status": "published"
     },
     {
       "id": "all-explain-3-5-004",
@@ -1598,7 +1598,7 @@
       ],
       "created": "2026-09-17",
       "updated": "2026-09-17",
-      "status": "reviewed"
+      "status": "published"
     },
     {
       "id": "all-connotation-9-12-005",
@@ -1979,7 +1979,7 @@
       ],
       "created": "2026-09-17",
       "updated": "2026-09-17",
-      "status": "reviewed"
+      "status": "published"
     },
     {
       "id": "all-expand-3-5-006",
@@ -2347,7 +2347,7 @@
       ],
       "created": "2026-09-18",
       "updated": "2026-09-18",
-      "status": "reviewed"
+      "status": "published"
     },
     {
       "id": "all-compare-3-5-007",
@@ -2715,7 +2715,7 @@
       ],
       "created": "2026-09-18",
       "updated": "2026-09-18",
-      "status": "reviewed"
+      "status": "published"
     },
     {
       "id": "all-academic-6-8-008",
@@ -3198,7 +3198,7 @@
       ],
       "created": "2026-10-11",
       "updated": "2026-10-11",
-      "status": "reviewed"
+      "status": "published"
     },
     {
       "id": "all-talk-6-8-009",
@@ -3655,7 +3655,7 @@
       ],
       "created": "2026-10-11",
       "updated": "2026-10-11",
-      "status": "reviewed"
+      "status": "published"
     },
     {
       "id": "all-register-9-12-010",
@@ -4114,7 +4114,7 @@
       ],
       "created": "2026-10-11",
       "updated": "2026-10-11",
-      "status": "reviewed"
+      "status": "published"
     },
     {
       "id": "all-present-3-5-011",
@@ -4576,7 +4576,7 @@
       ],
       "created": "2026-10-11",
       "updated": "2026-10-11",
-      "status": "reviewed"
+      "status": "published"
     },
     {
       "id": "all-actions-k-2-012",
@@ -5347,7 +5347,7 @@
       ],
       "created": "2026-10-11",
       "updated": "2026-10-11",
-      "status": "reviewed"
+      "status": "published"
     },
     {
       "id": "all-describe-k-2-013",
@@ -5857,7 +5857,7 @@
       ],
       "created": "2026-10-29",
       "updated": "2026-10-29",
-      "status": "reviewed"
+      "status": "published"
     },
     {
       "id": "all-meaning-k-2-014",
@@ -6406,7 +6406,7 @@
       ],
       "created": "2026-10-29",
       "updated": "2026-10-29",
-      "status": "reviewed"
+      "status": "published"
     },
     {
       "id": "all-steps-k-2-015",
@@ -6882,7 +6882,7 @@
       ],
       "created": "2026-10-29",
       "updated": "2026-10-29",
-      "status": "reviewed"
+      "status": "published"
     },
     {
       "id": "all-science-k-2-016",
@@ -7439,7 +7439,7 @@
       ],
       "created": "2026-10-29",
       "updated": "2026-10-29",
-      "status": "reviewed"
+      "status": "published"
     },
     {
       "id": "all-worktalk-k-2-017",
@@ -7990,7 +7990,7 @@
       ],
       "created": "2026-10-29",
       "updated": "2026-10-29",
-      "status": "reviewed"
+      "status": "published"
     },
     {
       "id": "all-sequence-3-5-018",
@@ -8454,7 +8454,7 @@
       ],
       "created": "2026-10-29",
       "updated": "2026-10-29",
-      "status": "reviewed"
+      "status": "published"
     },
     {
       "id": "all-summary-3-5-019",
@@ -8918,7 +8918,7 @@
       ],
       "created": "2026-10-29",
       "updated": "2026-10-29",
-      "status": "reviewed"
+      "status": "published"
     },
     {
       "id": "all-justify-3-5-020",
@@ -9401,7 +9401,7 @@
       ],
       "created": "2026-10-29",
       "updated": "2026-10-29",
-      "status": "reviewed"
+      "status": "published"
     },
     {
       "id": "all-clarify-3-5-021",
@@ -9883,7 +9883,7 @@
       ],
       "created": "2026-10-29",
       "updated": "2026-10-29",
-      "status": "reviewed"
+      "status": "published"
     },
     {
       "id": "all-details-3-5-022",
@@ -10276,7 +10276,7 @@
       ],
       "created": "2026-10-29",
       "updated": "2026-10-29",
-      "status": "reviewed"
+      "status": "published"
     },
     {
       "id": "all-email-6-8-023",
@@ -10777,7 +10777,7 @@
       ],
       "created": "2026-10-29",
       "updated": "2026-10-29",
-      "status": "reviewed"
+      "status": "published"
     },
     {
       "id": "all-justify-6-8-024",
@@ -11258,7 +11258,7 @@
       ],
       "created": "2026-10-29",
       "updated": "2026-10-29",
-      "status": "reviewed"
+      "status": "published"
     },
     {
       "id": "all-clues-6-8-025",
@@ -11837,7 +11837,7 @@
       ],
       "created": "2026-10-29",
       "updated": "2026-10-29",
-      "status": "reviewed"
+      "status": "published"
     },
     {
       "id": "all-content-6-8-026",
@@ -12250,7 +12250,7 @@
       ],
       "created": "2026-10-29",
       "updated": "2026-10-29",
-      "status": "reviewed"
+      "status": "published"
     },
     {
       "id": "all-transitions-6-8-027",
@@ -12728,7 +12728,7 @@
       ],
       "created": "2026-10-29",
       "updated": "2026-10-29",
-      "status": "reviewed"
+      "status": "published"
     },
     {
       "id": "all-response-9-12-028",
@@ -13215,7 +13215,7 @@
       ],
       "created": "2026-10-29",
       "updated": "2026-10-29",
-      "status": "reviewed"
+      "status": "published"
     },
     {
       "id": "all-idioms-9-12-029",
@@ -13787,7 +13787,7 @@
       ],
       "created": "2026-10-29",
       "updated": "2026-10-29",
-      "status": "reviewed"
+      "status": "published"
     },
     {
       "id": "all-cer-9-12-030",
@@ -14173,7 +14173,7 @@
       ],
       "created": "2026-10-29",
       "updated": "2026-10-29",
-      "status": "reviewed"
+      "status": "published"
     },
     {
       "id": "all-hedge-9-12-031",
@@ -14674,7 +14674,7 @@
       ],
       "created": "2026-10-29",
       "updated": "2026-10-29",
-      "status": "reviewed"
+      "status": "published"
     },
     {
       "id": "all-seminar-9-12-032",
@@ -15242,7 +15242,7 @@
       ],
       "created": "2026-10-29",
       "updated": "2026-10-29",
-      "status": "reviewed"
+      "status": "published"
     }
   ]
 }
