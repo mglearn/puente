@@ -64,15 +64,15 @@
             {
               "id": "a",
               "label": {
-                "en": "True cognate — same meaning",
-                "es": "Cognado verdadero — mismo significado"
+                "en": "True cognate — meaning matches",
+                "es": "Cognado verdadero — el significado es igual"
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "False friend — looks alike, different meaning",
-                "es": "Falso amigo — se parece, significado distinto"
+                "en": "False friend — meaning differs",
+                "es": "Falso amigo — el significado es distinto"
               }
             }
           ],
@@ -124,15 +124,15 @@
             {
               "id": "a",
               "label": {
-                "en": "True cognate — same meaning",
-                "es": "Cognado verdadero — mismo significado"
+                "en": "True cognate — meaning matches",
+                "es": "Cognado verdadero — el significado es igual"
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "False friend — looks alike, different meaning",
-                "es": "Falso amigo — se parece, significado distinto"
+                "en": "False friend — meaning differs",
+                "es": "Falso amigo — el significado es distinto"
               }
             }
           ],
@@ -184,15 +184,15 @@
             {
               "id": "a",
               "label": {
-                "en": "True cognate — same meaning",
-                "es": "Cognado verdadero — mismo significado"
+                "en": "True cognate — meaning matches",
+                "es": "Cognado verdadero — el significado es igual"
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "False friend — looks alike, different meaning",
-                "es": "Falso amigo — se parece, significado distinto"
+                "en": "False friend — meaning differs",
+                "es": "Falso amigo — el significado es distinto"
               }
             }
           ],
@@ -244,15 +244,15 @@
             {
               "id": "a",
               "label": {
-                "en": "True cognate — same meaning",
-                "es": "Cognado verdadero — mismo significado"
+                "en": "True cognate — meaning matches",
+                "es": "Cognado verdadero — el significado es igual"
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "False friend — looks alike, different meaning",
-                "es": "Falso amigo — se parece, significado distinto"
+                "en": "False friend — meaning differs",
+                "es": "Falso amigo — el significado es distinto"
               }
             }
           ],
@@ -304,15 +304,15 @@
             {
               "id": "a",
               "label": {
-                "en": "True cognate — same meaning",
-                "es": "Cognado verdadero — mismo significado"
+                "en": "True cognate — meaning matches",
+                "es": "Cognado verdadero — el significado es igual"
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "False friend — looks alike, different meaning",
-                "es": "Falso amigo — se parece, significado distinto"
+                "en": "False friend — meaning differs",
+                "es": "Falso amigo — el significado es distinto"
               }
             }
           ],
@@ -364,15 +364,15 @@
             {
               "id": "a",
               "label": {
-                "en": "True cognate — same meaning",
-                "es": "Cognado verdadero — mismo significado"
+                "en": "True cognate — meaning matches",
+                "es": "Cognado verdadero — el significado es igual"
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "False friend — looks alike, different meaning",
-                "es": "Falso amigo — se parece, significado distinto"
+                "en": "False friend — meaning differs",
+                "es": "Falso amigo — el significado es distinto"
               }
             }
           ],
@@ -1481,15 +1481,15 @@
             {
               "id": "b",
               "label": {
-                "en": "a factory",
-                "es": "una fábrica"
+                "en": "a factory that makes clothes",
+                "es": "una fábrica que hace ropa"
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "a zipper",
-                "es": "un cierre"
+                "en": "the zipper on the front",
+                "es": "el cierre de enfrente"
               }
             }
           ],
@@ -1561,8 +1561,8 @@
             {
               "id": "c",
               "label": {
-                "en": "very expensive",
-                "es": "muy caro"
+                "en": "very expensive and hard to find",
+                "es": "muy caro y difícil de encontrar"
               }
             }
           ],
@@ -1589,8 +1589,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "Cost isn't mentioned. “Sensible” describes the reasonable choice.",
-                "es": "No se menciona el costo. “Sensible” describe la decisión razonable."
+                "en": "Cost and how hard it is to find aren't mentioned. “Sensible” describes the reasonable choice.",
+                "es": "No se menciona el costo ni si es difícil de encontrar. “Sensible” describe la decisión razonable."
               }
             }
           }
@@ -2499,15 +2499,15 @@
             {
               "id": "b",
               "label": {
-                "en": "table",
-                "es": "table"
+                "en": "pumpkin",
+                "es": "pumpkin"
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "water",
-                "es": "water"
+                "en": "rainbow",
+                "es": "rainbow"
               }
             }
           ],
@@ -2534,8 +2534,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "This picture is an elephant, not water. In Spanish, “elefante.”",
-                "es": "Esta imagen es un elefante, no agua. En español, “elefante.”"
+                "en": "This picture is an elephant, not a rainbow. In Spanish, “elefante.”",
+                "es": "Esta imagen es un elefante, no un arcoíris. En español, “elefante.”"
               }
             }
           }
@@ -2629,15 +2629,15 @@
             {
               "id": "b",
               "label": {
-                "en": "door",
-                "es": "door"
+                "en": "spoon",
+                "es": "spoon"
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "shoe",
-                "es": "shoe"
+                "en": "towel",
+                "es": "towel"
               }
             }
           ],
@@ -2664,8 +2664,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "This is a banana, not a shoe. In Spanish, “banana.”",
-                "es": "Es una banana, no un zapato. En español, “banana.”"
+                "en": "This is a banana, not a towel. In Spanish, “banana.”",
+                "es": "Es una banana, no una toalla. En español, “banana.”"
               }
             }
           }
@@ -2694,15 +2694,15 @@
             {
               "id": "b",
               "label": {
-                "en": "spoon",
-                "es": "spoon"
+                "en": "backpack",
+                "es": "backpack"
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "cloud",
-                "es": "cloud"
+                "en": "blanket",
+                "es": "blanket"
               }
             }
           ],
@@ -2729,8 +2729,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "This is a dinosaur, not a cloud. In Spanish, “dinosaurio.”",
-                "es": "Es un dinosaurio, no una nube. En español, “dinosaurio.”"
+                "en": "This is a dinosaur, not a blanket. In Spanish, “dinosaurio.”",
+                "es": "Es un dinosaurio, no una cobija. En español, “dinosaurio.”"
               }
             }
           }
@@ -2759,8 +2759,8 @@
             {
               "id": "b",
               "label": {
-                "en": "hat",
-                "es": "hat"
+                "en": "horse",
+                "es": "horse"
               }
             },
             {
@@ -2824,15 +2824,15 @@
             {
               "id": "b",
               "label": {
-                "en": "rock",
-                "es": "rock"
+                "en": "basket",
+                "es": "basket"
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "cup",
-                "es": "cup"
+                "en": "window",
+                "es": "window"
               }
             }
           ],
@@ -2859,8 +2859,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "This is a family, not a cup. In Spanish, “familia.”",
-                "es": "Es una familia, no una taza. En español, “familia.”"
+                "en": "This is a family, not a window. In Spanish, “familia.”",
+                "es": "Es una familia, no una ventana. En español, “familia.”"
               }
             }
           }
@@ -2999,15 +2999,15 @@
             {
               "id": "b",
               "label": {
-                "en": "dog",
-                "es": "dog"
+                "en": "baker",
+                "es": "baker"
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "tree",
-                "es": "tree"
+                "en": "puppy",
+                "es": "puppy"
               }
             }
           ],
@@ -3034,8 +3034,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "This is a doctor, not a tree. In Spanish, “doctora.”",
-                "es": "Es una doctora, no un árbol. En español, “doctora.”"
+                "en": "This is a doctor, not a puppy. In Spanish, “doctora.”",
+                "es": "Es una doctora, no un perrito. En español, “doctora.”"
               }
             }
           }
@@ -3064,15 +3064,15 @@
             {
               "id": "b",
               "label": {
-                "en": "spoon",
-                "es": "spoon"
+                "en": "notebook",
+                "es": "notebook"
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "hat",
-                "es": "hat"
+                "en": "flashlight",
+                "es": "flashlight"
               }
             }
           ],
@@ -3099,8 +3099,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "This is a telephone, not a hat. In Spanish, “teléfono.”",
-                "es": "Es un teléfono, no un sombrero. En español, “teléfono.”"
+                "en": "This is a telephone, not a flashlight. In Spanish, “teléfono.”",
+                "es": "Es un teléfono, no una linterna. En español, “teléfono.”"
               }
             }
           }
@@ -3129,15 +3129,15 @@
             {
               "id": "b",
               "label": {
-                "en": "pencil",
-                "es": "pencil"
+                "en": "backpack",
+                "es": "backpack"
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "window",
-                "es": "window"
+                "en": "strawberry",
+                "es": "strawberry"
               }
             }
           ],
@@ -3164,8 +3164,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "This is chocolate, not a window. In Spanish, “chocolate.”",
-                "es": "Es chocolate, no una ventana. En español, “chocolate.”"
+                "en": "This is chocolate, not a strawberry. In Spanish, “chocolate.”",
+                "es": "Es chocolate, no una fresa. En español, “chocolate.”"
               }
             }
           }
@@ -3194,8 +3194,8 @@
             {
               "id": "b",
               "label": {
-                "en": "boot",
-                "es": "boot"
+                "en": "chair",
+                "es": "chair"
               }
             },
             {
@@ -3259,15 +3259,15 @@
             {
               "id": "b",
               "label": {
-                "en": "ball",
-                "es": "ball"
+                "en": "sunflower",
+                "es": "sunflower"
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "car",
-                "es": "car"
+                "en": "mailbox",
+                "es": "mailbox"
               }
             }
           ],
@@ -3294,8 +3294,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "This is an elephant, not a car. In Spanish, “elefante.”",
-                "es": "Es un elefante, no un carro. En español, “elefante.”"
+                "en": "This is an elephant, not a mailbox. In Spanish, “elefante.”",
+                "es": "Es un elefante, no un buzón. En español, “elefante.”"
               }
             }
           }
@@ -3324,15 +3324,15 @@
             {
               "id": "b",
               "label": {
-                "en": "sock",
-                "es": "sock"
+                "en": "teapot",
+                "es": "teapot"
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "moon",
-                "es": "moon"
+                "en": "rainbow",
+                "es": "rainbow"
               }
             }
           ],
@@ -3359,8 +3359,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "This is a dinosaur, not the moon. In Spanish, “dinosaurio.”",
-                "es": "Es un dinosaurio, no la luna. En español, “dinosaurio.”"
+                "en": "This is a dinosaur, not a rainbow. In Spanish, “dinosaurio.”",
+                "es": "Es un dinosaurio, no un arcoíris. En español, “dinosaurio.”"
               }
             }
           }
@@ -3500,22 +3500,22 @@
             {
               "id": "a",
               "label": {
-                "en": "in the end; finally, after some time",
-                "es": "al final; finalmente, después de un tiempo"
+                "en": "finally, after some time",
+                "es": "finalmente, después de un tiempo"
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "possibly; maybe",
-                "es": "posiblemente; tal vez"
+                "en": "possibly; maybe it will happen",
+                "es": "posiblemente; tal vez pase"
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "immediately",
-                "es": "inmediatamente"
+                "en": "right away, on the first try",
+                "es": "de inmediato, al primer intento"
               }
             }
           ],
@@ -3542,8 +3542,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "It took many tries, so it wasn't immediate. “Eventually” means finally.",
-                "es": "Tomó muchos intentos, así que no fue inmediato. “Eventually” significa finalmente."
+                "en": "It took many tries, so it didn't happen right away or on the first try. “Eventually” means finally.",
+                "es": "Tomó muchos intentos, así que no pasó de inmediato ni al primer intento. “Eventually” significa finalmente."
               }
             }
           }
@@ -3580,15 +3580,15 @@
             {
               "id": "b",
               "label": {
-                "en": "remember",
-                "es": "recordar"
+                "en": "remember; keep it in your mind",
+                "es": "recordar; tenerlo en la mente"
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "erase",
-                "es": "borrar"
+                "en": "erase and start over",
+                "es": "borrar y empezar de nuevo"
               }
             }
           ],
@@ -3615,8 +3615,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "You're collecting data, not erasing it. “Record” means write it down.",
-                "es": "Estás reuniendo datos, no borrándolos. “Record” significa anotarlos."
+                "en": "You're collecting data, not erasing it and starting over. “Record” means write it down.",
+                "es": "Estás reuniendo datos, no borrándolos para empezar de nuevo. “Record” significa anotarlos."
               }
             }
           }
@@ -3646,8 +3646,8 @@
             {
               "id": "a",
               "label": {
-                "en": "tell the public about it to promote it",
-                "es": "dar a conocer algo al público para promocionarlo"
+                "en": "promote it to the public",
+                "es": "promocionarlo ante el público"
               }
             },
             {
@@ -4297,8 +4297,8 @@
             {
               "id": "a",
               "label": {
-                "en": "in fact; really (the truth is)",
-                "es": "de hecho; en realidad (la verdad es)"
+                "en": "in fact; really",
+                "es": "de hecho; en realidad"
               }
             },
             {
@@ -4311,8 +4311,8 @@
             {
               "id": "c",
               "label": {
-                "en": "sometimes",
-                "es": "a veces"
+                "en": "sometimes; once in a while",
+                "es": "a veces; de vez en cuando"
               }
             }
           ],
@@ -4443,22 +4443,22 @@
             {
               "id": "a",
               "label": {
-                "en": "a spoken talk that teaches about a topic",
-                "es": "una charla hablada que enseña sobre un tema"
+                "en": "a talk that teaches a topic",
+                "es": "una charla que enseña un tema"
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "a reading; a text to read",
-                "es": "una lectura; un texto para leer"
+                "en": "a reading; a text assigned to read",
+                "es": "una lectura; un texto asignado para leer"
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "a test",
-                "es": "un examen"
+                "en": "a test given to the students",
+                "es": "un examen para los estudiantes"
               }
             }
           ],
@@ -4516,22 +4516,22 @@
             {
               "id": "a",
               "label": {
-                "en": "a profession or work life over many years",
-                "es": "una profesión o vida laboral a lo largo de muchos años"
+                "en": "a profession over many years",
+                "es": "una profesión a lo largo de muchos años"
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "a race or competition",
-                "es": "una carrera o competencia"
+                "en": "a race or a running competition",
+                "es": "una carrera o competencia de atletismo"
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "a university major",
-                "es": "una carrera universitaria"
+                "en": "the major she studied at university",
+                "es": "la carrera que estudió en la universidad"
               }
             }
           ],
@@ -4589,8 +4589,8 @@
             {
               "id": "a",
               "label": {
-                "en": "became aware; suddenly understood",
-                "es": "se dio cuenta; comprendió de repente"
+                "en": "suddenly became aware",
+                "es": "se dio cuenta de repente"
               }
             },
             {
@@ -4603,8 +4603,8 @@
             {
               "id": "c",
               "label": {
-                "en": "finished",
-                "es": "terminó"
+                "en": "finished the exam early",
+                "es": "terminó el examen antes de tiempo"
               }
             }
           ],
@@ -4862,8 +4862,8 @@
             {
               "id": "b",
               "label": {
-                "en": "hear tiny sounds",
-                "es": "oír sonidos diminutos"
+                "en": "see tiny things up close",
+                "es": "ver cosas diminutas de cerca"
               }
             },
             {
@@ -4886,8 +4886,8 @@
             "b": {
               "correct": false,
               "why": {
-                "en": "That would use “-scope” but not the root “tele-” (far). A telescope is for things far away.",
-                "es": "Eso usaría “-scope” pero no la raíz “tele-” (lejos). Un telescope es para cosas lejanas."
+                "en": "Seeing tiny things up close is what a microscope does. “tele-” means far — a telescope is for things far away.",
+                "es": "Ver cosas diminutas de cerca es lo que hace un microscopio. “tele-” significa lejos: un telescope es para cosas lejanas."
               },
               "hint": {
                 "en": "What does “tele-” mean?",
@@ -5010,15 +5010,15 @@
             {
               "id": "b",
               "label": {
-                "en": "numbers and shapes",
-                "es": "los números y las figuras"
+                "en": "numbers, shapes, and angles",
+                "es": "los números, las figuras y los ángulos"
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "music",
-                "es": "la música"
+                "en": "music and songs",
+                "es": "la música y las canciones"
               }
             }
           ],
@@ -5034,8 +5034,8 @@
             "b": {
               "correct": false,
               "why": {
-                "en": "Numbers and shapes are math (geometry shares “geo” but measures shapes). Geography maps the Earth.",
-                "es": "Los números y las figuras son matemáticas (geometry comparte “geo” pero mide figuras). La geography mapea la Tierra."
+                "en": "Numbers, shapes, and angles are math (geometry shares “geo” but measures shapes). Geography maps the Earth.",
+                "es": "Los números, las figuras y los ángulos son matemáticas (geometry comparte “geo” pero mide figuras). La geography mapea la Tierra."
               },
               "hint": {
                 "en": "What does “geo” mean?",
@@ -5045,8 +5045,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "Music isn't about the Earth. “geo” means earth — geography studies places on Earth.",
-                "es": "La música no trata de la Tierra. “geo” significa tierra: la geography estudia lugares de la Tierra."
+                "en": "Music and songs aren't about the Earth. “geo” means earth — geography studies places on Earth.",
+                "es": "La música y las canciones no tratan de la Tierra. “geo” significa tierra: la geography estudia lugares de la Tierra."
               }
             }
           }
@@ -5077,22 +5077,22 @@
             {
               "id": "a",
               "label": {
-                "en": "A camera uses light to make the picture.",
-                "es": "La cámara usa luz para hacer la imagen."
+                "en": "Light makes the picture.",
+                "es": "La luz forma la imagen."
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "It needs to be very cold.",
-                "es": "Necesita hacer mucho frío."
+                "en": "The camera needs to be very cold.",
+                "es": "La cámara necesita estar muy fría."
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "It needs loud sound.",
-                "es": "Necesita sonido fuerte."
+                "en": "It needs loud sound to work.",
+                "es": "Necesita sonido fuerte para funcionar."
               }
             }
           ],
@@ -5151,22 +5151,22 @@
             {
               "id": "a",
               "label": {
-                "en": "a place with water where fish live",
-                "es": "un lugar con agua donde viven los peces"
+                "en": "a water place where fish live",
+                "es": "un lugar con agua donde viven peces"
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "a place to fly kites",
-                "es": "un lugar para volar cometas"
+                "en": "a field for flying kites",
+                "es": "un campo para volar cometas"
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "a kind of bread",
-                "es": "un tipo de pan"
+                "en": "a shop that sells bread",
+                "es": "una tienda que vende pan"
               }
             }
           ],
@@ -5193,8 +5193,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "That's not it. “aqua” means water, so an aquarium is full of water for fish.",
-                "es": "No es eso. “aqua” significa agua, así que un aquarium está lleno de agua para los peces."
+                "en": "A bread shop is a bakery. “aqua” means water, so an aquarium is full of water for fish.",
+                "es": "Una tienda de pan es una panadería. “aqua” significa agua, así que un aquarium está lleno de agua para los peces."
               }
             }
           }
@@ -5336,22 +5336,22 @@
             {
               "id": "a",
               "label": {
-                "en": "energía — the power to do work or grow",
+                "en": "energía — power to work or grow",
                 "es": "energía: la fuerza para trabajar o crecer"
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "water",
-                "es": "agua"
+                "en": "agua — the water that plants drink",
+                "es": "agua: el agua que beben las plantas"
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "a color",
-                "es": "un color"
+                "en": "verde — the color of leaves",
+                "es": "verde: el color de las hojas"
               }
             }
           ],
@@ -5410,22 +5410,22 @@
             {
               "id": "a",
               "label": {
-                "en": "molécula — a very tiny particle of a substance",
-                "es": "molécula: una partícula muy pequeña de una sustancia"
+                "en": "molécula — a tiny particle of a substance",
+                "es": "molécula: una partícula diminuta de una sustancia"
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "a large animal",
-                "es": "un animal grande"
+                "en": "mamut — a huge animal from long ago",
+                "es": "mamut: un animal enorme de hace mucho tiempo"
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "a machine",
-                "es": "una máquina"
+                "en": "máquina — a machine with moving parts",
+                "es": "máquina: un aparato con partes que se mueven"
               }
             }
           ],
@@ -5441,8 +5441,8 @@
             "b": {
               "correct": false,
               "why": {
-                "en": "The sentence says TINY and invisible — not a large animal. Molecule ≈ molécula.",
-                "es": "La oración dice DIMINUTA e invisible, no un animal grande. Molecule ≈ molécula."
+                "en": "The sentence says TINY and invisible — not a huge animal like a mammoth (mamut). Molecule ≈ molécula.",
+                "es": "La oración dice DIMINUTA e invisible, no un animal enorme como un mamut. Molecule ≈ molécula."
               },
               "hint": {
                 "en": "Tiny or large?",
@@ -5484,22 +5484,22 @@
             {
               "id": "a",
               "label": {
-                "en": "función — the job or role something does",
-                "es": "función: el trabajo o papel que hace algo"
+                "en": "función — the job something does",
+                "es": "función: el trabajo que hace algo"
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "the color of something",
-                "es": "el color de algo"
+                "en": "forma — the shape or color of something",
+                "es": "forma: la forma o el color de algo"
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "a party",
-                "es": "una fiesta"
+                "en": "espectáculo — a show, like a concert",
+                "es": "espectáculo: un show, como un concierto"
               }
             }
           ],
@@ -5515,8 +5515,8 @@
             "b": {
               "correct": false,
               "why": {
-                "en": "Not color. “Function” ≈ “función,” the job something does.",
-                "es": "No es color. “Function” ≈ “función,” el trabajo que hace algo."
+                "en": "Not shape or color. “Function” ≈ “función,” the job something does.",
+                "es": "No es la forma ni el color. “Function” ≈ “función,” el trabajo que hace algo."
               },
               "hint": {
                 "en": "What does the heart DO?",
@@ -5526,7 +5526,7 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "“Función” can mean a show in Spanish, but in science it means the job something does.",
+                "en": "“Función” can mean a show (espectáculo) in Spanish, but in science it means the job something does.",
                 "es": "“Función” puede significar un espectáculo en español, pero en ciencias significa el trabajo que hace algo."
               }
             }
@@ -5565,15 +5565,15 @@
             {
               "id": "b",
               "label": {
-                "en": "throw away",
-                "es": "tirar"
+                "en": "tirar — throw it out",
+                "es": "tirar: echarla a la basura"
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "eat",
-                "es": "comer"
+                "en": "comer — eat its leaves",
+                "es": "comer: comerse sus hojas"
               }
             }
           ],
@@ -5639,15 +5639,15 @@
             {
               "id": "b",
               "label": {
-                "en": "a rock",
-                "es": "una roca"
+                "en": "piedra — a small rock or stone",
+                "es": "piedra: una roca pequeña"
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "a tool",
-                "es": "una herramienta"
+                "en": "herramienta — a tool for building",
+                "es": "herramienta: un objeto para construir"
               }
             }
           ],
@@ -6308,8 +6308,8 @@
             {
               "id": "c",
               "label": {
-                "en": "a type of fruit",
-                "es": "un tipo de fruta"
+                "en": "a type of small fruit",
+                "es": "un tipo de fruta pequeña"
               }
             }
           ],
@@ -6374,15 +6374,15 @@
             {
               "id": "b",
               "label": {
-                "en": "2. a plate on a fish",
-                "es": "2. una placa de un pez"
+                "en": "2. one of the small plates on a fish",
+                "es": "2. una de las placas pequeñas de un pez"
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "3. musical notes",
-                "es": "3. notas musicales"
+                "en": "3. a series of musical notes",
+                "es": "3. una serie de notas musicales"
               }
             }
           ],
@@ -7326,8 +7326,8 @@
             {
               "id": "c",
               "label": {
-                "en": "cat",
-                "es": "cat"
+                "en": "horse",
+                "es": "horse"
               }
             }
           ],
@@ -7354,8 +7354,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "“cat” is a real English word, but it does not sound like “tigre.” In Spanish, “cat” is “gato.” Listen for “tiger.”",
-                "es": "“cat” es una palabra en inglés, pero no suena como “tigre”. En español, “cat” es “gato”. Escucha bien: “tiger”."
+                "en": "“horse” is a real English word, but it does not sound like “tigre.” In Spanish, “horse” is “caballo.” Listen for “tiger.”",
+                "es": "“horse” es una palabra en inglés, pero no suena como “tigre”. En español, “horse” es “caballo”. Escucha bien: “tiger”."
               },
               "hint": {
                 "en": "Say “tigre” slowly. Which English word starts the same way?",
@@ -7536,8 +7536,8 @@
             {
               "id": "c",
               "label": {
-                "en": "box",
-                "es": "box"
+                "en": "toothbrush",
+                "es": "toothbrush"
               }
             }
           ],
@@ -7564,8 +7564,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "“box” is a real English word, but it does not sound like “teléfono.” In Spanish, “box” is “caja.” Listen for “telephone.”",
-                "es": "“box” es una palabra en inglés, pero no suena como “teléfono”. En español, “box” es “caja”. Escucha bien: “telephone”."
+                "en": "“toothbrush” is a real English word, but it does not sound like “teléfono.” In Spanish, “toothbrush” is “cepillo de dientes.” Listen for “telephone.”",
+                "es": "“toothbrush” es una palabra en inglés, pero no suena como “teléfono”. En español, “toothbrush” es “cepillo de dientes”. Escucha bien: “telephone”."
               },
               "hint": {
                 "en": "Say “teléfono” slowly. Which English word starts the same way?",
@@ -7599,8 +7599,8 @@
             {
               "id": "b",
               "label": {
-                "en": "cookie",
-                "es": "cookie"
+                "en": "lollipop",
+                "es": "lollipop"
               }
             },
             {
@@ -7627,8 +7627,8 @@
             "b": {
               "correct": false,
               "why": {
-                "en": "“cookie” is a real English word, but it does not sound like “chocolate.” In Spanish, “cookie” is “galleta.” Listen for “chocolate.”",
-                "es": "“cookie” es una palabra en inglés, pero no suena como “chocolate”. En español, “cookie” es “galleta”. Escucha bien: “chocolate”."
+                "en": "“lollipop” is a real English word, but it does not sound like “chocolate.” In Spanish, “lollipop” is “paleta.” Listen for “chocolate.”",
+                "es": "“lollipop” es una palabra en inglés, pero no suena como “chocolate”. En español, “lollipop” es “paleta”. Escucha bien: “chocolate”."
               },
               "hint": {
                 "en": "Say “chocolate” slowly. Which English word starts the same way?",
@@ -7676,8 +7676,8 @@
             {
               "id": "c",
               "label": {
-                "en": "lunch",
-                "es": "lunch"
+                "en": "playground",
+                "es": "playground"
               }
             }
           ],
@@ -7704,8 +7704,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "“lunch” is a real English word, but it does not sound like “cafetería.” In Spanish, “lunch” is “almuerzo.” Listen for “cafeteria.”",
-                "es": "“lunch” es una palabra en inglés, pero no suena como “cafetería”. En español, “lunch” es “almuerzo”. Escucha bien: “cafeteria”."
+                "en": "“playground” is a real English word, but it does not sound like “cafetería.” In Spanish, “playground” is “patio de recreo.” Listen for “cafeteria.”",
+                "es": "“playground” es una palabra en inglés, pero no suena como “cafetería”. En español, “playground” es “patio de recreo”. Escucha bien: “cafeteria”."
               },
               "hint": {
                 "en": "Say “cafetería” slowly. Which English word starts the same way?",
@@ -8147,22 +8147,22 @@
             {
               "id": "a",
               "label": {
-                "en": "The d: English skips it.",
-                "es": "La d: el inglés no la dice."
+                "en": "The d: English skips it; Spanish says it.",
+                "es": "La d: el inglés no la dice; el español sí."
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "The first i: English says “eye,” Spanish says “ee.”",
-                "es": "La primera i: en inglés suena “ai”; en español suena “i”."
+                "en": "The first i: English “eye,” Spanish “ee.”",
+                "es": "La primera i: en inglés “ai”; en español “i”."
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "The stress: English says I-de-a.",
-                "es": "El acento: en inglés se dice I-de-a."
+                "en": "The stress: English says I-de-a, Spanish i-DE-a.",
+                "es": "El acento: en inglés se dice I-de-a; en español, i-DE-a."
               }
             }
           ],
@@ -8220,22 +8220,22 @@
             {
               "id": "a",
               "label": {
-                "en": "English stresses the end: cho-co-LATE.",
-                "es": "El inglés acentúa el final: cho-co-LATE."
+                "en": "English stresses the end and says the final e: cho-co-LATE.",
+                "es": "El inglés acentúa el final y pronuncia la e final: cho-co-LATE."
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "They are said exactly the same way.",
-                "es": "Se dicen exactamente igual."
+                "en": "They are said the same way, with four parts each.",
+                "es": "Se dicen igual, con cuatro partes cada una."
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "English stresses the start and drops the final e: CHOK-lit.",
-                "es": "El inglés acentúa el principio y no pronuncia la e final: CHOK-lit."
+                "en": "English stresses the start and drops the e: CHOK-lit.",
+                "es": "El inglés acentúa el principio y no dice la e: CHOK-lit."
               }
             }
           ],
@@ -8398,15 +8398,15 @@
             {
               "id": "b",
               "label": {
-                "en": "very loud",
-                "es": "muy fuerte de volumen"
+                "en": "very loud, so everyone can hear",
+                "es": "muy fuerte, para que todos lo oigan"
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "connected to the wall",
-                "es": "conectado a la pared"
+                "en": "plugged into the wall to get power",
+                "es": "conectado a la pared para tener corriente"
               }
             }
           ],
@@ -8482,8 +8482,8 @@
             {
               "id": "c",
               "label": {
-                "en": "the people who sell tickets",
-                "es": "las personas que venden boletos"
+                "en": "the people who sell tickets at the gate",
+                "es": "las personas que venden boletos en la entrada"
               }
             }
           ],
@@ -8545,22 +8545,22 @@
             {
               "id": "a",
               "label": {
-                "en": "to measure exactly",
-                "es": "medir con exactitud"
+                "en": "to measure the liquids exactly",
+                "es": "medir los líquidos con exactitud"
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "to write down the results",
-                "es": "escribir los resultados"
+                "en": "to write down the results after mixing them",
+                "es": "escribir los resultados después de mezclarlos"
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "to say what you think will happen before it happens",
-                "es": "decir lo que crees que pasará antes de que pase"
+                "en": "to say what will happen before it does",
+                "es": "decir lo que pasará antes de que pase"
               }
             }
           ],
@@ -8629,15 +8629,15 @@
             {
               "id": "b",
               "label": {
-                "en": "a painting of hands",
-                "es": "una pintura de manos"
+                "en": "a painting that shows people's hands",
+                "es": "una pintura que muestra manos"
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "a printed newspaper",
-                "es": "un periódico impreso"
+                "en": "a newspaper printed on a machine",
+                "es": "un periódico impreso en una máquina"
               }
             }
           ],
@@ -8699,8 +8699,8 @@
             {
               "id": "a",
               "label": {
-                "en": "drive the bus to school",
-                "es": "manejar el autobús a la escuela"
+                "en": "drive the bus on the field trip",
+                "es": "manejar el autobús en la excursión"
               }
             },
             {
@@ -8713,8 +8713,8 @@
             {
               "id": "c",
               "label": {
-                "en": "replace the brakes with new ones",
-                "es": "cambiar los frenos por unos nuevos"
+                "en": "replace the old brakes with brand-new ones",
+                "es": "cambiar los frenos viejos por unos nuevos"
               }
             }
           ],
@@ -9579,8 +9579,8 @@
             {
               "id": "c",
               "label": {
-                "en": "full of trees and rivers",
-                "es": "llena de árboles y ríos"
+                "en": "full of trees, rivers, and lakes",
+                "es": "llena de árboles, ríos y lagos"
               }
             }
           ],
@@ -9607,8 +9607,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "Trees and rivers need water. The sentence says the place is dry with almost no rain.",
-                "es": "Los árboles y los ríos necesitan agua. La oración dice que el lugar es seco y casi no llueve."
+                "en": "Trees, rivers, and lakes need water. The sentence says the place is dry with almost no rain.",
+                "es": "Los árboles, los ríos y los lagos necesitan agua. La oración dice que el lugar es seco y casi no llueve."
               },
               "hint": {
                 "en": "Find the definition clue in the sentence.",
@@ -9803,15 +9803,15 @@
             {
               "id": "b",
               "label": {
-                "en": "a big flood",
-                "es": "una gran inundación"
+                "en": "a flood that covers land",
+                "es": "una inundación que cubre la tierra"
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "a strong windstorm",
-                "es": "una tormenta de viento fuerte"
+                "en": "a storm of wind and dust",
+                "es": "una tormenta de viento y polvo"
               }
             }
           ],
@@ -9838,8 +9838,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "Wind is not mentioned. The dashes define it: a long period without rain.",
-                "es": "No se menciona el viento. Las rayas la definen: un periodo largo sin lluvia."
+                "en": "Wind and dust are not mentioned. The dashes define it: a long period without rain.",
+                "es": "No se mencionan el viento ni el polvo. Las rayas la definen: un periodo largo sin lluvia."
               },
               "hint": {
                 "en": "Find the definition clue in the sentence.",
@@ -9873,22 +9873,22 @@
             {
               "id": "a",
               "label": {
-                "en": "they build nests",
-                "es": "construyen nidos"
+                "en": "they build nests in tall trees each fall",
+                "es": "construyen nidos en árboles altos cada otoño"
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "they travel from one region to another with the seasons",
-                "es": "viajan de una región a otra según la estación"
+                "en": "they move to a new region each season",
+                "es": "se mudan a otra región cada estación"
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "they sleep all winter",
-                "es": "duermen todo el invierno"
+                "en": "they sleep in a safe place all winter",
+                "es": "duermen en un lugar seguro todo el invierno"
               }
             }
           ],
@@ -10201,8 +10201,8 @@
             {
               "id": "b",
               "label": {
-                "en": "a new law",
-                "es": "una ley nueva"
+                "en": "a new law about bus routes",
+                "es": "una ley nueva sobre las rutas"
               }
             },
             {
@@ -10271,15 +10271,15 @@
             {
               "id": "a",
               "label": {
-                "en": "permanent and official",
-                "es": "permanente y oficial"
+                "en": "permanent and official, like the school board",
+                "es": "permanente y oficial, como la junta escolar"
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "made up of experts only",
-                "es": "formado solo por expertos"
+                "en": "made up of experts only, such as engineers",
+                "es": "formado solo por expertos, como ingenieros"
               }
             },
             {
@@ -10689,21 +10689,21 @@
             {
               "id": "a",
               "label": {
-                "en": "densidad — how much mass is packed into a space",
-                "es": "densidad: cuánta masa hay en un espacio"
+                "en": "densidad — mass packed into a space",
+                "es": "densidad: cuánta masa cabe en un espacio"
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "destino — a destination",
-                "es": "destino: el lugar adonde se va"
+                "en": "destino — the place a trip ends",
+                "es": "destino: el lugar donde termina un viaje"
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "dentista — a dentist",
+                "en": "dentista — a doctor for teeth",
                 "es": "dentista: médico de los dientes"
               }
             }
@@ -10766,22 +10766,22 @@
             {
               "id": "a",
               "label": {
-                "en": "fotografía — taking pictures with light",
-                "es": "fotografía: tomar imágenes con luz"
+                "en": "fotografía — taking pictures using light",
+                "es": "fotografía: tomar imágenes usando luz"
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "fotosíntesis — making food from light, water, and carbon dioxide",
-                "es": "fotosíntesis: producir alimento con luz, agua y dióxido de carbono"
+                "en": "fotosíntesis — using light to make food",
+                "es": "fotosíntesis: usar la luz para producir alimento"
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "síntoma — a sign of illness",
-                "es": "síntoma: una señal de enfermedad"
+                "en": "síntoma — a sign that someone is sick",
+                "es": "síntoma: una señal de que alguien está enfermo"
               }
             }
           ],
@@ -10843,22 +10843,22 @@
             {
               "id": "a",
               "label": {
-                "en": "colorear — to color",
-                "es": "colorear: dar color"
+                "en": "colorear — to color a drawing",
+                "es": "colorear: dar color a un dibujo"
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "colocar — to place something",
-                "es": "colocar: poner algo en un lugar"
+                "en": "colocar — to put something somewhere",
+                "es": "colocar: poner algo en algún lugar"
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "colonizar — to settle and take control of a territory",
-                "es": "colonizar: establecerse en un territorio y tomar control de él"
+                "en": "colonizar — to settle and rule a land",
+                "es": "colonizar: establecerse en una tierra y gobernarla"
               }
             }
           ],
@@ -10920,21 +10920,21 @@
             {
               "id": "a",
               "label": {
-                "en": "poroso — full of tiny holes that let water through",
-                "es": "poroso: lleno de agujeros diminutos que dejan pasar el agua"
+                "en": "poroso — full of tiny holes",
+                "es": "poroso: lleno de agujeros diminutos"
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "polvoso — dusty",
-                "es": "polvoso: lleno de polvo"
+                "en": "polvoso — covered in dust",
+                "es": "polvoso: cubierto de polvo"
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "pobre — poor",
+                "en": "pobre — having little money",
                 "es": "pobre: con poco dinero"
               }
             }
@@ -10997,22 +10997,22 @@
             {
               "id": "a",
               "label": {
-                "en": "hipnosis — a sleep-like state",
-                "es": "hipnosis: un estado parecido al sueño"
+                "en": "hipnosis — a sleep-like state of mind",
+                "es": "hipnosis: un estado mental parecido al sueño"
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "hipótesis — a testable prediction or explanation",
-                "es": "hipótesis: una predicción o explicación que se puede comprobar"
+                "en": "hipótesis — a prediction you can test",
+                "es": "hipótesis: una predicción que se puede comprobar"
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "hipopótamo — a hippopotamus",
-                "es": "hipopótamo: un animal grande de África"
+                "en": "hipopótamo — a large African river animal",
+                "es": "hipopótamo: un animal grande de los ríos de África"
               }
             }
           ],
@@ -11268,8 +11268,8 @@
             {
               "id": "a",
               "label": {
-                "en": "the plot of a story",
-                "es": "la trama de una historia"
+                "en": "the plot of a story or a movie",
+                "es": "la trama de un cuento o una película"
               }
             },
             {
@@ -11282,8 +11282,8 @@
             {
               "id": "c",
               "label": {
-                "en": "an angry fight",
-                "es": "una pelea con enojo"
+                "en": "an angry fight between two people",
+                "es": "una pelea con enojo entre dos personas"
               }
             }
           ],
@@ -11422,8 +11422,8 @@
             {
               "id": "a",
               "label": {
-                "en": "a promise or obligation",
-                "es": "una promesa u obligación"
+                "en": "a promise or obligation to do something",
+                "es": "una promesa u obligación de hacer algo"
               }
             },
             {
@@ -11436,8 +11436,8 @@
             {
               "id": "c",
               "label": {
-                "en": "an agreement where each side gives up something",
-                "es": "un acuerdo en el que cada lado cede algo"
+                "en": "an agreement where each side gives a little",
+                "es": "un acuerdo en el que cada lado cede un poco"
               }
             }
           ],
@@ -11583,15 +11583,15 @@
             {
               "id": "b",
               "label": {
-                "en": "to summarize",
-                "es": "resumir"
+                "en": "to summarize the points",
+                "es": "resumir los puntos"
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "to cancel",
-                "es": "cancelar"
+                "en": "to cancel it for the day",
+                "es": "cancelarlo por hoy"
               }
             }
           ],

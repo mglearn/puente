@@ -79,8 +79,8 @@
             {
               "id": "c",
               "label": {
-                "en": "\"Hey, what food?\"",
-                "es": "\"Hey, what food?\""
+                "en": "\"Hey you, what's that? I want that one.\"",
+                "es": "\"Hey you, what's that? I want that one.\""
               }
             }
           ],
@@ -107,8 +107,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "This is too casual and unclear. A full, polite question is easier to understand.",
-                "es": "Esto es demasiado informal y poco claro. Una pregunta completa y cortés es más fácil de entender."
+                "en": "This is too casual and sounds bossy. \"Hey you\" and \"I want that one\" are not polite. Start with \"Excuse me\" and ask a full, polite question.",
+                "es": "Esto es demasiado informal y suena mandón. \"Hey you\" y \"I want that one\" no son corteses. Empieza con \"Excuse me\" y haz una pregunta completa y cortés."
               }
             }
           }
@@ -152,8 +152,8 @@
             {
               "id": "c",
               "label": {
-                "en": "\"I'm fine.\"",
-                "es": "\"I'm fine.\" (Estoy bien.)"
+                "en": "\"I'm fine, thank you. I just want to sit.\"",
+                "es": "\"I'm fine, thank you. I just want to sit.\" (Estoy bien, gracias. Solo quiero sentarme.)"
               }
             }
           ],
@@ -180,8 +180,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "If you feel sick, \"I'm fine\" hides the problem. Tell the nurse how you really feel.",
-                "es": "Si te sientes mal, \"I'm fine\" oculta el problema. Dile a la enfermera cómo te sientes de verdad."
+                "en": "If you feel sick, \"I'm fine\" hides the problem, and the nurse can't help you. Tell the nurse how you really feel.",
+                "es": "Si te sientes mal, \"I'm fine\" oculta el problema, y la enfermera no puede ayudarte. Dile a la enfermera cómo te sientes de verdad."
               }
             }
           }
@@ -225,8 +225,8 @@
             {
               "id": "c",
               "label": {
-                "en": "(Leave the room without asking.)",
-                "es": "(Salir del salón sin preguntar.)"
+                "en": "(Get up and leave the room without asking.)",
+                "es": "(Levantarte y salir del salón sin preguntar.)"
               }
             }
           ],
@@ -475,8 +475,8 @@
             {
               "id": "b",
               "label": {
-                "en": "\"What page homework?\"",
-                "es": "\"What page homework?\""
+                "en": "\"What page the homework is on, teacher?\"",
+                "es": "\"What page the homework is on, teacher?\""
               }
             },
             {
@@ -499,8 +499,8 @@
             "b": {
               "correct": false,
               "why": {
-                "en": "People might understand, but it's missing words. A full question is clearer: \"What page is the homework on?\"",
-                "es": "Te podrían entender, pero faltan palabras. Una pregunta completa es más clara: \"What page is the homework on?\""
+                "en": "People might understand, but the word order is wrong. In a question, \"is\" comes before \"the homework\": \"What page is the homework on?\"",
+                "es": "Te podrían entender, pero el orden de las palabras está mal. En una pregunta, \"is\" va antes de \"the homework\": \"What page is the homework on?\""
               },
               "hint": {
                 "en": "Start with \"What page is...?\"",
@@ -547,8 +547,8 @@
             {
               "id": "b",
               "label": {
-                "en": "\"Where library?\"",
-                "es": "\"Where library?\""
+                "en": "\"Excuse me, please, where the library is?\"",
+                "es": "\"Excuse me, please, where the library is?\""
               }
             },
             {
@@ -571,8 +571,8 @@
             "b": {
               "correct": false,
               "why": {
-                "en": "This is missing words. Ask a full question: \"Where is the library?\"",
-                "es": "Faltan palabras. Haz una pregunta completa: \"Where is the library?\""
+                "en": "It starts politely, but the word order is wrong. In a question, \"is\" comes before \"the library\": \"Where is the library?\"",
+                "es": "Empieza con cortesía, pero el orden de las palabras está mal. En una pregunta, \"is\" va antes de \"the library\": \"Where is the library?\""
               },
               "hint": {
                 "en": "Use \"Where is the ___?\"",
@@ -626,8 +626,8 @@
             {
               "id": "c",
               "label": {
-                "en": "\"What mean this word?\"",
-                "es": "\"What mean this word?\""
+                "en": "\"What means this word, teacher?\"",
+                "es": "\"What means this word, teacher?\""
               }
             }
           ],
@@ -654,8 +654,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "It needs \"does\" before \"this word\": \"What does this word mean?\"",
-                "es": "Necesita \"does\" antes de \"this word\": \"What does this word mean?\""
+                "en": "English needs \"does\" here, and \"mean\" goes at the end: \"What does this word mean?\"",
+                "es": "El inglés necesita \"does\" aquí, y \"mean\" va al final: \"What does this word mean?\""
               }
             }
           }
@@ -691,8 +691,8 @@
             {
               "id": "b",
               "label": {
-                "en": "\"I borrow pencil?\"",
-                "es": "\"I borrow pencil?\""
+                "en": "\"Please, I can borrow one pencil?\"",
+                "es": "\"Please, I can borrow one pencil?\""
               }
             },
             {
@@ -715,8 +715,8 @@
             "b": {
               "correct": false,
               "why": {
-                "en": "Ask permission with \"Can I...?\" and add \"please\": \"Can I borrow a pencil, please?\"",
-                "es": "Pide permiso con \"Can I...?\" y agrega \"please\": \"Can I borrow a pencil, please?\""
+                "en": "Good that you said \"please,\" but the order is wrong. Ask permission with \"Can I...?\" first: \"Can I borrow a pencil, please?\"",
+                "es": "Qué bien que dijiste \"please\", pero el orden está mal. Pide permiso empezando con \"Can I...?\": \"Can I borrow a pencil, please?\""
               },
               "hint": {
                 "en": "Start with \"Can I borrow...?\"",
@@ -854,15 +854,15 @@
             {
               "id": "a",
               "label": {
-                "en": "Stand in a line, one behind another, by the door.",
-                "es": "Ponte en una fila, uno detrás de otro, junto a la puerta."
+                "en": "Stand in a line by the door.",
+                "es": "Ponte en una fila junto a la puerta."
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "Draw a line on your paper.",
-                "es": "Dibuja una línea en tu papel."
+                "en": "Draw a straight line across your paper.",
+                "es": "Dibuja una línea recta en tu papel."
               }
             },
             {
@@ -929,8 +929,8 @@
             {
               "id": "b",
               "label": {
-                "en": "Turn your paper face down.",
-                "es": "Voltea tu papel boca abajo."
+                "en": "Turn your homework paper face down on your desk.",
+                "es": "Voltea tu hoja de tarea boca abajo en tu escritorio."
               }
             },
             {
@@ -990,15 +990,15 @@
             {
               "id": "a",
               "label": {
-                "en": "Get a pencil out and ready on your desk.",
-                "es": "Saca un lápiz y tenlo listo en tu escritorio."
+                "en": "Get a pencil out, ready to write.",
+                "es": "Saca un lápiz, listo para escribir."
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "Throw a pencil in the trash.",
-                "es": "Tira un lápiz a la basura."
+                "en": "Throw your old pencil in the trash can.",
+                "es": "Tira tu lápiz viejo al bote de basura."
               }
             },
             {
@@ -1065,8 +1065,8 @@
             {
               "id": "b",
               "label": {
-                "en": "Peel and eat a pear.",
-                "es": "Pela y come una pera."
+                "en": "Get a pear from your lunch and eat it.",
+                "es": "Saca una pera de tu almuerzo y cómela."
               }
             },
             {
@@ -1382,8 +1382,8 @@
             {
               "id": "c",
               "label": {
-                "en": "(Nod and move on without asking.)",
-                "es": "(Asentir y seguir sin preguntar.)"
+                "en": "(Nod and keep talking without asking about it.)",
+                "es": "(Asentir y seguir hablando sin preguntar.)"
               }
             }
           ],
@@ -1622,8 +1622,8 @@
             {
               "id": "b",
               "label": {
-                "en": "(Wander the halls until you find it.)",
-                "es": "(Caminar por los pasillos hasta encontrarlo.)"
+                "en": "(Walk up and down the halls alone until you find it.)",
+                "es": "(Caminar solo por los pasillos hasta encontrarlo.)"
               }
             },
             {
@@ -1766,7 +1766,7 @@
             {
               "id": "b",
               "label": {
-                "en": "(Do nothing and turn in blank work.)",
+                "en": "(Do nothing and turn in the homework blank.)",
                 "es": "(No hacer nada y entregar la tarea en blanco.)"
               }
             },
@@ -1845,8 +1845,8 @@
             {
               "id": "c",
               "label": {
-                "en": "(Put your head down and skip class.)",
-                "es": "(Bajar la cabeza y faltar a clase.)"
+                "en": "(Put your head down and skip your next class.)",
+                "es": "(Bajar la cabeza y faltar a tu siguiente clase.)"
               }
             }
           ],
@@ -2093,8 +2093,8 @@
             {
               "id": "c",
               "label": {
-                "en": "(Say nothing and keep walking.)",
-                "es": "(No decir nada y seguir caminando.)"
+                "en": "(Say nothing and keep walking until you find it.)",
+                "es": "(No decir nada y seguir caminando hasta encontrarlo.)"
               }
             }
           ],
@@ -2151,8 +2151,8 @@
             {
               "id": "a",
               "label": {
-                "en": "\"I was absent for two days. What did I miss, and how can I make it up?\"",
-                "es": "\"I was absent for two days. What did I miss, and how can I make it up?\""
+                "en": "\"I was absent. What did I miss, and how can I make it up?\"",
+                "es": "\"I was absent. What did I miss, and how can I make it up?\""
               }
             },
             {
@@ -2165,8 +2165,8 @@
             {
               "id": "c",
               "label": {
-                "en": "Wait and hope the teacher does not notice.",
-                "es": "Esperar y ojalá el maestro no se dé cuenta."
+                "en": "Wait and hope the teacher does not notice the missing work.",
+                "es": "Esperar y ojalá el maestro no note el trabajo que falta."
               }
             }
           ],
@@ -2175,8 +2175,8 @@
             "a": {
               "correct": true,
               "why": {
-                "en": "This is exactly right. You explain why you were gone and ask the two things you need: what you missed and how to make it up.",
-                "es": "Esto es justo lo correcto. Explicas por qué faltaste y pides las dos cosas que necesitas: qué te perdiste y cómo reponerlo."
+                "en": "This is exactly right. You say you were absent and ask the two things you need: what you missed and how to make it up.",
+                "es": "Esto es justo lo correcto. Dices que faltaste y pides las dos cosas que necesitas: qué te perdiste y cómo reponerlo."
               }
             },
             "b": {
@@ -2295,22 +2295,22 @@
             {
               "id": "a",
               "label": {
-                "en": "\"Yes, I can do the slides. Can I have a little more time?\"",
-                "es": "\"Yes, I can do the slides. Can I have a little more time?\""
+                "en": "\"Yes, I can. Can I have a little more time?\"",
+                "es": "\"Yes, I can. Can I have a little more time?\""
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "\"No.\"",
-                "es": "\"No.\""
+                "en": "\"No. Someone else can do the slides.\"",
+                "es": "\"No. Someone else can do the slides.\""
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "Say yes but do not say you need more time.",
-                "es": "Decir que sí pero no decir que necesitas más tiempo."
+                "en": "Say yes, but do not tell anyone you need more time.",
+                "es": "Decir que sí, pero no decirle a nadie que necesitas más tiempo."
               }
             }
           ],
@@ -2326,8 +2326,8 @@
             "b": {
               "correct": false,
               "why": {
-                "en": "Just \"No\" with no reason can sound unhelpful to a group. If you can do it with a little more time, say so — that keeps the team working together.",
-                "es": "Solo \"No\" sin razón puede sonar poco colaborador para un grupo. Si puedes hacerlo con un poco más de tiempo, dilo: así el equipo sigue trabajando junto."
+                "en": "Saying \"No\" and passing the job to someone else sounds unhelpful, and you CAN do it. Say yes and ask for a little more time — that keeps the team working together.",
+                "es": "Decir \"No\" y pasarle la tarea a otra persona suena poco colaborador, y tú SÍ puedes hacerlo. Di que sí y pide un poco más de tiempo: así el equipo sigue trabajando junto."
               },
               "hint": {
                 "en": "You said you CAN do it — offer that and ask for time.",
@@ -2367,22 +2367,22 @@
             {
               "id": "a",
               "label": {
-                "en": "It is a form a parent signs; take it home, get it signed, and return it by Friday.",
-                "es": "Es un formulario que firma un padre; llévalo a casa, pide la firma y devuélvelo antes del viernes."
+                "en": "A form a parent signs; get it signed and return it by Friday.",
+                "es": "Un formulario que firma un padre; pide la firma y devuélvelo antes del viernes."
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "It is a ticket you buy; keep it and do nothing.",
-                "es": "Es un boleto que compras; guárdalo y no hagas nada."
+                "en": "A ticket you buy at the museum; keep it until the trip.",
+                "es": "Un boleto que compras en el museo; guárdalo hasta la excursión."
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "It is a test you take on Friday.",
-                "es": "Es un examen que haces el viernes."
+                "en": "A test you take on Friday; study for it at home on Thursday.",
+                "es": "Un examen que haces el viernes; estudia para él en casa el jueves."
               }
             }
           ],
@@ -2398,8 +2398,8 @@
             "b": {
               "correct": false,
               "why": {
-                "en": "Your classmate said a PARENT signs it, so it is not a ticket you buy. Doing nothing means you may miss the trip.",
-                "es": "Tu compañero dijo que un PADRE lo firma, así que no es un boleto que compras. No hacer nada haría que te pierdas la excursión."
+                "en": "Your classmate said a PARENT signs it, so it is not a ticket you buy. If you just keep it, it never goes back signed, and you may miss the trip.",
+                "es": "Tu compañero dijo que un PADRE lo firma, así que no es un boleto que compras. Si solo lo guardas, nunca regresa firmado y podrías perderte la excursión."
               },
               "hint": {
                 "en": "Who has to sign it, and by when must it go back?",
@@ -2572,22 +2572,22 @@
             {
               "id": "a",
               "label": {
-                "en": "Points you earn for passing a class, which count toward graduation",
-                "es": "Puntos que ganas por aprobar una clase, que cuentan para graduarte"
+                "en": "Points you earn by passing a class",
+                "es": "Puntos que ganas al aprobar una clase"
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "Money the school pays you",
-                "es": "Dinero que la escuela te paga"
+                "en": "Money the school pays you for good grades",
+                "es": "Dinero que la escuela te paga por buenas calificaciones"
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "A kind of test",
-                "es": "Un tipo de examen"
+                "en": "A kind of test you take to graduate",
+                "es": "Un tipo de examen que haces para graduarte"
               }
             }
           ],
@@ -2614,8 +2614,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "You earn a credit by passing a class, not by taking one test. It counts toward graduation.",
-                "es": "Ganas un crédito al aprobar una clase, no con un solo examen. Cuenta para graduarte."
+                "en": "You earn a credit by passing a class, not by taking one test. Credits add up toward the 26 you need to graduate.",
+                "es": "Ganas un crédito al aprobar una clase, no con un solo examen. Los créditos se suman hasta los 26 que necesitas para graduarte."
               }
             }
           }
@@ -2651,8 +2651,8 @@
             {
               "id": "b",
               "label": {
-                "en": "“This schedule is wrong. Fix it.”",
-                "es": "“This schedule is wrong. Fix it.”"
+                "en": "“My schedule is wrong. I never signed up for this class, so fix it right now.”",
+                "es": "“My schedule is wrong. I never signed up for this class, so fix it right now.”"
               }
             },
             {
@@ -2675,8 +2675,8 @@
             "b": {
               "correct": false,
               "why": {
-                "en": "“Fix it” is a demand and sounds rude to an adult. A polite question gets better help: “Could you help me check it?”",
-                "es": "“Fix it” es una exigencia y suena grosero con un adulto. Una pregunta cortés consigue mejor ayuda: “Could you help me check it?”"
+                "en": "You explain the problem, but “fix it right now” is a demand and sounds rude to an adult. A polite question gets better help: “Could you help me check it?”",
+                "es": "Explicas el problema, pero “fix it right now” es una exigencia y suena grosero con un adulto. Una pregunta cortés consigue mejor ayuda: “Could you help me check it?”"
               },
               "hint": {
                 "en": "Ask politely instead of ordering.",
@@ -2716,22 +2716,22 @@
             {
               "id": "a",
               "label": {
-                "en": "An official record of the classes you took and the grades you earned",
-                "es": "Un registro oficial de las clases que tomaste y las calificaciones que obtuviste"
+                "en": "A record of your classes and grades",
+                "es": "Un registro de tus clases y calificaciones"
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "A bus pass",
-                "es": "Un pase de autobús"
+                "en": "A bus pass with your name and school on it",
+                "es": "Un pase de autobús con tu nombre y tu escuela"
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "A letter from a teacher",
-                "es": "Una carta de un maestro"
+                "en": "A letter from a teacher about how hard you work",
+                "es": "Una carta de un maestro sobre lo mucho que te esfuerzas"
               }
             }
           ],
@@ -2758,8 +2758,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "A letter from a teacher is a recommendation. A transcript is the official list of your classes and grades.",
-                "es": "Una carta de un maestro es una recomendación. Un transcript es la lista oficial de tus clases y calificaciones."
+                "en": "A letter from a teacher about your effort is a recommendation. A transcript is the official list of your classes and grades.",
+                "es": "Una carta de un maestro sobre tu esfuerzo es una recomendación. Un transcript es la lista oficial de tus clases y calificaciones."
               }
             }
           }
@@ -2795,8 +2795,8 @@
             {
               "id": "b",
               "label": {
-                "en": "“I need more time. Give me more time.”",
-                "es": "“I need more time. Give me more time.”"
+                "en": "“I need more time because English is hard for me. Give me two more weeks to finish my essay.”",
+                "es": "“I need more time because English is hard for me. Give me two more weeks to finish my essay.”"
               }
             },
             {
@@ -2819,12 +2819,12 @@
             "b": {
               "correct": false,
               "why": {
-                "en": "“Give me more time” is a command. A polite request with a reason works better: “Could I please have more time?”",
-                "es": "“Give me more time” es una orden. Una petición cortés con una razón funciona mejor: “Could I please have more time?”"
+                "en": "You give a reason, but “Give me two more weeks” is a command. Ask politely instead: “Could I please have a little more time?”",
+                "es": "Das una razón, pero “Give me two more weeks” es una orden. Mejor pide con cortesía: “Could I please have a little more time?”"
               },
               "hint": {
-                "en": "Add “could I please” and your reason.",
-                "es": "Agrega “could I please” y tu razón."
+                "en": "Add “could I please” instead of “give me.”",
+                "es": "Usa “could I please” en vez de “give me”."
               }
             },
             "c": {
@@ -2946,8 +2946,8 @@
             {
               "id": "c",
               "label": {
-                "en": "(Walk up and start talking about soccer with no greeting.)",
-                "es": "(Acercarse y empezar a hablar de fútbol sin saludar.)"
+                "en": "(Walk up and start talking about the soccer team with no greeting.)",
+                "es": "(Acercarte y empezar a hablar del equipo de fútbol sin saludar.)"
               }
             }
           ],
@@ -3137,15 +3137,15 @@
             {
               "id": "b",
               "label": {
-                "en": "Put your math book away.",
-                "es": "Guarda tu libro de matemáticas."
+                "en": "Put your math book away in your desk.",
+                "es": "Guarda tu libro de matemáticas en tu escritorio."
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "Open your reading book to page 20.",
-                "es": "Abre tu libro de lectura en la página 20."
+                "en": "Get out your reading book and open it to page 20.",
+                "es": "Saca tu libro de lectura y ábrelo en la página 20."
               }
             }
           ],
@@ -3210,8 +3210,8 @@
             {
               "id": "b",
               "label": {
-                "en": "Sit down at your desk and talk.",
-                "es": "Siéntate en tu escritorio y habla."
+                "en": "Sit down at your desk and talk with a friend.",
+                "es": "Siéntate en tu escritorio y habla con un amigo."
               }
             },
             {
@@ -3283,8 +3283,8 @@
             {
               "id": "b",
               "label": {
-                "en": "Do every question alone silently.",
-                "es": "Hacer todas las preguntas solo y en silencio."
+                "en": "Do all the questions by yourself, without talking.",
+                "es": "Hacer todas las preguntas tú solo, sin hablar."
               }
             },
             {
@@ -3363,8 +3363,8 @@
             {
               "id": "c",
               "label": {
-                "en": "Write your name at the bottom after you finish.",
-                "es": "Escribe tu nombre abajo después de terminar."
+                "en": "Write your name at the bottom after you finish the work.",
+                "es": "Escribe tu nombre abajo después de terminar el trabajo."
               }
             }
           ],
@@ -3436,8 +3436,8 @@
             {
               "id": "c",
               "label": {
-                "en": "Leave your seat and walk to the teacher.",
-                "es": "Levantarte y caminar hacia la maestra."
+                "en": "Leave your seat and walk over to the teacher's desk.",
+                "es": "Levantarte y caminar hasta el escritorio de la maestra."
               }
             }
           ],
@@ -3604,8 +3604,8 @@
             {
               "id": "b",
               "label": {
-                "en": "Say nothing and put your head down.",
-                "es": "No decir nada y poner la cabeza sobre el escritorio."
+                "en": "Say nothing and put your head down on your desk until lunch.",
+                "es": "No decir nada y poner la cabeza sobre el escritorio hasta el almuerzo."
               }
             },
             {
@@ -3677,15 +3677,15 @@
             {
               "id": "b",
               "label": {
-                "en": "Pretend you understand and do nothing.",
-                "es": "Fingir que entiendes y no hacer nada."
+                "en": "Nod and pretend you understand, then sit quietly and do nothing.",
+                "es": "Asentir y fingir que entiendes, y luego quedarte sentada sin hacer nada."
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "Copy your neighbor without asking.",
-                "es": "Copiar a tu compañero sin preguntar."
+                "en": "Copy your neighbor's paper without asking what to do.",
+                "es": "Copiar la hoja de tu compañero sin preguntar qué hacer."
               }
             }
           ],
@@ -3750,8 +3750,8 @@
             {
               "id": "b",
               "label": {
-                "en": "Talk loudly to friends and disturb the class.",
-                "es": "Hablar fuerte con amigos y molestar a la clase."
+                "en": "Talk loudly with your friends and disturb the whole class.",
+                "es": "Hablar fuerte con tus amigos y molestar a toda la clase."
               }
             },
             {
@@ -3903,8 +3903,8 @@
             {
               "id": "c",
               "label": {
-                "en": "“Bathroom!” shouted across the room.",
-                "es": "Gritar “Bathroom!” a través del salón."
+                "en": "Shout “I need the bathroom now!” across the room.",
+                "es": "Gritar “I need the bathroom now!” a través del salón."
               }
             }
           ],
@@ -4080,8 +4080,8 @@
             {
               "id": "c",
               "label": {
-                "en": "The gym",
-                "es": "El gimnasio"
+                "en": "The counselor's office",
+                "es": "La oficina del consejero"
               }
             }
           ],
@@ -4108,8 +4108,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "The gym is for PE. An absence note goes to the attendance office.",
-                "es": "El gimnasio es para educación física. Una nota de ausencia va a la oficina de asistencia."
+                "en": "The counselor helps with schedules and classes. An absence note goes to the attendance office.",
+                "es": "El consejero ayuda con los horarios y las clases. Una nota de ausencia va a la oficina de asistencia."
               }
             }
           }
@@ -4152,8 +4152,8 @@
             {
               "id": "c",
               "label": {
-                "en": "The coach",
-                "es": "El entrenador"
+                "en": "The football coach",
+                "es": "El entrenador de fútbol americano"
               }
             }
           ],
@@ -4282,22 +4282,22 @@
             {
               "id": "a",
               "label": {
-                "en": "Keeps and sends student records and handles enrollment",
-                "es": "Guarda y envía los registros de estudiantes y maneja la inscripción"
+                "en": "Keeps student records and handles enrollment",
+                "es": "Guarda los registros de estudiantes y maneja la inscripción"
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "Cooks the school lunches",
-                "es": "Cocina los almuerzos de la escuela"
+                "en": "Cooks the school lunches and runs the cafeteria",
+                "es": "Cocina los almuerzos y dirige la cafetería"
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "Coaches the basketball team",
-                "es": "Entrena al equipo de básquetbol"
+                "en": "Coaches the basketball team after school",
+                "es": "Entrena al equipo de básquetbol después de clases"
               }
             }
           ],
@@ -4361,8 +4361,8 @@
             {
               "id": "b",
               "label": {
-                "en": "Say nothing and go without an ID all year.",
-                "es": "No decir nada y pasar todo el año sin identificación."
+                "en": "Say nothing and go without a student ID for the rest of the year.",
+                "es": "No decir nada y pasar el resto del año sin identificación de estudiante."
               }
             },
             {
@@ -4549,8 +4549,8 @@
             {
               "id": "c",
               "label": {
-                "en": "gym",
-                "es": "gym"
+                "en": "playground",
+                "es": "playground"
               }
             }
           ],
@@ -4577,8 +4577,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "This picture is the classroom (in Spanish, salón de clases), not the gym.",
-                "es": "Esta imagen es salón de clases (en inglés, classroom), no gym."
+                "en": "This picture is the classroom (in Spanish, salón de clases), not the playground.",
+                "es": "Esta imagen es salón de clases (en inglés, classroom), no playground."
               }
             }
           }
@@ -5004,8 +5004,8 @@
             {
               "id": "c",
               "label": {
-                "en": "gym",
-                "es": "gym"
+                "en": "cafeteria",
+                "es": "cafeteria"
               }
             }
           ],
@@ -5032,8 +5032,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "This picture is the restroom (in Spanish, baño), not the gym.",
-                "es": "Esta imagen es baño (en inglés, restroom), no gym."
+                "en": "This picture is the restroom (in Spanish, baño), not the cafeteria.",
+                "es": "Esta imagen es baño (en inglés, restroom), no cafeteria."
               }
             }
           }
@@ -5472,8 +5472,8 @@
             {
               "id": "c",
               "label": {
-                "en": "the nurse's office",
-                "es": "the nurse's office"
+                "en": "the nurse",
+                "es": "the nurse"
               }
             }
           ],
@@ -5549,8 +5549,8 @@
             {
               "id": "c",
               "label": {
-                "en": "the office",
-                "es": "the office"
+                "en": "the playground",
+                "es": "the playground"
               }
             }
           ],
@@ -5577,8 +5577,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "The office is the front desk. Your teacher said to walk to the cafeteria.",
-                "es": "La oficina es la recepción. Tu maestra dijo que camines a la cafetería."
+                "en": "The playground is outside, for recess. Your teacher said to walk to the cafeteria.",
+                "es": "El patio de juegos (playground) es para el recreo. Tu maestra dijo que camines a la cafetería."
               },
               "hint": {
                 "en": "Listen again for the name of the place.",
@@ -5875,8 +5875,8 @@
           },
           "support": {
             "high": {
-              "en": "“My name is…” = Me llamo… “Nice to meet you” = Mucho gusto.",
-              "es": "“My name is…” = Me llamo… “Nice to meet you” = Mucho gusto."
+              "en": "“Hi!” = ¡Hola! “My name is…” = Me llamo…",
+              "es": "“Hi!” = ¡Hola! “My name is…” = Me llamo…"
             },
             "medium": {
               "en": "Start with “Hi! My name is…”",
@@ -5887,15 +5887,15 @@
             {
               "id": "a",
               "label": {
-                "en": "“I am six.”",
-                "es": "“I am six.”"
+                "en": "“I am six years old.”",
+                "es": "“I am six years old.”"
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "“Hi! My name is ___. Nice to meet you!”",
-                "es": "“Hi! My name is ___. Nice to meet you!”"
+                "en": "“Hi! My name is ___.”",
+                "es": "“Hi! My name is ___.”"
               }
             },
             {
@@ -5922,8 +5922,8 @@
             "b": {
               "correct": true,
               "why": {
-                "en": "Yes! Say hi, tell your name, and say “Nice to meet you.” That is a friendly answer.",
-                "es": "¡Sí! Saluda, di tu nombre y di “Nice to meet you” (Mucho gusto). Es una respuesta amable."
+                "en": "Yes! Say hi and tell your name. That is a friendly answer.",
+                "es": "¡Sí! Saluda y di tu nombre. Es una respuesta amable."
               }
             },
             "c": {
@@ -5964,15 +5964,15 @@
             {
               "id": "a",
               "label": {
-                "en": "“Give me paper.”",
-                "es": "“Give me paper.”"
+                "en": "“Give me paper, Ms. Diaz.”",
+                "es": "“Give me paper, Ms. Diaz.”"
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "“Good night!”",
-                "es": "“Good night!”"
+                "en": "“Good night, Ms. Diaz!”",
+                "es": "“Good night, Ms. Diaz!”"
               }
             },
             {
@@ -6047,15 +6047,15 @@
             {
               "id": "b",
               "label": {
-                "en": "“Crayon!”",
-                "es": "“Crayon!”"
+                "en": "“Crayon! Give me a crayon!”",
+                "es": "“Crayon! Give me a crayon!”"
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "“I like red.”",
-                "es": "“I like red.”"
+                "en": "“I like the red crayon.”",
+                "es": "“I like the red crayon.”"
               }
             }
           ],
@@ -6071,8 +6071,8 @@
             "b": {
               "correct": false,
               "why": {
-                "en": "One word sounds bossy. Ask with “Can I…, please?”",
-                "es": "Una sola palabra suena mandona. Pide con “Can I…, please?”"
+                "en": "That sounds bossy. Ask with “Can I…, please?”",
+                "es": "Eso suena mandón. Pide con “Can I…, please?”"
               },
               "hint": {
                 "en": "Which one is friendly and says please?",
@@ -6116,8 +6116,8 @@
             {
               "id": "a",
               "label": {
-                "en": "“Water.”",
-                "es": "“Water.”"
+                "en": "“Water. I want water.”",
+                "es": "“Water. I want water.”"
               }
             },
             {
@@ -6130,8 +6130,8 @@
             {
               "id": "c",
               "label": {
-                "en": "“I am hot.”",
-                "es": "“I am hot.”"
+                "en": "“I am hot and I am very thirsty.”",
+                "es": "“I am hot and I am very thirsty.”"
               }
             }
           ],
@@ -6140,8 +6140,8 @@
             "a": {
               "correct": false,
               "why": {
-                "en": "One word is not a full question. Ask with “May I…, please?”",
-                "es": "Una palabra no es una pregunta completa. Pregunta con “May I…, please?”"
+                "en": "That is not a question, and it sounds bossy. Ask with “May I…, please?”",
+                "es": "Eso no es una pregunta, y suena mandón. Pregunta con “May I…, please?”"
               },
               "hint": {
                 "en": "Which one is friendly and says please?",
@@ -6200,8 +6200,8 @@
             {
               "id": "b",
               "label": {
-                "en": "“Blocks.”",
-                "es": "“Blocks.”"
+                "en": "“Those are my blocks.”",
+                "es": "“Those are my blocks.”"
               }
             },
             {
@@ -6228,8 +6228,8 @@
             "b": {
               "correct": false,
               "why": {
-                "en": "One word does not ask a question. Ask “Can I play too?”",
-                "es": "Una palabra no hace una pregunta. Pregunta “Can I play too?”"
+                "en": "That does not ask to join, and it sounds bossy. Ask “Can I play too?”",
+                "es": "Eso no pide unirte, y suena mandón. Pregunta “Can I play too?”"
               },
               "hint": {
                 "en": "Ask a question to join.",
@@ -6270,8 +6270,8 @@
             {
               "id": "a",
               "label": {
-                "en": "“I'm done.”",
-                "es": "“I'm done.”"
+                "en": "“I'm done with my paper.”",
+                "es": "“I'm done with my paper.”"
               }
             },
             {
@@ -6830,15 +6830,15 @@
             {
               "id": "b",
               "label": {
-                "en": "Go out to recess.",
-                "es": "Sal al recreo."
+                "en": "Go out and play at recess.",
+                "es": "Sal a jugar al recreo."
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "Go home now.",
-                "es": "Vete a tu casa ahora."
+                "en": "Sit on the bed and eat a snack.",
+                "es": "Siéntate en la cama y come algo."
               }
             }
           ],
@@ -6865,8 +6865,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "The nurse did not say go home. She said rest for ten minutes.",
-                "es": "La enfermera no dijo que te vayas a casa. Dijo que descanses diez minutos."
+                "en": "The nurse said lie down and rest, not eat a snack.",
+                "es": "La enfermera dijo que te acuestes y descanses, no que comas algo."
               },
               "hint": {
                 "en": "What did she say to do on the bed?",
@@ -6900,8 +6900,8 @@
             {
               "id": "a",
               "label": {
-                "en": "Stay with the nurse all day.",
-                "es": "Quédate con la enfermera todo el día."
+                "en": "Drink some water, then stay with the nurse all day.",
+                "es": "Toma un poco de agua y luego quédate con la enfermera todo el día."
               }
             },
             {
@@ -6924,8 +6924,8 @@
             "a": {
               "correct": false,
               "why": {
-                "en": "The nurse said to go back to class after your water.",
-                "es": "La enfermera dijo que regreses a clase después de tomar agua."
+                "en": "You remembered the water, but the nurse said to go back to class after it.",
+                "es": "Recordaste el agua, pero la enfermera dijo que regreses a clase después."
               },
               "hint": {
                 "en": "Listen for “then.”",
@@ -6977,15 +6977,15 @@
             {
               "id": "a",
               "label": {
-                "en": "You will ride the bus home.",
-                "es": "Te irás a casa en el autobús."
+                "en": "You will ride the bus home after school.",
+                "es": "Te irás a casa en el autobús después de clases."
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "She will call your family, and they will take you home.",
-                "es": "Llamará a tu familia y te llevarán a casa."
+                "en": "Your family will come and take you home.",
+                "es": "Tu familia vendrá y te llevará a casa."
               }
             },
             {
@@ -7053,8 +7053,8 @@
             {
               "id": "a",
               "label": {
-                "en": "Put a bandage on your arm.",
-                "es": "Ponte una curita en el brazo."
+                "en": "Hold the ice pack on your elbow.",
+                "es": "Sostén la bolsa de hielo en el codo."
               }
             },
             {
@@ -7077,8 +7077,8 @@
             "a": {
               "correct": false,
               "why": {
-                "en": "The nurse said ICE on your KNEE, not a bandage on your arm.",
-                "es": "La enfermera dijo HIELO en la RODILLA, no una curita en el brazo."
+                "en": "The nurse said the ice pack goes on your KNEE, not your elbow.",
+                "es": "La enfermera dijo que la bolsa de hielo va en tu RODILLA, no en el codo."
               },
               "hint": {
                 "en": "Which body part did she say?",
@@ -7327,15 +7327,15 @@
             {
               "id": "a",
               "label": {
-                "en": "Keep your backpack on and go to recess.",
-                "es": "Déjate la mochila puesta y vete al recreo."
+                "en": "Keep your backpack on and sit on the carpet.",
+                "es": "Déjate la mochila puesta y siéntate en la alfombra."
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "Hang your backpack on the hook, then sit on the carpet.",
-                "es": "Cuelga tu mochila en el gancho y luego siéntate en la alfombra."
+                "en": "Hang up your backpack, then sit on the carpet.",
+                "es": "Cuelga tu mochila y luego siéntate en la alfombra."
               }
             },
             {
@@ -7351,8 +7351,8 @@
             "a": {
               "correct": false,
               "why": {
-                "en": "“Hang up” means put it on the hook. Then you sit on the carpet, not go to recess.",
-                "es": "“Hang up” significa colgarla en el gancho. Luego te sientas en la alfombra, no vas al recreo."
+                "en": "You sat on the carpet, but “hang up” means put your backpack on the hook first.",
+                "es": "Te sentaste en la alfombra, pero “hang up” significa colgar primero la mochila en el gancho."
               },
               "hint": {
                 "en": "What does “hang up” mean?",
@@ -7411,8 +7411,8 @@
             {
               "id": "b",
               "label": {
-                "en": "Put your lunch box in your backpack.",
-                "es": "Guarda tu lonchera en tu mochila."
+                "en": "Put your lunch box away in your backpack.",
+                "es": "Guarda tu lonchera dentro de tu mochila."
               }
             },
             {
@@ -7481,8 +7481,8 @@
             {
               "id": "a",
               "label": {
-                "en": "Go to the restroom and stay outside to play.",
-                "es": "Ve al baño y quédate afuera a jugar."
+                "en": "Go to the restroom, then stay out in the hall to play.",
+                "es": "Ve al baño y luego quédate en el pasillo a jugar."
               }
             },
             {
@@ -7557,8 +7557,8 @@
             {
               "id": "a",
               "label": {
-                "en": "Keep drawing with the crayons.",
-                "es": "Sigue dibujando con los crayones."
+                "en": "Keep drawing with all the crayons.",
+                "es": "Sigue dibujando con todos los crayones."
               }
             },
             {
@@ -7634,8 +7634,8 @@
             {
               "id": "a",
               "label": {
-                "en": "Keep talking to your friend.",
-                "es": "Sigue hablando con tu amigo."
+                "en": "Keep talking, but look at your teacher.",
+                "es": "Sigue hablando, pero mira a tu maestra."
               }
             },
             {
@@ -7648,8 +7648,8 @@
             {
               "id": "c",
               "label": {
-                "en": "Stop, be quiet, and look at your teacher.",
-                "es": "Detente, guarda silencio y mira a tu maestra."
+                "en": "Stop talking and look at your teacher.",
+                "es": "Deja de hablar y mira a tu maestra."
               }
             }
           ],
@@ -7658,8 +7658,8 @@
             "a": {
               "correct": false,
               "why": {
-                "en": "“Eyes on me” means stop talking and look at the teacher.",
-                "es": "“Eyes on me” significa dejar de hablar y mirar a la maestra."
+                "en": "Looking is good, but “eyes on me” also means stop talking so you can listen.",
+                "es": "Mirar está bien, pero “eyes on me” también significa dejar de hablar para poder escuchar."
               },
               "hint": {
                 "en": "What does “eyes on me” mean?",
@@ -7717,8 +7717,8 @@
             {
               "id": "b",
               "label": {
-                "en": "Stand on your chair.",
-                "es": "Párate en tu silla."
+                "en": "Stand up on your chair by your desk.",
+                "es": "Párate encima de tu silla junto a tu escritorio."
               }
             },
             {
@@ -7921,8 +7921,8 @@
             {
               "id": "c",
               "label": {
-                "en": "Friday",
-                "es": "Friday (viernes)"
+                "en": "Thursday",
+                "es": "Thursday (jueves)"
               }
             }
           ],
@@ -7949,8 +7949,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "Friday is fish sticks. Pizza is on Tuesday.",
-                "es": "El viernes hay palitos de pescado. La pizza es el martes."
+                "en": "Thursday is a turkey sandwich. Pizza is on Tuesday.",
+                "es": "El jueves hay sándwich de pavo. La pizza es el martes."
               },
               "hint": {
                 "en": "Find “pizza,” then look at the day before it.",
@@ -8135,8 +8135,8 @@
             {
               "id": "a",
               "label": {
-                "en": "Orange juice",
-                "es": "Jugo de naranja"
+                "en": "Orange juice or apple juice",
+                "es": "Jugo de naranja o de manzana"
               }
             },
             {
@@ -8159,8 +8159,8 @@
             "a": {
               "correct": false,
               "why": {
-                "en": "Orange is a fruit on Tuesday, not a drink. The menu says milk every day.",
-                "es": "La naranja es una fruta del martes, no una bebida. El menú dice leche todos los días."
+                "en": "The menu lists an orange and apple slices as fruit, not juice. The drink every day is milk.",
+                "es": "El menú pone la naranja y las rebanadas de manzana como fruta, no como jugo. La bebida de todos los días es leche."
               },
               "hint": {
                 "en": "Find “every day.”",
@@ -8541,8 +8541,8 @@
             {
               "id": "a",
               "label": {
-                "en": "Oak Street and 5th Avenue",
-                "es": "Oak Street and 5th Avenue"
+                "en": "Oak Street",
+                "es": "Oak Street"
               }
             },
             {
@@ -8878,8 +8878,8 @@
             {
               "id": "b",
               "label": {
-                "en": "A park",
-                "es": "A un parque"
+                "en": "A park near the school",
+                "es": "A un parque cerca de la escuela"
               }
             },
             {
@@ -9023,21 +9023,21 @@
             {
               "id": "a",
               "label": {
-                "en": "Money for a ticket",
-                "es": "Dinero para un boleto"
+                "en": "Money for a museum ticket and a snack",
+                "es": "Dinero para un boleto del museo y un bocadillo"
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "Your math book and homework",
-                "es": "Tu libro de matemáticas y la tarea"
+                "en": "Your math book, homework, and a pencil box",
+                "es": "Tu libro de matemáticas, la tarea y un estuche de lápices"
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "A sack lunch, a water bottle, and comfortable shoes",
+                "en": "A sack lunch, water bottle, and comfortable shoes",
                 "es": "Un almuerzo en bolsa, una botella de agua y zapatos cómodos"
               }
             }
@@ -9106,15 +9106,15 @@
             {
               "id": "b",
               "label": {
-                "en": "A hot lunch in the school cafeteria",
-                "es": "Un almuerzo caliente en la cafetería"
+                "en": "A hot lunch you get in the school cafeteria",
+                "es": "Un almuerzo caliente que te dan en la cafetería"
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "A snack you buy at the museum",
-                "es": "Un bocadillo que compras en el museo"
+                "en": "A snack you buy at the museum gift shop",
+                "es": "Un bocadillo que compras en la tienda del museo"
               }
             }
           ],
@@ -9189,8 +9189,8 @@
             {
               "id": "c",
               "label": {
-                "en": "Ms. Garza",
-                "es": "Ms. Garza"
+                "en": "Ms. Garza, the 4th-grade teacher",
+                "es": "Ms. Garza, la maestra de 4.º grado"
               }
             }
           ],
@@ -9429,22 +9429,22 @@
             {
               "id": "a",
               "label": {
-                "en": "Special tests",
-                "es": "Exámenes especiales"
+                "en": "Special tests you take each morning",
+                "es": "Exámenes especiales que haces cada mañana"
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "Extra recess",
-                "es": "Recreo extra"
+                "en": "Extra recess time outside",
+                "es": "Más tiempo de recreo afuera"
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "Classes like art, music, and PE that change each day",
-                "es": "Clases como arte, música y educación física que cambian cada día"
+                "en": "Classes like art, music, and PE",
+                "es": "Clases como arte, música y educación física"
               }
             }
           ],
@@ -9512,15 +9512,15 @@
             {
               "id": "b",
               "label": {
-                "en": "Art",
-                "es": "Art (arte)"
+                "en": "Art (in the art room)",
+                "es": "Art (en el salón de arte)"
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "Music",
-                "es": "Music (música)"
+                "en": "Music (in the music room)",
+                "es": "Music (en el salón de música)"
               }
             }
           ],
@@ -10391,15 +10391,15 @@
             {
               "id": "b",
               "label": {
-                "en": "A test you have to pass",
-                "es": "Un examen que tienes que aprobar"
+                "en": "A test you have to pass before your next class",
+                "es": "Un examen que tienes que aprobar antes de tu próxima clase"
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "Free time to leave school",
-                "es": "Tiempo libre para salir de la escuela"
+                "en": "Free time to leave school and go home",
+                "es": "Tiempo libre para salir de la escuela e irte a casa"
               }
             }
           ],
@@ -10460,8 +10460,8 @@
             {
               "id": "a",
               "label": {
-                "en": "Stay in class until 12:15.",
-                "es": "Quedarte en clase hasta las 12:15."
+                "en": "Stay in class until 12:15, then go to the cafeteria.",
+                "es": "Quedarte en clase hasta las 12:15 y luego ir a la cafetería."
               }
             },
             {
@@ -10474,8 +10474,8 @@
             {
               "id": "c",
               "label": {
-                "en": "Go home for lunch.",
-                "es": "Irte a casa a almorzar."
+                "en": "Go home for lunch and come back to class at 12:15.",
+                "es": "Irte a casa a almorzar y regresar a clase a las 12:15."
               }
             }
           ],
@@ -10484,8 +10484,8 @@
             "a": {
               "correct": false,
               "why": {
-                "en": "The teacher said \"B lunch, you may go,\" and your schedule says you have B lunch. If you stay, you will miss lunch.",
-                "es": "La maestra dijo \"B lunch, you may go\", y tu horario dice que tienes B lunch. Si te quedas, te perderás el almuerzo."
+                "en": "The teacher said \"B lunch, you may go,\" and your schedule says B lunch is 11:45–12:15. If you wait until 12:15, lunch is already over.",
+                "es": "La maestra dijo \"B lunch, you may go\", y tu horario dice que B lunch es de 11:45 a 12:15. Si esperas hasta las 12:15, el almuerzo ya terminó."
               },
               "hint": {
                 "en": "Which lunch does your schedule say you have?",
@@ -10536,8 +10536,8 @@
             {
               "id": "a",
               "label": {
-                "en": "The list of classes you combine in one day",
-                "es": "La lista de clases que combinas en un día"
+                "en": "The list of classes you combine in one school day",
+                "es": "La lista de clases que combinas en un día de escuela"
               }
             },
             {
@@ -10733,15 +10733,15 @@
             {
               "id": "a",
               "label": {
-                "en": "\"Today we draw pictures in art class.\"",
-                "es": "\"Today we draw pictures in art class.\""
+                "en": "\"Today is picture day. Bring your order form to your art teacher after lunch.\"",
+                "es": "\"Today is picture day. Bring your order form to your art teacher after lunch.\""
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "\"Tomorrow is school photo day. Bring your form to the front office before 1st period.\"",
-                "es": "\"Tomorrow is school photo day. Bring your form to the front office before 1st period.\""
+                "en": "\"Photo day is tomorrow. Take your form to the front office before 1st period.\"",
+                "es": "\"Photo day is tomorrow. Take your form to the front office before 1st period.\""
               }
             },
             {
@@ -10757,12 +10757,12 @@
             "a": {
               "correct": false,
               "why": {
-                "en": "The announcement said tomorrow, not today, and it is about school photos, not drawing in art class. The facts changed.",
-                "es": "El anuncio dijo mañana, no hoy, y se trata de fotos escolares, no de dibujar en arte. Los datos cambiaron."
+                "en": "The announcement said TOMORROW, the FRONT OFFICE, and BEFORE first period. This version changed all three facts.",
+                "es": "El anuncio dijo MAÑANA, la OFICINA PRINCIPAL y ANTES del primer periodo. Esta versión cambió los tres datos."
               },
               "hint": {
-                "en": "When is picture day, and what is it?",
-                "es": "¿Cuándo es picture day y qué es?"
+                "en": "When is picture day, and where does the form go?",
+                "es": "¿Cuándo es picture day y a dónde va el formulario?"
               }
             },
             "b": {
@@ -10809,8 +10809,8 @@
             {
               "id": "a",
               "label": {
-                "en": "\"What?\"",
-                "es": "\"What?\""
+                "en": "\"Excuse me, what did that announcement say? I didn't really hear any of it today.\"",
+                "es": "\"Excuse me, what did that announcement say? I didn't really hear any of it today.\""
               }
             },
             {
@@ -10833,8 +10833,8 @@
             "a": {
               "correct": false,
               "why": {
-                "en": "The staff will not know what you are asking about. Say which announcement you mean and what part you need to check.",
-                "es": "El personal no sabrá de qué preguntas. Di de qué anuncio hablas y qué parte necesitas confirmar."
+                "en": "This does not say which announcement you mean or what part you heard, so the staff has to guess. Name the buses and the time you heard.",
+                "es": "Esto no dice de qué anuncio hablas ni qué parte oíste, así que el personal tiene que adivinar. Nombra los autobuses y la hora que oíste."
               },
               "hint": {
                 "en": "Name the topic: the buses.",
@@ -10885,22 +10885,22 @@
             {
               "id": "a",
               "label": {
-                "en": "\"We can't use the library in 3rd period today because of a test.\"",
-                "es": "\"We can't use the library in 3rd period today because of a test.\""
+                "en": "\"The library is closed in 3rd period today for a test.\"",
+                "es": "\"The library is closed in 3rd period today for a test.\""
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "\"The library is closed all week.\"",
-                "es": "\"The library is closed all week.\""
+                "en": "\"The library is closed all week because of testing.\"",
+                "es": "\"The library is closed all week because of testing.\""
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "\"There is no 3rd period today.\"",
-                "es": "\"There is no 3rd period today.\""
+                "en": "\"There is no 3rd period today because of a test in the library.\"",
+                "es": "\"There is no 3rd period today because of a test in the library.\""
               }
             }
           ],
@@ -10961,8 +10961,8 @@
             {
               "id": "a",
               "label": {
-                "en": "\"I want soccer.\"",
-                "es": "\"I want soccer.\""
+                "en": "\"I want to play soccer this year. Can I be on the team, please?\"",
+                "es": "\"I want to play soccer this year. Can I be on the team, please?\""
               }
             },
             {
@@ -10985,8 +10985,8 @@
             "a": {
               "correct": false,
               "why": {
-                "en": "Your teacher learns that you like soccer, but not that you missed the day. Ask a question about the missing detail.",
-                "es": "Tu maestra sabe que te gusta el fútbol, pero no que no oíste el día. Haz una pregunta sobre el dato que te falta."
+                "en": "Your teacher learns that you want to play, but not that you missed the day. Ask a question about the missing detail.",
+                "es": "Tu maestra sabe que quieres jugar, pero no que no oíste el día. Haz una pregunta sobre el dato que te falta."
               },
               "hint": {
                 "en": "What detail did you miss?",
@@ -11037,22 +11037,22 @@
             {
               "id": "a",
               "label": {
-                "en": "Nod and leave, even though you did not catch the time.",
-                "es": "Asentir con la cabeza e irte, aunque no entendiste la hora."
+                "en": "Nod, say \"Thank you,\" and leave, even though you did not catch the time.",
+                "es": "Asentir, decir \"Thank you\" e irte, aunque no entendiste la hora."
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "\"Okay. Tuesday at 4.\"",
-                "es": "\"Okay. Tuesday at 4.\""
+                "en": "\"Okay, Tuesday at 4 in the small gym. I'll bring my form. Thanks!\"",
+                "es": "\"Okay, Tuesday at 4 in the small gym. I'll bring my form. Thanks!\""
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "\"So tryouts are Thursday at 3:45 in the big gym, and I bring my physical form. Is that right?\"",
-                "es": "\"So tryouts are Thursday at 3:45 in the big gym, and I bring my physical form. Is that right?\""
+                "en": "\"So it's Thursday at 3:45 in the big gym, with my physical form. Is that right?\"",
+                "es": "\"So it's Thursday at 3:45 in the big gym, with my physical form. Is that right?\""
               }
             }
           ],
@@ -11072,8 +11072,8 @@
             "b": {
               "correct": false,
               "why": {
-                "en": "This restates the wrong day and time, and it is not a question, so no one will correct you. Repeat what you heard and ask \"Is that right?\"",
-                "es": "Esto repite el día y la hora equivocados, y no es una pregunta, así que nadie te corregirá. Repite lo que oíste y pregunta \"Is that right?\""
+                "en": "This restates the wrong day, time, and gym, and it is not a question, so no one will correct you. Repeat what you heard and ask \"Is that right?\"",
+                "es": "Esto repite el día, la hora y el gimnasio equivocados, y no es una pregunta, así que nadie te corregirá. Repite lo que oíste y pregunta \"Is that right?\""
               },
               "hint": {
                 "en": "Did she say Tuesday?",
@@ -11231,8 +11231,8 @@
             {
               "id": "c",
               "label": {
-                "en": "\"HELP!!!\"",
-                "es": "\"HELP!!!\""
+                "en": "\"HELP!!! I missed stuff in science!!!\"",
+                "es": "\"HELP!!! I missed stuff in science!!!\""
               }
             }
           ],
@@ -11289,15 +11289,15 @@
             {
               "id": "a",
               "label": {
-                "en": "\"Hey,\"",
-                "es": "\"Hey,\""
+                "en": "\"Hey there, Ms. R,\"",
+                "es": "\"Hey there, Ms. R,\""
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "\"Teacher,\"",
-                "es": "\"Teacher,\""
+                "en": "\"Dear Teacher,\"",
+                "es": "\"Dear Teacher,\""
               }
             },
             {
@@ -11313,8 +11313,8 @@
             "a": {
               "correct": false,
               "why": {
-                "en": "\"Hey\" is for friends. It is too casual for a teacher and does not use her name.",
-                "es": "\"Hey\" es para amigos. Es demasiado informal para una maestra y no usa su nombre."
+                "en": "\"Hey there\" is for friends, and \"Ms. R\" is a nickname. It is too casual for a teacher. Use her title and full last name.",
+                "es": "\"Hey there\" es para amigos, y \"Ms. R\" es un apodo. Es demasiado informal para una maestra. Usa su título y su apellido completo."
               },
               "hint": {
                 "en": "Include her title and last name.",
@@ -11324,8 +11324,8 @@
             "b": {
               "correct": false,
               "why": {
-                "en": "In Spanish \"Maestra\" alone is respectful, but in English \"Teacher\" alone can sound abrupt. Use her title and last name: \"Ms. Rivera.\"",
-                "es": "En español \"Maestra\" es respetuoso, pero en inglés \"Teacher\" solo puede sonar brusco. Usa su título y apellido: \"Ms. Rivera\"."
+                "en": "\"Dear\" is good, but in Spanish \"Maestra\" alone is respectful, while in English \"Teacher\" as a name can sound abrupt. Use her title and last name: \"Ms. Rivera.\"",
+                "es": "\"Dear\" está bien, pero en español \"Maestra\" es respetuoso, mientras que en inglés \"Teacher\" como nombre puede sonar brusco. Usa su título y apellido: \"Ms. Rivera\"."
               },
               "hint": {
                 "en": "How do students in English say a teacher's name?",
@@ -11375,8 +11375,8 @@
             {
               "id": "c",
               "label": {
-                "en": "\"You know why I wasn't there.\"",
-                "es": "\"You know why I wasn't there.\""
+                "en": "\"You know why I wasn't there on Monday and Tuesday.\"",
+                "es": "\"You know why I wasn't there on Monday and Tuesday.\""
               }
             }
           ],
@@ -11403,12 +11403,12 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "The teacher may not know, and this can sound rude. Give the days and a short reason yourself.",
-                "es": "La maestra tal vez no sabe, y esto puede sonar grosero. Di tú mismo los días y una razón corta."
+                "en": "The teacher may not know why, and this can sound rude. Give a short reason yourself.",
+                "es": "La maestra tal vez no sabe por qué, y esto puede sonar grosero. Di tú mismo una razón corta."
               },
               "hint": {
-                "en": "Tell her the days — don't make her guess.",
-                "es": "Dile los días; no la hagas adivinar."
+                "en": "Tell her the reason — don't make her guess.",
+                "es": "Dile la razón; no la hagas adivinar."
               }
             }
           }
@@ -11433,15 +11433,15 @@
             {
               "id": "a",
               "label": {
-                "en": "\"Give me the work.\"",
-                "es": "\"Give me the work.\""
+                "en": "\"Give me the work I missed and tell me when it is due.\"",
+                "es": "\"Give me the work I missed and tell me when it is due.\""
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "\"Could you please tell me what I missed and when I should turn it in?\"",
-                "es": "\"Could you please tell me what I missed and when I should turn it in?\""
+                "en": "\"Could you please tell me what I missed and when it is due?\"",
+                "es": "\"Could you please tell me what I missed and when it is due?\""
               }
             },
             {
@@ -11457,8 +11457,8 @@
             "a": {
               "correct": false,
               "why": {
-                "en": "This is a command, so it sounds rude to a teacher. Turn it into a polite question with \"Could you please...?\"",
-                "es": "Es una orden, así que suena grosero para una maestra. Conviértela en una pregunta cortés con \"Could you please...?\""
+                "en": "You ask for the right things, but this is a command, so it sounds rude to a teacher. Turn it into a polite question with \"Could you please...?\"",
+                "es": "Pides las cosas correctas, pero es una orden, así que suena grosero para una maestra. Conviértela en una pregunta cortés con \"Could you please...?\""
               },
               "hint": {
                 "en": "Start with \"Could you please...\"",
@@ -11512,8 +11512,8 @@
             {
               "id": "b",
               "label": {
-                "en": "\"Thank you\" (with no name)",
-                "es": "\"Thank you\" (sin nombre)"
+                "en": "\"Thank you so much for your help!\" (with no name)",
+                "es": "\"Thank you so much for your help!\" (sin nombre)"
               }
             },
             {
@@ -11702,8 +11702,8 @@
             {
               "id": "a",
               "label": {
-                "en": "Pack your backpack first, then go outside.",
-                "es": "Guardar todo en tu mochila primero y luego salir."
+                "en": "Pack your backpack quickly, then line up and walk outside with your class.",
+                "es": "Guardar rápido todo en tu mochila y luego hacer fila y salir caminando con tu clase."
               }
             },
             {
@@ -11778,8 +11778,8 @@
             {
               "id": "a",
               "label": {
-                "en": "To give a grade for the drill",
-                "es": "Para poner una calificación por el simulacro"
+                "en": "To give each student a grade for the drill",
+                "es": "Para ponerle una calificación a cada estudiante por el simulacro"
               }
             },
             {
@@ -11854,22 +11854,22 @@
             {
               "id": "a",
               "label": {
-                "en": "Go quietly to the corner she points to, stay silent, and wait for her directions.",
-                "es": "Ir en silencio a la esquina que señala, quedarte callado y esperar sus instrucciones."
+                "en": "Move quietly to the corner, stay silent, and wait.",
+                "es": "Ir en silencio a la esquina, quedarte callado y esperar."
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "Open the door to see what is happening.",
-                "es": "Abrir la puerta para ver qué pasa."
+                "en": "Open the door a little to see what is happening in the hall.",
+                "es": "Abrir un poco la puerta para ver qué pasa en el pasillo."
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "Ask your friends out loud what is happening.",
-                "es": "Preguntarles en voz alta a tus amigos qué pasa."
+                "en": "Go to the corner, but whisper to your friends about what is happening.",
+                "es": "Ir a la esquina, pero susurrarles a tus amigos qué pasa."
               }
             }
           ],
@@ -11896,8 +11896,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "The teacher signaled silence. Wait until the drill is over, then ask your questions.",
-                "es": "La maestra hizo la señal de silencio. Espera a que termine el simulacro y luego haz tus preguntas."
+                "en": "Going to the corner is right, but the teacher signaled silence — no whispering. Wait until the drill is over, then ask your questions.",
+                "es": "Ir a la esquina está bien, pero la maestra hizo la señal de silencio: nada de susurros. Espera a que termine el simulacro y luego haz tus preguntas."
               },
               "hint": {
                 "en": "What does a finger on the lips mean?",
@@ -11930,8 +11930,8 @@
             {
               "id": "a",
               "label": {
-                "en": "Go home right away.",
-                "es": "Irte a casa de inmediato."
+                "en": "Leave school and go home right away.",
+                "es": "Salir de la escuela e irte a casa de inmediato."
               }
             },
             {
@@ -11944,8 +11944,8 @@
             {
               "id": "c",
               "label": {
-                "en": "Go outside to see the weather.",
-                "es": "Salir a ver el tiempo."
+                "en": "Go outside and wait by the flagpole with your class.",
+                "es": "Salir y esperar junto al asta de la bandera con tu clase."
               }
             }
           ],
@@ -11972,8 +11972,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "Severe weather is dangerous outside, and the directions say to stay away from windows. You stay inside.",
-                "es": "El mal tiempo es peligroso afuera, y las instrucciones dicen alejarse de las ventanas. Te quedas adentro."
+                "en": "Severe weather is dangerous outside, and the directions say to move to the inside hallway, away from windows. You stay inside.",
+                "es": "El mal tiempo es peligroso afuera, y las instrucciones dicen ir al pasillo interior, lejos de las ventanas. Te quedas adentro."
               },
               "hint": {
                 "en": "Is it safe to go near windows or outside?",
@@ -12013,8 +12013,8 @@
             {
               "id": "b",
               "label": {
-                "en": "Copy what other students did and never ask.",
-                "es": "Copiar lo que hicieron otros estudiantes y nunca preguntar."
+                "en": "Copy what the other students did during the drill, and never ask about it.",
+                "es": "Copiar lo que hicieron los otros estudiantes durante el simulacro y nunca preguntar."
               }
             },
             {
@@ -12687,8 +12687,8 @@
             {
               "id": "c",
               "label": {
-                "en": "Times the teacher is available to help students with questions",
-                "es": "Horas en que el maestro está disponible para ayudar a los estudiantes con sus dudas"
+                "en": "Times the teacher is free to help you",
+                "es": "Horas en que el maestro está libre para ayudarte"
               }
             }
           ],
@@ -12749,22 +12749,22 @@
             {
               "id": "a",
               "label": {
-                "en": "Upload it to the class website before midnight on Friday, October 10.",
-                "es": "Subirla al sitio web de la clase antes de la medianoche del viernes 10 de octubre."
+                "en": "Upload it to the class website by 11:59 p.m. on Friday.",
+                "es": "Subirla al sitio web de la clase a más tardar a las 11:59 p.m. del viernes."
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "Bring a paper copy to class on Monday.",
-                "es": "Traer una copia en papel a clase el lunes."
+                "en": "Bring a paper copy to class on Monday, October 13, before the bell.",
+                "es": "Traer una copia en papel a clase el lunes 13 de octubre antes del timbre."
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "Email it to the teacher on Saturday morning.",
-                "es": "Mandarla por correo al maestro el sábado en la mañana."
+                "en": "Email it to the teacher by 11:59 p.m. on Saturday, October 11.",
+                "es": "Mandarla por correo al maestro a más tardar a las 11:59 p.m. del sábado 11 de octubre."
               }
             }
           ],
@@ -12825,22 +12825,22 @@
             {
               "id": "a",
               "label": {
-                "en": "Nothing — the items are optional.",
-                "es": "Nada; los materiales son opcionales."
+                "en": "Nothing — the items are only suggestions, so you can skip them.",
+                "es": "Nada; los materiales son solo sugerencias, así que puedes no traerlos."
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "Wait for the teacher to hand them out on test day.",
-                "es": "Esperar a que el maestro los reparta el día del examen."
+                "en": "Wait until the teacher hands them out on the first test day of the year.",
+                "es": "Esperar a que el maestro los reparta el primer día de examen del año."
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "Get these items for class — and if you can't, ask the teacher or counselor for help.",
-                "es": "Conseguir estos materiales para la clase y, si no puedes, pedir ayuda al maestro o al consejero."
+                "en": "Get them, and if you can't, ask the teacher or counselor for help.",
+                "es": "Conseguirlos y, si no puedes, pedir ayuda al maestro o al consejero."
               }
             }
           ],
@@ -12849,8 +12849,8 @@
             "a": {
               "correct": false,
               "why": {
-                "en": "\"Required\" means you need them. They are not optional.",
-                "es": "\"Required\" significa que los necesitas. No son opcionales."
+                "en": "\"Required\" means you need them. They are not optional suggestions.",
+                "es": "\"Required\" significa que los necesitas. No son sugerencias opcionales."
               },
               "hint": {
                 "en": "What does \"required\" mean?",
@@ -12977,22 +12977,22 @@
             {
               "id": "a",
               "label": {
-                "en": "Read it before and while you work, so you know what a top score needs.",
-                "es": "Leerla antes y durante el trabajo para saber qué necesita la mejor puntuación."
+                "en": "Read it before and while you work, to see what a 4 needs.",
+                "es": "Leerla antes y durante el trabajo para ver qué necesita un 4."
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "Ignore it; only the teacher uses it.",
-                "es": "Ignorarla; solo el maestro la usa."
+                "en": "Ignore it; only the teacher uses it to grade after you turn the project in.",
+                "es": "Ignorarla; solo el maestro la usa para calificar después de que entregas el proyecto."
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "Read it only after you get your grade.",
-                "es": "Leerla solo después de recibir tu calificación."
+                "en": "Read it only after you get your grade, to see which points you lost.",
+                "es": "Leerla solo después de recibir tu calificación, para ver qué puntos perdiste."
               }
             }
           ],
@@ -13152,22 +13152,22 @@
             {
               "id": "a",
               "label": {
-                "en": "The teacher has no record of your lab report. Ask if you can still turn it in.",
-                "es": "El maestro no tiene registrado tu reporte de laboratorio. Pregunta si todavía lo puedes entregar."
+                "en": "The teacher has no record of it. Ask if you can still turn it in.",
+                "es": "El maestro no tiene registro de él. Pregunta si todavía lo puedes entregar."
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "You got a medium score.",
-                "es": "Sacaste una calificación media."
+                "en": "You got a medium score, so you passed the lab report.",
+                "es": "Sacaste una calificación media, así que aprobaste el reporte."
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "The lab report is not due yet.",
-                "es": "El reporte de laboratorio todavía no se entrega."
+                "en": "The lab report is not due yet, so you can turn it in later.",
+                "es": "El reporte todavía no se entrega, así que lo puedes entregar después."
               }
             }
           ],
@@ -13228,8 +13228,8 @@
             {
               "id": "a",
               "label": {
-                "en": "Excellent — you got a top score.",
-                "es": "Excelente: sacaste la mejor calificación."
+                "en": "Excellent — you got a top score, so it raises your average.",
+                "es": "Excelente: sacaste la mejor calificación, así que sube tu promedio."
               }
             },
             {
@@ -13242,8 +13242,8 @@
             {
               "id": "c",
               "label": {
-                "en": "Extra credit you still have to do",
-                "es": "Crédito extra que todavía tienes que hacer"
+                "en": "Extra credit you still have to do before the grading period ends",
+                "es": "Crédito extra que todavía tienes que hacer antes de que termine el periodo de calificaciones"
               }
             }
           ],
@@ -13304,15 +13304,15 @@
             {
               "id": "a",
               "label": {
-                "en": "You are passing easily.",
-                "es": "Estás aprobando fácilmente."
+                "en": "You are passing easily, so you do not need to change anything.",
+                "es": "Estás aprobando fácilmente, así que no necesitas cambiar nada."
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "You have 68 assignments in Biology.",
-                "es": "Tienes 68 tareas en biología."
+                "en": "You have 68 assignments left to do in Biology this year.",
+                "es": "Te faltan 68 tareas por hacer en biología este año."
               }
             },
             {
@@ -13339,8 +13339,8 @@
             "b": {
               "correct": false,
               "why": {
-                "en": "\"Average\" is your grade so far (promedio), not the number of assignments.",
-                "es": "\"Average\" es tu calificación hasta ahora (promedio), no el número de tareas."
+                "en": "\"Average\" is your grade so far (promedio), not a number of assignments.",
+                "es": "\"Average\" es tu calificación hasta ahora (promedio), no un número de tareas."
               },
               "hint": {
                 "en": "What does \"average\" mean?",
@@ -13394,8 +13394,8 @@
             {
               "id": "c",
               "label": {
-                "en": "Do not reply, and upload it next week.",
-                "es": "No responder y subirlo la próxima semana."
+                "en": "Do not reply, and just upload the essay draft again sometime next week when you can.",
+                "es": "No responder y simplemente volver a subir el borrador en algún momento de la próxima semana, cuando puedas."
               }
             }
           ],
@@ -13456,8 +13456,8 @@
             {
               "id": "a",
               "label": {
-                "en": "\"You put the wrong grade. Fix it.\"",
-                "es": "\"You put the wrong grade. Fix it.\""
+                "en": "\"Mr. Brooks, you put a zero for my Unit 2 test, but I took it on Tuesday with everyone else. Go fix it now.\"",
+                "es": "\"Mr. Brooks, you put a zero for my Unit 2 test, but I took it on Tuesday with everyone else. Go fix it now.\""
               }
             },
             {
@@ -13480,8 +13480,8 @@
             "a": {
               "correct": false,
               "why": {
-                "en": "You may be right, but this sounds like an accusation and a command. Mistakes happen; state the facts and ask politely.",
-                "es": "Puede que tengas razón, pero esto suena a acusación y a orden. Los errores pasan; di los hechos y pregunta con cortesía."
+                "en": "You may be right, and you gave the facts, but \"Go fix it now\" is a command and \"you put a zero\" sounds like an accusation. Mistakes happen; ask politely.",
+                "es": "Puede que tengas razón, y diste los hechos, pero \"Go fix it now\" es una orden y \"you put a zero\" suena a acusación. Los errores pasan; pregunta con cortesía."
               },
               "hint": {
                 "en": "How can you say the same facts politely?",
@@ -13660,15 +13660,15 @@
             {
               "id": "a",
               "label": {
-                "en": "\"Herrera.\"",
-                "es": "\"Herrera.\""
+                "en": "\"My name is Luis Herrera. Herrera, like it sounds.\"",
+                "es": "\"My name is Luis Herrera. Herrera, like it sounds.\""
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "\"My name is Luis Herrera. Herrera is spelled H-E-R-R-E-R-A.\"",
-                "es": "\"My name is Luis Herrera. Herrera is spelled H-E-R-R-E-R-A.\""
+                "en": "\"I'm Luis Herrera. Herrera is H-E-R-R-E-R-A.\"",
+                "es": "\"I'm Luis Herrera. Herrera is H-E-R-R-E-R-A.\""
               }
             },
             {
@@ -13684,8 +13684,8 @@
             "a": {
               "correct": false,
               "why": {
-                "en": "This gives only one name and does not spell it. English speakers may write \"Herrera\" wrong if they only hear it. Spell it letter by letter.",
-                "es": "Esto da solo un nombre y no lo deletrea. Quien habla inglés puede escribir mal \"Herrera\" si solo lo oye. Deletréalo letra por letra."
+                "en": "You gave your full name, but you did not spell it. English speakers may write \"Herrera\" wrong if they only hear it. Spell it letter by letter.",
+                "es": "Diste tu nombre completo, pero no lo deletreaste. Quien habla inglés puede escribir mal \"Herrera\" si solo lo oye. Deletréalo letra por letra."
               },
               "hint": {
                 "en": "The clerk asked two questions. Did you answer the second?",
@@ -13736,22 +13736,22 @@
             {
               "id": "a",
               "label": {
-                "en": "\"I have two last names: Herrera Soto. Please use both, with no hyphen.\"",
-                "es": "\"I have two last names: Herrera Soto. Please use both, with no hyphen.\""
+                "en": "\"My last names are Herrera Soto. Please use both, no hyphen.\"",
+                "es": "\"My last names are Herrera Soto. Please use both, no hyphen.\""
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "\"Soto.\"",
-                "es": "\"Soto.\""
+                "en": "\"Soto here, and Herrera on my other school papers.\"",
+                "es": "\"Soto here, and Herrera on my other school papers.\""
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "\"My father is Herrera.\"",
-                "es": "\"My father is Herrera.\""
+                "en": "\"My father is Herrera, and my mother is Soto.\"",
+                "es": "\"My father is Herrera, and my mother is Soto.\""
               }
             }
           ],
@@ -13767,8 +13767,8 @@
             "b": {
               "correct": false,
               "why": {
-                "en": "If you give only one name here and the other somewhere else, your school records may not match. Say both and which to use.",
-                "es": "Si das solo un apellido aquí y el otro en otro lugar, tus registros escolares pueden no coincidir. Di los dos y cuál usar."
+                "en": "Using one last name here and the other on other papers means your school records will not match. Say both and how to write them.",
+                "es": "Usar un apellido aquí y el otro en otros papeles hace que tus registros escolares no coincidan. Di los dos y cómo escribirlos."
               },
               "hint": {
                 "en": "How many last names do you have?",
@@ -13778,8 +13778,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "This tells your father's name, not yours. Say \"My last names are...\" or \"I have two last names...\"",
-                "es": "Esto dice el apellido de tu papá, no el tuyo. Di \"My last names are...\" o \"I have two last names...\""
+                "en": "This tells your parents' last names, not how to write yours. Say \"My last names are...\" or \"I have two last names...\"",
+                "es": "Esto dice los apellidos de tus papás, no cómo escribir el tuyo. Di \"My last names are...\" o \"I have two last names...\""
               },
               "hint": {
                 "en": "Whose last name did the counselor ask for?",
@@ -13812,8 +13812,8 @@
             {
               "id": "a",
               "label": {
-                "en": "\"I have 15 years.\"",
-                "es": "\"I have 15 years.\""
+                "en": "\"I have 15 years old.\"",
+                "es": "\"I have 15 years old.\""
               }
             },
             {
@@ -13836,8 +13836,8 @@
             "a": {
               "correct": false,
               "why": {
-                "en": "This is a word-for-word translation of \"Tengo 15 años.\" English uses BE for age: \"I am 15 years old.\"",
-                "es": "Es una traducción palabra por palabra de \"Tengo 15 años\". En inglés se usa BE para la edad: \"I am 15 years old\"."
+                "en": "This mixes the Spanish pattern \"Tengo 15 años\" with \"years old.\" English uses BE for age, not HAVE: \"I am 15 years old.\"",
+                "es": "Esto mezcla el patrón del español \"Tengo 15 años\" con \"years old\". En inglés se usa BE para la edad, no HAVE: \"I am 15 years old\"."
               },
               "hint": {
                 "en": "Which verb does English use for age — have or be?",
@@ -13902,8 +13902,8 @@
             {
               "id": "c",
               "label": {
-                "en": "\"My nationality is Honduras.\"",
-                "es": "\"My nationality is Honduras.\""
+                "en": "\"I'm from Honduras. My nationality is Honduras.\"",
+                "es": "\"I'm from Honduras. My nationality is Honduras.\""
               }
             }
           ],
@@ -13930,8 +13930,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "Honduras is the country. The nationality word is \"Honduran\": \"My nationality is Honduran.\"",
-                "es": "Honduras es el país. La palabra para la nacionalidad es \"Honduran\": \"My nationality is Honduran\"."
+                "en": "\"I'm from Honduras\" is right, but Honduras is the country. The nationality word is \"Honduran\": \"My nationality is Honduran.\"",
+                "es": "\"I'm from Honduras\" está bien, pero Honduras es el país. La palabra para la nacionalidad es \"Honduran\": \"My nationality is Honduran\"."
               },
               "hint": {
                 "en": "What is the nationality word for someone from Honduras?",
@@ -13964,15 +13964,15 @@
             {
               "id": "a",
               "label": {
-                "en": "\"I live in a house.\"",
-                "es": "\"I live in a house.\""
+                "en": "\"I live in a blue house near the school.\"",
+                "es": "\"I live in a blue house near the school.\""
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "\"Oak Street.\"",
-                "es": "\"Oak Street.\""
+                "en": "\"Oak Street, Apartment 2B, near the park.\"",
+                "es": "\"Oak Street, Apartment 2B, near the park.\""
               }
             },
             {
@@ -13999,8 +13999,8 @@
             "b": {
               "correct": false,
               "why": {
-                "en": "The street alone is not enough. Add the house number first and your apartment number if you have one.",
-                "es": "La calle sola no basta. Agrega primero el número de la casa y el número de apartamento si tienes."
+                "en": "The street and apartment are not enough without the house number. In English, the number comes first: \"418 Oak Street.\"",
+                "es": "La calle y el apartamento no bastan sin el número de la casa. En inglés, el número va primero: \"418 Oak Street\"."
               },
               "hint": {
                 "en": "What comes before the street name in English?",
@@ -14311,15 +14311,15 @@
             {
               "id": "b",
               "label": {
-                "en": "On the other side of the hallway, facing the cafeteria",
+                "en": "Across the hallway, facing the cafeteria",
                 "es": "Al otro lado del pasillo, frente a la cafetería"
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "Inside the cafeteria",
-                "es": "Dentro de la cafetería"
+                "en": "Inside the cafeteria, behind the lunch line",
+                "es": "Dentro de la cafetería, detrás de la fila del almuerzo"
               }
             }
           ],
@@ -14380,8 +14380,8 @@
             {
               "id": "a",
               "label": {
-                "en": "Downstairs, to the first room",
-                "es": "Abajo, al primer cuarto"
+                "en": "Downstairs, to the first room at the start of the hall",
+                "es": "Abajo, al primer cuarto al inicio del pasillo"
               }
             },
             {
@@ -14394,8 +14394,8 @@
             {
               "id": "c",
               "label": {
-                "en": "Up the stairs, then to the last room at the end of the hallway",
-                "es": "Subir las escaleras y luego al último cuarto al final del pasillo"
+                "en": "Upstairs, to the last room at the end of the hall",
+                "es": "Arriba, al último cuarto al final del pasillo"
               }
             }
           ],
@@ -14470,8 +14470,8 @@
             {
               "id": "c",
               "label": {
-                "en": "\"Where is counselor go?\"",
-                "es": "\"Where is counselor go?\""
+                "en": "\"Excuse me, where is counselor office go?\"",
+                "es": "\"Excuse me, where is counselor office go?\""
               }
             }
           ],
@@ -14498,8 +14498,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "The words are mixed up. Use a pattern: \"Where is the counseling office?\" or \"How do I get to the counseling office?\"",
-                "es": "Las palabras están revueltas. Usa un patrón: \"Where is the counseling office?\" o \"How do I get to the counseling office?\""
+                "en": "\"Excuse me\" is polite, but the words are mixed up. Use a pattern: \"Where is the counseling office?\" or \"How do I get to the counseling office?\"",
+                "es": "\"Excuse me\" es cortés, pero las palabras están revueltas. Usa un patrón: \"Where is the counseling office?\" o \"How do I get to the counseling office?\""
               },
               "hint": {
                 "en": "Try: \"Where is the...?\"",
@@ -14539,8 +14539,8 @@
             {
               "id": "b",
               "label": {
-                "en": "\"It is in the first floor, next of the office.\"",
-                "es": "\"It is in the first floor, next of the office.\""
+                "en": "\"It is in the first floor, next of the main office.\"",
+                "es": "\"It is in the first floor, next of the main office.\""
               }
             },
             {

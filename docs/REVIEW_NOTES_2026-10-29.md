@@ -68,7 +68,10 @@ The register is Mexican/Texas Spanish throughout. If a more neutral register is 
   - asterisk = "little star"
   - Spanish *argumento* "usually" means plot
 
-## Known pattern: the answer is often the longest choice
+## Answer-length rebalance (done)
 
-In about 70% of choice items, both old and new, the correct choice is the longest one, a cue some students learn to use.
-In about 150 items it is much longer than any distractor. To fix it, lengthen the distractors so they are as specific as the answer.
+The correct choice used to be the longest one about 70% of the time. Distractors in 257 items were rewritten to fix that;
+now the correct choice is the longest in 26% of items and the shortest in 13%. Changed labels and their feedback (en + es) are part of
+the Spanish review. Two things to look at:
+- K–2 picture-match distractors were swapped for short, concrete, non-cognate words (umbrella, rainbow, spoon…).
+- `cog-context-3-5-001` labels now read "True cognate — meaning matches" / "False friend — meaning differs" (equal length).

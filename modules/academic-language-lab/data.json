@@ -71,8 +71,8 @@
             {
               "id": "b",
               "label": {
-                "en": "\"Yeah, plants are cool.\"",
-                "es": "\"Sí, las plantas son geniales.\""
+                "en": "\"Yeah, I agree with Mia. Plants are really cool, and the green ones in our classroom are my favorite.\"",
+                "es": "\"Sí, estoy de acuerdo con Mia. Las plantas son muy geniales, y las verdes de nuestro salón son mis favoritas.\""
               }
             },
             {
@@ -95,8 +95,8 @@
             "b": {
               "correct": false,
               "why": {
-                "en": "This agrees but adds nothing new. A strong talk move builds on the idea — add a reason or a science word.",
-                "es": "Esto está de acuerdo pero no agrega nada nuevo. Un buen movimiento amplía la idea: agrega una razón o una palabra de ciencia."
+                "en": "This agrees, but \"plants are cool\" and a favorite plant are opinions — they add nothing new about why plants need sunlight. A strong talk move builds on the idea with a reason or a science word.",
+                "es": "Esto está de acuerdo, pero \"las plantas son geniales\" y una planta favorita son opiniones: no agregan nada nuevo sobre por qué las plantas necesitan luz solar. Un buen movimiento amplía la idea con una razón o una palabra de ciencia."
               },
               "hint": {
                 "en": "Try the frame: \"I agree, and I want to add that ___.\"",
@@ -143,15 +143,15 @@
             {
               "id": "b",
               "label": {
-                "en": "\"No, you're wrong.\"",
-                "es": "\"No, estás equivocado.\""
+                "en": "\"No, you're wrong, Sam. I just know that's not true, so we should move on to the next question.\"",
+                "es": "\"No, estás equivocado, Sam. Yo sé que eso no es cierto, así que pasemos a la siguiente pregunta.\""
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "\"Maybe. I don't really know.\"",
-                "es": "\"Tal vez. No sé muy bien.\""
+                "en": "\"Maybe. I don't really know, so I'll just agree with whatever the group decides.\"",
+                "es": "\"Tal vez. No sé muy bien, así que voy a estar de acuerdo con lo que decida el grupo.\""
               }
             }
           ],
@@ -167,8 +167,8 @@
             "b": {
               "correct": false,
               "why": {
-                "en": "This disagrees, but it sounds dismissive and gives no evidence. Rephrase respectfully and add proof.",
-                "es": "Esto está en desacuerdo, pero suena descortés y no da evidencia. Reformula con respeto y agrega una prueba."
+                "en": "This disagrees, but it sounds dismissive and gives no evidence — \"I just know\" is not proof. Rephrase respectfully and add what you observed.",
+                "es": "Esto está en desacuerdo, pero suena descortés y no da evidencia: \"yo sé\" no es una prueba. Reformula con respeto y agrega lo que observaste."
               },
               "hint": {
                 "en": "Start with \"I see it differently because...\" and add what you observed.",
@@ -178,8 +178,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "This avoids taking a position. Academic discussion needs a claim backed by evidence.",
-                "es": "Esto evita tomar una posición. La discusión académica necesita una afirmación apoyada con evidencia."
+                "en": "This avoids taking a position — going along with the group is not a claim. Academic discussion needs a claim backed by evidence.",
+                "es": "Esto evita tomar una posición: seguir al grupo no es una afirmación. La discusión académica necesita una afirmación apoyada con evidencia."
               }
             }
           }
@@ -215,8 +215,8 @@
             {
               "id": "b",
               "label": {
-                "en": "\"No, it didn't.\"",
-                "es": "\"No, no es cierto.\""
+                "en": "\"No, it didn't disappear. Water can't just vanish, so somebody probably spilled your cup.\"",
+                "es": "\"No, no desapareció. El agua no se esfuma así nomás, así que seguramente alguien tiró tu vaso.\""
               }
             },
             {
@@ -239,8 +239,8 @@
             "b": {
               "correct": false,
               "why": {
-                "en": "This shuts the idea down without exploring it. Ask a question that opens up the thinking instead.",
-                "es": "Esto cierra la idea sin explorarla. Mejor haz una pregunta que abra el pensamiento."
+                "en": "This shuts Priya's idea down and jumps to a guess (\"somebody spilled your cup\") without exploring what she observed. Ask a question that opens up the thinking instead.",
+                "es": "Esto cierra la idea de Priya y salta a una suposición (\"alguien tiró tu vaso\") sin explorar lo que ella observó. Mejor haz una pregunta que abra el pensamiento."
               },
               "hint": {
                 "en": "Try \"Can you say more about...?\"",
@@ -287,8 +287,8 @@
             {
               "id": "b",
               "label": {
-                "en": "\"Because I think so.\"",
-                "es": "\"Porque yo creo que sí.\""
+                "en": "\"Because I think so, and our group worked really hard on this, so it has to be right.\"",
+                "es": "\"Porque yo creo que sí, y nuestro grupo trabajó muy duro en esto, así que tiene que estar bien.\""
               }
             },
             {
@@ -311,8 +311,8 @@
             "b": {
               "correct": false,
               "why": {
-                "en": "This is an opinion with no evidence. Point to your data or measurement.",
-                "es": "Esto es una opinión sin evidencia. Señala tus datos o tu medición."
+                "en": "This is an opinion, and hard work is not evidence. Point to your data or measurement.",
+                "es": "Esto es una opinión, y el esfuerzo no es evidencia. Señala tus datos o tu medición."
               },
               "hint": {
                 "en": "Use \"According to our data, ___.\"",
@@ -352,15 +352,15 @@
             {
               "id": "a",
               "label": {
-                "en": "\"Building on Leo's idea, when water gets cold enough it freezes and changes from a liquid to a solid.\"",
-                "es": "\"Ampliando la idea de Leo, cuando el agua se enfría lo suficiente se congela y cambia de líquido a sólido.\""
+                "en": "\"Building on Leo's idea, water freezes at 0°C and changes from a liquid to a solid.\"",
+                "es": "\"Ampliando la idea de Leo, el agua se congela a 0 °C y cambia de líquido a sólido.\""
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "\"That's basically what I already said.\"",
-                "es": "\"Eso es básicamente lo que ya dije.\""
+                "en": "\"That's basically what I already said earlier, so Leo is really just repeating my idea.\"",
+                "es": "\"Eso es básicamente lo que yo ya dije antes, así que Leo solo está repitiendo mi idea.\""
               }
             },
             {
@@ -376,15 +376,15 @@
             "a": {
               "correct": true,
               "why": {
-                "en": "Strong. You built on Leo and named the change of state from liquid to solid. Building on peers' ideas deepens the discussion.",
-                "es": "Fuerte. Ampliaste la idea de Leo y nombraste el cambio de estado de líquido a sólido. Ampliar las ideas de los compañeros profundiza la discusión."
+                "en": "Strong. You built on Leo, added the freezing point, and named the change of state from liquid to solid. Building on peers' ideas deepens the discussion.",
+                "es": "Fuerte. Ampliaste la idea de Leo, agregaste el punto de congelación y nombraste el cambio de estado de líquido a sólido. Ampliar las ideas de los compañeros profundiza la discusión."
               }
             },
             "b": {
               "correct": false,
               "why": {
-                "en": "This competes instead of building. A talk move adds to a peer's idea rather than claiming it.",
-                "es": "Esto compite en lugar de ampliar. Un movimiento de conversación aporta a la idea del compañero en vez de reclamarla."
+                "en": "This competes instead of building. A talk move adds to a peer's idea rather than claiming it as your own.",
+                "es": "Esto compite en lugar de ampliar. Un movimiento de conversación aporta a la idea del compañero en vez de reclamarla como tuya."
               },
               "hint": {
                 "en": "Try \"Building on Leo's idea, ___.\"",
@@ -545,8 +545,8 @@
             {
               "id": "c",
               "label": {
-                "en": "It got hotter and hotter.",
-                "es": "Se puso cada vez más caliente."
+                "en": "It got hotter and hotter and hotter during the whole experiment.",
+                "es": "Se puso cada vez más y más caliente durante todo el experimento."
               }
             }
           ],
@@ -573,8 +573,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "Everyday phrasing. It's true, but \"got hotter and hotter\" isn't the precise academic register.",
-                "es": "Lenguaje cotidiano. Es cierto, pero \"got hotter and hotter\" no es el registro académico preciso."
+                "en": "Everyday phrasing. It's true, but \"got hotter and hotter and hotter\" repeats itself and isn't the precise academic register.",
+                "es": "Lenguaje cotidiano. Es cierto, pero \"got hotter and hotter and hotter\" se repite y no es el registro académico preciso."
               }
             }
           }
@@ -674,15 +674,15 @@
             {
               "id": "b",
               "label": {
-                "en": "The ice melted 'cause it got warm.",
-                "es": "El hielo se derritió \"'cause\" se calentó."
+                "en": "The ice melted 'cause it got super warm in the classroom.",
+                "es": "El hielo se derritió \"'cause\" se puso súper caliente en el salón."
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "It got warm so bye-bye ice.",
-                "es": "Se calentó, así que adiós hielo."
+                "en": "It got warm so bye-bye ice, it turned into a big puddle.",
+                "es": "Se calentó, así que adiós hielo, se convirtió en un charco grande."
               }
             }
           ],
@@ -698,8 +698,8 @@
             "b": {
               "correct": false,
               "why": {
-                "en": "\"'Cause\" is slang for \"because.\" Use the full word and a precise reason.",
-                "es": "\"'Cause\" es jerga de \"because.\" Usa la palabra completa y una razón precisa."
+                "en": "\"'Cause\" is slang for \"because,\" and \"super warm\" is not precise. Use the full word and a precise temperature idea.",
+                "es": "\"'Cause\" es jerga de \"because,\" y \"super warm\" no es preciso. Usa la palabra completa y una idea precisa de temperatura."
               },
               "hint": {
                 "en": "Use \"because\" and a precise temperature idea.",
@@ -742,8 +742,8 @@
             {
               "id": "b",
               "label": {
-                "en": "The window plants got taller, I guess.",
-                "es": "Las plantas de la ventana crecieron más, creo."
+                "en": "The plants by the window got way taller than the other ones, I guess.",
+                "es": "Las plantas junto a la ventana crecieron mucho más que las otras, creo."
               }
             },
             {
@@ -766,8 +766,8 @@
             "b": {
               "correct": false,
               "why": {
-                "en": "\"I guess\" hedges the finding. Report results with confidence: \"The results indicate...\"",
-                "es": "\"I guess\" resta seguridad al hallazgo. Reporta los resultados con seguridad: \"The results indicate...\""
+                "en": "\"I guess\" hedges the finding, and \"way taller\" is casual. Report results with confidence: \"The results indicate...\"",
+                "es": "\"I guess\" resta seguridad al hallazgo, y \"way taller\" es informal. Reporta los resultados con seguridad: \"The results indicate...\""
               },
               "hint": {
                 "en": "Report the result without \"I guess.\"",
@@ -913,8 +913,8 @@
             {
               "id": "b",
               "label": {
-                "en": "I think the window plants look nicer.",
-                "es": "Creo que las plantas de la ventana se ven mejor."
+                "en": "I think the window plants look nicer, so they must be the healthiest ones.",
+                "es": "Creo que las plantas de la ventana se ven mejor, así que deben ser las más sanas."
               }
             },
             {
@@ -937,8 +937,8 @@
             "b": {
               "correct": false,
               "why": {
-                "en": "That's an opinion (“look nicer”), not evidence. Evidence measures or observes something.",
-                "es": "Eso es una opinión (“se ven mejor”), no evidencia. La evidencia mide u observa algo."
+                "en": "That's an opinion (“look nicer”) and a guess, not evidence. Evidence measures or observes something.",
+                "es": "Eso es una opinión (“se ven mejor”) y una suposición, no evidencia. La evidencia mide u observa algo."
               },
               "hint": {
                 "en": "Which sentence has numbers?",
@@ -981,15 +981,15 @@
             {
               "id": "b",
               "label": {
-                "en": "Soil is brown and sand is tan.",
-                "es": "El suelo es café y la arena es beige."
+                "en": "Soil is brown and sand is tan, so the two samples look very different.",
+                "es": "El suelo es café y la arena es beige, así que las dos muestras se ven muy diferentes."
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "I like playing in sand.",
-                "es": "Me gusta jugar en la arena."
+                "en": "I like playing in sand more than soil because sand is softer to dig in.",
+                "es": "Me gusta jugar más en la arena que en el suelo porque la arena es más suave para excavar."
               }
             }
           ],
@@ -1005,8 +1005,8 @@
             "b": {
               "correct": false,
               "why": {
-                "en": "Color doesn't tell us about water. Evidence must connect to the claim about holding water.",
-                "es": "El color no nos dice nada sobre el agua. La evidencia debe conectarse con la afirmación sobre retener agua."
+                "en": "Color and looks don't tell us about water. Evidence must connect to the claim about holding water.",
+                "es": "El color y la apariencia no nos dicen nada sobre el agua. La evidencia debe conectarse con la afirmación sobre retener agua."
               },
               "hint": {
                 "en": "Which choice mentions weight or water?",
@@ -1042,15 +1042,15 @@
             {
               "id": "a",
               "label": {
-                "en": "The ice in the sun melted in 5 minutes; the ice in the shade took 12 minutes.",
-                "es": "El hielo al sol se derritió en 5 minutos; el de la sombra tardó 12 minutos."
+                "en": "The ice in the sun melted in 5 minutes; in the shade it took 12 minutes.",
+                "es": "El hielo al sol se derritió en 5 minutos; a la sombra tardó 12 minutos."
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "The sun is very hot.",
-                "es": "El sol está muy caliente."
+                "en": "The sun is very hot, and everyone knows hot things make ice melt fast.",
+                "es": "El sol está muy caliente, y todos saben que las cosas calientes derriten el hielo rápido."
               }
             },
             {
@@ -1117,15 +1117,15 @@
             {
               "id": "b",
               "label": {
-                "en": "Plants are pretty.",
-                "es": "Las plantas son bonitas."
+                "en": "Plants are pretty, and they make our classroom look nicer and more cheerful.",
+                "es": "Las plantas son bonitas, y hacen que nuestro salón se vea más lindo y alegre."
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "I watered the plant every day.",
-                "es": "Regué la planta todos los días."
+                "en": "I watered the plant every day and gave it plant food once a week.",
+                "es": "Regué la planta todos los días y le di abono una vez por semana."
               }
             }
           ],
@@ -1152,8 +1152,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "That's about water, not light. Evidence must match the claim about light.",
-                "es": "Eso trata del agua, no de la luz. La evidencia debe coincidir con la afirmación sobre la luz."
+                "en": "That's about water and plant food, not light. Evidence must match the claim about light.",
+                "es": "Eso trata del agua y el abono, no de la luz. La evidencia debe coincidir con la afirmación sobre la luz."
               }
             }
           }
@@ -1292,8 +1292,8 @@
             {
               "id": "b",
               "label": {
-                "en": "The moon is very bright.",
-                "es": "La luna es muy brillante."
+                "en": "The moon is very bright, and it is the biggest light in the night sky.",
+                "es": "La luna es muy brillante, y es la luz más grande del cielo de noche."
               }
             },
             {
@@ -1316,8 +1316,8 @@
             "b": {
               "correct": false,
               "why": {
-                "en": "That's a fact, not an explanation. It doesn't say why. Add “because…”.",
-                "es": "Eso es un hecho, no una explicación. No dice por qué. Agrega “because…”."
+                "en": "Those are facts, not an explanation. They describe the moon but don't say why it shines. Add “because…”.",
+                "es": "Esos son hechos, no una explicación. Describen la luna, pero no dicen por qué brilla. Agrega “because…”."
               },
               "hint": {
                 "en": "Which choice says “because…”?",
@@ -1360,8 +1360,8 @@
             {
               "id": "b",
               "label": {
-                "en": "Ice floats because it is cold.",
-                "es": "El hielo flota porque está frío."
+                "en": "Ice floats because it is cold, and cold things are lighter than warm things.",
+                "es": "El hielo flota porque está frío, y las cosas frías son más ligeras que las calientes."
               }
             },
             {
@@ -1384,8 +1384,8 @@
             "b": {
               "correct": false,
               "why": {
-                "en": "Being cold isn't the reason — cold water doesn't float. The cause is lower density.",
-                "es": "Estar frío no es la razón: el agua fría no flota. La causa es la menor densidad."
+                "en": "Being cold isn't the reason — cold things are not always lighter, and cold liquid water doesn't float. The cause is lower density.",
+                "es": "Estar frío no es la razón: las cosas frías no siempre son más ligeras, y el agua líquida fría no flota. La causa es la menor densidad."
               },
               "hint": {
                 "en": "What makes something float — temperature or density?",
@@ -1428,8 +1428,8 @@
             {
               "id": "b",
               "label": {
-                "en": "They grow toward the window because they like the view.",
-                "es": "Crecen hacia la ventana porque les gusta la vista."
+                "en": "They grow toward the window because they like to look at the view outside.",
+                "es": "Crecen hacia la ventana porque les gusta mirar la vista de afuera."
               }
             },
             {
@@ -1452,8 +1452,8 @@
             "b": {
               "correct": false,
               "why": {
-                "en": "Plants don't enjoy views. The scientific cause is their need for light.",
-                "es": "A las plantas no les gustan las vistas. La causa científica es su necesidad de luz."
+                "en": "Plants don't look at or enjoy views. The scientific cause is their need for light.",
+                "es": "Las plantas no miran ni disfrutan las vistas. La causa científica es su necesidad de luz."
               },
               "hint": {
                 "en": "What do plants get from a window?",
@@ -1496,8 +1496,8 @@
             {
               "id": "b",
               "label": {
-                "en": "It feels cold because metal is always cold.",
-                "es": "Se siente fría porque el metal siempre está frío."
+                "en": "It feels cold because metal is always cold, even when it sits in a warm room.",
+                "es": "Se siente fría porque el metal siempre está frío, aunque esté en un cuarto caliente."
               }
             },
             {
@@ -1520,8 +1520,8 @@
             "b": {
               "correct": false,
               "why": {
-                "en": "Metal isn't “always cold” — it matches room temperature. It feels cold because it conducts heat from your hand.",
-                "es": "El metal no “siempre está frío”: iguala la temperatura del cuarto. Se siente fría porque conduce el calor de tu mano."
+                "en": "Metal isn't “always cold” — in a warm room it matches room temperature. It feels cold because it conducts heat from your hand.",
+                "es": "El metal no “siempre está frío”: en un cuarto caliente iguala la temperatura del cuarto. Se siente fría porque conduce el calor de tu mano."
               },
               "hint": {
                 "en": "What does metal do with your hand's heat?",
@@ -2045,15 +2045,15 @@
             {
               "id": "a",
               "label": {
-                "en": "Over three weeks, the bean plant grew from a small seed into a tall stem with leaves.",
-                "es": "En tres semanas, la planta de frijol creció de una pequeña semilla a un tallo alto con hojas."
+                "en": "Over three weeks, the bean plant grew from a seed into a tall stem with leaves.",
+                "es": "En tres semanas, la planta de frijol creció de una semilla a un tallo alto con hojas."
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "The plant got bigger.",
-                "es": "La planta se hizo más grande."
+                "en": "The plant got bigger and bigger, and it looked really nice and green when it was done.",
+                "es": "La planta se hizo cada vez más grande, y se veía muy bonita y verde al final."
               }
             },
             {
@@ -2076,8 +2076,8 @@
             "b": {
               "correct": false,
               "why": {
-                "en": "“Got bigger” is vague. Add specifics: how long, what kind, how it changed.",
-                "es": "“Got bigger” es vago. Agrega detalles: cuánto tiempo, qué tipo, cómo cambió."
+                "en": "“Got bigger and bigger” and “really nice” are vague. Add specifics: how long, what kind, how it changed.",
+                "es": "“Got bigger and bigger” y “really nice” son vagos. Agrega detalles: cuánto tiempo, qué tipo, cómo cambió."
               },
               "hint": {
                 "en": "Which choice tells you when and how much?",
@@ -2120,8 +2120,8 @@
             {
               "id": "b",
               "label": {
-                "en": "The water was different.",
-                "es": "El agua estaba diferente."
+                "en": "The water was different after a while, and it looked kind of weird.",
+                "es": "El agua estaba diferente después de un rato, y se veía un poco rara."
               }
             },
             {
@@ -2144,8 +2144,8 @@
             "b": {
               "correct": false,
               "why": {
-                "en": "“Different” doesn't say how. Name the change: it boiled and became steam.",
-                "es": "“Different” no dice cómo. Nombra el cambio: hirvió y se convirtió en vapor."
+                "en": "“Different” and “kind of weird” don't say how. Name the change: it boiled and became steam.",
+                "es": "“Different” y “kind of weird” no dicen cómo. Nombra el cambio: hirvió y se convirtió en vapor."
               },
               "hint": {
                 "en": "What exactly happened to the water?",
@@ -2188,15 +2188,15 @@
             {
               "id": "b",
               "label": {
-                "en": "The animal went somewhere.",
-                "es": "El animal fue a algún lugar."
+                "en": "The animal went somewhere and did some stuff for a while.",
+                "es": "El animal fue a algún lugar e hizo algunas cosas por un rato."
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "It moved a lot.",
-                "es": "Se movió mucho."
+                "en": "It moved a lot, and then it moved some more after that.",
+                "es": "Se movió mucho, y luego se movió un poco más después de eso."
               }
             }
           ],
@@ -2212,8 +2212,8 @@
             "b": {
               "correct": false,
               "why": {
-                "en": "“Somewhere” gives no detail. Add which animal, how, and why.",
-                "es": "“Somewhere” no da detalle. Agrega qué animal, cómo y por qué."
+                "en": "“Somewhere” and “some stuff” give no detail. Add which animal, how, and why.",
+                "es": "“Somewhere” y “some stuff” no dan detalle. Agrega qué animal, cómo y por qué."
               },
               "hint": {
                 "en": "Which choice answers what, how, and why?",
@@ -2223,8 +2223,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "“A lot” isn't specific. Name the animal and how it moved.",
-                "es": "“A lot” no es específico. Nombra el animal y cómo se movió."
+                "en": "“A lot” and “some more” aren't specific. Name the animal and how it moved.",
+                "es": "“A lot” y “some more” no son específicos. Nombra el animal y cómo se movió."
               }
             }
           }
@@ -2249,22 +2249,22 @@
             {
               "id": "a",
               "label": {
-                "en": "We measured how the temperature of the water changed every five minutes during the experiment.",
-                "es": "Medimos cómo cambiaba la temperatura del agua cada cinco minutos durante el experimento."
+                "en": "We measured the water's temperature every five minutes during the experiment.",
+                "es": "Medimos la temperatura del agua cada cinco minutos durante el experimento."
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "We did some science.",
-                "es": "Hicimos algo de ciencia."
+                "en": "We did some science stuff, and it was really fun and interesting for everyone.",
+                "es": "Hicimos cosas de ciencia, y fue muy divertido e interesante para todos."
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "We did an experiment in class.",
-                "es": "Hicimos un experimento en clase."
+                "en": "We did an experiment in class on Tuesday with the partners at our table.",
+                "es": "Hicimos un experimento en clase el martes con los compañeros de nuestra mesa."
               }
             }
           ],
@@ -2273,15 +2273,15 @@
             "a": {
               "correct": true,
               "why": {
-                "en": "Yes. It says what you measured (temperature of the water) and how often (every five minutes). Precise and academic.",
+                "en": "Yes. It says what you measured (the water's temperature) and how often (every five minutes). Precise and academic.",
                 "es": "Sí. Dice qué mediste (la temperatura del agua) y cada cuánto (cada cinco minutos). Preciso y académico."
               }
             },
             "b": {
               "correct": false,
               "why": {
-                "en": "“Some science” is vague. Say what you measured and how.",
-                "es": "“Some science” es vago. Di qué mediste y cómo."
+                "en": "“Some science stuff” is vague, and “fun and interesting” is an opinion. Say what you measured and how.",
+                "es": "“Some science stuff” es vago, y “fun and interesting” es una opinión. Di qué mediste y cómo."
               },
               "hint": {
                 "en": "What did you measure, and how often?",
@@ -2291,8 +2291,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "This adds only where. Add what you measured and how often.",
-                "es": "Esto solo agrega dónde. Agrega qué mediste y cada cuánto."
+                "en": "This adds only where, when, and with whom. Add what you measured and how often.",
+                "es": "Esto solo agrega dónde, cuándo y con quién. Agrega qué mediste y cada cuánto."
               }
             }
           }
@@ -2420,15 +2420,15 @@
             {
               "id": "b",
               "label": {
-                "en": "A whale and a fish are different.",
-                "es": "Una ballena y un pez son diferentes."
+                "en": "A whale and a fish are different because they are different kinds of animals.",
+                "es": "Una ballena y un pez son diferentes porque son diferentes tipos de animales."
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "Whales are really big.",
-                "es": "Las ballenas son muy grandes."
+                "en": "Whales are really big, and they are some of the largest animals in the whole ocean.",
+                "es": "Las ballenas son muy grandes, y son de los animales más grandes de todo el océano."
               }
             }
           ],
@@ -2444,8 +2444,8 @@
             "b": {
               "correct": false,
               "why": {
-                "en": "“Are different” doesn't say how. A strong comparison names the difference.",
-                "es": "“Are different” no dice cómo. Una buena comparación nombra la diferencia."
+                "en": "“Different because they are different” goes in a circle — it doesn't say how. A strong comparison names the difference.",
+                "es": "“Diferentes porque son diferentes” da vueltas en círculo: no dice cómo. Una buena comparación nombra la diferencia."
               },
               "hint": {
                 "en": "Which choice uses “both” and “but/while”?",
@@ -2488,15 +2488,15 @@
             {
               "id": "b",
               "label": {
-                "en": "Rain is wet.",
-                "es": "La lluvia es mojada."
+                "en": "Rain is wet, and it falls a lot in the spring when the weather is warm.",
+                "es": "La lluvia es mojada, y cae mucho en la primavera cuando hace calor."
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "They are not the same thing.",
-                "es": "No son lo mismo."
+                "en": "They are not the same thing, because rain and snow are two different words.",
+                "es": "No son lo mismo, porque lluvia y nieve son dos palabras diferentes."
               }
             }
           ],
@@ -2523,8 +2523,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "“Not the same” doesn't say how. Name the difference: liquid vs. frozen.",
-                "es": "“Not the same” no dice cómo. Nombra la diferencia: líquida vs. congelada."
+                "en": "“Not the same” doesn't say how, and being different words is not a science difference. Name it: liquid vs. frozen.",
+                "es": "“Not the same” no dice cómo, y ser palabras diferentes no es una diferencia científica. Nómbrala: líquida vs. congelada."
               }
             }
           }
@@ -2556,8 +2556,8 @@
             {
               "id": "b",
               "label": {
-                "en": "A square is a shape.",
-                "es": "Un cuadrado es una figura."
+                "en": "A square is a shape, and it is the shape of most windows.",
+                "es": "Un cuadrado es una figura, y es la forma de casi todas las ventanas."
               }
             },
             {
@@ -2617,22 +2617,22 @@
             {
               "id": "a",
               "label": {
-                "en": "Both the sun and the moon appear in the sky, but the sun makes its own light while the moon reflects it.",
-                "es": "Tanto el sol como la luna aparecen en el cielo, pero el sol produce su propia luz mientras que la luna la refleja."
+                "en": "The sun and the moon both appear in the sky, but the sun makes light while the moon reflects it.",
+                "es": "El sol y la luna aparecen en el cielo, pero el sol produce luz mientras que la luna la refleja."
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "The sun is bright.",
-                "es": "El sol es brillante."
+                "en": "The sun is bright and hot, and it is much, much bigger than anything else in our sky.",
+                "es": "El sol es brillante y caliente, y es mucho, mucho más grande que cualquier otra cosa en nuestro cielo."
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "The sun and the moon are in space.",
-                "es": "El sol y la luna están en el espacio."
+                "en": "The sun and the moon are both in space, and you can see both of them in the sky.",
+                "es": "El sol y la luna están en el espacio, y se pueden ver los dos en el cielo."
               }
             }
           ],
@@ -2641,8 +2641,8 @@
             "a": {
               "correct": true,
               "why": {
-                "en": "Yes. It names the similarity (“both… appear in the sky”) and the key difference (makes light vs. reflects light) with “but/while.”",
-                "es": "Sí. Nombra la semejanza (“both… appear in the sky”) y la diferencia clave (produce luz vs. la refleja) con “but/while.”"
+                "en": "Yes. It names the similarity (“both appear in the sky”) and the key difference (makes light vs. reflects light) with “but/while.”",
+                "es": "Sí. Nombra la semejanza (“both appear in the sky”) y la diferencia clave (produce luz vs. la refleja) con “but/while.”"
               }
             },
             "b": {
@@ -2659,8 +2659,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "This only names a similarity. A strong comparison also names a difference.",
-                "es": "Esto solo nombra una semejanza. Una buena comparación también nombra una diferencia."
+                "en": "This only names similarities. A strong comparison also names a difference.",
+                "es": "Esto solo nombra semejanzas. Una buena comparación también nombra una diferencia."
               }
             }
           }
@@ -3273,15 +3273,15 @@
             {
               "id": "b",
               "label": {
-                "en": "“Yeah, same.”",
-                "es": "“Yeah, same.”"
+                "en": "“Yeah, same, I was literally just about to say that exact thing.”",
+                "es": "“Yeah, same, I was literally just about to say that exact thing.”"
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "“I don't know, maybe.”",
-                "es": "“I don't know, maybe.”"
+                "en": "“I don't know, maybe. I wasn't really paying attention to that part.”",
+                "es": "“I don't know, maybe. I wasn't really paying attention to that part.”"
               }
             }
           ],
@@ -3297,8 +3297,8 @@
             "b": {
               "correct": false,
               "why": {
-                "en": "“Same” agrees but gives no reason. Add WHY: “the reason is that metals conduct heat.”",
-                "es": "“Same” está de acuerdo pero no da razón. Agrega POR QUÉ: “the reason is that metals conduct heat.”"
+                "en": "“Same” agrees but gives no reason, and saying you were about to say it adds nothing. Add WHY: “the reason is that metals conduct heat.”",
+                "es": "“Same” está de acuerdo pero no da razón, y decir que ibas a decirlo no aporta nada. Agrega POR QUÉ: “the reason is that metals conduct heat.”"
               },
               "hint": {
                 "en": "What makes metals heat up fast?",
@@ -3308,8 +3308,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "This shows doubt, not a reason. The move is to agree and explain why.",
-                "es": "Esto muestra duda, no una razón. El movimiento es estar de acuerdo y explicar por qué."
+                "en": "This shows doubt and admits you weren't listening — no reason. The move is to agree and explain why.",
+                "es": "Esto muestra duda y admite que no estabas escuchando: no hay razón. El movimiento es estar de acuerdo y explicar por qué."
               }
             }
           }
@@ -3345,15 +3345,15 @@
             {
               "id": "b",
               "label": {
-                "en": "“No, you're wrong.”",
-                "es": "“No, you're wrong.”"
+                "en": "“No, you're wrong, and that's just not how deserts work at all.”",
+                "es": "“No, you're wrong, and that's just not how deserts work at all.”"
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "“Deserts, deserts, deserts.”",
-                "es": "“Deserts, deserts, deserts.”"
+                "en": "“Deserts, deserts, deserts. Can we please talk about oceans instead?”",
+                "es": "“Deserts, deserts, deserts. Can we please talk about oceans instead?”"
               }
             }
           ],
@@ -3369,8 +3369,8 @@
             "b": {
               "correct": false,
               "why": {
-                "en": "“You're wrong” is blunt and gives no evidence. Soften it and add an example.",
-                "es": "“You're wrong” es brusco y no da evidencia. Suavízalo y agrega un ejemplo."
+                "en": "“You're wrong… that's just not how deserts work” is blunt and gives no evidence. Soften it and add an example.",
+                "es": "“You're wrong… that's just not how deserts work” es brusco y no da evidencia. Suavízalo y agrega un ejemplo."
               },
               "hint": {
                 "en": "Start with “I see your point, but…”",
@@ -3380,8 +3380,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "Repeating the word adds nothing. Disagree politely with a reason or example.",
-                "es": "Repetir la palabra no aporta nada. Discrepa con cortesía con una razón o ejemplo."
+                "en": "Repeating the word and changing the topic add nothing. Disagree politely with a reason or example.",
+                "es": "Repetir la palabra y cambiar de tema no aportan nada. Discrepa con cortesía con una razón o ejemplo."
               }
             }
           }
@@ -3424,8 +3424,8 @@
             {
               "id": "c",
               "label": {
-                "en": "“What?”",
-                "es": "“What?”"
+                "en": "“What? I don't get any of this, so can you just say it all again?”",
+                "es": "“What? I don't get any of this, so can you just say it all again?”"
               }
             }
           ],
@@ -3452,8 +3452,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "“What?” is vague and the teacher won't know what to explain. Name the word: “what does ‘erosion’ mean?”",
-                "es": "“What?” es vago y el maestro no sabrá qué explicar. Nombra la palabra: “what does ‘erosion’ mean?”"
+                "en": "This is vague — it doesn't name the word, so the teacher won't know what to explain. Name the word: “what does ‘erosion’ mean?”",
+                "es": "Esto es vago: no nombra la palabra, así que el maestro no sabrá qué explicar. Nombra la palabra: “what does ‘erosion’ mean?”"
               }
             }
           }
@@ -3489,15 +3489,15 @@
             {
               "id": "b",
               "label": {
-                "en": "“I like rivers too.”",
-                "es": "“I like rivers too.”"
+                "en": "“I like rivers too, and my family goes fishing at the big river near our house every summer.”",
+                "es": "“I like rivers too, and my family goes fishing at the big river near our house every summer.”"
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "“Let's talk about something else.”",
-                "es": "“Let's talk about something else.”"
+                "en": "“Let's talk about something else now, because rivers are kind of boring.”",
+                "es": "“Let's talk about something else now, because rivers are kind of boring.”"
               }
             }
           ],
@@ -3513,8 +3513,8 @@
             "b": {
               "correct": false,
               "why": {
-                "en": "Liking rivers doesn't extend the idea. Add a new detail that connects to what Diego said.",
-                "es": "Que te gusten los ríos no amplía la idea. Agrega un detalle nuevo que se conecte con lo que dijo Diego."
+                "en": "Liking rivers and a fishing story don't extend the idea. Add a new detail that connects to how rivers shape the land.",
+                "es": "Que te gusten los ríos y una historia de pesca no amplían la idea. Agrega un detalle nuevo que se conecte con cómo los ríos dan forma a la tierra."
               },
               "hint": {
                 "en": "Start with “Building on what Diego said…”",
@@ -3524,8 +3524,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "Changing the topic drops Diego's idea instead of building on it.",
-                "es": "Cambiar de tema abandona la idea de Diego en vez de ampliarla."
+                "en": "Changing the topic drops Diego's idea instead of building on it — and calling it boring is dismissive.",
+                "es": "Cambiar de tema abandona la idea de Diego en vez de ampliarla, y llamarla aburrida es despectivo."
               }
             }
           }
@@ -3561,8 +3561,8 @@
             {
               "id": "b",
               "label": {
-                "en": "“So what you're saying is we should use more water.”",
-                "es": "“So what you're saying is we should use more water.”"
+                "en": "“So what you're saying is we should have used more water in the experiment.”",
+                "es": "“So what you're saying is we should have used more water in the experiment.”"
               }
             },
             {
@@ -3730,15 +3730,15 @@
             {
               "id": "b",
               "label": {
-                "en": "“yo where my grade at”",
-                "es": "“yo where my grade at”"
+                "en": "“yo mr lopez where my grade at for that lab report thing, can u check it real quick lol”",
+                "es": "“yo mr lopez where my grade at for that lab report thing, can u check it real quick lol”"
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "“GRADE MISSING. FIX NOW.”",
-                "es": "“GRADE MISSING. FIX NOW.”"
+                "en": "“GRADE MISSING FOR MY LAB REPORT. FIX IT NOW, THIS IS NOT MY FAULT.”",
+                "es": "“GRADE MISSING FOR MY LAB REPORT. FIX IT NOW, THIS IS NOT MY FAULT.”"
               }
             }
           ],
@@ -3754,8 +3754,8 @@
             "b": {
               "correct": false,
               "why": {
-                "en": "That's texting register — too casual for a teacher email. Use a greeting and a full sentence.",
-                "es": "Ese es el registro de los mensajes: demasiado casual para un correo a un maestro. Usa un saludo y una oración completa."
+                "en": "That's texting register — no capitals, “u,” and “lol” are too casual for a teacher email. Use a greeting and a full sentence.",
+                "es": "Ese es el registro de los mensajes: sin mayúsculas, con “u” y “lol”, es demasiado casual para un correo a un maestro. Usa un saludo y una oración completa."
               },
               "hint": {
                 "en": "Email a teacher = formal.",
@@ -3765,8 +3765,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "All caps and commands sound rude. A formal, polite request works better.",
-                "es": "Las mayúsculas y las órdenes suenan groseras. Una petición formal y cortés funciona mejor."
+                "en": "All caps, commands, and blame sound rude. A formal, polite request works better.",
+                "es": "Las mayúsculas, las órdenes y la culpa suenan groseras. Una petición formal y cortés funciona mejor."
               }
             }
           }
@@ -3939,22 +3939,22 @@
             {
               "id": "a",
               "label": {
-                "en": "“Good morning, Principal Reyes. I would like to request permission to start a coding club. May I explain my plan?”",
-                "es": "“Good morning, Principal Reyes. I would like to request permission to start a coding club. May I explain my plan?”"
+                "en": "“Good morning, Principal Reyes. May I request permission to start a coding club and explain my plan?”",
+                "es": "“Good morning, Principal Reyes. May I request permission to start a coding club and explain my plan?”"
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "“Yo, I'm making a club, cool?”",
-                "es": "“Yo, I'm making a club, cool?”"
+                "en": "“Yo, Principal Reyes, I'm starting a coding club with my friends, that's cool with you, right?”",
+                "es": "“Yo, Principal Reyes, I'm starting a coding club with my friends, that's cool with you, right?”"
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "“Club. Me. Yes or no.”",
-                "es": "“Club. Me. Yes or no.”"
+                "en": "“Club. Me. Coding. Yes or no? I need an answer by tomorrow.”",
+                "es": "“Club. Me. Coding. Yes or no? I need an answer by tomorrow.”"
               }
             }
           ],
@@ -3970,8 +3970,8 @@
             "b": {
               "correct": false,
               "why": {
-                "en": "“Yo… cool?” is friend register, too casual for a principal. Be formal and clear.",
-                "es": "“Yo… cool?” es registro de amigos, demasiado casual para un director. Sé formal y claro."
+                "en": "“Yo… that's cool with you, right?” is friend register, too casual for a principal. Be formal and clear.",
+                "es": "“Yo… that's cool with you, right?” es registro de amigos, demasiado casual para un director. Sé formal y claro."
               },
               "hint": {
                 "en": "How formal is a principal?",
@@ -3981,8 +3981,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "Clipped commands sound rude to an authority. Use a complete, polite request.",
-                "es": "Las órdenes cortadas suenan groseras con una autoridad. Usa una petición completa y cortés."
+                "en": "Clipped words and a demand sound rude to an authority. Use a complete, polite request.",
+                "es": "Las palabras cortadas y una exigencia suenan groseras con una autoridad. Usa una petición completa y cortés."
               }
             }
           }
@@ -4018,8 +4018,8 @@
             {
               "id": "b",
               "label": {
-                "en": "“The book was lowkey really good ngl.”",
-                "es": "“The book was lowkey really good ngl.”"
+                "en": "“The book was lowkey really good ngl, especially the part with the storm.”",
+                "es": "“The book was lowkey really good ngl, especially the part with the storm.”"
               }
             },
             {
@@ -4042,8 +4042,8 @@
             "b": {
               "correct": false,
               "why": {
-                "en": "“lowkey… ngl” is social-media slang, not essay register. Write a formal, analytical sentence.",
-                "es": "“lowkey… ngl” es jerga de redes sociales, no registro de ensayo. Escribe una oración formal y analítica."
+                "en": "“lowkey… ngl” is social-media slang, not essay register — mentioning the storm doesn't make it analytical. Write a formal, analytical sentence.",
+                "es": "“lowkey… ngl” es jerga de redes sociales, no registro de ensayo; mencionar la tormenta no lo vuelve analítico. Escribe una oración formal y analítica."
               },
               "hint": {
                 "en": "Would “ngl” appear in a formal essay?",
@@ -4187,8 +4187,8 @@
             {
               "id": "b",
               "label": {
-                "en": "“Um… I don't know how to start.”",
-                "es": "“Um… I don't know how to start.”"
+                "en": "“Um… so, I don't really know how to start, but it's about dolphins.”",
+                "es": "“Um… so, I don't really know how to start, but it's about dolphins.”"
               }
             },
             {
@@ -4211,8 +4211,8 @@
             "b": {
               "correct": false,
               "why": {
-                "en": "Starting with “I don't know” loses your audience. Open by naming your topic.",
-                "es": "Empezar con “I don't know” pierde a tu público. Abre nombrando tu tema."
+                "en": "Starting with “I don't really know how to start” loses your audience before you begin. Open by clearly naming your topic and what's coming.",
+                "es": "Empezar con “I don't really know how to start” pierde a tu público antes de comenzar. Abre nombrando con claridad tu tema y lo que viene."
               },
               "hint": {
                 "en": "Tell them your topic.",
@@ -4259,15 +4259,15 @@
             {
               "id": "b",
               "label": {
-                "en": "Say all three facts at the same time in one long rush.",
-                "es": "Decir los tres hechos al mismo tiempo en una sola carrera larga."
+                "en": "Say all three facts at the same time, as fast as you can, in one long rush with no pauses.",
+                "es": "Decir los tres hechos al mismo tiempo, lo más rápido que puedas, en una sola carrera larga sin pausas."
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "Say only one fact and repeat it three times.",
-                "es": "Decir solo un hecho y repetirlo tres veces."
+                "en": "Say only one fact, the one you like best, and repeat it three times.",
+                "es": "Decir solo un hecho, el que más te guste, y repetirlo tres veces."
               }
             }
           ],
@@ -4283,8 +4283,8 @@
             "b": {
               "correct": false,
               "why": {
-                "en": "Rushing everything at once is confusing. Use first, next, finally.",
-                "es": "Decir todo de golpe confunde. Usa first, next, finally."
+                "en": "Rushing everything at once with no pauses is confusing. Use first, next, finally.",
+                "es": "Decir todo de golpe y sin pausas confunde. Usa first, next, finally."
               },
               "hint": {
                 "en": "What words signal order?",
@@ -4294,8 +4294,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "Repeating one fact leaves out the other two. Share all three in order.",
-                "es": "Repetir un hecho deja fuera los otros dos. Comparte los tres en orden."
+                "en": "Repeating your favorite fact leaves out the other two. Share all three in order.",
+                "es": "Repetir tu hecho favorito deja fuera los otros dos. Comparte los tres en orden."
               }
             }
           }
@@ -4403,8 +4403,8 @@
             {
               "id": "b",
               "label": {
-                "en": "Hide it so no one sees it.",
-                "es": "Esconderlo para que nadie lo vea."
+                "en": "Hide it behind your back until the very end so no one sees it during your talk.",
+                "es": "Esconderlo detrás de tu espalda hasta el final para que nadie lo vea durante tu charla."
               }
             },
             {
@@ -4427,8 +4427,8 @@
             "b": {
               "correct": false,
               "why": {
-                "en": "Hiding your poster wastes it. Show it and point to it as you explain.",
-                "es": "Esconder tu cartel lo desperdicia. Muéstralo y señálalo mientras explicas."
+                "en": "Hiding your poster during the talk wastes it. Show it and point to it as you explain.",
+                "es": "Esconder tu cartel durante la charla lo desperdicia. Muéstralo y señálalo mientras explicas."
               },
               "hint": {
                 "en": "What is a poster for?",
@@ -4475,15 +4475,15 @@
             {
               "id": "b",
               "label": {
-                "en": "Stop talking suddenly and walk away.",
-                "es": "Dejar de hablar de repente e irte."
+                "en": "Stop talking suddenly in the middle of a fact and walk back to your seat.",
+                "es": "Dejar de hablar de repente a mitad de un hecho y regresar a tu asiento."
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "“Okay, bye, I guess that's it, whatever.”",
-                "es": "“Okay, bye, I guess that's it, whatever.”"
+                "en": "“Okay, bye, I guess that's it, whatever. Can I sit down now?”",
+                "es": "“Okay, bye, I guess that's it, whatever. Can I sit down now?”"
               }
             }
           ],
@@ -4510,8 +4510,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "“Whatever” sounds like you don't care. End with a clear summary and a thank-you.",
-                "es": "“Whatever” suena a que no te importa. Termina con un resumen claro y un agradecimiento."
+                "en": "“Whatever… can I sit down now?” sounds like you don't care. End with a clear summary and a thank-you.",
+                "es": "“Whatever… can I sit down now?” suena a que no te importa. Termina con un resumen claro y un agradecimiento."
               }
             }
           }
@@ -5245,8 +5245,8 @@
             {
               "id": "c",
               "label": {
-                "en": "share",
-                "es": "share"
+                "en": "clap your hands",
+                "es": "clap your hands"
               }
             }
           ],
@@ -5273,8 +5273,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "This picture is the raise your hand (in Spanish, levantar la mano), not the share.",
-                "es": "Esta imagen es levantar la mano (en inglés, raise your hand), no share."
+                "en": "This picture is the raise your hand (in Spanish, levantar la mano), not the clap your hands.",
+                "es": "Esta imagen es levantar la mano (en inglés, raise your hand), no clap your hands (aplaudir)."
               }
             }
           }
@@ -5425,8 +5425,8 @@
             {
               "id": "c",
               "label": {
-                "en": "I like it.",
-                "es": "I like it."
+                "en": "The elephant is small and pink.",
+                "es": "The elephant is small and pink."
               }
             }
           ],
@@ -5453,8 +5453,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "This tells how you feel, not what the picture shows. Tell what you see.",
-                "es": "Esto dice lo que sientes, no lo que muestra la imagen. Di lo que ves."
+                "en": "Look again! The elephant in the picture is big and gray, not small and pink.",
+                "es": "¡Mira otra vez! El elefante de la imagen es grande y gris (big and gray), no pequeño y rosado (small and pink)."
               }
             }
           }
@@ -5494,8 +5494,8 @@
             {
               "id": "c",
               "label": {
-                "en": "It goes.",
-                "es": "It goes."
+                "en": "The red bus takes kids to the zoo.",
+                "es": "The red bus takes kids to the zoo."
               }
             }
           ],
@@ -5522,8 +5522,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "\"It goes\" does not say what it is or where it goes. Name the bus and tell more.",
-                "es": "\"It goes\" no dice qué es ni adónde va. Nombra el autobús y di más."
+                "en": "Look again! The bus is yellow, not red. Tell what you really see.",
+                "es": "¡Mira otra vez! El autobús es amarillo (yellow), no rojo (red). Di lo que de verdad ves."
               }
             }
           }
@@ -5556,8 +5556,8 @@
             {
               "id": "b",
               "label": {
-                "en": "Look!",
-                "es": "Look!"
+                "en": "The lion is brown with no stripes.",
+                "es": "The lion is brown with no stripes."
               }
             },
             {
@@ -5584,8 +5584,8 @@
             "b": {
               "correct": false,
               "why": {
-                "en": "\"Look!\" asks someone to look, but it does not describe the picture.",
-                "es": "\"Look!\" le pide a alguien que mire, pero no describe la imagen."
+                "en": "Look again! This animal has black stripes. It is a tiger, not a lion.",
+                "es": "¡Mira otra vez! Este animal tiene rayas negras. Es un tigre (tiger), no un león (lion)."
               }
             },
             "c": {
@@ -5632,8 +5632,8 @@
             {
               "id": "c",
               "label": {
-                "en": "Outside.",
-                "es": "Outside."
+                "en": "The playground has a pool and a boat.",
+                "es": "The playground has a pool and a boat."
               }
             }
           ],
@@ -5660,8 +5660,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "\"Outside\" tells where, but not what the playground has. Say a whole sentence.",
-                "es": "\"Outside\" dice dónde, pero no lo que tiene el patio de juegos. Di una oración completa."
+                "en": "Look again! There is no pool or boat. The playground has a slide and swings.",
+                "es": "¡Mira otra vez! No hay alberca (pool) ni barco (boat). El patio de juegos tiene una resbaladilla y columpios."
               }
             }
           }
@@ -5694,8 +5694,8 @@
             {
               "id": "b",
               "label": {
-                "en": "It is a plant.",
-                "es": "It is a plant."
+                "en": "The blue cactus grows in a box.",
+                "es": "The blue cactus grows in a box."
               }
             },
             {
@@ -5722,8 +5722,8 @@
             "b": {
               "correct": false,
               "why": {
-                "en": "True, but which plant? Say its name and tell more about it.",
-                "es": "Es cierto, pero ¿qué planta? Di su nombre y algo más sobre ella."
+                "en": "Look again! The cactus is green, not blue, and it grows in a pot, not a box.",
+                "es": "¡Mira otra vez! El cactus es verde (green), no azul (blue), y crece en una maceta (pot), no en una caja (box)."
               }
             },
             "c": {
@@ -5770,8 +5770,8 @@
             {
               "id": "c",
               "label": {
-                "en": "It is food.",
-                "es": "It is food."
+                "en": "The banana is short and red.",
+                "es": "The banana is short and red."
               }
             }
           ],
@@ -5798,8 +5798,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "True, but which food? Name it and tell its color.",
-                "es": "Es cierto, pero ¿qué comida? Nómbrala y di su color."
+                "en": "Look again! The banana is long and yellow, not short and red.",
+                "es": "¡Mira otra vez! El plátano es largo y amarillo (long and yellow), no corto y rojo (short and red)."
               }
             }
           }
@@ -6627,8 +6627,8 @@
             {
               "id": "b",
               "label": {
-                "en": "cut",
-                "es": "cut"
+                "en": "clap your hands",
+                "es": "clap your hands"
               }
             },
             {
@@ -6655,8 +6655,8 @@
             "b": {
               "correct": false,
               "why": {
-                "en": "The teacher did not say cut. Listen again: count, write, raise your hand.",
-                "es": "La maestra no dijo cut. Escucha otra vez: count, write, raise your hand."
+                "en": "The teacher did not say clap your hands. Listen again: count, write, raise your hand.",
+                "es": "La maestra no dijo clap your hands. Escucha otra vez: count, write, raise your hand."
               }
             },
             "c": {
@@ -7037,8 +7037,8 @@
             {
               "id": "c",
               "label": {
-                "en": "grew",
-                "es": "grew"
+                "en": "froze",
+                "es": "froze"
               }
             }
           ],
@@ -7065,8 +7065,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "Ice does not grow in the sun. It gets smaller and turns into water.",
-                "es": "El hielo no crece en el sol. Se hace más pequeño y se vuelve agua."
+                "en": "Froze means turned into ice. The ice is in the sun, so it does the opposite: it turns into water.",
+                "es": "Froze significa que se volvió hielo. El hielo está en el sol, así que pasa lo contrario: se vuelve agua."
               }
             }
           }
@@ -7182,8 +7182,8 @@
             {
               "id": "c",
               "label": {
-                "en": "throw",
-                "es": "throw"
+                "en": "listen",
+                "es": "listen"
               }
             }
           ],
@@ -7210,8 +7210,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "Throwing the leaf would not help us look at it. We look closely to observe.",
-                "es": "Lanzar la hoja no nos ayuda a mirarla. Miramos con atención para observar."
+                "en": "We cannot listen to a leaf! A magnifying glass helps us look closely.",
+                "es": "¡No podemos escuchar una hoja (listen)! La lupa nos ayuda a mirar con atención."
               }
             }
           }
@@ -7521,8 +7521,8 @@
             {
               "id": "c",
               "label": {
-                "en": "Crayons.",
-                "es": "Crayons."
+                "en": "I want the crayons right now!",
+                "es": "I want the crayons right now!"
               }
             }
           ],
@@ -7549,8 +7549,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "One word names the crayons, but it does not ask. Say a whole question.",
-                "es": "Una palabra nombra los crayones, pero no pide nada. Di una pregunta completa."
+                "en": "This names the crayons, but \"right now!\" sounds bossy and there is no \"please.\" Ask politely.",
+                "es": "Esto nombra los crayones, pero \"right now!\" suena mandón y no dice \"please.\" Pide de manera amable."
               }
             }
           }
@@ -7594,8 +7594,8 @@
             {
               "id": "c",
               "label": {
-                "en": "No.",
-                "es": "No."
+                "en": "I don't want to do this work.",
+                "es": "I don't want to do this work."
               }
             }
           ],
@@ -7622,8 +7622,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "\"No\" does not tell the teacher what you need. Say that you have a question.",
-                "es": "\"No\" no le dice a la maestra lo que necesitas. Di que tienes una pregunta."
+                "en": "This tells the teacher you don't want to work, not that you need help. Say that you have a question.",
+                "es": "Esto le dice a la maestra que no quieres trabajar, no que necesitas ayuda. Di que tienes una pregunta."
               }
             }
           }
@@ -7660,8 +7660,8 @@
             {
               "id": "b",
               "label": {
-                "en": "Look.",
-                "es": "Look."
+                "en": "Look! I have a lot of blocks on my table.",
+                "es": "Look! I have a lot of blocks on my table."
               }
             },
             {
@@ -7688,8 +7688,8 @@
             "b": {
               "correct": false,
               "why": {
-                "en": "\"Look\" asks your partner to look, but it does not tell how many blocks.",
-                "es": "\"Look\" le pide a tu compañero que mire, pero no dice cuántos bloques hay."
+                "en": "\"A lot\" does not tell your partner how many blocks. Count and say the number.",
+                "es": "\"A lot\" no le dice a tu compañero cuántos bloques hay. Cuenta y di el número."
               }
             },
             "c": {
@@ -7740,8 +7740,8 @@
             {
               "id": "c",
               "label": {
-                "en": "Board.",
-                "es": "Board."
+                "en": "Hey, look over there at that!",
+                "es": "Hey, look over there at that!"
               }
             }
           ],
@@ -7768,8 +7768,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "One word is not enough. Tell your partner what to do: \"Look at the picture.\"",
-                "es": "Una palabra no basta. Dile a tu compañero qué hacer: \"Look at the picture.\""
+                "en": "This does not say what to look at. \"That\" could be anything! Name it: \"Look at the picture.\"",
+                "es": "Esto no dice qué mirar. ¡\"That\" puede ser cualquier cosa! Nómbralo: \"Look at the picture.\""
               }
             }
           }
@@ -7813,8 +7813,8 @@
             {
               "id": "c",
               "label": {
-                "en": "Done done done.",
-                "es": "Done done done."
+                "en": "I am done, done, done, done!",
+                "es": "I am done, done, done, done!"
               }
             }
           ],
@@ -7841,8 +7841,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "The teacher knows you are done, but not what you did. Say a whole sentence.",
-                "es": "La maestra sabe que terminaste, pero no qué hiciste. Di una oración completa."
+                "en": "The teacher knows you are done, but not what you did. Say a sentence that tells what you finished.",
+                "es": "La maestra sabe que terminaste, pero no qué hiciste. Di una oración que diga qué terminaste."
               }
             }
           }
@@ -7879,8 +7879,8 @@
             {
               "id": "b",
               "label": {
-                "en": "Glue.",
-                "es": "Glue."
+                "en": "This is my glue, not yours.",
+                "es": "This is my glue, not yours."
               }
             },
             {
@@ -7907,8 +7907,8 @@
             "b": {
               "correct": false,
               "why": {
-                "en": "\"Glue\" names it, but it does not offer it. Say a whole sentence to share.",
-                "es": "\"Glue\" lo nombra, pero no lo ofrece. Di una oración completa para compartir."
+                "en": "You are done with the glue, so you can share it. This sentence keeps it from your friend. Offer it instead.",
+                "es": "Ya terminaste con el pegamento, así que puedes compartirlo. Esta oración no deja que tu amigo lo use. Mejor ofrécelo."
               }
             },
             "c": {
@@ -8210,8 +8210,8 @@
             {
               "id": "b",
               "label": {
-                "en": "Because",
-                "es": "Porque"
+                "en": "For example,",
+                "es": "Por ejemplo,"
               }
             },
             {
@@ -8238,8 +8238,8 @@
             "b": {
               "correct": false,
               "why": {
-                "en": "\"Because\" gives a reason, not an order. This sentence tells what happens next.",
-                "es": "\"Because\" da una razón, no un orden. Esta oración dice lo que pasa después."
+                "en": "\"For example\" introduces an example, not a step in time order. This sentence tells what happens next.",
+                "es": "\"For example\" (por ejemplo) introduce un ejemplo, no un paso en orden de tiempo. Esta oración dice lo que pasa después."
               }
             },
             "c": {
@@ -8275,8 +8275,8 @@
             {
               "id": "a",
               "label": {
-                "en": "To begin, we got a battery and two wires.",
-                "es": "Para empezar, conseguimos una pila y dos cables."
+                "en": "To begin, we got a battery, two wires, and a small light bulb.",
+                "es": "Para empezar, conseguimos una pila, dos cables y un foco pequeño."
               }
             },
             {
@@ -8289,8 +8289,8 @@
             {
               "id": "c",
               "label": {
-                "en": "Next, we connected one wire to the battery.",
-                "es": "Luego, conectamos un cable a la pila."
+                "en": "Next, we connected one wire from the battery to the bottom of the bulb.",
+                "es": "Luego, conectamos un cable de la pila a la parte de abajo del foco."
               }
             }
           ],
@@ -8347,22 +8347,22 @@
             {
               "id": "a",
               "label": {
-                "en": "First, measure the length. Next, measure the width. Then, multiply the length by the width.",
+                "en": "First, measure the length. Next, measure the width. Then, multiply length by width.",
                 "es": "Primero, mide el largo. Luego, mide el ancho. Después, multiplica el largo por el ancho."
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "Multiply. Measure. Done.",
-                "es": "Multiplica. Mide. Listo."
+                "en": "Multiply the length by the width. Then measure the length and width. Done.",
+                "es": "Multiplica el largo por el ancho. Después mide el largo y el ancho. Listo."
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "Then multiply, first measure the width, next the length.",
-                "es": "Después multiplica, primero mide el ancho, luego el largo."
+                "en": "Then multiply them, but first measure the width, and next measure the length.",
+                "es": "Después multiplícalos, pero primero mide el ancho, y luego mide el largo."
               }
             }
           ],
@@ -8378,8 +8378,8 @@
             "b": {
               "correct": false,
               "why": {
-                "en": "These steps are out of order (you cannot multiply before you measure) and have no transition words.",
-                "es": "Estos pasos están en desorden (no puedes multiplicar antes de medir) y no tienen palabras de transición."
+                "en": "These steps are out of order: you cannot multiply before you measure. Put the steps in the order you really do them.",
+                "es": "Estos pasos están en desorden: no puedes multiplicar antes de medir. Pon los pasos en el orden en que realmente se hacen."
               },
               "hint": {
                 "en": "What do you have to do before you multiply?",
@@ -8537,8 +8537,8 @@
             {
               "id": "c",
               "label": {
-                "en": "Pollen is yellow, and some people are allergic to it.",
-                "es": "El polen es amarillo y algunas personas son alérgicas a él."
+                "en": "Pollen is yellow and dusty, and some people sneeze when it gets on them.",
+                "es": "El polen es amarillo y polvoso, y algunas personas estornudan cuando les cae encima."
               }
             }
           ],
@@ -8595,8 +8595,8 @@
             {
               "id": "a",
               "label": {
-                "en": "People liked to swim in rivers.",
-                "es": "A la gente le gustaba nadar en los ríos."
+                "en": "People liked to swim and play in rivers, so they built their towns right next to them.",
+                "es": "A la gente le gustaba nadar y jugar en los ríos, así que construyeron sus pueblos justo al lado."
               }
             },
             {
@@ -8609,8 +8609,8 @@
             {
               "id": "c",
               "label": {
-                "en": "Many towns grew near rivers because rivers gave people water, food, and a way to move goods.",
-                "es": "Muchos pueblos crecieron cerca de los ríos porque los ríos les daban agua, comida y una manera de transportar mercancías."
+                "en": "Towns grew near rivers because rivers gave people water, food, and a way to move goods.",
+                "es": "Los pueblos crecieron cerca de los ríos porque los ríos les daban agua, comida y una manera de transportar mercancías."
               }
             }
           ],
@@ -8619,8 +8619,8 @@
             "a": {
               "correct": false,
               "why": {
-                "en": "The passage never mentions swimming. A summary only uses ideas from the passage.",
-                "es": "El texto nunca menciona nadar. Un resumen solo usa ideas del texto."
+                "en": "The passage never mentions swimming or playing. A summary only uses ideas from the passage.",
+                "es": "El texto nunca menciona nadar ni jugar. Un resumen solo usa ideas del texto."
               },
               "hint": {
                 "en": "What did rivers GIVE people?",
@@ -8674,8 +8674,8 @@
             {
               "id": "b",
               "label": {
-                "en": "Rain is the best kind of weather.",
-                "es": "La lluvia es el mejor tipo de clima."
+                "en": "Rain is the best kind of weather because it gives water to plants, lakes, and streams.",
+                "es": "La lluvia es el mejor tipo de clima porque les da agua a las plantas, los lagos y los arroyos."
               }
             },
             {
@@ -8702,8 +8702,8 @@
             "b": {
               "correct": false,
               "why": {
-                "en": "This is an opinion, and the passage did not say it. A summary restates what the passage says.",
-                "es": "Esto es una opinión, y el texto no lo dijo. Un resumen repite lo que dice el texto."
+                "en": "\"The best kind of weather\" is an opinion, and the passage did not say it. A summary restates what the passage says.",
+                "es": "\"El mejor tipo de clima\" es una opinión, y el texto no lo dijo. Un resumen repite lo que dice el texto."
               }
             },
             "c": {
@@ -8818,15 +8818,15 @@
             {
               "id": "b",
               "label": {
-                "en": "Animals have different ways to protect themselves, such as hiding, running, and spraying.",
-                "es": "Los animales tienen distintas maneras de protegerse, como esconderse, correr y rociar un olor."
+                "en": "Animals have different ways to stay safe, such as hiding, running, and spraying.",
+                "es": "Los animales tienen distintas maneras de mantenerse a salvo, como esconderse, correr y rociar un olor."
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "Rabbits are the cutest animals.",
-                "es": "Los conejos son los animales más lindos."
+                "en": "Rabbits are the cutest animals, and they can run away faster than all the others.",
+                "es": "Los conejos son los animales más lindos, y pueden huir más rápido que todos los demás."
               }
             }
           ],
@@ -8853,8 +8853,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "This is an opinion the passage never gave. Stick to what the passage says.",
-                "es": "Esto es una opinión que el texto nunca dio. Usa solo lo que dice el texto."
+                "en": "\"Cutest\" is an opinion, and the passage never said rabbits are the fastest. Stick to what the passage says.",
+                "es": "\"Los más lindos\" es una opinión, y el texto nunca dijo que los conejos son los más rápidos. Usa solo lo que dice el texto."
               }
             }
           }
@@ -9000,8 +9000,8 @@
             {
               "id": "c",
               "label": {
-                "en": "Yes, because 24 is a big number.",
-                "es": "Sí, porque 24 es un número grande."
+                "en": "Yes, because 24 is a big number, and big numbers like 24 are usually even.",
+                "es": "Sí, porque 24 es un número grande, y los números grandes como 24 casi siempre son pares."
               }
             }
           ],
@@ -9058,22 +9058,22 @@
             {
               "id": "a",
               "label": {
-                "en": "1/2 is greater because when the same whole is cut into 2 equal parts, each part is bigger than when it is cut into 4 equal parts.",
-                "es": "1/2 es mayor porque cuando el mismo entero se corta en 2 partes iguales, cada parte es más grande que cuando se corta en 4 partes iguales."
+                "en": "1/2 is greater because when one whole is cut into 2 equal parts, each part is bigger than in 4 parts.",
+                "es": "1/2 es mayor porque cuando un entero se corta en 2 partes iguales, cada parte es más grande que en 4 partes."
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "1/2 is greater because 4 is bigger than 2.",
-                "es": "1/2 es mayor porque 4 es más grande que 2."
+                "en": "1/2 is greater because 4 is bigger than 2, and a bigger number on the bottom always makes a bigger fraction.",
+                "es": "1/2 es mayor porque 4 es más grande que 2, y un número de abajo más grande siempre hace una fracción mayor."
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "1/2 is greater because it just looks right.",
-                "es": "1/2 es mayor porque simplemente parece correcto."
+                "en": "1/2 is greater because it just looks right, and I remember it from last year.",
+                "es": "1/2 es mayor porque simplemente parece correcto, y me acuerdo del año pasado."
               }
             }
           ],
@@ -9100,8 +9100,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "\"It looks right\" is not a math reason. Explain using equal parts of a whole.",
-                "es": "\"It looks right\" no es una razón matemática. Explica usando partes iguales de un entero."
+                "en": "\"It looks right\" and remembering are not math reasons. Explain using equal parts of a whole.",
+                "es": "\"It looks right\" y acordarte no son razones matemáticas. Explica usando partes iguales de un entero."
               }
             }
           }
@@ -9137,8 +9137,8 @@
             {
               "id": "b",
               "label": {
-                "en": "The area is 15 because I added the sides.",
-                "es": "El área es 15 porque sumé los lados."
+                "en": "The area is 15 square centimeters because I added up all four sides of it.",
+                "es": "El área es 15 centímetros cuadrados porque sumé sus cuatro lados."
               }
             },
             {
@@ -9202,15 +9202,15 @@
             {
               "id": "a",
               "label": {
-                "en": "Yes, because a square has four sides.",
-                "es": "Sí, porque un cuadrado tiene cuatro lados."
+                "en": "Yes, because a square has four sides and four corners, just like every rectangle does.",
+                "es": "Sí, porque un cuadrado tiene cuatro lados y cuatro esquinas, igual que todo rectángulo."
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "Yes, because a square has four right angles and its opposite sides are equal, just like every rectangle.",
-                "es": "Sí, porque un cuadrado tiene cuatro ángulos rectos y sus lados opuestos son iguales, igual que todo rectángulo."
+                "en": "Yes, because a square has four right angles and equal opposite sides, just like every rectangle.",
+                "es": "Sí, porque un cuadrado tiene cuatro ángulos rectos y lados opuestos iguales, igual que todo rectángulo."
               }
             },
             {
@@ -9226,8 +9226,8 @@
             "a": {
               "correct": false,
               "why": {
-                "en": "Four sides is not enough. Many shapes with four sides, like a trapezoid, are not rectangles.",
-                "es": "Cuatro lados no basta. Muchas figuras de cuatro lados, como el trapecio, no son rectángulos."
+                "en": "Four sides and four corners are not enough. A trapezoid has those too, and it is not a rectangle.",
+                "es": "Cuatro lados y cuatro esquinas no bastan. Un trapecio también los tiene y no es un rectángulo."
               },
               "hint": {
                 "en": "What kind of angles does a rectangle have?",
@@ -9288,8 +9288,8 @@
             {
               "id": "c",
               "label": {
-                "en": "There are 18 apples because I counted fast.",
-                "es": "Hay 18 manzanas porque conté rápido."
+                "en": "There are 18 apples because I counted them really fast in my head.",
+                "es": "Hay 18 manzanas porque las conté muy rápido en mi cabeza."
               }
             }
           ],
@@ -9316,8 +9316,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "Counting fast is not a math reason. Explain the groups and the operation.",
-                "es": "Contar rápido no es una razón matemática. Explica los grupos y la operación."
+                "en": "Counting fast in your head is not a math reason. Explain the groups and the operation.",
+                "es": "Contar rápido en tu cabeza no es una razón matemática. Explica los grupos y la operación."
               }
             }
           }
@@ -9485,8 +9485,8 @@
             {
               "id": "c",
               "label": {
-                "en": "That won't work.",
-                "es": "Eso no va a funcionar."
+                "en": "That won't work, because a wider bridge would just use up too much paper.",
+                "es": "Eso no va a funcionar, porque un puente más ancho gastaría demasiado papel."
               }
             }
           ],
@@ -9513,8 +9513,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "You cannot judge the idea before you understand it. Check what he means first.",
-                "es": "No puedes juzgar la idea antes de entenderla. Primero comprueba qué quiere decir."
+                "en": "You cannot judge the idea before you understand it. Check what he means by \"base\" first.",
+                "es": "No puedes juzgar la idea antes de entenderla. Primero comprueba qué quiere decir con \"base.\""
               }
             }
           }
@@ -9557,8 +9557,8 @@
             {
               "id": "c",
               "label": {
-                "en": "Let's skip that part.",
-                "es": "Saltémonos esa parte."
+                "en": "Let's skip that part and just talk about the water, since that's the main idea.",
+                "es": "Saltémonos esa parte y hablemos solo del agua, ya que esa es la idea principal."
               }
             }
           ],
@@ -9585,8 +9585,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "Skipping the part means you miss a key idea. A quick question fixes it.",
-                "es": "Saltarse esa parte significa perder una idea clave. Una pregunta rápida lo resuelve."
+                "en": "Skipping the part means you miss a key idea — who needed the water. A quick question fixes it.",
+                "es": "Saltarse esa parte significa perder una idea clave: quiénes necesitaban el agua. Una pregunta rápida lo resuelve."
               }
             }
           }
@@ -9629,8 +9629,8 @@
             {
               "id": "c",
               "label": {
-                "en": "I got a different answer, so you're wrong.",
-                "es": "A mí me salió otra respuesta, así que estás equivocado."
+                "en": "I got a different answer than you did, so your answer must be wrong.",
+                "es": "A mí me salió una respuesta diferente a la tuya, así que la tuya debe estar mal."
               }
             }
           ],
@@ -9694,8 +9694,8 @@
             {
               "id": "b",
               "label": {
-                "en": "Perimeter is too hard.",
-                "es": "El perímetro es muy difícil."
+                "en": "Perimeter is too hard for me, so can someone else just do that part?",
+                "es": "El perímetro es muy difícil para mí, ¿alguien más puede hacer esa parte?"
               }
             },
             {
@@ -9766,8 +9766,8 @@
             {
               "id": "b",
               "label": {
-                "en": "No, she didn't.",
-                "es": "No, no es cierto."
+                "en": "No, she didn't feel frustrated. I think she was just a little bit tired.",
+                "es": "No, ella no se sentía frustrada. Creo que solo estaba un poco cansada."
               }
             },
             {
@@ -10343,8 +10343,8 @@
             {
               "id": "a",
               "label": {
-                "en": "“hey ms g!! can i get the hw”",
-                "es": "“hey ms g!! can i get the hw”"
+                "en": "“hey ms g!! i was out on monday, can i get the hw u gave us”",
+                "es": "“hey ms g!! i was out on monday, can i get the hw u gave us”"
               }
             },
             {
@@ -10357,8 +10357,8 @@
             {
               "id": "c",
               "label": {
-                "en": "“Ms. Garza — homework. Now, please.”",
-                "es": "“Ms. Garza — homework. Now, please.”"
+                "en": "“Ms. Garza — I missed Monday. Send me the homework now, please.”",
+                "es": "“Ms. Garza — I missed Monday. Send me the homework now, please.”"
               }
             }
           ],
@@ -10367,8 +10367,8 @@
             "a": {
               "correct": false,
               "why": {
-                "en": "“hey,” a nickname, double exclamation points, and “hw” are texting style for friends. An email to a teacher opens with a greeting such as “Dear Ms. Garza.”",
-                "es": "“hey”, un apodo, dos signos de exclamación y “hw” son estilo de mensaje para amigos. Un correo a una maestra empieza con un saludo como “Dear Ms. Garza.”"
+                "en": "“hey,” a nickname, double exclamation points, “hw,” and “u” are texting style for friends. An email to a teacher opens with a greeting such as “Dear Ms. Garza.”",
+                "es": "“hey”, un apodo, dos signos de exclamación, “hw” y “u” son estilo de mensaje para amigos. Un correo a una maestra empieza con un saludo como “Dear Ms. Garza.”"
               },
               "hint": {
                 "en": "Look for “Dear” plus the teacher's name.",
@@ -10385,8 +10385,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "This sounds like an order. “Now” makes the message demanding, and it never explains why you need the homework.",
-                "es": "Esto suena como una orden. “Now” hace que el mensaje sea exigente, y nunca explica por qué necesitas la tarea."
+                "en": "This sounds like an order. “Send me… now” makes the message demanding, even with “please” at the end. Open with a greeting and explain calmly.",
+                "es": "Esto suena como una orden. “Send me… now” hace que el mensaje sea exigente, aunque termine con “please”. Empieza con un saludo y explica con calma."
               },
               "hint": {
                 "en": "Explain your situation before you ask.",
@@ -10433,8 +10433,8 @@
             {
               "id": "c",
               "label": {
-                "en": "“u there?”",
-                "es": "“u there?”"
+                "en": "“u there? need to ask u something about class”",
+                "es": "“u there? need to ask u something about class”"
               }
             }
           ],
@@ -10461,8 +10461,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "“u there?” is a text to a friend. It does not say what the email is about, and “u” is not used in school email.",
-                "es": "“u there?” es un mensaje para un amigo. No dice de qué trata el correo, y “u” no se usa en el correo escolar."
+                "en": "“u there?” is a text to a friend, and “something about class” does not say what the email is about. “u” is not used in school email.",
+                "es": "“u there?” es un mensaje para un amigo, y “something about class” no dice de qué trata el correo. “u” no se usa en el correo escolar."
               },
               "hint": {
                 "en": "Which choice names the topic?",
@@ -10495,15 +10495,15 @@
             {
               "id": "a",
               "label": {
-                "en": "“Send it.”",
-                "es": "“Send it.”"
+                "en": "“Send me the assignment from Monday right away.”",
+                "es": "“Send me the assignment from Monday right away.”"
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "“can u send it lol”",
-                "es": "“can u send it lol”"
+                "en": "“can u send me the stuff we did in class on monday lol, i was out”",
+                "es": "“can u send me the stuff we did in class on monday lol, i was out”"
               }
             },
             {
@@ -10519,19 +10519,19 @@
             "a": {
               "correct": false,
               "why": {
-                "en": "This is a command with no “please,” and “it” is unclear — the teacher has to guess what “it” means.",
-                "es": "Esto es una orden sin “please”, y “it” no es claro: la maestra tiene que adivinar a qué se refiere."
+                "en": "This names the assignment, but it is a command with no “please,” and “right away” sounds demanding.",
+                "es": "Esto nombra la tarea, pero es una orden sin “please”, y “right away” suena exigente."
               },
               "hint": {
-                "en": "Add “Could you please…” and name the assignment.",
-                "es": "Agrega “Could you please…” y nombra la tarea."
+                "en": "Add “Could you please…” to turn the command into a polite request.",
+                "es": "Agrega “Could you please…” para convertir la orden en una petición cortés."
               }
             },
             "b": {
               "correct": false,
               "why": {
-                "en": "“u” and “lol” belong in texts to friends. The request is also vague about what “it” is.",
-                "es": "“u” y “lol” son para mensajes a amigos. La petición también es vaga sobre qué es “it”."
+                "en": "“u” and “lol” belong in texts to friends, and “the stuff we did” is vague about what you need.",
+                "es": "“u” y “lol” son para mensajes a amigos, y “the stuff we did” es vago sobre lo que necesitas."
               },
               "hint": {
                 "en": "Use full words and say exactly what you need.",
@@ -10654,15 +10654,15 @@
             {
               "id": "b",
               "label": {
-                "en": "“thx bye”",
-                "es": "“thx bye”"
+                "en": "“thx so much ms g, ttyl — daniel”",
+                "es": "“thx so much ms g, ttyl — daniel”"
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "“That's all. Reply ASAP.”",
-                "es": "“That's all. Reply ASAP.”"
+                "en": "“That's all I needed. Reply ASAP. — Daniel”",
+                "es": "“That's all I needed. Reply ASAP. — Daniel”"
               }
             }
           ],
@@ -10678,8 +10678,8 @@
             "b": {
               "correct": false,
               "why": {
-                "en": "“thx bye” is a text abbreviation, and without your name the teacher may not know who sent the email.",
-                "es": "“thx bye” es una abreviatura de mensaje, y sin tu nombre la maestra quizá no sepa quién envió el correo."
+                "en": "“thx” and “ttyl” are text abbreviations, and a nickname with a lowercase first name is not a formal closing.",
+                "es": "“thx” y “ttyl” son abreviaturas de mensaje, y un apodo con solo tu nombre en minúscula no es una despedida formal."
               },
               "hint": {
                 "en": "Write “Thank you” and sign your name.",
@@ -10689,8 +10689,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "“Reply ASAP” pressures the teacher, and there is no thank-you or name. The closing should be polite.",
-                "es": "“Reply ASAP” presiona a la maestra, y no hay agradecimiento ni nombre. La despedida debe ser cortés."
+                "en": "“Reply ASAP” pressures the teacher, and there is no thank-you or formal closing. The closing should be polite.",
+                "es": "“Reply ASAP” presiona a la maestra, y no hay agradecimiento ni despedida formal. La despedida debe ser cortés."
               },
               "hint": {
                 "en": "End with thanks, not a demand.",
@@ -10846,8 +10846,8 @@
             {
               "id": "a",
               "label": {
-                "en": "“Yes, 3/4 is bigger. I just know it.”",
-                "es": "“Yes, 3/4 is bigger. I just know it.”"
+                "en": "“Yes, 3/4 is bigger. I just know it, and it looks bigger in my head.”",
+                "es": "“Yes, 3/4 is bigger. I just know it, and it looks bigger in my head.”"
               }
             },
             {
@@ -10860,8 +10860,8 @@
             {
               "id": "c",
               "label": {
-                "en": "“Yes, because 4 is bigger than 3.”",
-                "es": "“Yes, because 4 is bigger than 3.”"
+                "en": "“Yes, because 4 is bigger than 3, so 3/4 must be the bigger fraction.”",
+                "es": "“Yes, because 4 is bigger than 3, so 3/4 must be the bigger fraction.”"
               }
             }
           ],
@@ -10870,8 +10870,8 @@
             "a": {
               "correct": false,
               "why": {
-                "en": "The claim is correct, but “I just know it” gives no reason. Justifying means showing how you know.",
-                "es": "La afirmación es correcta, pero “I just know it” no da ninguna razón. Justificar significa mostrar cómo lo sabes."
+                "en": "The claim is correct, but “I just know it” and “it looks bigger” give no reason. Justifying means showing how you know.",
+                "es": "La afirmación es correcta, pero “I just know it” y “it looks bigger” no dan ninguna razón. Justificar significa mostrar cómo lo sabes."
               },
               "hint": {
                 "en": "Which choice shows the math?",
@@ -10922,22 +10922,22 @@
             {
               "id": "a",
               "label": {
-                "en": "“It is a physical change because the water changes from solid to liquid, but it is still water — no new substance forms.”",
-                "es": "“It is a physical change because the water changes from solid to liquid, but it is still water — no new substance forms.”"
+                "en": "“It is a physical change because the ice goes from solid to liquid but is still water; no new substance forms.”",
+                "es": "“It is a physical change because the ice goes from solid to liquid but is still water; no new substance forms.”"
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "“It is a physical change because my partner said so.”",
-                "es": "“It is a physical change because my partner said so.”"
+                "en": "“It is a physical change because my partner said so, and she always gets science questions right.”",
+                "es": "“It is a physical change because my partner said so, and she always gets science questions right.”"
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "“It is a chemical change because it looks different.”",
-                "es": "“It is a chemical change because it looks different.”"
+                "en": "“It is a chemical change because it looks different, and the solid ice turns into a puddle of liquid.”",
+                "es": "“It is a chemical change because it looks different, and the solid ice turns into a puddle of liquid.”"
               }
             }
           ],
@@ -10953,8 +10953,8 @@
             "b": {
               "correct": false,
               "why": {
-                "en": "A classmate's opinion is not scientific evidence. Explain what happens to the substance itself.",
-                "es": "La opinión de un compañero no es evidencia científica. Explica qué le pasa a la sustancia misma."
+                "en": "A classmate's opinion — even a classmate who is usually right — is not scientific evidence. Explain what happens to the substance itself.",
+                "es": "La opinión de una compañera, aunque casi siempre acierte, no es evidencia científica. Explica qué le pasa a la sustancia misma."
               },
               "hint": {
                 "en": "Use evidence about the water, not about a person.",
@@ -10964,8 +10964,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "Looking different is not enough — melted ice looks different but is still water. A chemical change makes a new substance.",
-                "es": "Verse diferente no es suficiente: el hielo derretido se ve diferente pero sigue siendo agua. Un cambio químico forma una sustancia nueva."
+                "en": "Looking different is not enough — solid to liquid is a change of state, and the puddle is still water. A chemical change makes a new substance.",
+                "es": "Verse diferente no es suficiente: pasar de sólido a líquido es un cambio de estado, y el charco sigue siendo agua. Un cambio químico forma una sustancia nueva."
               },
               "hint": {
                 "en": "Did a new substance form?",
@@ -10998,22 +10998,22 @@
             {
               "id": "a",
               "label": {
-                "en": "“That's a bad idea.”",
-                "es": "“That's a bad idea.”"
+                "en": "“That's a bad idea, and honestly anyone who has ever dropped a hammer and a feather knows it.”",
+                "es": "“That's a bad idea, and honestly anyone who has ever dropped a hammer and a feather knows it.”"
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "“I'm not sure, maybe.”",
-                "es": "“I'm not sure, maybe.”"
+                "en": "“I'm not sure, maybe. A hammer is a lot heavier than a feather, so it could land first, but who knows?”",
+                "es": "“I'm not sure, maybe. A hammer is a lot heavier than a feather, so it could land first, but who knows?”"
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "“I disagree, because the Moon has no air resistance, so the hammer and the feather fall at the same rate. Astronauts tested this on Apollo 15.”",
-                "es": "“I disagree, because the Moon has no air resistance, so the hammer and the feather fall at the same rate. Astronauts tested this on Apollo 15.”"
+                "en": "“I disagree, because the Moon has no air resistance, so both fall at the same rate. Apollo 15 astronauts tested it.”",
+                "es": "“I disagree, because the Moon has no air resistance, so both fall at the same rate. Apollo 15 astronauts tested it.”"
               }
             }
           ],
@@ -11022,8 +11022,8 @@
             "a": {
               "correct": false,
               "why": {
-                "en": "This judges the idea but gives no reason. Evaluating means explaining WHY a claim is or isn't supported.",
-                "es": "Esto juzga la idea pero no da ninguna razón. Evaluar significa explicar POR QUÉ una afirmación tiene o no tiene apoyo."
+                "en": "This judges the idea but gives no scientific reason. Evaluating means explaining WHY a claim is or isn't supported.",
+                "es": "Esto juzga la idea pero no da ninguna razón científica. Evaluar significa explicar POR QUÉ una afirmación tiene o no tiene apoyo."
               },
               "hint": {
                 "en": "Use “I disagree because ___.”",
@@ -11033,8 +11033,8 @@
             "b": {
               "correct": false,
               "why": {
-                "en": "This avoids taking a position. To evaluate, state whether you agree and give a reason.",
-                "es": "Esto evita tomar una postura. Para evaluar, di si estás de acuerdo y da una razón."
+                "en": "This avoids taking a position and repeats the classmate's mistake. To evaluate, state whether you agree and give a scientific reason.",
+                "es": "Esto evita tomar una postura y repite el error del compañero. Para evaluar, di si estás de acuerdo y da una razón científica."
               },
               "hint": {
                 "en": "Take a position and support it.",
@@ -11074,22 +11074,22 @@
             {
               "id": "a",
               "label": {
-                "en": "“Rivers are nice to live by.”",
-                "es": "“Rivers are nice to live by.”"
+                "en": "“Rivers are nice to live by, and people back then probably liked the pretty views of the water.”",
+                "es": "“Rivers are nice to live by, and people back then probably liked the pretty views of the water.”"
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "“Towns grew along rivers because rivers gave people water for farming and a way to move goods, such as cotton, to market.”",
-                "es": "“Towns grew along rivers because rivers gave people water for farming and a way to move goods, such as cotton, to market.”"
+                "en": "“Towns grew along rivers because rivers gave water for farming and a way to ship goods, like cotton, to market.”",
+                "es": "“Towns grew along rivers because rivers gave water for farming and a way to ship goods, like cotton, to market.”"
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "“Towns grew along rivers because that is where the towns were.”",
-                "es": "“Towns grew along rivers because that is where the towns were.”"
+                "en": "“Towns grew along rivers because that is where the towns were, and towns are usually built there.”",
+                "es": "“Towns grew along rivers because that is where the towns were, and towns are usually built there.”"
               }
             }
           ],
@@ -11098,8 +11098,8 @@
             "a": {
               "correct": false,
               "why": {
-                "en": "“Nice” is a personal opinion, not a historical reason. Name what rivers provided.",
-                "es": "“Nice” es una opinión personal, no una razón histórica. Nombra lo que proporcionaban los ríos."
+                "en": "“Nice” and “pretty views” are personal opinions and guesses, not historical reasons. Name what rivers provided.",
+                "es": "“Nice” y “pretty views” son opiniones y suposiciones personales, no razones históricas. Nombra lo que proporcionaban los ríos."
               },
               "hint": {
                 "en": "Give a specific reason, such as farming or trade.",
@@ -11150,15 +11150,15 @@
             {
               "id": "a",
               "label": {
-                "en": "“You're wrong, it's 5.”",
-                "es": "“You're wrong, it's 5.”"
+                "en": "“You're wrong, it's 5. Everybody knows that, so you should check your work next time.”",
+                "es": "“You're wrong, it's 5. Everybody knows that, so you should check your work next time.”"
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "“I agree. The mean is always the middle number.”",
-                "es": "“I agree. The mean is always the middle number.”"
+                "en": "“I agree. The mean is always the middle number when you put the numbers in order.”",
+                "es": "“I agree. The mean is always the middle number when you put the numbers in order.”"
               }
             },
             {
@@ -11174,8 +11174,8 @@
             "a": {
               "correct": false,
               "why": {
-                "en": "The number is correct, but there is no reason, and “You're wrong” is not a respectful way to evaluate.",
-                "es": "El número es correcto, pero no hay razón, y “You're wrong” no es una forma respetuosa de evaluar."
+                "en": "The number is correct, but there is no reason, and “You're wrong… everybody knows that” is not a respectful way to evaluate.",
+                "es": "El número es correcto, pero no hay razón, y “You're wrong… everybody knows that” no es una forma respetuosa de evaluar."
               },
               "hint": {
                 "en": "Show the calculation and keep the tone respectful.",
@@ -11185,8 +11185,8 @@
             "b": {
               "correct": false,
               "why": {
-                "en": "This repeats the mistake: the middle number is the median, not the mean.",
-                "es": "Esto repite el error: el número del medio es la mediana, no la media."
+                "en": "This repeats the mistake: the middle number of an ordered list is the median, not the mean.",
+                "es": "Esto repite el error: el número del medio de una lista ordenada es la mediana, no la media."
               },
               "hint": {
                 "en": "How do you calculate a mean?",
@@ -11489,8 +11489,8 @@
             {
               "id": "b",
               "label": {
-                "en": "shiny and smooth",
-                "es": "brillante y liso"
+                "en": "shiny, smooth, and hard to scratch",
+                "es": "brillante, liso y difícil de rayar"
               }
             },
             {
@@ -11559,8 +11559,8 @@
             {
               "id": "a",
               "label": {
-                "en": "brand new",
-                "es": "completamente nuevo"
+                "en": "brand new and recently painted",
+                "es": "completamente nuevo y recién pintado"
               }
             },
             {
@@ -11573,8 +11573,8 @@
             {
               "id": "c",
               "label": {
-                "en": "too crowded",
-                "es": "demasiado lleno de gente"
+                "en": "too crowded with cars and people",
+                "es": "demasiado lleno de carros y gente"
               }
             }
           ],
@@ -11583,8 +11583,8 @@
             "a": {
               "correct": false,
               "why": {
-                "en": "A brand-new bridge would not need repairs. The sentence says it was old and needed fixing.",
-                "es": "Un puente nuevo no necesitaría reparaciones. La oración dice que era viejo y había que arreglarlo."
+                "en": "A brand-new, freshly painted bridge would not need repairs. The sentence says it was old and needed fixing.",
+                "es": "Un puente nuevo y recién pintado no necesitaría reparaciones. La oración dice que era viejo y había que arreglarlo."
               },
               "hint": {
                 "en": "Why would engineers close a bridge to repair it?",
@@ -11602,7 +11602,7 @@
               "correct": false,
               "why": {
                 "en": "Crowding is not fixed by repairs. The clue “until it could be repaired” points to a problem with the bridge itself.",
-                "es": "La cantidad de gente no se arregla con reparaciones. La pista “until it could be repaired” apunta a un problema del puente mismo."
+                "es": "La cantidad de carros y gente no se arregla con reparaciones. La pista “until it could be repaired” apunta a un problema del puente mismo."
               },
               "hint": {
                 "en": "Notice “until it could be repaired.”",
@@ -13026,8 +13026,8 @@
             {
               "id": "a",
               "label": {
-                "en": "“Sadly, our poor little plant tragically passed away.”",
-                "es": "“Sadly, our poor little plant tragically passed away.”"
+                "en": "“Sadly, our poor little plant in the saltwater group tragically passed away by day five.”",
+                "es": "“Sadly, our poor little plant in the saltwater group tragically passed away by day five.”"
               }
             },
             {
@@ -13050,8 +13050,8 @@
             "a": {
               "correct": false,
               "why": {
-                "en": "“Sadly,” “poor little,” and “tragically” add emotional tone. A lab report reports results objectively.",
-                "es": "“Sadly”, “poor little” y “tragically” agregan un tono emotivo. Un informe de laboratorio presenta los resultados con objetividad."
+                "en": "“Sadly,” “poor little,” and “tragically passed away” add emotional tone, and the result is never linked to the hypothesis. A lab report reports results objectively.",
+                "es": "“Sadly”, “poor little” y “tragically passed away” agregan un tono emotivo, y el resultado nunca se relaciona con la hipótesis. Un informe de laboratorio presenta los resultados con objetividad."
               },
               "hint": {
                 "en": "Remove the feelings; keep the data.",
@@ -13102,15 +13102,15 @@
             {
               "id": "a",
               "label": {
-                "en": "“Some argue that homework builds discipline; however, this view overlooks students who work after school to support their families.”",
-                "es": "“Some argue that homework builds discipline; however, this view overlooks students who work after school to support their families.”"
+                "en": "“Some argue that homework builds discipline; however, this overlooks students who work after school to help their families.”",
+                "es": "“Some argue that homework builds discipline; however, this overlooks students who work after school to help their families.”"
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "“Haters will say homework is good, but whatever.”",
-                "es": "“Haters will say homework is good, but whatever.”"
+                "en": "“Haters will say homework builds discipline or whatever, but they've obviously never had a job after school.”",
+                "es": "“Haters will say homework builds discipline or whatever, but they've obviously never had a job after school.”"
               }
             },
             {
@@ -13133,8 +13133,8 @@
             "b": {
               "correct": false,
               "why": {
-                "en": "“Haters” and “whatever” are slang, and the sentence dismisses the other side instead of answering it.",
-                "es": "“Haters” y “whatever” son jerga, y la oración descarta el otro punto de vista en lugar de responderle."
+                "en": "“Haters” and “whatever” are slang, and the sentence attacks the people who disagree instead of answering their view fairly.",
+                "es": "“Haters” y “whatever” son jerga, y la oración ataca a quienes no están de acuerdo en lugar de responder con justicia a su punto de vista."
               },
               "hint": {
                 "en": "Answer the other side with a reason.",
@@ -13363,8 +13363,8 @@
             {
               "id": "a",
               "label": {
-                "en": "the most important and final event",
-                "es": "el suceso más importante y final"
+                "en": "the most important and final event of the whole conflict",
+                "es": "el suceso más importante y final de todo el conflicto"
               }
             },
             {
@@ -13387,8 +13387,8 @@
             "a": {
               "correct": false,
               "why": {
-                "en": "The sentence says anger had been growing for years — the protest was only a small, visible sign, not the whole story.",
-                "es": "La oración dice que el enojo llevaba años creciendo: la protesta era solo una señal pequeña y visible, no toda la historia."
+                "en": "The sentence says anger had been growing for years — the protest was only a small, visible sign, not the final or biggest event.",
+                "es": "La oración dice que el enojo llevaba años creciendo: la protesta era solo una señal pequeña y visible, no el suceso final ni el más grande."
               },
               "hint": {
                 "en": "Most of an iceberg is hidden. What is hidden here?",
@@ -13608,8 +13608,8 @@
             {
               "id": "c",
               "label": {
-                "en": "a special talent",
-                "es": "un talento especial"
+                "en": "a special talent that made the character famous",
+                "es": "un talento especial que hizo famoso al personaje"
               }
             }
           ],
@@ -13636,8 +13636,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "Nothing in the sentence describes a talent. It lists one benefit and one cost.",
-                "es": "Nada en la oración describe un talento. Menciona un beneficio y un costo."
+                "en": "The sentence never mentions a talent or what made her famous. It lists one benefit and one cost of fame.",
+                "es": "La oración nunca menciona un talento ni qué la hizo famosa. Menciona un beneficio y un costo de la fama."
               },
               "hint": {
                 "en": "Look at “brings … but costs.”",
@@ -13678,8 +13678,8 @@
             {
               "id": "b",
               "label": {
-                "en": "choosing a topic that is too easy",
-                "es": "elegir un tema demasiado fácil"
+                "en": "choosing a topic that is too easy for the group",
+                "es": "elegir un tema demasiado fácil para el grupo"
               }
             },
             {
@@ -14243,22 +14243,22 @@
             {
               "id": "a",
               "label": {
-                "en": "“All teenagers study better with music.”",
-                "es": "“All teenagers study better with music.”"
+                "en": "“All teenagers study better with music, because 15 out of 20 students in our class said so.”",
+                "es": "“All teenagers study better with music, because 15 out of 20 students in our class said so.”"
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "“Music is definitely the best way to study.”",
-                "es": "“Music is definitely the best way to study.”"
+                "en": "“Music is definitely the best way to study, and our class survey of 20 students proves it.”",
+                "es": "“Music is definitely the best way to study, and our class survey of 20 students proves it.”"
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "“Most students surveyed in our class prefer studying with music, which suggests this preference may be common among students our age.”",
-                "es": "“Most students surveyed in our class prefer studying with music, which suggests this preference may be common among students our age.”"
+                "en": "“Most students surveyed in our class prefer studying with music, which suggests this may be common at our age.”",
+                "es": "“Most students surveyed in our class prefer studying with music, which suggests this may be common at our age.”"
               }
             }
           ],
@@ -14278,8 +14278,8 @@
             "b": {
               "correct": false,
               "why": {
-                "en": "“Definitely the best” is far stronger than a preference survey of one class can support.",
-                "es": "“Definitely the best” es mucho más fuerte de lo que puede apoyar una encuesta de preferencias de una sola clase."
+                "en": "“Definitely the best” and “proves” are far stronger than a preference survey of one class can support.",
+                "es": "“Definitely the best” y “proves” son mucho más fuertes de lo que puede apoyar una encuesta de preferencias de una sola clase."
               },
               "hint": {
                 "en": "Look for a hedge like “suggests” or “may.”",
@@ -14395,8 +14395,8 @@
             {
               "id": "a",
               "label": {
-                "en": "“Every soldier in the war was miserable.”",
-                "es": "“Every soldier in the war was miserable.”"
+                "en": "“Every soldier in the war was miserable, as this diary from the winter camp clearly shows.”",
+                "es": "“Every soldier in the war was miserable, as this diary from the winter camp clearly shows.”"
               }
             },
             {
@@ -14419,8 +14419,8 @@
             "a": {
               "correct": false,
               "why": {
-                "en": "“Every soldier in the war” generalizes from one diary in one camp.",
-                "es": "“Every soldier in the war” generaliza a partir de un diario de un campamento."
+                "en": "“Every soldier in the war” generalizes from one diary in one camp, and “clearly shows” is too certain.",
+                "es": "“Every soldier in the war” generaliza a partir de un diario de un campamento, y “clearly shows” es demasiado seguro."
               },
               "hint": {
                 "en": "How many sources do you have?",
@@ -14478,8 +14478,8 @@
             {
               "id": "b",
               "label": {
-                "en": "“Eating ice cream causes swimming accidents.”",
-                "es": "“Eating ice cream causes swimming accidents.”"
+                "en": "“Eating ice cream causes swimming accidents, so the more ice cream people buy, the more they get hurt.”",
+                "es": "“Eating ice cream causes swimming accidents, so the more ice cream people buy, the more they get hurt.”"
               }
             },
             {
@@ -14743,22 +14743,22 @@
             {
               "id": "a",
               "label": {
-                "en": "“I read somewhere that this is true.”",
-                "es": "“I read somewhere that this is true.”"
+                "en": "“I read somewhere online that this is true, and I'm pretty sure most experts on technology and communities would agree with me.”",
+                "es": "“I read somewhere online that this is true, and I'm pretty sure most experts on technology and communities would agree with me.”"
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "“On page 3, the author writes that neighbors ‘stopped knocking on each other's doors.’ That supports my point that technology replaced some face-to-face contact.”",
-                "es": "“On page 3, the author writes that neighbors ‘stopped knocking on each other's doors.’ That supports my point that technology replaced some face-to-face contact.”"
+                "en": "“On page 3, the author says neighbors ‘stopped knocking on each other's doors’ — evidence that technology replaced some face-to-face contact.”",
+                "es": "“On page 3, the author says neighbors ‘stopped knocking on each other's doors’ — evidence that technology replaced some face-to-face contact.”"
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "“Everybody knows phones ruin friendships.”",
-                "es": "“Everybody knows phones ruin friendships.”"
+                "en": "“Everybody knows phones ruin friendships, and the article basically says the same thing as everyone else.”",
+                "es": "“Everybody knows phones ruin friendships, and the article basically says the same thing as everyone else.”"
               }
             }
           ],
@@ -14767,8 +14767,8 @@
             "a": {
               "correct": false,
               "why": {
-                "en": "“Somewhere” cannot be checked. A seminar citation names where in the shared text the idea appears.",
-                "es": "“Somewhere” no se puede comprobar. Una cita en el seminario nombra en qué parte del texto compartido aparece la idea."
+                "en": "“Somewhere online” cannot be checked, and guessing what experts think is not evidence. A seminar citation names where in the shared text the idea appears.",
+                "es": "“Somewhere online” no se puede comprobar, y suponer lo que piensan los expertos no es evidencia. Una cita en el seminario nombra en qué parte del texto compartido aparece la idea."
               },
               "hint": {
                 "en": "Name the page and quote the author.",
@@ -14785,8 +14785,8 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "“Everybody knows” is an assumption, not evidence, and it doesn't refer to the article at all.",
-                "es": "“Everybody knows” es una suposición, no evidencia, y no se refiere al artículo para nada."
+                "en": "“Everybody knows” is an assumption, not evidence, and “the article basically says” gives no page or quote anyone can check.",
+                "es": "“Everybody knows” es una suposición, no evidencia, y “the article basically says” no da ninguna página ni cita que se pueda comprobar."
               },
               "hint": {
                 "en": "Use the text, not general opinion.",
@@ -14833,8 +14833,8 @@
             {
               "id": "c",
               "label": {
-                "en": "“Do you like social media?”",
-                "es": "“Do you like social media?”"
+                "en": "“Do you like social media, and which apps do you personally use the most every day?”",
+                "es": "“Do you like social media, and which apps do you personally use the most every day?”"
               }
             }
           ],
@@ -14861,12 +14861,12 @@
             "c": {
               "correct": false,
               "why": {
-                "en": "This is a yes/no question about personal taste. It does not deepen the classmate's idea.",
-                "es": "Esta es una pregunta de sí o no sobre gustos personales. No profundiza en la idea del compañero."
+                "en": "These are questions about personal taste and habits. They do not ask the classmate to explain or support the idea that social media connects people.",
+                "es": "Estas son preguntas sobre gustos y hábitos personales. No le piden al compañero que explique o apoye la idea de que las redes sociales conectan a las personas."
               },
               "hint": {
-                "en": "Avoid yes/no questions.",
-                "es": "Evita las preguntas de sí o no."
+                "en": "Ask about the idea, not the person's habits.",
+                "es": "Pregunta sobre la idea, no sobre los hábitos de la persona."
               }
             }
           }
@@ -14895,22 +14895,22 @@
             {
               "id": "a",
               "label": {
-                "en": "“Jonah is right and Amira is wrong.”",
-                "es": "“Jonah is right and Amira is wrong.”"
+                "en": "“Jonah is right and Amira is wrong, because Jonah gave more examples and sounded a lot more confident.”",
+                "es": "“Jonah is right and Amira is wrong, because Jonah gave more examples and sounded a lot more confident.”"
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "“Let's just vote and move on.”",
-                "es": "“Let's just vote and move on.”"
+                "en": "“Let's just vote on who is right and move on, since we're running out of time anyway.”",
+                "es": "“Let's just vote on who is right and move on, since we're running out of time anyway.”"
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "“It sounds like Amira and Jonah both agree that technology changes how neighbors connect; they disagree about whether that change is good.”",
-                "es": "“It sounds like Amira and Jonah both agree that technology changes how neighbors connect; they disagree about whether that change is good.”"
+                "en": "“It sounds like Amira and Jonah agree that technology changes how neighbors connect; they disagree on whether that's good.”",
+                "es": "“It sounds like Amira and Jonah agree that technology changes how neighbors connect; they disagree on whether that's good.”"
               }
             }
           ],
@@ -14919,8 +14919,8 @@
             "a": {
               "correct": false,
               "why": {
-                "en": "This picks a side. Synthesizing means combining both views to show where they meet and where they split.",
-                "es": "Esto elige un lado. Sintetizar significa combinar ambos puntos de vista para mostrar en qué coinciden y en qué se separan."
+                "en": "This picks a side based on how Jonah sounded. Synthesizing means combining both views to show where they meet and where they split.",
+                "es": "Esto elige un lado según cómo sonaba Jonah. Sintetizar significa combinar ambos puntos de vista para mostrar en qué coinciden y en qué se separan."
               },
               "hint": {
                 "en": "Include both speakers' ideas.",
@@ -14971,8 +14971,8 @@
             {
               "id": "a",
               "label": {
-                "en": "“Kenji, why aren't you talking?”",
-                "es": "“Kenji, why aren't you talking?”"
+                "en": "“Kenji, why aren't you talking? You've been really quiet this whole time, so say something.”",
+                "es": "“Kenji, why aren't you talking? You've been really quiet this whole time, so say something.”"
               }
             },
             {
@@ -15047,22 +15047,22 @@
             {
               "id": "a",
               "label": {
-                "en": "“You make a fair point that video calls help families stay close; however, the article suggests that everyday face-to-face contact among neighbors has declined.”",
-                "es": "“You make a fair point that video calls help families stay close; however, the article suggests that everyday face-to-face contact among neighbors has declined.”"
+                "en": "“Fair point that video calls help families stay close; however, the article suggests face-to-face contact among neighbors has declined.”",
+                "es": "“Fair point that video calls help families stay close; however, the article suggests face-to-face contact among neighbors has declined.”"
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "“Fair point, so I guess my whole argument is wrong.”",
-                "es": "“Fair point, so I guess my whole argument is wrong.”"
+                "en": "“Fair point, video calls really do help families stay close, so I guess my whole argument about neighbors is wrong.”",
+                "es": "“Fair point, video calls really do help families stay close, so I guess my whole argument about neighbors is wrong.”"
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "“However, you're wrong.”",
-                "es": "“However, you're wrong.”"
+                "en": "“However, you're wrong, because the article clearly says neighbors don't talk face to face anymore, and that's all that matters.”",
+                "es": "“However, you're wrong, because the article clearly says neighbors don't talk face to face anymore, and that's all that matters.”"
               }
             }
           ],
@@ -15123,22 +15123,22 @@
             {
               "id": "a",
               "label": {
-                "en": "“My favorite app is better than yours.”",
-                "es": "“My favorite app is better than yours.”"
+                "en": "“My favorite app is better than yours, and honestly it's the one everyone in our neighborhood uses.”",
+                "es": "“My favorite app is better than yours, and honestly it's the one everyone in our neighborhood uses.”"
               }
             },
             {
               "id": "b",
               "label": {
-                "en": "“This is boring.”",
-                "es": "“This is boring.”"
+                "en": "“This is boring. Can we just talk about something else, like what we're doing this weekend?”",
+                "es": "“This is boring. Can we just talk about something else, like what we're doing this weekend?”"
               }
             },
             {
               "id": "c",
               "label": {
-                "en": "“That's interesting, but let's connect it back to our question: does technology strengthen or weaken neighborhood communities?”",
-                "es": "“That's interesting, but let's connect it back to our question: does technology strengthen or weaken neighborhood communities?”"
+                "en": "“Interesting — but how does that connect to our question: does technology strengthen or weaken neighborhood communities?”",
+                "es": "“Interesting — but how does that connect to our question: does technology strengthen or weaken neighborhood communities?”"
               }
             }
           ],
@@ -15147,8 +15147,8 @@
             "a": {
               "correct": false,
               "why": {
-                "en": "This continues the off-topic conversation instead of returning to the question.",
-                "es": "Esto continúa la conversación fuera de tema en lugar de volver a la pregunta."
+                "en": "This continues the off-topic app conversation instead of returning to the question.",
+                "es": "Esto continúa la conversación fuera de tema sobre las aplicaciones en lugar de volver a la pregunta."
               },
               "hint": {
                 "en": "Restate the central question.",
@@ -15158,8 +15158,8 @@
             "b": {
               "correct": false,
               "why": {
-                "en": "This criticizes the group without redirecting it, and it can shut down participation.",
-                "es": "Esto critica al grupo sin redirigirlo, y puede apagar la participación."
+                "en": "This criticizes the group and drifts even further off topic instead of redirecting it, and it can shut down participation.",
+                "es": "Esto critica al grupo y se aleja aún más del tema en lugar de redirigirlo, y puede apagar la participación."
               },
               "hint": {
                 "en": "Acknowledge the idea, then redirect.",

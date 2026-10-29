@@ -46,9 +46,10 @@ All are AI-drafted and `reviewed`. Open questions for the human reviewer are in
    - Arabic UI keys need a separate Arabic reviewer (13 are published; 59 new ones are `reviewed`).
 2. **Screen-reader walkthrough** on real assistive technology (NVDA + VoiceOver). The owner does this, following
    `docs/A11Y_SCREENREADER_SCRIPT.md`.
-3. **Distractor quality pass (optional):**
-   - In about 70% of choice items the correct answer is the longest choice, and in about 150 items it is much longer.
-   - Lengthen distractors so length is not a cue.
+3. **Distractor quality pass — DONE (2026-10-29):**
+   - The correct answer was the longest choice in 69% of 397 choice items. It is now the longest in 26% and the shortest in 13%. No item has the correct answer more than 1.25× longer than every distractor.
+   - 257 items were rebalanced. Wrong answers were made as specific as the right one, and the feedback was rewritten in en and es to match.
+   - The Spanish reviewer should read the changed choice labels and feedback along with the rest.
 4. **Static prose pages** (Teacher Tools, Standards, Frameworks, About, home hero copy) are still English-only. If
    the site should be fully Spanish, move their copy to locale keys.
 
