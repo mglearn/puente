@@ -21,22 +21,22 @@
 </style>
 </head>
 <body data-nav="modules/" data-mode="teacher" data-support="medium">
-<a class="skip-link" href="#main">Skip to content</a>
+<a class="skip-link" href="#main" data-i18n="skip.content">Skip to content</a>
 <div data-shell="header"></div>
 
 <!-- Mode + support controls -->
-<div class="mode-bar no-print" role="region" aria-label="View and support controls">
+<div class="mode-bar no-print" role="region" aria-label="View and support controls" data-i18n-attr="aria-label:controls.region">
   <div class="bar">
     <div class="row">
       <span class="sr-only" data-i18n="mode.label">View</span>
-      <div class="segmented" role="group" aria-label="View mode">
+      <div class="segmented" role="group" aria-label="View" data-i18n-attr="aria-label:mode.label">
         <button data-mode-btn="teacher" aria-pressed="true" data-i18n="mode.teacher">Teacher</button>
         <button data-mode-btn="student" aria-pressed="false" data-i18n="mode.student">Student</button>
       </div>
     </div>
     <div class="row teacher-only" style="margin-inline-start:auto">
       <span class="sr-only" data-i18n="support.label">Support level</span>
-      <div class="segmented on-light" role="group" aria-label="Support level">
+      <div class="segmented on-light" role="group" aria-label="Support level" data-i18n-attr="aria-label:support.label">
         <button data-support-btn="high" aria-pressed="false" data-i18n="support.high">More support</button>
         <button data-support-btn="medium" aria-pressed="true" data-i18n="support.medium">Some support</button>
         <button data-support-btn="light" aria-pressed="false" data-i18n="support.light">Independent</button>
@@ -52,6 +52,8 @@
       <h1 id="s-title">Academic Language Lab</h1>
       <p id="s-directions" class="sub"></p>
       <div id="activity-root" class="activity"><!-- engine mounts here --></div>
+      <!-- Student-mode print: the whole activity as a sheet, not just the current item -->
+      <div id="print-sheet" class="print-only printable"></div>
     </div></div>
   </section>
 
@@ -69,6 +71,9 @@
         <a class="btn secondary" id="btn-printable" href="printables.html?id=cog-context-3-5-001" target="_blank" rel="noopener" data-i18n="teacher.printables">Printable resources</a>
         <button class="btn secondary" id="btn-share" data-i18n="activity.student_link">Copy student link</button>
       </div>
+      <p class="sr-only" id="share-status" role="status" aria-live="polite"></p>
+      <p class="no-print" id="share-manual" hidden><label for="share-url"></label><br>
+        <input id="share-url" type="text" readonly style="width:100%;font:inherit;padding:.4rem"></p>
     </div></div>
   </section>
 </main>
@@ -80,6 +85,7 @@
 <script src="../../assets/js/feedback.js"></script>
 <script src="../../assets/js/standards.js"></script>
 <script src="../../assets/js/activity-engine.js"></script>
+<script src="../../assets/js/printable.js"></script>
 <script src="../../assets/js/app.js"></script>
 <script>
 (function () {
@@ -90,7 +96,7 @@
   // Derive the module from this page's own path so the activity page is generic
   // across modules: /modules/<module>/activity.html
   var MODULE = location.pathname.split("/").filter(Boolean).slice(-2)[0];
-  var activity = null;
+  var activity = null, moduleName = null, manifest = null;
 
   function pick(o) { return I18n.pick(o, I18n.uiLang); }
   function esc(s) { return String(s == null ? "" : s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
@@ -121,12 +127,14 @@
       else { n.removeAttribute("lang"); n.removeAttribute("dir"); }
     });
 
+    document.title = pick(a.title) + " — " + I18n.t("site.name");
+
     // Meta chips
     document.getElementById("t-meta").innerHTML =
-      chip(a.duration + " min") +
-      chip("Grade " + a.grades.join(", ")) +
+      chip(I18n.t("meta.minutes", { n: a.duration })) +
+      chip(I18n.t("meta.grade", { g: Printable.gradeList(a.grades) })) +
       chip(a.targetLanguage.toUpperCase() + " ↔ " + a.supportedHomeLanguages.join(",").toUpperCase()) +
-      chip("Interactive") + chip("Printable available");
+      chip(I18n.t("meta.interactive")) + chip(I18n.t("meta.printable"));
 
     var rows = "";
     rows += metaRow("teacher.objective", esc(pick(a.studentGoal)));
@@ -135,20 +143,20 @@
     rows += metaRow("teacher.student_dirs", esc(pick(a.studentDirections)));
 
     // Support options summary (spec §20)
-    rows += metaRow("teacher.supports",
-      "<strong>" + I18n.t("support.high") + ":</strong> home-language clue + context nudge · " +
-      "<strong>" + I18n.t("support.medium") + ":</strong> context nudge · " +
-      "<strong>" + I18n.t("support.light") + ":</strong> prompt only");
+    rows += metaRow("teacher.supports", ["high", "medium", "light"].map(function (lv) {
+      return "<strong>" + esc(I18n.t("support." + lv)) + ":</strong> " + esc(I18n.t("support." + lv + "_desc"));
+    }).join(" · "));
 
     // UDL + strategies + ACE/CLEAR (local frameworks, clearly labeled)
     rows += metaRow("teacher.udl", a.udl.map(esc).join("<br>"));
     rows += metaRow("teacher.strategies", a.strategies.map(esc).join(", "));
     rows += metaRow("framework.ace",
-      '<span class="tag-local">Articulate · Connect · Extend</span><br><span style="font-size:.82rem;color:var(--ink-soft)">' +
+      '<span class="tag-local">' + esc([I18n.t("ace.articulate"), I18n.t("ace.connect"), I18n.t("ace.extend")].join(" · ")) +
+      '</span><br><span style="font-size:.82rem;color:var(--ink-soft)">' +
       esc(I18n.t("framework.local_note")) + "</span>");
     if (a.clear && a.clear.enabled) {
       rows += metaRow("framework.clear",
-        '<span class="tag-local">Emphasis: ' + esc(a.clear.emphasis.join(", ")) + '</span>');
+        '<span class="tag-local">' + esc(I18n.t("framework.emphasis", { list: a.clear.emphasis.join(", ") })) + '</span>');
     }
 
     var panel = document.getElementById("teacher-panel");
@@ -180,6 +188,37 @@
     return '<div class="meta-row"><dt data-i18n="' + key + '">' + esc(I18n.t(key)) + '</dt><dd>' + valueHtml + '</dd></div>';
   }
 
+  function copied() {
+    document.getElementById("share-manual").hidden = true;
+    var status = document.getElementById("share-status");
+    status.textContent = "";
+    // Re-set after a tick so a repeated copy is announced again.
+    setTimeout(function () { status.textContent = I18n.t("share.copied"); }, 50);
+    var btn = document.getElementById("btn-share");
+    btn.textContent = "✓ " + I18n.t("activity.student_link");
+    setTimeout(function () { btn.textContent = I18n.t("activity.student_link"); }, 2000);
+  }
+
+  // Printing: the teacher view prints with every drawer open (closed <details>
+  // hide their content on paper); student mode prints the full activity sheet
+  // rather than only the item currently on screen.
+  var reopen = [];
+  window.addEventListener("beforeprint", function () {
+    if (!activity) return;
+    if (document.body.getAttribute("data-mode") === "student") {
+      document.getElementById("print-sheet").innerHTML = Printable.render({
+        activity: activity, sheet: "student", moduleName: moduleName, manifest: manifest, base: BASE
+      });
+    } else {
+      reopen = [].slice.call(document.querySelectorAll("#teacher-panel details:not([open])"));
+      reopen.forEach(function (d) { d.setAttribute("open", ""); });
+    }
+  });
+  window.addEventListener("afterprint", function () {
+    reopen.forEach(function (d) { d.removeAttribute("open"); });
+    reopen = [];
+  });
+
   function mountStudent() {
     var root = document.getElementById("activity-root");
     root.innerHTML = "";
@@ -202,12 +241,25 @@
     });
     document.getElementById("btn-launch-student").addEventListener("click", function () { setMode("student"); });
     document.getElementById("btn-print").addEventListener("click", function () { window.print(); });
-    document.getElementById("btn-share").addEventListener("click", function (e) {
+    document.getElementById("btn-share").addEventListener("click", function () {
       var url = location.origin + location.pathname + "?id=" + activity.id + "&mode=student&support=" +
         document.body.getAttribute("data-support");
-      navigator.clipboard && navigator.clipboard.writeText(url);
-      e.target.textContent = "✓";
-      setTimeout(function () { e.target.textContent = I18n.t("activity.student_link"); }, 1500);
+      var write = navigator.clipboard && window.isSecureContext
+        ? navigator.clipboard.writeText(url) : Promise.reject();
+      write.then(copied, function () {
+        // No async clipboard (http, older browser, permission denied): try the
+        // legacy copy, and if that fails too, show the link to copy by hand.
+        var ta = document.createElement("textarea");
+        ta.value = url; ta.setAttribute("readonly", ""); ta.style.position = "fixed"; ta.style.opacity = "0";
+        document.body.appendChild(ta); ta.select();
+        var ok = false;
+        try { ok = document.execCommand("copy"); } catch (err) {}
+        document.body.removeChild(ta);
+        if (ok) return copied();
+        var box = document.getElementById("share-manual"), input = document.getElementById("share-url");
+        box.querySelector("label").textContent = I18n.t("share.manual");
+        input.value = url; box.hidden = false; input.focus(); input.select();
+      });
     });
 
     buildTeacher();
@@ -221,11 +273,15 @@
     return Promise.all([
       fetch(BASE + "modules/" + MODULE + "/data.json").then(function (r) { return r.json(); }),
       Standards.basePath(BASE).load(["elps", "teks-elar", "teks-slar"]),
-      fetch(BASE + "data/image-manifest.json").then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; })
+      fetch(BASE + "data/image-manifest.json").then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; }),
+      fetch(BASE + "data/site.json").then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; })
     ]);
   }).then(function (out) {
     var store = out[0];
-    if (out[2]) ActivityEngine.setManifest(out[2], BASE);
+    manifest = out[2];
+    if (manifest) ActivityEngine.setManifest(manifest, BASE);
+    var mod = out[3] && (out[3].modules || []).filter(function (m) { return m.id === MODULE; })[0];
+    moduleName = mod ? mod.name : null;
     activity = (wantId && store.activities.filter(function (x) { return x.id === wantId; })[0]) || store.activities[0];
     boot();
   });

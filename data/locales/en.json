@@ -82,6 +82,89 @@
     "done.head":            { "text": "Nice detective work.", "status": "published" },
     "done.again":           { "text": "Do it again", "status": "published" },
 
-    "privacy.note":         { "text": "No logins. No accounts. No student data collected.", "status": "published" }
+    "privacy.note":         { "text": "No logins. No accounts. No student data collected.", "status": "published" },
+
+    "skip.content":         { "text": "Skip to content", "status": "published" },
+
+    "controls.region":      { "text": "View and support controls", "status": "published" },
+
+    "meta.minutes":         { "text": "{n} min", "status": "published" },
+    "meta.grade":           { "text": "Grade {g}", "status": "published" },
+    "meta.grade_k":         { "text": "K", "status": "published" },
+    "meta.interactive":     { "text": "Interactive", "status": "published" },
+    "meta.printable":       { "text": "Printable available", "status": "published" },
+
+    "support.high_desc":    { "text": "home-language clue + context nudge", "status": "published" },
+    "support.medium_desc":  { "text": "context nudge", "status": "published" },
+    "support.light_desc":   { "text": "prompt only", "status": "published" },
+
+    "framework.emphasis":   { "text": "Emphasis: {list}", "status": "published" },
+
+    "share.copied":         { "text": "Student link copied.", "status": "published" },
+    "share.manual":         { "text": "Copy this student link:", "status": "published" },
+
+    "print.options":        { "text": "Print options", "status": "published" },
+    "print.sheet":          { "text": "Sheet", "status": "published" },
+    "print.student_pack":   { "text": "Student pack", "status": "published" },
+    "print.answer_key":     { "text": "Answer key", "status": "published" },
+    "print.print":          { "text": "Print", "status": "published" },
+    "print.name":           { "text": "Name", "status": "published" },
+    "print.date":           { "text": "Date", "status": "published" },
+    "print.categories":     { "text": "Categories", "status": "published" },
+    "print.local_framework": { "text": "local framework", "status": "published" },
+    "print.generated":      { "text": "Generated from record {id} on {date}", "status": "published" },
+    "print.license":        { "text": "© 2026 TCEA · CC BY-NC 4.0 · No student data collected.", "status": "published" },
+
+    "acts.intro":           { "text": "Everything here is built to answer one question: what can a teacher use with students in the next 10 minutes? No accounts, works on a Chromebook, works on paper.", "status": "published" },
+    "acts.map_head":        { "text": "Activity map", "status": "published" },
+    "acts.map_intro":       { "text": "Three modules across four grade bands. The more gold a cell, the more activities it holds; dashed cells have none yet. Choose a cell to filter, or search a topic.", "status": "published" },
+    "acts.map_label":       { "text": "Activity map. Choose a module and grade band to filter.", "status": "published" },
+    "acts.search_placeholder": { "text": "Search a topic: cognates, false friends, ask for help…", "status": "published" },
+    "acts.search_label":    { "text": "Search activities by topic", "status": "published" },
+    "acts.search":          { "text": "Search", "status": "published" },
+    "acts.try":             { "text": "Try:", "status": "published" },
+    "acts.filter_label":    { "text": "Filter activities", "status": "published" },
+    "acts.module":          { "text": "Module", "status": "published" },
+    "acts.all_modules":     { "text": "All modules", "status": "published" },
+    "acts.grade":           { "text": "Grade", "status": "published" },
+    "acts.any_grade":       { "text": "Any grade", "status": "published" },
+    "acts.subject":         { "text": "Content area", "status": "published" },
+    "acts.any_subject":     { "text": "Any subject", "status": "published" },
+
+    "subject.elar":         { "text": "Reading / ELAR", "status": "published" },
+    "subject.science":      { "text": "Science", "status": "published" },
+    "subject.math":         { "text": "Math", "status": "published" },
+    "subject.social":       { "text": "Social Studies", "status": "published" },
+    "subject.slar":         { "text": "Spanish LA", "status": "published" },
+
+    "acts.time":            { "text": "Time", "status": "published" },
+    "acts.any_length":      { "text": "Any length", "status": "published" },
+    "acts.max_min":         { "text": "≤ {n} min", "status": "published" },
+    "acts.count_one":       { "text": "{n} activity", "status": "published" },
+    "acts.count_many":      { "text": "{n} activities", "status": "published" },
+    "acts.showing":         { "text": "Showing {module} · {band}", "status": "published" },
+    "acts.show_all":        { "text": "Show all", "status": "published" },
+    "acts.teacher_view":    { "text": "Teacher view", "status": "published" },
+    "acts.caption":         { "text": "{n} activities in all · search looks inside every question and word.", "status": "published" },
+
+    "topic.cognates":       { "text": "cognates", "status": "published" },
+    "topic.false_friends":  { "text": "false friends", "status": "published" },
+    "topic.roots":          { "text": "roots", "status": "published" },
+    "topic.ask_help":       { "text": "ask for help", "status": "published" },
+    "topic.academic":       { "text": "academic words", "status": "published" },
+    "topic.offices":        { "text": "school offices", "status": "published" },
+
+    "mod.by_band":          { "text": "Activities by grade band", "status": "published" },
+    "mod.band":             { "text": "Grades {band}", "status": "published" },
+    "mod.student_mode":     { "text": "Student mode", "status": "published" },
+    "mod.printable":        { "text": "Printable", "status": "published" },
+    "mod.cognate-detective.intro": { "text": "English and Spanish share thousands of cognates — words that look alike and mean the same thing. Some are false friends. Cognate Detective helps emergent bilingual students use what they already know to unlock English vocabulary, then verify meaning with context.", "status": "published" },
+    "mod.academic-language-lab.intro": { "text": "Emergent bilingual students often understand a concept but need the academic language to express it. The Academic Language Lab builds the words, sentence frames, and talk moves students use to explain, compare, and justify — the language of school across every content area.", "status": "published" },
+    "mod.newcomer-navigator.intro": { "text": "Newly arrived students need survival English before academic English: how to ask to use the restroom, what to say in the cafeteria line, how to join a group. Newcomer Navigator uses real school scenarios so students rehearse the words they need on day one — with home-language support throughout.", "status": "published" },
+    "prints.intro":         { "text": "Every activity prints. Each sheet is generated from the same content record, so the paper version always matches the screen — a student pack to hand out and an answer key for you, in English, Spanish, or Arabic. When the technology does not work, the activity still does.", "status": "published" },
+    "prints.open":          { "text": "Open printable", "status": "published" },
+    "prints.contents":      { "text": "Student pack + answer key · English / Español / العربية", "status": "published" },
+    "std.esl":              { "text": "English as a Second Language (Ch. 128)", "status": "published" },
+    "std.pending":          { "text": "source check pending", "status": "published" }
   }
 }

@@ -176,4 +176,18 @@ test("Newcomer carries the two-source-verified speaking ELPS code", () => {
   assert.ok(nav.standards.elps.some((c) => c.code === "§120.21(d)(2)(F)" && c.alignment === "direct"));
 });
 
+test("picture-match images have a quizAlt that does not name the answer", () => {
+  const manifest = readJson("data/image-manifest.json");
+  ["cognate-detective", "academic-language-lab", "newcomer-navigator"].forEach((m) => {
+    readJson("modules/" + m + "/data.json").activities
+      .filter((a) => a.interactionType === "picture-match")
+      .forEach((a) => a.items.filter((it) => it.image).forEach((it) => {
+        const asset = manifest.assets[it.image];
+        assert.ok(asset && asset.quizAlt && asset.quizAlt.en && asset.quizAlt.es, a.id + "/" + it.id + ": " + it.image + " needs quizAlt en+es");
+        const answer = it.choices.filter((c) => c.id === it.answer)[0].label.en.toLowerCase();
+        assert.ok(!asset.quizAlt.en.toLowerCase().includes(answer), a.id + "/" + it.id + ": quizAlt names the answer “" + answer + "”");
+      }));
+  });
+});
+
 console.log(`\nsmoke.test: ${passed} passed`);

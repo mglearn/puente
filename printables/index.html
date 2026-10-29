@@ -16,14 +16,14 @@
 </style>
 </head>
 <body data-nav="printables/">
-<a class="skip-link" href="#main">Skip to content</a>
+<a class="skip-link" href="#main" data-i18n="skip.content">Skip to content</a>
 <div data-shell="header"></div>
 
 <main class="main" id="main">
-  <h1>Printables</h1>
-  <p>Every activity prints. Each sheet is generated from the same content record, so the paper
+  <h1 data-i18n="nav.printables">Printables</h1>
+  <p data-i18n="prints.intro">Every activity prints. Each sheet is generated from the same content record, so the paper
      version always matches the screen — a student pack to hand out and an answer key for you,
-     in English or Spanish. When the technology does not work, the activity still does.</p>
+     in English, Spanish, or Arabic. When the technology does not work, the activity still does.</p>
   <div id="print-list"></div>
 </main>
 
@@ -52,11 +52,12 @@
       document.getElementById("print-list").innerHTML = groups.map(function (g) {
         return '<h2 style="margin-top:var(--sp-6)">' + esc(pick(g.m.name)) + '</h2>' + g.acts.map(function (a) {
           return '<div class="p-row"><div class="row spread">' +
-            '<h3>' + esc(pick(a.title)) + '</h3>' +
-            '<span class="chip">Grade ' + a.grades.join(", ") + ' · ' + a.duration + ' min</span></div>' +
+            '<h3' + I18n.langAttr(a.title) + '>' + esc(pick(a.title)) + '</h3>' +
+            '<span class="chip">' + esc(I18n.t("meta.grade", { g: a.grades.map(function (g) { return g === 0 ? I18n.t("meta.grade_k") : g; }).join(", ") })) +
+            ' · ' + esc(I18n.t("meta.minutes", { n: a.duration })) + '</span></div>' +
             '<div class="row" style="margin-top:.5rem">' +
-              '<a class="btn sm" href="../modules/' + esc(a.module) + '/printables.html?id=' + esc(a.id) + '" target="_blank" rel="noopener">Open printable</a>' +
-              '<span style="color:var(--ink-soft);font-size:.9rem">Student pack + answer key · English / Español</span>' +
+              '<a class="btn sm" href="../modules/' + esc(a.module) + '/printables.html?id=' + esc(a.id) + '&amp;lang=' + I18n.uiLang + '" target="_blank" rel="noopener">' + esc(I18n.t("prints.open")) + '</a>' +
+              '<span style="color:var(--ink-soft);font-size:.9rem">' + esc(I18n.t("prints.contents")) + '</span>' +
             '</div></div>';
         }).join("");
       }).join("");

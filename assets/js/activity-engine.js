@@ -11,19 +11,30 @@
       .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
   }
   function pick(o) { return I18n.pick(o, I18n.uiLang); }
-  // lang/dir for fallback text (e.g. English content under an Arabic UI).
-  function la(o) { return I18n.langAttr(o, I18n.uiLang); }
+  // lang/dir for fallback text (e.g. English content under an Arabic UI), and for
+  // English practice words that a translation deliberately leaves in English
+  // (es choice label "elephant") so a screen reader voices them in English.
+  function la(o) {
+    var fallback = I18n.langAttr(o, I18n.uiLang);
+    if (fallback) return fallback;
+    return (I18n.uiLang !== "en" && o && o.en != null && pick(o) === o.en && /[a-z]/i.test(o.en))
+      ? ' lang="en" dir="ltr"' : "";
+  }
 
   // Optional artwork registry (data/image-manifest.json). An asset renders only
   // when present AND status === "available", so planned art stays dormant — no
   // broken images on the live site. LB_BASE-relative path is prepended.
   var MANIFEST = null, MANIFEST_BASE = "";
-  function manifestImage(key, cls) {
+  // quiz=true: the image IS the question (picture-match), so use quizAlt — a
+  // description that does not name the answer — when the manifest has one.
+  function manifestImage(key, cls, quiz) {
     if (!key || !MANIFEST || !MANIFEST.assets) return "";
     var a = MANIFEST.assets[key];
     if (!a || a.status !== (MANIFEST._meta && MANIFEST._meta.renderGate || "available")) return "";
     var base = MANIFEST_BASE + ((MANIFEST._meta && MANIFEST._meta.base) || "assets/img/");
-    return '<img class="' + (cls || "support-img") + '" src="' + esc(base + a.file) + '" alt="' + esc(a.alt || "") + '" ' +
+    var alt = quiz && a.quizAlt ? pick(a.quizAlt) : (a.alt || "");
+    return '<img class="' + (cls || "support-img") + '" src="' + esc(base + a.file) + '" alt="' + esc(alt) + '" ' +
+      (quiz && a.quizAlt ? I18n.langAttr(a.quizAlt, I18n.uiLang) + ' ' : '') +
       'loading="lazy" onerror="this.remove()">';
   }
 
@@ -70,7 +81,8 @@
     }
 
     // Scenario image (spec §79) — core content, shown at every support level.
-    var imageHtml = item.image ? manifestImage(item.image, "scenario-img") : "";
+    var imageHtml = item.image
+      ? manifestImage(item.image, "scenario-img", this.activity.interactionType === "picture-match") : "";
 
     var tLang = esc(this.activity.targetLanguage);
     var contextHtml = item.context

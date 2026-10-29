@@ -22,7 +22,7 @@
   .mx-row { justify-content:flex-end; text-align:right; padding-right:8px; font-size:.82rem; line-height:1.15; }
   .mx-cell { position:relative; min-height:62px; padding:7px 9px 6px; border-radius:8px; cursor:pointer;
     display:flex; flex-direction:column; justify-content:space-between; text-align:left;
-    font:600 .72rem/1.2 inherit; border:1px solid rgba(252,176,64,.3); background:#0e3a73; color:#fff;
+    font-family:inherit; font-weight:600; font-size:.72rem; line-height:1.2; border:1px solid rgba(252,176,64,.3); background:#0e3a73; color:#fff;
     transition:transform .15s, box-shadow .15s; }
   .mx-cell .mx-title { color:rgba(255,255,255,.85); font-weight:600; }
   .mx-cell.lv0 { background:transparent; border:1.5px dashed rgba(255,255,255,.35); color:rgba(255,255,255,.6); cursor:default; }
@@ -35,7 +35,7 @@
   .mx-n { font-family:var(--font-display, serif); font-size:1.3rem; line-height:1; align-self:flex-end; font-weight:800; }
   .map-caption { color:rgba(255,255,255,.65); font-size:.85rem; margin:12px 0 0; }
   .map-search { display:flex; gap:8px; margin:16px 0 8px; max-width:560px; }
-  .map-search input { flex:1; min-width:0; font:400 .95rem inherit; padding:10px 12px; border-radius:10px;
+  .map-search input { flex:1; min-width:0; font-family:inherit; font-weight:400; font-size:.95rem; padding:10px 12px; border-radius:10px;
     border:1.5px solid rgba(255,255,255,.3); background:rgba(255,255,255,.1); color:#fff; }
   .map-search input::placeholder { color:rgba(255,255,255,.6); }
   .map-search input:focus { border-color:var(--gold); background:rgba(255,255,255,.16); }
@@ -64,45 +64,45 @@
 </style>
 </head>
 <body data-nav="activities/">
-<a class="skip-link" href="#main">Skip to content</a>
+<a class="skip-link" href="#main" data-i18n="skip.content">Skip to content</a>
 <div data-shell="header"></div>
 
 <main class="main" id="main">
-  <h1>Activities</h1>
-  <p>Everything here is built to answer one question: <em>what can a teacher use with
-     students in the next 10 minutes?</em> No accounts, works on a Chromebook, works on paper.</p>
+  <h1 data-i18n="nav.activities">Activities</h1>
+  <p data-i18n="acts.intro">Everything here is built to answer one question: what can a teacher use with
+     students in the next 10 minutes? No accounts, works on a Chromebook, works on paper.</p>
 
   <!-- Activity map: module × grade band, counts + search (after the ELE activity bank) -->
   <section class="map-card" aria-labelledby="map-h">
-    <h2 id="map-h">Activity map</h2>
-    <p class="map-intro">Three modules across four grade bands. The more gold a cell, the more
+    <h2 id="map-h" data-i18n="acts.map_head">Activity map</h2>
+    <p class="map-intro" data-i18n="acts.map_intro">Three modules across four grade bands. The more gold a cell, the more
       activities it holds; dashed cells have none yet. Choose a cell to filter, or search a topic.</p>
-    <div class="matrix" id="matrix" role="group" aria-label="Activity map. Choose a module and grade band to filter."></div>
+    <div class="matrix" id="matrix" role="group" aria-label="Activity map. Choose a module and grade band to filter." data-i18n-attr="aria-label:acts.map_label"></div>
     <p class="map-caption" id="map-caption"></p>
     <form class="map-search" role="search" onsubmit="return false">
-      <input id="map-q" type="search" placeholder="Search a topic: cognates, false friends, ask for help…" autocomplete="off" aria-label="Search activities by topic">
-      <button class="btn" type="submit" id="map-go">Search</button>
+      <input id="map-q" type="search" placeholder="Search a topic: cognates, false friends, ask for help…" autocomplete="off" aria-label="Search activities by topic" data-i18n-attr="placeholder:acts.search_placeholder;aria-label:acts.search_label">
+      <button class="btn" type="submit" id="map-go" data-i18n="acts.search">Search</button>
     </form>
-    <p class="map-topics"><span>Try:</span>
-      <a href="#" data-q="cognates">cognates</a>
-      <a href="#" data-q="false friends">false friends</a>
-      <a href="#" data-q="roots">roots</a>
-      <a href="#" data-q="ask for help">ask for help</a>
-      <a href="#" data-q="academic words">academic words</a>
-      <a href="#" data-q="school offices">school offices</a>
+    <p class="map-topics"><span data-i18n="acts.try">Try:</span>
+      <a href="#" data-q="cognates" data-i18n="topic.cognates">cognates</a>
+      <a href="#" data-q="false friends" data-i18n="topic.false_friends">false friends</a>
+      <a href="#" data-q="roots" data-i18n="topic.roots">roots</a>
+      <a href="#" data-q="ask for help" data-i18n="topic.ask_help">ask for help</a>
+      <a href="#" data-q="academic words" data-i18n="topic.academic">academic words</a>
+      <a href="#" data-q="school offices" data-i18n="topic.offices">school offices</a>
     </p>
     <p class="active-note" id="active-note" hidden></p>
   </section>
 
-  <div class="filters" aria-label="Filter activities">
-    <div><label for="f-module">Module</label><select id="f-module"><option value="">All modules</option></select></div>
-    <div><label for="f-grade">Grade</label><select id="f-grade"><option value="">Any grade</option>
-      <option>K</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option>
+  <div class="filters" role="group" aria-label="Filter activities" data-i18n-attr="aria-label:acts.filter_label">
+    <div><label for="f-module" data-i18n="acts.module">Module</label><select id="f-module"><option value="" data-i18n="acts.all_modules">All modules</option></select></div>
+    <div><label for="f-grade" data-i18n="acts.grade">Grade</label><select id="f-grade"><option value="" data-i18n="acts.any_grade">Any grade</option>
+      <option value="K" data-i18n="meta.grade_k">K</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option>
       <option>6</option><option>7</option><option>8</option><option>9</option><option>10</option><option>11</option><option>12</option></select></div>
-    <div><label for="f-subject">Content area</label><select id="f-subject"><option value="">Any subject</option>
-      <option value="elar">Reading / ELAR</option><option value="science">Science</option>
-      <option value="math">Math</option><option value="social-studies">Social Studies</option><option value="slar">Spanish LA</option></select></div>
-    <div><label for="f-time">Time</label><select id="f-time"><option value="">Any length</option>
+    <div><label for="f-subject" data-i18n="acts.subject">Content area</label><select id="f-subject"><option value="" data-i18n="acts.any_subject">Any subject</option>
+      <option value="elar" data-i18n="subject.elar">Reading / ELAR</option><option value="science" data-i18n="subject.science">Science</option>
+      <option value="math" data-i18n="subject.math">Math</option><option value="social-studies" data-i18n="subject.social">Social Studies</option><option value="slar" data-i18n="subject.slar">Spanish LA</option></select></div>
+    <div><label for="f-time" data-i18n="acts.time">Time</label><select id="f-time"><option value="" data-i18n="acts.any_length">Any length</option>
       <option value="10">≤ 10 min</option><option value="20">≤ 20 min</option></select></div>
   </div>
 
@@ -138,6 +138,12 @@
     return norm(parts.join(" "));
   }
 
+  function countLabel(n){ return I18n.t(n===1 ? "acts.count_one" : "acts.count_many", { n: n }); }
+  function grades(a){ return a.grades.map(function(g){ return g===0 ? I18n.t("meta.grade_k") : g; }).join(", "); }
+
+  // Shorten on a word boundary; only add an ellipsis when something was cut.
+  function clip(s, n){ if (s.length <= n) return s; var c = s.slice(0, n); var sp = c.lastIndexOf(" "); return (sp > n*0.6 ? c.slice(0, sp) : c) + "…"; }
+
   function levelFor(n){ return n===0 ? 0 : n<=2 ? 1 : n<=5 ? 2 : 3; }
 
   function buildMatrix() {
@@ -150,7 +156,7 @@
         var n = all.filter(function(a){ return a.module===mid && a.gradeBand===b; }).length;
         var lv = levelFor(n), mn = modules[mid] ? pick(modules[mid].name) : mid;
         // Name starts with the visible text ("<module> <count>") — WCAG 2.5.3 label in name.
-        var label = mn + " " + n + (n===1?" activity":" activities") + ", " + b;
+        var label = mn + " " + countLabel(n) + ", " + b;
         var pressed = (cellModule===mid && cellBand===b);
         if (n === 0) {
           html += '<div class="mx-cell lv0" aria-label="' + esc(label) + '"><span class="mx-title"></span><span class="mx-n">0</span></div>';
@@ -190,7 +196,7 @@
       if (words.length) { for (var i=0;i<words.length;i++){ if (a._hay.indexOf(words[i]) === -1) return false; } }
       return true;
     });
-    document.getElementById("count").textContent = rows.length + (rows.length === 1 ? " activity" : " activities");
+    document.getElementById("count").textContent = countLabel(rows.length);
 
     // active-cell note (clearable), mirrors the ELE bank's area note
     var note = document.getElementById("active-note");
@@ -199,8 +205,8 @@
     });
     if (cellModule && cellBand) {
       note.hidden = false;
-      note.textContent = "Showing " + (modules[cellModule] ? pick(modules[cellModule].name) : cellModule) + " · " + cellBand + " ";
-      var b = document.createElement("button"); b.type="button"; b.textContent="Show all";
+      note.textContent = I18n.t("acts.showing", { module: modules[cellModule] ? pick(modules[cellModule].name) : cellModule, band: cellBand }) + " ";
+      var b = document.createElement("button"); b.type="button"; b.textContent=I18n.t("acts.show_all");
       b.addEventListener("click", function(){ cellModule=""; cellBand=""; render(); });
       note.appendChild(b);
     } else { note.hidden = true; note.textContent = ""; }
@@ -209,19 +215,19 @@
       var modName = modules[a.module] ? pick(modules[a.module].name) : a.module;
       return '<div class="card a-card"><div class="pad">' +
         '<span class="chip">' + esc(modName) + '</span>' +
-        '<h3 style="margin:.25rem 0 0">' + esc(pick(a.title)) + '</h3>' +
-        '<p>' + esc(pick(a.studentGoal)).slice(0,120) + '…</p>' +
+        '<h3 style="margin:.25rem 0 0"' + I18n.langAttr(a.title) + '>' + esc(pick(a.title)) + '</h3>' +
+        '<p' + I18n.langAttr(a.studentGoal) + '>' + esc(clip(pick(a.studentGoal), 120)) + '</p>' +
         '<div class="meta activity-meta">' +
-          '<span class="chip">' + a.duration + ' min</span>' +
-          '<span class="chip">Grade ' + a.grades.join(", ") + '</span>' +
+          '<span class="chip">' + esc(I18n.t("meta.minutes", { n: a.duration })) + '</span>' +
+          '<span class="chip">' + esc(I18n.t("meta.grade", { g: grades(a) })) + '</span>' +
           '<span class="chip">EN ↔ ' + a.supportedHomeLanguages.join(",").toUpperCase() + '</span>' +
         '</div>' +
         '<div class="row" style="margin-top:.6rem">' +
-          '<a class="btn sm" href="../modules/' + esc(a.module) + '/activity.html?id=' + esc(a.id) + '">Teacher view</a>' +
-          '<a class="btn sm secondary" href="../modules/' + esc(a.module) + '/activity.html?id=' + esc(a.id) + '&mode=student">Student</a>' +
+          '<a class="btn sm" href="../modules/' + esc(a.module) + '/activity.html?id=' + esc(a.id) + '">' + esc(I18n.t("acts.teacher_view")) + '</a>' +
+          '<a class="btn sm secondary" href="../modules/' + esc(a.module) + '/activity.html?id=' + esc(a.id) + '&mode=student">' + esc(I18n.t("mode.student")) + '</a>' +
         '</div></div></div>';
     }).join("");
-    document.getElementById("map-caption").textContent = all.length + " activities in all · search looks inside every question and word.";
+    document.getElementById("map-caption").textContent = I18n.t("acts.caption", { n: all.length });
   }
 
   window.LB.ready.then(function () {

@@ -1,6 +1,58 @@
 # Roadmap
 
-## Current state (2026-10-28)
+## Current state (2026-10-29)
+
+**MVP content target reached.** 3 launch modules, **86 activities**
+(Cognate Detective 24/24 · Academic Language Lab 32/32 · Newcomer Navigator 30/30). Every module
+has activities in every grade band (K–2 · 3–5 · 6–8 · 9–12). There are 63 verified standards, all two-source.
+`npm run check` is green.
+
+**2026-10-29: content build-out.** 47 new activities draw on the 2026-10-28 codes (see the "Next"
+ideas list in the history below). The **first SLAR-only activity** is `cog-context-6-8-019` (Spanish context
+clues, `targetLanguage: "es"`), and the **first ELDA activities** are `nav-aboutme-9-12-029` and `nav-campus-9-12-030`.
+All are AI-drafted and `reviewed`. Open questions for the human reviewer are in
+[`REVIEW_NOTES_2026-10-29.md`](REVIEW_NOTES_2026-10-29.md).
+
+**2026-10-29: a11y/i18n follow-ups from round two, all done:**
+- **Translatable text:**
+  - The activities index, module pages, printables index, printable sheets, activity teacher view and skip links now use locale keys. There are 70 new keys in en, es and ar.
+  - The new es/ar text is `reviewed`, so it shows in English until published.
+- **Printables:**
+  - They have an Arabic option with RTL.
+  - They start in the saved site language or `?lang=`.
+  - The ACE "Use the English word…" line prints only when the activity has `ace.extend`.
+- **Shared renderer:** sheets are built by `assets/js/printable.js`, used by both printables pages and student-mode print.
+- **Picture-match:**
+  - Images use a new manifest `quizAlt` (en/es) that does not name the answer.
+  - English practice words under a non-English UI are tagged `lang="en"`.
+- **Print:**
+  - Teacher-view print opens every drawer, including Answer guidance.
+  - Student-mode print outputs the whole activity as a sheet.
+- **Copy student link:**
+  - It announces "Student link copied." in a `role=status` region.
+  - It falls back to `execCommand`, then to a selectable link field.
+- **Activity map:** the invalid `font:` shorthand is fixed.
+- **Other fixes:**
+  - The ELDA code shows under its own "English as a Second Language (Ch. 128)" drawer heading.
+  - "Source check pending" is now translatable.
+  - Grade 0 displays as "K".
+  - The page `<title>` follows the activity.
+- **Re-verified:** axe (WCAG 2.1 A/AA + best practice) reports 0 violations on every page and all 86 activities in EN/ES/AR, teacher and student views. Print and narrow (390px) layout were checked too.
+
+## Next
+
+1. **Human review before announcing.**
+   - A bilingual educator works through `docs/SPANISH_REVIEW.md` and `REVIEW_NOTES_2026-10-29.md`, then flips the reviewed `es` keys and activities to `published`.
+   - Arabic UI keys need a separate Arabic reviewer (13 are published; 59 new ones are `reviewed`).
+2. **Screen-reader walkthrough** on real assistive technology (NVDA + VoiceOver). The owner does this, following
+   `docs/A11Y_SCREENREADER_SCRIPT.md`.
+3. **Distractor quality pass (optional):**
+   - In about 70% of choice items the correct answer is the longest choice, and in about 150 items it is much longer.
+   - Lengthen distractors so length is not a cue.
+4. **Static prose pages** (Teacher Tools, Standards, Frameworks, About, home hero copy) are still English-only. If
+   the site should be fully Spanish, move their copy to locale keys.
+
+## History — state on 2026-10-28
 
 **Live at https://mglearn.github.io/puente/** (deployed from this repo via GitHub Pages) —
 3 launch modules, **39 activities** (Cognate Detective 16 · Academic Language Lab 12 ·
@@ -27,7 +79,7 @@ support". Print (390 PDFs): picture/scenario packs now include images, correct m
 names, Spanish packs fully Spanish, no blank pages. Human screen-reader walkthrough
 script: `docs/A11Y_SCREENREADER_SCRIPT.md`.
 
-## Next
+### Next steps as planned on 2026-10-28 (activity ideas; content now built)
 
 1. **Content build-out toward the MVP** (Cognate Detective 16/24 · Academic Language Lab
    12/32 · Newcomer Navigator 11/30) using the new codes. Activity ideas they unlock:
@@ -243,7 +295,7 @@ The vertical slice is complete and passes `npm run check`:
    a human check; keep the QC gate honest.
 4. **A11y round two — automated part DONE (2026-10-28):** axe 0 violations, print verified.
    Real-AT walkthrough remains (see Next #2).
-5. **Content pipeline.** See Next #1.
+5. **Content pipeline — MVP DONE (2026-10-29):** 86/86 activities. Further modules: see Later modules.
 
 ## Later modules
 

@@ -50,3 +50,13 @@
   .main { padding-block: 0; }
   .printable { padding: 0; max-width: none; }
 }
+
+/* Activity page, student mode: paper gets the whole activity as a sheet
+   (#print-sheet, filled on beforeprint) instead of the one on-screen item. */
+.print-only { display: none; }
+@media print {
+  .print-only { display: block; }
+  body[data-mode="student"] #s-title,
+  body[data-mode="student"] #s-directions,
+  body[data-mode="student"] #activity-root { display: none !important; }
+}

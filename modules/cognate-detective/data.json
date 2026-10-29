@@ -7252,6 +7252,4536 @@
       "created": "2026-10-11",
       "updated": "2026-10-11",
       "status": "reviewed"
+    },
+    {
+      "id": "cog-listen-k-2-015",
+      "module": "cognate-detective",
+      "title": {
+        "en": "Which Word Sounds the Same?",
+        "es": "¿Qué palabra suena igual?"
+      },
+      "grades": [
+        0,
+        1,
+        2
+      ],
+      "gradeBand": "K-2",
+      "subjects": [
+        "elar"
+      ],
+      "duration": 8,
+      "interactionType": "picture-match",
+      "targetLanguage": "en",
+      "supportedHomeLanguages": [
+        "es"
+      ],
+      "languagePair": "en-es",
+      "studentGoal": {
+        "en": "Listen to a Spanish word and find the English word that sounds like it — a cognate!",
+        "es": "Escucha una palabra en español y encuentra la palabra en inglés que suena parecida: ¡un cognado!"
+      },
+      "studentDirections": {
+        "en": "Listen to your teacher say the Spanish word. Look at the picture. Which English word sounds like the Spanish word? Choose, then select Check.",
+        "es": "Escucha a tu maestro decir la palabra en español. Mira la imagen. ¿Qué palabra en inglés suena como la palabra en español? Elige y luego selecciona Revisar."
+      },
+      "teacherDirections": {
+        "en": "A LISTENING picture match — read it aloud. For each card, say the Spanish word clearly (tigre, familia, doctor, teléfono, chocolate, cafetería), then read the three English choices. All three choices fit the picture's topic, so students must listen for the English word that SOUNDS like the Spanish word. Have students say both words together and clap the parts. Uses the less-used cognate cards plus the school cafeteria card.",
+        "es": "Un emparejamiento de imágenes de COMPRENSIÓN AUDITIVA: léelo en voz alta. En cada tarjeta, di con claridad la palabra en español (tigre, familia, doctor, teléfono, chocolate, cafetería) y luego lee las tres opciones en inglés. Las tres opciones tienen que ver con la imagen, así que los estudiantes deben escuchar cuál palabra en inglés SUENA como la palabra en español. Pide que digan las dos palabras juntas y que aplaudan las sílabas. Usa las tarjetas de cognados menos usadas y la tarjeta de la cafetería."
+      },
+      "languageFunction": {
+        "en": "Recognizing English words heard aloud by connecting them to Spanish cognates.",
+        "es": "Reconocer palabras en inglés que se escuchan en voz alta al conectarlas con cognados en español."
+      },
+      "materials": [],
+      "items": [
+        {
+          "id": "s1",
+          "image": "cognate-card-tiger",
+          "prompt": {
+            "en": "Listen: “tigre.” Which English word sounds like it?",
+            "es": "Escucha: “tigre”. ¿Qué palabra en inglés suena parecida?"
+          },
+          "support": {
+            "image": "cognate-card-tiger",
+            "high": {
+              "en": "Spanish: tigre → English: tiger. Say both. They sound alike!",
+              "es": "Español: tigre → inglés: tiger. Di las dos. ¡Suenan parecido!"
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "lion",
+                "es": "lion"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "tiger",
+                "es": "tiger"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "cat",
+                "es": "cat"
+              }
+            }
+          ],
+          "answer": "b",
+          "feedback": {
+            "a": {
+              "correct": false,
+              "why": {
+                "en": "“lion” is a real English word, but it does not sound like “tigre.” In Spanish, “lion” is “león.” Listen for “tiger.”",
+                "es": "“lion” es una palabra en inglés, pero no suena como “tigre”. En español, “lion” es “león”. Escucha bien: “tiger”."
+              },
+              "hint": {
+                "en": "Say “tigre” slowly. Which English word starts the same way?",
+                "es": "Di “tigre” despacio. ¿Qué palabra en inglés empieza igual?"
+              }
+            },
+            "b": {
+              "correct": true,
+              "why": {
+                "en": "Yes! “tigre” and “tiger” sound alike. They are cognates!",
+                "es": "¡Sí! “tigre” y “tiger” suenan parecido. ¡Son cognados!"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "“cat” is a real English word, but it does not sound like “tigre.” In Spanish, “cat” is “gato.” Listen for “tiger.”",
+                "es": "“cat” es una palabra en inglés, pero no suena como “tigre”. En español, “cat” es “gato”. Escucha bien: “tiger”."
+              },
+              "hint": {
+                "en": "Say “tigre” slowly. Which English word starts the same way?",
+                "es": "Di “tigre” despacio. ¿Qué palabra en inglés empieza igual?"
+              }
+            }
+          }
+        },
+        {
+          "id": "s2",
+          "image": "cognate-card-family",
+          "prompt": {
+            "en": "Listen: “familia.” Which English word sounds like it?",
+            "es": "Escucha: “familia”. ¿Qué palabra en inglés suena parecida?"
+          },
+          "support": {
+            "image": "cognate-card-family",
+            "high": {
+              "en": "Spanish: familia → English: family. Say both. They sound alike!",
+              "es": "Español: familia → inglés: family. Di las dos. ¡Suenan parecido!"
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "family",
+                "es": "family"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "friends",
+                "es": "friends"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "people",
+                "es": "people"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Yes! “familia” and “family” sound alike. They are cognates!",
+                "es": "¡Sí! “familia” y “family” suenan parecido. ¡Son cognados!"
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "“friends” is a real English word, but it does not sound like “familia.” In Spanish, “friends” is “amigos.” Listen for “family.”",
+                "es": "“friends” es una palabra en inglés, pero no suena como “familia”. En español, “friends” es “amigos”. Escucha bien: “family”."
+              },
+              "hint": {
+                "en": "Say “familia” slowly. Which English word starts the same way?",
+                "es": "Di “familia” despacio. ¿Qué palabra en inglés empieza igual?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "“people” is a real English word, but it does not sound like “familia.” In Spanish, “people” is “gente.” Listen for “family.”",
+                "es": "“people” es una palabra en inglés, pero no suena como “familia”. En español, “people” es “gente”. Escucha bien: “family”."
+              },
+              "hint": {
+                "en": "Say “familia” slowly. Which English word starts the same way?",
+                "es": "Di “familia” despacio. ¿Qué palabra en inglés empieza igual?"
+              }
+            }
+          }
+        },
+        {
+          "id": "s3",
+          "image": "cognate-card-doctor",
+          "prompt": {
+            "en": "Listen: “doctor.” Which English word sounds like it?",
+            "es": "Escucha: “doctor”. ¿Qué palabra en inglés suena parecida?"
+          },
+          "support": {
+            "image": "cognate-card-doctor",
+            "high": {
+              "en": "Spanish: doctor → English: doctor. Say both. They sound alike!",
+              "es": "Español: doctor → inglés: doctor. Di las dos. ¡Suenan parecido!"
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "nurse",
+                "es": "nurse"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "teacher",
+                "es": "teacher"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "doctor",
+                "es": "doctor"
+              }
+            }
+          ],
+          "answer": "c",
+          "feedback": {
+            "a": {
+              "correct": false,
+              "why": {
+                "en": "“nurse” is a real English word, but it does not sound like “doctor.” In Spanish, “nurse” is “enfermera.” Listen for “doctor.”",
+                "es": "“nurse” es una palabra en inglés, pero no suena como “doctor”. En español, “nurse” es “enfermera”. Escucha bien: “doctor”."
+              },
+              "hint": {
+                "en": "Say “doctor” slowly. Which English word starts the same way?",
+                "es": "Di “doctor” despacio. ¿Qué palabra en inglés empieza igual?"
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "“teacher” is a real English word, but it does not sound like “doctor.” In Spanish, “teacher” is “maestra.” Listen for “doctor.”",
+                "es": "“teacher” es una palabra en inglés, pero no suena como “doctor”. En español, “teacher” es “maestra”. Escucha bien: “doctor”."
+              },
+              "hint": {
+                "en": "Say “doctor” slowly. Which English word starts the same way?",
+                "es": "Di “doctor” despacio. ¿Qué palabra en inglés empieza igual?"
+              }
+            },
+            "c": {
+              "correct": true,
+              "why": {
+                "en": "Yes! “doctor” and “doctor” sound alike. They are cognates!",
+                "es": "¡Sí! “doctor” y “doctor” suenan parecido. ¡Son cognados!"
+              }
+            }
+          }
+        },
+        {
+          "id": "s4",
+          "image": "cognate-card-telephone",
+          "prompt": {
+            "en": "Listen: “teléfono.” Which English word sounds like it?",
+            "es": "Escucha: “teléfono”. ¿Qué palabra en inglés suena parecida?"
+          },
+          "support": {
+            "image": "cognate-card-telephone",
+            "high": {
+              "en": "Spanish: teléfono → English: telephone. Say both. They sound alike!",
+              "es": "Español: teléfono → inglés: telephone. Di las dos. ¡Suenan parecido!"
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "clock",
+                "es": "clock"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "telephone",
+                "es": "telephone"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "box",
+                "es": "box"
+              }
+            }
+          ],
+          "answer": "b",
+          "feedback": {
+            "a": {
+              "correct": false,
+              "why": {
+                "en": "“clock” is a real English word, but it does not sound like “teléfono.” In Spanish, “clock” is “reloj.” Listen for “telephone.”",
+                "es": "“clock” es una palabra en inglés, pero no suena como “teléfono”. En español, “clock” es “reloj”. Escucha bien: “telephone”."
+              },
+              "hint": {
+                "en": "Say “teléfono” slowly. Which English word starts the same way?",
+                "es": "Di “teléfono” despacio. ¿Qué palabra en inglés empieza igual?"
+              }
+            },
+            "b": {
+              "correct": true,
+              "why": {
+                "en": "Yes! “teléfono” and “telephone” sound alike. They are cognates!",
+                "es": "¡Sí! “teléfono” y “telephone” suenan parecido. ¡Son cognados!"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "“box” is a real English word, but it does not sound like “teléfono.” In Spanish, “box” is “caja.” Listen for “telephone.”",
+                "es": "“box” es una palabra en inglés, pero no suena como “teléfono”. En español, “box” es “caja”. Escucha bien: “telephone”."
+              },
+              "hint": {
+                "en": "Say “teléfono” slowly. Which English word starts the same way?",
+                "es": "Di “teléfono” despacio. ¿Qué palabra en inglés empieza igual?"
+              }
+            }
+          }
+        },
+        {
+          "id": "s5",
+          "image": "cognate-card-chocolate",
+          "prompt": {
+            "en": "Listen: “chocolate.” Which English word sounds like it?",
+            "es": "Escucha: “chocolate”. ¿Qué palabra en inglés suena parecida?"
+          },
+          "support": {
+            "image": "cognate-card-chocolate",
+            "high": {
+              "en": "Spanish: chocolate → English: chocolate. Say both. They sound alike!",
+              "es": "Español: chocolate → inglés: chocolate. Di las dos. ¡Suenan parecido!"
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "candy",
+                "es": "candy"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "cookie",
+                "es": "cookie"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "chocolate",
+                "es": "chocolate"
+              }
+            }
+          ],
+          "answer": "c",
+          "feedback": {
+            "a": {
+              "correct": false,
+              "why": {
+                "en": "“candy” is a real English word, but it does not sound like “chocolate.” In Spanish, “candy” is “dulce.” Listen for “chocolate.”",
+                "es": "“candy” es una palabra en inglés, pero no suena como “chocolate”. En español, “candy” es “dulce”. Escucha bien: “chocolate”."
+              },
+              "hint": {
+                "en": "Say “chocolate” slowly. Which English word starts the same way?",
+                "es": "Di “chocolate” despacio. ¿Qué palabra en inglés empieza igual?"
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "“cookie” is a real English word, but it does not sound like “chocolate.” In Spanish, “cookie” is “galleta.” Listen for “chocolate.”",
+                "es": "“cookie” es una palabra en inglés, pero no suena como “chocolate”. En español, “cookie” es “galleta”. Escucha bien: “chocolate”."
+              },
+              "hint": {
+                "en": "Say “chocolate” slowly. Which English word starts the same way?",
+                "es": "Di “chocolate” despacio. ¿Qué palabra en inglés empieza igual?"
+              }
+            },
+            "c": {
+              "correct": true,
+              "why": {
+                "en": "Yes! “chocolate” and “chocolate” sound alike. They are cognates!",
+                "es": "¡Sí! “chocolate” y “chocolate” suenan parecido. ¡Son cognados!"
+              }
+            }
+          }
+        },
+        {
+          "id": "s6",
+          "image": "school-card-cafeteria",
+          "prompt": {
+            "en": "Listen: “cafetería.” Which English word sounds like it?",
+            "es": "Escucha: “cafetería”. ¿Qué palabra en inglés suena parecida?"
+          },
+          "support": {
+            "image": "school-card-cafeteria",
+            "high": {
+              "en": "Spanish: cafetería → English: cafeteria. Say both. They sound alike!",
+              "es": "Español: cafetería → inglés: cafeteria. Di las dos. ¡Suenan parecido!"
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "cafeteria",
+                "es": "cafeteria"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "kitchen",
+                "es": "kitchen"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "lunch",
+                "es": "lunch"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Yes! “cafetería” and “cafeteria” sound alike. They are cognates!",
+                "es": "¡Sí! “cafetería” y “cafeteria” suenan parecido. ¡Son cognados!"
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "“kitchen” is a real English word, but it does not sound like “cafetería.” In Spanish, “kitchen” is “cocina.” Listen for “cafeteria.”",
+                "es": "“kitchen” es una palabra en inglés, pero no suena como “cafetería”. En español, “kitchen” es “cocina”. Escucha bien: “cafeteria”."
+              },
+              "hint": {
+                "en": "Say “cafetería” slowly. Which English word starts the same way?",
+                "es": "Di “cafetería” despacio. ¿Qué palabra en inglés empieza igual?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "“lunch” is a real English word, but it does not sound like “cafetería.” In Spanish, “lunch” is “almuerzo.” Listen for “cafeteria.”",
+                "es": "“lunch” es una palabra en inglés, pero no suena como “cafetería”. En español, “lunch” es “almuerzo”. Escucha bien: “cafeteria”."
+              },
+              "hint": {
+                "en": "Say “cafetería” slowly. Which English word starts the same way?",
+                "es": "Di “cafetería” despacio. ¿Qué palabra en inglés empieza igual?"
+              }
+            }
+          }
+        }
+      ],
+      "ace": {
+        "articulate": true,
+        "connect": true,
+        "extend": false
+      },
+      "clear": {
+        "enabled": false,
+        "emphasis": []
+      },
+      "udl": [
+        "representation.language-support",
+        "representation.auditory",
+        "action-expression.multiple-response-modes",
+        "engagement.relevance"
+      ],
+      "strategies": [
+        "vocabulary-programs",
+        "corrective-feedback",
+        "read-aloud"
+      ],
+      "standards": {
+        "elps": [
+          {
+            "code": "§120.20(d)(1)(B)",
+            "alignment": "direct",
+            "grades": [
+              0,
+              1,
+              2
+            ],
+            "rationale": "Students show they understand a word heard aloud by choosing the matching English word and picture."
+          },
+          {
+            "code": "§120.20(d)(3)(C)",
+            "alignment": "supporting",
+            "grades": [
+              0,
+              1,
+              2
+            ],
+            "rationale": "Students use cognates to recognize the printed English word that names the picture."
+          }
+        ],
+        "teks": [
+          {
+            "code": "§110.2(b)(3)(B)",
+            "alignment": "direct",
+            "grades": [
+              0
+            ],
+            "rationale": "Students use illustrations and words they hear to clarify a word's meaning."
+          },
+          {
+            "code": "§110.3(b)(3)(B)",
+            "alignment": "direct",
+            "grades": [
+              1
+            ],
+            "rationale": "Students use illustrations and words they hear to clarify a word's meaning."
+          },
+          {
+            "code": "§110.4(b)(3)(B)",
+            "alignment": "supporting",
+            "grades": [
+              2
+            ],
+            "rationale": "The picture supports determining the meaning of an unfamiliar English word."
+          }
+        ],
+        "slar": []
+      },
+      "printables": [
+        "cog-listen-k-2-015-student",
+        "cog-listen-k-2-015-answer-key"
+      ],
+      "created": "2026-10-29",
+      "updated": "2026-10-29",
+      "status": "reviewed"
+    },
+    {
+      "id": "cog-stress-3-5-016",
+      "module": "cognate-detective",
+      "title": {
+        "en": "Say the Cognate: Same Spelling, Different Sound",
+        "es": "Di el cognado: se escribe igual, suena diferente"
+      },
+      "grades": [
+        4,
+        5
+      ],
+      "gradeBand": "3-5",
+      "subjects": [
+        "elar"
+      ],
+      "duration": 10,
+      "interactionType": "multiple-choice",
+      "targetLanguage": "en",
+      "supportedHomeLanguages": [
+        "es"
+      ],
+      "languagePair": "en-es",
+      "studentGoal": {
+        "en": "Pronounce English cognates accurately by noticing where English stress and sounds differ from Spanish.",
+        "es": "Pronuncia cognados en inglés con precisión al notar dónde el acento y los sonidos del inglés son diferentes del español."
+      },
+      "studentDirections": {
+        "en": "Cognates can look the same but sound different. Say each word aloud in English and in Spanish. Capital letters show the strongest part of the word. Choose the answer, then select Check.",
+        "es": "Los cognados pueden verse iguales pero sonar diferente. Di cada palabra en voz alta en inglés y en español. Las letras mayúsculas muestran la parte más fuerte de la palabra. Elige la respuesta y luego selecciona Revisar."
+      },
+      "teacherDirections": {
+        "en": "A SPEAKING activity — model every word aloud in both languages before students choose, then have them repeat the English. Capital letters mark the stressed syllable. Common transfer patterns: Spanish often stresses the last syllable of words ending in -l or -r (a-ni-MAL, hos-pi-TAL, co-LOR) where English stresses the first; Spanish h is silent; Spanish pronounces every vowel (cho-co-LA-te). Afterward, partners say the six English words to each other.",
+        "es": "Una actividad de EXPRESIÓN ORAL: modela cada palabra en voz alta en los dos idiomas antes de que elijan y luego pide que repitan la palabra en inglés. Las mayúsculas marcan la sílaba tónica. Patrones comunes de transferencia: en español, las palabras que terminan en -l o -r suelen llevar el acento en la última sílaba (a-ni-MAL, hos-pi-TAL, co-LOR), mientras que el inglés lo pone en la primera; la h del español es muda; el español pronuncia todas las vocales (cho-co-LA-te). Al final, en parejas, digan las seis palabras en inglés."
+      },
+      "languageFunction": {
+        "en": "Pronouncing English cognates with accurate stress and sounds.",
+        "es": "Pronunciar cognados en inglés con el acento y los sonidos correctos."
+      },
+      "materials": [],
+      "items": [
+        {
+          "id": "p1",
+          "targetWord": "animal",
+          "prompt": {
+            "en": "In ENGLISH, which part of “animal” is said the strongest?",
+            "es": "En INGLÉS, ¿qué parte de “animal” se dice con más fuerza?"
+          },
+          "support": {
+            "high": {
+              "en": "Spanish: a-ni-MAL. English moves the stress to the first part.",
+              "es": "Español: a-ni-MAL. El inglés mueve el acento a la primera parte."
+            },
+            "medium": {
+              "en": "Clap it in English: an-i-mal. Which clap is loudest?",
+              "es": "Aplaude en inglés: an-i-mal. ¿Cuál aplauso es el más fuerte?"
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "a-ni-MAL",
+                "es": "a-ni-MAL"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "AN-i-mal",
+                "es": "AN-i-mal"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "a-NI-mal",
+                "es": "a-NI-mal"
+              }
+            }
+          ],
+          "answer": "b",
+          "feedback": {
+            "a": {
+              "correct": false,
+              "why": {
+                "en": "That is the Spanish way: a-ni-MAL. English moves the strong part to the front: AN-i-mal.",
+                "es": "Esa es la forma del español: a-ni-MAL. El inglés pasa la parte fuerte al principio: AN-i-mal."
+              },
+              "hint": {
+                "en": "Say the word in English and tap the part that sounds loudest.",
+                "es": "Di la palabra en inglés y da un golpecito en la parte que suena más fuerte."
+              }
+            },
+            "b": {
+              "correct": true,
+              "why": {
+                "en": "Right. English says AN-i-mal, strong at the start. Spanish says a-ni-MAL, strong at the end. Same spelling, different stress!",
+                "es": "Correcto. En inglés se dice AN-i-mal, fuerte al principio. En español se dice a-ni-MAL, fuerte al final. ¡Se escribe igual, pero el acento cambia!"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "Neither language stresses the middle. English says AN-i-mal; Spanish says a-ni-MAL.",
+                "es": "Ningún idioma acentúa la parte del medio. En inglés es AN-i-mal; en español, a-ni-MAL."
+              },
+              "hint": {
+                "en": "Say the word in English and tap the part that sounds loudest.",
+                "es": "Di la palabra en inglés y da un golpecito en la parte que suena más fuerte."
+              }
+            }
+          }
+        },
+        {
+          "id": "p2",
+          "targetWord": "hospital",
+          "prompt": {
+            "en": "In ENGLISH, which part of “hospital” is said the strongest?",
+            "es": "En INGLÉS, ¿qué parte de “hospital” se dice con más fuerza?"
+          },
+          "support": {
+            "high": {
+              "en": "Spanish: hos-pi-TAL. Like “animal,” English moves the stress to the front.",
+              "es": "Español: hos-pi-TAL. Como en “animal”, el inglés mueve el acento al principio."
+            },
+            "medium": {
+              "en": "Words that end in -al often change stress between Spanish and English.",
+              "es": "Las palabras que terminan en -al a menudo cambian de acento entre el español y el inglés."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "hos-PI-tal",
+                "es": "hos-PI-tal"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "hos-pi-TAL",
+                "es": "hos-pi-TAL"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "HOS-pi-tal",
+                "es": "HOS-pi-tal"
+              }
+            }
+          ],
+          "answer": "c",
+          "feedback": {
+            "a": {
+              "correct": false,
+              "why": {
+                "en": "Neither language stresses the middle. English: HOS-pi-tal. Spanish: hos-pi-TAL.",
+                "es": "Ningún idioma acentúa la parte del medio. Inglés: HOS-pi-tal. Español: hos-pi-TAL."
+              },
+              "hint": {
+                "en": "Say the word in English and tap the part that sounds loudest.",
+                "es": "Di la palabra en inglés y da un golpecito en la parte que suena más fuerte."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "That is the Spanish stress, hos-pi-TAL. English puts the strong part first: HOS-pi-tal.",
+                "es": "Ese es el acento del español, hos-pi-TAL. El inglés pone la parte fuerte primero: HOS-pi-tal."
+              },
+              "hint": {
+                "en": "Say the word in English and tap the part that sounds loudest.",
+                "es": "Di la palabra en inglés y da un golpecito en la parte que suena más fuerte."
+              }
+            },
+            "c": {
+              "correct": true,
+              "why": {
+                "en": "Right. English says HOS-pi-tal. Spanish says hos-pi-TAL. Also, the English “t” is soft, almost like a quick “d.”",
+                "es": "Correcto. En inglés se dice HOS-pi-tal. En español, hos-pi-TAL. Además, la “t” del inglés es suave, casi como una “d” rápida."
+              }
+            }
+          }
+        },
+        {
+          "id": "p3",
+          "targetWord": "hotel",
+          "prompt": {
+            "en": "Say “hotel” in English and in Spanish. Which sound is different?",
+            "es": "Di “hotel” en inglés y en español. ¿Qué sonido es diferente?"
+          },
+          "support": {
+            "high": {
+              "en": "Spanish h is silent: hola, hotel. English h sounds like a soft “j” in Spanish.",
+              "es": "La h del español es muda: hola, hotel. La h del inglés suena como una “j” suave del español."
+            },
+            "medium": {
+              "en": "Put your hand in front of your mouth. Do you feel air on the h?",
+              "es": "Pon la mano frente a la boca. ¿Sientes aire con la h?"
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "The h: English says it, Spanish keeps it silent.",
+                "es": "La h: en inglés se pronuncia; en español es muda."
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "The h: Spanish says it, English keeps it silent.",
+                "es": "La h: en español se pronuncia; en inglés es muda."
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "Nothing. They sound exactly the same.",
+                "es": "Nada. Suenan exactamente igual."
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. English “hotel” starts with a breathy h sound: hoh-TEL. In Spanish the h is silent: o-TEL. Both stress the last part.",
+                "es": "Correcto. En inglés “hotel” empieza con el sonido de h con aire: jo-TEL. En español la h es muda: o-TEL. Los dos acentúan la última parte."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "It's the other way around. Spanish h is always silent (hotel = o-TEL). English says the h with a puff of air.",
+                "es": "Es al revés. La h del español siempre es muda (hotel = o-TEL). El inglés pronuncia la h con un poco de aire."
+              },
+              "hint": {
+                "en": "Think of Spanish “hola.” Do you hear the h?",
+                "es": "Piensa en “hola”. ¿Se oye la h?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "Close, but not the same. The stress matches (ho-TEL), but English pronounces the h and Spanish does not.",
+                "es": "Casi, pero no son iguales. El acento coincide (ho-TEL), pero el inglés pronuncia la h y el español no."
+              },
+              "hint": {
+                "en": "Listen to the very first sound of each word.",
+                "es": "Escucha el primer sonido de cada palabra."
+              }
+            }
+          }
+        },
+        {
+          "id": "p4",
+          "targetWord": "color",
+          "prompt": {
+            "en": "In ENGLISH, which part of “color” is said the strongest?",
+            "es": "En INGLÉS, ¿qué parte de “color” se dice con más fuerza?"
+          },
+          "support": {
+            "high": {
+              "en": "Spanish: co-LOR. English: CO-lor.",
+              "es": "Español: co-LOR. Inglés: CO-lor."
+            },
+            "medium": {
+              "en": "Words that end in -or often change stress, like “doctor”: DOC-tor in English, doc-TOR in Spanish.",
+              "es": "Las palabras que terminan en -or a menudo cambian de acento, como “doctor”: DOC-tor en inglés, doc-TOR en español."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "co-LOR",
+                "es": "co-LOR"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "Both parts are equally strong.",
+                "es": "Las dos partes tienen la misma fuerza."
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "CO-lor",
+                "es": "CO-lor"
+              }
+            }
+          ],
+          "answer": "c",
+          "feedback": {
+            "a": {
+              "correct": false,
+              "why": {
+                "en": "That is the Spanish stress. Spanish words ending in -r are usually strong at the end; English “color” is strong at the start.",
+                "es": "Ese es el acento del español. Las palabras en español que terminan en -r suelen ser fuertes al final; “color” en inglés es fuerte al principio."
+              },
+              "hint": {
+                "en": "Say the word in English and tap the part that sounds loudest.",
+                "es": "Di la palabra en inglés y da un golpecito en la parte que suena más fuerte."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "English words with two parts almost always have one stronger part. In “color,” it is the first: CO-lor.",
+                "es": "Las palabras en inglés de dos partes casi siempre tienen una parte más fuerte. En “color”, es la primera: CO-lor."
+              },
+              "hint": {
+                "en": "Say the word in English and tap the part that sounds loudest.",
+                "es": "Di la palabra en inglés y da un golpecito en la parte que suena más fuerte."
+              }
+            },
+            "c": {
+              "correct": true,
+              "why": {
+                "en": "Right. English says CO-lor (KUH-ler). Spanish says co-LOR. The English vowels are also softer.",
+                "es": "Correcto. En inglés se dice CO-lor (KA-ler). En español, co-LOR. Las vocales del inglés también son más suaves."
+              }
+            }
+          }
+        },
+        {
+          "id": "p5",
+          "targetWord": "idea",
+          "prompt": {
+            "en": "Say “idea” in English and in Spanish. Which sound is different?",
+            "es": "Di “idea” en inglés y en español. ¿Qué sonido es diferente?"
+          },
+          "support": {
+            "high": {
+              "en": "In English, the letter i often says its name, “eye”: idea, ice, island.",
+              "es": "En inglés, la letra i a menudo dice su nombre, “ai”: idea, ice, island."
+            },
+            "medium": {
+              "en": "How does English say the name of the letter i?",
+              "es": "¿Cómo se dice en inglés el nombre de la letra i?"
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "The d: English skips it.",
+                "es": "La d: el inglés no la dice."
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "The first i: English says “eye,” Spanish says “ee.”",
+                "es": "La primera i: en inglés suena “ai”; en español suena “i”."
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "The stress: English says I-de-a.",
+                "es": "El acento: en inglés se dice I-de-a."
+              }
+            }
+          ],
+          "answer": "b",
+          "feedback": {
+            "a": {
+              "correct": false,
+              "why": {
+                "en": "Both languages say the d: eye-DEE-uh and i-DE-a. Listen to the first vowel instead.",
+                "es": "Los dos idiomas pronuncian la d: ai-DI-a e i-DE-a. Escucha mejor la primera vocal."
+              },
+              "hint": {
+                "en": "Say only the first sound of each word.",
+                "es": "Di solo el primer sonido de cada palabra."
+              }
+            },
+            "b": {
+              "correct": true,
+              "why": {
+                "en": "Right. English “idea” sounds like eye-DEE-uh. Spanish says i-DE-a. The stress is in the same place; the first vowel changes.",
+                "es": "Correcto. “Idea” en inglés suena como ai-DI-a. En español se dice i-DE-a. El acento está en el mismo lugar; cambia la primera vocal."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "Both languages stress the middle: i-DE-a and eye-DEE-uh. The difference is the first vowel.",
+                "es": "Los dos idiomas acentúan el medio: i-DE-a y ai-DI-a. La diferencia es la primera vocal."
+              },
+              "hint": {
+                "en": "Clap it. Is the loud part in the same place in both languages?",
+                "es": "Aplaude. ¿La parte fuerte está en el mismo lugar en los dos idiomas?"
+              }
+            }
+          }
+        },
+        {
+          "id": "p6",
+          "targetWord": "chocolate",
+          "prompt": {
+            "en": "How is English “chocolate” different from Spanish “chocolate”?",
+            "es": "¿En qué se diferencia “chocolate” en inglés de “chocolate” en español?"
+          },
+          "support": {
+            "high": {
+              "en": "Spanish: cho-co-LA-te (4 parts). English: CHOK-lit (2 parts).",
+              "es": "Español: cho-co-LA-te (4 sílabas). Inglés: CHOK-lit (2 sílabas)."
+            },
+            "medium": {
+              "en": "In English, a final e is often silent: cake, home, chocolate.",
+              "es": "En inglés, la e final a menudo es muda: cake, home, chocolate."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "English stresses the end: cho-co-LATE.",
+                "es": "El inglés acentúa el final: cho-co-LATE."
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "They are said exactly the same way.",
+                "es": "Se dicen exactamente igual."
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "English stresses the start and drops the final e: CHOK-lit.",
+                "es": "El inglés acentúa el principio y no pronuncia la e final: CHOK-lit."
+              }
+            }
+          ],
+          "answer": "c",
+          "feedback": {
+            "a": {
+              "correct": false,
+              "why": {
+                "en": "English does not stress the end. The strong part is first, CHOK-lit, and the final e is silent.",
+                "es": "El inglés no acentúa el final. La parte fuerte va primero, CHOK-lit, y la e final es muda."
+              },
+              "hint": {
+                "en": "Does English say the last e out loud?",
+                "es": "¿El inglés pronuncia la última e?"
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "They are spelled the same, but Spanish has four parts (cho-co-LA-te) and English has two or three (CHOK-lit).",
+                "es": "Se escriben igual, pero en español tiene cuatro sílabas (cho-co-LA-te) y en inglés dos o tres (CHOK-lit)."
+              },
+              "hint": {
+                "en": "Count the claps in each language.",
+                "es": "Cuenta los aplausos en cada idioma."
+              }
+            },
+            "c": {
+              "correct": true,
+              "why": {
+                "en": "Right. English says CHOK-lit (or CHOK-uh-lit), with a silent final e. Spanish says every vowel: cho-co-LA-te.",
+                "es": "Correcto. En inglés se dice CHOK-lit (o CHOK-a-lit), con la e final muda. En español se pronuncian todas las vocales: cho-co-LA-te."
+              }
+            }
+          }
+        }
+      ],
+      "ace": {
+        "articulate": true,
+        "connect": true,
+        "extend": true
+      },
+      "clear": {
+        "enabled": false,
+        "emphasis": []
+      },
+      "udl": [
+        "representation.language-support",
+        "representation.auditory",
+        "action-expression.multiple-response-modes",
+        "engagement.relevance"
+      ],
+      "strategies": [
+        "vocabulary-programs",
+        "corrective-feedback",
+        "oral-rehearsal"
+      ],
+      "standards": {
+        "elps": [
+          {
+            "code": "§120.21(d)(2)(A)",
+            "alignment": "direct",
+            "grades": [
+              4,
+              5
+            ],
+            "rationale": "Students practice pronouncing English cognates accurately by locating where stress and sounds differ from Spanish."
+          },
+          {
+            "code": "§120.21(d)(3)(B)",
+            "alignment": "supporting",
+            "grades": [
+              4,
+              5
+            ],
+            "rationale": "Students identify cognates and their syllable patterns as they compare the two pronunciations."
+          }
+        ],
+        "teks": [],
+        "slar": []
+      },
+      "printables": [
+        "cog-stress-3-5-016-student",
+        "cog-stress-3-5-016-answer-key"
+      ],
+      "created": "2026-10-29",
+      "updated": "2026-10-29",
+      "status": "reviewed"
+    },
+    {
+      "id": "cog-roots-6-8-017",
+      "module": "cognate-detective",
+      "title": {
+        "en": "Root Families: Carry, Look, Say, Write",
+        "es": "Familias de raíces: llevar, mirar, decir, escribir"
+      },
+      "grades": [
+        6,
+        7,
+        8
+      ],
+      "gradeBand": "6-8",
+      "subjects": [
+        "elar"
+      ],
+      "duration": 12,
+      "interactionType": "context-choice",
+      "targetLanguage": "en",
+      "supportedHomeLanguages": [
+        "es"
+      ],
+      "languagePair": "en-es",
+      "studentGoal": {
+        "en": "Use the Latin roots port, spect, dict, and scrib/script — and the Spanish words that share them — to figure out academic English words.",
+        "es": "Usa las raíces latinas port, spect, dict y scrib/script, y las palabras en español que las comparten, para descifrar palabras académicas en inglés."
+      },
+      "studentDirections": {
+        "en": "Read each sentence. Find the root in the underlined word, think of a Spanish word with the same root, and use the sentence to choose the meaning. Choose, then select Check.",
+        "es": "Lee cada oración. Busca la raíz en la palabra subrayada, piensa en una palabra en español con la misma raíz y usa la oración para elegir el significado. Elige y luego selecciona Revisar."
+      },
+      "teacherDirections": {
+        "en": "Four Latin root families with strong Spanish bridges: port = carry (portátil, transportar), spect = look (espectador, inspeccionar), dict = say (dictar, contradecir — Spanish often shows the root as “dec/dic”), scrib/script = write (escribir, manuscrito). Before the activity, build a two-column anchor chart (English | español) for each root. After each item, ask students to name one more word in each language. Extend: have students sort the six words by root.",
+        "es": "Cuatro familias de raíces latinas con puentes fuertes al español: port = llevar (portátil, transportar), spect = mirar (espectador, inspeccionar), dict = decir (dictar, contradecir; en español la raíz a menudo aparece como “dec/dic”), scrib/script = escribir (escribir, manuscrito). Antes de la actividad, haz un cartel de dos columnas (English | español) para cada raíz. Después de cada ejercicio, pide que nombren otra palabra en cada idioma. Extensión: que clasifiquen las seis palabras por raíz."
+      },
+      "languageFunction": {
+        "en": "Determining the meaning of academic words from Greek and Latin roots and cross-language word families.",
+        "es": "Determinar el significado de palabras académicas a partir de raíces griegas y latinas y de familias de palabras entre idiomas."
+      },
+      "materials": [],
+      "items": [
+        {
+          "id": "r1",
+          "targetWord": "portable",
+          "context": {
+            "en": "The class brought a portable speaker to the track so they could carry their music outside.",
+            "es": "La clase llevó una bocina portable a la pista para poder llevar su música afuera."
+          },
+          "prompt": {
+            "en": "The root “port” means “carry.” What does “portable” mean here?",
+            "es": "La raíz “port” significa “llevar”. ¿Qué significa “portable” aquí?"
+          },
+          "support": {
+            "high": {
+              "en": "port = carry / llevar → portátil, transportar, importar.",
+              "es": "port = carry / llevar → portátil, transportar, importar."
+            },
+            "medium": {
+              "en": "Think of Spanish “portátil,” like a laptop: “computadora portátil.”",
+              "es": "Piensa en “portátil”, como en “computadora portátil”."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "easy to carry from place to place",
+                "es": "fácil de llevar de un lugar a otro"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "very loud",
+                "es": "muy fuerte de volumen"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "connected to the wall",
+                "es": "conectado a la pared"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. “Portable” = able to be carried (port = carry). Spanish “portátil” is the same idea — a portable speaker goes with you.",
+                "es": "Correcto. “Portable” = que se puede llevar (port = llevar). “Portátil” en español es la misma idea: una bocina portátil va contigo."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "The sentence says they carried it to the field, not that it was loud. Port = carry.",
+                "es": "La oración dice que la llevaron al campo, no que sonaba fuerte. Port = llevar."
+              },
+              "hint": {
+                "en": "The root “port” means “carry.” Which choice fits that idea?",
+                "es": "La raíz “port” significa “llevar”. ¿Qué opción encaja con esa idea?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "If it were plugged into a wall, they could not carry it outside. Port = carry, so portable = easy to carry.",
+                "es": "Si estuviera conectada a la pared, no podrían llevarla afuera. Port = llevar, así que portable = fácil de llevar."
+              },
+              "hint": {
+                "en": "The root “port” means “carry.” Which choice fits that idea?",
+                "es": "La raíz “port” significa “llevar”. ¿Qué opción encaja con esa idea?"
+              }
+            }
+          }
+        },
+        {
+          "id": "r2",
+          "targetWord": "spectators",
+          "context": {
+            "en": "Thousands of spectators filled the stadium to watch the championship game.",
+            "es": "Miles de spectators llenaron el estadio para ver el partido de campeonato."
+          },
+          "prompt": {
+            "en": "The root “spect” means “look.” Who are the “spectators”?",
+            "es": "La raíz “spect” significa “mirar”. ¿Quiénes son los “spectators”?"
+          },
+          "support": {
+            "high": {
+              "en": "spect = look / mirar → espectador, espectáculo, inspeccionar.",
+              "es": "spect = look / mirar → espectador, espectáculo, inspeccionar."
+            },
+            "medium": {
+              "en": "What did the people in the stadium do?",
+              "es": "¿Qué hicieron las personas en el estadio?"
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "the players on the field",
+                "es": "los jugadores en el campo"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "the people who watch the event",
+                "es": "las personas que miran el evento"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "the people who sell tickets",
+                "es": "las personas que venden boletos"
+              }
+            }
+          ],
+          "answer": "b",
+          "feedback": {
+            "a": {
+              "correct": false,
+              "why": {
+                "en": "The players play the game; the spectators came to watch it. Spect = look.",
+                "es": "Los jugadores juegan; los spectators vinieron a mirar. Spect = mirar."
+              },
+              "hint": {
+                "en": "The root “spect” means “look.” Which choice fits that idea?",
+                "es": "La raíz “spect” significa “mirar”. ¿Qué opción encaja con esa idea?"
+              }
+            },
+            "b": {
+              "correct": true,
+              "why": {
+                "en": "Right. Spectators look at or watch an event (spect = look). Spanish: “espectadores.”",
+                "es": "Correcto. Los spectators miran un evento (spect = mirar). En español: “espectadores”."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "Ticket sellers work at the gate. The sentence says spectators came to watch. Spect = look.",
+                "es": "Los que venden boletos trabajan en la entrada. La oración dice que los spectators vinieron a mirar. Spect = mirar."
+              },
+              "hint": {
+                "en": "The root “spect” means “look.” Which choice fits that idea?",
+                "es": "La raíz “spect” significa “mirar”. ¿Qué opción encaja con esa idea?"
+              }
+            }
+          }
+        },
+        {
+          "id": "r3",
+          "targetWord": "predict",
+          "context": {
+            "en": "Before you mix the two liquids, write what you predict will happen.",
+            "es": "Antes de mezclar los dos líquidos, escribe lo que predict que va a pasar."
+          },
+          "prompt": {
+            "en": "“Pre-” means “before” and “dict” means “say.” What does “predict” mean?",
+            "es": "“Pre-” significa “antes” y “dict” significa “decir”. ¿Qué significa “predict”?"
+          },
+          "support": {
+            "high": {
+              "en": "dict = say / decir → predecir, dictar, diccionario, contradecir.",
+              "es": "dict = say / decir → predecir, dictar, diccionario, contradecir."
+            },
+            "medium": {
+              "en": "Spanish shows this root as “dec/dic”: pre-decir.",
+              "es": "En español esta raíz aparece como “dec/dic”: pre-decir."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "to measure exactly",
+                "es": "medir con exactitud"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "to write down the results",
+                "es": "escribir los resultados"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "to say what you think will happen before it happens",
+                "es": "decir lo que crees que pasará antes de que pase"
+              }
+            }
+          ],
+          "answer": "c",
+          "feedback": {
+            "a": {
+              "correct": false,
+              "why": {
+                "en": "Measuring comes during the experiment. The sentence says BEFORE — pre + dict = say before.",
+                "es": "Medir viene durante el experimento. La oración dice ANTES: pre + dict = decir antes."
+              },
+              "hint": {
+                "en": "The root “dict” means “say.” Which choice fits that idea?",
+                "es": "La raíz “dict” significa “decir”. ¿Qué opción encaja con esa idea?"
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Results come after the experiment. Predict happens before (pre-). Dict = say, not write.",
+                "es": "Los resultados vienen después del experimento. Predict pasa antes (pre-). Dict = decir, no escribir."
+              },
+              "hint": {
+                "en": "The root “dict” means “say.” Which choice fits that idea?",
+                "es": "La raíz “dict” significa “decir”. ¿Qué opción encaja con esa idea?"
+              }
+            },
+            "c": {
+              "correct": true,
+              "why": {
+                "en": "Right. Pre (before) + dict (say) = to say beforehand. Spanish “predecir” = pre + decir — the same family.",
+                "es": "Correcto. Pre (antes) + dict (decir) = decir antes. “Predecir” en español = pre + decir: la misma familia."
+              }
+            }
+          }
+        },
+        {
+          "id": "r4",
+          "targetWord": "manuscript",
+          "context": {
+            "en": "The museum displayed a manuscript that a monk copied by hand more than 500 years ago.",
+            "es": "El museo exhibió un manuscript que un monje copió a mano hace más de 500 años."
+          },
+          "prompt": {
+            "en": "“Manu” means “hand” and “script” means “write.” What is a “manuscript”?",
+            "es": "“Manu” significa “mano” y “script” significa “escribir”. ¿Qué es un “manuscript”?"
+          },
+          "support": {
+            "high": {
+              "en": "manu = hand / mano; scrib/script = write / escribir → manuscrito, describir, inscribir.",
+              "es": "manu = hand / mano; scrib/script = write / escribir → manuscrito, describir, inscribir."
+            },
+            "medium": {
+              "en": "Break it apart: manu + script.",
+              "es": "Sepárala: manu + script."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "a document written by hand",
+                "es": "un documento escrito a mano"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "a painting of hands",
+                "es": "una pintura de manos"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "a printed newspaper",
+                "es": "un periódico impreso"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. Manu (hand) + script (write) = written by hand. Spanish “manuscrito” — mano + escrito.",
+                "es": "Correcto. Manu (mano) + script (escribir) = escrito a mano. “Manuscrito” en español: mano + escrito."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "“Script” means write, not paint. A manuscript is a document written by hand.",
+                "es": "“Script” significa escribir, no pintar. Un manuscript es un documento escrito a mano."
+              },
+              "hint": {
+                "en": "The root “script” means “write.” Which choice fits that idea?",
+                "es": "La raíz “script” significa “escribir”. ¿Qué opción encaja con esa idea?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "The sentence says it was written by hand 500 years ago — not printed. Manu = hand.",
+                "es": "La oración dice que se escribió a mano hace 500 años, no que se imprimió. Manu = mano."
+              },
+              "hint": {
+                "en": "What does “manu” mean?",
+                "es": "¿Qué significa “manu”?"
+              }
+            }
+          }
+        },
+        {
+          "id": "r5",
+          "targetWord": "inspect",
+          "context": {
+            "en": "Before the field trip, a safety officer will inspect the bus brakes to make sure they work.",
+            "es": "Antes de la excursión, un oficial de seguridad va a inspect los frenos del autobús para asegurarse de que funcionan."
+          },
+          "prompt": {
+            "en": "“In” means “into” and “spect” means “look.” What will the officer do?",
+            "es": "“In” significa “hacia dentro” y “spect” significa “mirar”. ¿Qué hará el oficial?"
+          },
+          "support": {
+            "high": {
+              "en": "in + spect = look into → inspeccionar, inspector.",
+              "es": "in + spect = mirar hacia dentro → inspeccionar, inspector."
+            },
+            "medium": {
+              "en": "“To make sure they work” is a clue.",
+              "es": "“Para asegurarse de que funcionan” es una pista."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "drive the bus to school",
+                "es": "manejar el autobús a la escuela"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "look closely at the brakes to check them",
+                "es": "mirar los frenos con atención para revisarlos"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "replace the brakes with new ones",
+                "es": "cambiar los frenos por unos nuevos"
+              }
+            }
+          ],
+          "answer": "b",
+          "feedback": {
+            "a": {
+              "correct": false,
+              "why": {
+                "en": "Driving is not looking. Inspect = in + spect (look) = look closely.",
+                "es": "Manejar no es mirar. Inspect = in + spect (mirar) = mirar con atención."
+              },
+              "hint": {
+                "en": "The root “spect” means “look.” Which choice fits that idea?",
+                "es": "La raíz “spect” significa “mirar”. ¿Qué opción encaja con esa idea?"
+              }
+            },
+            "b": {
+              "correct": true,
+              "why": {
+                "en": "Right. To inspect is to look into something carefully (in + spect). Spanish: “inspeccionar.”",
+                "es": "Correcto. Inspect es mirar algo con atención por dentro (in + spect). En español: “inspeccionar”."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "The officer checks first; replacing might come later, only if something is wrong. Inspect = look closely.",
+                "es": "El oficial primero revisa; cambiarlos vendría después, solo si algo está mal. Inspect = mirar con atención."
+              },
+              "hint": {
+                "en": "The root “spect” means “look.” Which choice fits that idea?",
+                "es": "La raíz “spect” significa “mirar”. ¿Qué opción encaja con esa idea?"
+              }
+            }
+          }
+        },
+        {
+          "id": "r6",
+          "targetWord": "contradicts",
+          "context": {
+            "en": "Her second answer contradicts her first one, so they cannot both be true.",
+            "es": "Su segunda respuesta contradicts la primera, así que no pueden ser ciertas las dos."
+          },
+          "prompt": {
+            "en": "“Contra” means “against” and “dict” means “say.” What does “contradicts” mean?",
+            "es": "“Contra” significa “en contra” y “dict” significa “decir”. ¿Qué significa “contradicts”?"
+          },
+          "support": {
+            "high": {
+              "en": "contra + dict = say against → contradecir, contradicción.",
+              "es": "contra + dict = decir en contra → contradecir, contradicción."
+            },
+            "medium": {
+              "en": "“Cannot both be true” is the clue.",
+              "es": "“No pueden ser ciertas las dos” es la pista."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "agrees with and repeats",
+                "es": "está de acuerdo y repite"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "explains in more detail",
+                "es": "explica con más detalle"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "says the opposite of",
+                "es": "dice lo contrario de"
+              }
+            }
+          ],
+          "answer": "c",
+          "feedback": {
+            "a": {
+              "correct": false,
+              "why": {
+                "en": "If it agreed, both answers could be true. The sentence says they can't. Contra = against.",
+                "es": "Si estuviera de acuerdo, las dos respuestas podrían ser ciertas. La oración dice que no. Contra = en contra."
+              },
+              "hint": {
+                "en": "What does “contra” mean?",
+                "es": "¿Qué significa “contra”?"
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Explaining more would support the first answer, not cancel it. Contra + dict = say against.",
+                "es": "Explicar más apoyaría la primera respuesta, no la cancelaría. Contra + dict = decir en contra."
+              },
+              "hint": {
+                "en": "The root “dict” means “say.” Which choice fits that idea?",
+                "es": "La raíz “dict” significa “decir”. ¿Qué opción encaja con esa idea?"
+              }
+            },
+            "c": {
+              "correct": true,
+              "why": {
+                "en": "Right. Contra (against) + dict (say) = to say the opposite. Both answers can't be true. Spanish: “contradecir.”",
+                "es": "Correcto. Contra (en contra) + dict (decir) = decir lo contrario. Las dos respuestas no pueden ser ciertas. En español: “contradecir”."
+              }
+            }
+          }
+        }
+      ],
+      "ace": {
+        "articulate": true,
+        "connect": true,
+        "extend": true
+      },
+      "clear": {
+        "enabled": false,
+        "emphasis": []
+      },
+      "udl": [
+        "representation.language-support",
+        "representation.vocabulary",
+        "action-expression.multiple-response-modes",
+        "engagement.relevance"
+      ],
+      "strategies": [
+        "vocabulary-programs",
+        "corrective-feedback",
+        "retrieval-practice"
+      ],
+      "standards": {
+        "elps": [
+          {
+            "code": "§120.21(d)(3)(C)",
+            "alignment": "direct",
+            "grades": [
+              6,
+              7,
+              8
+            ],
+            "rationale": "Students use Latin roots, cognates, and sentence context to comprehend academic vocabulary in text."
+          },
+          {
+            "code": "§120.21(d)(3)(B)",
+            "alignment": "supporting",
+            "grades": [
+              6,
+              7,
+              8
+            ],
+            "rationale": "Students identify roots, affixes, and cognates inside each target word."
+          }
+        ],
+        "teks": [
+          {
+            "code": "§110.22(b)(2)(C)",
+            "alignment": "direct",
+            "grades": [
+              6
+            ],
+            "rationale": "Students determine the meaning of academic words built on Latin roots, including the grade-6 roots man and scrib/script."
+          },
+          {
+            "code": "§110.23(b)(2)(C)",
+            "alignment": "direct",
+            "grades": [
+              7
+            ],
+            "rationale": "Students determine the meaning and usage of academic English words derived from Latin roots."
+          },
+          {
+            "code": "§110.24(b)(2)(C)",
+            "alignment": "direct",
+            "grades": [
+              8
+            ],
+            "rationale": "Students determine the meaning and usage of academic English words derived from Latin roots."
+          }
+        ],
+        "slar": [
+          {
+            "code": "§128.21(b)(3)(C)",
+            "alignment": "supporting",
+            "grades": [
+              6
+            ],
+            "rationale": "Students connect each English word to academic Spanish words built on the same roots, including scrib- and port- (manuscrito, portátil)."
+          }
+        ]
+      },
+      "printables": [
+        "cog-roots-6-8-017-student",
+        "cog-roots-6-8-017-answer-key"
+      ],
+      "created": "2026-10-29",
+      "updated": "2026-10-29",
+      "status": "reviewed"
+    },
+    {
+      "id": "cog-roots-6-8-018",
+      "module": "cognate-detective",
+      "title": {
+        "en": "Root Families: Crack the Root",
+        "es": "Familias de raíces: descifra la raíz"
+      },
+      "grades": [
+        6,
+        7,
+        8
+      ],
+      "gradeBand": "6-8",
+      "subjects": [
+        "elar",
+        "science"
+      ],
+      "duration": 12,
+      "interactionType": "multiple-choice",
+      "targetLanguage": "en",
+      "supportedHomeLanguages": [
+        "es"
+      ],
+      "languagePair": "en-es",
+      "studentGoal": {
+        "en": "Figure out what a Greek or Latin root means by comparing English and Spanish words that share it.",
+        "es": "Descubre qué significa una raíz griega o latina comparando palabras en inglés y en español que la comparten."
+      },
+      "studentDirections": {
+        "en": "Each item shows a family of English and Spanish words with the same root and a sentence that uses one of them. Decide what the root means. Choose, then select Check.",
+        "es": "Cada ejercicio muestra una familia de palabras en inglés y en español con la misma raíz y una oración que usa una de ellas. Decide qué significa la raíz. Elige y luego selecciona Revisar."
+      },
+      "teacherDirections": {
+        "en": "Students work backward from word families to the root's meaning — the reverse of Root Families: Carry, Look, Say, Write. Roots come from the grade 6–8 TEKS examples: bene (grade 6); omni, vid/vis (grade 7); ast, path, duc (grade 8). Point out the Spanish bridges (omnívoro, astronauta, visible, beneficio, educar, empatía) and two traps: English “path” (a trail) is NOT the root path (feeling), and Spanish “conducir” usually means “to drive” — leading a car. Extend: students build a new word from one root.",
+        "es": "Los estudiantes van de la familia de palabras al significado de la raíz, al revés de Familias de raíces: llevar, mirar, decir, escribir. Las raíces vienen de los ejemplos de los TEKS de 6.º a 8.º: bene (6.º); omni, vid/vis (7.º); ast, path, duc (8.º). Señala los puentes con el español (omnívoro, astronauta, visible, beneficio, educar, empatía) y dos trampas: “path” en inglés (un sendero) NO es la raíz path (sentimiento), y “conducir” en español suele significar “manejar”, es decir, guiar un carro. Extensión: que formen una palabra nueva con una raíz."
+      },
+      "languageFunction": {
+        "en": "Analyzing word families to infer the meaning of Greek and Latin roots.",
+        "es": "Analizar familias de palabras para inferir el significado de raíces griegas y latinas."
+      },
+      "materials": [],
+      "items": [
+        {
+          "id": "f1",
+          "targetWord": "omni",
+          "context": {
+            "en": "Bears are omnivores: they eat berries, fish, insects, and almost anything else.",
+            "es": "Los osos son omnivores: comen moras, peces, insectos y casi cualquier otra cosa."
+          },
+          "prompt": {
+            "en": "These words share the root “omni”: omnivore, omnipresent. Use the sentence. What does “omni” mean?",
+            "es": "Estas palabras comparten la raíz “omni”: omnívoro, omnipresente. Usa la oración. ¿Qué significa “omni”?"
+          },
+          "support": {
+            "high": {
+              "en": "omni = all / todo → omnívoro (come de todo).",
+              "es": "omni = all / todo → omnívoro (come de todo)."
+            },
+            "medium": {
+              "en": "Spanish “omnívoro”: what does an omnívoro eat?",
+              "es": "“Omnívoro”: ¿qué come un omnívoro?"
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "meat",
+                "es": "carne"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "one",
+                "es": "uno"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "all",
+                "es": "todo"
+              }
+            }
+          ],
+          "answer": "c",
+          "feedback": {
+            "a": {
+              "correct": false,
+              "why": {
+                "en": "Bears eat more than meat — berries and insects too. Omni = all, so they eat all kinds of food.",
+                "es": "Los osos comen más que carne: también moras e insectos. Omni = todo, así que comen de todo."
+              },
+              "hint": {
+                "en": "Look at the list of foods in the sentence.",
+                "es": "Mira la lista de alimentos en la oración."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "“One” is the root uni (unicorn, uno). Omni = all — bears eat all kinds of food.",
+                "es": "“Uno” es la raíz uni (unicornio, uno). Omni = todo: los osos comen de todo."
+              },
+              "hint": {
+                "en": "Omnipresent means present where?",
+                "es": "Omnipresente significa presente ¿dónde?"
+              }
+            },
+            "c": {
+              "correct": true,
+              "why": {
+                "en": "Right. Omni = all. An omnivore eats all kinds of food (omni + vore, “eat”). Spanish: omnívoro.",
+                "es": "Correcto. Omni = todo. Un omnivore come todo tipo de alimentos (omni + vore, “comer”). En español: omnívoro."
+              }
+            }
+          }
+        },
+        {
+          "id": "f2",
+          "targetWord": "astro",
+          "context": {
+            "en": "In astronomy class, we used a telescope to find the brightest stars in the sky.",
+            "es": "En la clase de astronomy usamos un telescopio para encontrar las estrellas más brillantes del cielo."
+          },
+          "prompt": {
+            "en": "These words share the root “astro”: astronaut, astronomy, asterisk. Use the sentence. What does “astro” mean?",
+            "es": "Estas palabras comparten la raíz “astro”: astronauta, astronomía, asterisco. Usa la oración. ¿Qué significa “astro”?"
+          },
+          "support": {
+            "high": {
+              "en": "astro / aster = star / estrella → astronauta, astronomía, asterisco, astro.",
+              "es": "astro / aster = star / estrella → astronauta, astronomía, asterisco, astro."
+            },
+            "medium": {
+              "en": "In Spanish, the sun is called “el astro rey.”",
+              "es": "En español, al sol le dicen “el astro rey”."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "star",
+                "es": "estrella"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "rocket",
+                "es": "cohete"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "moon",
+                "es": "luna"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. Astro/aster = star (Greek). Astronomy studies stars; an asterisk (*) is a little star. Spanish: astro, astronomía.",
+                "es": "Correcto. Astro/aster = estrella (griego). La astronomy estudia las estrellas; un asterisk (*) es una estrellita. En español: astro, astronomía."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "An asterisk (*) is not a rocket. The common idea in all three words is the star.",
+                "es": "Un asterisk (*) no es un cohete. La idea común en las tres palabras es la estrella."
+              },
+              "hint": {
+                "en": "What does the asterisk symbol (*) look like?",
+                "es": "¿A qué se parece el símbolo del asterisco (*)?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "The moon in Greek-Latin roots is “luna/lun” (lunar). Astro = star — the class looked for stars.",
+                "es": "La luna en las raíces es “luna/lun” (lunar). Astro = estrella: la clase buscaba estrellas."
+              },
+              "hint": {
+                "en": "What did the class look for in the sentence?",
+                "es": "¿Qué buscaba la clase en la oración?"
+              }
+            }
+          }
+        },
+        {
+          "id": "f3",
+          "targetWord": "vis / vid",
+          "context": {
+            "en": "The scar was barely visible; you could see it only in bright light.",
+            "es": "La cicatriz era apenas visible; solo se podía ver con luz brillante."
+          },
+          "prompt": {
+            "en": "These words share the root “vis / vid”: visible, vision, video, evidence. Use the sentence. What does “vis / vid” mean?",
+            "es": "Estas palabras comparten la raíz “vis / vid”: visible, visión, video, evidencia. Usa la oración. ¿Qué significa “vis / vid”?"
+          },
+          "support": {
+            "high": {
+              "en": "vis / vid = see / ver → visible, visión, video, evidencia.",
+              "es": "vis / vid = see / ver → visible, visión, video, evidencia."
+            },
+            "medium": {
+              "en": "“You could see it only in bright light” is the clue.",
+              "es": "“Solo se podía ver con luz brillante” es la pista."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "to hear",
+                "es": "oír"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "to see",
+                "es": "ver"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "to write",
+                "es": "escribir"
+              }
+            }
+          ],
+          "answer": "b",
+          "feedback": {
+            "a": {
+              "correct": false,
+              "why": {
+                "en": "Hearing is the root aud (audio, audiencia). The sentence says you could SEE it. Vis = see.",
+                "es": "Oír es la raíz aud (audio, audiencia). La oración dice que se podía VER. Vis = ver."
+              },
+              "hint": {
+                "en": "What do you do with a video and with vision?",
+                "es": "¿Qué haces con un video y con la visión?"
+              }
+            },
+            "b": {
+              "correct": true,
+              "why": {
+                "en": "Right. Vis/vid = see. Visible = able to be seen; evidence is what makes something clear to see. Spanish: ver, visible, video.",
+                "es": "Correcto. Vis/vid = ver. Visible = que se puede ver; la evidence es lo que hace que algo se vea claro. En español: ver, visible, video."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "Writing is scrib/script. Vis/vid = see — visible means you can see it.",
+                "es": "Escribir es scrib/script. Vis/vid = ver: visible significa que se puede ver."
+              },
+              "hint": {
+                "en": "Which sense do you use for vision?",
+                "es": "¿Qué sentido usas para la visión?"
+              }
+            }
+          }
+        },
+        {
+          "id": "f4",
+          "targetWord": "bene",
+          "context": {
+            "en": "Daily exercise has many benefits, such as a stronger heart and better sleep.",
+            "es": "Hacer ejercicio a diario tiene muchos benefits, como un corazón más fuerte y dormir mejor."
+          },
+          "prompt": {
+            "en": "These words share the root “bene”: benefit, beneficial, benefactor. Use the sentence. What does “bene” mean?",
+            "es": "Estas palabras comparten la raíz “bene”: beneficio, beneficioso, benefactor. Usa la oración. ¿Qué significa “bene”?"
+          },
+          "support": {
+            "high": {
+              "en": "bene = good, well / bueno, bien → beneficio, benefactor, bendecir.",
+              "es": "bene = good, well / bueno, bien → beneficio, benefactor, bendecir."
+            },
+            "medium": {
+              "en": "Spanish “bien” comes from the same Latin word.",
+              "es": "“Bien” en español viene de la misma palabra latina."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "good, well",
+                "es": "bueno, bien"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "bad, harmful",
+                "es": "malo, dañino"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "money",
+                "es": "dinero"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. Bene = good or well. Benefits are good results; a benefactor does good for others. Spanish: beneficio, bien.",
+                "es": "Correcto. Bene = bueno o bien. Los benefits son buenos resultados; un benefactor hace el bien a otros. En español: beneficio, bien."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Bad or harmful is the opposite root, mal (malicious, maldad). A stronger heart is good — bene = good.",
+                "es": "Malo o dañino es la raíz contraria, mal (malicioso, maldad). Un corazón más fuerte es algo bueno: bene = bueno."
+              },
+              "hint": {
+                "en": "Are a stronger heart and better sleep good or bad?",
+                "es": "¿Un corazón fuerte y dormir mejor es bueno o malo?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "A benefit can be money in some contexts, but the root means good. The examples here are health, not money.",
+                "es": "En algunos contextos un beneficio puede ser dinero, pero la raíz significa bueno. Los ejemplos aquí son de salud, no de dinero."
+              },
+              "hint": {
+                "en": "Look at the examples after “such as.”",
+                "es": "Mira los ejemplos después de “such as” (como)."
+              }
+            }
+          }
+        },
+        {
+          "id": "f5",
+          "targetWord": "duc / duct",
+          "context": {
+            "en": "The Romans built an aqueduct to lead water from the mountains into the city.",
+            "es": "Los romanos construyeron un aqueduct para llevar el agua desde las montañas hasta la ciudad."
+          },
+          "prompt": {
+            "en": "These words share the root “duc / duct”: conduct, educate, aqueduct. Use the sentence. What does “duc / duct” mean?",
+            "es": "Estas palabras comparten la raíz “duc / duct”: conducir, educar, acueducto. Usa la oración. ¿Qué significa “duc / duct”?"
+          },
+          "support": {
+            "high": {
+              "en": "duc / duct = lead / guiar → conducir, educar, acueducto, producir.",
+              "es": "duc / duct = lead / guiar → conducir, educar, acueducto, producir."
+            },
+            "medium": {
+              "en": "A “conductor” of a train or orchestra leads it.",
+              "es": "Un “conductor” de tren o de orquesta lo guía."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "to build",
+                "es": "construir"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "to drink",
+                "es": "beber"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "to lead",
+                "es": "guiar, llevar"
+              }
+            }
+          ],
+          "answer": "c",
+          "feedback": {
+            "a": {
+              "correct": false,
+              "why": {
+                "en": "The Romans built it, but “build” is not in the other words (conduct, educate). Duct = lead — the aqueduct leads water.",
+                "es": "Los romanos lo construyeron, pero “construir” no está en las otras palabras (conduct, educate). Duct = guiar: el aqueduct lleva el agua."
+              },
+              "hint": {
+                "en": "What does the aqueduct DO with the water?",
+                "es": "¿Qué HACE el aqueduct con el agua?"
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Aqua means water, but duct does not mean drink. The aqueduct leads water to the city.",
+                "es": "Aqua significa agua, pero duct no significa beber. El aqueduct lleva el agua a la ciudad."
+              },
+              "hint": {
+                "en": "Which part of “aqueduct” is the water part?",
+                "es": "¿Qué parte de “aqueduct” es la del agua?"
+              }
+            },
+            "c": {
+              "correct": true,
+              "why": {
+                "en": "Right. Duc/duct = lead. An aqueduct leads water (aqua + duct); to educate is to lead out a mind. Spanish “conducir” — leading a car — is from the same root.",
+                "es": "Correcto. Duc/duct = guiar. Un aqueduct guía el agua (aqua + duct); educar es guiar la mente. “Conducir” un carro viene de la misma raíz."
+              }
+            }
+          }
+        },
+        {
+          "id": "f6",
+          "targetWord": "path",
+          "context": {
+            "en": "She showed empathy for the new student because she remembered how it felt to be new.",
+            "es": "Ella mostró empathy por el estudiante nuevo porque recordaba lo que se sentía ser nuevo."
+          },
+          "prompt": {
+            "en": "These words share the root “path”: empathy, sympathy, apathy. Use the sentence. What does “path” mean?",
+            "es": "Estas palabras comparten la raíz “path”: empatía, simpatía, apatía. Usa la oración. ¿Qué significa “path”?"
+          },
+          "support": {
+            "high": {
+              "en": "path = feeling / sentimiento → empatía, apatía (sin sentimiento).",
+              "es": "path = feeling / sentimiento → empatía, apatía (sin sentimiento)."
+            },
+            "medium": {
+              "en": "Spanish “apatía” means not caring — having no feeling about something.",
+              "es": "“Apatía” significa que no te importa: no sentir nada por algo."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "a trail or road",
+                "es": "un sendero o camino"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "feeling",
+                "es": "sentimiento"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "to think",
+                "es": "pensar"
+              }
+            }
+          ],
+          "answer": "b",
+          "feedback": {
+            "a": {
+              "correct": false,
+              "why": {
+                "en": "Trap! The English word “path” (a trail) is a different word. The Greek root path means feeling — she remembered how it FELT.",
+                "es": "¡Trampa! La palabra inglesa “path” (sendero) es otra palabra. La raíz griega path significa sentimiento: ella recordaba cómo se SENTÍA."
+              },
+              "hint": {
+                "en": "What did she remember?",
+                "es": "¿Qué recordaba ella?"
+              }
+            },
+            "b": {
+              "correct": true,
+              "why": {
+                "en": "Right. The Greek root path = feeling or suffering. Empathy = feeling what someone else feels. Spanish: empatía.",
+                "es": "Correcto. La raíz griega path = sentimiento o sufrimiento. Empathy = sentir lo que siente otra persona. En español: empatía."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "Thinking is a different root (cogn, as in cognitive). The sentence is about how it felt. Path = feeling.",
+                "es": "Pensar es otra raíz (cogn, como en cognitivo). La oración habla de cómo se sentía. Path = sentimiento."
+              },
+              "hint": {
+                "en": "Look at the word “felt” in the sentence.",
+                "es": "Fíjate en la palabra “felt” (sentía) en la oración."
+              }
+            }
+          }
+        }
+      ],
+      "ace": {
+        "articulate": true,
+        "connect": true,
+        "extend": true
+      },
+      "clear": {
+        "enabled": false,
+        "emphasis": []
+      },
+      "udl": [
+        "representation.language-support",
+        "representation.vocabulary",
+        "action-expression.multiple-response-modes",
+        "engagement.relevance"
+      ],
+      "strategies": [
+        "vocabulary-programs",
+        "corrective-feedback",
+        "retrieval-practice"
+      ],
+      "standards": {
+        "elps": [
+          {
+            "code": "§120.21(d)(3)(B)",
+            "alignment": "direct",
+            "grades": [
+              6,
+              7,
+              8
+            ],
+            "rationale": "Students identify a shared Greek or Latin root and cognates across an English–Spanish word family."
+          },
+          {
+            "code": "§120.21(d)(3)(C)",
+            "alignment": "supporting",
+            "grades": [
+              6,
+              7,
+              8
+            ],
+            "rationale": "Students use roots and cognates to comprehend academic vocabulary in a sentence."
+          }
+        ],
+        "teks": [
+          {
+            "code": "§110.22(b)(2)(C)",
+            "alignment": "direct",
+            "grades": [
+              6
+            ],
+            "rationale": "Students determine the meaning of academic words built on Greek and Latin roots, including the grade-6 root bene."
+          },
+          {
+            "code": "§110.23(b)(2)(C)",
+            "alignment": "direct",
+            "grades": [
+              7
+            ],
+            "rationale": "Students determine the meaning of academic words built on the grade-7 roots omni and vid/vis."
+          },
+          {
+            "code": "§110.24(b)(2)(C)",
+            "alignment": "direct",
+            "grades": [
+              8
+            ],
+            "rationale": "Students determine the meaning of academic words built on the grade-8 roots ast, path, and duc."
+          }
+        ],
+        "slar": []
+      },
+      "printables": [
+        "cog-roots-6-8-018-student",
+        "cog-roots-6-8-018-answer-key"
+      ],
+      "created": "2026-10-29",
+      "updated": "2026-10-29",
+      "status": "reviewed"
+    },
+    {
+      "id": "cog-context-6-8-019",
+      "module": "cognate-detective",
+      "title": {
+        "en": "Spanish Context-Clue Detective",
+        "es": "Detective de pistas de contexto en español"
+      },
+      "grades": [
+        6
+      ],
+      "gradeBand": "6-8",
+      "subjects": [
+        "slar"
+      ],
+      "duration": 12,
+      "interactionType": "context-choice",
+      "targetLanguage": "es",
+      "supportedHomeLanguages": [
+        "es"
+      ],
+      "languagePair": "en-es",
+      "studentGoal": {
+        "en": "Use definition, example, and comparison clues in a Spanish sentence to figure out an unfamiliar Spanish word — then meet its English cognate.",
+        "es": "Usa pistas de definición, ejemplo y comparación en una oración en español para descifrar una palabra desconocida en español y luego conoce su cognado en inglés."
+      },
+      "studentDirections": {
+        "en": "Read each Spanish sentence. Find the clue that explains the underlined word: a definition, an example, or a comparison. Choose what the word means, then select Check.",
+        "es": "Lee cada oración en español. Busca la pista que explica la palabra subrayada: una definición, un ejemplo o una comparación. Elige lo que significa la palabra y luego selecciona Revisar."
+      },
+      "teacherDirections": {
+        "en": "A grade 6 Spanish Language Arts activity: the sentences are in Spanish, and the skill is using context (definition, example, analogy/comparison) to clarify an unfamiliar Spanish word. Model the clue words: “es decir” and dashes signal a definition; “como” and “por ejemplo” signal examples; “así como” and “tan … como” signal a comparison. Feedback names the English cognate (arid, herbivore, ephemeral, migrate, diminutive) so the strategy transfers across both languages; “sequía” shows that context still works when there is no cognate (drought).",
+        "es": "Una actividad de Lenguaje y Lectura en Español de 6.º grado: las oraciones están en español y la destreza es usar el contexto (definición, ejemplo, analogía o comparación) para aclarar una palabra desconocida. Modela las palabras clave: “es decir” y las rayas señalan una definición; “como” y “por ejemplo” señalan ejemplos; “así como” y “tan… como” señalan una comparación. La retroalimentación nombra el cognado en inglés (arid, herbivore, ephemeral, migrate, diminutive) para que la estrategia se transfiera entre los dos idiomas; “sequía” muestra que el contexto funciona aunque no haya cognado (drought)."
+      },
+      "languageFunction": {
+        "en": "Clarifying the meaning of unfamiliar Spanish words using definition, example, and comparison context clues.",
+        "es": "Aclarar el significado de palabras desconocidas en español usando pistas de contexto de definición, ejemplo y comparación."
+      },
+      "materials": [],
+      "items": [
+        {
+          "id": "c1",
+          "targetWord": "árida",
+          "context": {
+            "en": "El desierto de Chihuahua es una región árida, es decir, un lugar muy seco donde casi nunca llueve.",
+            "es": "El desierto de Chihuahua es una región árida, es decir, un lugar muy seco donde casi nunca llueve."
+          },
+          "prompt": {
+            "en": "What does “árida” mean in this sentence?",
+            "es": "¿Qué significa “árida” en esta oración?"
+          },
+          "support": {
+            "high": {
+              "en": "Clue type: definition. Look after “es decir.”",
+              "es": "Tipo de pista: definición. Mira después de “es decir”."
+            },
+            "medium": {
+              "en": "“Es decir” means “that is” — a definition follows.",
+              "es": "“Es decir” anuncia una definición."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "very dry, with almost no rain",
+                "es": "muy seca, casi sin lluvia"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "very cold, with lots of snow",
+                "es": "muy fría, con mucha nieve"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "full of trees and rivers",
+                "es": "llena de árboles y ríos"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. The definition clue “es decir, un lugar muy seco” explains it. English cognate: arid.",
+                "es": "Correcto. La pista de definición “es decir, un lugar muy seco” lo explica. Cognado en inglés: arid."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "The sentence says it almost never rains and the place is dry — nothing about cold or snow.",
+                "es": "La oración dice que casi no llueve y que el lugar es seco; no habla de frío ni de nieve."
+              },
+              "hint": {
+                "en": "Find the definition clue in the sentence.",
+                "es": "Busca la pista de definición en la oración."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "Trees and rivers need water. The sentence says the place is dry with almost no rain.",
+                "es": "Los árboles y los ríos necesitan agua. La oración dice que el lugar es seco y casi no llueve."
+              },
+              "hint": {
+                "en": "Find the definition clue in the sentence.",
+                "es": "Busca la pista de definición en la oración."
+              }
+            }
+          }
+        },
+        {
+          "id": "c2",
+          "targetWord": "herbívoros",
+          "context": {
+            "en": "Los animales herbívoros, como las vacas, los venados y los conejos, se alimentan solo de plantas.",
+            "es": "Los animales herbívoros, como las vacas, los venados y los conejos, se alimentan solo de plantas."
+          },
+          "prompt": {
+            "en": "What does “herbívoros” mean?",
+            "es": "¿Qué significa “herbívoros”?"
+          },
+          "support": {
+            "high": {
+              "en": "Clue type: example. The animals after “como” are examples.",
+              "es": "Tipo de pista: ejemplo. Los animales después de “como” son ejemplos."
+            },
+            "medium": {
+              "en": "What do cows, deer, and rabbits have in common?",
+              "es": "¿Qué tienen en común las vacas, los venados y los conejos?"
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "animals that hunt other animals",
+                "es": "animales que cazan a otros animales"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "animals that eat only plants",
+                "es": "animales que solo comen plantas"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "animals that live in water",
+                "es": "animales que viven en el agua"
+              }
+            }
+          ],
+          "answer": "b",
+          "feedback": {
+            "a": {
+              "correct": false,
+              "why": {
+                "en": "Cows, deer, and rabbits do not hunt. The sentence says they eat only plants.",
+                "es": "Las vacas, los venados y los conejos no cazan. La oración dice que solo comen plantas."
+              },
+              "hint": {
+                "en": "Find the example clue in the sentence.",
+                "es": "Busca la pista de ejemplo en la oración."
+              }
+            },
+            "b": {
+              "correct": true,
+              "why": {
+                "en": "Right. The examples — cows, deer, rabbits — all eat plants, and the sentence says so. English cognate: herbivore.",
+                "es": "Correcto. Los ejemplos (vacas, venados y conejos) comen plantas, y la oración lo dice. Cognado en inglés: herbivore."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "Cows, deer, and rabbits live on land. The examples show animals that eat plants.",
+                "es": "Las vacas, los venados y los conejos viven en la tierra. Los ejemplos muestran animales que comen plantas."
+              },
+              "hint": {
+                "en": "Find the example clue in the sentence.",
+                "es": "Busca la pista de ejemplo en la oración."
+              }
+            }
+          }
+        },
+        {
+          "id": "c3",
+          "targetWord": "efímera",
+          "context": {
+            "en": "Así como una burbuja de jabón se revienta en segundos, la fama de ese cantante fue efímera: solo duró unas semanas.",
+            "es": "Así como una burbuja de jabón se revienta en segundos, la fama de ese cantante fue efímera: solo duró unas semanas."
+          },
+          "prompt": {
+            "en": "What does “efímera” mean?",
+            "es": "¿Qué significa “efímera”?"
+          },
+          "support": {
+            "high": {
+              "en": "Clue type: comparison (“así como…”). What happens quickly to a bubble?",
+              "es": "Tipo de pista: comparación (“así como…”). ¿Qué le pasa rápido a una burbuja?"
+            },
+            "medium": {
+              "en": "“Solo duró unas semanas” is a second clue.",
+              "es": "“Solo duró unas semanas” es otra pista."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "famous all over the world",
+                "es": "famosa en todo el mundo"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "bright and beautiful",
+                "es": "brillante y hermosa"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "lasting a very short time",
+                "es": "que dura muy poco tiempo"
+              }
+            }
+          ],
+          "answer": "c",
+          "feedback": {
+            "a": {
+              "correct": false,
+              "why": {
+                "en": "The singer was famous, but the word describes HOW LONG the fame lasted: only a few weeks.",
+                "es": "El cantante era famoso, pero la palabra describe CUÁNTO duró la fama: solo unas semanas."
+              },
+              "hint": {
+                "en": "Find the comparison clue in the sentence.",
+                "es": "Busca la pista de comparación en la oración."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "A bubble is pretty, but the comparison is about how fast it pops. The fame lasted only weeks.",
+                "es": "Una burbuja es bonita, pero la comparación habla de lo rápido que se revienta. La fama duró solo semanas."
+              },
+              "hint": {
+                "en": "Find the comparison clue in the sentence.",
+                "es": "Busca la pista de comparación en la oración."
+              }
+            },
+            "c": {
+              "correct": true,
+              "why": {
+                "en": "Right. The comparison with a soap bubble and “solo duró unas semanas” show it lasted a short time. English cognate: ephemeral.",
+                "es": "Correcto. La comparación con una burbuja de jabón y “solo duró unas semanas” muestran que duró poco. Cognado en inglés: ephemeral."
+              }
+            }
+          }
+        },
+        {
+          "id": "c4",
+          "targetWord": "sequía",
+          "context": {
+            "en": "La sequía —un periodo largo sin lluvia— dejó secos los ríos y los pozos de la región.",
+            "es": "La sequía —un periodo largo sin lluvia— dejó secos los ríos y los pozos de la región."
+          },
+          "prompt": {
+            "en": "What does “sequía” mean?",
+            "es": "¿Qué significa “sequía”?"
+          },
+          "support": {
+            "high": {
+              "en": "Clue type: definition between dashes. Sequía is related to “seco.”",
+              "es": "Tipo de pista: definición entre rayas. Sequía viene de “seco”."
+            },
+            "medium": {
+              "en": "What happened to the rivers and wells?",
+              "es": "¿Qué les pasó a los ríos y a los pozos?"
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "a long period without rain",
+                "es": "un periodo largo sin lluvia"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "a big flood",
+                "es": "una gran inundación"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "a strong windstorm",
+                "es": "una tormenta de viento fuerte"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. The definition is between the dashes. There is no English cognate here — the English word is “drought” — but the context clue still works!",
+                "es": "Correcto. La definición está entre las rayas. Aquí no hay cognado en inglés (en inglés es “drought”), ¡pero la pista de contexto funciona!"
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "A flood is too much water. The sentence says the rivers dried up. Sequía is the opposite.",
+                "es": "Una inundación es demasiada agua. La oración dice que los ríos se secaron. La sequía es lo contrario."
+              },
+              "hint": {
+                "en": "Find the definition clue in the sentence.",
+                "es": "Busca la pista de definición en la oración."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "Wind is not mentioned. The dashes define it: a long period without rain.",
+                "es": "No se menciona el viento. Las rayas la definen: un periodo largo sin lluvia."
+              },
+              "hint": {
+                "en": "Find the definition clue in the sentence.",
+                "es": "Busca la pista de definición en la oración."
+              }
+            }
+          }
+        },
+        {
+          "id": "c5",
+          "targetWord": "migran",
+          "context": {
+            "en": "Muchas aves migran cada otoño; por ejemplo, algunos colibríes viajan desde Canadá hasta México para pasar el invierno.",
+            "es": "Muchas aves migran cada otoño; por ejemplo, algunos colibríes viajan desde Canadá hasta México para pasar el invierno."
+          },
+          "prompt": {
+            "en": "What does “migran” mean?",
+            "es": "¿Qué significa “migran”?"
+          },
+          "support": {
+            "high": {
+              "en": "Clue type: example (“por ejemplo…”).",
+              "es": "Tipo de pista: ejemplo (“por ejemplo…”)."
+            },
+            "medium": {
+              "en": "What do the hummingbirds do in the example?",
+              "es": "¿Qué hacen los colibríes en el ejemplo?"
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "they build nests",
+                "es": "construyen nidos"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "they travel from one region to another with the seasons",
+                "es": "viajan de una región a otra según la estación"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "they sleep all winter",
+                "es": "duermen todo el invierno"
+              }
+            }
+          ],
+          "answer": "b",
+          "feedback": {
+            "a": {
+              "correct": false,
+              "why": {
+                "en": "Nests are not mentioned. The example is about traveling a long way each fall.",
+                "es": "No se mencionan los nidos. El ejemplo habla de viajar lejos cada otoño."
+              },
+              "hint": {
+                "en": "Find the example clue in the sentence.",
+                "es": "Busca la pista de ejemplo en la oración."
+              }
+            },
+            "b": {
+              "correct": true,
+              "why": {
+                "en": "Right. The example shows hummingbirds traveling from Canada to Mexico for the winter. English cognate: migrate.",
+                "es": "Correcto. El ejemplo muestra a los colibríes viajando de Canadá a México para pasar el invierno. Cognado en inglés: migrate."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "Sleeping all winter is hibernating (hibernar). The hummingbirds travel to Mexico instead.",
+                "es": "Dormir todo el invierno es hibernar. Los colibríes, en cambio, viajan a México."
+              },
+              "hint": {
+                "en": "Find the example clue in the sentence.",
+                "es": "Busca la pista de ejemplo en la oración."
+              }
+            }
+          }
+        },
+        {
+          "id": "c6",
+          "targetWord": "diminuta",
+          "context": {
+            "en": "La hormiga que encontramos era diminuta, tan pequeña como un grano de arroz.",
+            "es": "La hormiga que encontramos era diminuta, tan pequeña como un grano de arroz."
+          },
+          "prompt": {
+            "en": "What does “diminuta” mean?",
+            "es": "¿Qué significa “diminuta”?"
+          },
+          "support": {
+            "high": {
+              "en": "Clue type: comparison (“tan … como”).",
+              "es": "Tipo de pista: comparación (“tan… como”)."
+            },
+            "medium": {
+              "en": "How big is a grain of rice?",
+              "es": "¿Qué tan grande es un grano de arroz?"
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "very fast",
+                "es": "muy rápida"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "very strong",
+                "es": "muy fuerte"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "very small",
+                "es": "muy pequeña"
+              }
+            }
+          ],
+          "answer": "c",
+          "feedback": {
+            "a": {
+              "correct": false,
+              "why": {
+                "en": "Speed is not compared. The ant is compared to a grain of rice — its size.",
+                "es": "No se compara la velocidad. La hormiga se compara con un grano de arroz: su tamaño."
+              },
+              "hint": {
+                "en": "Find the comparison clue in the sentence.",
+                "es": "Busca la pista de comparación en la oración."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Strength is not compared. A grain of rice tells us about size: very small.",
+                "es": "No se compara la fuerza. Un grano de arroz nos habla del tamaño: muy pequeña."
+              },
+              "hint": {
+                "en": "Find the comparison clue in the sentence.",
+                "es": "Busca la pista de comparación en la oración."
+              }
+            },
+            "c": {
+              "correct": true,
+              "why": {
+                "en": "Right. The comparison “tan pequeña como un grano de arroz” shows it is very small. English cognate: diminutive.",
+                "es": "Correcto. La comparación “tan pequeña como un grano de arroz” muestra que es muy pequeña. Cognado en inglés: diminutive."
+              }
+            }
+          }
+        }
+      ],
+      "ace": {
+        "articulate": true,
+        "connect": true,
+        "extend": true
+      },
+      "clear": {
+        "enabled": true,
+        "emphasis": [
+          "claim",
+          "evidence",
+          "alternatives"
+        ]
+      },
+      "udl": [
+        "representation.language-support",
+        "representation.context",
+        "action-expression.multiple-response-modes",
+        "engagement.relevance"
+      ],
+      "strategies": [
+        "context-clues",
+        "corrective-feedback",
+        "vocabulary-programs"
+      ],
+      "standards": {
+        "elps": [],
+        "teks": [],
+        "slar": [
+          {
+            "code": "§128.21(b)(3)(B)",
+            "alignment": "direct",
+            "grades": [
+              6
+            ],
+            "rationale": "Students use definition, example, and analogy context clues to clarify the meaning of unfamiliar Spanish words."
+          }
+        ]
+      },
+      "printables": [
+        "cog-context-6-8-019-student",
+        "cog-context-6-8-019-answer-key"
+      ],
+      "created": "2026-10-29",
+      "updated": "2026-10-29",
+      "status": "reviewed"
+    },
+    {
+      "id": "cog-latin-9-12-020",
+      "module": "cognate-detective",
+      "title": {
+        "en": "Latin Phrases in English",
+        "es": "Frases latinas en inglés"
+      },
+      "grades": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "gradeBand": "9-12",
+      "subjects": [
+        "elar",
+        "social-studies"
+      ],
+      "duration": 10,
+      "interactionType": "context-choice",
+      "targetLanguage": "en",
+      "supportedHomeLanguages": [
+        "es"
+      ],
+      "languagePair": "en-es",
+      "studentGoal": {
+        "en": "Determine the meaning of Latin phrases used in English by using context and the Spanish words that grew from the same Latin.",
+        "es": "Determina el significado de frases latinas usadas en inglés con el contexto y las palabras en español que vienen del mismo latín."
+      },
+      "studentDirections": {
+        "en": "Read each sentence. The underlined phrase comes from Latin. Look for a Spanish word hidden inside it, and use the sentence as evidence to choose its meaning. Choose, then select Check.",
+        "es": "Lee cada oración. La frase subrayada viene del latín. Busca una palabra en español escondida en ella y usa la oración como evidencia para elegir su significado. Elige y luego selecciona Revisar."
+      },
+      "teacherDirections": {
+        "en": "English I–II expect students to determine the meaning of foreign phrases used frequently in English. Spanish speakers have an edge: per capita (cabeza), status quo (estado), vice versa (vez — Spanish writes “viceversa”), de facto (de hecho), bona fide (de buena fe), ad hoc (para esto). Several are also used in formal Spanish. Model CLEAR: the Latin hint suggests a meaning, the sentence confirms it. Extend: students write a sentence about school or current events using two phrases.",
+        "es": "English I y II esperan que los estudiantes determinen el significado de frases extranjeras frecuentes en inglés. Los hispanohablantes tienen ventaja: per capita (cabeza), status quo (estado), vice versa (vez; en español se escribe “viceversa”), de facto (de hecho), bona fide (de buena fe), ad hoc (para esto). Varias también se usan en español formal. Modela CLEAR: la pista latina sugiere un significado y la oración lo confirma. Extensión: que escriban una oración sobre la escuela o la actualidad con dos frases."
+      },
+      "languageFunction": {
+        "en": "Determining the meaning of Latin phrases in academic English from context and cross-language roots.",
+        "es": "Determinar el significado de frases latinas en el inglés académico a partir del contexto y de raíces compartidas."
+      },
+      "materials": [],
+      "items": [
+        {
+          "id": "l1",
+          "targetWord": "per capita",
+          "context": {
+            "en": "The city spends about $150 per capita on parks each year, so a family of four accounts for about $600.",
+            "es": "La ciudad gasta unos $150 per capita en parques cada año, así que a una familia de cuatro le corresponden unos $600."
+          },
+          "prompt": {
+            "en": "What does “per capita” mean here?",
+            "es": "¿Qué significa “per capita” aquí?"
+          },
+          "support": {
+            "high": {
+              "en": "Latin “caput, capita” = head / cabeza. Per capita = por cabeza.",
+              "es": "Latín “caput, capita” = head / cabeza. Per capita = por cabeza."
+            },
+            "medium": {
+              "en": "$150 × 4 = ?",
+              "es": "$150 × 4 = ?"
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "in the capital city",
+                "es": "en la ciudad capital"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "for each person",
+                "es": "por cada persona"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "in total, for everyone together",
+                "es": "en total, para todos juntos"
+              }
+            }
+          ],
+          "answer": "b",
+          "feedback": {
+            "a": {
+              "correct": false,
+              "why": {
+                "en": "“Capital” looks similar, but the math is the evidence: $150 each × 4 people = $600. Per capita = for each person.",
+                "es": "“Capital” se parece, pero la evidencia es la cuenta: $150 cada uno × 4 personas = $600. Per capita = por cada persona."
+              },
+              "hint": {
+                "en": "Why would a family of four equal $600?",
+                "es": "¿Por qué una familia de cuatro equivale a $600?"
+              }
+            },
+            "b": {
+              "correct": true,
+              "why": {
+                "en": "Right. Per capita = “by heads” — for each person (capita ≈ cabeza). $150 per person × 4 people = $600. Spanish also says “per cápita.”",
+                "es": "Correcto. Per capita = “por cabezas”: por cada persona (capita ≈ cabeza). $150 por persona × 4 personas = $600. En español también se dice “per cápita”."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "If $150 were the total, a family of four could not account for $600. It is $150 for EACH person.",
+                "es": "Si $150 fuera el total, una familia de cuatro no podría sumar $600. Son $150 por CADA persona."
+              },
+              "hint": {
+                "en": "Do the math in the sentence.",
+                "es": "Haz la cuenta de la oración."
+              }
+            }
+          }
+        },
+        {
+          "id": "l2",
+          "targetWord": "status quo",
+          "context": {
+            "en": "Some council members wanted to change the bus routes, but others voted to keep the status quo.",
+            "es": "Algunos miembros del concejo querían cambiar las rutas del autobús, pero otros votaron por mantener el status quo."
+          },
+          "prompt": {
+            "en": "What does “status quo” mean?",
+            "es": "¿Qué significa “status quo”?"
+          },
+          "support": {
+            "high": {
+              "en": "status ≈ estado. Status quo = el estado en que (están las cosas).",
+              "es": "status ≈ estado. Status quo = el estado en que (están las cosas)."
+            },
+            "medium": {
+              "en": "Change vs. ___?",
+              "es": "¿Cambio o ___?"
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "the way things are now",
+                "es": "la situación tal como está ahora"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "a new law",
+                "es": "una ley nueva"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "a high social rank",
+                "es": "un rango social alto"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. Status quo = the existing state of affairs (status ≈ estado). Some wanted change; others wanted no change. Formal Spanish: “statu quo.”",
+                "es": "Correcto. Status quo = la situación actual (status ≈ estado). Unos querían cambios; otros, ningún cambio. En español formal: “statu quo”."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "The sentence contrasts change with keeping the status quo — so it is what already exists, not something new.",
+                "es": "La oración contrasta el cambio con mantener el status quo; es lo que ya existe, no algo nuevo."
+              },
+              "hint": {
+                "en": "Find the contrast word “but.”",
+                "es": "Busca la palabra de contraste “but” (pero)."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "In English “status” can mean rank, but in this phrase it means state. They voted to keep things as they are.",
+                "es": "En inglés “status” puede significar rango, pero en esta frase significa estado. Votaron por dejar las cosas como están."
+              },
+              "hint": {
+                "en": "What did the other members want to keep?",
+                "es": "¿Qué querían mantener los otros miembros?"
+              }
+            }
+          }
+        },
+        {
+          "id": "l3",
+          "targetWord": "ad hoc",
+          "context": {
+            "en": "When the flood closed the school, the principal formed an ad hoc committee that met only until the building reopened.",
+            "es": "Cuando la inundación cerró la escuela, la directora formó un comité ad hoc que se reunió solo hasta que reabrió el edificio."
+          },
+          "prompt": {
+            "en": "What does “ad hoc” mean?",
+            "es": "¿Qué significa “ad hoc”?"
+          },
+          "support": {
+            "high": {
+              "en": "Latin: ad = for / para; hoc = this / esto.",
+              "es": "Latín: ad = for / para; hoc = this / esto."
+            },
+            "medium": {
+              "en": "“Met only until…” is the evidence.",
+              "es": "“Se reunió solo hasta que…” es la evidencia."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "permanent and official",
+                "es": "permanente y oficial"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "made up of experts only",
+                "es": "formado solo por expertos"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "created for one specific purpose",
+                "es": "creado para un propósito específico"
+              }
+            }
+          ],
+          "answer": "c",
+          "feedback": {
+            "a": {
+              "correct": false,
+              "why": {
+                "en": "The committee met ONLY until the building reopened, so it was not permanent.",
+                "es": "El comité se reunió SOLO hasta que reabrió el edificio, así que no era permanente."
+              },
+              "hint": {
+                "en": "How long did the committee last?",
+                "es": "¿Cuánto tiempo duró el comité?"
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "The sentence says nothing about experts. Ad hoc = for this one purpose.",
+                "es": "La oración no dice nada de expertos. Ad hoc = para este propósito."
+              },
+              "hint": {
+                "en": "Why was the committee formed?",
+                "es": "¿Por qué se formó el comité?"
+              }
+            },
+            "c": {
+              "correct": true,
+              "why": {
+                "en": "Right. Ad hoc = “for this” — formed for one purpose and then ended. The committee met only until the building reopened. Spanish uses “ad hoc” too.",
+                "es": "Correcto. Ad hoc = “para esto”: formado para un solo propósito y luego terminado. El comité se reunió solo hasta que reabrió el edificio. En español también se usa “ad hoc”."
+              }
+            }
+          }
+        },
+        {
+          "id": "l4",
+          "targetWord": "de facto",
+          "context": {
+            "en": "Although she had no official title, Marisol became the de facto leader of the project because everyone followed her plan.",
+            "es": "Aunque no tenía un cargo oficial, Marisol se convirtió en la líder de facto del proyecto porque todos seguían su plan."
+          },
+          "prompt": {
+            "en": "What does “de facto” mean?",
+            "es": "¿Qué significa “de facto”?"
+          },
+          "support": {
+            "high": {
+              "en": "de facto ≈ de hecho. Its opposite is “de jure” — by law.",
+              "es": "de facto ≈ de hecho. Su opuesto es “de jure”: por ley."
+            },
+            "medium": {
+              "en": "Official title: no. Leader in real life: ?",
+              "es": "¿Cargo oficial? No. ¿Líder en la realidad? ?"
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "in practice, even if not official",
+                "es": "en la práctica, aunque no sea oficial"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "chosen by a vote",
+                "es": "elegido por votación"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "according to the facts in a report",
+                "es": "según los datos de un informe"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. De facto = in fact, in practice (factum ≈ hecho; Spanish “de hecho”). She had no title, yet everyone followed her.",
+                "es": "Correcto. De facto = de hecho, en la práctica (factum ≈ hecho). No tenía cargo, pero todos la seguían."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "The sentence says she had no official title — nobody voted. She led in practice: de facto.",
+                "es": "La oración dice que no tenía cargo oficial; nadie votó. Dirigía en la práctica: de facto."
+              },
+              "hint": {
+                "en": "Did she have an official title?",
+                "es": "¿Tenía un cargo oficial?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "“Facto” looks like “facts,” but the phrase means “in practice.” Nothing here is about a report.",
+                "es": "“Facto” se parece a “facts”, pero la frase significa “en la práctica”. Aquí no se habla de ningún informe."
+              },
+              "hint": {
+                "en": "Contrast “no official title” with what really happened.",
+                "es": "Contrasta “sin cargo oficial” con lo que pasó en realidad."
+              }
+            }
+          }
+        },
+        {
+          "id": "l5",
+          "targetWord": "vice versa",
+          "context": {
+            "en": "Students can ask tutors for feedback, and vice versa — tutors can ask students for feedback, too.",
+            "es": "Los estudiantes pueden pedirles comentarios a los tutores, y vice versa: los tutores también pueden pedírselos a los estudiantes."
+          },
+          "prompt": {
+            "en": "What does “vice versa” mean?",
+            "es": "¿Qué significa “vice versa”?"
+          },
+          "support": {
+            "high": {
+              "en": "Spanish “viceversa” — same meaning.",
+              "es": "“Viceversa” en español: mismo significado."
+            },
+            "medium": {
+              "en": "Compare the roles before and after the dash.",
+              "es": "Compara los papeles antes y después de la raya."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "only on weekends",
+                "es": "solo los fines de semana"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "the other way around",
+                "es": "al revés; a la inversa"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "with a teacher's permission",
+                "es": "con permiso del maestro"
+              }
+            }
+          ],
+          "answer": "b",
+          "feedback": {
+            "a": {
+              "correct": false,
+              "why": {
+                "en": "No time is mentioned. The dash explains it: the same thing happens in the opposite direction.",
+                "es": "No se menciona el tiempo. La raya lo explica: lo mismo pasa en la dirección contraria."
+              },
+              "hint": {
+                "en": "Read the part after the dash.",
+                "es": "Lee la parte después de la raya."
+              }
+            },
+            "b": {
+              "correct": true,
+              "why": {
+                "en": "Right. Vice versa = the other way around (vice ≈ vez). Students help tutors, and tutors help students. Spanish: “viceversa.”",
+                "es": "Correcto. Vice versa = al revés (vice ≈ vez). Los estudiantes ayudan a los tutores y los tutores a los estudiantes. En español: “viceversa”."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "Permission is not mentioned. The sentence after the dash reverses the roles: the other way around.",
+                "es": "No se menciona ningún permiso. La parte después de la raya invierte los papeles: al revés."
+              },
+              "hint": {
+                "en": "Who gives feedback to whom after the dash?",
+                "es": "¿Quién le da comentarios a quién después de la raya?"
+              }
+            }
+          }
+        },
+        {
+          "id": "l6",
+          "targetWord": "bona fide",
+          "context": {
+            "en": "Experts confirmed that the letter was a bona fide document from 1836, not a later copy.",
+            "es": "Los expertos confirmaron que la carta era un documento bona fide de 1836, no una copia posterior."
+          },
+          "prompt": {
+            "en": "What does “bona fide” mean?",
+            "es": "¿Qué significa “bona fide”?"
+          },
+          "support": {
+            "high": {
+              "en": "bona ≈ buena; fide ≈ fe → “de buena fe.”",
+              "es": "bona ≈ buena; fide ≈ fe → “de buena fe”."
+            },
+            "medium": {
+              "en": "“Not a later copy” is the clue.",
+              "es": "“No una copia posterior” es la pista."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "very old and fragile",
+                "es": "muy viejo y frágil"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "beautifully decorated",
+                "es": "decorado con mucha belleza"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "genuine; real",
+                "es": "genuino; auténtico"
+              }
+            }
+          ],
+          "answer": "c",
+          "feedback": {
+            "a": {
+              "correct": false,
+              "why": {
+                "en": "A letter from 1836 is old, but the contrast is “not a copy” — so bona fide means real.",
+                "es": "Una carta de 1836 es vieja, pero el contraste es “not a copy” (no una copia); bona fide significa auténtica."
+              },
+              "hint": {
+                "en": "What is the opposite of “a copy”?",
+                "es": "¿Qué es lo contrario de “una copia”?"
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "Decoration is not mentioned. The evidence is “not a copy”: bona fide = genuine.",
+                "es": "No se menciona ninguna decoración. La evidencia es “not a copy”: bona fide = auténtica."
+              },
+              "hint": {
+                "en": "What did the museum confirm?",
+                "es": "¿Qué confirmó el museo?"
+              }
+            },
+            "c": {
+              "correct": true,
+              "why": {
+                "en": "Right. Bona fide = “in good faith” (bona ≈ buena, fide ≈ fe): genuine. The museum confirmed it was real, not a copy.",
+                "es": "Correcto. Bona fide = “de buena fe” (bona ≈ buena, fide ≈ fe): genuino. El museo confirmó que era auténtica, no una copia."
+              }
+            }
+          }
+        }
+      ],
+      "ace": {
+        "articulate": true,
+        "connect": true,
+        "extend": true
+      },
+      "clear": {
+        "enabled": true,
+        "emphasis": [
+          "claim",
+          "evidence",
+          "alternatives"
+        ]
+      },
+      "udl": [
+        "representation.language-support",
+        "representation.context",
+        "action-expression.multiple-response-modes",
+        "engagement.relevance"
+      ],
+      "strategies": [
+        "vocabulary-programs",
+        "corrective-feedback",
+        "context-clues"
+      ],
+      "standards": {
+        "elps": [
+          {
+            "code": "§120.21(d)(3)(C)",
+            "alignment": "supporting",
+            "grades": [
+              9,
+              10,
+              11,
+              12
+            ],
+            "rationale": "Students use context and Latin roots shared with Spanish to comprehend academic phrases in text."
+          }
+        ],
+        "teks": [
+          {
+            "code": "§110.36(c)(2)(C)",
+            "alignment": "direct",
+            "grades": [
+              9
+            ],
+            "rationale": "Students determine the meaning of Latin phrases used frequently in English, including bona fide."
+          },
+          {
+            "code": "§110.37(c)(2)(C)",
+            "alignment": "direct",
+            "grades": [
+              10
+            ],
+            "rationale": "Students determine the meaning of Latin phrases used frequently in English, including status quo."
+          }
+        ],
+        "slar": []
+      },
+      "printables": [
+        "cog-latin-9-12-020-student",
+        "cog-latin-9-12-020-answer-key"
+      ],
+      "created": "2026-10-29",
+      "updated": "2026-10-29",
+      "status": "reviewed"
+    },
+    {
+      "id": "cog-academic-9-12-021",
+      "module": "cognate-detective",
+      "title": {
+        "en": "Cognate Patterns in Science and Social Studies",
+        "es": "Patrones de cognados en ciencias y estudios sociales"
+      },
+      "grades": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "gradeBand": "9-12",
+      "subjects": [
+        "science",
+        "social-studies"
+      ],
+      "duration": 12,
+      "interactionType": "context-choice",
+      "targetLanguage": "en",
+      "supportedHomeLanguages": [
+        "es"
+      ],
+      "languagePair": "en-es",
+      "studentGoal": {
+        "en": "Use spelling patterns that connect English and Spanish (-ty/-dad, ph/f, -ize/-izar, -ous/-oso, y/i, -ive/-ivo) to unlock academic words in science and social studies.",
+        "es": "Usa patrones de ortografía que conectan el inglés y el español (-ty/-dad, ph/f, -ize/-izar, -ous/-oso, y/i, -ive/-ivo) para descifrar palabras académicas de ciencias y estudios sociales."
+      },
+      "studentDirections": {
+        "en": "Read each content sentence. Use the spelling pattern to find the Spanish cognate of the underlined word, then check that its meaning fits the sentence. Choose, then select Check.",
+        "es": "Lee cada oración de contenido. Usa el patrón de ortografía para encontrar el cognado en español de la palabra subrayada y luego comprueba que su significado encaja en la oración. Elige y luego selecciona Revisar."
+      },
+      "teacherDirections": {
+        "en": "High-school content texts are full of cognates hidden by predictable spelling changes. Teach the six patterns first (density/densidad, photosynthesis/fotosíntesis, colonize/colonizar, porous/poroso, hypothesis/hipótesis, legislative/legislativo). Every distractor is a real Spanish look-alike that fails either the pattern or the sentence, so students must check both. Extend: students skim a page of their textbook and log five more pattern cognates.",
+        "es": "Los textos de contenido de preparatoria están llenos de cognados escondidos por cambios de ortografía predecibles. Enseña primero los seis patrones (density/densidad, photosynthesis/fotosíntesis, colonize/colonizar, porous/poroso, hypothesis/hipótesis, legislative/legislativo). Cada distractor es una palabra real en español que se parece pero falla en el patrón o en la oración, así que deben comprobar las dos cosas. Extensión: que hojeen una página de su libro de texto y anoten cinco cognados más con estos patrones."
+      },
+      "languageFunction": {
+        "en": "Comprehending content-area vocabulary in text through cross-language spelling patterns and context.",
+        "es": "Comprender vocabulario de contenido en textos mediante patrones de ortografía entre idiomas y el contexto."
+      },
+      "materials": [],
+      "items": [
+        {
+          "id": "a1",
+          "targetWord": "density",
+          "context": {
+            "en": "Ice floats on water because its density is lower than the density of liquid water.",
+            "es": "El hielo flota en el agua porque su density es menor que la density del agua líquida."
+          },
+          "prompt": {
+            "en": "Which Spanish cognate and meaning fit “density”?",
+            "es": "¿Qué cognado en español y qué significado corresponden a “density”?"
+          },
+          "support": {
+            "high": {
+              "en": "Pattern: English -ty = Spanish -dad (city/ciudad).",
+              "es": "Patrón: -ty en inglés = -dad en español (city/ciudad)."
+            },
+            "medium": {
+              "en": "Why does ice float?",
+              "es": "¿Por qué flota el hielo?"
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "densidad — how much mass is packed into a space",
+                "es": "densidad: cuánta masa hay en un espacio"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "destino — a destination",
+                "es": "destino: el lugar adonde se va"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "dentista — a dentist",
+                "es": "dentista: médico de los dientes"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. -ty → -dad: density = densidad. Ice is less dense, so it floats. Same pattern: city/ciudad, society/sociedad.",
+                "es": "Correcto. -ty → -dad: density = densidad. El hielo es menos denso, por eso flota. Mismo patrón: city/ciudad, society/sociedad."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "“Destino” starts with “de-” too, but -ty → -dad gives densidad. A destination can't explain why ice floats.",
+                "es": "“Destino” también empieza con “de-”, pero -ty → -dad da densidad. Un destino no explica por qué flota el hielo."
+              },
+              "hint": {
+                "en": "Apply the spelling pattern -ty → -dad. Which Spanish word do you get?",
+                "es": "Aplica el patrón de ortografía -ty → -dad. ¿Qué palabra en español obtienes?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "A dentist has nothing to do with floating ice. Apply -ty → -dad: densidad.",
+                "es": "Un dentista no tiene nada que ver con el hielo que flota. Aplica -ty → -dad: densidad."
+              },
+              "hint": {
+                "en": "Apply the spelling pattern -ty → -dad. Which Spanish word do you get?",
+                "es": "Aplica el patrón de ortografía -ty → -dad. ¿Qué palabra en español obtienes?"
+              }
+            }
+          }
+        },
+        {
+          "id": "a2",
+          "targetWord": "photosynthesis",
+          "context": {
+            "en": "During photosynthesis, leaves use sunlight, water, and carbon dioxide to make sugar and release oxygen.",
+            "es": "Durante la photosynthesis, las hojas usan la luz del sol, el agua y el dióxido de carbono para producir azúcar y liberan oxígeno."
+          },
+          "prompt": {
+            "en": "Which Spanish cognate and meaning fit “photosynthesis”?",
+            "es": "¿Qué cognado en español y qué significado corresponden a “photosynthesis”?"
+          },
+          "support": {
+            "high": {
+              "en": "Pattern: English ph = Spanish f (phone/fono, physics/física).",
+              "es": "Patrón: ph en inglés = f en español (phone/fono, physics/física)."
+            },
+            "medium": {
+              "en": "What do the leaves make?",
+              "es": "¿Qué producen las hojas?"
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "fotografía — taking pictures with light",
+                "es": "fotografía: tomar imágenes con luz"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "fotosíntesis — making food from light, water, and carbon dioxide",
+                "es": "fotosíntesis: producir alimento con luz, agua y dióxido de carbono"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "síntoma — a sign of illness",
+                "es": "síntoma: una señal de enfermedad"
+              }
+            }
+          ],
+          "answer": "b",
+          "feedback": {
+            "a": {
+              "correct": false,
+              "why": {
+                "en": "Fotografía shares “foto” (light), but the leaf is making sugar, not pictures. Read the whole word: foto-síntesis.",
+                "es": "Fotografía comparte “foto” (luz), pero la hoja produce azúcar, no imágenes. Lee la palabra completa: foto-síntesis."
+              },
+              "hint": {
+                "en": "Apply the spelling pattern ph → f. Which Spanish word do you get?",
+                "es": "Aplica el patrón de ortografía ph → f. ¿Qué palabra en español obtienes?"
+              }
+            },
+            "b": {
+              "correct": true,
+              "why": {
+                "en": "Right. ph → f: photosynthesis = fotosíntesis — photo (light) + synthesis (putting together). Plants put light, water, and CO₂ together to make sugar.",
+                "es": "Correcto. ph → f: photosynthesis = fotosíntesis: foto (luz) + síntesis (unir). Las plantas unen luz, agua y CO₂ para producir azúcar."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "“Síntoma” looks like the middle, but leaves don't get sick here. They use sunlight to make sugar: fotosíntesis.",
+                "es": "“Síntoma” se parece a la parte del medio, pero aquí las hojas no se enferman. Usan la luz del sol para producir azúcar: fotosíntesis."
+              },
+              "hint": {
+                "en": "Apply the spelling pattern ph → f. Which Spanish word do you get?",
+                "es": "Aplica el patrón de ortografía ph → f. ¿Qué palabra en español obtienes?"
+              }
+            }
+          }
+        },
+        {
+          "id": "a3",
+          "targetWord": "colonize",
+          "context": {
+            "en": "In the 1500s, Spain began to colonize large parts of the Americas, building towns and claiming land.",
+            "es": "En el siglo XVI, España empezó a colonize grandes partes de América, fundando pueblos y reclamando tierras."
+          },
+          "prompt": {
+            "en": "Which Spanish cognate and meaning fit “colonize”?",
+            "es": "¿Qué cognado en español y qué significado corresponden a “colonize”?"
+          },
+          "support": {
+            "high": {
+              "en": "Pattern: English -ize = Spanish -izar.",
+              "es": "Patrón: -ize en inglés = -izar en español."
+            },
+            "medium": {
+              "en": "“Building towns and claiming land” is the evidence.",
+              "es": "“Fundando pueblos y reclamando tierras” es la evidencia."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "colorear — to color",
+                "es": "colorear: dar color"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "colocar — to place something",
+                "es": "colocar: poner algo en un lugar"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "colonizar — to settle and take control of a territory",
+                "es": "colonizar: establecerse en un territorio y tomar control de él"
+              }
+            }
+          ],
+          "answer": "c",
+          "feedback": {
+            "a": {
+              "correct": false,
+              "why": {
+                "en": "“Colorear” starts with “col-,” but -ize → -izar gives colonizar. A country doesn't color a continent.",
+                "es": "“Colorear” empieza con “col-”, pero -ize → -izar da colonizar. Un país no colorea un continente."
+              },
+              "hint": {
+                "en": "Apply the spelling pattern -ize → -izar. Which Spanish word do you get?",
+                "es": "Aplica el patrón de ortografía -ize → -izar. ¿Qué palabra en español obtienes?"
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "“Colocar” looks close, but the pattern -ize → -izar gives colonizar, and the sentence is about taking control of land.",
+                "es": "“Colocar” se parece, pero el patrón -ize → -izar da colonizar, y la oración habla de tomar control de tierras."
+              },
+              "hint": {
+                "en": "Apply the spelling pattern -ize → -izar. Which Spanish word do you get?",
+                "es": "Aplica el patrón de ortografía -ize → -izar. ¿Qué palabra en español obtienes?"
+              }
+            },
+            "c": {
+              "correct": true,
+              "why": {
+                "en": "Right. -ize → -izar: colonize = colonizar — to settle land and rule it. Same pattern: organize/organizar, analyze/analizar.",
+                "es": "Correcto. -ize → -izar: colonize = colonizar: ocupar tierras y gobernarlas. Mismo patrón: organize/organizar, analyze/analizar."
+              }
+            }
+          }
+        },
+        {
+          "id": "a4",
+          "targetWord": "porous",
+          "context": {
+            "en": "Water drains quickly through porous soil such as sand, but it collects on top of clay.",
+            "es": "El agua se filtra rápido en un suelo porous como la arena, pero se acumula encima del barro."
+          },
+          "prompt": {
+            "en": "Which Spanish cognate and meaning fit “porous”?",
+            "es": "¿Qué cognado en español y qué significado corresponden a “porous”?"
+          },
+          "support": {
+            "high": {
+              "en": "Pattern: English -ous = Spanish -oso (famous/famoso).",
+              "es": "Patrón: -ous en inglés = -oso en español (famous/famoso)."
+            },
+            "medium": {
+              "en": "Why does water drain through sand?",
+              "es": "¿Por qué el agua se filtra en la arena?"
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "poroso — full of tiny holes that let water through",
+                "es": "poroso: lleno de agujeros diminutos que dejan pasar el agua"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "polvoso — dusty",
+                "es": "polvoso: lleno de polvo"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "pobre — poor",
+                "es": "pobre: con poco dinero"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. -ous → -oso: porous = poroso — full of pores. That is why water drains fast through sand. Same pattern: famous/famoso.",
+                "es": "Correcto. -ous → -oso: porous = poroso: lleno de poros. Por eso el agua se filtra rápido en la arena. Mismo patrón: famous/famoso."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "“Polvoso” also ends in -oso, but it starts with polv- (dust), not por-. The sentence is about water draining.",
+                "es": "“Polvoso” también termina en -oso, pero empieza con polv- (polvo), no por-. La oración habla del agua que se filtra."
+              },
+              "hint": {
+                "en": "Apply the spelling pattern -ous → -oso. Which Spanish word do you get?",
+                "es": "Aplica el patrón de ortografía -ous → -oso. ¿Qué palabra en español obtienes?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "“Pobre” describes money, not soil. Apply -ous → -oso: poroso.",
+                "es": "“Pobre” describe el dinero, no el suelo. Aplica -ous → -oso: poroso."
+              },
+              "hint": {
+                "en": "Apply the spelling pattern -ous → -oso. Which Spanish word do you get?",
+                "es": "Aplica el patrón de ortografía -ous → -oso. ¿Qué palabra en español obtienes?"
+              }
+            }
+          }
+        },
+        {
+          "id": "a5",
+          "targetWord": "hypothesis",
+          "context": {
+            "en": "Before the experiment, each lab group wrote a hypothesis about which fertilizer would make the plants grow tallest.",
+            "es": "Antes del experimento, cada grupo de laboratorio escribió una hypothesis sobre qué fertilizante haría crecer más las plantas."
+          },
+          "prompt": {
+            "en": "Which Spanish cognate and meaning fit “hypothesis”?",
+            "es": "¿Qué cognado en español y qué significado corresponden a “hypothesis”?"
+          },
+          "support": {
+            "high": {
+              "en": "Patterns: y → i, th → t (rhythm/ritmo, theory/teoría).",
+              "es": "Patrones: y → i, th → t (rhythm/ritmo, theory/teoría)."
+            },
+            "medium": {
+              "en": "What do scientists write BEFORE they test?",
+              "es": "¿Qué escriben los científicos ANTES de probar?"
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "hipnosis — a sleep-like state",
+                "es": "hipnosis: un estado parecido al sueño"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "hipótesis — a testable prediction or explanation",
+                "es": "hipótesis: una predicción o explicación que se puede comprobar"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "hipopótamo — a hippopotamus",
+                "es": "hipopótamo: un animal grande de África"
+              }
+            }
+          ],
+          "answer": "b",
+          "feedback": {
+            "a": {
+              "correct": false,
+              "why": {
+                "en": "“Hipnosis” shares hip-, but the -thesis ending maps to -tesis, and nobody is asleep in a lab group.",
+                "es": "“Hipnosis” comparte hip-, pero la terminación -thesis corresponde a -tesis, y nadie está dormido en el laboratorio."
+              },
+              "hint": {
+                "en": "Apply the spelling pattern y → i, th → t. Which Spanish word do you get?",
+                "es": "Aplica el patrón de ortografía y → i, th → t. ¿Qué palabra en español obtienes?"
+              }
+            },
+            "b": {
+              "correct": true,
+              "why": {
+                "en": "Right. y → i and th → t: hypothesis = hipótesis — a prediction you test. The groups wrote it before the experiment.",
+                "es": "Correcto. y → i y th → t: hypothesis = hipótesis: una predicción que se comprueba. Los grupos la escribieron antes del experimento."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "Same beginning, very different animal! Apply y → i, th → t: hipótesis — what groups write before testing.",
+                "es": "¡El mismo comienzo, pero un animal muy diferente! Aplica y → i, th → t: hipótesis, lo que escriben los grupos antes de probar."
+              },
+              "hint": {
+                "en": "Apply the spelling pattern y → i, th → t. Which Spanish word do you get?",
+                "es": "Aplica el patrón de ortografía y → i, th → t. ¿Qué palabra en español obtienes?"
+              }
+            }
+          }
+        },
+        {
+          "id": "a6",
+          "targetWord": "legislative",
+          "context": {
+            "en": "Under the U.S. Constitution, the legislative branch, Congress, writes and passes the nation's laws.",
+            "es": "Según la Constitución de EE. UU., el poder legislative, el Congreso, redacta y aprueba las leyes del país."
+          },
+          "prompt": {
+            "en": "Which Spanish cognate and meaning fit “legislative”?",
+            "es": "¿Qué cognado en español y qué significado corresponden a “legislative”?"
+          },
+          "support": {
+            "high": {
+              "en": "Pattern: English -ive = Spanish -ivo (active/activo).",
+              "es": "Patrón: -ive en inglés = -ivo en español (active/activo)."
+            },
+            "medium": {
+              "en": "What does Congress do in the sentence?",
+              "es": "¿Qué hace el Congreso en la oración?"
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "legible — easy to read",
+                "es": "legible: fácil de leer"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "legítimo — legitimate, lawful",
+                "es": "legítimo: conforme a la ley"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "legislativo — law-making",
+                "es": "legislativo: que hace las leyes"
+              }
+            }
+          ],
+          "answer": "c",
+          "feedback": {
+            "a": {
+              "correct": false,
+              "why": {
+                "en": "“Legible” shares leg-, but the sentence is about making laws, not reading handwriting. Apply -ive → -ivo.",
+                "es": "“Legible” comparte leg-, pero la oración habla de hacer leyes, no de leer letra. Aplica -ive → -ivo."
+              },
+              "hint": {
+                "en": "Apply the spelling pattern -ive → -ivo. Which Spanish word do you get?",
+                "es": "Aplica el patrón de ortografía -ive → -ivo. ¿Qué palabra en español obtienes?"
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "“Legítimo” relates to law, but it doesn't follow -ive → -ivo, and the branch WRITES laws: legislativo.",
+                "es": "“Legítimo” tiene que ver con la ley, pero no sigue -ive → -ivo, y el poder ESCRIBE las leyes: legislativo."
+              },
+              "hint": {
+                "en": "Apply the spelling pattern -ive → -ivo. Which Spanish word do you get?",
+                "es": "Aplica el patrón de ortografía -ive → -ivo. ¿Qué palabra en español obtienes?"
+              }
+            },
+            "c": {
+              "correct": true,
+              "why": {
+                "en": "Right. -ive → -ivo: legislative = legislativo — the branch that makes laws (Congress). Same pattern: active/activo.",
+                "es": "Correcto. -ive → -ivo: legislative = legislativo: el poder que hace las leyes (el Congreso). Mismo patrón: active/activo."
+              }
+            }
+          }
+        }
+      ],
+      "ace": {
+        "articulate": true,
+        "connect": true,
+        "extend": true
+      },
+      "clear": {
+        "enabled": false,
+        "emphasis": []
+      },
+      "udl": [
+        "representation.language-support",
+        "representation.vocabulary",
+        "action-expression.multiple-response-modes",
+        "engagement.relevance"
+      ],
+      "strategies": [
+        "vocabulary-programs",
+        "corrective-feedback",
+        "retrieval-practice"
+      ],
+      "standards": {
+        "elps": [
+          {
+            "code": "§120.21(d)(3)(C)",
+            "alignment": "direct",
+            "grades": [
+              9,
+              10,
+              11,
+              12
+            ],
+            "rationale": "Students use cognates and context to comprehend science and social studies vocabulary in text."
+          },
+          {
+            "code": "§120.21(d)(3)(B)",
+            "alignment": "supporting",
+            "grades": [
+              9,
+              10,
+              11,
+              12
+            ],
+            "rationale": "Students identify cognates by decoding predictable English–Spanish spelling and affix patterns."
+          }
+        ],
+        "teks": [
+          {
+            "code": "§110.36(c)(2)(B)",
+            "alignment": "supporting",
+            "grades": [
+              9
+            ],
+            "rationale": "Students analyze the content sentence to confirm the denotative meaning of each academic term."
+          },
+          {
+            "code": "§110.37(c)(2)(B)",
+            "alignment": "supporting",
+            "grades": [
+              10
+            ],
+            "rationale": "Students analyze the content sentence to confirm the denotative meaning of each academic term."
+          }
+        ],
+        "slar": []
+      },
+      "printables": [
+        "cog-academic-9-12-021-student",
+        "cog-academic-9-12-021-answer-key"
+      ],
+      "created": "2026-10-29",
+      "updated": "2026-10-29",
+      "status": "reviewed"
+    },
+    {
+      "id": "cog-falsefriend-9-12-022",
+      "module": "cognate-detective",
+      "title": {
+        "en": "False Friends in Essays and History",
+        "es": "Falsos amigos en ensayos e historia"
+      },
+      "grades": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "gradeBand": "9-12",
+      "subjects": [
+        "elar",
+        "social-studies"
+      ],
+      "duration": 10,
+      "interactionType": "context-choice",
+      "targetLanguage": "en",
+      "supportedHomeLanguages": [
+        "es"
+      ],
+      "languagePair": "en-es",
+      "studentGoal": {
+        "en": "Catch false friends that change the meaning of essays, history texts, and school talk — argument, support, compromise, casualties, resume, and college.",
+        "es": "Atrapa falsos amigos que cambian el significado de ensayos, textos de historia y conversaciones escolares: argument, support, compromise, casualties, resume y college."
+      },
+      "studentDirections": {
+        "en": "Read each sentence. The underlined English word looks like a Spanish word, but the meaning is different. Use the sentence as evidence to choose what it means here. Choose, then select Check.",
+        "es": "Lee cada oración. La palabra en inglés subrayada se parece a una palabra en español, pero el significado es diferente. Usa la oración como evidencia para elegir lo que significa aquí. Elige y luego selecciona Revisar."
+      },
+      "teacherDirections": {
+        "en": "A second high-school false-friend set, separate from Academic False Friends II. These pairs cause errors in argumentative writing and U.S. history: argument ≠ argumento (usually “plot”), support ≠ soportar (“put up with”), compromise ≠ compromiso (“commitment”), casualties ≠ casualidad (“coincidence”), resume ≠ resumir (“summarize”), college ≠ colegio (a K–12 school). Model CLEAR: state the Spanish meaning as the tempting claim, then let the sentence decide. Extend: students write one sentence that uses each English word correctly.",
+        "es": "Un segundo grupo de falsos amigos para preparatoria, distinto de Falsos amigos académicos II. Estos pares causan errores en la escritura argumentativa y en historia de EE. UU.: argument ≠ argumento (por lo general, la trama), support ≠ soportar (aguantar), compromise ≠ compromiso (obligación), casualties ≠ casualidad (coincidencia), resume ≠ resumir, college ≠ colegio (escuela de primaria o secundaria). Modela CLEAR: presenta el significado en español como la afirmación tentadora y deja que la oración decida. Extensión: que escriban una oración con cada palabra en inglés usada correctamente."
+      },
+      "languageFunction": {
+        "en": "Determining word meaning from context; distinguishing false friends in academic and historical texts.",
+        "es": "Determinar el significado de palabras por el contexto; distinguir falsos amigos en textos académicos e históricos."
+      },
+      "materials": [],
+      "items": [
+        {
+          "id": "g1",
+          "targetWord": "argument",
+          "context": {
+            "en": "The essay's main argument is that high schools should start later, and the writer supports it with sleep research.",
+            "es": "El argument principal del ensayo es que las preparatorias deberían empezar más tarde, y el autor lo apoya con estudios sobre el sueño."
+          },
+          "prompt": {
+            "en": "What does “argument” mean here?",
+            "es": "¿Qué significa “argument” aquí?"
+          },
+          "support": {
+            "high": {
+              "en": "Careful: Spanish “argumento” often means “plot.” English “argument” in an essay = a claim with reasons.",
+              "es": "Cuidado: “argumento” en español a menudo significa “trama”. “Argument” en un ensayo = una postura con razones."
+            },
+            "medium": {
+              "en": "The writer “supports it with research.” What do you support with research?",
+              "es": "El autor “lo apoya con estudios”. ¿Qué se apoya con estudios?"
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "the plot of a story",
+                "es": "la trama de una historia"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "a claim supported by reasons",
+                "es": "una postura apoyada con razones"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "an angry fight",
+                "es": "una pelea con enojo"
+              }
+            }
+          ],
+          "answer": "b",
+          "feedback": {
+            "a": {
+              "correct": false,
+              "why": {
+                "en": "That's Spanish “argumento” (plot). An essay's argument is a claim — here, that schools should start later.",
+                "es": "Ese es el “argumento” del español (la trama). El argument de un ensayo es una postura; aquí, que las escuelas deberían empezar más tarde."
+              },
+              "hint": {
+                "en": "Is this an essay or a story?",
+                "es": "¿Es un ensayo o un cuento?"
+              }
+            },
+            "b": {
+              "correct": true,
+              "why": {
+                "en": "Right. In an essay, an “argument” is a claim backed by reasons and evidence. Spanish “argumento” usually means the plot of a book or movie.",
+                "es": "Correcto. En un ensayo, un “argument” es una postura respaldada con razones y evidencia. “Argumento” en español suele significar la trama de un libro o película."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "“Argument” can mean a fight in everyday English, but an essay's argument is a reasoned claim, supported by sleep research.",
+                "es": "En el inglés cotidiano “argument” puede ser una pelea, pero el argument de un ensayo es una postura razonada, apoyada con estudios sobre el sueño."
+              },
+              "hint": {
+                "en": "What supports the argument in the sentence?",
+                "es": "¿Qué apoya el argument en la oración?"
+              }
+            }
+          }
+        },
+        {
+          "id": "g2",
+          "targetWord": "support",
+          "context": {
+            "en": "Use at least two quotations from the text to support your claim.",
+            "es": "Usa al menos dos citas del texto para support tu postura."
+          },
+          "prompt": {
+            "en": "What does “support” mean here?",
+            "es": "¿Qué significa “support” aquí?"
+          },
+          "support": {
+            "high": {
+              "en": "Careful: Spanish “soportar” = to put up with. English “support” = apoyar.",
+              "es": "Cuidado: “soportar” = to put up with. “Support” en inglés = apoyar."
+            },
+            "medium": {
+              "en": "Quotations are evidence. What does evidence do for a claim?",
+              "es": "Las citas son evidencia. ¿Qué hace la evidencia por una postura?"
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "to back up with evidence",
+                "es": "respaldar con evidencia"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "to put up with; tolerate",
+                "es": "aguantar; tolerar"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "to hold up something heavy",
+                "es": "sostener algo pesado"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. To “support” a claim is to back it up with evidence. Spanish “apoyar,” not “soportar.”",
+                "es": "Correcto. “Support” una postura es respaldarla con evidencia. En español es “apoyar”, no “soportar”."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "That's Spanish “soportar” (to put up with). You don't “tolerate” your own claim; you back it up with quotations.",
+                "es": "Ese es el “soportar” del español (aguantar). No “aguantas” tu propia postura; la respaldas con citas."
+              },
+              "hint": {
+                "en": "What do the two quotations do for the claim?",
+                "es": "¿Qué hacen las dos citas por la postura?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "“Support” can mean hold up physically, but a claim isn't heavy. Here it means back up with evidence.",
+                "es": "“Support” puede significar sostener algo físicamente, pero una postura no pesa. Aquí significa respaldar con evidencia."
+              },
+              "hint": {
+                "en": "Is a claim an object?",
+                "es": "¿Una postura es un objeto?"
+              }
+            }
+          }
+        },
+        {
+          "id": "g3",
+          "targetWord": "compromise",
+          "context": {
+            "en": "Large and small states disagreed about representation, so the delegates reached a compromise in which each side gave up part of what it wanted.",
+            "es": "Los estados grandes y pequeños no estaban de acuerdo sobre la representación, así que los delegados llegaron a un compromise en el que cada lado cedió parte de lo que quería."
+          },
+          "prompt": {
+            "en": "What does “compromise” mean here?",
+            "es": "¿Qué significa “compromise” aquí?"
+          },
+          "support": {
+            "high": {
+              "en": "Careful: Spanish “compromiso” = commitment. English “compromise” = a deal where both sides give a little.",
+              "es": "Cuidado: “compromiso” = commitment. “Compromise” en inglés = un acuerdo en el que los dos lados ceden un poco."
+            },
+            "medium": {
+              "en": "“Each side gave up part” is the evidence.",
+              "es": "“Cada lado cedió parte” es la evidencia."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "a promise or obligation",
+                "es": "una promesa u obligación"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "a total victory for one side",
+                "es": "una victoria total de un lado"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "an agreement where each side gives up something",
+                "es": "un acuerdo en el que cada lado cede algo"
+              }
+            }
+          ],
+          "answer": "c",
+          "feedback": {
+            "a": {
+              "correct": false,
+              "why": {
+                "en": "That's Spanish “compromiso” (a commitment). The sentence says each side gave up part of what it wanted.",
+                "es": "Ese es el “compromiso” del español (una obligación). La oración dice que cada lado cedió parte de lo que quería."
+              },
+              "hint": {
+                "en": "What did each side do?",
+                "es": "¿Qué hizo cada lado?"
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "If each side gave something up, neither won completely.",
+                "es": "Si cada lado cedió algo, ninguno ganó por completo."
+              },
+              "hint": {
+                "en": "Did one side get everything?",
+                "es": "¿Un lado lo consiguió todo?"
+              }
+            },
+            "c": {
+              "correct": true,
+              "why": {
+                "en": "Right. A compromise is an agreement where both sides give up part of what they want (Spanish: “acuerdo,” “concesión”). The Great Compromise of 1787 is a famous example.",
+                "es": "Correcto. Un compromise es un acuerdo en el que los dos lados ceden parte de lo que quieren (en español: “acuerdo”, “concesión”). El Gran Compromiso de 1787 es un ejemplo famoso."
+              }
+            }
+          }
+        },
+        {
+          "id": "g4",
+          "targetWord": "casualties",
+          "context": {
+            "en": "The battle caused heavy casualties on both sides, and field hospitals were overwhelmed with the wounded.",
+            "es": "La batalla causó muchas casualties en los dos bandos, y los hospitales de campaña no se daban abasto con los heridos."
+          },
+          "prompt": {
+            "en": "What does “casualties” mean here?",
+            "es": "¿Qué significa “casualties” aquí?"
+          },
+          "support": {
+            "high": {
+              "en": "Careful: Spanish “casualidad” = coincidence. English “casualties” = bajas, víctimas.",
+              "es": "Cuidado: “casualidad” = coincidence. “Casualties” en inglés = bajas, víctimas."
+            },
+            "medium": {
+              "en": "“The wounded” is a clue.",
+              "es": "“The wounded” (los heridos) es una pista."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "coincidences; chance events",
+                "es": "casualidades; cosas que pasan por suerte"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "people killed or wounded",
+                "es": "personas muertas o heridas"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "soldiers in casual clothes",
+                "es": "soldados con ropa informal"
+              }
+            }
+          ],
+          "answer": "b",
+          "feedback": {
+            "a": {
+              "correct": false,
+              "why": {
+                "en": "That's Spanish “casualidad.” Field hospitals treat people, not coincidences.",
+                "es": "Esa es la “casualidad” del español. Los hospitales de campaña atienden a personas, no a coincidencias."
+              },
+              "hint": {
+                "en": "Who needed field hospitals?",
+                "es": "¿Quiénes necesitaban hospitales de campaña?"
+              }
+            },
+            "b": {
+              "correct": true,
+              "why": {
+                "en": "Right. In history texts, “casualties” are people killed or wounded in a war or disaster (Spanish: “bajas,” “víctimas”). Spanish “casualidad” means coincidence.",
+                "es": "Correcto. En los textos de historia, “casualties” son las personas muertas o heridas en una guerra o desastre (en español: “bajas”, “víctimas”). “Casualidad” significa coincidencia."
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "“Casual” looks similar, but casualties are people killed or wounded — that's why they needed hospitals.",
+                "es": "“Casual” se parece, pero casualties son personas muertas o heridas; por eso necesitaban hospitales."
+              },
+              "hint": {
+                "en": "Why would they need field hospitals?",
+                "es": "¿Por qué necesitarían hospitales de campaña?"
+              }
+            }
+          }
+        },
+        {
+          "id": "g5",
+          "targetWord": "resume",
+          "context": {
+            "en": "After the fire drill, students will return to their seats and resume the test where they stopped.",
+            "es": "Después del simulacro de incendio, los estudiantes volverán a sus asientos y van a resume el examen donde lo dejaron."
+          },
+          "prompt": {
+            "en": "What does “resume” mean here?",
+            "es": "¿Qué significa “resume” aquí?"
+          },
+          "support": {
+            "high": {
+              "en": "Careful: Spanish “resumir” = to summarize. English “resume” = reanudar.",
+              "es": "Cuidado: “resumir” = to summarize. “Resume” en inglés = reanudar."
+            },
+            "medium": {
+              "en": "“Where they stopped” is the evidence.",
+              "es": "“Donde lo dejaron” es la evidencia."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "to continue after a pause",
+                "es": "continuar después de una pausa"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "to summarize",
+                "es": "resumir"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "to cancel",
+                "es": "cancelar"
+              }
+            }
+          ],
+          "answer": "a",
+          "feedback": {
+            "a": {
+              "correct": true,
+              "why": {
+                "en": "Right. To “resume” is to start again after a pause (Spanish: “reanudar”). Spanish “resumir” means to summarize.",
+                "es": "Correcto. “Resume” es volver a empezar después de una pausa (en español: “reanudar”). “Resumir” significa hacer un resumen."
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "That's Spanish “resumir.” After a fire drill, the class goes back to the test — it continues.",
+                "es": "Ese es el “resumir” del español. Después del simulacro, la clase vuelve al examen: continúa."
+              },
+              "hint": {
+                "en": "What happens to the test after the drill?",
+                "es": "¿Qué pasa con el examen después del simulacro?"
+              }
+            },
+            "c": {
+              "correct": false,
+              "why": {
+                "en": "Students will finish the test, not cancel it. They pick up where they stopped.",
+                "es": "Los estudiantes van a terminar el examen, no a cancelarlo. Siguen donde se quedaron."
+              },
+              "hint": {
+                "en": "Will they finish the test?",
+                "es": "¿Van a terminar el examen?"
+              }
+            }
+          }
+        },
+        {
+          "id": "g6",
+          "targetWord": "college",
+          "context": {
+            "en": "After she graduates from high school, she plans to apply to college to study nursing.",
+            "es": "Después de graduarse de la preparatoria, ella piensa solicitar admisión a un college para estudiar enfermería."
+          },
+          "prompt": {
+            "en": "What does “college” mean here?",
+            "es": "¿Qué significa “college” aquí?"
+          },
+          "support": {
+            "high": {
+              "en": "Careful: Spanish “colegio” = a K–12 school. English “college” = universidad, educación superior.",
+              "es": "Cuidado: “colegio” = a K–12 school. “College” en inglés = universidad, educación superior."
+            },
+            "medium": {
+              "en": "“After she graduates from high school” is the clue.",
+              "es": "“Después de graduarse de la preparatoria” es la pista."
+            }
+          },
+          "choices": [
+            {
+              "id": "a",
+              "label": {
+                "en": "a private elementary or middle school",
+                "es": "una escuela privada de primaria o secundaria"
+              }
+            },
+            {
+              "id": "b",
+              "label": {
+                "en": "a group of classmates",
+                "es": "un grupo de compañeros"
+              }
+            },
+            {
+              "id": "c",
+              "label": {
+                "en": "a school you attend after high school",
+                "es": "una escuela a la que vas después de la preparatoria"
+              }
+            }
+          ],
+          "answer": "c",
+          "feedback": {
+            "a": {
+              "correct": false,
+              "why": {
+                "en": "That's the usual meaning of Spanish “colegio.” She is applying after graduating from high school.",
+                "es": "Ese es el significado habitual de “colegio”. Ella va a solicitar admisión después de graduarse de la preparatoria."
+              },
+              "hint": {
+                "en": "When will she apply?",
+                "es": "¿Cuándo va a solicitar admisión?"
+              }
+            },
+            "b": {
+              "correct": false,
+              "why": {
+                "en": "“Colleague” (colega) means a co-worker. College is a place to study after high school.",
+                "es": "“Colleague” (colega) es un compañero de trabajo. College es un lugar para estudiar después de la preparatoria."
+              },
+              "hint": {
+                "en": "What will she study there?",
+                "es": "¿Qué va a estudiar allí?"
+              }
+            },
+            "c": {
+              "correct": true,
+              "why": {
+                "en": "Right. In the U.S., “college” is education after high school, like a university or community college. Spanish “colegio” is usually a K–12 school.",
+                "es": "Correcto. En EE. UU., “college” es la educación después de la preparatoria, como una universidad o un colegio comunitario. “Colegio” en español suele ser una escuela de primaria o secundaria."
+              }
+            }
+          }
+        }
+      ],
+      "ace": {
+        "articulate": true,
+        "connect": true,
+        "extend": true
+      },
+      "clear": {
+        "enabled": true,
+        "emphasis": [
+          "claim",
+          "evidence",
+          "alternatives"
+        ]
+      },
+      "udl": [
+        "representation.language-support",
+        "representation.context",
+        "action-expression.multiple-response-modes",
+        "engagement.relevance"
+      ],
+      "strategies": [
+        "vocabulary-programs",
+        "corrective-feedback",
+        "retrieval-practice"
+      ],
+      "standards": {
+        "elps": [
+          {
+            "code": "§120.21(d)(3)(C)",
+            "alignment": "direct",
+            "grades": [
+              9,
+              10,
+              11,
+              12
+            ],
+            "rationale": "Students use context and cognate awareness to determine the meaning of academic and historical words."
+          },
+          {
+            "code": "§120.21(d)(3)(B)",
+            "alignment": "supporting",
+            "grades": [
+              9,
+              10,
+              11,
+              12
+            ],
+            "rationale": "Students identify Spanish look-alikes and judge whether they are true cognates."
+          }
+        ],
+        "teks": [
+          {
+            "code": "§110.36(c)(2)(B)",
+            "alignment": "supporting",
+            "grades": [
+              9
+            ],
+            "rationale": "Students analyze context to pin down the correct denotative meaning of a confusable word."
+          },
+          {
+            "code": "§110.37(c)(2)(B)",
+            "alignment": "supporting",
+            "grades": [
+              10
+            ],
+            "rationale": "Students analyze context to distinguish the intended meaning of a confusable word."
+          }
+        ],
+        "slar": []
+      },
+      "printables": [
+        "cog-falsefriend-9-12-022-student",
+        "cog-falsefriend-9-12-022-answer-key"
+      ],
+      "created": "2026-10-29",
+      "updated": "2026-10-29",
+      "status": "reviewed"
     }
   ]
 }

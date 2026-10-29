@@ -34,13 +34,18 @@
     /* Build the teacher standards drawer for one activity. */
     renderDrawer: function (activity) {
       var s = activity.standards || {};
+      var self = this;
+      // ESL course standards (ELDA, Ch. 128 Subchapter C) get their own heading
+      // wherever an activity lists them — they are neither ELAR TEKS nor SLAR.
+      var all = [].concat(s.teks || [], s.slar || []);
+      var isEsl = function (corr) { var std = self.get(corr.code); return !!(std && std.subject === "esl"); };
       var groups = [
         ["std.elps", s.elps],
-        ["std.teks", s.teks],
-        ["std.slar", s.slar]
+        ["std.teks", (s.teks || []).filter(function (c) { return !isEsl(c); })],
+        ["std.slar", (s.slar || []).filter(function (c) { return !isEsl(c); })],
+        ["std.esl", all.filter(isEsl)]
       ];
       var body = "";
-      var self = this;
 
       groups.forEach(function (g) {
         var label = I18n.t(g[0]);
@@ -52,7 +57,7 @@
           var std = self.get(corr.code) || {};
           var align = I18n.t(corr.alignment === "direct" ? "std.direct" : "std.supporting");
           var unverified = ("verified" in std && !std.verified)
-            ? ' <span class="tstatus" title="Paraphrase not yet confirmed against source">· source check pending</span>'
+            ? ' <span class="tstatus">· ' + esc(I18n.t("std.pending")) + '</span>'
             : '';
           body +=
             '<div class="panel accent" style="margin:.5rem 0">' +

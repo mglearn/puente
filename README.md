@@ -5,11 +5,13 @@
 A free, privacy-first, static activity center for Texas K–12 bilingual/ESL educators
 and emergent bilingual students — usable by any multilingual classroom.
 
-Planned home: `mglearn.github.io/puente/`
+Home: <https://mglearn.github.io/puente/>
 
-> **Status: proof-of-concept built.** The §118 vertical slice is working end to end —
-> one content record drives the student interactive, the teacher view, the ELPS/TEKS
-> drawer, the ACE/CLEAR metadata, and the printable. The full blueprint lives in
+> **Status: MVP content complete (2026-10-29).** Live at <https://mglearn.github.io/puente/>:
+> 3 modules, 86 activities across K–12, every one driving the student interactive, teacher view,
+> ELPS/TEKS drawer, ACE/CLEAR metadata, and printable from a single record. Remaining before an
+> announcement: human Spanish/Arabic review and a real screen-reader walkthrough — see
+> [`docs/ROADMAP.md`](docs/ROADMAP.md). The full blueprint lives in
 > [`docs/BUILD_SPEC.md`](docs/BUILD_SPEC.md); read it before adding modules or activities.
 
 ## Run it
@@ -43,8 +45,9 @@ Nothing about the activity is hard-coded in a page — that is the architecture 
 
 > **Standards note:** ELPS/TEKS summaries are plain-language paraphrases for teacher
 > display. Any correlation with `verified: null` shows a **“source check pending”** badge
-> and must be confirmed against 19 TAC Ch. 120 / Ch. 110 before public launch. Spanish
-> Chapter 128 (SLAR) codes are intentionally left empty — not guessed.
+> and must be confirmed against 19 TAC Ch. 120 / Ch. 110 before public launch. All 63
+> stored codes are currently two-source verified. Chapter 128 codes (SLAR grades 5–6 and one
+> ELDA course standard) are attached only where verified — never guessed.
 
 ## Purpose
 

@@ -4,7 +4,8 @@
     "provenance": "Generator identified from C2PA Content Credentials embedded in the PNG originals (claim_generator_info: 'OpenAI Media Service API'; each carries a c2pa.created + c2pa.watermarked assertion). NOTE: the WebP conversion (cwebp) dropped the C2PA manifest; the original PNGs in ~/projects/assets/img/ retain it.",
     "rightsNote": "Artwork is treated as CONTENT and licensed to match the rest of the mglearn site: © 2026 TCEA, CC BY-NC 4.0 (https://creativecommons.org/licenses/by-nc/4.0/). The illustrations were generated with OpenAI (identified via the embedded C2PA Content Credentials) and curated/refined under human editorial review for this project; commercial use needs separate written permission from TCEA. Full details: /about/licensing.html.",
     "renderGate": "available",
-    "base": "assets/img/"
+    "base": "assets/img/",
+    "quizAltNote": "quizAlt: alt text used when the image IS the question (picture-match), so a screen reader does not announce the answer. alt is used everywhere else (answer keys, support images)."
   },
   "assets": {
     "cognate-detective-hero": {
@@ -135,7 +136,11 @@
       "tool": "OpenAI built-in image generation",
       "created": "2026-09-18",
       "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote.",
-      "source": "Prompt and PNG master not retained (they were recorded in ~/projects/assets/img/generation-notes.md, since removed)."
+      "source": "Prompt and PNG master not retained (they were recorded in ~/projects/assets/img/generation-notes.md, since removed).",
+      "quizAlt": {
+        "en": "A very big grey animal with large ears and a long trunk.",
+        "es": "Un animal gris muy grande, con orejas grandes y una trompa larga."
+      }
     },
     "cognate-card-tiger": {
       "file": "cognate-card-tiger.webp",
@@ -145,7 +150,11 @@
       "tool": "OpenAI built-in image generation",
       "created": "2026-09-18",
       "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote.",
-      "source": "Prompt and PNG master not retained (they were recorded in ~/projects/assets/img/generation-notes.md, since removed)."
+      "source": "Prompt and PNG master not retained (they were recorded in ~/projects/assets/img/generation-notes.md, since removed).",
+      "quizAlt": {
+        "en": "A big orange wild cat with black stripes.",
+        "es": "Un gran felino salvaje, anaranjado con rayas negras."
+      }
     },
     "cognate-card-banana": {
       "file": "cognate-card-banana.webp",
@@ -155,7 +164,11 @@
       "tool": "OpenAI built-in image generation",
       "created": "2026-09-18",
       "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote.",
-      "source": "Prompt and PNG master not retained (they were recorded in ~/projects/assets/img/generation-notes.md, since removed)."
+      "source": "Prompt and PNG master not retained (they were recorded in ~/projects/assets/img/generation-notes.md, since removed).",
+      "quizAlt": {
+        "en": "A long, curved yellow fruit.",
+        "es": "Una fruta amarilla, larga y curva."
+      }
     },
     "cognate-card-dinosaur": {
       "file": "cognate-card-dinosaur.webp",
@@ -165,7 +178,11 @@
       "tool": "OpenAI built-in image generation",
       "created": "2026-09-18",
       "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote.",
-      "source": "Prompt and PNG master not retained (they were recorded in ~/projects/assets/img/generation-notes.md, since removed)."
+      "source": "Prompt and PNG master not retained (they were recorded in ~/projects/assets/img/generation-notes.md, since removed).",
+      "quizAlt": {
+        "en": "A huge green reptile from long ago with a very long neck.",
+        "es": "Un reptil verde enorme de hace mucho tiempo, con un cuello muy largo."
+      }
     },
     "cognate-card-piano": {
       "file": "cognate-card-piano.webp",
@@ -175,7 +192,11 @@
       "tool": "OpenAI built-in image generation",
       "created": "2026-09-18",
       "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote.",
-      "source": "Prompt and PNG master not retained (they were recorded in ~/projects/assets/img/generation-notes.md, since removed)."
+      "source": "Prompt and PNG master not retained (they were recorded in ~/projects/assets/img/generation-notes.md, since removed).",
+      "quizAlt": {
+        "en": "A musical instrument with black and white keys.",
+        "es": "Un instrumento musical con teclas blancas y negras."
+      }
     },
     "cognate-card-family": {
       "file": "cognate-card-family.webp",
@@ -185,17 +206,26 @@
       "tool": "OpenAI built-in image generation",
       "created": "2026-09-18",
       "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote.",
-      "source": "Prompt and PNG master not retained (they were recorded in ~/projects/assets/img/generation-notes.md, since removed)."
+      "source": "Prompt and PNG master not retained (they were recorded in ~/projects/assets/img/generation-notes.md, since removed).",
+      "quizAlt": {
+        "en": "Two adults and two children standing together.",
+        "es": "Dos adultos y dos niños de pie, juntos."
+      }
     },
     "cognate-card-animal": {
       "file": "cognate-card-animal.webp",
       "aspect": "1:1",
-      "alt": "A generic friendly animal (regenerated 2026-10-11; the earlier card read as a dog).",
+      "alt": "A generic friendly animal.",
       "status": "available",
       "tool": "OpenAI built-in image generation",
       "created": "2026-10-11",
       "source": "Prompt in ~/projects/archive/puente-artwork-prompts.md; PNG master not retained (cleaned after import).",
-      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote.",
+      "quizAlt": {
+        "en": "A friendly living creature with fur, four legs, and a tail.",
+        "es": "Un ser vivo amigable, con pelo, cuatro patas y cola."
+      },
+      "note": "Regenerated 2026-10-11; the earlier card read as a dog."
     },
     "cognate-card-chocolate": {
       "file": "cognate-card-chocolate.webp",
@@ -205,7 +235,11 @@
       "tool": "OpenAI built-in image generation",
       "created": "2026-09-18",
       "source": "Prompt and PNG master not retained (they were recorded in ~/projects/assets/img/generation-notes.md, since removed).",
-      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote.",
+      "quizAlt": {
+        "en": "A brown sweet bar divided into squares.",
+        "es": "Una barra dulce de color café, dividida en cuadritos."
+      }
     },
     "cognate-card-doctor": {
       "file": "cognate-card-doctor.webp",
@@ -215,7 +249,11 @@
       "tool": "OpenAI built-in image generation",
       "created": "2026-09-18",
       "source": "Prompt and PNG master not retained (they were recorded in ~/projects/assets/img/generation-notes.md, since removed).",
-      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote.",
+      "quizAlt": {
+        "en": "A person in a white coat with a stethoscope who helps sick people.",
+        "es": "Una persona con bata blanca y estetoscopio que ayuda a los enfermos."
+      }
     },
     "cognate-card-telephone": {
       "file": "cognate-card-telephone.webp",
@@ -225,7 +263,11 @@
       "tool": "OpenAI built-in image generation",
       "created": "2026-09-18",
       "source": "Prompt and PNG master not retained (they were recorded in ~/projects/assets/img/generation-notes.md, since removed).",
-      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote.",
+      "quizAlt": {
+        "en": "A blue device with a handset and buttons, used to call people.",
+        "es": "Un aparato azul con auricular y botones que se usa para llamar a otras personas."
+      }
     },
     "school-card-classroom": {
       "file": "school-card-classroom.webp",
@@ -235,7 +277,11 @@
       "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
       "created": "2026-10-11",
       "source": "Prompt in ~/projects/archive/puente-artwork-prompts.md (Section 2); PNG master not retained (cleaned after import).",
-      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote.",
+      "quizAlt": {
+        "en": "A room with student desks and a board.",
+        "es": "Un salón con pupitres y un pizarrón."
+      }
     },
     "school-card-cafeteria": {
       "file": "school-card-cafeteria.webp",
@@ -245,7 +291,11 @@
       "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
       "created": "2026-10-11",
       "source": "Prompt in ~/projects/archive/puente-artwork-prompts.md (Section 2); PNG master not retained (cleaned after import).",
-      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote.",
+      "quizAlt": {
+        "en": "A big room with long tables where students eat lunch.",
+        "es": "Un salón grande con mesas largas donde los estudiantes almuerzan."
+      }
     },
     "school-card-library": {
       "file": "school-card-library.webp",
@@ -255,7 +305,11 @@
       "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
       "created": "2026-10-11",
       "source": "Prompt in ~/projects/archive/puente-artwork-prompts.md (Section 2); PNG master not retained (cleaned after import).",
-      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote.",
+      "quizAlt": {
+        "en": "A quiet room with many shelves of books.",
+        "es": "Un salón tranquilo con muchos estantes de libros."
+      }
     },
     "school-card-nurse": {
       "file": "school-card-nurse.webp",
@@ -265,7 +319,11 @@
       "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
       "created": "2026-10-11",
       "source": "Prompt in ~/projects/archive/puente-artwork-prompts.md (Section 2); PNG master not retained (cleaned after import).",
-      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote.",
+      "quizAlt": {
+        "en": "A person who helps sick students, next to a small bed.",
+        "es": "Una persona que ayuda a los estudiantes enfermos, junto a una camilla."
+      }
     },
     "school-card-office": {
       "file": "school-card-office.webp",
@@ -275,7 +333,11 @@
       "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
       "created": "2026-10-11",
       "source": "Prompt in ~/projects/archive/puente-artwork-prompts.md (Section 2); PNG master not retained (cleaned after import).",
-      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote.",
+      "quizAlt": {
+        "en": "A front desk where adults help visitors and families.",
+        "es": "Un mostrador de entrada donde los adultos atienden a visitantes y familias."
+      }
     },
     "school-card-playground": {
       "file": "school-card-playground.webp",
@@ -285,7 +347,11 @@
       "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
       "created": "2026-10-11",
       "source": "Prompt in ~/projects/archive/puente-artwork-prompts.md (Section 2); PNG master not retained (cleaned after import).",
-      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote.",
+      "quizAlt": {
+        "en": "An outdoor place with a slide and swings.",
+        "es": "Un lugar al aire libre con resbaladilla y columpios."
+      }
     },
     "school-card-bus": {
       "file": "school-card-bus.webp",
@@ -295,7 +361,11 @@
       "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
       "created": "2026-10-11",
       "source": "Prompt in ~/projects/archive/puente-artwork-prompts.md (Section 2); PNG master not retained (cleaned after import).",
-      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote.",
+      "quizAlt": {
+        "en": "A long yellow vehicle that takes students to school.",
+        "es": "Un vehículo amarillo y largo que lleva a los estudiantes a la escuela."
+      }
     },
     "school-card-restroom": {
       "file": "school-card-restroom.webp",
@@ -305,7 +375,11 @@
       "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
       "created": "2026-10-11",
       "source": "Prompt in ~/projects/archive/puente-artwork-prompts.md (Section 2); PNG master not retained (cleaned after import).",
-      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote.",
+      "quizAlt": {
+        "en": "A door with the boy and girl symbols on it.",
+        "es": "Una puerta con los símbolos de niño y niña."
+      }
     },
     "school-card-gym": {
       "file": "school-card-gym.webp",
@@ -315,7 +389,11 @@
       "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
       "created": "2026-10-11",
       "source": "Prompt in ~/projects/archive/puente-artwork-prompts.md (Section 2); PNG master not retained (cleaned after import).",
-      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote.",
+      "quizAlt": {
+        "en": "A big indoor room with a basketball hoop.",
+        "es": "Un salón grande bajo techo con una canasta de básquetbol."
+      }
     },
     "school-card-teacher": {
       "file": "school-card-teacher.webp",
@@ -325,7 +403,11 @@
       "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
       "created": "2026-10-11",
       "source": "Prompt in ~/projects/archive/puente-artwork-prompts.md (Section 2); PNG master not retained (cleaned after import).",
-      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote.",
+      "quizAlt": {
+        "en": "An adult standing beside a whiteboard, ready to teach.",
+        "es": "Un adulto de pie junto a un pizarrón blanco, listo para enseñar."
+      }
     },
     "cognate-card-insect": {
       "file": "cognate-card-insect.webp",
@@ -335,7 +417,11 @@
       "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
       "created": "2026-10-11",
       "source": "Prompt in ~/projects/archive/puente-artwork-prompts.md; PNG master not retained (cleaned after import).",
-      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote.",
+      "quizAlt": {
+        "en": "A small red bug with black spots and six legs.",
+        "es": "Un bichito rojo con puntos negros y seis patas."
+      }
     },
     "cognate-card-robot": {
       "file": "cognate-card-robot.webp",
@@ -345,7 +431,11 @@
       "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
       "created": "2026-10-11",
       "source": "Prompt in ~/projects/archive/puente-artwork-prompts.md; PNG master not retained (cleaned after import).",
-      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote.",
+      "quizAlt": {
+        "en": "A boxy metal machine shaped like a person.",
+        "es": "Una máquina de metal, cuadrada, con forma de persona."
+      }
     },
     "cognate-card-cactus": {
       "file": "cognate-card-cactus.webp",
@@ -355,7 +445,11 @@
       "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
       "created": "2026-10-11",
       "source": "Prompt in ~/projects/archive/puente-artwork-prompts.md; PNG master not retained (cleaned after import).",
-      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote.",
+      "quizAlt": {
+        "en": "A green desert plant with spines, in a pot.",
+        "es": "Una planta verde del desierto con espinas, en una maceta."
+      }
     },
     "cognate-card-tractor": {
       "file": "cognate-card-tractor.webp",
@@ -365,7 +459,11 @@
       "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
       "created": "2026-10-11",
       "source": "Prompt in ~/projects/archive/puente-artwork-prompts.md; PNG master not retained (cleaned after import).",
-      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote.",
+      "quizAlt": {
+        "en": "A red farm vehicle with big back wheels.",
+        "es": "Un vehículo rojo de granja con ruedas traseras grandes."
+      }
     },
     "cognate-card-pizza": {
       "file": "cognate-card-pizza.webp",
@@ -375,7 +473,11 @@
       "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
       "created": "2026-10-11",
       "source": "Prompt in ~/projects/archive/puente-artwork-prompts.md; PNG master not retained (cleaned after import).",
-      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote.",
+      "quizAlt": {
+        "en": "A round, flat food with cheese and sauce, cut into slices.",
+        "es": "Una comida redonda y plana con queso y salsa, cortada en rebanadas."
+      }
     },
     "cognate-card-taxi": {
       "file": "cognate-card-taxi.webp",
@@ -385,7 +487,11 @@
       "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
       "created": "2026-10-11",
       "source": "Prompt in ~/projects/archive/puente-artwork-prompts.md; PNG master not retained (cleaned after import).",
-      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote.",
+      "quizAlt": {
+        "en": "A yellow car that you pay to ride in.",
+        "es": "Un carro amarillo en el que pagas para que te lleven."
+      }
     },
     "cognate-card-guitar": {
       "file": "cognate-card-guitar.webp",
@@ -395,7 +501,11 @@
       "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
       "created": "2026-10-11",
       "source": "Prompt in ~/projects/archive/puente-artwork-prompts.md; PNG master not retained (cleaned after import).",
-      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote.",
+      "quizAlt": {
+        "en": "A wooden instrument with six strings.",
+        "es": "Un instrumento de madera con seis cuerdas."
+      }
     },
     "cognate-card-tomato": {
       "file": "cognate-card-tomato.webp",
@@ -405,7 +515,11 @@
       "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
       "created": "2026-10-11",
       "source": "Prompt in ~/projects/archive/puente-artwork-prompts.md; PNG master not retained (cleaned after import).",
-      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote.",
+      "quizAlt": {
+        "en": "A round, red, juicy food from a garden.",
+        "es": "Una comida redonda, roja y jugosa que crece en el huerto."
+      }
     },
     "action-card-read": {
       "file": "action-card-read.webp",
@@ -415,7 +529,11 @@
       "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
       "created": "2026-10-11",
       "source": "Prompt in ~/projects/archive/puente-artwork-prompts.md; PNG master not retained (cleaned after import).",
-      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote.",
+      "quizAlt": {
+        "en": "A child looking at the pages of an open book.",
+        "es": "Un niño mirando las páginas de un libro abierto."
+      }
     },
     "action-card-write": {
       "file": "action-card-write.webp",
@@ -425,7 +543,11 @@
       "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
       "created": "2026-10-11",
       "source": "Prompt in ~/projects/archive/puente-artwork-prompts.md; PNG master not retained (cleaned after import).",
-      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote.",
+      "quizAlt": {
+        "en": "A child making letters on paper with a pencil.",
+        "es": "Un niño haciendo letras en un papel con un lápiz."
+      }
     },
     "action-card-listen": {
       "file": "action-card-listen.webp",
@@ -435,7 +557,11 @@
       "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
       "created": "2026-10-11",
       "source": "Prompt in ~/projects/archive/puente-artwork-prompts.md; PNG master not retained (cleaned after import).",
-      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote.",
+      "quizAlt": {
+        "en": "A child with a hand cupped behind one ear.",
+        "es": "Un niño con la mano detrás de la oreja."
+      }
     },
     "action-card-draw": {
       "file": "action-card-draw.webp",
@@ -445,7 +571,11 @@
       "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
       "created": "2026-10-11",
       "source": "Prompt in ~/projects/archive/puente-artwork-prompts.md; PNG master not retained (cleaned after import).",
-      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote.",
+      "quizAlt": {
+        "en": "A child making a picture with crayons.",
+        "es": "Un niño haciendo un dibujo con crayones."
+      }
     },
     "action-card-cut": {
       "file": "action-card-cut.webp",
@@ -455,7 +585,11 @@
       "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
       "created": "2026-10-11",
       "source": "Prompt in ~/projects/archive/puente-artwork-prompts.md; PNG master not retained (cleaned after import).",
-      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote.",
+      "quizAlt": {
+        "en": "A child using safety scissors on paper.",
+        "es": "Un niño usando tijeras de seguridad en un papel."
+      }
     },
     "action-card-glue": {
       "file": "action-card-glue.webp",
@@ -465,7 +599,11 @@
       "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
       "created": "2026-10-11",
       "source": "Prompt in ~/projects/archive/puente-artwork-prompts.md; PNG master not retained (cleaned after import).",
-      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote.",
+      "quizAlt": {
+        "en": "A child pressing a small sticky stick onto paper to make two pieces stay together.",
+        "es": "Un niño pasando una barrita sobre el papel para que dos pedazos se queden unidos."
+      }
     },
     "action-card-count": {
       "file": "action-card-count.webp",
@@ -475,7 +613,11 @@
       "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
       "created": "2026-10-11",
       "source": "Prompt in ~/projects/archive/puente-artwork-prompts.md; PNG master not retained (cleaned after import).",
-      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote.",
+      "quizAlt": {
+        "en": "A child holding up fingers one by one.",
+        "es": "Un niño levantando los dedos uno por uno."
+      }
     },
     "action-card-share": {
       "file": "action-card-share.webp",
@@ -485,7 +627,11 @@
       "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
       "created": "2026-10-11",
       "source": "Prompt in ~/projects/archive/puente-artwork-prompts.md; PNG master not retained (cleaned after import).",
-      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote.",
+      "quizAlt": {
+        "en": "Two children passing art supplies to each other.",
+        "es": "Dos niños pasándose materiales de arte."
+      }
     },
     "action-card-point": {
       "file": "action-card-point.webp",
@@ -495,7 +641,11 @@
       "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
       "created": "2026-10-11",
       "source": "Prompt in ~/projects/archive/puente-artwork-prompts.md; PNG master not retained (cleaned after import).",
-      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote.",
+      "quizAlt": {
+        "en": "A child with one finger stretched out toward a board.",
+        "es": "Un niño con un dedo estirado hacia un pizarrón."
+      }
     },
     "action-card-raise-hand": {
       "file": "action-card-raise-hand.webp",
@@ -505,7 +655,11 @@
       "tool": "OpenAI image generation (C2PA claim generator: OpenAI Media Service API)",
       "created": "2026-10-11",
       "source": "Prompt in ~/projects/archive/puente-artwork-prompts.md; PNG master not retained (cleaned after import).",
-      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote."
+      "rights": "© 2026 TCEA. CC BY-NC 4.0 (content). Generated with OpenAI (per C2PA) and refined under human editorial review. See _meta.rightsNote.",
+      "quizAlt": {
+        "en": "A seated child with one arm up high.",
+        "es": "Un niño sentado con un brazo levantado bien alto."
+      }
     },
     "newcomer-scenario-takeout-book": {
       "file": "newcomer-scenario-takeout-book.webp",
